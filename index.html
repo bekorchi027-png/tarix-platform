@@ -7,260 +7,221 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f8fafc;
-      color: #1e293b;
-      min-height: 100vh;
-    }
+    body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; min-height: 100vh; }
 
-    /* NAV */
     nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 24px;
-      background: white;
-      border-bottom: 1px solid #e2e8f0;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 24px; background: white; border-bottom: 1px solid #e2e8f0;
+      position: sticky; top: 0; z-index: 100;
     }
-    .nav-logo { font-weight: 700; font-size: 18px; color: #4F46E5; }
-    .nav-user {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 14px;
-      color: #64748b;
-    }
-    .nav-user img {
-      width: 32px; height: 32px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-    .btn-logout {
-      background: none;
-      border: 1px solid #e2e8f0;
-      padding: 6px 14px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 13px;
-      color: #64748b;
-    }
-    .btn-logout:hover { background: #f1f5f9; }
+    .nav-logo { font-weight: 700; font-size: 18px; color: #4F46E5; cursor: pointer; }
+    .nav-user { display: flex; align-items: center; gap: 10px; font-size: 14px; color: #64748b; }
+    .nav-user img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+    .btn-sm { background: none; border: 1px solid #e2e8f0; padding: 6px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; color: #64748b; }
+    .btn-sm:hover { background: #f1f5f9; }
+
+    /* SAHIFALAR */
+    .page { display: none; max-width: 500px; margin: 0 auto; padding: 32px 20px; }
+    .page.active { display: block; }
 
     /* LANDING */
-    .landing {
-      max-width: 480px;
-      margin: 0 auto;
-      padding: 40px 24px;
-    }
-    .badge {
-      display: inline-block;
-      border: 1px solid #e2e8f0;
-      border-radius: 20px;
-      padding: 5px 14px;
-      font-size: 12px;
-      color: #64748b;
-      margin-bottom: 20px;
-      letter-spacing: .04em;
-    }
-    h1 {
-      font-size: 36px;
-      font-weight: 800;
-      line-height: 1.2;
-      margin-bottom: 12px;
-    }
+    .badge { display: inline-block; border: 1px solid #e2e8f0; border-radius: 20px; padding: 5px 14px; font-size: 12px; color: #64748b; margin-bottom: 20px; }
+    h1 { font-size: 34px; font-weight: 800; line-height: 1.2; margin-bottom: 12px; }
     .accent { color: #4F46E5; }
-    .sub {
-      font-size: 15px;
-      color: #64748b;
-      line-height: 1.7;
-      margin-bottom: 28px;
-    }
-    .btns { display: flex; gap: 10px; margin-bottom: 36px; flex-wrap: wrap; }
-    .btn-main {
-      background: #4F46E5;
-      color: white;
-      border: none;
-      padding: 12px 22px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background .2s;
-    }
+    .sub { font-size: 15px; color: #64748b; line-height: 1.7; margin-bottom: 28px; }
+    .btns { display: flex; gap: 10px; margin-bottom: 32px; flex-wrap: wrap; }
+    .btn-main { background: #4F46E5; color: white; border: none; padding: 12px 22px; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
     .btn-main:hover { background: #4338ca; }
-    .btn-secondary {
-      background: white;
-      border: 1px solid #e2e8f0;
-      padding: 12px 22px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-weight: 500;
-      cursor: pointer;
-      color: #1e293b;
-    }
+    .btn-outline { background: white; border: 1px solid #e2e8f0; padding: 12px 22px; border-radius: 10px; font-size: 14px; font-weight: 500; cursor: pointer; color: #1e293b; }
 
-    .cards { display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; }
-    .card {
-      display: flex;
-      align-items: flex-start;
-      gap: 14px;
-      padding: 16px;
-      border: 1px solid #e2e8f0;
-      border-radius: 12px;
-      background: white;
-    }
-    .icon {
-      width: 38px; height: 38px;
-      border-radius: 9px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 18px; flex-shrink: 0;
-    }
+    .cards { display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+    .card { display: flex; align-items: flex-start; gap: 14px; padding: 16px; border: 1px solid #e2e8f0; border-radius: 12px; background: white; }
+    .icon { width: 38px; height: 38px; border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
     .card-title { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
     .card-sub { font-size: 13px; color: #64748b; line-height: 1.5; }
 
-    /* GOOGLE BTN */
-    .google-btn {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 13px;
-      border: 1px solid #e2e8f0;
-      border-radius: 10px;
-      background: white;
-      cursor: pointer;
-      font-size: 15px;
-      font-weight: 500;
-      color: #1e293b;
-      transition: box-shadow .2s;
-      margin-bottom: 10px;
-    }
+    .google-btn { width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 13px; border: 1px solid #e2e8f0; border-radius: 10px; background: white; cursor: pointer; font-size: 15px; font-weight: 500; color: #1e293b; }
     .google-btn:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 
     /* DASHBOARD */
-    .dashboard { max-width: 480px; margin: 0 auto; padding: 32px 24px; }
     .welcome { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
-    .role-badge {
-      display: inline-block;
-      padding: 3px 10px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 600;
-      margin-bottom: 24px;
-    }
+    .role-badge { display: inline-block; padding: 3px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 24px; }
     .role-student { background: #EEF2FF; color: #4F46E5; }
-    .role-teacher { background: #F0FDF4; color: #16a34a; }
     .role-admin { background: #FEF2F2; color: #dc2626; }
 
     .dash-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .dash-card {
-      background: white;
-      border: 1px solid #e2e8f0;
-      border-radius: 12px;
-      padding: 18px;
-      cursor: pointer;
-      transition: box-shadow .2s;
-    }
-    .dash-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .dash-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; cursor: pointer; transition: box-shadow .2s; }
+    .dash-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateY(-1px); }
     .dash-icon { font-size: 26px; margin-bottom: 8px; }
     .dash-title { font-size: 14px; font-weight: 600; margin-bottom: 3px; }
     .dash-sub { font-size: 12px; color: #94a3b8; }
 
+    /* AI CHAT */
+    .chat-header { margin-bottom: 16px; }
+    .chat-header h2 { font-size: 20px; font-weight: 700; }
+    .chat-header p { font-size: 13px; color: #64748b; margin-top: 4px; }
+
+    .edu-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+    .edu-tab { flex: 1; padding: 10px; border: 2px solid #e2e8f0; border-radius: 10px; background: white; cursor: pointer; font-size: 13px; font-weight: 500; color: #64748b; text-align: center; }
+    .edu-tab.active { border-color: #4F46E5; color: #4F46E5; background: #EEF2FF; }
+
+    .chat-messages {
+      background: white; border: 1px solid #e2e8f0; border-radius: 12px;
+      height: 380px; overflow-y: auto; padding: 16px;
+      display: flex; flex-direction: column; gap: 12px;
+      margin-bottom: 12px;
+    }
+    .msg { max-width: 85%; padding: 10px 14px; border-radius: 12px; font-size: 14px; line-height: 1.6; }
+    .msg-user { background: #4F46E5; color: white; align-self: flex-end; border-bottom-right-radius: 4px; }
+    .msg-ai { background: #f1f5f9; color: #1e293b; align-self: flex-start; border-bottom-left-radius: 4px; }
+    .msg-ai.not-found { background: #FEF2F2; color: #dc2626; }
+    .msg-loading { background: #f1f5f9; color: #94a3b8; align-self: flex-start; font-style: italic; }
+
+    .chat-input-row { display: flex; gap: 8px; }
+    .chat-input { flex: 1; padding: 12px 14px; border: 1px solid #e2e8f0; border-radius: 10px; font-size: 14px; outline: none; }
+    .chat-input:focus { border-color: #4F46E5; }
+    .btn-send { background: #4F46E5; color: white; border: none; padding: 12px 18px; border-radius: 10px; cursor: pointer; font-size: 18px; }
+    .btn-send:disabled { background: #c7d2fe; cursor: not-allowed; }
+    .btn-back { background: none; border: none; color: #64748b; cursor: pointer; font-size: 13px; margin-bottom: 12px; display: flex; align-items: center; gap: 4px; }
+
+    /* ADMIN PANEL */
+    .admin-section { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+    .admin-section h3 { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+    .form-group { margin-bottom: 12px; }
+    .form-label { font-size: 13px; font-weight: 500; color: #64748b; margin-bottom: 4px; display: block; }
+    .form-input { width: 100%; padding: 10px 12px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 14px; outline: none; }
+    .form-input:focus { border-color: #4F46E5; }
+    select.form-input { cursor: pointer; }
+    textarea.form-input { min-height: 120px; resize: vertical; }
+    .btn-upload { width: 100%; background: #4F46E5; color: white; border: none; padding: 12px; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; margin-top: 4px; }
+    .btn-upload:hover { background: #4338ca; }
+    .btn-upload:disabled { background: #c7d2fe; cursor: not-allowed; }
+
+    .textbook-list { display: flex; flex-direction: column; gap: 8px; }
+    .textbook-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: #f8fafc; border-radius: 8px; font-size: 13px; }
+    .textbook-badge { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+    .badge-school { background: #EEF2FF; color: #4F46E5; }
+    .badge-uni { background: #F0FDF4; color: #16a34a; }
+
     /* TOAST */
-    .toast {
-      position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
-      background: #1e293b; color: white;
-      padding: 12px 24px; border-radius: 10px;
-      font-size: 14px; font-weight: 500;
-      opacity: 0; transition: opacity .3s;
-      pointer-events: none; z-index: 999;
-    }
+    .toast { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: #1e293b; color: white; padding: 12px 24px; border-radius: 10px; font-size: 14px; font-weight: 500; opacity: 0; transition: opacity .3s; pointer-events: none; z-index: 999; }
 
-    /* LOADING */
-    .loading {
-      display: flex; align-items: center; justify-content: center;
-      min-height: 100vh; font-size: 16px; color: #64748b;
-    }
-
-    .hidden { display: none !important; }
+    .loading-screen { display: flex; align-items: center; justify-content: center; min-height: 80vh; font-size: 15px; color: #94a3b8; }
   </style>
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
-  <div class="nav-logo">📚 Tarix Platformasi</div>
+  <div class="nav-logo" onclick="goTo('dashboard')">📚 Tarix Platformasi</div>
   <div class="nav-user" id="nav-user" style="display:none">
-    <img id="nav-avatar" src="" alt="avatar">
+    <img id="nav-avatar" src="" alt="">
     <span id="nav-name"></span>
-    <button class="btn-logout" onclick="signOut()">Chiqish</button>
+    <button class="btn-sm" onclick="signOut()">Chiqish</button>
   </div>
 </nav>
 
-<!-- LOADING -->
-<div class="loading" id="loading">Yuklanmoqda...</div>
-
-<!-- LANDING (login emas) -->
-<div class="landing hidden" id="landing">
-  <div class="badge">BILIMINGIZNI YANGI BOSQICHGA OLIB CHIQING</div>
-  <h1>Tarixni o'rgan —<br><span class="accent">AI yordamida</span></h1>
-  <p class="sub">Maktab darsligi asosida tayyorlangan testlar, xatolar ustida ishlash va bilimingizni sinash — hammasi bir joyda.</p>
-
-  <div class="btns">
-    <button class="btn-main" onclick="signInWithGoogle()">Kirish / Ro'yxatdan o'tish →</button>
-    <button class="btn-secondary">Demo sinovi</button>
+<!-- LANDING -->
+<div class="page active" id="page-landing">
+  <div style="padding-top: 20px;">
+    <div class="badge">BILIMINGIZNI YANGI BOSQICHGA OLIB CHIQING</div>
+    <h1>Tarixni o'rgan —<br><span class="accent">AI yordamida</span></h1>
+    <p class="sub">Maktab darsligi asosida tayyorlangan testlar, xatolar ustida ishlash va bilimingizni sinash — hammasi bir joyda.</p>
+    <div class="btns">
+      <button class="btn-main" onclick="signInWithGoogle()">Kirish / Ro'yxatdan o'tish →</button>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="icon" style="background:#EEF2FF">📖</div>
+        <div><div class="card-title">AI Tarix Ustozi</div><div class="card-sub">Faqat maktab darsligi asosida — umumiy internet emas</div></div>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#FFF7ED">⏱</div>
+        <div><div class="card-title">Xotirani Mustahkamlash</div><div class="card-sub">Xato javoblar keyinroq qayta chiqadi (Duolingo uslubi)</div></div>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#F0FDF4">✅</div>
+        <div><div class="card-title">Ustoz Panel</div><div class="card-sub">AI savol yozadi, ustoz to'g'ri javobni belgilaydi</div></div>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#FEF2F2">🎮</div>
+        <div><div class="card-title">Jonli Test (PIN bilan)</div><div class="card-sub">Kahoot uslubida o'yin — sinf bilan birga</div></div>
+      </div>
+    </div>
+    <button class="google-btn" onclick="signInWithGoogle()">
+      <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+      Google bilan kirish
+    </button>
   </div>
-
-  <div class="cards">
-    <div class="card">
-      <div class="icon" style="background:#EEF2FF">📖</div>
-      <div>
-        <div class="card-title">AI Tarix Ustozi</div>
-        <div class="card-sub">Faqat maktab darsligi asosida o'qitilgan — umumiy internet emas</div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="icon" style="background:#FFF7ED">⏱</div>
-      <div>
-        <div class="card-title">Xotirani Mustahkamlash</div>
-        <div class="card-sub">Xato javoblar keyinroq qayta chiqadi, yodlatadi (Duolingo uslubi)</div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="icon" style="background:#F0FDF4">✅</div>
-      <div>
-        <div class="card-title">Ustoz Panel</div>
-        <div class="card-sub">AI savol yozadi, ustoz to'g'ri javobni belgilaydi, natijalar ro'yxati</div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="icon" style="background:#FEF2F2">🎮</div>
-      <div>
-        <div class="card-title">Jonli Test (PIN bilan)</div>
-        <div class="card-sub">Kahoot uslubida o'yin — sinf bilan birga, real vaqtda</div>
-      </div>
-    </div>
-  </div>
-
-  <button class="google-btn" onclick="signInWithGoogle()">
-    <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
-    Google bilan kirish
-  </button>
 </div>
 
-<!-- DASHBOARD (kirgan) -->
-<div class="dashboard hidden" id="dashboard">
+<!-- DASHBOARD -->
+<div class="page" id="page-dashboard">
   <div class="welcome" id="dash-welcome">Xush kelibsiz! 👋</div>
   <span class="role-badge role-student" id="dash-role">O'quvchi</span>
+  <div class="dash-cards" id="dash-cards"></div>
+</div>
 
-  <div class="dash-cards" id="dash-cards">
-    <!-- JS tomonidan to'ldiriladi -->
+<!-- AI CHAT -->
+<div class="page" id="page-ai-chat">
+  <button class="btn-back" onclick="goTo('dashboard')">← Orqaga</button>
+  <div class="chat-header">
+    <h2>🤖 AI Tarix Ustozi</h2>
+    <p>Faqat darslik asosida javob beradi</p>
+  </div>
+  <div class="edu-tabs">
+    <button class="edu-tab active" id="tab-school" onclick="setEduType('school')">🏫 Maktab</button>
+    <button class="edu-tab" id="tab-university" onclick="setEduType('university')">🎓 Oliy ta'lim</button>
+  </div>
+  <div class="chat-messages" id="chat-messages">
+    <div class="msg msg-ai">Salom! Men tarix darsligi asosida savollarga javob beraman. Savolingizni yozing! 📚</div>
+  </div>
+  <div class="chat-input-row">
+    <input class="chat-input" id="chat-input" placeholder="Savolingizni yozing..." onkeydown="if(event.key==='Enter') sendMessage()">
+    <button class="btn-send" id="btn-send" onclick="sendMessage()">➤</button>
   </div>
 </div>
 
-<!-- TOAST -->
+<!-- ADMIN PANEL -->
+<div class="page" id="page-admin">
+  <button class="btn-back" onclick="goTo('dashboard')">← Orqaga</button>
+  <h2 style="font-size:20px;font-weight:700;margin-bottom:20px;">⚙️ Admin Panel</h2>
+
+  <div class="admin-section">
+    <h3>📚 Darslik qo'shish</h3>
+    <div class="form-group">
+      <label class="form-label">Darslik nomi</label>
+      <input class="form-input" id="tb-title" placeholder="Masalan: O'zbekiston tarixi 9-sinf">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Fan</label>
+      <input class="form-input" id="tb-subject" placeholder="Tarix">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Ta'lim turi</label>
+      <select class="form-input" id="tb-edu-type">
+        <option value="school">🏫 Maktab</option>
+        <option value="university">🎓 Oliy ta'lim</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Sinf / Kurs</label>
+      <input class="form-input" id="tb-grade" placeholder="9-sinf yoki 2-kurs">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Darslik matni (PDF dan nusxalang yoki yozing)</label>
+      <textarea class="form-input" id="tb-content" placeholder="Darslik matnini shu yerga joylashtiring..."></textarea>
+    </div>
+    <button class="btn-upload" id="btn-save-tb" onclick="saveTextbook()">💾 Darslikni saqlash</button>
+  </div>
+
+  <div class="admin-section">
+    <h3>📋 Yuklangan darsliklar</h3>
+    <div class="textbook-list" id="textbook-list">
+      <div style="color:#94a3b8;font-size:13px;">Yuklanmoqda...</div>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -270,102 +231,186 @@
   const { createClient } = supabase;
   const sb = createClient(SUPABASE_URL, SUPABASE_ANON);
 
-  // Elementlar
-  const $loading  = document.getElementById('loading');
-  const $landing  = document.getElementById('landing');
-  const $dashboard= document.getElementById('dashboard');
-  const $navUser  = document.getElementById('nav-user');
-  const $navAvatar= document.getElementById('nav-avatar');
-  const $navName  = document.getElementById('nav-name');
+  let currentUser = null;
+  let currentRole = 'student';
+  let currentEduType = 'school';
 
-  // Auth holati kuzatish
+  // AUTH
   sb.auth.onAuthStateChange(async (event, session) => {
-    $loading.classList.add('hidden');
     if (session?.user) {
+      currentUser = session.user;
       await showDashboard(session.user);
     } else {
-      showLanding();
+      currentUser = null;
+      goTo('landing');
+      document.getElementById('nav-user').style.display = 'none';
     }
   });
 
   async function signInWithGoogle() {
-    const redirectTo = window.location.origin + window.location.pathname;
     const { error } = await sb.auth.signInWithOAuth({
       provider: 'google',
-      options: { redirectTo }
+      options: { redirectTo: 'https://tarix-platform.vercel.app' }
     });
     if (error) showToast('Xatolik: ' + error.message);
   }
 
   async function signOut() {
     await sb.auth.signOut();
-    showLanding();
-    showToast('Chiqildi ✓');
   }
 
   async function showDashboard(user) {
-    $landing.classList.add('hidden');
-    $dashboard.classList.remove('hidden');
+    document.getElementById('nav-user').style.display = 'flex';
+    document.getElementById('nav-avatar').src = user.user_metadata?.avatar_url || '';
+    document.getElementById('nav-name').textContent = (user.user_metadata?.full_name || user.email).split(' ')[0];
 
-    // Nav
-    $navUser.style.display = 'flex';
-    $navAvatar.src = user.user_metadata?.avatar_url || '';
-    $navName.textContent = user.user_metadata?.full_name || user.email;
+    const { data: profile } = await sb.from('profiles').select('role').eq('id', user.id).single();
+    currentRole = profile?.role || 'student';
 
-    // Profilni olish
-    const { data: profile } = await sb.from('profiles').select('*').eq('id', user.id).single();
-    const role = profile?.role || 'student';
-
-    // Xush kelibsiz
     const name = (user.user_metadata?.full_name || user.email).split(' ')[0];
     document.getElementById('dash-welcome').textContent = `Xush kelibsiz, ${name}! 👋`;
 
-    // Rol badge
     const roleEl = document.getElementById('dash-role');
-    const roleNames = { student: "O'quvchi", teacher: 'Ustoz', admin: 'Admin' };
-    const roleClasses = { student: 'role-student', teacher: 'role-teacher', admin: 'role-admin' };
-    roleEl.textContent = roleNames[role] || "O'quvchi";
-    roleEl.className = 'role-badge ' + (roleClasses[role] || 'role-student');
+    const roleMap = { student: ["O'quvchi", 'role-student'], admin: ['Admin', 'role-admin'] };
+    const [rName, rClass] = roleMap[currentRole] || roleMap.student;
+    roleEl.textContent = rName;
+    roleEl.className = 'role-badge ' + rClass;
 
-    // Kartalar
-    const cards = getCardsForRole(role);
+    const cards = currentRole === 'admin' ? [
+      { icon: '🤖', title: 'AI Ustoz', sub: 'Darslik asosida savol-javob', page: 'ai-chat' },
+      { icon: '📚', title: 'Darsliklar', sub: 'Matn yuklash va boshqarish', page: 'admin' },
+      { icon: '📝', title: 'Testlar', sub: 'Test yaratish (tez orada)', page: null },
+      { icon: '👥', title: 'Foydalanuvchilar', sub: 'Rol boshqarish (tez orada)', page: null },
+    ] : [
+      { icon: '🤖', title: 'AI Ustoz', sub: 'Darslik asosida savol-javob', page: 'ai-chat' },
+      { icon: '📝', title: 'Testlar', sub: 'Mavzu bo\'yicha test yech', page: null },
+      { icon: '🔁', title: 'Takrorlash', sub: 'Xatolar ustida ishlash', page: null },
+      { icon: '🎮', title: 'Jonli o\'yin', sub: 'PIN bilan kir', page: null },
+    ];
+
     document.getElementById('dash-cards').innerHTML = cards.map(c => `
-      <div class="dash-card">
+      <div class="dash-card" onclick="${c.page ? `goTo('${c.page}')` : `showToast('Tez orada!')`}">
         <div class="dash-icon">${c.icon}</div>
         <div class="dash-title">${c.title}</div>
         <div class="dash-sub">${c.sub}</div>
       </div>
     `).join('');
+
+    goTo('dashboard');
   }
 
-  function getCardsForRole(role) {
-    const student = [
-      { icon: '📝', title: 'Testlar', sub: 'Mavzu bo\'yicha test yech' },
-      { icon: '📊', title: 'Natijalarim', sub: 'O\'z yutuqlarimni ko\'r' },
-      { icon: '🔁', title: 'Takrorlash', sub: 'Xatolar ustida ishlash' },
-      { icon: '🎮', title: 'Jonli o\'yin', sub: 'PIN bilan kir' },
-    ];
-    const teacher = [
-      { icon: '➕', title: 'Test yaratish', sub: 'AI yoki qo\'lda' },
-      { icon: '👥', title: 'O\'quvchilar', sub: 'Natijalar ro\'yxati' },
-      { icon: '🎮', title: 'Jonli o\'yin', sub: 'PIN yaratish' },
-      { icon: '📚', title: 'Mavzular', sub: 'Darslik bo\'limlari' },
-    ];
-    const admin = [
-      { icon: '👤', title: 'Foydalanuvchilar', sub: 'Rol boshqarish' },
-      { icon: '📚', title: 'Mavzular', sub: 'Barcha testlar' },
-      { icon: '📊', title: 'Statistika', sub: 'Umumiy natijalar' },
-      { icon: '⚙️', title: 'Sozlamalar', sub: 'Tizim boshqaruvi' },
-    ];
-    return role === 'admin' ? admin : role === 'teacher' ? teacher : student;
+  // SAHIFA NAVIGATSIYASI
+  function goTo(page) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + page).classList.add('active');
+    if (page === 'admin') loadTextbooks();
   }
 
-  function showLanding() {
-    $dashboard.classList.add('hidden');
-    $landing.classList.remove('hidden');
-    $navUser.style.display = 'none';
+  // AI CHAT
+  function setEduType(type) {
+    currentEduType = type;
+    document.getElementById('tab-school').classList.toggle('active', type === 'school');
+    document.getElementById('tab-university').classList.toggle('active', type === 'university');
   }
 
+  async function sendMessage() {
+    const input = document.getElementById('chat-input');
+    const question = input.value.trim();
+    if (!question) return;
+
+    const messagesEl = document.getElementById('chat-messages');
+    const sendBtn = document.getElementById('btn-send');
+
+    // Foydalanuvchi xabari
+    messagesEl.innerHTML += `<div class="msg msg-user">${question}</div>`;
+    input.value = '';
+    sendBtn.disabled = true;
+
+    // Yuklanish
+    const loadingId = 'loading-' + Date.now();
+    messagesEl.innerHTML += `<div class="msg msg-loading" id="${loadingId}">⏳ Darslikdan qidirilmoqda...</div>`;
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+
+    try {
+      const session = await sb.auth.getSession();
+      const token = session.data.session?.access_token;
+
+      const res = await fetch(`${SUPABASE_URL}/functions/v1/ai-ustoz`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({ question, education_type: currentEduType })
+      });
+
+      const data = await res.json();
+      document.getElementById(loadingId)?.remove();
+
+      const cls = data.found_in_textbook === false ? 'msg-ai not-found' : 'msg-ai';
+      messagesEl.innerHTML += `<div class="msg ${cls}">${data.answer || data.error || 'Xatolik yuz berdi'}</div>`;
+    } catch (e) {
+      document.getElementById(loadingId)?.remove();
+      messagesEl.innerHTML += `<div class="msg msg-ai not-found">Xatolik: ${e.message}</div>`;
+    }
+
+    sendBtn.disabled = false;
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  // ADMIN — DARSLIK SAQLASH
+  async function saveTextbook() {
+    const title = document.getElementById('tb-title').value.trim();
+    const subject = document.getElementById('tb-subject').value.trim();
+    const eduType = document.getElementById('tb-edu-type').value;
+    const grade = document.getElementById('tb-grade').value.trim();
+    const content = document.getElementById('tb-content').value.trim();
+
+    if (!title || !content) { showToast('Nom va matn kiritish shart!'); return; }
+
+    const btn = document.getElementById('btn-save-tb');
+    btn.disabled = true;
+    btn.textContent = 'Saqlanmoqda...';
+
+    const { error } = await sb.from('textbooks').insert({
+      title, subject: subject || 'Tarix',
+      education_type: eduType, grade, content,
+      uploaded_by: currentUser?.id
+    });
+
+    btn.disabled = false;
+    btn.textContent = '💾 Darslikni saqlash';
+
+    if (error) { showToast('Xatolik: ' + error.message); return; }
+
+    showToast('Darslik saqlandi! ✅');
+    document.getElementById('tb-title').value = '';
+    document.getElementById('tb-content').value = '';
+    document.getElementById('tb-grade').value = '';
+    loadTextbooks();
+  }
+
+  async function loadTextbooks() {
+    const { data } = await sb.from('textbooks').select('id, title, education_type, grade, created_at').order('created_at', { ascending: false });
+    const listEl = document.getElementById('textbook-list');
+    if (!data || data.length === 0) {
+      listEl.innerHTML = '<div style="color:#94a3b8;font-size:13px;">Hali darslik yuklanmagan</div>';
+      return;
+    }
+    listEl.innerHTML = data.map(t => `
+      <div class="textbook-item">
+        <div>
+          <div style="font-weight:600">${t.title}</div>
+          <div style="color:#94a3b8;font-size:11px">${t.grade || ''}</div>
+        </div>
+        <span class="textbook-badge ${t.education_type === 'university' ? 'badge-uni' : 'badge-school'}">
+          ${t.education_type === 'university' ? '🎓 Oliy' : '🏫 Maktab'}
+        </span>
+      </div>
+    `).join('');
+  }
+
+  // TOAST
   function showToast(msg) {
     const t = document.getElementById('toast');
     t.textContent = msg;
