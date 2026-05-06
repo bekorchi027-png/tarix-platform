@@ -8,340 +8,265 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Segoe UI',sans-serif;transition:background .3s}
-
-/* DARK/LIGHT */
 body.dark{background:#0f0f13;color:#f0f0f5}
 body.light{background:#f2f1fc;color:#0d0c1e}
-
-/* NAV */
 nav{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);border-bottom:1px solid rgba(108,99,255,.15)}
-body.dark nav{background:rgba(15,15,19,.8)}
-body.light nav{background:rgba(242,241,252,.8)}
-.nav-logo{font-weight:800;font-size:17px;letter-spacing:-0.5px}
+body.dark nav{background:rgba(15,15,19,.85)}
+body.light nav{background:rgba(242,241,252,.85)}
+.nav-logo{font-weight:800;font-size:17px;letter-spacing:-.5px}
 .nav-logo span{background:linear-gradient(135deg,#6c63ff,#ff6584);-webkit-background-clip:text;background-clip:text;color:transparent}
 .nav-right{display:flex;align-items:center;gap:10px}
-.nav-user-info{display:none;align-items:center;gap:8px;font-size:13px}
-body.dark .nav-user-info{color:#aaa}
-body.light .nav-user-info{color:#555}
-.nav-user-info img{width:28px;height:28px;border-radius:50%;object-fit:cover}
-.tmb{border-radius:50px;padding:6px 14px;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:8px;border:1px solid;transition:.3s}
-body.dark .tmb{background:#23232f;border-color:#555;color:#777}
-body.light .tmb{background:#e8e7f8;border-color:#aaa;color:#666}
-.btn-xs{border:1px solid;padding:5px 12px;border-radius:8px;cursor:pointer;font-size:12px;transition:.2s}
-body.dark .btn-xs{border-color:#555;color:#777;background:transparent}
-body.light .btn-xs{border-color:#aaa;color:#666;background:transparent}
+.nav-user{display:none;align-items:center;gap:8px;font-size:13px}
+body.dark .nav-user{color:#aaa}
+body.light .nav-user{color:#555}
+.nav-user img{width:28px;height:28px;border-radius:50%;object-fit:cover}
+.tmb{border-radius:50px;padding:6px 14px;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:6px;border:1px solid;transition:.3s}
+body.dark .tmb{background:#23232f;border-color:#444;color:#777}
+body.light .tmb{background:#e8e7f8;border-color:#bbb;color:#666}
+.btn-xs{border:1px solid;padding:5px 12px;border-radius:8px;cursor:pointer;font-size:12px;font-weight:600;transition:.2s;background:transparent}
+body.dark .btn-xs{border-color:#444;color:#777}
+body.light .btn-xs{border-color:#bbb;color:#666}
 .btn-xs:hover{border-color:#6c63ff!important;color:#6c63ff!important}
-
-/* PAGES */
-.page{display:none;min-height:calc(100vh - 53px);padding:24px 20px;position:relative;overflow:hidden}
+.page{display:none;min-height:calc(100vh - 54px);padding:24px 20px;position:relative;overflow:hidden}
 .page.active{display:block}
 .orb{position:absolute;border-radius:50%;filter:blur(80px);pointer-events:none;z-index:0}
-.o1{width:300px;height:300px;background:#6c63ff;opacity:.1;top:-80px;left:-80px}
-.o2{width:200px;height:200px;background:#ff6584;opacity:.08;bottom:-60px;right:-40px}
-.o3{width:250px;height:250px;background:#6c63ff;opacity:.06;top:50%;right:-60px}
-
-/* INNER WRAPPER */
+.o1{width:300px;height:300px;background:#6c63ff;opacity:.08;top:-80px;left:-80px}
+.o2{width:200px;height:200px;background:#ff6584;opacity:.06;bottom:-60px;right:-40px}
 .wrap{max-width:460px;margin:0 auto;position:relative;z-index:1}
-
-/* CARD */
-.card{border-radius:24px;padding:32px;margin-bottom:14px;animation:up .4s ease}
-body.dark .card{background:#1e1e2a;border:1px solid #333}
-body.light .card{background:#fff;border:1px solid #ddd;box-shadow:0 2px 16px rgba(108,99,255,.07)}
-@keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-
-/* LANDING */
-.hero{text-align:center;padding:32px 0 24px}
-.hero-title{font-size:38px;font-weight:800;letter-spacing:-1.5px;line-height:1.1;margin-bottom:10px}
-.hero-title .ls{background:linear-gradient(135deg,#6c63ff,#ff6584);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero-sub{font-size:14px;line-height:1.6;margin-bottom:0}
-body.dark .hero-sub{color:#777}
+.card{border-radius:20px;padding:28px;margin-bottom:12px;animation:up .4s ease}
+body.dark .card{background:#1e1e2a;border:1px solid #2a2a3a}
+body.light .card{background:#fff;border:1px solid #e0dfff;box-shadow:0 2px 16px rgba(108,99,255,.07)}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+/* HERO */
+.hero{text-align:center;padding:28px 0 20px}
+.hero-title{font-size:36px;font-weight:800;letter-spacing:-1.5px;line-height:1.1;margin-bottom:10px}
+.ls{background:linear-gradient(135deg,#6c63ff,#ff6584);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-sub{font-size:14px;line-height:1.6}
+body.dark .hero-sub{color:#666}
 body.light .hero-sub{color:#888}
-
-/* GOOGLE BTN */
-.gbtn{width:100%;background:transparent;border-radius:14px;padding:14px 20px;font-size:15px;font-weight:500;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:14px;transition:.2s;border:1.5px solid}
-body.dark .gbtn{border-color:#555;color:#bbb}
-body.light .gbtn{border-color:#ccc;color:#444}
-.gbtn:hover{border-color:#6c63ff!important;color:#6c63ff;transform:translateY(-1px)}
-.gbtn svg{flex-shrink:0}
-
-/* DIVIDER */
-.divr{display:flex;align-items:center;gap:10px;margin:2px 0 14px}
-.divr-l{flex:1;height:1px;opacity:.3}
-body.dark .divr-l{background:#666}
-body.light .divr-l{background:#aaa}
+/* BTNS */
+.gbtn{width:100%;background:transparent;border-radius:12px;padding:13px 20px;font-size:15px;font-weight:500;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:12px;transition:.2s;border:1.5px solid}
+body.dark .gbtn{border-color:#444;color:#bbb}
+body.light .gbtn{border-color:#ccc;color:#555}
+.gbtn:hover{border-color:#6c63ff;color:#6c63ff;transform:translateY(-1px)}
+.divr{display:flex;align-items:center;gap:10px;margin:0 0 12px}
+.divr-l{flex:1;height:1px;opacity:.25}
+body.dark .divr-l{background:#aaa}
+body.light .divr-l{background:#888}
 .divr-t{font-size:12px}
-body.dark .divr-t{color:#666}
+body.dark .divr-t{color:#555}
 body.light .divr-t{color:#aaa}
-
-/* SECONDARY BTN */
-.sbtn{width:100%;background:transparent;border-radius:14px;padding:12px 20px;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:10px;transition:.2s;border:1.5px solid}
-body.dark .sbtn{border-color:#555;color:#aaa}
+.sbtn{width:100%;background:transparent;border-radius:12px;padding:11px 20px;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px;transition:.2s;border:1.5px solid}
+body.dark .sbtn{border-color:#444;color:#999}
 body.light .sbtn{border-color:#ccc;color:#666}
 .sbtn:hover{border-color:#6c63ff;color:#6c63ff;transform:translateY(-1px)}
-
-.note{text-align:center;font-size:11.5px;margin-top:4px}
-body.dark .note{color:#555}
-body.light .note{color:#999}
-.pol{text-align:center;font-size:11px;margin-top:18px}
-body.dark .pol{color:#555}
-body.light .pol{color:#999}
+.pbtn{width:100%;background:linear-gradient(135deg,#6c63ff,#8b5cf6);color:white;border:none;border-radius:12px;padding:13px;font-size:14px;font-weight:700;cursor:pointer;transition:.2s}
+.pbtn:hover{opacity:.9;transform:translateY(-1px)}
+.pbtn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.note{text-align:center;font-size:11.5px;margin-top:6px}
+body.dark .note{color:#444}
+body.light .note{color:#aaa}
+.pol{text-align:center;font-size:11px;margin-top:14px}
+body.dark .pol{color:#444}
+body.light .pol{color:#aaa}
 .pol a{color:#6c63ff;text-decoration:none}
-
-/* FEATURE CARDS */
-.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
-.fc{border-radius:16px;padding:16px;cursor:pointer;transition:.2s;border:1px solid}
+/* GUEST PANEL */
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.fc{border-radius:14px;padding:16px;cursor:pointer;transition:.2s;border:1px solid}
 body.dark .fc{background:#23232f;border-color:#333}
-body.light .fc{background:#f0efff;border-color:#ddd}
+body.light .fc{background:#f0efff;border-color:#e0dfff}
 .fc:hover{border-color:#6c63ff;transform:translateY(-2px)}
-.fc-icon{font-size:24px;margin-bottom:8px}
-.fc-title{font-size:13px;font-weight:700;margin-bottom:3px}
-body.dark .fc-title{color:#f0f0f5}
-body.light .fc-title{color:#0d0c1e}
-.fc-sub{font-size:11px}
-body.dark .fc-sub{color:#666}
-body.light .fc-sub{color:#999}
-
+.fc-icon{font-size:22px;margin-bottom:6px}
+.fc-title{font-size:13px;font-weight:700}
+body.dark .fc-title{color:#eee}
+body.light .fc-title{color:#111}
+.fc-sub{font-size:11px;margin-top:2px}
+body.dark .fc-sub{color:#555}
+body.light .fc-sub{color:#aaa}
+.limit-box{border-radius:10px;padding:10px 14px;font-size:12px;line-height:1.6;border:1px solid}
+body.dark .limit-box{border-color:#333;color:#555}
+body.light .limit-box{border-color:#ddd;color:#aaa}
 /* DASHBOARD */
-.dash-welcome{font-size:24px;font-weight:800;letter-spacing:-0.5px;margin-bottom:4px}
-.dash-role{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-bottom:24px}
-.role-admin{background:linear-gradient(135deg,#6c63ff22,#ff658422);color:#6c63ff;border:1px solid #6c63ff44}
-.role-student{background:#6c63ff18;color:#6c63ff;border:1px solid #6c63ff33}
+.dash-welcome{font-size:22px;font-weight:800;letter-spacing:-.5px;margin-bottom:4px}
+.dash-role{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-bottom:20px}
+.role-admin{background:linear-gradient(135deg,#6c63ff22,#ff658422);color:#6c63ff;border:1px solid #6c63ff33}
+.role-student{background:#6c63ff12;color:#6c63ff;border:1px solid #6c63ff22}
 .dash-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.dc{border-radius:16px;padding:20px;cursor:pointer;transition:.2s;border:1px solid}
-body.dark .dc{background:#1e1e2a;border-color:#333}
+.dc{border-radius:16px;padding:18px;cursor:pointer;transition:.2s;border:1px solid}
+body.dark .dc{background:#1e1e2a;border-color:#2a2a3a}
 body.light .dc{background:#fff;border-color:#e0dfff;box-shadow:0 2px 8px rgba(108,99,255,.06)}
 .dc:hover{border-color:#6c63ff;transform:translateY(-2px)}
-.dc-icon{font-size:28px;margin-bottom:10px}
-.dc-title{font-size:14px;font-weight:700;margin-bottom:3px}
+.dc-icon{font-size:26px;margin-bottom:8px}
+.dc-title{font-size:14px;font-weight:700;margin-bottom:2px}
 body.dark .dc-title{color:#f0f0f5}
 body.light .dc-title{color:#0d0c1e}
 .dc-sub{font-size:12px}
-body.dark .dc-sub{color:#666}
-body.light .dc-sub{color:#999}
-
-/* SECTION TITLE */
+body.dark .dc-sub{color:#555}
+body.light .dc-sub{color:#aaa}
+/* STITLE & BACK */
 .stitle{font-size:17px;font-weight:800;letter-spacing:-.3px;margin-bottom:14px}
-
-/* BACK BTN */
-.back{background:none;border:none;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:6px;margin-bottom:18px;padding:0;transition:.2s}
-body.dark .back{color:#666}
-body.light .back{color:#999}
+.back{background:none;border:none;cursor:pointer;font-size:13px;display:flex;align-items:center;gap:6px;margin-bottom:16px;padding:0;transition:.2s}
+body.dark .back{color:#555}
+body.light .back{color:#aaa}
 .back:hover{color:#6c63ff}
-
 /* FORM */
-.form-group{margin-bottom:14px}
-.form-label{font-size:12px;font-weight:600;margin-bottom:5px;display:block;letter-spacing:.02em}
-body.dark .form-label{color:#777}
-body.light .form-label{color:#888}
-.form-input{width:100%;padding:11px 14px;border-radius:12px;font-size:14px;outline:none;transition:.2s;border:1.5px solid}
-body.dark .form-input{background:#23232f;border-color:#444;color:#f0f0f5}
-body.light .form-input{background:#f8f7ff;border-color:#ddd;color:#0d0c1e}
+.form-group{margin-bottom:12px}
+.form-label{font-size:12px;font-weight:600;margin-bottom:4px;display:block;letter-spacing:.03em}
+body.dark .form-label{color:#666}
+body.light .form-label{color:#999}
+.form-input{width:100%;padding:10px 13px;border-radius:10px;font-size:14px;outline:none;transition:.2s;border:1.5px solid}
+body.dark .form-input{background:#23232f;border-color:#333;color:#f0f0f5}
+body.light .form-input{background:#f8f7ff;border-color:#e0dfff;color:#0d0c1e}
 .form-input:focus{border-color:#6c63ff}
 textarea.form-input{min-height:100px;resize:vertical}
 select.form-input{cursor:pointer}
-
-/* PRIMARY BTN */
-.pbtn{width:100%;background:linear-gradient(135deg,#6c63ff,#8b7ff5);color:white;border:none;border-radius:14px;padding:13px;font-size:14px;font-weight:700;cursor:pointer;transition:.2s}
-.pbtn:hover{opacity:.9;transform:translateY(-1px)}
-.pbtn:disabled{opacity:.5;cursor:not-allowed;transform:none}
-
-/* DANGER BTN */
-.dbtn{background:transparent;border:1.5px solid #ef4444;color:#ef4444;border-radius:12px;padding:10px 18px;font-size:13px;font-weight:600;cursor:pointer;transition:.2s}
-.dbtn:hover{background:#ef444415}
-
-/* SUCCESS BTN */
-.sucbtn{background:linear-gradient(135deg,#22c55e,#16a34a);color:white;border:none;border-radius:12px;padding:11px 20px;font-size:14px;font-weight:700;cursor:pointer;transition:.2s;flex:1}
-.sucbtn:hover{opacity:.9}
-
-/* PIN KIRISH */
-.pin-hero{text-align:center;padding:16px 0 20px}
-.pin-icon{font-size:48px;margin-bottom:12px}
-.pin-title{font-size:22px;font-weight:800;margin-bottom:6px}
-body.dark .pin-title{color:#f0f0f5}
-body.light .pin-title{color:#0d0c1e}
-.pin-sub{font-size:13px}
-body.dark .pin-sub{color:#666}
-body.light .pin-sub{color:#999}
-.pin-input{width:100%;text-align:center;font-size:32px;font-weight:800;letter-spacing:10px;padding:18px;border-radius:16px;outline:none;margin-bottom:12px;border:2px solid;transition:.2s}
-body.dark .pin-input{background:#23232f;border-color:#444;color:#f0f0f5}
-body.light .pin-input{background:#f8f7ff;border-color:#ddd;color:#0d0c1e}
-.pin-input:focus{border-color:#6c63ff}
-
-/* GAME HEADER */
-.game-hdr{background:linear-gradient(135deg,#6c63ff,#8b5cf6);border-radius:20px;padding:24px;text-align:center;margin-bottom:14px;color:white}
-.game-pin-big{font-size:44px;font-weight:900;letter-spacing:8px;margin:6px 0}
-.game-mode-tag{display:inline-block;background:rgba(255,255,255,.2);padding:4px 14px;border-radius:20px;font-size:12px;font-weight:600;margin-bottom:6px}
-
-/* PLAYERS */
-.players-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
-.pl-chip{border-radius:10px;padding:10px;text-align:center;font-size:13px;font-weight:600;border:1px solid}
-body.dark .pl-chip{background:#23232f;border-color:#444;color:#f0f0f5}
-body.light .pl-chip{background:#f0efff;border-color:#e0dfff;color:#0d0c1e}
-
-/* QUESTION CARD */
-.q-card{border-radius:20px;padding:24px;margin-bottom:14px;border:1px solid}
-body.dark .q-card{background:#1e1e2a;border-color:#333}
-body.light .q-card{background:#fff;border-color:#e0dfff}
-.q-num{font-size:12px;font-weight:600;margin-bottom:8px}
-body.dark .q-num{color:#666}
-body.light .q-num{color:#999}
-.q-text{font-size:18px;font-weight:700;line-height:1.4;margin-bottom:12px}
-.timer-bar{height:5px;border-radius:3px;overflow:hidden;margin-bottom:20px}
-body.dark .timer-bar{background:#333}
-body.light .timer-bar{background:#e0dfff}
-.timer-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#ff6584);transition:width 1s linear}
-.opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.opt{padding:16px 12px;border-radius:14px;cursor:pointer;font-size:14px;font-weight:600;text-align:center;transition:.2s;border:2px solid}
-body.dark .opt{background:#23232f;border-color:#444;color:#f0f0f5}
-body.light .opt{background:#f8f7ff;border-color:#e0dfff;color:#0d0c1e}
-.opt:hover:not(:disabled){border-color:#6c63ff;background:#6c63ff18}
-.opt.correct{border-color:#22c55e!important;background:#22c55e18!important;color:#22c55e!important}
-.opt.wrong{border-color:#ef4444!important;background:#ef444418!important;color:#ef4444!important;text-decoration:line-through}
-.opt:disabled{cursor:not-allowed}
-
-/* WAITING */
-.waiting-box{text-align:center;padding:48px 24px}
-.w-icon{font-size:52px;margin-bottom:14px}
-.w-title{font-size:20px;font-weight:800;margin-bottom:6px}
-body.dark .w-title{color:#f0f0f5}
-body.light .w-title{color:#0d0c1e}
-.w-sub{font-size:13px;margin-bottom:20px}
-body.dark .w-sub{color:#666}
-body.light .w-sub{color:#999}
-.dots{display:flex;justify-content:center;gap:8px}
-.dot{width:8px;height:8px;border-radius:50%;background:#6c63ff;animation:pulse 1.2s infinite}
-.dot:nth-child(2){animation-delay:.3s}
-.dot:nth-child(3){animation-delay:.6s}
-@keyframes pulse{0%,100%{opacity:.2;transform:scale(.8)}50%{opacity:1;transform:scale(1)}}
-
-/* STATS ROW */
-.stats-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
-.stat-box{border-radius:14px;padding:14px;text-align:center;border:1px solid}
-.stat-box.green{border-color:#22c55e33;background:#22c55e10}
-.stat-box.red{border-color:#ef444433;background:#ef444410}
-.stat-num{font-size:24px;font-weight:800}
-.stat-box.green .stat-num{color:#22c55e}
-.stat-box.red .stat-num{color:#ef4444}
-.stat-label{font-size:12px}
-body.dark .stat-label{color:#666}
-body.light .stat-label{color:#999}
-
-/* LEADERBOARD */
-.lb-item{display:flex;align-items:center;gap:12px;border-radius:14px;padding:14px 16px;margin-bottom:8px;border:1px solid}
-body.dark .lb-item{background:#1e1e2a;border-color:#333}
-body.light .lb-item{background:#fff;border-color:#e0dfff}
-.lb-rank{font-size:22px;width:36px;text-align:center;flex-shrink:0}
-.lb-name{font-size:15px;font-weight:700;flex:1}
-body.dark .lb-name{color:#f0f0f5}
-body.light .lb-name{color:#0d0c1e}
-.lb-score{font-size:15px;font-weight:800;color:#6c63ff}
-
-/* QUIZ EDITOR */
-.qe{border-radius:16px;padding:16px;margin-bottom:10px;border:1px solid}
-body.dark .qe{background:#23232f;border-color:#444}
-body.light .qe{background:#f8f7ff;border-color:#e0dfff}
-.qe-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.qe-num{font-size:13px;font-weight:700}
-body.dark .qe-num{color:#aaa}
-body.light .qe-num{color:#666}
-.del-btn{background:none;border:none;color:#ef4444;cursor:pointer;font-size:16px;padding:2px 6px;border-radius:6px;transition:.2s}
-.del-btn:hover{background:#ef444420}
-.opt-row{display:flex;align-items:center;gap:8px;margin-bottom:8px}
-.opt-radio{width:18px;height:18px;cursor:pointer;accent-color:#6c63ff;flex-shrink:0}
-.opt-inp{flex:1;padding:8px 12px;border-radius:10px;font-size:13px;outline:none;border:1.5px solid;transition:.2s}
-body.dark .opt-inp{background:#1e1e2a;border-color:#444;color:#f0f0f5}
-body.light .opt-inp{background:#fff;border-color:#ddd;color:#0d0c1e}
-.opt-inp:focus{border-color:#6c63ff}
-.add-opt-btn{width:100%;background:transparent;border:1.5px dashed #6c63ff55;border-radius:10px;padding:7px;font-size:12px;color:#6c63ff;cursor:pointer;transition:.2s}
-.add-opt-btn:hover{border-color:#6c63ff;background:#6c63ff10}
-
-/* TEXTBOOK LIST */
-.tb-item{display:flex;justify-content:space-between;align-items:center;border-radius:12px;padding:12px 16px;margin-bottom:8px;border:1px solid}
-body.dark .tb-item{background:#23232f;border-color:#333}
-body.light .tb-item{background:#f8f7ff;border-color:#e0dfff}
-.tb-name{font-size:14px;font-weight:600}
-body.dark .tb-name{color:#f0f0f5}
-body.light .tb-name{color:#0d0c1e}
-.tb-grade{font-size:11px;margin-top:2px}
-body.dark .tb-grade{color:#666}
-body.light .tb-grade{color:#999}
-.tag{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600}
-.tag-school{background:#6c63ff18;color:#6c63ff}
-.tag-uni{background:#22c55e18;color:#22c55e}
-
 /* AI CHAT */
-.edu-tabs{display:flex;gap:8px;margin-bottom:14px}
-.edu-tab{flex:1;padding:10px;border-radius:12px;cursor:pointer;font-size:13px;font-weight:600;text-align:center;transition:.2s;border:1.5px solid}
-body.dark .edu-tab{border-color:#444;color:#666;background:transparent}
-body.light .edu-tab{border-color:#ddd;color:#999;background:transparent}
-.edu-tab.active{border-color:#6c63ff;color:#6c63ff;background:#6c63ff18}
-.chat-box{border-radius:16px;height:360px;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;margin-bottom:12px;border:1px solid}
-body.dark .chat-box{background:#1e1e2a;border-color:#333}
+.chat-box{border-radius:16px;height:400px;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;margin-bottom:12px;border:1px solid}
+body.dark .chat-box{background:#1a1a26;border-color:#2a2a3a}
 body.light .chat-box{background:#fff;border-color:#e0dfff}
 .msg{max-width:85%;padding:10px 14px;border-radius:14px;font-size:14px;line-height:1.6}
 .msg-u{background:linear-gradient(135deg,#6c63ff,#8b5cf6);color:white;align-self:flex-end;border-bottom-right-radius:4px}
 .msg-a{align-self:flex-start;border-bottom-left-radius:4px;border:1px solid}
-body.dark .msg-a{background:#23232f;border-color:#444;color:#ddd}
+body.dark .msg-a{background:#23232f;border-color:#333;color:#ddd}
 body.light .msg-a{background:#f8f7ff;border-color:#e0dfff;color:#333}
-.msg-a.nf{background:#ef444415;border-color:#ef444433;color:#ef4444}
-.msg-l{font-style:italic}
-body.dark .msg-l{color:#555}
-body.light .msg-l{color:#bbb}
+.msg-a.nf{background:#ef444412;border-color:#ef444430;color:#ef4444}
+.msg-l{font-style:italic;opacity:.6}
 .chat-row{display:flex;gap:8px}
-.chat-inp{flex:1;padding:12px 14px;border-radius:12px;font-size:14px;outline:none;border:1.5px solid;transition:.2s}
-body.dark .chat-inp{background:#23232f;border-color:#444;color:#f0f0f5}
-body.light .chat-inp{background:#f8f7ff;border-color:#ddd;color:#0d0c1e}
+.chat-inp{flex:1;padding:11px 14px;border-radius:12px;font-size:14px;outline:none;border:1.5px solid;transition:.2s}
+body.dark .chat-inp{background:#23232f;border-color:#333;color:#f0f0f5}
+body.light .chat-inp{background:#f8f7ff;border-color:#e0dfff;color:#0d0c1e}
 .chat-inp:focus{border-color:#6c63ff}
-.send-btn{background:linear-gradient(135deg,#6c63ff,#8b5cf6);color:white;border:none;border-radius:12px;padding:12px 18px;cursor:pointer;font-size:16px;transition:.2s}
-.send-btn:disabled{opacity:.5;cursor:not-allowed}
-
-/* CTRL ROW */
-.ctrl-row{display:flex;gap:10px;margin-top:14px}
-
+.send-btn{background:linear-gradient(135deg,#6c63ff,#8b5cf6);color:white;border:none;border-radius:12px;padding:11px 18px;cursor:pointer;font-size:16px}
+.send-btn:disabled{opacity:.4;cursor:not-allowed}
+/* PIN */
+.pin-hero{text-align:center;padding:16px 0 20px}
+.pin-icon{font-size:44px;margin-bottom:10px}
+.pin-title{font-size:20px;font-weight:800;margin-bottom:4px}
+body.dark .pin-title{color:#f0f0f5}
+body.light .pin-title{color:#0d0c1e}
+.pin-sub{font-size:13px}
+body.dark .pin-sub{color:#555}
+body.light .pin-sub{color:#aaa}
+.pin-input{width:100%;text-align:center;font-size:30px;font-weight:800;letter-spacing:10px;padding:16px;border-radius:14px;outline:none;margin-bottom:12px;border:2px solid;transition:.2s}
+body.dark .pin-input{background:#23232f;border-color:#333;color:#f0f0f5}
+body.light .pin-input{background:#f8f7ff;border-color:#e0dfff;color:#0d0c1e}
+.pin-input:focus{border-color:#6c63ff}
+/* GAME */
+.game-hdr{background:linear-gradient(135deg,#6c63ff,#8b5cf6);border-radius:18px;padding:22px;text-align:center;margin-bottom:12px;color:white}
+.game-pin-big{font-size:42px;font-weight:900;letter-spacing:8px;margin:6px 0}
+.mode-tag{display:inline-block;background:rgba(255,255,255,.2);padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600}
+.players-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.pl-chip{border-radius:10px;padding:10px;text-align:center;font-size:13px;font-weight:600;border:1px solid}
+body.dark .pl-chip{background:#23232f;border-color:#333;color:#eee}
+body.light .pl-chip{background:#f0efff;border-color:#e0dfff;color:#111}
+.q-card{border-radius:18px;padding:22px;margin-bottom:12px;border:1px solid}
+body.dark .q-card{background:#1e1e2a;border-color:#2a2a3a}
+body.light .q-card{background:#fff;border-color:#e0dfff}
+.q-num{font-size:12px;font-weight:600;margin-bottom:6px;opacity:.5}
+.q-text{font-size:18px;font-weight:700;line-height:1.4;margin-bottom:10px}
+.timer-bar{height:5px;border-radius:3px;overflow:hidden;margin-bottom:18px}
+body.dark .timer-bar{background:#2a2a3a}
+body.light .timer-bar{background:#e0dfff}
+.timer-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#ff6584);transition:width 1s linear}
+.opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{padding:16px 12px;border-radius:12px;cursor:pointer;font-size:14px;font-weight:600;text-align:center;transition:.2s;border:2px solid}
+body.dark .opt{background:#23232f;border-color:#333;color:#eee}
+body.light .opt{background:#f8f7ff;border-color:#e0dfff;color:#111}
+.opt:hover:not(:disabled){border-color:#6c63ff;background:#6c63ff12}
+.opt.correct{border-color:#22c55e!important;background:#22c55e12!important;color:#22c55e!important}
+.opt.wrong{border-color:#ef4444!important;background:#ef444412!important;color:#ef4444!important;text-decoration:line-through}
+.opt:disabled{cursor:not-allowed}
+.waiting-box{text-align:center;padding:40px 20px}
+.w-icon{font-size:48px;margin-bottom:12px}
+.w-title{font-size:18px;font-weight:800;margin-bottom:6px}
+body.dark .w-title{color:#f0f0f5}
+body.light .w-title{color:#0d0c1e}
+.w-sub{font-size:13px;margin-bottom:18px}
+body.dark .w-sub{color:#555}
+body.light .w-sub{color:#aaa}
+.dots{display:flex;justify-content:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:#6c63ff;animation:pulse 1.2s infinite}
+.dot:nth-child(2){animation-delay:.3s}.dot:nth-child(3){animation-delay:.6s}
+@keyframes pulse{0%,100%{opacity:.2;transform:scale(.8)}50%{opacity:1;transform:scale(1.1)}}
+.stats-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.stat-box{border-radius:12px;padding:14px;text-align:center;border:1px solid}
+.stat-box.g{border-color:#22c55e30;background:#22c55e08}
+.stat-box.r{border-color:#ef444430;background:#ef444408}
+.stat-num{font-size:24px;font-weight:800}
+.stat-box.g .stat-num{color:#22c55e}
+.stat-box.r .stat-num{color:#ef4444}
+.stat-label{font-size:12px;opacity:.6}
+.lb-item{display:flex;align-items:center;gap:12px;border-radius:12px;padding:12px 16px;margin-bottom:8px;border:1px solid}
+body.dark .lb-item{background:#1e1e2a;border-color:#2a2a3a}
+body.light .lb-item{background:#fff;border-color:#e0dfff}
+.lb-rank{font-size:20px;width:32px;text-align:center;flex-shrink:0}
+.lb-name{font-size:14px;font-weight:700;flex:1}
+body.dark .lb-name{color:#f0f0f5}
+body.light .lb-name{color:#0d0c1e}
+.lb-score{font-size:14px;font-weight:800;color:#6c63ff}
+/* QUIZ EDITOR */
+.qe{border-radius:14px;padding:16px;margin-bottom:10px;border:1px solid}
+body.dark .qe{background:#23232f;border-color:#333}
+body.light .qe{background:#f8f7ff;border-color:#e0dfff}
+.qe-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.qe-num{font-size:13px;font-weight:700;opacity:.6}
+.del-btn{background:none;border:none;color:#ef4444;cursor:pointer;font-size:15px;padding:2px 6px;border-radius:6px}
+.del-btn:hover{background:#ef444418}
+.opt-row{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.opt-radio{width:17px;height:17px;cursor:pointer;accent-color:#6c63ff;flex-shrink:0}
+.opt-inp{flex:1;padding:8px 11px;border-radius:9px;font-size:13px;outline:none;border:1.5px solid;transition:.2s}
+body.dark .opt-inp{background:#1a1a26;border-color:#333;color:#f0f0f5}
+body.light .opt-inp{background:#fff;border-color:#ddd;color:#111}
+.opt-inp:focus{border-color:#6c63ff}
+.add-opt-btn{width:100%;background:transparent;border:1.5px dashed #6c63ff44;border-radius:9px;padding:7px;font-size:12px;color:#6c63ff;cursor:pointer;margin-top:4px}
+.add-opt-btn:hover{border-color:#6c63ff;background:#6c63ff10}
+.sucbtn{background:linear-gradient(135deg,#22c55e,#16a34a);color:white;border:none;border-radius:12px;padding:11px 18px;font-size:14px;font-weight:700;cursor:pointer;flex:1}
+.sucbtn:hover{opacity:.9}
+.dbtn{background:transparent;border:1.5px solid #ef4444;color:#ef4444;border-radius:12px;padding:10px 16px;font-size:13px;font-weight:600;cursor:pointer}
+.dbtn:hover{background:#ef444412}
+.ctrl-row{display:flex;gap:10px}
+/* ADMIN */
+.tb-item{display:flex;justify-content:space-between;align-items:center;border-radius:12px;padding:12px 14px;margin-bottom:8px;border:1px solid}
+body.dark .tb-item{background:#23232f;border-color:#2a2a3a}
+body.light .tb-item{background:#f8f7ff;border-color:#e0dfff}
+.tb-name{font-size:14px;font-weight:600}
+body.dark .tb-name{color:#f0f0f5}
+body.light .tb-name{color:#111}
+.tag{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:#6c63ff18;color:#6c63ff}
+.cache-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid}
+body.dark .cache-row{border-color:#2a2a3a}
+body.light .cache-row{border-color:#e0dfff}
+.cache-ok{background:#22c55e18;color:#22c55e;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600}
+.cache-no{background:#ef444418;color:#ef4444;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600}
 /* TOAST */
-.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);border-radius:14px;padding:12px 20px;font-size:14px;display:flex;align-items:center;gap:10px;transition:transform .4s ease;z-index:999;white-space:nowrap;border:1px solid}
-body.dark .toast{background:#1e1e2a;border-color:#444;color:#bbb}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);border-radius:12px;padding:11px 20px;font-size:14px;display:flex;align-items:center;gap:10px;transition:transform .4s ease;z-index:999;white-space:nowrap;border:1px solid}
+body.dark .toast{background:#1e1e2a;border-color:#333;color:#bbb}
 body.light .toast{background:#fff;border-color:#ddd;color:#333;box-shadow:0 4px 20px rgba(0,0,0,.1)}
 .toast.show{transform:translateX(-50%) translateY(0)}
-.toast-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;flex-shrink:0}
-
-/* LIMIT BOX */
-.limit-box{border-radius:12px;padding:12px 14px;font-size:12px;line-height:1.6;border:1px solid;margin-top:4px}
-body.dark .limit-box{border-color:#444;color:#666}
-body.light .limit-box{border-color:#ddd;color:#999}
-
-/* UTIL */
+.toast-dot{width:7px;height:7px;border-radius:50%;background:#22c55e;flex-shrink:0}
 .hidden{display:none}
-.mt8{margin-top:8px}
-.mt14{margin-top:14px}
-.mb0{margin-bottom:0}
-.flex-row{display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap}
 </style>
 </head>
 <body class="dark">
-
-<!-- NAV -->
 <nav>
   <div class="nav-logo">O'zing <span>O'rgan</span></div>
   <div class="nav-right">
-    <div class="nav-user-info" id="nav-user">
+    <div class="nav-user" id="nav-user">
       <img id="nav-avatar" src="" alt="">
       <span id="nav-name"></span>
       <button class="btn-xs" onclick="signOut()">Chiqish</button>
     </div>
-    <button class="tmb" onclick="toggleTheme()">
-      <span id="ti">☀️</span><span id="tl">Light</span>
-    </button>
+    <button class="tmb" onclick="toggleTheme()"><span id="ti">☀️</span><span id="tl">Light</span></button>
   </div>
 </nav>
 
-<!-- ===== LANDING ===== -->
+<!-- LANDING -->
 <div class="page active" id="page-landing">
   <div class="orb o1"></div><div class="orb o2"></div>
   <div class="wrap">
     <div class="hero">
       <div class="hero-title">O'zing<br><span class="ls">O'rgan</span></div>
-      <div class="hero-sub" style="margin-top:8px">Mustaqil o'rganish platformasi — AI ustoz, jonli testlar va ko'p narsa</div>
+      <div class="hero-sub" style="margin-top:8px">Maktab darsligi asosida AI ustoz, jonli testlar va ko'p narsa</div>
     </div>
     <div class="card">
       <div id="main-panel">
@@ -351,38 +276,52 @@ body.light .limit-box{border-color:#ddd;color:#999}
         </button>
         <div class="divr"><div class="divr-l"></div><div class="divr-t">yoki</div><div class="divr-l"></div></div>
         <button class="sbtn" onclick="showGuest()">👤 Mehmon sifatida davom etish</button>
-        <div class="note">Eslatma: Mehmon sifatida ma'lumotlar saqlanmaydi</div>
-        <div class="pol">Kirib, siz <a href="#">Foydalanish shartlari</a> va <a href="#">Maxfiylik siyosati</a>ga rozilik bildirasiz</div>
+        <div class="note">Mehmon sifatida ma'lumotlar saqlanmaydi</div>
+        <div class="pol">Kirib, siz <a href="#">Foydalanish shartlari</a>ga rozilik bildirasiz</div>
       </div>
       <div id="guest-panel" class="hidden">
         <button class="back" onclick="hideGuest()">← Ortga</button>
-        <div style="font-size:18px;font-weight:800;margin-bottom:6px" id="gp-title">Mehmon rejimi</div>
-        <div style="font-size:13px;margin-bottom:18px;line-height:1.5" id="gp-sub">Hisob yaratmasdan bepul foydalaning. Ma'lumotlar faqat joriy sessiyada saqlanadi.</div>
+        <div style="font-size:17px;font-weight:800;margin-bottom:6px">Mehmon rejimi</div>
+        <div style="font-size:13px;margin-bottom:16px;line-height:1.5;opacity:.6">Hisob yaratmasdan foydalaning. Ma'lumotlar faqat joriy sessiyada saqlanadi.</div>
         <div class="feat-grid">
-          <div class="fc" onclick="goTo('ai-chat')"><div class="fc-icon">🤖</div><div class="fc-title">AI Ustoz</div><div class="fc-sub">Darslik asosida javob</div></div>
-          <div class="fc" onclick="goTo('join')"><div class="fc-icon">🎮</div><div class="fc-title">O'yinga kirish</div><div class="fc-sub">PIN bilan qo'shilish</div></div>
-          <div class="fc" onclick="showToast('Tez orada!')"><div class="fc-icon">🧩</div><div class="fc-title">Quiz</div><div class="fc-sub">Bilimingizni sinang</div></div>
-          <div class="fc" onclick="showToast('Tez orada!')"><div class="fc-icon">📊</div><div class="fc-title">Statistika</div><div class="fc-sub">Tez orada</div></div>
+          <div class="fc" onclick="goTo('ai-chat')"><div class="fc-icon">🤖</div><div class="fc-title">AI Ustoz</div><div class="fc-sub">Darslik asosida</div></div>
+          <div class="fc" onclick="goTo('join')"><div class="fc-icon">🎮</div><div class="fc-title">O'yinga kirish</div><div class="fc-sub">PIN bilan</div></div>
         </div>
-        <div class="limit-box"><strong>Cheklovlar:</strong> Kuniga 10 ta so'rov · Natijalar saqlanmaydi</div>
+        <div class="limit-box">Kuniga 10 ta so'rov · Natijalar saqlanmaydi</div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ===== DASHBOARD ===== -->
+<!-- DASHBOARD -->
 <div class="page" id="page-dashboard">
-  <div class="orb o1"></div><div class="orb o3"></div>
+  <div class="orb o1"></div>
+  <div class="wrap" style="padding-top:8px">
+    <div class="dash-welcome" id="dash-welcome">Xush kelibsiz! 👋</div>
+    <div class="dash-role role-student" id="dash-role">⭐ O'quvchi</div>
+    <div class="dash-grid" id="dash-cards"></div>
+  </div>
+</div>
+
+<!-- AI CHAT -->
+<div class="page" id="page-ai-chat">
   <div class="wrap">
-    <div style="padding-top:8px">
-      <div class="dash-welcome" id="dash-welcome">Xush kelibsiz! 👋</div>
-      <div class="dash-role role-student" id="dash-role">⭐ O'quvchi</div>
-      <div class="dash-grid" id="dash-cards"></div>
+    <button class="back" onclick="goBack()">← Orqaga</button>
+    <div style="margin-bottom:14px">
+      <div style="font-size:20px;font-weight:800">🤖 AI Tarix Ustozi</div>
+      <div style="font-size:13px;margin-top:4px;opacity:.5">Faqat maktab darsligi asosida javob beradi</div>
+    </div>
+    <div class="chat-box" id="chat-box">
+      <div class="msg msg-a">Salom! Men maktab tarix darsligi asosida savollarga javob beraman 📚<br><br>Savolingizni yozing!</div>
+    </div>
+    <div class="chat-row">
+      <input class="chat-inp" id="chat-inp" placeholder="Masalan: Paleolit davri nima?" onkeydown="if(event.key==='Enter'&&!event.shiftKey)sendMsg()">
+      <button class="send-btn" id="send-btn" onclick="sendMsg()">➤</button>
     </div>
   </div>
 </div>
 
-<!-- ===== O'YINGA QOSHILISH ===== -->
+<!-- JOIN -->
 <div class="page" id="page-join">
   <div class="orb o1"></div>
   <div class="wrap">
@@ -393,47 +332,41 @@ body.light .limit-box{border-color:#ddd;color:#999}
         <div class="pin-title">O'yinga qo'shilish</div>
         <div class="pin-sub">Ustoz bergan 6 xonali PIN kodni kiriting</div>
       </div>
-      <input class="pin-input" id="pin-input" placeholder="000000" maxlength="6" inputmode="numeric"
-        oninput="this.value=this.value.replace(/[^0-9]/g,'')" onkeydown="if(event.key==='Enter')joinGame()">
-      <div class="form-group">
-        <input class="form-input" id="nickname-input" placeholder="Ismingiz (masalan: Alisher)" style="text-align:center">
-      </div>
+      <input class="pin-input" id="pin-input" placeholder="000000" maxlength="6" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'')" onkeydown="if(event.key==='Enter')joinGame()">
+      <div class="form-group"><input class="form-input" id="nick-input" placeholder="Ismingiz" style="text-align:center"></div>
       <button class="pbtn" onclick="joinGame()" id="btn-join">Kirish →</button>
     </div>
   </div>
 </div>
 
-<!-- ===== O'YINCHI KUTISH ===== -->
+<!-- PLAYER WAITING -->
 <div class="page" id="page-player-waiting">
-  <div class="orb o1"></div>
   <div class="wrap">
     <div class="card">
       <div class="waiting-box">
         <div class="w-icon">⏳</div>
-        <div class="w-title" id="waiting-title">O'yin boshlanishini kuting</div>
-        <div class="w-sub" id="waiting-sub">Ustoz o'yinni boshlaganida avtomatik boshlanadi</div>
+        <div class="w-title" id="wt-title">O'yin boshlanishini kuting</div>
+        <div class="w-sub" id="wt-sub">Ustoz boshlaganida avtomatik boshlanadi</div>
         <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ===== O'YINCHI SAVOL ===== -->
+<!-- PLAYER QUESTION -->
 <div class="page" id="page-player-question">
   <div class="wrap" style="padding-top:8px">
     <div class="q-card">
       <div class="q-num" id="pq-num">Savol 1/10</div>
-      <div class="q-text" id="pq-text">Savol...</div>
+      <div class="q-text" id="pq-text">...</div>
       <div class="timer-bar"><div class="timer-fill" id="pq-timer" style="width:100%"></div></div>
       <div class="opts-grid" id="pq-opts"></div>
     </div>
-    <div style="text-align:center;font-size:13px" id="pq-score">
-      <span style="color:#6c63ff;font-weight:700" id="pq-score-val">0</span> ball
-    </div>
+    <div style="text-align:center;font-size:13px;opacity:.5">Ball: <strong style="color:#6c63ff" id="pq-score">0</strong></div>
   </div>
 </div>
 
-<!-- ===== JAVOB QABUL ===== -->
+<!-- PLAYER ANSWERED -->
 <div class="page" id="page-player-answered">
   <div class="wrap">
     <div class="card">
@@ -446,42 +379,41 @@ body.light .limit-box{border-color:#ddd;color:#999}
   </div>
 </div>
 
-<!-- ===== LEADERBOARD ===== -->
+<!-- LEADERBOARD -->
 <div class="page" id="page-leaderboard">
-  <div class="orb o1"></div>
   <div class="wrap" style="padding-top:16px">
     <div style="text-align:center;margin-bottom:20px">
-      <div style="font-size:40px">🏆</div>
-      <div style="font-size:22px;font-weight:800;margin-top:8px" id="lb-title">Natijalar</div>
+      <div style="font-size:36px">🏆</div>
+      <div style="font-size:20px;font-weight:800;margin-top:6px" id="lb-title">Natijalar</div>
     </div>
     <div id="lb-list"></div>
-    <button class="sbtn mt14" onclick="goTo('join')">🎮 Yangi o'yinga qo'shilish</button>
+    <button class="sbtn" style="margin-top:12px" onclick="goTo('join')">🎮 Yangi o'yinga kirish</button>
   </div>
 </div>
 
-<!-- ===== USTOZ LOBBY ===== -->
+<!-- HOST LOBBY -->
 <div class="page" id="page-host-lobby">
   <div class="wrap" style="padding-top:8px">
     <div class="game-hdr">
-      <div class="game-mode-tag" id="host-mode-tag">🔴 Real vaqt</div>
-      <div style="font-size:13px;opacity:.8;margin-top:6px">O'yin PIN kodi</div>
+      <div class="mode-tag" id="host-mode-tag">🔴 Real vaqt</div>
+      <div style="font-size:13px;opacity:.8;margin-top:6px">PIN kodi</div>
       <div class="game-pin-big" id="host-pin">------</div>
-      <div style="font-size:13px;opacity:.8" id="host-gtitle"></div>
+      <div style="font-size:13px;opacity:.7" id="host-gtitle"></div>
     </div>
     <div class="card">
-      <div style="font-size:13px;font-weight:600;margin-bottom:10px" id="pl-count-label">O'yinchilar (0)</div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:10px" id="pl-label">O'yinchilar (0)</div>
       <div class="players-wrap" id="pl-list"></div>
     </div>
-    <button class="sucbtn" onclick="startGame()" style="width:100%">▶ O'yinni boshlash</button>
+    <button class="sucbtn" onclick="startGame()" style="width:100%">▶ Boshlash</button>
   </div>
 </div>
 
-<!-- ===== USTOZ CONTROL ===== -->
+<!-- HOST CONTROL -->
 <div class="page" id="page-host-control">
   <div class="wrap" style="padding-top:8px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-      <div style="font-weight:800;font-size:16px" id="hctrl-title">O'yin</div>
-      <span style="font-size:13px" id="hctrl-prog"></span>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <div style="font-weight:800;font-size:15px" id="hc-title">O'yin</div>
+      <span style="font-size:13px;opacity:.5" id="hc-prog"></span>
     </div>
     <div class="q-card">
       <div class="q-num" id="hq-num">Savol 1</div>
@@ -489,31 +421,25 @@ body.light .limit-box{border-color:#ddd;color:#999}
       <div class="timer-bar"><div class="timer-fill" id="hq-timer" style="width:100%"></div></div>
     </div>
     <div class="stats-row">
-      <div class="stat-box green"><div class="stat-num" id="sc-correct">0</div><div class="stat-label">To'g'ri</div></div>
-      <div class="stat-box red"><div class="stat-num" id="sc-wrong">0</div><div class="stat-label">Xato</div></div>
+      <div class="stat-box g"><div class="stat-num" id="sc-c">0</div><div class="stat-label">To'g'ri</div></div>
+      <div class="stat-box r"><div class="stat-num" id="sc-w">0</div><div class="stat-label">Xato</div></div>
     </div>
-    <div style="font-size:13px;text-align:center;margin-bottom:14px">
-      Javob berdi: <strong id="sc-answered">0</strong> / <strong id="sc-total">0</strong>
-    </div>
+    <div style="font-size:13px;text-align:center;margin-bottom:12px;opacity:.5">Javob berdi: <strong id="sc-a">0</strong>/<strong id="sc-t">0</strong></div>
     <div class="ctrl-row">
-      <button class="sucbtn" onclick="nextQuestion()" id="btn-next-q">Keyingi →</button>
+      <button class="sucbtn" onclick="nextQ()">Keyingi →</button>
       <button class="dbtn" onclick="endGame()">Tugatish</button>
     </div>
   </div>
 </div>
 
-<!-- ===== O'YIN YARATISH ===== -->
+<!-- CREATE GAME -->
 <div class="page" id="page-create-game">
   <div class="wrap">
     <button class="back" onclick="goTo('dashboard')">← Orqaga</button>
-    <div class="stitle">🎮 Yangi o'yin yaratish</div>
+    <div class="stitle">🎮 Yangi o'yin</div>
     <div class="card">
-      <div class="form-group">
-        <label class="form-label">O'YIN NOMI</label>
-        <input class="form-input" id="game-title" placeholder="Masalan: 12-mavzu Toshkent mudofaasi">
-      </div>
-      <div class="form-group mb0">
-        <label class="form-label">REJIM</label>
+      <div class="form-group"><label class="form-label">O'YIN NOMI</label><input class="form-input" id="game-title" placeholder="12-mavzu: Toshkent mudofaasi"></div>
+      <div class="form-group" style="margin-bottom:0"><label class="form-label">REJIM</label>
         <select class="form-input" id="game-mode">
           <option value="live">🔴 Real vaqt — ustoz nazorat qiladi</option>
           <option value="free">🟢 Erkin — o'quvchi o'zi ishlaydi</option>
@@ -522,66 +448,47 @@ body.light .limit-box{border-color:#ddd;color:#999}
     </div>
     <div class="stitle">📝 Savollar</div>
     <div id="q-editor"></div>
-    <button class="sbtn" onclick="addQuestion()" style="margin-bottom:14px">+ Savol qo'shish</button>
+    <button class="sbtn" onclick="addQ()" style="margin-bottom:12px">+ Savol qo'shish</button>
     <button class="pbtn" onclick="createGame()" id="btn-create">🚀 O'yin yaratish va PIN olish</button>
   </div>
 </div>
 
-<!-- ===== AI CHAT ===== -->
-<div class="page" id="page-ai-chat">
-  <div class="wrap">
-    <button class="back" onclick="goTo('dashboard')">← Orqaga</button>
-    <div style="margin-bottom:14px">
-      <div style="font-size:20px;font-weight:800">🤖 AI Tarix Ustozi</div>
-      <div style="font-size:13px;margin-top:4px" id="ai-sub">Faqat darslik asosida javob beradi</div>
-    </div>
-    <div class="edu-tabs">
-      <button class="edu-tab active" id="tab-school" onclick="setEdu('school')">🏫 Maktab</button>
-      <button class="edu-tab" id="tab-uni" onclick="setEdu('university')">🎓 Oliy ta'lim</button>
-    </div>
-    <div class="chat-box" id="chat-box">
-      <div class="msg msg-a">Salom! Men tarix darsligi asosida savollarga javob beraman 📚</div>
-    </div>
-    <div class="chat-row">
-      <input class="chat-inp" id="chat-inp" placeholder="Savolingizni yozing..." onkeydown="if(event.key==='Enter')sendMsg()">
-      <button class="send-btn" id="send-btn" onclick="sendMsg()">➤</button>
-    </div>
-  </div>
-</div>
-
-<!-- ===== ADMIN PANEL ===== -->
+<!-- ADMIN -->
 <div class="page" id="page-admin">
   <div class="wrap">
     <button class="back" onclick="goTo('dashboard')">← Orqaga</button>
     <div class="stitle">📚 Darslik qo'shish</div>
     <div class="card">
-      <div class="form-group"><label class="form-label">DARSLIK NOMI</label><input class="form-input" id="tb-title" placeholder="O'zbekiston tarixi 9-sinf"></div>
-      <div class="form-group"><label class="form-label">TA'LIM TURI</label><select class="form-input" id="tb-edu"><option value="school">🏫 Maktab</option><option value="university">🎓 Oliy ta'lim</option></select></div>
-      <div class="form-group"><label class="form-label">SINF / KURS</label><input class="form-input" id="tb-grade" placeholder="9-sinf"></div>
-      <div class="form-group mb0"><label class="form-label">DARSLIK MATNI</label><textarea class="form-input" id="tb-content" placeholder="Darslik matnini shu yerga joylashtiring..."></textarea></div>
+      <div class="form-group"><label class="form-label">DARSLIK NOMI</label><input class="form-input" id="tb-title" placeholder="1-§. Qadimgi tarix"></div>
+      <div class="form-group"><label class="form-label">SINF</label><input class="form-input" id="tb-grade" placeholder="6-sinf"></div>
+      <div class="form-group" style="margin-bottom:0"><label class="form-label">DARSLIK MATNI</label><textarea class="form-input" id="tb-content" style="min-height:120px" placeholder="Darslik matnini shu yerga joylashtiring..."></textarea></div>
     </div>
     <button class="pbtn" onclick="saveTb()" style="margin-bottom:20px">💾 Saqlash</button>
-    <div class="stitle">📋 Yuklangan darsliklar</div>
-    <div id="tb-list"><div style="font-size:13px;opacity:.4">Yuklanmoqda...</div></div>
+    <div class="stitle">⚡ AI Cache</div>
+    <div class="card" style="margin-bottom:20px">
+      <div id="cache-status" style="margin-bottom:14px"></div>
+      <button class="sucbtn" onclick="refreshCache()" style="width:100%" id="btn-cache">🔄 Maktab cache ni yangilash</button>
+    </div>
+    <div class="stitle">📋 Darsliklar</div>
+    <div id="tb-list"><div style="font-size:13px;opacity:.3">Yuklanmoqda...</div></div>
   </div>
 </div>
 
-<!-- TOAST -->
-<div class="toast" id="toast"><div class="toast-dot"></div><span id="toast-msg">Xabar</span></div>
+<div class="toast" id="toast"><div class="toast-dot"></div><span id="toast-msg"></span></div>
 
 <script>
 const SB_URL='https://qwmdxhlutenxtvdwzbwa.supabase.co';
 const SB_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF3bWR4aGx1dGVueHR2ZHd6YndhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNDEwOTgsImV4cCI6MjA4ODYxNzA5OH0.wco-KXg6LyEFDxcDUJV5LEroFvo-g1XxbDw-X2dqfGQ';
-const {createClient}=supabase;
+const{createClient}=supabase;
 const sb=createClient(SB_URL,SB_KEY);
 
-let user=null,role='student',eduType='school';
+let user=null,role='student';
 let curGame=null,curPlayer=null,curQs=[],curQIdx=0;
 let timerInt=null,rtCh=null,ansCh=null;
 let hist=[];
+let dark=true;
 
 // THEME
-let dark=true;
 function toggleTheme(){
   dark=!dark;
   document.body.className=dark?'dark':'light';
@@ -592,28 +499,30 @@ function toggleTheme(){
 // AUTH
 sb.auth.onAuthStateChange(async(e,s)=>{
   if(s?.user){user=s.user;await showDash(s.user);}
-  else{user=null;goTo('landing');document.getElementById('nav-user').style.display='none';}
+  else{user=null;showPage('landing');document.getElementById('nav-user').style.display='none';}
 });
+
 async function signInWithGoogle(){
-  await sb.auth.signInWithOAuth({provider:'google',options:{redirectTo:'https://tarix-platform.vercel.app'}});
+  const{error}=await sb.auth.signInWithOAuth({
+    provider:'google',
+    options:{redirectTo:'https://tarix-platform.vercel.app'}
+  });
+  if(error)toast('Xatolik: '+error.message);
 }
 async function signOut(){await sb.auth.signOut();}
 
-// GUEST
 function showGuest(){
   document.getElementById('main-panel').classList.add('hidden');
   document.getElementById('guest-panel').classList.remove('hidden');
-  showToast("Mehmon rejimiga o'tildi");
+  toast("Mehmon rejimiga o'tildi");
 }
 function hideGuest(){
   document.getElementById('main-panel').classList.remove('hidden');
   document.getElementById('guest-panel').classList.add('hidden');
 }
 
-// NAV
 async function showDash(u){
-  const nu=document.getElementById('nav-user');
-  nu.style.display='flex';
+  document.getElementById('nav-user').style.display='flex';
   document.getElementById('nav-avatar').src=u.user_metadata?.avatar_url||'';
   document.getElementById('nav-name').textContent=(u.user_metadata?.full_name||u.email).split(' ')[0];
   const{data:p}=await sb.from('profiles').select('role').eq('id',u.id).single();
@@ -624,18 +533,18 @@ async function showDash(u){
   rEl.textContent=role==='admin'?'⚡ Admin':'⭐ O\'quvchi';
   rEl.className='dash-role '+(role==='admin'?'role-admin':'role-student');
   const cards=role==='admin'?[
-    {i:'🎮',t:"O'yin yaratish",s:'Kahoot uslubida test',p:'create-game'},
+    {i:'🎮',t:'O\'yin yaratish',s:'Kahoot uslubida',p:'create-game'},
     {i:'🤖',t:'AI Ustoz',s:'Darslik asosida',p:'ai-chat'},
-    {i:'📚',t:'Darsliklar',s:'Matn yuklash',p:'admin'},
-    {i:'🎯',t:"O'yinga kirish",s:'PIN bilan',p:'join'},
+    {i:'📚',t:'Darsliklar',s:'Matn va cache',p:'admin'},
+    {i:'🎯',t:'O\'yinga kirish',s:'PIN bilan',p:'join'},
   ]:[
-    {i:'🎮',t:"O'yinga kirish",s:'PIN bilan qo\'shilish',p:'join'},
+    {i:'🎮',t:'O\'yinga kirish',s:'PIN bilan qo\'shilish',p:'join'},
     {i:'🤖',t:'AI Ustoz',s:'Darslik asosida',p:'ai-chat'},
     {i:'📝',t:'Testlar',s:'Tez orada',p:null},
     {i:'🔁',t:'Takrorlash',s:'Tez orada',p:null},
   ];
   document.getElementById('dash-cards').innerHTML=cards.map(c=>`
-    <div class="dc" onclick="${c.p?`goTo('${c.p}')`:"showToast('Tez orada!')"}">
+    <div class="dc" onclick="${c.p?`goTo('${c.p}')`:"toast('Tez orada!')"}">
       <div class="dc-icon">${c.i}</div>
       <div class="dc-title">${c.t}</div>
       <div class="dc-sub">${c.s}</div>
@@ -643,41 +552,99 @@ async function showDash(u){
   goTo('dashboard');
 }
 
-// PAGES
+// NAVIGATSIYA
+function showPage(p){
+  document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
+  const el=document.getElementById('page-'+p);
+  if(el)el.classList.add('active');
+  window.scrollTo(0,0);
+}
 function goTo(p){
   hist.push(p);
-  document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
-  document.getElementById('page-'+p).classList.add('active');
-  window.scrollTo(0,0);
-  if(p==='admin')loadTbs();
-  if(p==='create-game'&&document.getElementById('q-editor').children.length===0)addQuestion();
+  showPage(p);
+  if(p==='admin'){loadTbs();loadCacheStatus();}
+  if(p==='create-game'&&document.getElementById('q-editor').children.length===0)addQ();
 }
 function goBack(){
   hist.pop();
-  const prev=hist.pop()||'landing';
-  goTo(prev);
+  const prev=hist[hist.length-1]||'landing';
+  showPage(prev);
+}
+
+// ===== AI CHAT =====
+async function sendMsg(){
+  const inp=document.getElementById('chat-inp');
+  const q=inp.value.trim();
+  if(!q)return;
+  
+  const box=document.getElementById('chat-box');
+  // Foydalanuvchi xabari
+  box.innerHTML+=`<div class="msg msg-u">${q}</div>`;
+  inp.value='';
+  document.getElementById('send-btn').disabled=true;
+  
+  // Yuklash ko'rsatkichi
+  const lid='l'+Date.now();
+  box.innerHTML+=`<div class="msg msg-a msg-l" id="${lid}">⏳ Darslikdan qidirilmoqda...</div>`;
+  box.scrollTop=box.scrollHeight;
+
+  try{
+    // Token olish
+    const{data:{session}}=await sb.auth.getSession();
+    const token=session?.access_token||SB_KEY;
+
+    const res=await fetch(`${SB_URL}/functions/v1/ai-ustoz`,{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        'Authorization':'Bearer '+token,
+        'apikey':SB_KEY
+      },
+      body:JSON.stringify({
+        question:q,
+        education_type:'school'
+      })
+    });
+
+    if(!res.ok){
+      const err=await res.text();
+      throw new Error('Server xatosi: '+res.status+' - '+err.substring(0,100));
+    }
+
+    const data=await res.json();
+    document.getElementById(lid)?.remove();
+
+    if(data.error){
+      box.innerHTML+=`<div class="msg msg-a nf">❌ ${data.error}</div>`;
+    } else {
+      const cls=data.found_in_textbook===false?'nf':'';
+      box.innerHTML+=`<div class="msg msg-a ${cls}">${data.answer}</div>`;
+    }
+  }catch(e){
+    document.getElementById(lid)?.remove();
+    box.innerHTML+=`<div class="msg msg-a nf">❌ Xatolik: ${e.message}</div>`;
+    console.error('AI xatolik:',e);
+  }
+  
+  document.getElementById('send-btn').disabled=false;
+  box.scrollTop=box.scrollHeight;
 }
 
 // ===== O'YIN YARATISH =====
 let qCount=0;
-function addQuestion(){
+function addQ(){
   qCount++;
   const id='q'+qCount;
   const d=document.createElement('div');
   d.className='qe';d.id=id;
   d.innerHTML=`
-    <div class="qe-hdr">
-      <span class="qe-num">Savol ${qCount}</span>
-      <button class="del-btn" onclick="document.getElementById('${id}').remove()">✕</button>
-    </div>
-    <div class="form-group">
-      <input class="form-input" placeholder="Savol matni..." id="${id}t">
-    </div>
-    <div style="font-size:11px;font-weight:600;margin-bottom:8px;opacity:.5">TO'G'RI JAVOBNI BELGILANG:</div>
+    <div class="qe-hdr"><span class="qe-num">Savol ${qCount}</span><button class="del-btn" onclick="document.getElementById('${id}').remove()">✕</button></div>
+    <div class="form-group"><input class="form-input" placeholder="Savol matni..." id="${id}t"></div>
+    <div style="font-size:11px;font-weight:600;margin-bottom:8px;opacity:.4;letter-spacing:.03em">TO'G'RI JAVOBNI BELGILANG:</div>
     <div id="${id}o">
-      <div class="opt-row"><input type="radio" name="${id}r" class="opt-radio" value="0" checked><input class="opt-inp" placeholder="Variant A" id="${id}o0"><button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>
-      <div class="opt-row"><input type="radio" name="${id}r" class="opt-radio" value="1"><input class="opt-inp" placeholder="Variant B" id="${id}o1"><button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>
-      <div class="opt-row"><input type="radio" name="${id}r" class="opt-radio" value="2"><input class="opt-inp" placeholder="Variant C" id="${id}o2"><button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>
+      <div class="opt-row"><input type="radio" name="${id}r" class="opt-radio" value="0" checked><input class="opt-inp" placeholder="Variant A"><button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>
+      <div class="opt-row"><input type="radio" name="${id}r" class="opt-radio" value="1"><input class="opt-inp" placeholder="Variant B"><button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>
+      <div class="opt-row"><input type="radio" name="${id}r" class="opt-radio" value="2"><input class="opt-inp" placeholder="Variant C"><button class="del-btn" onclick="this.parentElement.remove()">✕</button></div>
     </div>
     <button class="add-opt-btn" onclick="addOpt('${id}')">+ Variant qo'shish</button>`;
   document.getElementById('q-editor').appendChild(d);
@@ -687,13 +654,13 @@ function addOpt(qid){
   const idx=opts.children.length;
   const row=document.createElement('div');
   row.className='opt-row';
-  row.innerHTML=`<input type="radio" name="${qid}r" class="opt-radio" value="${idx}"><input class="opt-inp" placeholder="Variant ${String.fromCharCode(65+idx)}" id="${qid}o${idx}"><button class="del-btn" onclick="this.parentElement.remove()">✕</button>`;
+  row.innerHTML=`<input type="radio" name="${qid}r" class="opt-radio" value="${idx}"><input class="opt-inp" placeholder="Variant ${String.fromCharCode(65+idx)}"><button class="del-btn" onclick="this.parentElement.remove()">✕</button>`;
   opts.appendChild(row);
 }
 async function createGame(){
   const title=document.getElementById('game-title').value.trim();
   const mode=document.getElementById('game-mode').value;
-  if(!title){showToast("O'yin nomini kiriting!");return;}
+  if(!title){toast("O'yin nomini kiriting!");return;}
   const editors=document.querySelectorAll('.qe');
   const questions=[];
   for(const ed of editors){
@@ -707,25 +674,25 @@ async function createGame(){
     rows.forEach((r,i)=>{const inp=r.querySelector('.opt-inp');if(inp?.value.trim())opts.push({text:inp.value.trim(),isCorrect:i===ci});});
     if(opts.length>=2)questions.push({question_text:qt,options:opts,time_limit:30});
   }
-  if(!questions.length){showToast('Kamida 1 savol kerak!');return;}
+  if(!questions.length){toast('Kamida 1 savol kerak!');return;}
   const btn=document.getElementById('btn-create');
   btn.disabled=true;btn.textContent='Yaratilmoqda...';
   try{
-    const s=await sb.auth.getSession();
+    const{data:{session}}=await sb.auth.getSession();
     const res=await fetch(`${SB_URL}/functions/v1/create-game`,{
       method:'POST',
-      headers:{'Content-Type':'application/json','Authorization':`Bearer ${s.data.session?.access_token}`},
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+session?.access_token,'apikey':SB_KEY},
       body:JSON.stringify({title,mode,questions})
     });
     const data=await res.json();
     if(data.error)throw new Error(data.error);
     curGame={id:data.game_id,pin:data.pin,title,mode};
     showHostLobby();
-  }catch(e){showToast('Xatolik: '+e.message);}
+  }catch(e){toast('Xatolik: '+e.message);}
   btn.disabled=false;btn.textContent='🚀 O\'yin yaratish va PIN olish';
 }
 
-// LOBBY
+// HOST LOBBY
 function showHostLobby(){
   document.getElementById('host-pin').textContent=curGame.pin;
   document.getElementById('host-gtitle').textContent=curGame.title;
@@ -743,30 +710,28 @@ function subPlayers(){
 async function updatePls(){
   const{data}=await sb.from('game_players').select('*').eq('game_id',curGame.id).order('joined_at');
   if(!data)return;
-  document.getElementById('pl-count-label').textContent=`O'yinchilar (${data.length})`;
+  document.getElementById('pl-label').textContent=`O'yinchilar (${data.length})`;
   document.getElementById('pl-list').innerHTML=data.map(p=>`<div class="pl-chip">${p.nickname}</div>`).join('');
 }
 async function startGame(){
   await sb.from('games').update({status:'active',current_question_index:0}).eq('id',curGame.id);
   curQIdx=0;showHostQ();
 }
-
-// USTOZ SAVOL
 async function showHostQ(){
   const{data:qs}=await sb.from('game_questions').select('*').eq('game_id',curGame.id).order('order_index');
   curQs=qs;
   if(curQIdx>=curQs.length){endGame();return;}
   const q=curQs[curQIdx];
   goTo('host-control');
-  document.getElementById('hctrl-title').textContent=curGame.title;
-  document.getElementById('hctrl-prog').textContent=`${curQIdx+1} / ${curQs.length}`;
+  document.getElementById('hc-title').textContent=curGame.title;
+  document.getElementById('hc-prog').textContent=`${curQIdx+1}/${curQs.length}`;
   document.getElementById('hq-num').textContent=`Savol ${curQIdx+1}`;
   document.getElementById('hq-text').textContent=q.question_text;
-  document.getElementById('sc-correct').textContent='0';
-  document.getElementById('sc-wrong').textContent='0';
-  document.getElementById('sc-answered').textContent='0';
+  document.getElementById('sc-c').textContent='0';
+  document.getElementById('sc-w').textContent='0';
+  document.getElementById('sc-a').textContent='0';
   const{data:pls}=await sb.from('game_players').select('id').eq('game_id',curGame.id);
-  document.getElementById('sc-total').textContent=pls?.length||0;
+  document.getElementById('sc-t').textContent=pls?.length||0;
   await sb.from('games').update({current_question_index:curQIdx}).eq('id',curGame.id);
   startTimer(q.time_limit||30,'hq-timer');
   trackAns(q.id);
@@ -778,25 +743,23 @@ function trackAns(qid){
       const{data}=await sb.from('game_answers').select('is_correct').eq('game_id',curGame.id).eq('question_id',qid);
       if(!data)return;
       const c=data.filter(a=>a.is_correct).length;
-      document.getElementById('sc-answered').textContent=data.length;
-      document.getElementById('sc-correct').textContent=c;
-      document.getElementById('sc-wrong').textContent=data.length-c;
+      document.getElementById('sc-a').textContent=data.length;
+      document.getElementById('sc-c').textContent=c;
+      document.getElementById('sc-w').textContent=data.length-c;
     }).subscribe();
 }
 function startTimer(sec,id){
   if(timerInt)clearInterval(timerInt);
   let l=sec;
   const f=document.getElementById(id);
-  f.style.width='100%';
-  f.style.background='linear-gradient(90deg,#6c63ff,#ff6584)';
+  f.style.width='100%';f.style.background='linear-gradient(90deg,#6c63ff,#ff6584)';
   timerInt=setInterval(()=>{
-    l--;
-    f.style.width=(l/sec*100)+'%';
+    l--;f.style.width=(l/sec*100)+'%';
     if(l<=5)f.style.background='#ef4444';
     if(l<=0)clearInterval(timerInt);
   },1000);
 }
-async function nextQuestion(){
+async function nextQ(){
   if(timerInt)clearInterval(timerInt);
   curQIdx++;
   if(curQIdx>=curQs.length){endGame();return;}
@@ -812,34 +775,30 @@ async function showLb(){
   document.getElementById('lb-title').textContent=curGame?.title||'Natijalar';
   const m=['🥇','🥈','🥉'];
   document.getElementById('lb-list').innerHTML=(data||[]).map((p,i)=>`
-    <div class="lb-item">
-      <div class="lb-rank">${m[i]||(i+1)}</div>
-      <div class="lb-name">${p.nickname}</div>
-      <div class="lb-score">${p.score} ball</div>
-    </div>`).join('');
+    <div class="lb-item"><div class="lb-rank">${m[i]||(i+1)}</div><div class="lb-name">${p.nickname}</div><div class="lb-score">${p.score} ball</div></div>`).join('');
   goTo('leaderboard');
 }
 
 // O'YINCHI
 async function joinGame(){
   const pin=document.getElementById('pin-input').value.trim();
-  const nick=document.getElementById('nickname-input').value.trim();
-  if(pin.length!==6){showToast('6 xonali PIN kiriting!');return;}
-  if(!nick){showToast('Ismingizni kiriting!');return;}
+  const nick=document.getElementById('nick-input').value.trim();
+  if(pin.length!==6){toast('6 xonali PIN kiriting!');return;}
+  if(!nick){toast('Ismingizni kiriting!');return;}
   const btn=document.getElementById('btn-join');
   btn.disabled=true;btn.textContent='Kirilmoqda...';
   try{
     const{data:game,error}=await sb.from('games').select('*').eq('pin',pin).single();
-    if(error||!game){showToast("PIN noto'g'ri!");btn.disabled=false;btn.textContent='Kirish →';return;}
-    if(game.status==='finished'){showToast("O'yin tugagan!");btn.disabled=false;btn.textContent='Kirish →';return;}
+    if(error||!game){toast("PIN noto'g'ri!");btn.disabled=false;btn.textContent='Kirish →';return;}
+    if(game.status==='finished'){toast("O'yin tugagan!");btn.disabled=false;btn.textContent='Kirish →';return;}
     const{data:player,error:pe}=await sb.from('game_players').insert({game_id:game.id,nickname:nick,user_id:user?.id||null}).select().single();
     if(pe)throw pe;
     curGame=game;curPlayer=player;
-    document.getElementById('waiting-title').textContent=game.title;
-    document.getElementById('waiting-sub').textContent=`Siz: ${nick} | Ustoz boshlashini kuting...`;
+    document.getElementById('wt-title').textContent=game.title;
+    document.getElementById('wt-sub').textContent='Siz: '+nick+' | Ustoz boshlashini kuting...';
     if(game.mode==='free'){await loadFree();}
     else{goTo('player-waiting');watchGame();}
-  }catch(e){showToast('Xatolik: '+e.message);}
+  }catch(e){toast('Xatolik: '+e.message);}
   btn.disabled=false;btn.textContent='Kirish →';
 }
 function watchGame(){
@@ -857,14 +816,14 @@ async function showPQ(idx){
   curQs=qs;curQIdx=idx;
   const q=qs[idx];
   goTo('player-question');
-  document.getElementById('pq-num').textContent=`Savol ${idx+1} / ${qs.length}`;
+  document.getElementById('pq-num').textContent=`Savol ${idx+1}/${qs.length}`;
   document.getElementById('pq-text').textContent=q.question_text;
-  document.getElementById('pq-score-val').textContent=curPlayer?.score||0;
-  const colors=['#6c63ff18','#ff658418','#22c55e18','#f59e0b18','#8b5cf618','#ec489918'];
-  const bdrs=['#6c63ff44','#ff658444','#22c55e44','#f59e0b44','#8b5cf644','#ec489944'];
+  document.getElementById('pq-score').textContent=curPlayer?.score||0;
+  const colors=['#6c63ff18','#ff658418','#22c55e18','#f59e0b18'];
+  const bords=['#6c63ff44','#ff658444','#22c55e44','#f59e0b44'];
   const sh=[...q.options].sort(()=>Math.random()-.5);
   document.getElementById('pq-opts').innerHTML=sh.map((o,i)=>`
-    <button class="opt" style="background:${colors[i]};border-color:${bdrs[i]}" onclick="submitAns('${q.id}','${o.text.replace(/'/g,"\\'")}',${o.isCorrect},this)">${o.text}</button>`).join('');
+    <button class="opt" style="background:${colors[i]};border-color:${bords[i]}" onclick="submitAns('${q.id}','${o.text.replace(/'/g,"\\'").replace(/"/g,"&quot;")}',${o.isCorrect},this)">${o.text}</button>`).join('');
   startTimer(q.time_limit||30,'pq-timer');
 }
 async function submitAns(qid,text,correct,btn){
@@ -879,71 +838,75 @@ async function submitAns(qid,text,correct,btn){
   }
   document.getElementById('ans-icon').textContent=correct?'✅':'❌';
   document.getElementById('ans-title').textContent=correct?"To'g'ri! +100 ball 🎉":'Xato...';
-  setTimeout(()=>goTo('player-answered'),800);
+  setTimeout(()=>goTo('player-answered'),700);
 }
 async function loadFree(){
   const{data:qs}=await sb.from('game_questions').select('*').eq('game_id',curGame.id).order('order_index');
   curQs=qs;curQIdx=0;showPQ(0);
 }
 
-// AI CHAT
-function setEdu(t){
-  eduType=t;
-  document.getElementById('tab-school').classList.toggle('active',t==='school');
-  document.getElementById('tab-uni').classList.toggle('active',t==='university');
-}
-async function sendMsg(){
-  const inp=document.getElementById('chat-inp');
-  const q=inp.value.trim();if(!q)return;
-  const box=document.getElementById('chat-box');
-  box.innerHTML+=`<div class="msg msg-u">${q}</div>`;
-  inp.value='';
-  document.getElementById('send-btn').disabled=true;
-  const lid='l'+Date.now();
-  box.innerHTML+=`<div class="msg msg-a msg-l" id="${lid}">⏳ Darslikdan qidirilmoqda...</div>`;
-  box.scrollTop=box.scrollHeight;
-  try{
-    const s=await sb.auth.getSession();
-    const res=await fetch(`${SB_URL}/functions/v1/ai-ustoz`,{
-      method:'POST',
-      headers:{'Content-Type':'application/json','Authorization':`Bearer ${s.data.session?.access_token}`},
-      body:JSON.stringify({question:q,education_type:eduType})
-    });
-    const data=await res.json();
-    document.getElementById(lid)?.remove();
-    box.innerHTML+=`<div class="msg msg-a ${data.found_in_textbook===false?'nf':''}">${data.answer||data.error}</div>`;
-  }catch(e){
-    document.getElementById(lid)?.remove();
-    box.innerHTML+=`<div class="msg msg-a nf">Xatolik: ${e.message}</div>`;
-  }
-  document.getElementById('send-btn').disabled=false;
-  box.scrollTop=box.scrollHeight;
-}
-
 // ADMIN
 async function saveTb(){
   const t=document.getElementById('tb-title').value.trim();
   const c=document.getElementById('tb-content').value.trim();
-  if(!t||!c){showToast('Nom va matn kerak!');return;}
-  const{error}=await sb.from('textbooks').insert({title:t,subject:'Tarix',education_type:document.getElementById('tb-edu').value,grade:document.getElementById('tb-grade').value,content:c,uploaded_by:user?.id});
-  if(error){showToast('Xatolik: '+error.message);return;}
-  showToast('Saqlandi ✅');
-  document.getElementById('tb-title').value='';document.getElementById('tb-content').value='';
+  if(!t||!c){toast('Nom va matn kerak!');return;}
+  const{error}=await sb.from('textbooks').insert({
+    title:t,subject:'Tarix',education_type:'school',
+    grade:document.getElementById('tb-grade').value,
+    content:c,uploaded_by:user?.id
+  });
+  if(error){toast('Xatolik: '+error.message);return;}
+  toast('Darslik saqlandi ✅');
+  document.getElementById('tb-title').value='';
+  document.getElementById('tb-content').value='';
   loadTbs();
 }
 async function loadTbs(){
   const{data}=await sb.from('textbooks').select('*').order('created_at',{ascending:false});
   const el=document.getElementById('tb-list');
-  if(!data?.length){el.innerHTML='<div style="opacity:.4;font-size:13px">Hali darslik yuklanmagan</div>';return;}
+  if(!data?.length){el.innerHTML='<div style="opacity:.3;font-size:13px">Hali darslik yuklanmagan</div>';return;}
   el.innerHTML=data.map(t=>`
     <div class="tb-item">
-      <div><div class="tb-name">${t.title}</div><div class="tb-grade">${t.grade||''}</div></div>
-      <span class="tag ${t.education_type==='university'?'tag-uni':'tag-school'}">${t.education_type==='university'?'🎓 Oliy':'🏫 Maktab'}</span>
+      <div><div class="tb-name">${t.title}</div><div style="font-size:11px;opacity:.4;margin-top:2px">${t.grade||''}</div></div>
+      <span class="tag">🏫 ${t.grade||'Maktab'}</span>
     </div>`).join('');
+}
+async function loadCacheStatus(){
+  const{data}=await sb.from('gemini_cache').select('*').eq('education_type','school').single();
+  const el=document.getElementById('cache-status');
+  if(!el)return;
+  if(!data?.cache_name){
+    el.innerHTML='<div style="font-size:13px;opacity:.5">Cache hali yaratilmagan. Darslik qo\'shib, yangilang.</div>';
+  } else {
+    const exp=new Date(data.expires_at);
+    const days=Math.ceil((exp-Date.now())/(1000*60*60*24));
+    el.innerHTML=`
+      <div class="cache-row"><span style="font-size:13px;font-weight:600">Maktab cache</span><span class="${days>0?'cache-ok':'cache-no'}">${days>0?days+' kun qoldi':'Muddati o\'tgan'}</span></div>
+      <div style="font-size:12px;opacity:.4;margin-top:8px">${data.textbook_count||0} darslik · ${data.total_chars||0} belgi</div>`;
+  }
+}
+async function refreshCache(){
+  const btn=document.getElementById('btn-cache');
+  btn.disabled=true;btn.textContent='⏳ Yangilanmoqda...';
+  try{
+    const{data:{session}}=await sb.auth.getSession();
+    const res=await fetch(`${SB_URL}/functions/v1/refresh-cache`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+session?.access_token,'apikey':SB_KEY},
+      body:JSON.stringify({education_type:'school'})
+    });
+    const data=await res.json();
+    const r=data.results?.[0];
+    if(r?.status==='ok')toast(`✅ Cache yangilandi! (${r.books} darslik)`);
+    else if(r?.status==='skip')toast('⚠️ Avval darslik qo\'shing');
+    else toast('Xatolik: '+(r?.error||JSON.stringify(data)));
+    loadCacheStatus();
+  }catch(e){toast('Xatolik: '+e.message);}
+  btn.disabled=false;btn.textContent='🔄 Maktab cache ni yangilash';
 }
 
 // TOAST
-function showToast(m){
+function toast(m){
   const t=document.getElementById('toast');
   document.getElementById('toast-msg').textContent=m;
   t.classList.add('show');
