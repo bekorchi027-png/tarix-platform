@@ -497,10 +497,29 @@ function toggleTheme(){
 }
 
 // AUTH
-sb.auth.onAuthStateChange(async(e,s)=>{
-  if(s?.user){user=s.user;await showDash(s.user);}
-  else{user=null;showPage('landing');document.getElementById('nav-user').style.display='none';}
-});
+async function initAuth(){
+  // URL da hash token bo'lsa tozala (Google redirect)
+  if(window.location.hash&&window.location.hash.includes('access_token')){
+    window.history.replaceState(null,'',window.location.pathname);
+  }
+  // Joriy sessiyani tekshir
+  const{data:{session}}=await sb.auth.getSession();
+  if(session?.user){
+    user=session.user;
+    await showDash(session.user);
+  }
+  // O'zgarishlarni kuzat
+  sb.auth.onAuthStateChange(async(e,s)=>{
+    if(e==='SIGNED_IN'&&s?.user&&!user){
+      user=s.user;
+      await showDash(s.user);
+    } else if(e==='SIGNED_OUT'){
+      user=null;hist=[];
+      showPage('landing');
+      document.getElementById('nav-user').style.display='none';
+    }
+  });
+}
 
 async function signInWithGoogle(){
   const{error}=await sb.auth.signInWithOAuth({
@@ -509,7 +528,16 @@ async function signInWithGoogle(){
   });
   if(error)toast('Xatolik: '+error.message);
 }
-async function signOut(){await sb.auth.signOut();}
+
+async function signOut(){
+  await sb.auth.signOut();
+  user=null;hist=[];
+  showPage('landing');
+  document.getElementById('nav-user').style.display='none';
+}
+
+// Ilovani ishga tushir
+initAuth();
 
 function showGuest(){
   document.getElementById('main-panel').classList.add('hidden');
