@@ -1,0 +1,6 @@
+{
+  "headers": [
+    { "source": "/tests.json", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/tests/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }
+  ]
+}

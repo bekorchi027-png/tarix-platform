@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>O'zing O'rgan · Tarix sinov testlari</title>
+<meta name="description" content="O'zing O'rgan: kursdoshlar uchun tarix fanidan onlayn sinov testlari. 45 topshiriq, 90 daqiqa, natija darhol avtomatik hisoblanadi.">
+<meta name="keywords" content="O'zing O'rgan, Ozing Organ, O‘zing o‘rgan, Oʻzing oʻrgan, ozing-organ, ozing-organ.uz">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://ozing-organ.uz/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="O'zing O'rgan">
+<meta property="og:title" content="O'zing O'rgan · Tarix sinov testlari">
+<meta property="og:description" content="O'zing O'rgan: kursdoshlar uchun tarix fanidan onlayn sinov testlari. 45 topshiriq, 90 daqiqa, natija darhol avtomatik hisoblanadi.">
+<meta property="og:url" content="https://ozing-organ.uz/">
+<meta property="og:locale" content="uz_UZ">
+<meta property="og:image" content="https://ozing-organ.uz/icon-192.png">
+<meta name="theme-color" content="#1f4f7a">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"O'zing O'rgan","alternateName":["Ozing Organ","Oʻzing oʻrgan","ozing-organ.uz"],"url":"https://ozing-organ.uz/","inLanguage":"uz"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: exam booklet. Sticky timer bar, one task per sheet, answer-sheet grid of 45 bubbles beside it (below on phones). */
+:root{
+  --paper:#f3f5f4; --sheet:#ffffff; --ink:#1b2430; --muted:#5d6b78; --line:#d6dde2;
+  --accent:#1f4f7a; --accent-soft:#e3ecf4; --ok:#1f7a4d; --ok-soft:#e1f2e8; --bad:#b3372f; --bad-soft:#f8e3e1; --flag:#b7791f;
+  --display:"Alegreya",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#11161b; --sheet:#1a2027; --ink:#e4e9ee; --muted:#9aa7b3; --line:#2e3742;
+  --accent:#7fb0dd; --accent-soft:#1f2f40; --ok:#5cc28f; --ok-soft:#173226; --bad:#ec8077; --bad-soft:#3a1f1d; --flag:#e0a94a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#11161b; --sheet:#1a2027; --ink:#e4e9ee; --muted:#9aa7b3; --line:#2e3742;
+  --accent:#7fb0dd; --accent-soft:#1f2f40; --ok:#5cc28f; --ok-soft:#173226; --bad:#ec8077; --bad-soft:#3a1f1d; --flag:#e0a94a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:15px/1.6 var(--body);margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+button{font:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--sheet);padding:10px 18px;border-radius:6px;font-weight:600}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:disabled{opacity:.4;cursor:default}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* Start */
+.cover{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:28px;display:grid;gap:20px;max-width:720px}
+.cover h1{font-size:clamp(28px,5vw,40px)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.fact{border-top:2px solid var(--accent);padding-top:8px}
+.fact b{display:block;font-family:var(--mono);font-size:22px}
+.rules{margin:0;padding-left:18px;color:var(--muted);display:grid;gap:4px}
+.note{font-size:13px;color:var(--muted)}
+
+/* Exam */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--line);margin-inline:-16px;padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.timer{font-family:var(--mono);font-size:22px;letter-spacing:.02em}
+.timer.low{color:var(--bad)}
+.bar .spacer{flex:1}
+.progress{font-size:13px;color:var(--muted)}
+.exam{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:20px;margin-top:20px;align-items:start}
+@media (max-width:820px){.exam{grid-template-columns:minmax(0,1fr)}}
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:24px;min-width:0;display:grid;gap:16px}
+.qhead{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.qhead h2{font-size:26px}
+.tag{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--muted)}
+.qtext{font-size:17px;margin:0}
+.extra{white-space:pre-wrap;background:var(--paper);border-left:3px solid var(--line);padding:12px 14px;margin:0;font-size:14.5px;overflow-x:auto}
+.map{border:1px solid var(--line);border-radius:6px;max-width:100%;background:#fff}
+.opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:transparent;border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:var(--ink)}
+.opt:hover{border-color:var(--accent)}
+.bub{flex:none;width:28px;height:28px;border-radius:50%;border:2px solid var(--muted);display:grid;place-items:center;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.opt[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.opt[aria-pressed="true"] .bub{background:var(--accent);border-color:var(--accent);color:var(--sheet)}
+.written{display:grid;gap:14px}
+.written label{display:grid;gap:6px;font-weight:500}
+.written input{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink);width:100%}
+.nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px}
+.flagbtn[aria-pressed="true"]{color:var(--flag);border-color:var(--flag)}
+
+.grid-card{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:16px;display:grid;gap:12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px)}
+@media (max-width:820px){.grid-card{position:static}}
+.cells{display:grid;grid-template-columns:repeat(9,1fr);gap:5px}
+@media (max-width:820px){.cells{grid-template-columns:repeat(auto-fill,minmax(34px,1fr))}}
+.cell{aspect-ratio:1;max-width:100%;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--ink);font-family:var(--mono);font-size:12px;padding:0;position:relative}
+.cell.done{background:var(--accent);border-color:var(--accent);color:var(--sheet)}
+.cell.cur{outline:2px solid var(--ink);outline-offset:1px}
+.cell.flag::after{content:"";position:absolute;top:2px;right:2px;width:6px;height:6px;border-radius:50%;background:var(--flag)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px;border:1px solid var(--line)}
+
+.confirm{border:1px solid var(--flag);background:var(--sheet);border-radius:8px;padding:16px;display:grid;gap:10px}
+.confirm .row{display:flex;gap:8px;flex-wrap:wrap}
+
+/* Results */
+.result{display:grid;gap:20px}
+.score{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:24px;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center}
+@media (max-width:560px){.score{grid-template-columns:1fr}}
+.level{font-family:var(--display);font-size:72px;line-height:1;color:var(--accent)}
+.bigline{font-family:var(--mono);font-size:28px}
+.scale{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}
+.scale span{font-size:12px;padding:3px 8px;border:1px solid var(--line);border-radius:4px;font-family:var(--mono)}
+.scale span.on{background:var(--accent);color:var(--sheet);border-color:var(--accent)}
+.secs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.sec{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:14px;display:grid;gap:6px}
+.meter{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--accent)}
+.review{background:var(--sheet);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.rrow{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:12px;padding:12px 16px;border-top:1px solid var(--line);align-items:start}
+.rrow:first-child{border-top:0}
+.rrow .mark{font-family:var(--mono);font-weight:500;text-align:center;border-radius:4px;padding:2px 0}
+.rrow.ok .mark{background:var(--ok-soft);color:var(--ok)}
+.rrow.bad .mark{background:var(--bad-soft);color:var(--bad)}
+.rrow.part .mark{background:var(--accent-soft);color:var(--accent)}
+.rrow .q{font-size:14px;min-width:0}
+.rrow .meta{font-size:13px;color:var(--muted)}
+.rrow .meta b{color:var(--ink)}
+.filter{display:flex;gap:8px;flex-wrap:wrap}
+.filter button{border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:13px}
+.filter button[aria-pressed="true"]{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+footer{margin-top:28px}
+.namefield{display:grid;gap:6px;font-weight:500;width:100%;max-width:420px}
+.namefield input{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink)}
+.namefield input[aria-invalid="true"]{border-color:var(--bad)}
+.vlist{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.vcard{display:grid;gap:4px;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 16px;color:var(--ink);align-content:start}
+.vcard:hover{border-color:var(--accent)}
+.vcard b{font-family:var(--display);font-size:20px}
+.vstat{font-size:13px;color:var(--accent);font-weight:500}
+.warn{font-size:12.5px;color:var(--flag);font-weight:500}
+@media (prefers-reduced-motion:no-preference){.opt,.cell{transition:background .12s,border-color .12s}}
+</style>
+
+</head><body>
+<div class="wrap" id="app"><section class="cover">
+  <div class="eyebrow">O'zing O'rgan · Tarix</div>
+  <h1>Tarix fanidan sertifikat sinovi</h1>
+  <p>O'zing O'rgan: kursdoshlar uchun tarix fanidan onlayn sinov testlari. 45 topshiriq, 90 daqiqa, natija darhol avtomatik hisoblanadi.</p>
+  <p class="note">Savollar mualliflari: @Onlinetarix_chi (A. Fozilov).</p>
+  <noscript><p class="note">Testni yechish uchun brauzerda JavaScript yoqilgan bo'lishi kerak.</p></noscript>
+</section></div>
+
+<script>
+const SB_URL = "https://nhwzwqjbwwzvqxvdbecc.supabase.co";
+const SB_KEY = "sb_publishable_wlGqP_SHtv-BgS1RT4CpgQ_YpQDf2Ch";
+const IMGS = {v1map:"img/v1map.png", v1venn:"img/v1venn.png", ms6map:"img/ms6map.jpg", ms6venn:"img/ms6venn.png"};
+let VARIANTS = [];
+const NAMEKEY = "tarix-sinov-ism";
+function sb(path, opts={}){
+  return fetch(SB_URL+"/rest/v1/"+path, {...opts, headers:{apikey:SB_KEY, Authorization:"Bearer "+SB_KEY, "Content-Type":"application/json", ...(opts.headers||{})}});
+}
+const TOTAL_MIN = 90;
+const LEVELS = [["A+",70],["A",65],["B+",60],["B",55],["C+",50],["C",46]];
+const LETTERS = "ABCDEF";
+const SEL = "tarix-sinov-tanlov";
+const keyOf = id => "tarix-sinov-"+id;
+
+// One saved state per variant; `vid` is the open variant, null = variant list.
+let vid = null, V = null, DATA = [], st = fresh();
+function fresh(){ return {phase:"start", cur:0, answers:{}, flags:{}, endAt:null, confirm:false, filter:"all"}; }
+function loadOf(id){ try{ return JSON.parse(localStorage.getItem(keyOf(id))); }catch(e){ return null; } }
+function save(){ if(!vid) return; try{ localStorage.setItem(keyOf(vid), JSON.stringify(st)); localStorage.setItem(SEL, vid); }catch(e){} }
+function openVariant(id){ vid=id; V=VARIANTS.find(v=>v.id===id); DATA=V.items; st=loadOf(id)||fresh(); }
+function closeVariant(){ vid=null; V=null; DATA=[]; st=fresh(); try{ localStorage.removeItem(SEL); }catch(e){} render(); window.scrollTo(0,0); }
+async function boot(){
+  $("#app").innerHTML = `<p class="note">Testlar yuklanmoqda…</p>`;
+  try{
+    const r = await fetch("tests.json", {cache:"no-cache"});
+    if(!r.ok) throw new Error(r.status);
+    // tests.json lists the variants; each variant's tasks live in its own file.
+    const list = await r.json();
+    VARIANTS = await Promise.all(list.map(async v=>{
+      if(v.items) return v;
+      const q = await fetch(v.file, {cache:"no-cache"});
+      if(!q.ok) throw new Error(q.status);
+      return {...v, items:(await q.json()).items};
+    }));
+  }catch(e){
+    $("#app").innerHTML = `<section class="cover"><h1>Testlarni yuklab bo'lmadi</h1><p class="note">Internet aloqasini tekshirib, sahifani yangilang.</p></section>`; return;
+  }
+  try{ const s=localStorage.getItem(SEL); if(s && VARIANTS.some(v=>v.id===s)) openVariant(s); }catch(e){}
+  if(VARIANTS.length===1 && !vid) openVariant(VARIANTS[0].id);
+  render();
+}
+function myName(){ try{ return localStorage.getItem(NAMEKEY)||""; }catch(e){ return ""; } }
+// Send the finished attempt once; the result page works even if this fails.
+async function submitAttempt(){
+  if(st.sent) return;
+  const rows=DATA.map(it=>({n:it.n,got:grade(it).got}));
+  const score=Math.round(rows.reduce((t,r)=>t+r.got,0)*10)/10;
+  try{
+    const r=await sb("ms_attempts",{method:"POST",headers:{Prefer:"return=minimal"},body:JSON.stringify({
+      test_id:vid, student_name:st.name||myName()||"Noma'lum", score, level:levelOf(score),
+      answers:st.answers, per_task:rows, duration_sec: st.startedAt? Math.round((Date.now()-st.startedAt)/1000):null })});
+    if(r.ok){ st.sent=true; save(); }
+  }catch(e){}
+}
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => n.toFixed(1).replace(".", ",");
+
+// Normalise Uzbek Latin answers: apostrophe variants, case, punctuation, spaces.
+function norm(s){
+  return (s||"").toLowerCase()
+    .replace(/[ʻʼ’‘`´']/g,"'")
+    .replace(/[«»"“”.,;:!?()\-–—]/g," ")
+    .replace(/\s+/g," ").trim();
+}
+function lev(a,b){
+  const m=a.length,n=b.length; if(!m) return n; if(!n) return m;
+  let p=Array.from({length:n+1},(_,j)=>j);
+  for(let i=1;i<=m;i++){ let c=[i]; for(let j=1;j<=n;j++) c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1)); p=c; }
+  return p[n];
+}
+function match(input, accepted){
+  const x=norm(input); if(!x) return false;
+  return accepted.some(a=>{ const y=norm(a); if(x===y) return true;
+    if(/\d/.test(y)) return x.replace(/\s/g,"")===y.replace(/\s/g,"");
+    const tol = y.length>=10?2: y.length>=5?1:0; return lev(x,y)<=tol; });
+}
+function isAnswered(it){
+  const a=st.answers[it.n]; if(!a) return false;
+  return it.kind==="closed" ? !!a : !!((a.a||"").trim()||(a.b||"").trim());
+}
+function grade(it, answers=st.answers){
+  const a=answers[it.n];
+  if(it.kind==="closed"){ const ok=a===it.ans; return {got: ok?it.pts:0, full: ok, partial:false}; }
+  // A part with no key yet counts as correct when answered, so unknown keys don't cost points.
+  const chk=(x,acc)=> acc.length ? match(x,acc) : !!(x||"").trim();
+  const okA=chk(a&&a.a, it.accA), okB=chk(a&&a.b, it.accB);
+  let got=0;
+  if(okA&&okB) got=it.pts;
+  else if(it.pts===3.2) got = okA?1.5: okB?1.7:0;
+  else got = (okA||okB)?1.1:0;
+  return {got, full: okA&&okB, partial: got>0 && !(okA&&okB), okA, okB};
+}
+function levelOf(score){ for(const [l,t] of LEVELS) if(score>=t) return l; return "—"; }
+
+function render(){
+  if(!vid) return renderList();
+  if(st.phase==="start") return renderStart();
+  if(st.phase==="exam") return renderExam();
+  return renderResult();
+}
+
+function renderList(){
+  $("#app").innerHTML = `
+  <section class="cover">
+    <div class="eyebrow">O'zing O'rgan · Tarix</div>
+    <h1>Tarix fanidan sertifikat sinovi</h1>
+    <div class="facts">
+      <div class="fact"><b>45</b>topshiriq</div>
+      <div class="fact"><b>90</b>daqiqa</div>
+      <div class="fact"><b>100</b>xom ball</div>
+    </div>
+    <div class="eyebrow">Variantni tanlang</div>
+    <div class="vlist">${VARIANTS.map(v=>{
+      const s=loadOf(v.id); let stat="Boshlanmagan";
+      if(s&&s.phase==="result"){ const sc=v.items.reduce((t,it)=>t+grade(it,s.answers).got,0); stat=`Natija: <span class="num">${fmt(sc)}</span> ball · ${levelOf(sc)}`; }
+      else if(s&&s.endAt) stat="Davom etmoqda";
+      return `<button class="vcard" data-v="${v.id}"><b>${esc(v.title)}</b><span class="note">${esc(v.src)}</span><span class="vstat">${stat}</span>${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy, o'qituvchi tekshiruvida</span>`:""}</button>`;
+    }).join("")}</div>
+    <p class="note">Sinov versiyasi. Savollar mualliflari: @Onlinetarix_chi (A. Fozilov). Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
+  </section>`;
+  document.querySelectorAll(".vcard").forEach(b=>b.onclick=()=>{ openVariant(b.dataset.v); save(); render(); window.scrollTo(0,0); });
+}
+
+function renderStart(){
+  const resume = Object.keys(st.answers).length>0;
+  const lows = DATA.filter(i=>i.low).length;
+  $("#app").innerHTML = `
+  <section class="cover">
+    <div class="eyebrow">O'zing O'rgan · Tarix · ${esc(V.title)}</div>
+    <h1>Tarix fanidan sertifikat sinovi</h1>
+    <ul class="rules">
+      <li>1–32: bitta to'g'ri javobli savollar. Variantni bosing yoki klaviaturada A–D tugmasini bosing.</li>
+      <li>33–35: umumiy javoblar ro'yxatidan (A–F) bittasini tanlang.</li>
+      <li>36–45: a) va b) javoblarni klaviatura bilan yozing. Har bir qism alohida baholanadi.</li>
+      <li>Noto'g'ri javob uchun ball ayirilmaydi. Vaqt tugasa, test avtomatik yakunlanadi.</li>
+    </ul>
+    ${lows?`<p class="warn">Bu variantning rasmiy javob kaliti yo'q. ${lows} ta topshiriqning javobi taxminiy va o'qituvchi tekshiruvida, shuning uchun natija ham taxminiy.</p>`:""}
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <label class="namefield" for="nm">Ism va familiyangiz<input id="nm" autocomplete="name" value="${esc(st.name||myName())}" placeholder="Masalan: Aliyev Vali"></label>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn" id="go">${resume?"Davom ettirish":"Testni boshlash"}</button>
+      ${resume?`<button class="btn ghost" id="reset">Qaytadan boshlash</button>`:""}
+      ${VARIANTS.length>1?`<button class="btn ghost" id="back">← Variantlar</button>`:""}
+    </div>
+  </section>`;
+  $("#go").onclick=()=>{ const nm=$("#nm").value.trim(); if(!nm){ $("#nm").focus(); $("#nm").setAttribute("aria-invalid","true"); return; }
+    st.name=nm; try{ localStorage.setItem(NAMEKEY,nm); }catch(e){}
+    if(!st.startedAt) st.startedAt=Date.now(); if(!st.endAt) st.endAt=Date.now()+TOTAL_MIN*60000; st.phase="exam"; save(); render(); };
+  const r=$("#reset"); if(r) r.onclick=()=>{ st=fresh(); save(); render(); };
+  { const bk=$("#back"); if(bk) bk.onclick=closeVariant; }
+}
+
+function optButtons(it){
+  const sel=st.answers[it.n];
+  return `<ul class="opts">${it.opts.map((o,i)=>`<li><button class="opt" data-l="${LETTERS[i]}" aria-pressed="${sel===LETTERS[i]}"><span class="bub">${LETTERS[i]}</span><span>${esc(o)}</span></button></li>`).join("")}</ul>`;
+}
+
+function renderExam(){
+  const it=DATA[st.cur];
+  const done=DATA.filter(isAnswered).length;
+  let body="";
+  if(it.kind==="closed"){
+    body += `<p class="qtext">${esc(it.q)}</p>`;
+    if(it.extra && !it.bank) body += `<pre class="extra">${esc(it.extra)}</pre>`;
+    if(it.img) body += `<img class="map" src="${IMGS[it.img]||it.img}" alt="${esc(it.alt||"")}">`;
+    if(it.bank) body += `<p class="note">33–35-topshiriqlar uchun umumiy javoblar:</p>`;
+    body += optButtons(it);
+  } else {
+    const a=st.answers[it.n]||{};
+    body += `<p class="qtext">${esc(it.q)}</p>
+    <div class="written">
+      <label for="wa">a) ${esc(it.qa)}<input id="wa" autocomplete="off" value="${esc(a.a||"")}" placeholder="Javobni yozing"></label>
+      <label for="wb">b) ${esc(it.qb)}<input id="wb" autocomplete="off" value="${esc(a.b||"")}" placeholder="Javobni yozing"></label>
+    </div>`;
+  }
+  $("#app").innerHTML = `
+  <div class="bar">
+    <span class="timer num" id="timer">--:--</span>
+    <span class="progress">${esc(V.title)} · <span class="num">${done}</span> / 45 javob berildi</span>
+    <span class="spacer"></span>
+    <button class="btn ghost" id="finish">Testni yakunlash</button>
+  </div>
+  ${st.confirm?`<div class="confirm" style="margin-top:16px">
+    <b>Testni yakunlaysizmi?</b>
+    <span>${45-done} ta topshiriq javobsiz qolgan. Yakunlagandan keyin javoblarni o'zgartirib bo'lmaydi.</span>
+    <div class="row"><button class="btn" id="yes">Ha, yakunlash</button><button class="btn ghost" id="no">Testga qaytish</button></div>
+  </div>`:""}
+  <div class="exam">
+    <article class="sheet">
+      <div class="qhead"><h2>${it.n}-topshiriq</h2><span class="tag">${esc(it.type)} · <span class="num">${fmt(it.pts)}</span> ball</span></div>
+      ${body}
+      <div class="nav">
+        <button class="btn ghost" id="prev" ${st.cur===0?"disabled":""}>← Oldingi</button>
+        <button class="btn ghost flagbtn" id="flag" aria-pressed="${!!st.flags[it.n]}">Keyinroq qaytaman</button>
+        <button class="btn" id="next" ${st.cur===DATA.length-1?"disabled":""}>Keyingi →</button>
+      </div>
+    </article>
+    <aside class="grid-card">
+      <div class="eyebrow">Javoblar varaqasi</div>
+      <div class="cells">${DATA.map((d,i)=>`<button class="cell${isAnswered(d)?" done":""}${i===st.cur?" cur":""}${st.flags[d.n]?" flag":""}" data-i="${i}" aria-label="${d.n}-topshiriq">${d.n}</button>`).join("")}</div>
+      <div class="legend"><span><i style="background:var(--accent);border-color:var(--accent)"></i>javob berilgan</span><span><i style="background:var(--flag);border-color:var(--flag);border-radius:50%"></i>belgilangan</span></div>
+    </aside>
+  </div>`;
+  document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{ const l=b.dataset.l; st.answers[it.n]= st.answers[it.n]===l?undefined:l; save(); renderExam(); });
+  document.querySelectorAll(".cell").forEach(b=>b.onclick=()=>go(+b.dataset.i));
+  $("#prev").onclick=()=>go(st.cur-1); $("#next").onclick=()=>go(st.cur+1);
+  $("#flag").onclick=()=>{ st.flags[it.n]=!st.flags[it.n]; save(); renderExam(); };
+  $("#finish").onclick=()=>{ st.confirm=true; save(); renderExam(); window.scrollTo(0,0); };
+  if(st.confirm){ $("#yes").onclick=finish; $("#no").onclick=()=>{ st.confirm=false; save(); renderExam(); }; }
+  if(it.kind==="open"){
+    const upd=()=>{ st.answers[it.n]={a:$("#wa").value,b:$("#wb").value}; save();
+      const c=document.querySelector(`.cell[data-i="${st.cur}"]`); if(c) c.classList.toggle("done",isAnswered(it));
+      $(".progress .num").textContent=DATA.filter(isAnswered).length; };
+    $("#wa").oninput=upd; $("#wb").oninput=upd;
+  }
+  tick();
+}
+function go(i){ if(i<0||i>=DATA.length) return; st.cur=i; save(); renderExam(); window.scrollTo({top:0}); }
+function finish(){ st.phase="result"; st.confirm=false; save(); render(); window.scrollTo(0,0); submitAttempt(); }
+
+function tick(){
+  const el=$("#timer"); if(!el||st.phase!=="exam") return;
+  const left=Math.max(0, st.endAt-Date.now());
+  const m=Math.floor(left/60000), s=Math.floor(left%60000/1000);
+  el.textContent=`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+  el.classList.toggle("low", left<10*60000);
+  if(left<=0) finish();
+}
+setInterval(tick,1000);
+
+document.addEventListener("keydown",e=>{
+  if(st.phase!=="exam"||e.target.tagName==="INPUT") return;
+  const it=DATA[st.cur];
+  if(e.key==="ArrowRight") return go(st.cur+1);
+  if(e.key==="ArrowLeft") return go(st.cur-1);
+  if(it.kind==="closed"){ const i=LETTERS.indexOf(e.key.toUpperCase()); if(i>=0&&i<it.opts.length){ st.answers[it.n]=LETTERS[i]; save(); renderExam(); } }
+});
+
+function renderResult(){
+  const rows=DATA.map(it=>({it,g:grade(it)}));
+  const score=rows.reduce((s,r)=>s+r.g.got,0);
+  const lvl=levelOf(score);
+  const secs={};
+  rows.forEach(({it,g})=>{ const s=secs[it.section]||(secs[it.section]={got:0,max:0,n:0,ok:0}); s.got+=g.got; s.max+=it.pts; s.n++; if(g.full) s.ok++; });
+  const correct=rows.filter(r=>r.g.full).length;
+  const f=st.filter;
+  const shown=rows.filter(r=> f==="all" || (f==="bad"&&!r.g.full) );
+  $("#app").innerHTML = `
+  <div class="result">
+    <div>
+      <div class="eyebrow">Natija · ${esc(V.title)}</div>
+      <h1 style="font-size:clamp(26px,4vw,36px)">Test yakunlandi</h1>
+    </div>
+    <section class="score">
+      <div class="level" aria-label="Taxminiy daraja">${lvl}</div>
+      <div>
+        <div class="bigline"><span class="num">${fmt(score)}</span> / 100 ball</div>
+        <div class="note">${correct} ta topshiriq to'liq to'g'ri, 45 tadan. Daraja xom ball asosida taxminiy; rasmiy imtihonda ball Rash modeli bilan qayta hisoblanadi.</div>
+        <div class="scale">${LEVELS.map(([l,t])=>`<span class="${l===lvl?"on":""}">${l} ${t}+</span>`).join("")}</div>
+      </div>
+    </section>
+    <section class="secs">${Object.entries(secs).map(([k,s])=>`
+      <div class="sec"><div class="eyebrow">${k}</div>
+      <div><span class="num">${fmt(s.got)}</span> / <span class="num">${fmt(s.max)}</span> ball · ${s.ok}/${s.n}</div>
+      <div class="meter"><i style="width:${(s.got/s.max*100).toFixed(0)}%"></i></div></div>`).join("")}
+    </section>
+    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center">
+      <h2 style="font-size:22px">Javoblar tahlili</h2>
+      <div class="filter"><button data-f="all" aria-pressed="${f==="all"}">Hammasi</button><button data-f="bad" aria-pressed="${f==="bad"}">Faqat xatolar</button></div>
+    </div>
+    <section class="review">${shown.map(({it,g})=>{
+      const cls=g.full?"ok":g.partial?"part":"bad"; let meta="";
+      if(it.kind==="closed"){ const a=st.answers[it.n];
+        meta=`Sizning javobingiz: <b>${a||"—"}</b> · To'g'ri javob: <b>${it.ans}</b>${it.ans?` (${esc(it.opts[LETTERS.indexOf(it.ans)])})`:""}${it.low?` <span class="warn">kalit taxminiy</span>`:""}`;
+      } else { const a=st.answers[it.n]||{};
+        meta=`a) <b>${esc(a.a||"—")}</b> ${g.okA?"✓":"✗"} · to'g'ri: ${esc(it.showA)}<br>b) <b>${esc(a.b||"—")}</b> ${g.okB?"✓":"✗"} · to'g'ri: ${esc(it.showB)}${it.low?` <span class="warn">kalit taxminiy</span>`:""}`; }
+      return `<div class="rrow ${cls}"><div class="mark num">${it.n}</div><div class="q">${esc(it.kind==="closed"?it.q:it.qa)}<div class="meta">${meta}</div></div><div class="num">${fmt(g.got)}/${fmt(it.pts)}</div></div>`;
+    }).join("") || `<div class="rrow ok"><div class="mark">✓</div><div class="q">Xato yo'q.</div><div></div></div>`}</section>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn" id="again">Qaytadan yechish</button>${VARIANTS.length>1?`<button class="btn ghost" id="back">← Variantlar</button>`:""}</div>
+  </div>`;
+  document.querySelectorAll(".filter button").forEach(b=>b.onclick=()=>{ st.filter=b.dataset.f; save(); renderResult(); });
+  $("#again").onclick=()=>{ st=fresh(); save(); render(); };
+  { const bk=$("#back"); if(bk) bk.onclick=closeVariant; }
+}
+boot();
+</script>
+
+</body></html>

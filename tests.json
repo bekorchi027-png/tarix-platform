@@ -1,0 +1,14 @@
+[
+{"id":"v1","title":"1-variant","src":"@Onlinetarix_chi namunaviy testi","key":"tekshirilgan","file":"tests/v1.json"},
+{"id":"ms6","title":"2-variant (M-S-6)","src":"@Onlinetarix_chi, A. Fozilov","key":"taxminiy","file":"tests/ms6.json"},
+{"id":"tms26-01","title":"3-variant (TMS-1, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-01.json"},
+{"id":"tms26-02","title":"4-variant (TMS-2, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-02.json"},
+{"id":"tms26-03","title":"5-variant (TMS-3, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-03.json"},
+{"id":"tms26-04","title":"6-variant (TMS-4, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-04.json"},
+{"id":"tms26-05","title":"7-variant (TMS-5, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-05.json"},
+{"id":"tms26-06","title":"8-variant (TMS-6, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-06.json"},
+{"id":"tms26-08","title":"9-variant (TMS-8, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-08.json"},
+{"id":"tms26-09","title":"10-variant (TMS-9, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-09.json"},
+{"id":"tms26-12","title":"11-variant (TMS-12, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-12.json"},
+{"id":"tms26-13","title":"12-variant (TMS-13, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-13.json"}
+]
