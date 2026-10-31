@@ -68,7 +68,9 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline
 .tag{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--muted)}
 .qtext{font-size:17px;margin:0}
 .extra{white-space:pre-wrap;background:var(--paper);border-left:3px solid var(--line);padding:12px 14px;margin:0;font-size:14.5px;overflow-x:auto}
-.map{border:1px solid var(--line);border-radius:6px;max-width:100%;background:#fff}
+.map{border:1px solid var(--line);border-radius:6px;max-width:100%;background:#fff;cursor:zoom-in}
+#zoom{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;overflow:auto;z-index:99;cursor:zoom-out}
+#zoom img{display:block;max-width:none;width:auto;min-width:100%;margin:auto;background:#fff}
 .opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
 .opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:transparent;border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:var(--ink)}
 .opt:hover{border-color:var(--accent)}
@@ -139,7 +141,7 @@ footer{margin-top:28px}
   <div class="eyebrow">O'zing O'rgan · Tarix</div>
   <h1>Tarix fanidan sertifikat sinovi</h1>
   <p>O'zing O'rgan: kursdoshlar uchun tarix fanidan onlayn sinov testlari. 45 topshiriq, 90 daqiqa, natija darhol avtomatik hisoblanadi.</p>
-  <p class="note">Savollar mualliflari: @Onlinetarix_chi (A. Fozilov).</p>
+  <p class="note">Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH).</p>
   <noscript><p class="note">Testni yechish uchun brauzerda JavaScript yoqilgan bo'lishi kerak.</p></noscript>
 </section></div>
 
@@ -207,7 +209,7 @@ const fmt = n => n.toFixed(1).replace(".", ",");
 function norm(s){
   return (s||"").toLowerCase()
     .replace(/[ʻʼ’‘`´']/g,"'")
-    .replace(/[«»"“”.,;:!?()\-–—]/g," ")
+    .replace(/[«»"“”„.,;:!?()\-–—\/]/g," ")
     .replace(/\s+/g," ").trim();
 }
 function lev(a,b){
@@ -216,11 +218,41 @@ function lev(a,b){
   for(let i=1;i<=m;i++){ let c=[i]; for(let j=1;j<=n;j++) c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1)); p=c; }
   return p[n];
 }
+// Words that only describe the answer (year, dynasty, treaty...) and never identify it alone.
+const GENERIC=new Set("yil yilda yili yilgi yillar yillarda asr asrda asrlar asrlarda va ham yoki bilan javobi qabul qilinadi shartnomasi shartnoma sulh sulhi sulolasi sulola davlati davlat xonligi xonlik qo'zg'oloni partiyasi urushi inqilobi konferensiyasi kongressi jamiyati tashkiloti viloyati shahri shahar qishlog'i qal'asi daryosi imperiyasi respublikasi mil avv oy iyun iyul yanvar fevral mart aprel may avgust sentabr sentyabr oktabr oktyabr noyabr dekabr ta nomi unvoni".split(" "));
+const ROMAN=/^(?=[ivxl]+$)[ivxl]{1,5}$/;
+const toks=s=>norm(s).split(" ").filter(Boolean);
+const tokEq=(a,b)=> a===b || (!/\d/.test(a+b) && !ROMAN.test(a) && !ROMAN.test(b) && lev(a,b) <= (Math.min(a.length,b.length)>=8?2: Math.min(a.length,b.length)>=4?1:0));
+const digits=s=>(norm(s).match(/\d+/g)||[]);
+function oneMatch(x,y){
+  if(x===y) return true;
+  const tol = y.length>=10?2: y.length>=5?1:0;
+  if(!/\d/.test(y) && lev(x,y)<=tol) return true;
+  if(x.replace(/\s/g,"")===y.replace(/\s/g,"")) return true;
+  const xt=toks(x), yt=toks(y), xd=digits(x), yd=digits(y);
+  // a number answer: its numbers must equal the key's leading numbers ("1949" ~ "1949-yil", "3" ~ "3 tilla")
+  if(xd.length && xt.every(t=>/\d/.test(t)||GENERIC.has(t)||yt.some(u=>tokEq(t,u)))){
+    if(xd.join(" ")===yd.slice(0,xd.length).join(" ") || xd.join(" ")===yd.join(" ")) return true;
+  }
+  if(xd.length && !xd.every(d=>yd.includes(d))) return false;
+  // words: every written word appears in the key, at least one is a real name, and roman numerals of the key are kept
+  if(!xt.every(t=>GENERIC.has(t)||yt.some(u=>tokEq(t,u)))) return false;
+  if(!xt.some(t=>!GENERIC.has(t)&&!/^\d+$/.test(t)&&t.length>=3&&yt.some(u=>tokEq(t,u)))) return false;
+  if(yt.filter(t=>ROMAN.test(t)).some(r=>!xt.includes(r))) return false;
+  return true;
+}
+const items=s=>norm(s.replace(/\s+va\s+/g,",")).length? s.replace(/\s+va\s+/gi,",").split(/[,;]/).map(t=>t.trim()).filter(Boolean):[];
 function match(input, accepted){
   const x=norm(input); if(!x) return false;
-  return accepted.some(a=>{ const y=norm(a); if(x===y) return true;
-    if(/\d/.test(y)) return x.replace(/\s/g,"")===y.replace(/\s/g,"");
-    const tol = y.length>=10?2: y.length>=5?1:0; return lev(x,y)<=tol; });
+  return accepted.some(a=>{ const y=norm(a); if(!y) return false;
+    if(oneMatch(x,y)) return true;
+    // lists in any order: each written item matches a key item, and enough items are given
+    const ki=items(a), ai=items(input);
+    if(ki.length>=2 && ai.length>=Math.min(ki.length,3)){
+      const used=new Set();
+      return ai.every(t=>{ const k=ki.findIndex((u,i)=>!used.has(i)&&oneMatch(norm(t),norm(u))); if(k<0) return false; used.add(k); return true; });
+    }
+    return false; });
 }
 function isAnswered(it){
   const a=st.answers[it.n]; if(!a) return false;
@@ -264,7 +296,7 @@ function renderList(){
       else if(s&&s.endAt) stat="Davom etmoqda";
       return `<button class="vcard" data-v="${v.id}"><b>${esc(v.title)}</b><span class="note">${esc(v.src)}</span><span class="vstat">${stat}</span>${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy, o'qituvchi tekshiruvida</span>`:""}</button>`;
     }).join("")}</div>
-    <p class="note">Sinov versiyasi. Savollar mualliflari: @Onlinetarix_chi (A. Fozilov). Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
+    <p class="note">Sinov versiyasi. Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH). Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
   </section>`;
   document.querySelectorAll(".vcard").forEach(b=>b.onclick=()=>{ openVariant(b.dataset.v); save(); render(); window.scrollTo(0,0); });
 }
@@ -434,4 +466,6 @@ function renderResult(){
 boot();
 </script>
 
+<div id="zoom" onclick="this.style.display='none'"><img alt=""></div>
+<script>document.addEventListener("click",e=>{if(e.target.classList&&e.target.classList.contains("map")){const z=document.getElementById("zoom");z.querySelector("img").src=e.target.src;z.style.display="block";}});</script>
 </body></html>
