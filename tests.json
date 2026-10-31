@@ -10,5 +10,16 @@
 {"id":"tms26-08","title":"9-variant (TMS-8, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-08.json"},
 {"id":"tms26-09","title":"10-variant (TMS-9, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-09.json"},
 {"id":"tms26-12","title":"11-variant (TMS-12, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-12.json"},
-{"id":"tms26-13","title":"12-variant (TMS-13, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-13.json"}
+{"id":"tms26-13","title":"12-variant (TMS-13, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-13.json"},
+{"id":"tms26-07","title":"13-variant (TMS-7, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-07.json"},
+{"id":"tms26-11","title":"14-variant (TMS-11, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-11.json"},
+{"id":"tms26-14","title":"15-variant (TMS-14, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-14.json"},
+{"id":"tms26-16","title":"16-variant (TMS-16, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-16.json"},
+{"id":"tms26-17","title":"17-variant (TMS-17, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-17.json"},
+{"id":"tms26-18","title":"18-variant (TMS-18, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-18.json"},
+{"id":"tms26-19","title":"19-variant (TMS-19, 2026)","src":"Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms26-19.json"},
+{"id":"tms25-01","title":"20-variant (TMS-1, 2025)","src":"B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms25-01.json"},
+{"id":"tms25-03","title":"21-variant (TMS-3, 2025)","src":"B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms25-03.json"},
+{"id":"tms25-04","title":"22-variant (TMS-4, 2025)","src":"B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms25-04.json"},
+{"id":"tms25-07","title":"23-variant (TMS-7, 2025)","src":"B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)","key":"muallif kaliti","file":"tests/tms25-07.json"}
 ]
