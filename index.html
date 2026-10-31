@@ -219,12 +219,24 @@ function lev(a,b){
   return p[n];
 }
 // Words that only describe the answer (year, dynasty, treaty...) and never identify it alone.
-const GENERIC=new Set("yil yilda yili yilgi yillar yillarda asr asrda asrlar asrlarda va ham yoki bilan javobi qabul qilinadi shartnomasi shartnoma sulh sulhi sulolasi sulola davlati davlat xonligi xonlik qo'zg'oloni partiyasi urushi inqilobi konferensiyasi kongressi jamiyati tashkiloti viloyati shahri shahar qishlog'i qal'asi daryosi imperiyasi respublikasi mil avv oy iyun iyul yanvar fevral mart aprel may avgust sentabr sentyabr oktabr oktyabr noyabr dekabr ta nomi unvoni".split(" "));
+const GENERIC=new Set("yil yilda yili yilgi yillar yillarda asr asrda asrlar asrlarda va ham yoki bilan javobi qabul qilinadi shartnomasi shartnoma sulh sulhi sulolasi sulola davlati davlat xonligi xonlik qo'zg'oloni partiyasi urushi inqilobi konferensiyasi kongressi jamiyati tashkiloti viloyati shahri shahar qishlog'i qal'asi daryosi imperiyasi respublikasi mil avv oy iyun iyul yanvar fevral mart aprel may avgust sentabr sentyabr oktabr oktyabr noyabr dekabr ta nomi unvoni doktrinasi doktrina yerlari yerlar siyosati harakati qo'shini islohoti islohotlari kodeksi qonuni deklaratsiyasi manifesti ittifoqi fronti liniyasi rejasi".split(" "));
 const ROMAN=/^(?=[ivxl]+$)[ivxl]{1,5}$/;
 const toks=s=>norm(s).split(" ").filter(Boolean);
 const tokEq=(a,b)=> a===b || (!/\d/.test(a+b) && !ROMAN.test(a) && !ROMAN.test(b) && lev(a,b) <= (Math.min(a.length,b.length)>=8?2: Math.min(a.length,b.length)>=4?1:0));
 const digits=s=>(norm(s).match(/\d+/g)||[]);
-function oneMatch(x,y){
+// Words that start place names ("Sharqiy Turkiston", "Oltin Qirg'oq"), so such a key is not a person's name.
+const PLACEHEAD=new Set("sharqiy g'arbiy shimoliy janubiy markaziy oltin yangi buyuk kichik katta o'rta quyi yuqori qizil oq qora ulug' muqaddas birinchi ikkinchi".split(" "));
+// A person's name: 2-4 capitalised words (initials allowed), no numbers, no generic or place words.
+const PARTICLE=/^(ibn|bin|binti|al-.*|ad-.*|as-.*|at-.*|ar-.*|ash-.*|an-.*|az-.*|fon|von|van|de|der|da|di|la|le|amir|shayx|sulton|mirzo|xon|bek)$/;
+function isPerson(raw){
+  const clean=String(raw).replace(/\(.*?\)/g," ").replace(/(\s+[\d\-–—]+(-yil(lar)?)?)+\s*$/,"").trim();
+  const w=clean.split(/\s+/).filter(Boolean);
+  if(w.length<2||w.length>5||/\d/.test(clean)||/[,;]|\sva\s/.test(clean)) return false;
+  const t=toks(clean);
+  if(t.some(x=>GENERIC.has(x)||PLACEHEAD.has(x))) return false;
+  return w.every(x=>PARTICLE.test(x)||/^[A-ZА-ЯЎҚҒҲʻ'‘’]/.test(x)) && w.some(x=>!PARTICLE.test(x));
+}
+function oneMatch(x,y,raw){
   if(x===y) return true;
   const tol = y.length>=10?2: y.length>=5?1:0;
   if(!/\d/.test(y) && lev(x,y)<=tol) return true;
@@ -235,22 +247,31 @@ function oneMatch(x,y){
     if(xd.join(" ")===yd.slice(0,xd.length).join(" ") || xd.join(" ")===yd.join(" ")) return true;
   }
   if(xd.length && !xd.every(d=>yd.includes(d))) return false;
-  // words: every written word appears in the key, at least one is a real name, and roman numerals of the key are kept
+  // every written word must appear in the key
   if(!xt.every(t=>GENERIC.has(t)||yt.some(u=>tokEq(t,u)))) return false;
-  if(!xt.some(t=>!GENERIC.has(t)&&!/^\d+$/.test(t)&&t.length>=3&&yt.some(u=>tokEq(t,u)))) return false;
-  if(yt.filter(t=>ROMAN.test(t)).some(r=>!xt.includes(r))) return false;
-  return true;
+  const romans = raw!=null ? String(raw).split(/\s+/).filter(w=>/^[IVXL]+$/.test(w)).map(w=>w.toLowerCase()) : yt.filter(t=>ROMAN.test(t));
+  if(romans.some(r=>!xt.includes(r))) return false;
+  // the answer names everything the key names, leaving out only generic words and initials ("Monro" ~ "Monro doktrinasi", "Vilson" ~ "V. Vilson")
+  const core=yt.filter(t=>!GENERIC.has(t)&&!/^\d+$/.test(t)&&t.length>2);
+  if(core.length && core.every(u=>xt.some(t=>tokEq(t,u)))) return true;
+  // a person may be named by surname alone ("Qosim" ~ "Abdul Karim Qosim"), never by first name
+  if(raw!=null && isPerson(raw) && core.length){
+    const sur=core[core.length-1];
+    if(xt.some(t=>tokEq(t,sur))) return true;
+  }
+  return false;
 }
 const items=s=>norm(s.replace(/\s+va\s+/g,",")).length? s.replace(/\s+va\s+/gi,",").split(/[,;]/).map(t=>t.trim()).filter(Boolean):[];
 function match(input, accepted){
   const x=norm(input); if(!x) return false;
   return accepted.some(a=>{ const y=norm(a); if(!y) return false;
-    if(oneMatch(x,y)) return true;
-    // lists in any order: each written item matches a key item, and enough items are given
     const ki=items(a), ai=items(input);
+    if(ki.length<2 && oneMatch(x,y,a)) return true;
+    if(ki.length>=2 && x===y) return true;
+    // lists in any order: each written item matches a key item, and enough items are given
     if(ki.length>=2 && ai.length>=Math.min(ki.length,3)){
       const used=new Set();
-      return ai.every(t=>{ const k=ki.findIndex((u,i)=>!used.has(i)&&oneMatch(norm(t),norm(u))); if(k<0) return false; used.add(k); return true; });
+      return ai.every(t=>{ const k=ki.findIndex((u,i)=>!used.has(i)&&oneMatch(norm(t),norm(u),u)); if(k<0) return false; used.add(k); return true; });
     }
     return false; });
 }
