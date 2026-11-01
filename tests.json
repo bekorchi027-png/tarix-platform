@@ -34,5 +34,7 @@
 {"id": "q15-06", "title": "33-variant (Quadro-6)", "src": "J. Boltayev, H. Xoldorov, J. Abdurashidov, Sh. Jabborov (Quadro, @TESTLIDER, @TARIX_TILSIMI)", "key": "muallif kaliti", "file": "tests/q15-06.json"},
 {"id": "q15-08", "title": "34-variant (Quadro-8)", "src": "J. Boltayev, H. Xoldorov, J. Abdurashidov, Sh. Jabborov (Quadro, @TESTLIDER, @TARIX_TILSIMI)", "key": "muallif kaliti", "file": "tests/q15-08.json"},
 {"id": "q15-11", "title": "35-variant (Quadro-11)", "src": "J. Boltayev, H. Xoldorov, J. Abdurashidov, Sh. Jabborov (Quadro, @TESTLIDER, @TARIX_TILSIMI)", "key": "muallif kaliti", "file": "tests/q15-11.json"},
-{"id": "mart15", "title": "36-variant (15-mart, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/mart15.json"}
+{"id": "mart15", "title": "36-variant (15-mart, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/mart15.json"},
+{"id": "bms6", "title": "37-variant (Boltayev-6, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bms6.json"},
+{"id": "bms7", "title": "38-variant (Boltayev-7, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bms7.json"}
 ]
