@@ -141,7 +141,7 @@ footer{margin-top:28px}
   <div class="eyebrow">O'zing O'rgan · Tarix</div>
   <h1>Tarix fanidan sertifikat sinovi</h1>
   <p>O'zing O'rgan: kursdoshlar uchun tarix fanidan onlayn sinov testlari. 45 topshiriq, 90 daqiqa, natija darhol avtomatik hisoblanadi.</p>
-  <p class="note">Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH).</p>
+  <p class="note">Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH); J. Boltayev, J. Abdurashidov, Sh. Jabborov (@TESTLIDER), M. Halimov (@TARIX_TILSIMI), F. Qo‘chqorov.</p>
   <noscript><p class="note">Testni yechish uchun brauzerda JavaScript yoqilgan bo'lishi kerak.</p></noscript>
 </section></div>
 
@@ -317,7 +317,7 @@ function renderList(){
       else if(s&&s.endAt) stat="Davom etmoqda";
       return `<button class="vcard" data-v="${v.id}"><b>${esc(v.title)}</b><span class="note">${esc(v.src)}</span><span class="vstat">${stat}</span>${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy, o'qituvchi tekshiruvida</span>`:""}</button>`;
     }).join("")}</div>
-    <p class="note">Sinov versiyasi. Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH). Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
+    <p class="note">Sinov versiyasi. Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH); J. Boltayev, J. Abdurashidov, Sh. Jabborov (@TESTLIDER), M. Halimov (@TARIX_TILSIMI), F. Qo‘chqorov. Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
   </section>`;
   document.querySelectorAll(".vcard").forEach(b=>b.onclick=()=>{ openVariant(b.dataset.v); save(); render(); window.scrollTo(0,0); });
 }
