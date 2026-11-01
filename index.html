@@ -90,6 +90,9 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline
 .cell{aspect-ratio:1;max-width:100%;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--ink);font-family:var(--mono);font-size:12px;padding:0;position:relative}
 .cell.done{background:var(--accent);border-color:var(--accent);color:var(--sheet)}
 .cell.cur{outline:2px solid var(--ink);outline-offset:1px}
+.cell.pic::before{content:"";position:absolute;left:2px;bottom:2px;width:0;height:0;border-left:6px solid currentColor;border-top:6px solid transparent;opacity:.55}
+.legend i.picmark{position:relative;border:none;width:0;height:0;border-left:8px solid var(--muted);border-top:8px solid transparent;border-radius:0}
+.zoomhint{margin:4px 0 10px;font-size:12px}
 .cell.flag::after{content:"";position:absolute;top:2px;right:2px;width:6px;height:6px;border-radius:50%;background:var(--flag)}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px;border:1px solid var(--line)}
@@ -331,6 +334,7 @@ function renderList(){
 function renderStart(){
   const resume = Object.keys(st.answers).length>0;
   const lows = DATA.filter(i=>i.low).length;
+  const pics = DATA.filter(i=>i.img);
   $("#app").innerHTML = `
   <section class="cover">
     <div class="eyebrow">O'zing O'rgan · Tarix · ${esc(V.title)}</div>
@@ -340,6 +344,7 @@ function renderStart(){
       <li>33–35: umumiy javoblar ro'yxatidan (A–F) bittasini tanlang.</li>
       <li>36–45: a) va b) javoblarni klaviatura bilan yozing. Har bir qism alohida baholanadi.</li>
       <li>Noto'g'ri javob uchun ball ayirilmaydi. Vaqt tugasa, test avtomatik yakunlanadi.</li>
+      ${pics.length?`<li>Rasmli topshiriqlar: ${pics.map(i=>`${i.n} (${picKind(i)})`).join(", ")}. Rasm ustiga bossangiz, kattalashadi.</li>`:""}
     </ul>
     ${lows?`<p class="warn">Bu variantning rasmiy javob kaliti yo'q. ${lows} ta topshiriqning javobi taxminiy va o'qituvchi tekshiruvida, shuning uchun natija ham taxminiy.</p>`:""}
     <div style="display:flex;gap:10px;flex-wrap:wrap">
@@ -358,6 +363,14 @@ function renderStart(){
   { const bk=$("#back"); if(bk) bk.onclick=closeVariant; }
 }
 
+function picKind(it){
+  const t=((it.type||"")+" "+(it.q||"")).toLowerCase();
+  if(/eyler|venn/.test(t)) return "Eyler-Venn diagrammasi";
+  if(/xarita/.test(t) && !/siyosiy xarita/.test(t)) return "xarita";
+  if(/chizma|sxema/.test(t)) return "chizma";
+  if(/jadval/.test(t)) return "jadval";
+  return "rasm";
+}
 function optButtons(it){
   const sel=st.answers[it.n];
   return `<ul class="opts">${it.opts.map((o,i)=>`<li><button class="opt" data-l="${LETTERS[i]}" aria-pressed="${sel===LETTERS[i]}"><span class="bub">${LETTERS[i]}</span><span>${esc(o)}</span></button></li>`).join("")}</ul>`;
@@ -369,8 +382,8 @@ function renderExam(){
   let body="";
   if(it.kind==="closed"){
     body += `<p class="qtext">${esc(it.q)}</p>`;
+    if(it.img) body += `<img class="map" src="${IMGS[it.img]||it.img}" alt="${esc(it.alt||"")}"><p class="note zoomhint">Rasmni kattalashtirish uchun ustiga bosing.</p>`;
     if(it.extra && !it.bank) body += `<pre class="extra">${esc(it.extra)}</pre>`;
-    if(it.img) body += `<img class="map" src="${IMGS[it.img]||it.img}" alt="${esc(it.alt||"")}">`;
     if(it.bank) body += `<p class="note">33–35-topshiriqlar uchun umumiy javoblar:</p>`;
     body += optButtons(it);
   } else {
@@ -405,8 +418,8 @@ function renderExam(){
     </article>
     <aside class="grid-card">
       <div class="eyebrow">Javoblar varaqasi</div>
-      <div class="cells">${DATA.map((d,i)=>`<button class="cell${isAnswered(d)?" done":""}${i===st.cur?" cur":""}${st.flags[d.n]?" flag":""}" data-i="${i}" aria-label="${d.n}-topshiriq">${d.n}</button>`).join("")}</div>
-      <div class="legend"><span><i style="background:var(--accent);border-color:var(--accent)"></i>javob berilgan</span><span><i style="background:var(--flag);border-color:var(--flag);border-radius:50%"></i>belgilangan</span></div>
+      <div class="cells">${DATA.map((d,i)=>`<button class="cell${isAnswered(d)?" done":""}${i===st.cur?" cur":""}${st.flags[d.n]?" flag":""}${d.img?" pic":""}" data-i="${i}" aria-label="${d.n}-topshiriq${d.img?" ("+picKind(d)+")":""}">${d.n}</button>`).join("")}</div>
+      <div class="legend"><span><i style="background:var(--accent);border-color:var(--accent)"></i>javob berilgan</span><span><i style="background:var(--flag);border-color:var(--flag);border-radius:50%"></i>belgilangan</span><span><i class="picmark"></i>rasmli (xarita, diagramma, jadval)</span></div>
     </aside>
   </div>`;
   document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{ const l=b.dataset.l; st.answers[it.n]= st.answers[it.n]===l?undefined:l; save(); renderExam(); });
