@@ -290,7 +290,7 @@ function isAnswered(it){
 }
 function grade(it, answers=st.answers){
   const a=answers[it.n];
-  if(it.kind==="closed"){ const ok=a===it.ans; return {got: ok?it.pts:0, full: ok, partial:false}; }
+  if(it.kind==="closed"){ const ok=!!a&&(a===it.ans||(it.also||[]).includes(a)); return {got: ok?it.pts:0, full: ok, partial:false}; }
   // A part with no key yet counts as correct when answered, so unknown keys don't cost points.
   const chk=(x,acc,need)=> acc.length ? match(x,acc,need) : !!(x||"").trim();
   const okA=chk(a&&a.a, it.accA, it.needA), okB=chk(a&&a.b, it.accB, it.needB);
@@ -492,7 +492,7 @@ function renderResult(){
     <section class="review">${shown.map(({it,g})=>{
       const cls=g.full?"ok":g.partial?"part":"bad"; let meta="";
       if(it.kind==="closed"){ const a=st.answers[it.n];
-        meta=`Sizning javobingiz: <b>${a||"—"}</b> · To'g'ri javob: <b>${it.ans}</b>${it.ans?` (${esc(it.opts[LETTERS.indexOf(it.ans)])})`:""}${it.low?` <span class="warn">kalit taxminiy</span>`:""}`;
+        meta=`Sizning javobingiz: <b>${a||"—"}</b> · To'g'ri javob: <b>${it.ans}</b>${it.ans?` (${esc(it.opts[LETTERS.indexOf(it.ans)])})`:""}${(it.also||[]).length?` · ${it.also.join(", ")} javobi ham to'g'ri hisoblanadi`:""}${it.low?` <span class="warn">kalit taxminiy</span>`:""}`;
       } else { const a=st.answers[it.n]||{};
         meta=`a) <b>${esc(a.a||"—")}</b> ${g.okA?"✓":"✗"} · to'g'ri: ${esc(it.showA)}<br>b) <b>${esc(a.b||"—")}</b> ${g.okB?"✓":"✗"} · to'g'ri: ${esc(it.showB)}${it.low?` <span class="warn">kalit taxminiy</span>`:""}`; }
       return `<div class="rrow ${cls}"><div class="mark num">${it.n}</div><div class="q">${esc(it.kind==="closed"?it.q:it.qa)}<div class="meta">${meta}</div></div><div class="num">${fmt(g.got)}/${fmt(it.pts)}</div></div>`;
