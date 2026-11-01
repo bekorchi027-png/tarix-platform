@@ -289,6 +289,11 @@ function match(input, accepted, need){
     }
     return false; });
 }
+// Known wrong answers spelled like the key ("Abdukarimbiy" is not "Abdurahimbiy") are never accepted.
+function isNot(input, not){
+  const x=norm(input); if(!x||!not) return false;
+  return not.some(n=>{ const y=norm(n); return y===x || y.replace(/\s/g,"")===x.replace(/\s/g,"") || lev(x,y)<=1; });
+}
 function isAnswered(it){
   const a=st.answers[it.n]; if(!a) return false;
   return it.kind==="closed" ? !!a : !!((a.a||"").trim()||(a.b||"").trim());
@@ -297,8 +302,8 @@ function grade(it, answers=st.answers){
   const a=answers[it.n];
   if(it.kind==="closed"){ const ok=!!a&&(a===it.ans||(it.also||[]).includes(a)); return {got: ok?it.pts:0, full: ok, partial:false}; }
   // A part with no key yet counts as correct when answered, so unknown keys don't cost points.
-  const chk=(x,acc,need)=> acc.length ? match(x,acc,need) : !!(x||"").trim();
-  const okA=chk(a&&a.a, it.accA, it.needA), okB=chk(a&&a.b, it.accB, it.needB);
+  const chk=(x,acc,need,not)=> acc.length ? (!isNot(x,not) && match(x,acc,need)) : !!(x||"").trim();
+  const okA=chk(a&&a.a, it.accA, it.needA, it.notA), okB=chk(a&&a.b, it.accB, it.needB, it.notB);
   let got=0;
   if(okA&&okB) got=it.pts;
   else if(it.pts===3.2) got = okA?1.5: okB?1.7:0;
