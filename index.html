@@ -219,7 +219,7 @@ function lev(a,b){
   return p[n];
 }
 // Words that only describe the answer (year, dynasty, treaty...) and never identify it alone.
-const GENERIC=new Set("yil yilda yili yilgi yillar yillarda asr asrda asrlar asrlarda va ham yoki bilan javobi qabul qilinadi shartnomasi shartnoma sulh sulhi sulolasi sulola davlati davlat xonligi xonlik qo'zg'oloni partiyasi urushi inqilobi konferensiyasi kongressi jamiyati tashkiloti viloyati shahri shahar qishlog'i qal'asi daryosi imperiyasi respublikasi mil avv oy iyun iyul yanvar fevral mart aprel may avgust sentabr sentyabr oktabr oktyabr noyabr dekabr ta nomi unvoni doktrinasi doktrina yerlari yerlar siyosati harakati qo'shini islohoti islohotlari kodeksi qonuni deklaratsiyasi manifesti ittifoqi fronti liniyasi rejasi".split(" "));
+const GENERIC=new Set("yil yilda yili yilgi yillar yillarda asr asrda asrlar asrlarda va ham yoki bilan javobi qabul qilinadi partiya shartnomasi shartnoma sulh sulhi sulolasi sulola davlati davlat xonligi xonlik qo'zg'oloni partiyasi urushi inqilobi konferensiyasi kongressi jamiyati tashkiloti viloyati shahri shahar qishlog'i qal'asi daryosi imperiyasi respublikasi mil avv oy iyun iyul yanvar fevral mart aprel may avgust sentabr sentyabr oktabr oktyabr noyabr dekabr ta nomi unvoni doktrinasi doktrina yerlari yerlar siyosati harakati qo'shini islohoti islohotlari kodeksi qonuni deklaratsiyasi manifesti ittifoqi fronti liniyasi rejasi".split(" "));
 const ROMAN=/^(?=[ivxl]+$)[ivxl]{1,5}$/;
 const toks=s=>norm(s).split(" ").filter(Boolean);
 const tokEq=(a,b)=> a===b || (!/\d/.test(a+b) && !ROMAN.test(a) && !ROMAN.test(b) && lev(a,b) <= (Math.min(a.length,b.length)>=8?2: Math.min(a.length,b.length)>=4?1:0));
@@ -239,7 +239,12 @@ function isPerson(raw){
 function oneMatch(x,y,raw){
   if(x===y) return true;
   const tol = y.length>=10?2: y.length>=5?1:0;
-  if(!/\d/.test(y) && lev(x,y)<=tol) return true;
+  // a small typo is fine, but not a different word or numeral ("Sulton Mahmud" is not "Sulton Ahmad", "Silvestr III" is not "Silvestr II")
+  if(!/\d/.test(y) && lev(x,y)<=tol){
+    const xs=toks(x), ys=toks(y), rom=t=>t.filter(w=>ROMAN.test(w)).join(" ");
+    const near=(a,b)=> tokEq(a,b) || (!ROMAN.test(a) && !ROMAN.test(b) && Math.max(a.length,b.length)>=3 && lev(a,b)<=1);
+    if(rom(xs)===rom(ys) && (xs.length!==ys.length || xs.every((t,i)=>near(t,ys[i])))) return true;
+  }
   if(x.replace(/\s/g,"")===y.replace(/\s/g,"")) return true;
   const xt=toks(x), yt=toks(y), xd=digits(x), yd=digits(y);
   // a number answer: its numbers must equal the key's leading numbers ("1949" ~ "1949-yil", "3" ~ "3 tilla")
@@ -256,20 +261,21 @@ function oneMatch(x,y,raw){
   if(core.length && core.every(u=>xt.some(t=>tokEq(t,u)))) return true;
   // a person may be named by surname alone ("Qosim" ~ "Abdul Karim Qosim"), never by first name
   if(raw!=null && isPerson(raw) && core.length){
-    const sur=core[core.length-1];
+    const sur=[...core].reverse().find(t=>!PARTICLE.test(t));
+    if(!sur) return false;
     if(xt.some(t=>tokEq(t,sur))) return true;
   }
   return false;
 }
 const items=s=>norm(s.replace(/\s+va\s+/g,",")).length? s.replace(/\s+va\s+/gi,",").split(/[,;]/).map(t=>t.trim()).filter(Boolean):[];
-function match(input, accepted){
+function match(input, accepted, need){
   const x=norm(input); if(!x) return false;
   return accepted.some(a=>{ const y=norm(a); if(!y) return false;
     const ki=items(a), ai=items(input);
     if(ki.length<2 && oneMatch(x,y,a)) return true;
     if(ki.length>=2 && x===y) return true;
     // lists in any order: each written item matches a key item, and enough items are given
-    if(ki.length>=2 && ai.length>=Math.min(ki.length,3)){
+    if(ki.length>=2 && ai.length>=Math.min(ki.length,need||3)){
       const used=new Set();
       return ai.every(t=>{ const k=ki.findIndex((u,i)=>!used.has(i)&&oneMatch(norm(t),norm(u),u)); if(k<0) return false; used.add(k); return true; });
     }
@@ -283,8 +289,8 @@ function grade(it, answers=st.answers){
   const a=answers[it.n];
   if(it.kind==="closed"){ const ok=a===it.ans; return {got: ok?it.pts:0, full: ok, partial:false}; }
   // A part with no key yet counts as correct when answered, so unknown keys don't cost points.
-  const chk=(x,acc)=> acc.length ? match(x,acc) : !!(x||"").trim();
-  const okA=chk(a&&a.a, it.accA), okB=chk(a&&a.b, it.accB);
+  const chk=(x,acc,need)=> acc.length ? match(x,acc,need) : !!(x||"").trim();
+  const okA=chk(a&&a.a, it.accA, it.needA), okB=chk(a&&a.b, it.accB, it.needB);
   let got=0;
   if(okA&&okB) got=it.pts;
   else if(it.pts===3.2) got = okA?1.5: okB?1.7:0;
