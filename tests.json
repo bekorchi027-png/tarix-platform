@@ -38,5 +38,7 @@
 {"id": "q15-11", "title": "37-variant (Quadro-11)", "src": "J. Boltayev, H. Xoldorov, J. Abdurashidov, Sh. Jabborov (Quadro, @TESTLIDER, @TARIX_TILSIMI)", "key": "muallif kaliti", "file": "tests/q15-11.json"},
 {"id": "mart15", "title": "38-variant (15-mart, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/mart15.json"},
 {"id": "bms6", "title": "39-variant (Boltayev-6, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bms6.json"},
-{"id": "bms7", "title": "40-variant (Boltayev-7, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bms7.json"}
+{"id": "bms7", "title": "40-variant (Boltayev-7, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bms7.json"},
+{"id": "dg-06", "title": "41-variant (Diagnostik-6)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/dg-06.json"},
+{"id": "dg-11", "title": "42-variant (Diagnostik-11)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/dg-11.json"}
 ]

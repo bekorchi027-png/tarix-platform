@@ -239,8 +239,13 @@ function isPerson(raw){
   if(t.some(x=>GENERIC.has(x)||PLACEHEAD.has(x))) return false;
   return w.every(x=>PARTICLE.test(x)||/^[A-ZА-ЯЎҚҒҲʻ'‘’]/.test(x)) && w.some(x=>!PARTICLE.test(x));
 }
+// A date answer must name the same month as the key ("24-noyabr" is not "24-oktyabr").
+const MONTHS={yanvar:1,fevral:2,mart:3,aprel:4,may:5,iyun:6,iyul:7,avgust:8,sentabr:9,sentyabr:9,oktabr:10,oktyabr:10,noyabr:11,dekabr:12};
+const months=s=>toks(s).filter(t=>MONTHS[t]).map(t=>MONTHS[t]).join(" ");
 function oneMatch(x,y,raw){
   if(x===y) return true;
+  const xm=months(x), ym=months(y);
+  if(xm && ym && xm!==ym) return false;
   const tol = y.length>=10?2: y.length>=5?1:0;
   // a small typo is fine, but not a different word or numeral ("Sulton Mahmud" is not "Sulton Ahmad", "Silvestr III" is not "Silvestr II")
   if(!/\d/.test(y) && lev(x,y)<=tol){
