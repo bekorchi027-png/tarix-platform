@@ -50,5 +50,6 @@
 {"id": "dg-11", "title": "49-variant (Diagnostik-11)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/dg-11.json"},
 {"id": "twn-02", "title": "50-variant (N2, TarixwithmeNI)", "src": "I. Nurillayev, M. Abdullayev (@TarixwithmeNI)", "key": "muallif kaliti", "file": "tests/twn-02.json"},
 {"id": "tms26-15", "title": "51-variant (TMS-15, 2026)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/tms26-15.json"},
-{"id": "dg-35", "title": "52-variant (Diagnostik-35, 31-oktabr)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/dg-35.json"}
+{"id": "dg-35", "title": "52-variant (Diagnostik-35, 31-oktabr)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/dg-35.json"},
+{"id": "rz-01", "title": "53-variant (Ro‘zmatov 1-variant, HISTORY PRO)", "src": "T. Ro‘zmatov (HISTORY PRO, @toshkent_tarixchilari)", "key": "mustaqil yechilgan kalit", "file": "tests/rz-01.json"}
 ]
