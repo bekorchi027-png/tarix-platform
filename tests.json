@@ -55,5 +55,6 @@
 {"id": "msu", "title": "54-variant (Milliy sertifikat Umumiy)", "src": "B. Yo‘ldoshev, A. Fozilov (@Onlinetarix_chi)", "key": "mustaqil yechilgan kalit", "file": "tests/msu.json"},
 {"id": "bt27-02", "title": "55-variant (Boltayev 2026–27, 2-variant)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bt27-02.json"},
 {"id": "bt27-01", "title": "56-variant (Boltayev 2026–27, 1-variant)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bt27-01.json"},
-{"id": "tlv-01", "title": "57-variant (Tilavaddinov №15)", "src": "D. Tilavaddinov (@Tarix_Mock_Testlar)", "key": "muallif kaliti", "file": "tests/tlv-01.json"}
+{"id": "tlv-01", "title": "57-variant (Tilavaddinov №15)", "src": "D. Tilavaddinov (@Tarix_Mock_Testlar)", "key": "muallif kaliti", "file": "tests/tlv-01.json"},
+{"id": "mock5", "title": "58-variant (MOCK 5, Shomurodov)", "src": "U. Shomurodov (@Universal_tarix)", "key": "muallif kaliti", "file": "tests/mock5.json"}
 ]
