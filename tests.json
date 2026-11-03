@@ -52,5 +52,7 @@
 {"id": "tms26-15", "title": "51-variant (TMS-15, 2026)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/tms26-15.json"},
 {"id": "dg-35", "title": "52-variant (Diagnostik-35, 31-oktabr)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_tomchi, @Tarixdan_testlar_BH, @Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/dg-35.json"},
 {"id": "rz-01", "title": "53-variant (Ro‘zmatov 1-variant, HISTORY PRO)", "src": "T. Ro‘zmatov (HISTORY PRO, @toshkent_tarixchilari)", "key": "mustaqil yechilgan kalit", "file": "tests/rz-01.json"},
-{"id": "msu", "title": "54-variant (Milliy sertifikat Umumiy)", "src": "B. Yo‘ldoshev, A. Fozilov (@Onlinetarix_chi)", "key": "mustaqil yechilgan kalit", "file": "tests/msu.json"}
+{"id": "msu", "title": "54-variant (Milliy sertifikat Umumiy)", "src": "B. Yo‘ldoshev, A. Fozilov (@Onlinetarix_chi)", "key": "mustaqil yechilgan kalit", "file": "tests/msu.json"},
+{"id": "yan16", "title": "55-variant (16-yanvar, TESTLIDER)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/yan16.json"},
+{"id": "bt27-02", "title": "56-variant (Boltayev 2026–27, 2-variant)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bt27-02.json"}
 ]
