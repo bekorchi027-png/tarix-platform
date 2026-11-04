@@ -61,5 +61,6 @@
 {"id": "alj-ms3", "title": "60-variant (Milliy sertifikat III, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms3.json"},
 {"id": "alj-ms5", "title": "61-variant (Milliy sertifikat V, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms5.json"},
 {"id": "alj-ms8", "title": "62-variant (Milliy sertifikat VIII, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms8.json"},
-{"id": "alj-ms10", "title": "63-variant (Milliy sertifikat X, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms10.json"}
+{"id": "alj-ms10", "title": "63-variant (Milliy sertifikat X, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms10.json"},
+{"id": "bt27-03", "title": "64-variant (Boltayev 2026–27, 3-variant)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bt27-03.json"}
 ]
