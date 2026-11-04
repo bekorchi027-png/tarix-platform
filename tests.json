@@ -59,5 +59,6 @@
 {"id": "mock5", "title": "58-variant (MOCK 5, Shomurodov)", "src": "U. Shomurodov (@Universal_tarix)", "key": "muallif kaliti", "file": "tests/mock5.json"},
 {"id": "alj-ms1", "title": "59-variant (Milliy sertifikat I, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms1.json"},
 {"id": "alj-ms3", "title": "60-variant (Milliy sertifikat III, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms3.json"},
-{"id": "alj-ms5", "title": "61-variant (Milliy sertifikat V, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms5.json"}
+{"id": "alj-ms5", "title": "61-variant (Milliy sertifikat V, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms5.json"},
+{"id": "alj-ms8", "title": "62-variant (Milliy sertifikat VIII, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms8.json"}
 ]
