@@ -67,10 +67,17 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline
 .qhead h2{font-size:26px}
 .tag{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--muted)}
 .qtext{font-size:17px;margin:0}
-.extra{white-space:pre-wrap;background:var(--paper);border-left:3px solid var(--line);padding:12px 14px;margin:0;font-size:14.5px;overflow-x:auto}
+.extra{white-space:pre-wrap;background:var(--paper);border-left:3px solid var(--line);padding:12px 14px;margin:0;font:14.5px/1.55 var(--body);overflow-x:auto}
+.extra table{border-collapse:collapse;width:100%;margin:2px 0 8px;white-space:normal;font-size:14px}
+.extra th,.extra td{border:1px solid var(--line);padding:5px 7px;vertical-align:top;text-align:left}
+.extra th{background:var(--sheet);font-weight:600}
 .map{border:1px solid var(--line);border-radius:6px;max-width:100%;background:#fff;cursor:zoom-in}
-#zoom{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;overflow:auto;z-index:99;cursor:zoom-out}
-#zoom img{display:block;max-width:none;width:auto;min-width:100%;margin:auto;background:#fff}
+#zoom{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;overflow:auto;z-index:99;align-items:center;justify-content:center}
+#zoom.on{display:flex}
+#zoom img{display:block;max-width:100vw;max-height:100vh;width:auto;height:auto;background:#fff;cursor:zoom-in}
+#zoom.full{display:block}
+#zoom.full img{max-width:none;max-height:none;margin:auto;cursor:zoom-out}
+#zoom .zx{position:fixed;top:10px;right:10px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#111;font-size:26px;line-height:1;cursor:pointer;z-index:100}
 .opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
 .opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:transparent;border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:var(--ink)}
 .opt:hover{border-color:var(--accent)}
@@ -205,7 +212,8 @@ async function submitAttempt(){
 }
 
 const $ = s => document.querySelector(s);
-const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// The body font lacks ʻ and ʼ (U+02BB/U+02BC); the fallback font left gaps inside words, so show ‘ and ’ instead.
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])).replace(/\u02BB/g,"\u2018").replace(/\u02BC/g,"\u2019");
 const fmt = n => n.toFixed(1).replace(".", ",");
 
 // Normalise Uzbek Latin answers: apostrophe variants, case, punctuation, spaces.
@@ -356,7 +364,7 @@ function renderStart(){
       <li>Noto'g'ri javob uchun ball ayirilmaydi. Vaqt tugasa, test avtomatik yakunlanadi.</li>
       ${pics.length?`<li>Rasmli topshiriqlar: ${pics.map(i=>`${i.n} (${picKind(i)})`).join(", ")}. Rasm ustiga bossangiz, kattalashadi.</li>`:""}
     </ul>
-    ${lows?`<p class="warn">Bu variantning rasmiy javob kaliti yo'q. ${lows} ta topshiriqning javobi taxminiy va o'qituvchi tekshiruvida, shuning uchun natija ham taxminiy.</p>`:""}
+    ${V.key==="taxminiy"?`<p class="warn">Bu variantning rasmiy javob kaliti yo'q. ${lows} ta topshiriqning javobi taxminiy va o'qituvchi tekshiruvida, shuning uchun natija ham taxminiy.</p>`:lows?`<p class="warn">${lows} ta topshiriqning javobi taxminiy, natijada shuni hisobga oling.</p>`:""}
     <div style="display:flex;gap:10px;flex-wrap:wrap">
       <label class="namefield" for="nm">Ism va familiyangiz<input id="nm" autocomplete="name" value="${esc(st.name||myName())}" placeholder="Masalan: Aliyev Vali"></label>
     </div>
@@ -373,6 +381,28 @@ function renderStart(){
   { const bk=$("#back"); if(bk) bk.onclick=closeVariant; }
 }
 
+// Lines written as "a | b | c" become a table; a "Jadval (x | y | z):" line just before them gives the header row.
+function extraHtml(text){
+  const lines=String(text).split("\n"), out=[]; let i=0;
+  const cells=l=>l.split("|").map(c=>c.trim());
+  while(i<lines.length){
+    let head=null, s=i;
+    const m=lines[i].match(/^Jadval\s*\((.*)\):?\s*$/);
+    if(m && m[1].includes("|") && i+1<lines.length && lines[i+1].includes(" | ")){ head=cells(m[1]); s=i+1; }
+    let j=s; while(j<lines.length && lines[j].includes(" | ") && !/^Jadval\s*\(/.test(lines[j])) j++;
+    if(j-s>=(head?1:2)){
+      let rows=lines.slice(s,j).map(cells);
+      if(!head){ head=rows[0]; rows=rows.slice(1); }
+      out.push({html:`<table><thead><tr>${head.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>`});
+      i=j;
+    } else { out.push({raw:lines[i]}); i++; }
+  }
+  let html="", buf=[];
+  const flush=()=>{ if(buf.length){ html+=esc(buf.join("\n"))+"\n"; buf=[]; } };
+  for(const o of out){ if(o.html){ flush(); html+=o.html; } else buf.push(o.raw); }
+  flush();
+  return html.replace(/\n$/,"");
+}
 function picKind(it){
   const t=((it.type||"")+" "+(it.q||"")).toLowerCase();
   if(/eyler|venn/.test(t)) return "Eyler-Venn diagrammasi";
@@ -393,7 +423,7 @@ function renderExam(){
   if(it.kind==="closed"){
     body += `<p class="qtext">${esc(it.q)}</p>`;
     if(it.img) body += `<img class="map" src="${IMGS[it.img]||it.img}" alt="${esc(it.alt||"")}"><p class="note zoomhint">Rasmni kattalashtirish uchun ustiga bosing.</p>`;
-    if(it.extra && !it.bank) body += `<pre class="extra">${esc(it.extra)}</pre>`;
+    if(it.extra && !it.bank) body += `<div class="extra">${extraHtml(it.extra)}</div>`;
     if(it.bank) body += `<p class="note">33–35-topshiriqlar uchun umumiy javoblar:</p>`;
     body += optButtons(it);
   } else {
@@ -516,6 +546,12 @@ function renderResult(){
 boot();
 </script>
 
-<div id="zoom" onclick="this.style.display='none'"><img alt=""></div>
-<script>document.addEventListener("click",e=>{if(e.target.classList&&e.target.classList.contains("map")){const z=document.getElementById("zoom");z.querySelector("img").src=e.target.src;z.style.display="block";}});</script>
+<div id="zoom" role="dialog" aria-modal="true" aria-label="Kattalashtirilgan rasm"><button class="zx" type="button" aria-label="Yopish">×</button><img alt=""></div>
+<script>
+(()=>{const z=document.getElementById("zoom"), im=z.querySelector("img");
+const close=()=>{ z.className=""; };
+document.addEventListener("click",e=>{ if(e.target.classList&&e.target.classList.contains("map")){ im.src=e.target.src; im.alt=e.target.alt; z.className="on"; z.scrollTo(0,0); } });
+z.addEventListener("click",e=>{ if(e.target===im){ z.classList.toggle("full"); z.classList.toggle("on"); } else close(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape" && z.className) close(); });})();
+</script>
 </body></html>
