@@ -1,6 +1,6 @@
 [
 {"id": "v1", "title": "1-variant", "src": "@Onlinetarix_chi namunaviy testi", "key": "tekshirilgan", "file": "tests/v1.json"},
-{"id": "ms6", "title": "2-variant (M-S-6)", "src": "@Onlinetarix_chi, A. Fozilov", "key": "taxminiy", "file": "tests/ms6.json"},
+{"id": "ms6", "title": "2-variant (M-S-6)", "src": "@Onlinetarix_chi, A. Fozilov", "key": "mustaqil yechilgan kalit", "file": "tests/ms6.json"},
 {"id": "tms26-01", "title": "3-variant (TMS-1, 2026)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)", "key": "muallif kaliti", "file": "tests/tms26-01.json"},
 {"id": "tms26-02", "title": "4-variant (TMS-2, 2026)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)", "key": "muallif kaliti", "file": "tests/tms26-02.json"},
 {"id": "tms26-03", "title": "5-variant (TMS-3, 2026)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH)", "key": "muallif kaliti", "file": "tests/tms26-03.json"},

@@ -144,6 +144,57 @@ footer{margin-top:28px}
 .vstat{font-size:13px;color:var(--accent);font-weight:500}
 .warn{font-size:12.5px;color:var(--flag);font-weight:500}
 @media (prefers-reduced-motion:no-preference){.opt,.cell{transition:background .12s,border-color .12s}}
+/* Touch and screen-size tuning (phones, tablets, desktops) */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+button,.opt,.cell,.vcard{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.btn{min-height:44px}
+.written input,.namefield input{font-size:16px}
+.map{display:block;width:100%;max-width:640px;height:auto}
+.opt{min-height:48px;align-items:center}
+@media (min-width:821px){
+  .exam{grid-template-columns:minmax(0,1fr) 300px}
+  .cells{grid-template-columns:repeat(7,1fr);gap:6px}
+  .cell{font-size:13px}
+}
+@media (max-width:600px){
+  body{font-size:15px}
+  .wrap{padding-inline:12px;padding-block:12px 32px}
+  .cover{padding:18px;gap:16px}
+  .facts{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .fact b{font-size:20px}
+  .vlist{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .vcard{padding:10px 12px}
+  .vcard b{font-size:16px;line-height:1.25}
+  .vcard .note{font-size:12px;overflow-wrap:anywhere}
+  .vstat{font-size:12px}
+  .bar{margin-inline:-12px;padding:8px 12px;gap:8px;flex-wrap:nowrap}
+  .bar .vt{display:none}
+  .timer{font-size:19px}
+  .progress{font-size:12.5px;white-space:nowrap}
+  .bar .btn{padding:8px 12px;font-size:14px;min-height:40px;white-space:nowrap}
+  .exam{margin-top:12px;gap:12px}
+  .sheet{padding:16px;gap:14px}
+  .qhead h2{font-size:22px}
+  .qtext{font-size:16px}
+  .extra{padding:10px;font-size:14px;margin-inline:-4px}
+  .extra table{font-size:13px}
+  .extra th,.extra td{padding:4px 5px}
+  .opt{padding:10px}
+  .nav{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .nav #flag{grid-column:1/-1;order:-1}
+  .grid-card{padding:12px}
+  .cells{grid-template-columns:repeat(auto-fill,minmax(38px,1fr));gap:6px}
+  .cell{font-size:13px}
+  .score{padding:18px;gap:12px}
+  .level{font-size:56px}
+  .bigline{font-size:24px}
+  .rrow{grid-template-columns:36px minmax(0,1fr) auto;gap:8px;padding:10px 12px}
+  .rrow .meta{overflow-wrap:anywhere}
+}
+@media (max-width:340px){
+  .vlist{grid-template-columns:minmax(0,1fr)}
+  .progress{display:none}
+}
 </style>
 
 </head><body>
@@ -422,7 +473,7 @@ function renderExam(){
   let body="";
   if(it.kind==="closed"){
     body += `<p class="qtext">${esc(it.q)}</p>`;
-    if(it.img) body += `<img class="map" src="${IMGS[it.img]||it.img}" alt="${esc(it.alt||"")}"><p class="note zoomhint">Rasmni kattalashtirish uchun ustiga bosing.</p>`;
+    if(it.img) body += `<img class="map" src="${IMGS[it.img]||it.img}" alt="${esc(it.alt||"")}" onload="this.style.maxWidth=Math.min(720,Math.round(this.naturalWidth*1.5))+'px'"><p class="note zoomhint">Rasmni kattalashtirish uchun ustiga bosing.</p>`;
     if(it.extra && !it.bank) body += `<div class="extra">${extraHtml(it.extra)}</div>`;
     if(it.bank) body += `<p class="note">33–35-topshiriqlar uchun umumiy javoblar:</p>`;
     body += optButtons(it);
@@ -437,7 +488,7 @@ function renderExam(){
   $("#app").innerHTML = `
   <div class="bar">
     <span class="timer num" id="timer">--:--</span>
-    <span class="progress">${esc(V.title)} · <span class="num">${done}</span> / 45 javob berildi</span>
+    <span class="progress"><span class="vt">${esc(V.title)} · </span><span class="num">${done}</span> / 45<span class="vt"> javob berildi</span></span>
     <span class="spacer"></span>
     <button class="btn ghost" id="finish">Testni yakunlash</button>
   </div>
