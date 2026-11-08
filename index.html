@@ -210,6 +210,7 @@ button,.opt,.cell,.vcard{touch-action:manipulation;-webkit-tap-highlight-color:t
 
 <script src="vendor/supabase-2.75.0.js"></script>
 <script src="auth.js"></script>
+<script src="yordamchi.js" defer></script>
 <script>
 const SB_URL = "https://nhwzwqjbwwzvqxvdbecc.supabase.co";
 const SB_KEY = "sb_publishable_wlGqP_SHtv-BgS1RT4CpgQ_YpQDf2Ch";
@@ -249,6 +250,8 @@ async function boot(){
     $("#app").innerHTML = `<section class="cover"><h1>Testlarni yuklab bo'lmadi</h1><p class="note">Internet aloqasini tekshirib, sahifani yangilang.</p></section>`; return;
   }
   try{ const s=localStorage.getItem(SEL); if(s && VARIANTS.some(v=>v.id===s)) openVariant(s); }catch(e){}
+  // A link like /?v=ms6 (from the site helper) opens that variant's start page.
+  try{ const pv=new URLSearchParams(location.search).get("v"); if(pv && VARIANTS.some(v=>v.id===pv)){ openVariant(pv); save(); } if(pv) history.replaceState(null,"",location.pathname+location.hash); }catch(e){}
   if(VARIANTS.length===1 && !vid) openVariant(VARIANTS[0].id);
   render();
 }

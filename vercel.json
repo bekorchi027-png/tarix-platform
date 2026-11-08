@@ -1,6 +1,28 @@
 {
   "headers": [
-    { "source": "/tests.json", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
-    { "source": "/tests/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }
-  ]
+    {
+      "source": "/tests.json",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/tests/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "api/yordamchi.mjs": {
+      "includeFiles": "{yordamchi-bilim.json,tests.json,xarita-davlatlar.js,joy-data.js}",
+      "maxDuration": 30
+    }
+  }
 }
