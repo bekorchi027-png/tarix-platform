@@ -22,7 +22,7 @@
   "functions": {
     "api/yordamchi.mjs": {
       "includeFiles": "{yordamchi-bilim.json,tests.json,xarita-davlatlar.js,joy-data.js}",
-      "maxDuration": 30
+      "maxDuration": 40
     }
   }
 }

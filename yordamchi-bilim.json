@@ -1,31 +1,117 @@
 {
-  "sayt": "O'zing O'rgan (ozing-organ.uz) - tarix fanidan Milliy sertifikat imtihoniga tayyorlanish uchun bepul sayt. Sinov testlari va mashq o'yinlari bor. Hisobsiz ham ishlaydi; ro'yxatdan o'tilsa natijalar kabinetda saqlanadi va reytingga chiqadi.",
-  "bolimlar": [
-    {"id": "testlar", "nom": "Sinov testlari (variantlar)", "url": "/", "kalit": "test variant sinov imtihon sertifikat 45 topshiriq 90 daqiqa yechish boshlash",
-     "tavsif": "Bosh sahifada 60 dan ortiq to'liq variant bor. Har biri haqiqiy imtihon kabi: 45 topshiriq, 90 daqiqa, 100 xom ball. 1-32 bitta javobli, 33-35 umumiy A-F ro'yxatdan moslash, 36-45 yozma a) b) javoblar. Variantni tanlab, ismingizni yozasiz va 'Testni boshlash'ni bosasiz. Javoblar avtomatik saqlanadi, yopib qo'ysangiz keyin davom ettirasiz. 'Keyinroq qaytaman' tugmasi savolni belgilab qo'yadi."},
-    {"id": "natija", "nom": "Natija va javoblar tahlili", "url": "/", "kalit": "natija ball daraja tahlil xato javob kalit A+ B C",
-     "tavsif": "Test yakunlangach xom ball va taxminiy daraja (A+ dan C gacha) chiqadi, pastda har bir topshiriq bo'yicha to'g'ri javob bilan tahlil bo'ladi. 'Qaytadan yechish' bilan variantni yangidan boshlash mumkin. Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy."},
-    {"id": "royxat", "nom": "Ro'yxatdan o'tish va kirish", "url": "/?oyna=royxat", "kalit": "royxatdan otish kirish login parol hisob akkaunt",
-     "tavsif": "Yuqori o'ng burchakdagi tugma orqali. Ro'yxatdan o'tish ikki qadam: ism-familiya, keyin login va parol. Email shart emas."},
-    {"id": "kabinet", "nom": "Kabinet", "url": "/?oyna=kabinet", "kalit": "kabinet natijalarim profil saqlangan ballar tarix",
-     "tavsif": "Kirgandan keyin yuqoridagi ismingizni bossangiz kabinet ochiladi: yechgan testlaringiz natijalari va mashqlardagi ballaringiz."},
-    {"id": "mashqlar", "nom": "Mashq va o'yinlar", "url": "/mashqlar.html", "kalit": "mashq oyin oyinlar takrorlash",
-     "tavsif": "Testlardagi savollar va tarixiy voqealar asosida o'yinlar: g'ildirak, viktorina, jonli bellashuv, xarita, xronologiya, kartochkalar."},
-    {"id": "carx", "nom": "Tasodifiy g'ildirak", "url": "/mashqlar.html#carx", "kalit": "gildirak charx tasodifiy ism tanlash sinf oqituvchi navbat",
-     "tavsif": "O'qituvchi uchun: sinfdagi ismlarni yozasiz, g'ildirak tasodifan bittasini tanlaydi. Xohlasangiz tanlangan o'quvchiga testdan tasodifiy savol ham chiqadi. Tanlanganni ro'yxatdan olib tashlash mumkin."},
-    {"id": "viktorina", "nom": "Tezkor viktorina", "url": "/mashqlar.html#viktorina", "kalit": "viktorina tezkor savol vaqt ball reyting quiz",
-     "tavsif": "Vaqtga qarab javob beriladigan savollar. Variant, bo'lim, savollar soni va vaqtni tanlaysiz. Tez va ketma-ket to'g'ri javob ko'proq ball beradi. Hisobga kirgan bo'lsangiz ball haftalik reytingga tushadi."},
-    {"id": "jonli", "nom": "Jonli bellashuv (PIN bilan qo'shilish)", "url": "/mashqlar.html#jonli", "kalit": "jonli bellashuv pin kod qoshilish sinf bilan oyin telefon",
-     "tavsif": "Butun sinf bilan bir vaqtda o'ynaladi. O'quvchi telefonda shu sahifani ochadi, o'qituvchi bergan 6 xonali PIN kodni va ismini kiritadi, savollarga javob beradi. Tez va to'g'ri javob ko'proq ball."},
-    {"id": "jonli-host", "nom": "Jonli o'yin yaratish (o'qituvchi)", "url": "/mashqlar.html#jonli/host", "kalit": "oqituvchi oyin yaratish pin proyektor ekran",
-     "tavsif": "O'qituvchi variant, savollar soni va vaqtni tanlab o'yin yaratadi. Ekranda PIN kod chiqadi, o'quvchilar qo'shilgach 'Boshlash' bosiladi. Savollarni proyektor yoki televizorga chiqarish qulay."},
-    {"id": "xarita", "nom": "Tarixiy xarita", "url": "/mashqlar.html#xarita", "kalit": "xarita joy shahar hudud davlat chegaralar qayerda",
-     "tavsif": "Tarixiy voqealar joylari xaritada. Nuqtani bossangiz voqea, yili va qisqa izoh chiqadi."},
-    {"id": "xarita-oyin", "nom": "Xaritada toping (o'yin)", "url": "/mashqlar.html#xarita/oyin", "kalit": "xaritada toping joy topish oyin km masofa",
-     "tavsif": "Voqea nomi beriladi, uning joyini yozuvsiz xaritadan topib bosasiz. Qanchalik yaqin bossangiz, shuncha ko'p ball."},
-    {"id": "xronologiya", "nom": "Xronologiya", "url": "/mashqlar.html#xronologiya", "kalit": "xronologiya yil sana tartib ketma ketlik voqealar",
-     "tavsif": "5 ta voqeani sodir bo'lgan yili bo'yicha to'g'ri tartibga qo'yasiz. 5 raund."},
-    {"id": "kartochka", "nom": "Kartochkalar", "url": "/mashqlar.html#kartochka", "kalit": "kartochka yodlash takrorlash yozma savol flashcard",
-     "tavsif": "Yozma topshiriqlardan (36-45) kartochkalar. Javobni avval o'zingiz o'ylaysiz, keyin kartochkani bosib ag'darasiz va 'Bildim' yoki 'Bilmasdim' deb belgilaysiz."}
-  ]
+ "sayt": "O'zing O'rgan (ozing-organ.uz) - tarix fanidan Milliy sertifikat imtihoniga tayyorlanish uchun bepul sayt. Sinov testlari va mashq o'yinlari bor. Hisobsiz ham ishlaydi; ro'yxatdan o'tilsa natijalar kabinetda saqlanadi va reytingga chiqadi.",
+ "bolimlar": [
+  {
+   "id": "testlar",
+   "nom": "Sinov testlari (variantlar)",
+   "url": "/",
+   "kalit": "test variant sinov imtihon sertifikat 45 topshiriq 90 daqiqa yechish boshlash",
+   "tavsif": "Bosh sahifada 60 dan ortiq to'liq variant bor. Har biri haqiqiy imtihon kabi: 45 topshiriq, 90 daqiqa, 100 xom ball. 1-32 bitta javobli, 33-35 umumiy A-F ro'yxatdan moslash, 36-45 yozma a) b) javoblar. Variantni tanlab, ismingizni yozasiz va 'Testni boshlash'ni bosasiz. Javoblar avtomatik saqlanadi, yopib qo'ysangiz keyin davom ettirasiz. 'Keyinroq qaytaman' tugmasi savolni belgilab qo'yadi."
+  },
+  {
+   "id": "natija",
+   "nom": "Natija va javoblar tahlili",
+   "url": "/",
+   "kalit": "natija ball daraja tahlil xato javob kalit A+ B C",
+   "tavsif": "Test yakunlangach xom ball va taxminiy daraja (A+ dan C gacha) chiqadi, pastda har bir topshiriq bo'yicha to'g'ri javob bilan tahlil bo'ladi. 'Qaytadan yechish' bilan variantni yangidan boshlash mumkin. Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy."
+  },
+  {
+   "id": "royxat",
+   "nom": "Ro'yxatdan o'tish va kirish",
+   "url": "/?oyna=royxat",
+   "kalit": "royxatdan otish kirish login parol hisob akkaunt",
+   "tavsif": "Yuqori o'ng burchakdagi tugma orqali. Ro'yxatdan o'tish ikki qadam: ism-familiya, keyin login va parol. Email shart emas."
+  },
+  {
+   "id": "kabinet",
+   "nom": "Kabinet",
+   "url": "/?oyna=kabinet",
+   "kalit": "kabinet natijalarim profil saqlangan ballar tarix",
+   "tavsif": "Kirgandan keyin yuqoridagi ismingizni bossangiz kabinet ochiladi: yechgan testlaringiz natijalari va mashqlardagi ballaringiz."
+  },
+  {
+   "id": "mashqlar",
+   "nom": "Mashq va o'yinlar",
+   "url": "/mashqlar.html",
+   "kalit": "mashq oyin oyinlar takrorlash",
+   "tavsif": "Testlardagi savollar va tarixiy voqealar asosida o'yinlar: g'ildirak, viktorina, jonli bellashuv, voqealar xaritasi, joy nomlari xaritasi (davlat chegaralari bilan), xronologiya, kartochkalar."
+  },
+  {
+   "id": "carx",
+   "nom": "Tasodifiy g'ildirak",
+   "url": "/mashqlar.html#carx",
+   "kalit": "gildirak charx tasodifiy ism tanlash sinf oqituvchi navbat",
+   "tavsif": "O'qituvchi uchun: sinfdagi ismlarni yozasiz, g'ildirak tasodifan bittasini tanlaydi. Xohlasangiz tanlangan o'quvchiga testdan tasodifiy savol ham chiqadi. Tanlanganni ro'yxatdan olib tashlash mumkin."
+  },
+  {
+   "id": "viktorina",
+   "nom": "Tezkor viktorina",
+   "url": "/mashqlar.html#viktorina",
+   "kalit": "viktorina tezkor savol vaqt ball reyting quiz",
+   "tavsif": "Vaqtga qarab javob beriladigan savollar. Variant, bo'lim, savollar soni va vaqtni tanlaysiz. Tez va ketma-ket to'g'ri javob ko'proq ball beradi. Hisobga kirgan bo'lsangiz ball haftalik reytingga tushadi."
+  },
+  {
+   "id": "jonli",
+   "nom": "Jonli bellashuv (PIN bilan qo'shilish)",
+   "url": "/mashqlar.html#jonli",
+   "kalit": "jonli bellashuv pin kod qoshilish sinf bilan oyin telefon",
+   "tavsif": "Butun sinf bilan bir vaqtda o'ynaladi. O'quvchi telefonda shu sahifani ochadi, o'qituvchi bergan 6 xonali PIN kodni va ismini kiritadi, savollarga javob beradi. Tez va to'g'ri javob ko'proq ball."
+  },
+  {
+   "id": "jonli-host",
+   "nom": "Jonli o'yin yaratish (o'qituvchi)",
+   "url": "/mashqlar.html#jonli/host",
+   "kalit": "oqituvchi oyin yaratish pin proyektor ekran",
+   "tavsif": "O'qituvchi variant, savollar soni va vaqtni tanlab o'yin yaratadi. Ekranda PIN kod chiqadi, o'quvchilar qo'shilgach 'Boshlash' bosiladi. Savollarni proyektor yoki televizorga chiqarish qulay."
+  },
+  {
+   "id": "xarita",
+   "nom": "Tarixiy voqealar xaritasi",
+   "url": "/mashqlar.html#xarita",
+   "kalit": "xarita joy shahar hudud davlat chegaralar qayerda",
+   "tavsif": "Tarixiy voqealar (janglar, shaharlarning egallanishi va h.k.) joylari xaritada. Nuqtani bossangiz voqea, yili va qisqa izoh chiqadi. Davlat chegaralari uchun Joy nomlari xaritasidan foydalaning."
+  },
+  {
+   "id": "xarita-oyin",
+   "nom": "Xaritada toping (o'yin)",
+   "url": "/mashqlar.html#xarita/oyin",
+   "kalit": "xaritada toping joy topish oyin km masofa",
+   "tavsif": "Voqea nomi beriladi, uning joyini yozuvsiz xaritadan topib bosasiz. Qanchalik yaqin bossangiz, shuncha ko'p ball."
+  },
+  {
+   "id": "joylar",
+   "nom": "Joy nomlari xaritasi (davlat chegaralari)",
+   "url": "/mashqlar.html#joylar",
+   "kalit": "joy nomlari xarita davlat hudud chegara chegaralari imperiya xonlik shahar qala viloyat daryo qadimgi nomi qayerda yil davr",
+   "tavsif": "150 ga yaqin tarixiy joy: qadimgi shahar, qal'a, viloyat va daryo nomlari, hozirgi nomi bilan. Yil tanlab, o'sha davrdagi davlatlar chegaralarini ko'rish mumkin (mil. avv. 2000-yildan bugungacha). Davlatni tanlasangiz, uning hududi ajratib ko'rsatiladi."
+  },
+  {
+   "id": "joylar-qayerda",
+   "nom": "\"Qayerda?\" o'yini",
+   "url": "/mashqlar.html#joylar/qayerda",
+   "kalit": "qayerda oyin joy topish xarita",
+   "tavsif": "Tarixiy joy nomi beriladi, uni xaritadan topib bosasiz."
+  },
+  {
+   "id": "joylar-nomi",
+   "nom": "\"Nomi nima?\" o'yini",
+   "url": "/mashqlar.html#joylar/nomi",
+   "kalit": "nomi nima oyin qizil nuqta joy nomi",
+   "tavsif": "Xaritadagi qizil nuqta ko'rsatiladi, o'sha joyning tarixiy nomini topasiz. Ishora sifatida joy turi va davri beriladi."
+  },
+  {
+   "id": "xronologiya",
+   "nom": "Xronologiya",
+   "url": "/mashqlar.html#xronologiya",
+   "kalit": "xronologiya yil sana tartib ketma ketlik voqealar",
+   "tavsif": "5 ta voqeani sodir bo'lgan yili bo'yicha to'g'ri tartibga qo'yasiz. 5 raund."
+  },
+  {
+   "id": "kartochka",
+   "nom": "Kartochkalar",
+   "url": "/mashqlar.html#kartochka",
+   "kalit": "kartochka yodlash takrorlash yozma savol flashcard",
+   "tavsif": "Yozma topshiriqlardan (36-45) kartochkalar. Javobni avval o'zingiz o'ylaysiz, keyin kartochkani bosib ag'darasiz va 'Bildim' yoki 'Bilmasdim' deb belgilaysiz."
+  }
+ ]
 }

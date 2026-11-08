@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const MODELS = (process.env.GEMINI_MODELS || "gemini-flash-lite-latest,gemini-flash-latest").split(",");
+const MODELS = (process.env.GEMINI_MODELS || "gemini-flash-lite-latest,gemini-2.5-flash-lite,gemini-flash-latest").split(",");
 const LIMIT = 20, WINDOW_MS = 10 * 60 * 1000;   // per IP, per warm instance
 const hits = new Map();
 
@@ -24,7 +24,7 @@ function knowledge(){
   const norm = s => String(s||"").toLowerCase().replace(/[ʻʼ'`‘’]/g, "").trim();
   const joyNames = new Set();
   joy.forEach(j => [j.n, ...String(j.a||"").split(",")].forEach(x => x && joyNames.add(norm(x))));
-  const y = v => v < 0 ? `mil. avv. ${-v}` : String(v);
+  const y = v => v < 0 ? `mil. avv. ${-v}` : `milodiy ${v}`;
   const text = [
     bilim.sayt,
     "\nBO'LIMLAR (id | nom | havola | tavsif):",
@@ -78,7 +78,7 @@ const SCHEMA = {type:"OBJECT", properties:{
 async function ask(model, body){
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
     method:"POST", headers:{"Content-Type":"application/json", "x-goog-api-key":process.env.GEMINI_API_KEY},
-    body:JSON.stringify(body), signal:AbortSignal.timeout(20000)
+    body:JSON.stringify(body), signal:AbortSignal.timeout(10000)
   });
   if(!r.ok) throw Object.assign(new Error("gemini " + r.status), {status:r.status});
   const j = await r.json();
