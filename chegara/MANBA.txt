@@ -1,0 +1,5 @@
+Davlat chegaralari: historical-basemaps, (c) André Ourednik va hissa qo'shganlar,
+https://github.com/aourednik/historical-basemaps , GNU GPL v3 (LICENSE-GPL3.txt).
+Fayllar soddalashtirilgan (mapshaper -simplify 12%, faqat NAME maydoni). Chegaralar taxminiy.
+1530-1914-yillar uchun Buxoro, Xiva va Qo'qon chegaralari manbada noto'g'ri belgilangan, shuning uchun ular
+sayt uchun qo'lda chizilgan taxminiy chiziqlar bilan almashtirilgan (xonliklar.py).
