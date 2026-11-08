@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mashq va o'yinlar · O'zing O'rgan</title>
+<meta name="description" content="O'zing O'rgan: tarixdan mashq va o'yinlar. Tasodifiy g'ildirak, tezkor viktorina, sinf bilan jonli bellashuv, tarixiy xarita, xronologiya va kartochkalar.">
+<link rel="canonical" href="https://ozing-organ.uz/mashqlar.html">
+<meta name="theme-color" content="#1f4f7a">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<style>
+:root{
+  --paper:#f3f5f4; --sheet:#ffffff; --ink:#1b2430; --muted:#5d6b78; --line:#d6dde2;
+  --accent:#1f4f7a; --accent-soft:#e3ecf4; --ok:#1f7a4d; --ok-soft:#e1f2e8; --bad:#b3372f; --bad-soft:#f8e3e1; --flag:#b7791f;
+  --oA:#c0392b; --oB:#1f5fa8; --oC:#b7791f; --oD:#2d7d46;
+  --display:"Alegreya",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#11161b; --sheet:#1a2027; --ink:#e4e9ee; --muted:#9aa7b3; --line:#2e3742;
+  --accent:#7fb0dd; --accent-soft:#1f2f40; --ok:#5cc28f; --ok-soft:#173226; --bad:#ec8077; --bad-soft:#3a1f1d; --flag:#e0a94a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#11161b; --sheet:#1a2027; --ink:#e4e9ee; --muted:#9aa7b3; --line:#2e3742;
+  --accent:#7fb0dd; --accent-soft:#1f2f40; --ok:#5cc28f; --ok-soft:#173226; --bad:#ec8077; --bad-soft:#3a1f1d; --flag:#e0a94a; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font:15px/1.6 var(--body);margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:20px 16px 48px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+a{color:var(--accent)}
+button{font:inherit;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--sheet);padding:10px 18px;border-radius:6px;font-weight:600;min-height:44px}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.big{font-size:18px;padding:14px 26px}
+.btn:disabled{opacity:.4;cursor:default}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--muted)}
+.card{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:22px;display:grid;gap:16px;min-width:0}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.head{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.head h1{font-size:clamp(26px,4.5vw,36px)}
+.head .sp{flex:1}
+label.f{display:grid;gap:5px;font-weight:500;font-size:14px}
+input,select,textarea{font:inherit;font-size:16px;padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink)}
+label.f input,label.f select,label.f textarea{width:100%;min-width:0}
+textarea{resize:vertical;min-height:180px;line-height:1.5}
+.chk{display:flex;gap:8px;align-items:center;font-size:14px}
+.chk input{width:18px;height:18px}
+
+/* Hub */
+.hub{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.mode{display:grid;grid-template-rows:auto auto 1fr auto;gap:6px;text-align:left;text-decoration:none;color:var(--ink);background:var(--sheet);border:1px solid var(--line);border-radius:10px;padding:18px}
+.mode:hover{border-color:var(--accent)}
+.mode .ic{width:44px;height:44px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}
+.mode b{font-family:var(--display);font-size:21px}
+.mode span{font-size:13.5px;color:var(--muted)}
+.mode em{font-style:normal;font-size:13px;color:var(--accent);font-weight:600}
+
+/* Wheel */
+.wheelbox{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px;align-items:start}
+@media (max-width:820px){.wheelbox{grid-template-columns:minmax(0,1fr)}}
+.wheel{position:relative;width:min(100%,560px);aspect-ratio:1;margin:0 auto}
+.wheel canvas{width:100%;height:100%;display:block}
+.wheel .ptr{position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-top:30px solid var(--ink);filter:drop-shadow(0 2px 2px rgba(0,0,0,.3))}
+.wheel .hub-btn{position:absolute;inset:50% auto auto 50%;transform:translate(-50%,-50%);width:22%;aspect-ratio:1;border-radius:50%;border:4px solid var(--sheet);background:var(--ink);color:var(--sheet);font-weight:700;font-size:clamp(13px,2.6vw,18px);box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.winner{border:2px solid var(--accent);background:var(--accent-soft);border-radius:10px;padding:16px;display:grid;gap:10px;text-align:center}
+.winner .nm{font-family:var(--display);font-size:clamp(26px,5vw,40px);line-height:1.15}
+
+/* Question tiles */
+.qbox{display:grid;gap:14px}
+.qtext{font-size:clamp(17px,2.4vw,21px);margin:0;font-weight:500}
+.extra{white-space:pre-wrap;background:var(--paper);border-left:3px solid var(--line);padding:10px 14px;margin:0;font:14.5px/1.55 var(--body);overflow-x:auto}
+.qimg{display:block;max-width:100%;max-height:340px;width:auto;border:1px solid var(--line);border-radius:6px;background:#fff}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:600px){.tiles{grid-template-columns:1fr}}
+.tile{display:flex;gap:12px;align-items:center;text-align:left;border:0;border-radius:10px;padding:14px;color:#fff;min-height:64px;font-weight:500;font-size:15.5px;line-height:1.35;transition:transform .08s,opacity .15s}
+.tile:active{transform:scale(.98)}
+.tile .l{flex:none;width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.22);display:grid;place-items:center;font-family:var(--mono);font-weight:700}
+.tile[data-c="0"]{background:var(--oA)}.tile[data-c="1"]{background:var(--oB)}.tile[data-c="2"]{background:var(--oC)}.tile[data-c="3"]{background:var(--oD)}
+.tile.dim{opacity:.35}
+.tile.right{outline:4px solid var(--ok);outline-offset:2px;opacity:1}
+.tile.mine{box-shadow:inset 0 0 0 3px #fff}
+.tile:disabled{cursor:default}
+.tbar{height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.tbar i{display:block;height:100%;background:var(--accent);width:100%;transform-origin:left;transition:transform .2s linear}
+.feedback{border-radius:10px;padding:14px 16px;font-weight:600;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.feedback.ok{background:var(--ok-soft);color:var(--ok)}
+.feedback.bad{background:var(--bad-soft);color:var(--bad)}
+.stats{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.stats b{color:var(--ink);font-family:var(--mono);font-size:18px}
+.board{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.board li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+.board li .p{font-family:var(--mono);color:var(--muted)}
+.board li.me{border-color:var(--accent);background:var(--accent-soft)}
+.bars{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;align-items:end;height:160px}
+.bars div{display:grid;gap:4px;align-content:end;text-align:center;font-family:var(--mono);font-weight:600;height:100%}
+.bars i{display:block;border-radius:6px 6px 0 0;min-height:4px}
+.pin{font-family:var(--mono);font-size:clamp(44px,10vw,88px);letter-spacing:.08em;line-height:1;color:var(--accent)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chips span{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:4px 12px;font-weight:500;font-size:14px}
+.podium{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;align-items:end;text-align:center}
+.podium div{background:var(--accent-soft);border-radius:8px 8px 0 0;padding:10px 6px;display:grid;gap:4px}
+.podium b{font-family:var(--display);font-size:18px;overflow-wrap:anywhere}
+
+/* Map */
+#map{height:min(68vh,620px);border-radius:8px;border:1px solid var(--line);z-index:0}
+.oldmap .leaflet-tile-pane{filter:sepia(.75) saturate(.8) contrast(.95) brightness(1.02)}
+.leaflet-container{font:inherit;background:#e9e2cf}
+.maptools{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:var(--sheet);color:var(--ink);padding:6px 12px;font-size:13.5px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--sheet)}
+.task{font-family:var(--display);font-size:clamp(19px,3vw,24px)}
+.dot{width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.4)}
+
+/* Timeline */
+.order{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.order li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.order li .k{font-family:var(--mono);color:var(--muted);width:24px;text-align:center}
+.order li .mv{display:flex;gap:4px}
+.order li .mv button{width:40px;height:40px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:6px;font-size:18px}
+.order li.ok{border-color:var(--ok);background:var(--ok-soft)}
+.order li.bad{border-color:var(--bad);background:var(--bad-soft)}
+.order .yr{font-family:var(--mono);font-weight:600}
+
+/* Flashcards */
+.flash{perspective:1200px;cursor:pointer;min-height:260px}
+.flash .in{position:relative;min-height:260px;transition:transform .45s;transform-style:preserve-3d}
+.flash.flip .in{transform:rotateY(180deg)}
+.flash .side{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--sheet);border:1px solid var(--line);border-radius:12px;padding:22px;display:grid;align-content:center;gap:10px;overflow:auto}
+.flash .back{transform:rotateY(180deg);border-color:var(--accent)}
+.flash .ans{font-family:var(--display);font-size:clamp(22px,4vw,30px);color:var(--accent)}
+@media (prefers-reduced-motion:reduce){.flash .in{transition:none}.tile{transition:none}}
+@media (max-width:600px){.wrap{padding:12px 12px 32px}.card{padding:16px}.hub{grid-template-columns:1fr 1fr;gap:8px}.mode{padding:12px}.mode b{font-size:17px}.mode span{font-size:12.5px}.mode .ic{width:36px;height:36px}}
+@media (max-width:360px){.hub{grid-template-columns:1fr}}
+</style>
+</head><body>
+<main class="wrap" id="app"><p class="note">Yuklanmoqda…</p></main>
+<script src="vendor/supabase-2.75.0.js"></script>
+<script src="auth.js"></script>
+<script src="mashq-data.js"></script>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])).replace(/ʻ/g,"‘").replace(/ʼ/g,"’");
+const LET = "ABCD";
+const IMGS = {v1map:"img/v1map.png", v1venn:"img/v1venn.png", ms6map:"img/ms6map.jpg", ms6venn:"img/ms6venn.png"};
+const imgSrc = k => k ? (IMGS[k] || k) : "";
+const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+const store = {get(k,d){ try{ const v=localStorage.getItem(k); return v==null?d:JSON.parse(v); }catch(e){ return d; } }, set(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} }};
+const yearTxt = y => y<0 ? `mil. avv. ${-y}` : String(y);
+let cleanup = null;   // stops timers / channels of the view being left
+
+// ---------- Question bank: every variant's single-answer tasks and written tasks ----------
+let BANK = null;
+async function bank(){
+  if(BANK) return BANK;
+  const list = await (await fetch("tests.json",{cache:"no-cache"})).json();
+  const files = await Promise.all(list.map(v => fetch(v.file,{cache:"no-cache"}).then(r=>r.json()).then(d=>({...v, items:d.items})).catch(()=>({...v, items:[]}))));
+  const closed = [], open = [];
+  files.forEach(v => v.items.forEach(it => {
+    const src = {vid:v.id, vtitle:v.title, n:it.n};
+    if(it.kind==="closed" && it.opts && it.opts.length===4 && LET.includes(it.ans) && !it.low) closed.push({...src, q:it.q, extra:it.extra||"", img:imgSrc(it.img), opts:it.opts, ans:LET.indexOf(it.ans), section:it.section});
+    if(it.kind==="open" && it.showA && it.showB){
+      open.push({...src, q:it.q, extra:it.extra||"", img:imgSrc(it.img), part:"a", ask:it.qa, ansTxt:it.showA});
+      open.push({...src, q:it.q, extra:it.extra||"", img:imgSrc(it.img), part:"b", ask:it.qb, ansTxt:it.showB});
+    }
+  }));
+  BANK = {variants:list, closed, open};
+  return BANK;
+}
+function pickQuestions(n, opt={}){
+  let pool = BANK.closed;
+  if(opt.vid && opt.vid!=="all") pool = pool.filter(q=>q.vid===opt.vid);
+  if(opt.pics==="img") pool = pool.filter(q=>q.img);
+  if(opt.pics==="noimg") pool = pool.filter(q=>!q.img);
+  if(opt.section && opt.section!=="all") pool = pool.filter(q=>q.section===opt.section);
+  return shuffle(pool).slice(0, n);
+}
+function variantSelect(id, withAll=true){
+  return `<select id="${id}">${withAll?`<option value="all">Barcha variantlardan aralash</option>`:""}${BANK.variants.map(v=>`<option value="${v.id}">${esc(v.title)}</option>`).join("")}</select>`;
+}
+function qHtml(q, opts={}){
+  return `<div class="qbox">
+    ${opts.top||""}
+    <p class="qtext">${esc(q.q)}</p>
+    ${q.extra && !/^33–35-savollar/.test(q.extra) ? `<pre class="extra">${esc(q.extra)}</pre>`:""}
+    ${q.img?`<img class="qimg" src="${esc(q.img)}" alt="Topshiriq rasmi">`:""}
+    <div class="tiles">${q.opts.map((o,i)=>`<button class="tile" data-c="${i}" type="button"><span class="l">${LET[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+    <p class="note">Manba: ${esc(q.vtitle)}, ${q.n}-topshiriq</p>
+  </div>`;
+}
+const points = (ok, msLeft, dur) => ok ? Math.round(500 + 500*Math.max(0, msLeft)/(dur*1000)) : 0;
+
+// ---------- Hub ----------
+const ICON = {
+  carx:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg>',
+  viktorina:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>',
+  jonli:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="9" r="3"/><circle cx="17" cy="9" r="3"/><path d="M2 20c.5-3.5 3-5 6-5s5.5 1.5 6 5M13 15.5c1-.4 2.3-.5 4-.5 3 0 5.5 1.5 5.5 5"/></svg>',
+  xarita:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>',
+  xronologiya:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h18"/><circle cx="6" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><path d="M6 6v4M12 14v4M18 6v4"/></svg>',
+  kartochka:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>'
+};
+const MODES = [
+  ["carx","Tasodifiy g'ildirak","O'quvchilar ismini kiriting, g'ildirak aylanib kimdadir to'xtaydi. Xohlasangiz, unga tasodifiy savol chiqadi.","Darsda"],
+  ["viktorina","Tezkor viktorina","Vaqtga qarshi 10–20 savol. Tez va to'g'ri javob ko'proq ball beradi, haftalik reyting bor.","Yakka"],
+  ["jonli","Jonli bellashuv","O'qituvchi savollarni ekranga chiqaradi, o'quvchilar telefondan PIN kod bilan qo'shilib javob beradi.","Sinf bilan"],
+  ["xarita","Tarixiy xarita","Voqealarni eski xarita uslubida davrlar bo'yicha ko'ring yoki o'yinda joyini xaritadan toping.","Yakka"],
+  ["xronologiya","Xronologiya","Tarixiy voqealarni sodir bo'lgan tartibida joylashtiring.","Yakka"],
+  ["kartochka","Kartochkalar","Yozma topshiriqlar asosida savol-javob kartochkalari: o'ylang, ag'daring, o'zingizni baholang.","Yakka"]
+];
+function viewHub(){
+  $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">O'zing O'rgan · Tarix</div><h1>Mashq va o'yinlar</h1></div></div>
+  <p style="margin-top:0;max-width:720px">Testlardagi savollar va tarixiy voqealar asosida turli usullarda takrorlang. Hisobsiz ham ishlaydi; <a href="#" id="hsign">ro'yxatdan o'tsangiz</a>, ballaringiz kabinetda saqlanadi va reytingda ko'rinadi.</p>
+  <div class="hub">${MODES.map(([id,t,d,who])=>`<a class="mode" href="#${id}"><span class="ic">${ICON[id]}</span><b>${t}</b><span>${d}</span><em>${who}</em></a>`).join("")}</div>`;
+  $("#hsign").onclick = e => { e.preventDefault(); OZ.user ? OZ.open() : OZ.open("signup"); };
+}
+const back = `<a class="btn ghost" href="#">← Barcha mashqlar</a>`;
+
+// ---------- Random wheel ----------
+const WHEEL_COLORS = ["#c0392b","#1f5fa8","#b7791f","#2d7d46","#7d3c98","#16808a","#a8432f","#4a5d8f","#8a6d1f","#3b7a57"];
+async function viewCarx(){
+  await bank();
+  const names = store.get("oz-carx-names", "Aziza\nBekzod\nDilnoza\nJasur\nMadina\nOtabek\nSevara\nUlug'bek");
+  $("#app").innerHTML = `<div class="head"><h1>Tasodifiy g'ildirak</h1><span class="sp"></span>${back}</div>
+  <div class="wheelbox">
+    <div class="card" style="justify-items:center">
+      <div class="wheel"><canvas id="wc" width="1000" height="1000" aria-label="G'ildirak"></canvas><div class="ptr"></div><button class="hub-btn" id="spin" type="button">Aylantir</button></div>
+      <div id="win" style="width:100%" aria-live="polite"></div>
+    </div>
+    <div class="card">
+      <label class="f">Ro'yxat <span class="note">har qatorda bitta ism yoki mavzu</span><textarea id="names" spellcheck="false">${esc(names)}</textarea></label>
+      <label class="chk"><input type="checkbox" id="rm" ${store.get("oz-carx-rm",true)?"checked":""}> Tushganini ro'yxatdan olib tashlash</label>
+      <label class="chk"><input type="checkbox" id="ask" ${store.get("oz-carx-ask",true)?"checked":""}> Tushgan kishiga savol berish</label>
+      <label class="f">Savollar manbai${variantSelect("cv")}</label>
+      <div class="row"><button class="btn ghost" type="button" id="mix">Aralashtirish</button><button class="btn ghost" type="button" id="nums">1–30 raqamlar</button></div>
+      <p class="note">Probel yoki Enter tugmasi ham g'ildirakni aylantiradi.</p>
+    </div>
+  </div>`;
+  const cv = $("#wc"), ctx = cv.getContext("2d"), ta = $("#names");
+  let rot = 0, spinning = false, raf = 0, actx = null, pending = null;
+  const list = () => ta.value.split("\n").map(s=>s.trim()).filter(Boolean);
+  function draw(){
+    const L = list(), n = Math.max(L.length,1), a = 2*Math.PI/n, R = 490, c = 500;
+    ctx.clearRect(0,0,1000,1000);
+    for(let i=0;i<n;i++){
+      ctx.beginPath(); ctx.moveTo(c,c); ctx.arc(c,c,R,rot+i*a,rot+(i+1)*a); ctx.closePath();
+      ctx.fillStyle = L.length ? WHEEL_COLORS[(i + (n%WHEEL_COLORS.length===1 && i===n-1 ? 1:0)) % WHEEL_COLORS.length] : "#999"; ctx.fill();
+      ctx.strokeStyle = "rgba(255,255,255,.7)"; ctx.lineWidth = 3; ctx.stroke();
+      ctx.save(); ctx.translate(c,c); ctx.rotate(rot+(i+.5)*a); ctx.textAlign="right"; ctx.textBaseline="middle"; ctx.fillStyle="#fff";
+      const fs = Math.max(18, Math.min(46, 900/n)); ctx.font = `600 ${fs}px "IBM Plex Sans",system-ui,sans-serif`;
+      let t = L[i] || "Ro'yxat bo'sh"; while(ctx.measureText(t).width > R-140 && t.length>3) t = t.slice(0,-2)+"…";
+      ctx.fillText(t, R-28, 0); ctx.restore();
+    }
+    ctx.beginPath(); ctx.arc(c,c,R,0,2*Math.PI); ctx.lineWidth=10; ctx.strokeStyle="rgba(0,0,0,.18)"; ctx.stroke();
+  }
+  function tick(){ try{ if(!actx) actx = new (window.AudioContext||window.webkitAudioContext)(); const o=actx.createOscillator(), g=actx.createGain(); o.frequency.value=900; g.gain.setValueAtTime(.06,actx.currentTime); g.gain.exponentialRampToValueAtTime(.0001,actx.currentTime+.04); o.connect(g).connect(actx.destination); o.start(); o.stop(actx.currentTime+.05); }catch(e){} }
+  function spin(){
+    if(spinning) return;
+    if(pending!=null){ const P = list(); P.splice(pending,1); pending = null; ta.value = P.join("\n"); store.set("oz-carx-names", ta.value); draw(); }
+    const L = list(); if(L.length<1) return;
+    spinning = true; $("#win").innerHTML = "";
+    const n = L.length, a = 2*Math.PI/n, start = rot, target = start + 2*Math.PI*(5+Math.random()*3) + Math.random()*2*Math.PI, t0 = performance.now(), dur = 4800 + Math.random()*1200;
+    let lastSeg = -1;
+    const step = now => {
+      const p = Math.min(1,(now-t0)/dur), e = 1-Math.pow(1-p,4);
+      rot = start + (target-start)*e; draw();
+      const seg = Math.floor((((-Math.PI/2 - rot) % (2*Math.PI)) + 2*Math.PI) % (2*Math.PI) / a);
+      if(seg!==lastSeg){ lastSeg = seg; tick(); }
+      if(p<1) raf = requestAnimationFrame(step); else { spinning = false; done(L[seg], seg); }
+    };
+    raf = requestAnimationFrame(step);
+  }
+  async function done(name, idx){
+    let qh = "";
+    if($("#ask").checked){
+      await bank(); const [q] = pickQuestions(1, {vid:$("#cv").value, pics:"noimg"});
+      if(q) qh = `<div style="text-align:left">${qHtml(q)}</div><button class="btn ghost" type="button" id="reveal">Javobni ko'rsatish</button>`;
+      $("#win").dataset.ans = q ? q.ans : "";
+    }
+    $("#win").innerHTML = `<div class="winner"><div class="eyebrow">G'ildirak to'xtadi</div><div class="nm">${esc(name)}</div>${qh}</div>`;
+    const rv = $("#reveal");
+    const show = () => { const k = +$("#win").dataset.ans; $$("#win .tile").forEach((t,i)=>{ t.classList.toggle("right", i===k); t.classList.toggle("dim", i!==k); }); if(rv) rv.remove(); };
+    if(rv) rv.onclick = show;
+    $$("#win .tile").forEach(t => t.onclick = () => { t.classList.add("mine"); show(); });
+    // the winner leaves the list when the next spin starts, so the pointer still shows them now
+    if($("#rm").checked) pending = idx;
+  }
+  ta.oninput = () => { pending = null; store.set("oz-carx-names", ta.value); draw(); };
+  $("#rm").onchange = e => store.set("oz-carx-rm", e.target.checked);
+  $("#ask").onchange = e => store.set("oz-carx-ask", e.target.checked);
+  $("#mix").onclick = () => { ta.value = shuffle(list()).join("\n"); store.set("oz-carx-names", ta.value); draw(); };
+  $("#nums").onclick = () => { ta.value = Array.from({length:30},(_,i)=>String(i+1)).join("\n"); store.set("oz-carx-names", ta.value); draw(); };
+  $("#spin").onclick = spin; cv.onclick = spin;
+  const key = e => { if((e.key===" "||e.key==="Enter") && e.target===document.body){ e.preventDefault(); spin(); } };
+  document.addEventListener("keydown", key);
+  cleanup = () => { cancelAnimationFrame(raf); document.removeEventListener("keydown", key); };
+  draw();
+}
+
+// ---------- Solo quiz ----------
+function quizSetup(){
+  const sections = ["Siyosiy tarix","Ijtimoiy-iqtisodiy tarix","Madaniy tarix"];
+  return `<label class="f">Savollar soni<select id="qn"><option>10</option><option>15</option><option>20</option></select></label>
+    <label class="f">Har bir savolga vaqt<select id="qt"><option value="20">20 soniya</option><option value="30">30 soniya</option><option value="45">45 soniya</option></select></label>
+    <label class="f">Manba${variantSelect("qv")}</label>
+    <label class="f">Bo'lim<select id="qs"><option value="all">Hammasi</option>${sections.map(s=>`<option>${s}</option>`).join("")}</select></label>
+    <label class="f">Savol turi<select id="qp"><option value="all">Hammasi</option><option value="img">Faqat xarita va rasmli savollar</option><option value="noimg">Faqat matnli savollar</option></select></label>`;
+}
+async function viewViktorina(){
+  await bank();
+  $("#app").innerHTML = `<div class="head"><h1>Tezkor viktorina</h1><span class="sp"></span>${back}</div>
+  <div class="card" id="vk" style="max-width:720px">${quizSetup()}<button class="btn big" id="start" type="button">Boshlash</button><div id="lb"></div></div>`;
+  showBoard("viktorina", $("#lb"));
+  $("#start").onclick = () => {
+    const opt = {vid:$("#qv").value, section:$("#qs").value, pics:$("#qp").value};
+    const Q = pickQuestions(+$("#qn").value, opt), dur = +$("#qt").value;
+    if(!Q.length){ alert("Bu tanlov bo'yicha savol topilmadi."); return; }
+    runSolo(Q, dur);
+  };
+}
+function runSolo(Q, dur){
+  let i = 0, score = 0, right = 0, streak = 0, timer = 0;
+  const box = $("#vk");
+  function ask(){
+    const q = Q[i], end = Date.now() + dur*1000;
+    box.innerHTML = `<div class="stats"><span>Savol <b>${i+1}</b>/${Q.length}</span><span>Ball <b>${score}</b></span><span>To'g'ri <b>${right}</b></span>${streak>1?`<span>Ketma-ket <b>${streak}</b></span>`:""}</div>
+      <div class="tbar"><i id="tb"></i></div>${qHtml(q)}<div id="fb" aria-live="polite"></div>`;
+    const bar = $("#tb");
+    const answer = c => {
+      clearInterval(timer);
+      const left = end - Date.now(), ok = c===q.ans; let p = points(ok, left, dur);
+      if(ok){ right++; streak++; if(streak>=3) p += 100; } else streak = 0;
+      score += p;
+      $$("#vk .tile").forEach((t,k)=>{ t.disabled = true; t.classList.toggle("right", k===q.ans); t.classList.toggle("dim", k!==q.ans && k!==c); if(k===c) t.classList.add("mine"); });
+      $("#fb").innerHTML = `<div class="feedback ${ok?"ok":"bad"}"><span>${ok?`To'g'ri! +${p} ball${streak>=3?" (ketma-ketlik bonusi)":""}`: c<0?`Vaqt tugadi. To'g'ri javob: ${LET[q.ans]}`:`Noto'g'ri. To'g'ri javob: ${LET[q.ans]}`}</span><span style="flex:1"></span><button class="btn" id="nx" type="button">${i+1<Q.length?"Keyingi →":"Natija"}</button></div>`;
+      $("#nx").onclick = () => { i++; i<Q.length ? ask() : finish(); }; $("#nx").focus();
+    };
+    $$("#vk .tile").forEach(t => t.onclick = () => answer(+t.dataset.c));
+    timer = setInterval(() => { const left = end-Date.now(); bar.style.transform = `scaleX(${Math.max(0,left/(dur*1000))})`; if(left<=0) answer(-1); }, 100);
+  }
+  async function finish(){
+    box.innerHTML = `<div class="eyebrow">Viktorina tugadi</div><h2 style="font-size:32px"><span class="num">${score}</span> ball</h2>
+      <p>${Q.length} ta savoldan <b>${right}</b> tasiga to'g'ri javob berdingiz.</p><div id="sv"></div>
+      <div class="row"><button class="btn" id="again" type="button">Yana o'ynash</button>${back}</div><div id="lb"></div>`;
+    $("#again").onclick = viewViktorina;
+    await saveScore("viktorina", score, right, Q.length, $("#sv"));
+    showBoard("viktorina", $("#lb"));
+  }
+  cleanup = () => clearInterval(timer);
+  ask();
+}
+async function saveScore(mode, score, right, total, el){
+  await OZ.ready;
+  if(OZ.user){ const ok = await OZ.savePractice(mode, score, right, total); el.innerHTML = ok ? `<p class="note">Natija kabinetingizga saqlandi.</p>` : `<p class="note">Natijani saqlab bo'lmadi.</p>`; }
+  else { el.innerHTML = `<p class="note"><a href="#" id="sg">Ro'yxatdan o'ting</a>, shunda ballaringiz saqlanadi va haftalik reytingga chiqasiz.</p>`; $("#sg").onclick = e => { e.preventDefault(); OZ.open("signup"); }; }
+}
+async function showBoard(mode, el){
+  const rows = await OZ.leaderboard(mode);
+  if(!el || !rows.length) return;
+  const me = OZ.profile && OZ.profile.username;
+  el.innerHTML = `<h3 style="font-size:20px;margin-top:6px">Haftalik reyting</h3><ol class="board">${rows.map((r,i)=>`<li class="${r.username===me?"me":""}"><span class="p">${i+1}</span><span>${esc(r.full_name)}</span><b class="num">${r.best}</b></li>`).join("")}</ol>`;
+}
+
+// ---------- Live class game (host screen + players' phones), over Supabase Realtime broadcast ----------
+function viewJonli(arg){
+  if(arg==="host") return hostSetup();
+  const pin = (arg||"").replace(/\D/g,"").slice(0,6);
+  $("#app").innerHTML = `<div class="head"><h1>Jonli bellashuv</h1><span class="sp"></span>${back}</div>
+  <div class="hub" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+    <form class="card" id="jf"><h2>O'yinga qo'shilish</h2>
+      <label class="f">O'yin PIN kodi<input id="jp" inputmode="numeric" autocomplete="off" maxlength="6" value="${pin}" placeholder="6 xonali raqam" class="num" style="font-size:24px;letter-spacing:.1em"></label>
+      <label class="f">Ismingiz<input id="jn" maxlength="24" autocomplete="nickname" value="${esc(store.get("oz-jonli-name","") || (OZ.profile&&OZ.profile.full_name)||"")}"></label>
+      <p class="err note" id="je" style="color:var(--bad)"></p>
+      <button class="btn big" type="submit">Qo'shilish</button></form>
+    <div class="card"><h2>O'qituvchi uchun</h2><p>Savollarni katta ekranga (proyektor yoki televizor) chiqaring. O'quvchilar telefonda shu sahifani ochib, PIN kodni kiritadi va javob beradi. Tez va to'g'ri javob ko'proq ball keltiradi.</p><a class="btn" href="#jonli/host" style="text-align:center;text-decoration:none;display:grid;place-items:center">Yangi o'yin yaratish</a></div>
+  </div>`;
+  $("#jf").onsubmit = e => {
+    e.preventDefault();
+    const p = $("#jp").value.replace(/\D/g,""), n = $("#jn").value.trim();
+    if(p.length!==6){ $("#je").textContent = "PIN kod 6 ta raqamdan iborat."; return; }
+    if(n.length<2){ $("#je").textContent = "Ismingizni yozing."; return; }
+    store.set("oz-jonli-name", n); playerJoin(p, n);
+  };
+}
+function chan(pin, key){ return OZ.client.channel("oz-jonli-"+pin, {config:{broadcast:{self:false}, presence:{key}}}); }
+const uid = () => Math.random().toString(36).slice(2,10);
+
+async function hostSetup(){
+  await bank();
+  if(!OZ.client){ $("#app").innerHTML = `<p>Jonli o'yin uchun internet aloqasi kerak.</p>`; return; }
+  $("#app").innerHTML = `<div class="head"><h1>Yangi jonli o'yin</h1><span class="sp"></span><a class="btn ghost" href="#jonli">← Orqaga</a></div>
+  <div class="card" style="max-width:720px">${quizSetup()}<button class="btn big" id="mk" type="button">O'yin xonasini ochish</button></div>`;
+  $("#mk").onclick = () => {
+    const Q = pickQuestions(+$("#qn").value, {vid:$("#qv").value, section:$("#qs").value, pics:$("#qp").value});
+    if(!Q.length){ alert("Bu tanlov bo'yicha savol topilmadi."); return; }
+    hostGame(Q, +$("#qt").value);
+  };
+}
+function hostGame(Q, dur){
+  const pin = String(100000 + Math.floor(Math.random()*900000));
+  const ch = chan(pin, "host");
+  const P = {};   // id -> {name, score, streak, last}
+  let i = -1, phase = "lobby", ans = {}, end = 0, timer = 0;
+  const send = (event, payload) => ch.send({type:"broadcast", event, payload});
+  const ranked = () => Object.entries(P).map(([id,p])=>({id, name:p.name, score:p.score})).sort((a,b)=>b.score-a.score);
+  const url = location.origin + location.pathname + "#jonli/" + pin;
+  function lobby(){
+    $("#app").innerHTML = `<div class="head"><h1>Jonli bellashuv</h1><span class="sp"></span><button class="btn ghost" id="quit">Yopish</button></div>
+    <div class="card" style="text-align:center;justify-items:center">
+      <p style="margin:0">Telefoningizda <b>${esc(location.host)}/mashqlar.html</b> sahifasini oching, «Jonli bellashuv»ni tanlang va PIN kodni kiriting:</p>
+      <div class="pin">${pin}</div>
+      <p class="note">yoki havola: ${esc(url)}</p>
+      <div class="stats"><span>O'yinchilar: <b id="pc">0</b></span><span>Savollar: <b>${Q.length}</b></span><span>Vaqt: <b>${dur}</b> s</span></div>
+      <div class="chips" id="pl"></div>
+      <button class="btn big" id="go" type="button" disabled>Boshlash</button>
+    </div>`;
+    $("#go").onclick = () => next();
+    $("#quit").onclick = () => { location.hash = "jonli"; };
+    paintPlayers();
+  }
+  function paintPlayers(){
+    const n = Object.keys(P).length;
+    if($("#pc")) $("#pc").textContent = n;
+    if($("#pl")) $("#pl").innerHTML = Object.values(P).map(p=>`<span>${esc(p.name)}</span>`).join("");
+    if($("#go")) $("#go").disabled = n<1;
+    if($("#ac")) $("#ac").textContent = `${Object.keys(ans).length} / ${n}`;
+  }
+  function next(){
+    i++; if(i>=Q.length) return final();
+    phase = "q"; ans = {};
+    const q = Q[i]; end = Date.now() + dur*1000;
+    send("q", {i, total:Q.length, q:q.q, extra:q.extra, img:q.img ? new URL(q.img, location.href).href : "", opts:q.opts, dur});
+    $("#app").innerHTML = `<div class="card"><div class="stats"><span>Savol <b>${i+1}</b>/${Q.length}</span><span>Javob berdi: <b id="ac">0 / ${Object.keys(P).length}</b></span><span>Qoldi: <b id="tl">${dur}</b> s</span><span style="flex:1"></span><button class="btn ghost" id="skip" type="button">Vaqtni tugatish</button></div>
+      <div class="tbar"><i id="tb"></i></div>${qHtml(q)}</div>`;
+    $$(".tile").forEach(t=>t.disabled = true);
+    $("#skip").onclick = reveal;
+    clearInterval(timer);
+    timer = setInterval(() => { const left = end-Date.now(); $("#tb").style.transform = `scaleX(${Math.max(0,left/(dur*1000))})`; $("#tl").textContent = Math.max(0,Math.ceil(left/1000)); if(left<=0) reveal(); }, 200);
+  }
+  function reveal(){
+    if(phase!=="q") return; phase = "rev"; clearInterval(timer);
+    const q = Q[i], counts = [0,0,0,0], res = {};
+    Object.entries(P).forEach(([id,p]) => {
+      const a = ans[id]; let pts = 0, ok = false;
+      if(a){ counts[a.c]++; ok = a.c===q.ans; pts = points(ok, dur*1000 - a.ms, dur); }
+      if(ok){ p.streak++; if(p.streak>=3) pts += 100; } else p.streak = 0;
+      p.score += pts; res[id] = {ok, pts, answered:!!a};
+    });
+    const R = ranked(); R.forEach((r,k)=>{ res[r.id].rank = k+1; res[r.id].score = r.score; });
+    send("rev", {i, ans:q.ans, ansTxt:q.opts[q.ans], counts, res, total:Q.length});
+    const mx = Math.max(1,...counts);
+    $$(".tile").forEach((t,k)=>{ t.classList.toggle("right", k===q.ans); t.classList.toggle("dim", k!==q.ans); });
+    $("#skip").remove();
+    $(".card").insertAdjacentHTML("beforeend", `<div class="bars">${counts.map((c,k)=>`<div><span>${c}</span><i style="height:${Math.round(c/mx*120)}px;background:var(--o${LET[k]})"></i><span>${LET[k]}${k===q.ans?" ✓":""}</span></div>`).join("")}</div>
+      <h3>Reyting</h3><ol class="board">${R.slice(0,5).map((r,k)=>`<li><span class="p">${k+1}</span><span>${esc(r.name)}</span><b class="num">${r.score}</b></li>`).join("")}</ol>
+      <button class="btn big" id="nx" type="button">${i+1<Q.length?"Keyingi savol →":"Yakuniy natijalar"}</button>`);
+    $("#nx").onclick = next;
+  }
+  function final(){
+    phase = "end"; const R = ranked();
+    send("end", {top:R.slice(0,3).map(r=>({name:r.name, score:r.score})), res:Object.fromEntries(R.map((r,k)=>[r.id,{rank:k+1, score:r.score}])), n:R.length});
+    const pod = [R[1],R[0],R[2]];
+    $("#app").innerHTML = `<div class="head"><h1>G'oliblar</h1><span class="sp"></span><a class="btn" href="#jonli/host">Yangi o'yin</a>${back}</div>
+    <div class="card"><div class="podium">${pod.map((r,k)=>r?`<div style="min-height:${[150,200,120][k]}px"><span class="num" style="font-size:28px">${[2,1,3][k]}</span><b>${esc(r.name)}</b><span class="num">${r.score}</span></div>`:"<span></span>").join("")}</div>
+    <ol class="board">${R.map((r,k)=>`<li><span class="p">${k+1}</span><span>${esc(r.name)}</span><b class="num">${r.score}</b></li>`).join("")}</ol></div>`;
+  }
+  ch.on("broadcast", {event:"hello"}, ({payload:p}) => {
+    if(!p || !p.id) return;
+    if(!P[p.id]){ if(phase!=="lobby" && phase!=="q" && phase!=="rev") return; P[p.id] = {name:String(p.name||"O'yinchi").slice(0,24), score:0, streak:0}; }
+    send("welcome", {id:p.id, phase, i, total:Q.length});
+    if(phase==="q"){ const q=Q[i]; send("q", {i, total:Q.length, q:q.q, extra:q.extra, img:q.img ? new URL(q.img, location.href).href : "", opts:q.opts, dur, to:p.id, left:end-Date.now()}); }
+    paintPlayers();
+  });
+  ch.on("broadcast", {event:"ans"}, ({payload:a}) => {
+    if(phase!=="q" || !a || a.i!==i || !P[a.id] || ans[a.id]) return;
+    const c = +a.c; if(!(c>=0 && c<4)) return;
+    ans[a.id] = {c, ms:Math.min(dur*1000, Math.max(0, +a.ms||0))};
+    paintPlayers();
+    if(Object.keys(ans).length === Object.keys(P).length) setTimeout(reveal, 600);
+  });
+  ch.on("presence", {event:"leave"}, ({key}) => { if(phase==="lobby" && P[key]){ delete P[key]; paintPlayers(); } });
+  ch.subscribe(s => { if(s==="SUBSCRIBED") lobby(); else if(s==="CHANNEL_ERROR"||s==="TIMED_OUT") $("#app").innerHTML = `<div class="card"><h2>Ulanib bo'lmadi</h2><p>Internet aloqasini tekshirib, qayta urinib ko'ring.</p><a class="btn" href="#jonli/host">Qayta urinish</a></div>`; });
+  $("#app").innerHTML = `<p class="note">O'yin xonasi ochilmoqda…</p>`;
+  cleanup = () => { clearInterval(timer); try{ OZ.client.removeChannel(ch); }catch(e){} };
+}
+function playerJoin(pin, name){
+  const id = store.get("oz-jonli-id-"+pin, null) || uid(); store.set("oz-jonli-id-"+pin, id);
+  const ch = chan(pin, id);
+  let cur = null, t0 = 0, timer = 0, chosen = -1, gotWelcome = false, myScore = 0;
+  const send = (event, payload) => ch.send({type:"broadcast", event, payload});
+  const wait = (h, sub) => { $("#app").innerHTML = `<div class="card" style="text-align:center;justify-items:center;min-height:50vh;align-content:center"><div class="eyebrow">PIN ${pin} · ${esc(name)}</div><h2 style="font-size:28px">${h}</h2>${sub?`<p>${sub}</p>`:""}<p class="note">Ball: <span class="num">${myScore}</span></p></div>`; };
+  ch.on("broadcast", {event:"welcome"}, ({payload:p}) => { if(p.id!==id) return; gotWelcome = true; if(p.phase==="lobby") wait("Siz o'yindasiz!", "Ismingizni ekranda ko'ring. O'qituvchi boshlashini kuting."); else if(p.phase==="end") wait("O'yin tugagan", ""); });
+  ch.on("broadcast", {event:"q"}, ({payload:p}) => {
+    if(p.to && p.to!==id) return;
+    cur = p; chosen = -1; t0 = Date.now() - (p.left!=null ? p.dur*1000 - p.left : 0);
+    const q = {q:p.q, extra:p.extra, img:p.img, opts:p.opts, vtitle:"", n:""};
+    $("#app").innerHTML = `<div class="card"><div class="stats"><span>Savol <b>${p.i+1}</b>/${p.total}</span><span>Ball <b>${myScore}</b></span></div><div class="tbar"><i id="tb"></i></div>${qHtml(q).replace(/<p class="note">Manba.*?<\/p>/,"")}<div id="fb" aria-live="polite"></div></div>`;
+    $$(".tile").forEach(t => t.onclick = () => {
+      if(chosen>=0) return; chosen = +t.dataset.c;
+      send("ans", {id, i:p.i, c:chosen, ms:Date.now()-t0});
+      $$(".tile").forEach((x,k)=>{ x.disabled = true; if(k===chosen) x.classList.add("mine"); else x.classList.add("dim"); });
+      $("#fb").innerHTML = `<div class="feedback" style="background:var(--accent-soft);color:var(--accent)">Javob yuborildi. Natijani kuting…</div>`;
+    });
+    clearInterval(timer);
+    timer = setInterval(() => { const left = p.dur*1000-(Date.now()-t0); const b = $("#tb"); if(b) b.style.transform = `scaleX(${Math.max(0,left/(p.dur*1000))})`; if(left<=0){ clearInterval(timer); $$(".tile").forEach(x=>x.disabled=true); } }, 200);
+  });
+  ch.on("broadcast", {event:"rev"}, ({payload:p}) => {
+    clearInterval(timer);
+    const r = p.res[id]; if(!r) return wait("Keyingi savolni kuting", "");
+    myScore = r.score;
+    $("#app").innerHTML = `<div class="card" style="text-align:center;justify-items:center;min-height:50vh;align-content:center;background:${r.ok?"var(--ok-soft)":"var(--bad-soft)"}">
+      <h2 style="font-size:34px;color:${r.ok?"var(--ok)":"var(--bad)"}">${r.ok?"To'g'ri!":r.answered?"Noto'g'ri":"Vaqt tugadi"}</h2>
+      <p style="font-size:18px">${r.ok?`+${r.pts} ball`:`To'g'ri javob: <b>${LET[p.ans]}</b>. ${esc(p.ansTxt)}`}</p>
+      <p>Jami: <b class="num">${r.score}</b> · O'rningiz: <b class="num">${r.rank}</b></p></div>`;
+  });
+  ch.on("broadcast", {event:"end"}, async ({payload:p}) => {
+    clearInterval(timer);
+    const r = p.res[id] || {};
+    $("#app").innerHTML = `<div class="card" style="text-align:center;justify-items:center"><div class="eyebrow">O'yin tugadi</div>
+      <h2 style="font-size:34px">${r.rank?`${r.rank}-o'rin`:"Rahmat!"}</h2><p>Ballingiz: <b class="num">${r.score||0}</b> (${p.n} o'yinchi)</p>
+      <ol class="board" style="width:100%;max-width:420px;text-align:left">${p.top.map((t,k)=>`<li><span class="p">${k+1}</span><span>${esc(t.name)}</span><b class="num">${t.score}</b></li>`).join("")}</ol><div id="sv"></div>${back}</div>`;
+    if(r.score) saveScore("jonli", r.score, 0, 0, $("#sv"));
+  });
+  ch.subscribe(async s => {
+    if(s==="SUBSCRIBED"){
+      await ch.track({name});
+      wait("Ulanmoqda…", "");
+      send("hello", {id, name});
+      setTimeout(() => { if(!gotWelcome) wait("O'yin topilmadi", `PIN ${pin} bo'yicha o'yin hali ochilmagan yoki tugagan. <a href="#jonli">Qayta kiritish</a>`); }, 6000);
+    } else if(s==="CHANNEL_ERROR"||s==="TIMED_OUT") wait("Ulanib bo'lmadi", `Internetni tekshiring. <a href="#jonli">Qayta urinish</a>`);
+  });
+  wait("Ulanmoqda…", "");
+  cleanup = () => { clearInterval(timer); try{ OZ.client.removeChannel(ch); }catch(e){} };
+}
+
+// ---------- Historical map ----------
+function eraOf(y){ return ERAS.find(e => y>=e.from && y<=e.to) || ERAS[0]; }
+const ERA_COLOR = {qad:"#8a5a2b", orta:"#1f5fa8", yangi:"#2d7d46", eng:"#c0392b"};
+function km(a,b){ const R=6371, t=x=>x*Math.PI/180, dl=t(b.lat-a.lat), dn=t(b.lng-a.lng); const h=Math.sin(dl/2)**2+Math.cos(t(a.lat))*Math.cos(t(b.lat))*Math.sin(dn/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
+function viewXarita(arg){
+  const game = arg==="oyin";
+  $("#app").innerHTML = `<div class="head"><h1>Tarixiy xarita</h1><span class="sp"></span>
+    <div class="seg"><button type="button" data-m="" aria-pressed="${!game}">Ko'rish</button><button type="button" data-m="oyin" aria-pressed="${game}">Xaritada toping</button></div>${back}</div>
+    <div class="card"><div id="mtop"></div><div id="map" class="oldmap"></div><div id="mbot"></div></div>`;
+  $$(".seg [data-m]").forEach(b => b.onclick = () => { location.hash = "xarita" + (b.dataset.m ? "/"+b.dataset.m : ""); });
+  if(!window.L){ $("#map").outerHTML = `<p>Xarita kutubxonasi yuklanmadi. Sahifani yangilang.</p>`; return; }
+  const map = L.map("map", {worldCopyJump:true, zoomSnap:.5}).setView([41, 45], 3);
+  const labels = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:12, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'});
+  const plain = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png", {maxZoom:12, subdomains:"abcd", attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'});
+  (game ? plain : labels).addTo(map);
+  const icon = c => L.divIcon({className:"", html:`<div class="dot" style="background:${c}"></div>`, iconSize:[14,14], iconAnchor:[7,7]});
+  cleanup = () => map.remove();
+  if(!game) return mapExplore(map, icon);
+  mapGame(map, icon);
+}
+function mapExplore(map, icon){
+  const st = {era:"all", r:"all", old:true};
+  $("#mtop").innerHTML = `<div class="maptools">
+    <div class="seg" id="fe"><button data-v="all" aria-pressed="true">Barcha davrlar</button>${ERAS.map(e=>`<button data-v="${e.id}" aria-pressed="false">${e.name}</button>`).join("")}</div>
+    <div class="seg" id="fr"><button data-v="all" aria-pressed="true">Hammasi</button><button data-v="uz" aria-pressed="false">O'zbekiston tarixi</button><button data-v="j" aria-pressed="false">Jahon tarixi</button></div>
+    <label class="chk"><input type="checkbox" id="old" checked> Eski xarita ko'rinishi</label></div>
+    <p class="note" style="margin:8px 0">Nuqtani bosing: voqea, yili va qisqa izoh chiqadi. Rang davrni bildiradi.</p>`;
+  const layer = L.layerGroup().addTo(map);
+  function paint(){
+    layer.clearLayers();
+    const list = EVENTS.filter(e => (st.era==="all" || eraOf(e.y).id===st.era) && (st.r==="all" || e.r===st.r));
+    list.forEach(e => L.marker([e.lat,e.lng], {icon:icon(ERA_COLOR[eraOf(e.y).id]), title:e.t}).bindPopup(`<b>${esc(e.t)}</b><br><span class="num">${yearTxt(e.y)}</span> · ${eraOf(e.y).name}<br>${esc(e.d)}`).addTo(layer));
+    $("#mbot").innerHTML = `<p class="note" style="margin:8px 0 0">${list.length} ta voqea ko'rsatilmoqda. Joylashuvlar, ayniqsa janglar, taxminiy.</p>`;
+    if(list.length && st.r==="uz") map.fitBounds(L.latLngBounds(list.map(e=>[e.lat,e.lng])).pad(.2));
+  }
+  const segs = (sel, key) => $$(sel+" button").forEach(b => b.onclick = () => { st[key] = b.dataset.v; $$(sel+" button").forEach(x=>x.setAttribute("aria-pressed", x===b)); paint(); });
+  segs("#fe","era"); segs("#fr","r");
+  $("#old").onchange = e => $("#map").classList.toggle("oldmap", e.target.checked);
+  paint();
+}
+function mapGame(map, icon){
+  const R = shuffle(EVENTS).slice(0,10);
+  let k = 0, score = 0, guess = null, layer = L.layerGroup().addTo(map), locked = false;
+  function round(){
+    locked = false; guess = null; layer.clearLayers(); map.setView([41,45],3);
+    const e = R[k];
+    $("#mtop").innerHTML = `<div class="stats"><span>Raund <b>${k+1}</b>/${R.length}</span><span>Ball <b>${score}</b></span></div>
+      <p class="task" style="margin:6px 0">${esc(e.t)} <span class="num note">(${yearTxt(e.y)})</span></p><p class="note" style="margin:0 0 8px">Xaritada bu voqea sodir bo'lgan joyni bosing, so'ng «Tasdiqlash»ni bosing.</p>`;
+    $("#mbot").innerHTML = `<div class="row" style="margin-top:10px"><button class="btn" id="ok" type="button" disabled>Tasdiqlash</button><span id="res"></span></div>`;
+    $("#ok").onclick = check;
+  }
+  map.on("click", ev => { if(locked) return; layer.clearLayers(); guess = ev.latlng; L.marker(guess, {icon:icon("#1b2430")}).addTo(layer); $("#ok").disabled = false; });
+  function check(){
+    if(!guess) return; locked = true;
+    const e = R[k], d = km(guess, e), p = Math.round(1000*Math.exp(-d/600));
+    score += p;
+    L.marker([e.lat,e.lng], {icon:icon("#c0392b")}).addTo(layer).bindPopup(`<b>${esc(e.t)}</b><br>${esc(e.d)}`).openPopup();
+    L.polyline([guess,[e.lat,e.lng]], {color:"#c0392b", dashArray:"6 6"}).addTo(layer);
+    map.fitBounds(L.latLngBounds([guess,[e.lat,e.lng]]).pad(.4), {maxZoom:7});
+    $("#mbot").innerHTML = `<div class="feedback ${d<300?"ok":"bad"}" style="margin-top:10px"><span>Farq: <span class="num">${Math.round(d)}</span> km · +${p} ball</span><span style="flex:1"></span><button class="btn" id="nx" type="button">${k+1<R.length?"Keyingi →":"Natija"}</button></div>`;
+    $("#nx").onclick = () => { k++; k<R.length ? round() : end(); };
+  }
+  async function end(){
+    layer.clearLayers();
+    $("#mtop").innerHTML = `<div class="eyebrow">O'yin tugadi</div><h2 style="font-size:30px"><span class="num">${score}</span> ball</h2><div id="sv"></div>`;
+    $("#mbot").innerHTML = `<div class="row" style="margin-top:10px"><button class="btn" id="ag" type="button">Yana o'ynash</button></div><div id="lb"></div>`;
+    $("#ag").onclick = () => viewXarita("oyin");
+    await saveScore("xarita", score, 0, R.length, $("#sv")); showBoard("xarita", $("#lb"));
+  }
+  round();
+}
+
+// ---------- Timeline ----------
+function viewXronologiya(){
+  const ROUNDS = 5; let r = 0, score = 0, right = 0;
+  $("#app").innerHTML = `<div class="head"><h1>Xronologiya</h1><span class="sp"></span>${back}</div><div class="card" id="xc" style="max-width:760px"></div>`;
+  const box = $("#xc");
+  function round(){
+    const used = new Set(), set = [];
+    for(const e of shuffle(EVENTS)){ if(!used.has(e.y)){ used.add(e.y); set.push(e); } if(set.length===5) break; }
+    let order = shuffle(set);
+    function paint(checked){
+      const sorted = [...set].sort((a,b)=>a.y-b.y);
+      box.innerHTML = `<div class="stats"><span>Raund <b>${r+1}</b>/${ROUNDS}</span><span>Ball <b>${score}</b></span></div>
+        <p style="margin:0">Voqealarni <b>eng qadimgisidan eng keyingisiga</b> qarab joylashtiring.</p>
+        <ol class="order">${order.map((e,k)=>`<li class="${checked?(sorted[k]===e?"ok":"bad"):""}"><span class="k">${k+1}</span><span>${esc(e.t)}${checked?` <span class="yr">· ${yearTxt(e.y)}</span>`:""}</span>
+          <span class="mv">${checked?"":`<button type="button" data-u="${k}" aria-label="Yuqoriga" ${k===0?"disabled":""}>↑</button><button type="button" data-d="${k}" aria-label="Pastga" ${k===order.length-1?"disabled":""}>↓</button>`}</span></li>`).join("")}</ol>
+        <div id="fb"></div>
+        <div class="row">${checked?`<button class="btn" id="nx" type="button">${r+1<ROUNDS?"Keyingi →":"Natija"}</button>`:`<button class="btn" id="ck" type="button">Tekshirish</button>`}</div>`;
+      $$("[data-u]").forEach(b => b.onclick = () => { const k=+b.dataset.u; [order[k-1],order[k]]=[order[k],order[k-1]]; paint(); });
+      $$("[data-d]").forEach(b => b.onclick = () => { const k=+b.dataset.d; [order[k+1],order[k]]=[order[k],order[k+1]]; paint(); });
+      if(checked){
+        const good = order.filter((e,k)=>sorted[k]===e).length; right += good; score += good*100 + (good===5?200:0);
+        $("#fb").innerHTML = `<div class="feedback ${good===5?"ok":"bad"}">${good===5?"Hammasi to'g'ri! +700 ball":`${good} tasi o'z joyida. +${good*100} ball`}</div>${good<5?`<p class="note" style="margin:8px 0 0">To'g'ri tartib: ${sorted.map(e=>`${esc(e.t)} (${yearTxt(e.y)})`).join(" → ")}</p>`:""}`;
+        $(".stats").innerHTML = `<span>Raund <b>${r+1}</b>/${ROUNDS}</span><span>Ball <b>${score}</b></span>`;
+        $("#nx").onclick = () => { r++; r<ROUNDS ? round() : end(); };
+      } else $("#ck").onclick = () => paint(true);
+    }
+    paint();
+  }
+  async function end(){
+    box.innerHTML = `<div class="eyebrow">O'yin tugadi</div><h2 style="font-size:30px"><span class="num">${score}</span> ball</h2><p>${ROUNDS*5} ta voqeadan ${right} tasini to'g'ri joylashtirdingiz.</p><div id="sv"></div><div class="row"><button class="btn" id="ag" type="button">Yana o'ynash</button></div><div id="lb"></div>`;
+    $("#ag").onclick = viewXronologiya;
+    await saveScore("xronologiya", score, right, ROUNDS*5, $("#sv")); showBoard("xronologiya", $("#lb"));
+  }
+  round();
+}
+
+// ---------- Flashcards ----------
+async function viewKartochka(){
+  await bank();
+  $("#app").innerHTML = `<div class="head"><h1>Kartochkalar</h1><span class="sp"></span>${back}</div>
+  <div class="card" style="max-width:760px" id="kc"><label class="f">Manba${variantSelect("kv")}</label><label class="f">Kartochkalar soni<select id="kn"><option>10</option><option selected>20</option><option>40</option></select></label><button class="btn big" id="ks" type="button">Boshlash</button>
+  <p class="note">Kartochka yozma topshiriqlardan (36–45) olinadi. Javobni avval o'zingiz o'ylang, keyin kartochkani bosib ag'daring.</p></div>`;
+  $("#ks").onclick = () => {
+    const v = $("#kv").value;
+    let deck = shuffle(BANK.open.filter(c => v==="all" || c.vid===v)).slice(0, +$("#kn").value);
+    run(deck);
+  };
+  function run(deck){
+    const total = deck.length; let known = 0, seen = 0;
+    const box = $("#kc");
+    function show(){
+      if(!deck.length) return end();
+      const c = deck[0];
+      box.innerHTML = `<div class="stats"><span>Qoldi <b>${deck.length}</b></span><span>Bildim <b>${known}</b>/${total}</span></div>
+        <div class="flash" id="fl" tabindex="0" role="button" aria-label="Kartochkani ag'darish"><div class="in">
+          <div class="side"><div class="eyebrow">Savol · ${esc(c.vtitle)}, ${c.n}${c.part})</div><p style="margin:0">${esc(c.q)}</p>${c.extra?`<pre class="extra">${esc(c.extra)}</pre>`:""}${c.img?`<img class="qimg" src="${esc(c.img)}" alt="Topshiriq rasmi">`:""}<p style="margin:0;font-weight:600">${c.part}) ${esc(c.ask)}</p><p class="note">Bosib javobni ko'ring</p></div>
+          <div class="side back"><div class="eyebrow">Javob</div><div class="ans">${esc(c.ansTxt)}</div><p class="note">${c.part}) ${esc(c.ask)}</p></div>
+        </div></div>
+        <div class="row" id="kb" style="visibility:hidden"><button class="btn ghost" id="no" type="button" style="flex:1;border-color:var(--bad);color:var(--bad)">Bilmasdim</button><button class="btn" id="yes" type="button" style="flex:1;background:var(--ok);border-color:var(--ok)">Bildim</button></div>`;
+      const fl = $("#fl"), flip = () => { fl.classList.toggle("flip"); $("#kb").style.visibility = "visible"; };
+      fl.onclick = flip; fl.onkeydown = e => { if(e.key===" "||e.key==="Enter"){ e.preventDefault(); flip(); } };
+      // a back side taller than the front pushes the card open
+      const sides = fl.querySelectorAll(".side"); fl.querySelector(".in").style.minHeight = Math.max(260, ...[...sides].map(s=>s.scrollHeight)) + "px";
+      $("#yes").onclick = () => { deck.shift(); known++; seen++; show(); };
+      $("#no").onclick = () => { const c = deck.shift(); deck.splice(Math.min(deck.length, 4), 0, c); seen++; show(); };
+    }
+    async function end(){
+      box.innerHTML = `<div class="eyebrow">Tugadi</div><h2 style="font-size:30px">${total} ta kartochka takrorlandi</h2><p>${seen} ta ko'rib chiqish bilan hammasini o'zlashtirdingiz.</p><div id="sv"></div><div class="row"><button class="btn" id="ag" type="button">Yana</button>${back}</div>`;
+      $("#ag").onclick = viewKartochka;
+      await saveScore("kartochka", Math.round(100*total/Math.max(seen,1)), total, seen, $("#sv"));
+    }
+    show();
+  }
+}
+
+// ---------- Router ----------
+const VIEWS = {carx:viewCarx, viktorina:viewViktorina, jonli:viewJonli, xarita:viewXarita, xronologiya:viewXronologiya, kartochka:viewKartochka};
+async function route(){
+  if(cleanup){ try{ cleanup(); }catch(e){} cleanup = null; }
+  const [name, arg] = location.hash.replace(/^#/,"").split("/");
+  try{ await (VIEWS[name] || viewHub)(arg); }
+  catch(e){ console.error(e); $("#app").innerHTML = `<div class="card"><h2>Yuklab bo'lmadi</h2><p>Internet aloqasini tekshirib, sahifani yangilang.</p>${back}</div>`; }
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", route);
+route();
+</script>
+</body></html>
