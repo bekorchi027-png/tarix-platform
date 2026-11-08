@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Mashq va o'yinlar · O'zing O'rgan</title>
-<meta name="description" content="O'zing O'rgan: tarixdan mashq va o'yinlar. Tasodifiy g'ildirak, tezkor viktorina, sinf bilan jonli bellashuv, tarixiy xarita, xronologiya va kartochkalar.">
+<meta name="description" content="O'zing O'rgan: tarixdan mashq va o'yinlar. Tasodifiy g'ildirak, tezkor viktorina, sinf bilan jonli bellashuv, tarixiy xarita, joy nomlari xaritasi, xronologiya va kartochkalar.">
 <link rel="canonical" href="https://ozing-organ.uz/mashqlar.html">
 <meta name="theme-color" content="#1f4f7a">
 <link rel="icon" href="/favicon.png" type="image/png" sizes="96x96">
@@ -117,6 +117,28 @@ textarea{resize:vertical;min-height:180px;line-height:1.5}
 .task{font-family:var(--display);font-size:clamp(19px,3vw,24px)}
 .dot{width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.4)}
 
+/* Place-names map */
+.jmap{height:min(72vh,660px)}
+.rlabel{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;font-family:var(--display);font-style:italic;font-weight:700;letter-spacing:.12em;color:#5a3d1e;opacity:.75;font-size:13px;text-align:center;line-height:1.1;text-shadow:0 0 3px #f4ecd8,0 0 3px #f4ecd8;pointer-events:none}
+.rlabel small{display:block;font-size:10px;letter-spacing:.04em;font-weight:500}
+.rlabel.riv{color:#1f5fa8;letter-spacing:.04em;font-size:12px}
+.rlabel.big{font-size:16px;opacity:.5;letter-spacing:.3em}
+.z-lo .rlabel:not(.big){display:none}
+.z-hi .rlabel.big{display:none}
+.leaflet-tooltip.plabel{background:rgba(255,255,255,.85);border:0;box-shadow:none;padding:0 4px;font-size:11.5px;font-weight:600;color:#1b2430;border-radius:3px}
+.leaflet-tooltip.plabel::before{display:none}
+.jmap:not(.z-hi) .leaflet-tooltip.plabel{display:none}
+.leaflet-tooltip.blabel{font-weight:600}
+.dot.big{width:20px;height:20px;border-width:3px}
+.jcard{display:grid;gap:3px;font-size:14px}
+.jcard .jn{font-family:var(--display);font-size:19px}
+.yearbar{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin-top:10px}
+.yearbar input[type=range]{width:100%}
+#jsr{border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:inherit;background:var(--sheet);color:var(--ink);min-height:44px}
+.jq{border-top:1px solid var(--line);padding:12px 0;display:grid;gap:6px;justify-items:start}
+.jopts{margin:0;padding-left:0;list-style:none;display:grid;gap:2px}
+.jopts li.ok{color:var(--ok);font-weight:700}
+
 /* Timeline */
 .order{display:grid;gap:8px;margin:0;padding:0;list-style:none}
 .order li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
@@ -145,6 +167,9 @@ textarea{resize:vertical;min-height:180px;line-height:1.5}
 <script src="yordamchi.js" defer></script>
 <script src="mashq-data.js"></script>
 <script src="vendor/leaflet/leaflet.js"></script>
+<script src="joy-data.js"></script>
+<script src="xarita-davlatlar.js"></script>
+<script src="joylar.js"></script>
 <script>
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
@@ -204,6 +229,7 @@ const ICON = {
   viktorina:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>',
   jonli:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="9" r="3"/><circle cx="17" cy="9" r="3"/><path d="M2 20c.5-3.5 3-5 6-5s5.5 1.5 6 5M13 15.5c1-.4 2.3-.5 4-.5 3 0 5.5 1.5 5.5 5"/></svg>',
   xarita:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>',
+  joylar:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
   xronologiya:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h18"/><circle cx="6" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><path d="M6 6v4M12 14v4M18 6v4"/></svg>',
   kartochka:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>'
 };
@@ -212,6 +238,7 @@ const MODES = [
   ["viktorina","Tezkor viktorina","Vaqtga qarshi 10–20 savol. Tez va to'g'ri javob ko'proq ball beradi, haftalik reyting bor.","Yakka"],
   ["jonli","Jonli bellashuv","O'qituvchi savollarni ekranga chiqaradi, o'quvchilar telefondan PIN kod bilan qo'shilib javob beradi.","Sinf bilan"],
   ["xarita","Tarixiy xarita","Voqealarni eski xarita uslubida davrlar bo'yicha ko'ring yoki o'yinda joyini xaritadan toping.","Yakka"],
+  ["joylar","Joy nomlari xaritasi","Qadimgi shahar, qal'a va viloyat nomlari, istalgan yildagi davlat chegaralari. «Qayerda?» va «Nomi nima?» o'yinlari.","Yakka"],
   ["xronologiya","Xronologiya","Tarixiy voqealarni sodir bo'lgan tartibida joylashtiring.","Yakka"],
   ["kartochka","Kartochkalar","Yozma topshiriqlar asosida savol-javob kartochkalari: o'ylang, ag'daring, o'zingizni baholang.","Yakka"]
 ];
@@ -688,11 +715,14 @@ async function viewKartochka(){
 }
 
 // ---------- Router ----------
-const VIEWS = {carx:viewCarx, viktorina:viewViktorina, jonli:viewJonli, xarita:viewXarita, xronologiya:viewXronologiya, kartochka:viewKartochka};
+const VIEWS = {carx:viewCarx, viktorina:viewViktorina, jonli:viewJonli, xarita:viewXarita, joylar:viewJoylar, xronologiya:viewXronologiya, kartochka:viewKartochka};
 async function route(){
   if(cleanup){ try{ cleanup(); }catch(e){} cleanup = null; }
-  const [name, arg] = location.hash.replace(/^#/,"").split("/");
-  try{ await (VIEWS[name] || viewHub)(arg); }
+  // "#name/arg?key=value": the query part carries deep-link options (see joylar.js)
+  const [path, qs] = location.hash.replace(/^#/,"").split("?");
+  const [name, arg] = path.split("/");
+  if(name==="xarita" && qs){ location.replace("#joylar?"+qs); return; }
+  try{ await (VIEWS[name] || viewHub)(arg, new URLSearchParams(qs||"")); }
   catch(e){ console.error(e); $("#app").innerHTML = `<div class="card"><h2>Yuklab bo'lmadi</h2><p>Internet aloqasini tekshirib, sahifani yangilang.</p>${back}</div>`; }
   window.scrollTo(0,0);
 }
