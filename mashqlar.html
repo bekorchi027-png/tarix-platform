@@ -160,6 +160,7 @@ textarea{resize:vertical;min-height:180px;line-height:1.5}
 @media (max-width:600px){.wrap{padding:12px 12px 32px}.card{padding:16px}.hub{grid-template-columns:1fr 1fr;gap:8px}.mode{padding:12px}.mode b{font-size:17px}.mode span{font-size:12.5px}.mode .ic{width:36px;height:36px}}
 @media (max-width:360px){.hub{grid-template-columns:1fr}}
 </style>
+<link rel="stylesheet" href="dizayn.css">
 </head><body>
 <main class="wrap" id="app"><p class="note">Yuklanmoqda…</p></main>
 <script src="vendor/supabase-2.75.0.js"></script>
@@ -243,8 +244,8 @@ const MODES = [
   ["kartochka","Kartochkalar","Yozma topshiriqlar asosida savol-javob kartochkalari: o'ylang, ag'daring, o'zingizni baholang.","Yakka"]
 ];
 function viewHub(){
-  $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">O'zing O'rgan · Tarix</div><h1>Mashq va o'yinlar</h1></div></div>
-  <p style="margin-top:0;max-width:720px">Testlardagi savollar va tarixiy voqealar asosida turli usullarda takrorlang. Hisobsiz ham ishlaydi; <a href="#" id="hsign">ro'yxatdan o'tsangiz</a>, ballaringiz kabinetda saqlanadi va reytingda ko'rinadi.</p>
+  $("#app").innerHTML = `<section class="hero"><div class="eyebrow">O'zing O'rgan · Tarix</div><h1>Mashq va o'yinlar</h1>
+  <p>Testlardagi savollar va tarixiy voqealar asosida turli usullarda takrorlang. Hisobsiz ham ishlaydi; <a href="#" id="hsign" style="color:#e7c77a">ro'yxatdan o'tsangiz</a>, ballaringiz kabinetda saqlanadi va reytingda ko'rinadi.</p></section>
   <div class="hub">${MODES.map(([id,t,d,who])=>`<a class="mode" href="#${id}"><span class="ic">${ICON[id]}</span><b>${t}</b><span>${d}</span><em>${who}</em></a>`).join("")}</div>`;
   $("#hsign").onclick = e => { e.preventDefault(); OZ.user ? OZ.open() : OZ.open("signup"); };
 }

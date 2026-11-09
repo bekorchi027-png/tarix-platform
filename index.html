@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://ozing-organ.uz/">
 <meta property="og:locale" content="uz_UZ">
 <meta property="og:image" content="https://ozing-organ.uz/icon-192.png">
-<meta name="theme-color" content="#1f4f7a">
+<meta name="theme-color" content="#13345c">
 <link rel="icon" href="/favicon.png" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="/icon-192.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"O'zing O'rgan","alternateName":["Ozing Organ","Oʻzing oʻrgan","ozing-organ.uz"],"url":"https://ozing-organ.uz/","inLanguage":"uz"}</script>
@@ -198,6 +198,7 @@ button,.opt,.cell,.vcard{touch-action:manipulation;-webkit-tap-highlight-color:t
   .progress{display:none}
 }
 </style>
+<link rel="stylesheet" href="dizayn.css">
 
 </head><body>
 <div class="wrap" id="app"><section class="cover">
@@ -385,27 +386,78 @@ function render(){
   return renderResult();
 }
 
+// Variant catalogue: hero with own progress, search + series chips, numbered cards.
+const SERIES=[["all","Hammasi"],["tms26","TMS 2026"],["tms25","TMS 2025"],["quadro","Quadro"],["ms","Milliy sertifikat"],["tl","TESTLIDER"],["diag","Diagnostik"],["boshqa","Boshqa"]];
+function seriesOf(v){
+  const t=v.title+" "+v.src;
+  if(/TMS.*2026/.test(v.title)) return "tms26";
+  if(/TMS.*2025/.test(v.title)) return "tms25";
+  if(/Quadro/i.test(v.title)) return "quadro";
+  if(/Milliy sertifikat/i.test(v.title)) return "ms";
+  if(/Diagnostik/i.test(v.title)) return "diag";
+  if(/TESTLIDER|Boltayev/i.test(t) && !/Quadro/i.test(t)) return "tl";
+  return "boshqa";
+}
+let LF={q:"",s:"all"};
+try{ const o=JSON.parse(sessionStorage.getItem("tarix-royxat-filtr")); if(o&&typeof o.q==="string") LF=o; }catch(e){}
+function statOf(v){
+  const s=loadOf(v.id);
+  if(s&&s.phase==="result"){ const sc=v.items.reduce((t,it)=>t+grade(it,s.answers).got,0); return {k:"done",sc,txt:`<span class="num">${fmt(sc)}</span> ball · ${levelOf(sc)}`}; }
+  if(s&&s.endAt) return {k:"run",txt:"Davom etmoqda"};
+  return {k:"new",txt:"Yangi"};
+}
+function vcardHtml(v){
+  const m=v.title.match(/^(\d+)-variant\s*(?:\((.*)\))?$/), n=m?m[1]:"•", nm=m&&m[2]?m[2]:v.title;
+  const S=statOf(v), ser=SERIES.find(x=>x[0]===seriesOf(v))[1];
+  return `<button class="vcard s-${S.k}" data-v="${v.id}" aria-label="${esc(v.title)}"><span class="vn">${n}</span><b>${esc(nm)}</b><span class="src">${esc(v.src)}</span><span class="foot"><span class="pill ${S.k}">${S.txt}</span><span class="pill ser">${ser}</span></span>${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy, o'qituvchi tekshiruvida</span>`:""}</button>`;
+}
+function filtered(){
+  const q=LF.q.trim().toLowerCase().replace(/[‘’ʻʼ`]/g,"'");
+  return VARIANTS.filter(v=>(LF.s==="all"||seriesOf(v)===LF.s) && (!q || (v.title+" "+v.src).toLowerCase().replace(/[‘’ʻʼ`]/g,"'").includes(q)));
+}
+function drawCards(){
+  const list=filtered(), box=$("#vl");
+  box.innerHTML = list.length ? list.map(vcardHtml).join("") : `<div class="empty">Hech narsa topilmadi. Boshqa so'z bilan qidiring yoki «Hammasi»ni tanlang.</div>`;
+  box.classList.toggle("vlist", list.length>0);
+  box.querySelectorAll(".vcard").forEach(b=>b.onclick=()=>pick(b.dataset.v));
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", String(c.dataset.s===LF.s)));
+  try{ sessionStorage.setItem("tarix-royxat-filtr", JSON.stringify(LF)); }catch(e){}
+}
+function pick(id){ openVariant(id); save(); render(); window.scrollTo(0,0); }
 function renderList(){
+  const sts=VARIANTS.map(statOf), done=sts.filter(x=>x.k==="done"), best=done.length?Math.max(...done.map(x=>x.sc)):null;
+  const run=VARIANTS.find((v,i)=>sts[i].k==="run");
+  const cnt=k=>k==="all"?VARIANTS.length:VARIANTS.filter(v=>seriesOf(v)===k).length;
   $("#app").innerHTML = `
-  <section class="cover">
+  <section class="hero">
     <div class="eyebrow">O'zing O'rgan · Tarix</div>
     <h1>Tarix fanidan sertifikat sinovi</h1>
-    <div class="facts">
-      <div class="fact"><b>45</b>topshiriq</div>
-      <div class="fact"><b>90</b>daqiqa</div>
-      <div class="fact"><b>100</b>xom ball</div>
+    <p>Milliy sertifikat formatidagi ${VARIANTS.length} ta variant: 45 topshiriq, 90 daqiqa, natija va daraja darhol hisoblanadi.</p>
+    <div class="stats">
+      <div class="stat"><b>${VARIANTS.length}</b><span>variant</span></div>
+      <div class="stat"><b>${done.length}</b><span>yechildi</span></div>
+      <div class="stat"><b>${best===null?"—":fmt(best)}</b><span>eng yaxshi</span></div>
     </div>
-    <a class="promo" href="/mashqlar.html"><b>Mashq va o'yinlar</b><span>Tasodifiy g'ildirak, tezkor viktorina, sinf bilan jonli bellashuv, tarixiy xarita, xronologiya va kartochkalar</span><span class="go">Ochish →</span></a>
-    <div class="eyebrow">Variantni tanlang</div>
-    <div class="vlist">${VARIANTS.map(v=>{
-      const s=loadOf(v.id); let stat="Boshlanmagan";
-      if(s&&s.phase==="result"){ const sc=v.items.reduce((t,it)=>t+grade(it,s.answers).got,0); stat=`Natija: <span class="num">${fmt(sc)}</span> ball · ${levelOf(sc)}`; }
-      else if(s&&s.endAt) stat="Davom etmoqda";
-      return `<button class="vcard" data-v="${v.id}"><b>${esc(v.title)}</b><span class="note">${esc(v.src)}</span><span class="vstat">${stat}</span>${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy, o'qituvchi tekshiruvida</span>`:""}</button>`;
-    }).join("")}</div>
-    <p class="note">Sinov versiyasi. Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH); J. Boltayev, J. Abdurashidov, Sh. Jabborov (@TESTLIDER), M. Halimov (@TARIX_TILSIMI), F. Qo‘chqorov. Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
+    <div class="acts">
+      ${run?`<button class="btn gold" id="cont">Davom ettirish: ${esc(run.title.replace(/\s*\(.*\)$/,""))}</button>`:""}
+      <button class="btn${run?"":" gold"}" id="rnd">Tasodifiy variant</button>
+      <a class="btn ghost" href="/mashqlar.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center">Mashqlar →</a>
+    </div>
+  </section>
+  <section class="catalog">
+    <div class="cat-head">
+      <h2>Variantni tanlang</h2>
+      <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="vq" type="search" placeholder="Qidirish: muallif, TMS, Quadro…" aria-label="Variant qidirish" value="${esc(LF.q)}"></label>
+    </div>
+    <div class="chips" role="group" aria-label="Seriyalar">${SERIES.filter(([k])=>cnt(k)>0).map(([k,t])=>`<button class="chip" data-s="${k}" aria-pressed="${k===LF.s}">${t}<i>${cnt(k)}</i></button>`).join("")}</div>
+    <div id="vl" class="vlist"></div>
+    <p class="credits">Savollar mualliflari: @Onlinetarix_chi (A. Fozilov); Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarixdan_testlar_BH); J. Boltayev, J. Abdurashidov, Sh. Jabborov (@TESTLIDER), M. Halimov (@TARIX_TILSIMI), F. Qo‘chqorov. Daraja rasmiy Rash hisobi emas, xom ball asosida taxminiy ko'rsatiladi.</p>
   </section>`;
-  document.querySelectorAll(".vcard").forEach(b=>b.onclick=()=>{ openVariant(b.dataset.v); save(); render(); window.scrollTo(0,0); });
+  drawCards();
+  $("#vq").oninput=e=>{ LF.q=e.target.value; drawCards(); };
+  document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{ LF.s=c.dataset.s; drawCards(); });
+  if(run) $("#cont").onclick=()=>pick(run.id);
+  $("#rnd").onclick=()=>{ const nw=VARIANTS.filter((v,i)=>sts[i].k==="new"), pool=nw.length?nw:VARIANTS; pick(pool[Math.floor(Math.random()*pool.length)].id); };
 }
 
 function renderStart(){
