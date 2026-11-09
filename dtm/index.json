@@ -1,0 +1,23 @@
+[
+ {
+  "id": "bmba-09",
+  "title": "BMBA namunasi · 9-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 30,
+  "file": "dtm/bmba-09.json"
+ },
+ {
+  "id": "smt-01",
+  "title": "So'nggi muhim test · 1-variant",
+  "src": "J. Boltayev (@TESTLIDER)",
+  "n": 30,
+  "file": "dtm/smt-01.json"
+ },
+ {
+  "id": "smt-02",
+  "title": "So'nggi muhim test · 2-variant",
+  "src": "J. Boltayev (@TESTLIDER)",
+  "n": 30,
+  "file": "dtm/smt-02.json"
+ }
+]

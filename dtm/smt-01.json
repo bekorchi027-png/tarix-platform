@@ -1,0 +1,360 @@
+{
+"id": "smt-01",
+"items": [
+{
+"n": 1,
+"q": "Hindistonda 1998-yil hokimiyatga kelgan Atal Bixari Vajpai davrida … .",
+"opts": [
+"Janubiy Hindistondagi tamillar separatizmini kuchsizlantirish tadbirlari o‘tkazildi",
+"ko‘plab sohalarda davlat monopoliyasi bekor qilindi",
+"Hindiston g‘alla eksport qilishni boshladi",
+"“Yashil inqilob” deb atalgan agrar siyosat amalga oshirildi"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Quyida berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. U XVIII asr birinchi yarmida hukmronlik qilgan. Uning davrida qo‘riq yerlarni o‘zlashtirish hisobiga dehqonchilik qiluvchilarni rag‘batlantirish siyosati yuritilgan. U yerni sotish, sotib olish yoki garovga qo‘yishni taqiqlovchi qonun chiqargan.",
+"opts": [
+"qirol Yongjo",
+"Toyotami Xideyosi",
+"Tokugava Yosimune",
+"Tokugava Ieyasu"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyida berilgan ma’lumotlardan qaysilari G‘aznaviylar davlatiga oid?",
+"opts": [
+"1, 2",
+"2, 4",
+"2, 3",
+"1, 4"
+],
+"ans": "D",
+"extra": "1) XII asr ikkinchi yarmida davlat sifatida butunlay tugatilgan;\n2) viloyatda boshqaruv ishlari eloqxon, shaharlarda esa kutvol tomonidan amalga oshirilgan;\n3) o‘nta devon orqali idora etilib, ular orasida vazir devoni bosh boshqaruv mahkamasi hisoblangan;\n4) XI asr boshlarida Xorazm davlati qo‘shib olingan.",
+"img": "img/dtm/smt-01-3.jpg"
+},
+{
+"n": 4,
+"q": "Portugaliyada kimning hokimiyatga kelishi diktaturadan demokratiyaga o‘tish jarayonining yakunlanganligini anglatar edi?",
+"opts": [
+"Mariu Suaresh",
+"Antonio Spinola",
+"Konstantinos Saldaris",
+"Marselu Kaetanu"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Quyida berilganlardan qaysilari Chig‘atoy ulusi davlati tarixiga oid emas?",
+"opts": [
+"1, 4",
+"2, 4",
+"1, 3",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) ziroatchilardan olinadigan yer solig‘i “xiroj” deb yuritilgan;\n2) Samarqand va Buxoro shaharlarida “kepaki” deb nom olgan tangalar muomalaga chiqarilgan;\n3) ijro hokimiyati boshlig‘i beklarbegi bo‘lib, devon ishlarini vazir boshqargan;\n4) 1271-yilda Mas’ud Yalavoch tomonidan pul islohoti amalga oshirilgan."
+},
+{
+"n": 6,
+"q": "Quyida berilganlardan qaysilarida davlat-shaxs (davlat yoki hukumat rahbari)-voqea mosligi to‘g‘ri berilgan?",
+"opts": [
+"1, 2, 5",
+"2, 4, 5",
+"2, 3, 4",
+"1, 3, 5"
+],
+"ans": "A",
+"extra": "1) Buyuk Britaniya – Jon Meyjor – Fransiya bilan hamkorlikda qurilgan La-Mansh bo‘g‘ozi ostidan o‘tgan temiryo‘l tonneli (Yevrotonnel) ochildi;\n2) AQSH – Bill Klinton – mamlakatni ijtimoiy davlatga aylantirishni ko‘zda tutuvchi “Yangi iqtisodiy falsafa” nomini olgan siyosat amalga oshirildi;\n3) Suriya – Bashar Asad – BMT inspektorlarini AQSH foydasiga josuslik qilishda ayblab, ularni mamlakatdan quvib chiqardi;\n4) KDR – Nelson Mandela – 1994-yilda bo‘lib o‘tgan saylovlardan so‘ng mamlakat prezidenti etib saylandi.\n5) Ispaniya – Fransisko Franko – mamlakat BMTga qabul qilindi."
+},
+{
+"n": 7,
+"q": "Nuqtalar o‘rniga mantiqiy va tarixiy jihatdan mos keluvchi javobni aniqlang.*",
+"opts": [
+"Mixail Fyodorovich Romanov, Usmon I",
+"Ivan IV; Salim I",
+"Pyotr I; Mexmet II",
+"Nikolay II; Mexmed VI"
+],
+"ans": "D",
+"extra": "1) kapetinglar (Fransiya) – Filipp IV;\n2) tyudorlar (Angliya) – Yelizaveta I;\n3) romanovlar (Rossiya) – … ;\n4) usmoniylar (Turkiya) – … ."
+},
+{
+"n": 8,
+"q": "Quyida berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-a, 2-d",
+"1-d, 2-c",
+"1-c, 2-d",
+"1-b, 2-c"
+],
+"ans": "C",
+"img": "img/dtm/smt-01-8.jpg"
+},
+{
+"n": 9,
+"q": "Quyidagi qaysi islohotlar O‘zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev davrida amalga oshirilgan?",
+"opts": [
+"1, 2",
+"2, 3",
+"2, 4",
+"1, 3"
+],
+"ans": "B",
+"extra": "1) Oliy ta’limdan keyingi ta’lim aspirantura (3 yil) va doktoranturaga (3 yil) ajratildi;\n2) milliy valyuta – so‘mni erkin konvertatsiyalash tizimiga o‘tildi;\n3) 12 yillik majburiy ta’limdan 11 yillik ta’limga o‘tildi;\n4) Oliy Majlisda 150 nafar deputat, 100 nafar senator bo‘lishi belgilanib, parlament a’zolari soni qisqartirildi.",
+"img": "img/dtm/smt-01-9.jpg"
+},
+{
+"n": 10,
+"q": "“Yer va ozodlik” (a) va “Ozodlik yoki o‘lim” (b) shiori ostida qaysi davlatlarda qo‘zg‘olon bo‘lib o‘tgan (XIX asr oxirlari – XX asr boshlari)?",
+"opts": [
+"a-1, b-2",
+"a-3, b-1",
+"a-3, b-4",
+"a-4, b-3"
+],
+"ans": "D",
+"extra": "1) Xitoy;\n2) Hindiston;\n3) Bolgariya;\n4) Meksika."
+},
+{
+"n": 11,
+"q": "Quyidagi qaysi hudud Oltin O‘rda xonligi tarkibiga kirmagan?",
+"opts": [
+"Volgabo‘yi",
+"Xuroson",
+"Shimoliy Kavkaz",
+"Xorazm"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyidagi ma’lumotlarga mos yakuniy xulosalar (to‘g‘ri/noto‘g‘ri) keltirilgan javobni aniqlang.",
+"opts": [
+"I-to‘g‘ri; II-to‘g‘ri; III-to‘g‘ri",
+"I-noto‘g‘ri; II-to‘g‘ri; III-noto‘g‘ri",
+"I-noto‘g‘ri; II-noto‘g‘ri; III-to‘g‘ri",
+"I-to‘g‘ri; II-noto‘g‘ri; III-noto‘g‘ri"
+],
+"ans": "D",
+"extra": "I. Turkiston general-gubernatori G. Rozenbax davrida O‘rta Osiyoning Rossiya imperiyasi tomonidan bosib olinishi so‘nggi bosqichi yakunlangan;\nII. So‘nggi Xiva xoni Asfandiyorxon turkmanlarning yovmut qabilasi sardori Junaydxon tomonidan uyushtirilgan suiqasd natijasida o‘ldirilgan.\nIII. Rossiyaning Turkistondagi butun mustamlakachiligi davrida eng qudratli va uyushgan qo‘zg‘olon Andijonda bo‘lib o‘tgan."
+},
+{
+"n": 13,
+"q": "Quyida berilganlardan 1800–1870-yillar tarixiga oid bo‘lganlarni toping.",
+"opts": [
+"1, 2, 3",
+"3, 4, 5",
+"3, 4, 6",
+"1, 4, 6"
+],
+"ans": "D",
+"extra": "1) Fransiyada prezidentlik lavozimining joriy etilishi;\n2) Angliyada Lordlar palatasining bekor qilinishi;\n3) Ikkinchi ingliz-afg‘on urushi;\n4) “Bobiylar qo‘zg‘oloni”;\n5) Ost-Indiya kompaniyasining tashkil topishi;\n6) “chartistlar harakati”"
+},
+{
+"n": 14,
+"q": "Yevropaliklar orasida birinchi bo‘lib Uzoq Sharq mintaqasidagi o‘lkalarni o‘z kitobida tavsifl ab bergan tarixiy shaxsni aniqlang.",
+"opts": [
+"Xristofor Kolumb",
+"Fernando Magellan",
+"Vasko da Gama",
+"Morko Polo"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Nomuvofi qlikka yo‘l qo‘yilgan javobni toping (qadimgi diniy e’tiqodlar).",
+"opts": [
+"Bastet – musiqa xudosi",
+"Indra – momaqaldiroq xudosi",
+"Venera – sevgi xudosi",
+"Apollon – she’riyat xudosi"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Temuriyzoda Mirzo Ulug‘bek vafotidan so‘ng Samarqand (Movarounnahr) taxtiga o‘tirgan shaxslar taxtni egallagan yillariga qarab to‘g‘ri xronologik tartibda joylashtiring.",
+"opts": [
+"1, 3, 4, 2",
+"3, 2, 1, 4",
+"4, 1, 3, 2",
+"3, 2, 4, 1"
+],
+"ans": "D",
+"extra": "1) Sulton Ahmad;\n2) Mirzo Abdullo;\n3) Abdullatif;\n4) Abu Said."
+},
+{
+"n": 17,
+"q": "Muallifl ar va ularning asarlari to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-c, 2-a",
+"1-d, 2-b",
+"1-b, 2-a",
+"1-c, 2-b"
+],
+"ans": "A",
+"img": "img/dtm/smt-01-17.jpg"
+},
+{
+"n": 18,
+"q": "Quyidagilardan Xiva xoni Olloqulixon davrida bo‘lib o‘tgan voqealarni toping.",
+"opts": [
+"1, 3, 4",
+"1, 3, 5",
+"3, 4, 5",
+"2, 4, 6"
+],
+"ans": "C",
+"extra": "1) Xiva va Rossiya o‘rtasida «Majburiyatlar akti» imzolandi;\n2) «Qoraqalpoq ulusi» shakllantirildi;\n3) markaziy hokimiyatdan mustaqil bo‘lishga harakat qilgan turkman va qoraqalpoqlarning qo‘zg‘olonlari shafqatsizlik bilan bostirildi;\n4) Dishan qal’a barpo etildi;\n5) Karvonsaroy majmuasi bunyod etildi;\n6) inoq lavozimi bekor qilindi."
+},
+{
+"n": 19,
+"q": "Quyidagi tarixiy voqealar (ma’lumotlar) to‘g‘ri xronologik ketma-ketlikda berilgan javobni toping.",
+"opts": [
+"1, 2, 4, 3",
+"2, 1, 3, 4",
+"4, 3, 1, 2",
+"2, 1, 4, 3"
+],
+"ans": "D",
+"extra": "1) Konstantinopolda Magnavr oliy maktabi ochildi;\n2) Franklar davlati imperiya deb e’lon qilindi;\n3) Birinchi salib yurishlari boshlandi;\n4) Chexiya davlati vujudga keldi."
+},
+{
+"n": 20,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-a, 2-b",
+"1-d, 2-b",
+"1-d, 2-c",
+"1-a, 2-c"
+],
+"ans": "C",
+"img": "img/dtm/smt-01-20.jpg"
+},
+{
+"n": 21,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan to‘g‘ri javobni toping. AQSH        Germaniya",
+"opts": [
+"I-c, f; II-a, e; III-b",
+"I-e, c; II-a, d; III-b",
+"I-a, f; II-c, d; III-e",
+"I-c, f; II-a, d; III-e"
+],
+"ans": "D",
+"extra": "a) 1891-yildan boshlab yakshanba dam olish kuni deb belgilandi; b) XIX asr ikkinchi yarmida qabul qilingan qonunga ko‘ra, 10 yoshdan kichik bolalarni ishga qabul qilish taqiqlandi; c) 1901-yilda “Po‘lat korporatsiyasi” tashkil etildi; d) Gvineyaning shimoliy qismini egallab oldi; e) Samoa orolining bir qismini egalladi; f) 1914-yilda ish tashlash davrida trestlarga yetkazilgan zararni kasaba uyushmalaridan undirib olish tartibi bekor qilindi.",
+"img": "img/dtm/smt-01-21.jpg"
+},
+{
+"n": 22,
+"q": "Buxoro Xalq Sovet Respublikasi hukumatidagi lavozimidan voz kechib, muxolifatdagi qurolli harakat safl ariga o‘tib ketgan milliy rahbar xodimlarni aniqlang.",
+"opts": [
+"1, 3",
+"2, 3",
+"2, 4",
+"3, 4"
+],
+"ans": "D",
+"extra": "1) Muinjon Aminov;\n2) Porso Xo‘ja;\n3) Abdulhamid Oripov;\n4) Surayyo Afandi."
+},
+{
+"n": 23,
+"q": "AQSH XX asr boshlarida “Ochiq eshiklar va teng imkoniyatlar” doktrinasini qaysi davlatga nisbatan qo‘llagan?",
+"opts": [
+"Kuba",
+"Meksika",
+"Panama",
+"Xitoy"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Ikkinchi jahon urushidagi xizmatlari uchun Xalqaro Qizil Xoch Qo‘mitasining Florens Naytingeyl medaliga sazovor bo‘lgan o‘zbek hamshirasini aniqlang.",
+"opts": [
+"Muqaddam Ashrapova",
+"Lutfi Sarimsoqova",
+"Rixsixon Mo‘minova",
+"Zulfiya Zokirova"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Qaysi javobda o‘rta asrlarda vujudga kelgan davlatlar to‘g‘ri berilgan?",
+"opts": [
+"Koguryo, Pekche, Sin davlati",
+"Quddus qirolligi, Min imperiyasi, Bolgariya",
+"Inklar davlati, Gana davlati, Chjou davlati",
+"Oltin O‘rda, Mali davlati, Chin davlati"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Quyida berilgan voqealardan qaysi biri boshqalariga nisbatan eng keyin yuz bergan?",
+"opts": [
+"Xitoyda taypinlar davlatining tashkil topishi",
+"Yaponiyada AQSH konsulini qabul qilishi",
+"Rim papasi Koreya yepiskopligi tuzilganligini e’lon qilishi",
+"Fransiyada Ikkinchi imperiya davri boshlanishi"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "XIX asr so‘nggi choragida Turkiya tarixiga oid bo‘lgan ma’lumotlarni aniqlang.",
+"opts": [
+"1, 2",
+"2, 3",
+"3, 4",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) Buyuk Britaniya hukumatdan mamlakatdagi neft konlaridan foydalanish, tosh va temiryo‘l qurish uchun uchun ruxsat oldi;\n2) “Shahahshohbank” tashkil etildi;\n3) mamlakat tarixida birinchi parlament tuzildi;\n4) hukumat mamlakatni bankrot deb e’lon qilishga majbur bo‘ldi.",
+"img": "img/dtm/smt-01-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagilardan xaritada yulduzcha bilan belgilangan hudud (davlat) tarixiga oid bo‘lganlarni belgilang.",
+"opts": [
+"1, 2",
+"2, 3",
+"2, 4",
+"1, 3"
+],
+"ans": "A",
+"extra": "1) 1936–1939-yillarda fuqarolar urushi bo‘lib o‘tdi;\n2) 1946-yili BMT Bosh Assambleyasi mamlakatni xalqaro tashkilotlarga qabul qilmaslik toʻgʻrisida maxsus qaror qabul qildi; 3)1935–1936-yillarda Efiopiya, Eritreya va Somalining bir qismini mustamlakasiga aylantirdi;\n4) 1920-yillar o‘rtalariga kelib mamlakatda sanoat to‘ntarishi yuz berdi.",
+"img": "img/dtm/smt-01-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi mos berilgan qatorlarni aniqlang. № Voqea Natija 1453-yilda Mehmet II ning Konstantinopolni egallashi Yevropa davlatlari o‘rtasidagi Yetti yillik urush (1756–1763) Konstantinopol shahri asos solingandan buyon ilk bor dushman o‘ljasiga aylanishi Fransiya Hindiston va Shimoliy Amerikadagi mustamlakalaridan mahrum bo‘lishi 1806-yilgi Xiva va Buxoro o‘rtasidagi jang Xiva xoni Elbarsxonning Amudaryo qirg‘oqlarida mag‘lubiyatga uchrab, halok bo‘lishi 1916-yilgi Jizzax qo‘zg‘oloni 300 mingdan ziyod aholining xorijga chiqib ketishi Styuartlar sulolasi ingliz parlamenti va puritanlik cherkoviga qarshi kurash olib borishi",
+"opts": [
+"1, 3, 5",
+"2, 4, 5",
+"3, 4, 5",
+"2, 3, 4 Ingliz burjua inqilobining boshlanishi"
+],
+"ans": "B",
+"img": "img/dtm/smt-01-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalda ma’lumotlar to‘g‘ri moslashtirilgan qatorlarni toping. № Davlat Voqea Shaxs 1 Vizantiya Olimpiya o‘yinlarini taqiqladi Feodosiy I 2 Usmoniylar imperiyasi Germaniya imperatori bilan “Bag‘dod temiryo‘li”ni qurish to‘g‘risida kelishib oldi Abdulhamid II 3 Buxoro amirligi Usmonli davlati sultoni Mahmud II ga Xiva va Qo‘qon xonliklari ustidan arz qilib xat jo‘natdi Umarxon 4 Afina davlati Xalq majlisidagi lavozimlarga ish haqi to‘lashni joriy etdi Perikl 5 Koreya So‘roq qilish paytida qiynoqning eng og‘ir turlari – oyoqlarni sindirishga ruxsat berildi 6 Fransiya Boylar uchun qo‘shimcha soliq o‘rnatish tashabbusi Konstitutsion sud tomonidan bekor qilindi",
+"opts": [
+"1, 4, 5",
+"2, 3, 6",
+"1, 3, 5",
+"2, 4, 6 Qirol Yongjo Fransua Olland SOHA: REPETITOR (ONLAYN, OFLAYN), TESTOLOG"
+],
+"ans": "D",
+"img": "img/dtm/smt-01-30.jpg"
+}
+]
+}

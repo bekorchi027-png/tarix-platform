@@ -1,0 +1,353 @@
+{
+"id": "bmba-09",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi berilgan ma’lumotlardan qaysi biri Xiva xonligining XIX asr tarixi uchun xos EMAS?",
+"opts": [
+"111 xona va bo‘lmali Toshhovli saroyi barpo etildi",
+"Xiva shahri bir-biridan devor bilan ajralib turuvchi ikki qismga – Ichan qal’a va Dishan qal’aga bo‘lindi",
+"Xiva xonligi qo‘ng‘irotlar sulolasi hukmronligi o‘rnatildi",
+"yuqori boshqaruv organi – Oliy Kengash ta’sis etildi"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "XVII–XVIII asrlarda Xivada ijod qilgan usta xattotlarni aniqlang.",
+"opts": [
+"2, 3, 5",
+"1, 2, 4",
+"1, 3, 4",
+"3, 4, 5"
+],
+"ans": "B",
+"extra": "1) Muhammad Yusuf Roziy;\n2) Bobojon Sanoiy;\n3) Ahmad Donish;\n4) Muhammad Rizo Oxund;\n5) Muhammad Rizo Ernazarbiy o‘g‘li."
+},
+{
+"n": 3,
+"q": "XVI asrda Turkiyada sipohiy xo‘jaligining daromadini … .",
+"opts": [
+"ijarachi dehqon to‘laydigan soliq tashkil etgan",
+"sulton beradigan oylik maosh tashkil etgan",
+"harbiy yurishlarda olingan o‘lja tashkil etgan",
+"savdo-sotiqdan tushadigan pul tashkil etgan"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "XX asr 20-yillarida qaysi davlat og‘ir sanoatida “Mitsubisi” va “Sumitomo” konsernlari o‘z pozitsiyasini mustahkamlab olgan?",
+"opts": [
+"Hindiston",
+"Yaponiya",
+"Xitoy",
+"Turkiya"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "O‘zbeklardan birinchi bo‘lib Sovet Ittifoqi Qahramoni unvonini olgan jangchini aniqlang.",
+"opts": [
+"Sobir Rahimov",
+"Avazmat Niyozmatov",
+"Kamol Turg‘unov",
+"Qo‘chqor Turdiyev"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "XIX asr oxiri – XX asr boshlarida quyidagi davlatlar tashqi siyosatida amalga oshirilgan ishlar mos ravishda ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1-b, 2-a, 3-c, 4-d",
+"1-a, 2-e, 3-d, 4-c",
+"1-c, 2-b, 3-d, 4-e",
+"1-b, 2-a, 3-c, 4-e"
+],
+"ans": "D",
+"extra": "1) Buyuk Britaniya;\n2) Fransiya;\n3) AQSH;\n4) Germaniya;\na) 1891-yilda Rossiya bilan tashqi hujum sodir etilganda, har ikki tomon bir vaqtning o‘zida harbiy safarbarlik e’lon qilishini ko‘zda tutuvchi bitimni imzoladi; b) 1901-yil Panama kanali qurilishi huquqini AQShga berdi;\nc) Tinch okeanning markazida, Osiyoga olib boradigan strategik jihatdan muhim bo‘lgan dengiz yo‘llari kesishgan joydagi Gavayi orollarini bosib oldi;\nd) Yaponiya hukumati Janubiy Saxalinga bo‘lgan da’vosidan voz kechishi sharti bilan Kuril orollarining shimoliy qismini Yaponiyaga berish to‘g‘risida shartnoma tuzishga muvaffaq bo‘ldi;\ne) XIX asrning 90-yillarida Shandun provinsiyasining bir qismini, Tinch okeandagi Karolina, Mariana orollarini va Samoa orolining bir qismini egalladi."
+},
+{
+"n": 7,
+"q": "Quyidagilardan qaysi biri so‘nggi paleolit davrida sodir bo‘lgan?",
+"opts": [
+"tabiiy olovdan foydalanishning boshlanishi",
+"tolalar va jundan kiyim-kechak tayyorlash",
+"doimiy turarjoylar qurila boshlanishi",
+"dastlabki qabilalarning vujudga kelishi"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Chor Rossiyasi hukumati tomonidan Turkiston sud tizimida amalga oshirilgan islohotlar davrlari bilam to‘g‘ri moslashtirilgan javobni aniqlang.",
+"opts": [
+"I – c; II – d, e; III – b",
+"I – f, d; II – a, e; III – b",
+"I – c, d; II – a; III – e, f",
+"I – c, f; II – a, d; III – b, e"
+],
+"ans": "D",
+"img": "img/dtm/bmba-09-8.jpg"
+},
+{
+"n": 9,
+"q": "Mualliflar va ularning asarlari to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-c, 2-d",
+"1-d, 2-c",
+"1-a, 2-b",
+"1-b, 2-a"
+],
+"ans": "C",
+"img": "img/dtm/bmba-09-9.jpg"
+},
+{
+"n": 10,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-b, 2-d",
+"1-b, 2-c",
+"1-a, 2-d",
+"1-a, 2-c"
+],
+"ans": "A",
+"img": "img/dtm/bmba-09-10.jpg"
+},
+{
+"n": 11,
+"q": "Quyidagi boshqalariga nisbatan ENG AVVAL (a) va ENG KEYIN (b) sodir bo‘lganlarini aniqlang.",
+"opts": [
+"a-3, b-2",
+"a-1, b-4",
+"a-1, b-2",
+"a-3, b-4"
+],
+"ans": "D",
+"extra": "1) Turkiston muzeyi tashkil etildi;\n2) O‘rta Osiyo olimlar jamiyati faoliyati to‘xtatildi;\n3) Turkiston xalq kutubxonasi tashkil etildi;\n4) Turkiston arxeologiya havaskorlari to‘garagi ochildi."
+},
+{
+"n": 12,
+"q": "Buyuk Britaniyaning qaysi Bosh vaziri davrida Buyuk Britaniya va Argentina o‘rtasida urush (nizo) kelib chiqqan?",
+"opts": [
+"J. Meyjor",
+"U. Cherchil",
+"N. Chemberlen",
+"M. Tetcher"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi grafikda qaysi raqam ostida tarixiy manzilgoh va u tegishli davr bir-biriga muvofiq keladi?",
+"opts": [
+"2, 6",
+"3, 6",
+"1, 5",
+"2, 4"
+],
+"ans": "D",
+"img": "img/dtm/bmba-09-13.jpg"
+},
+{
+"n": 14,
+"q": "AQSH da qaysi Prezident boshqaruvi davrida O‘zbekiston Respublikasining Birinchi prezidenti Islom Karimov Amerika jamoatchiligi tomonidan “Xalqaro miqyosdagi lider” mukofoti bilan taqdirlangan?",
+"opts": [
+"Kichik Jorj Bush",
+"Barak Obama",
+"Ronald Reygan",
+"Bill Klinton"
+],
+"ans": "A",
+"img": "img/dtm/bmba-09-14.jpg"
+},
+{
+"n": 15,
+"q": "Jaloliddin Manguberdi 1225-yil avgustda Garni qal’asi yaqinida … .",
+"opts": [
+"Ko‘niya sultoni Qayqubodning 30 minglik qo‘shininini tor-mor keltirdi",
+"Gurjistonning 60 minglik qo‘shinini tor- mor keltirdi",
+"Bag‘dod xalifasi Nosirning 20 minglik qo‘shinini tor-mor keltirdi",
+"ukasi G‘iyosiddinning 50 minglik qo‘shinini tor-mor keltirdi"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Buxoro amirligi (a), Xiva xonligi (b) va Qo‘qon xonligida (c) qo‘shinning Bosh qo‘mondoni qanday atalgan?",
+"opts": [
+"a-vaziri harb, b-lashkarboshi, c-mingboshi",
+"a-mingboshi, a-lashkarboshi, c-to‘pchiboshi",
+"a-to‘pchiboshi, b-yasovulboshi, c-mingboshi",
+"a-yasovulboshi, b- to‘pchiboshi, c-amirlashkar"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Eftaliy davlati bilan bog‘liq to‘g‘ri ma’lumotlarni aniqlang.",
+"opts": [
+"2, 5, 6",
+"1, 2, 3",
+"2, 3, 4",
+"1, 2, 6"
+],
+"ans": "A",
+"extra": "1) V asr birinchi yarmida Xitoyga 9 marotaba elchi yuborishgan;\n2) agar hukmdorning o‘g‘li bo‘lmasa, taxtga kengash tomonidan munosib deb topilgan sulolaning boshqa vakili o‘tirgan;\n3) viloyatlardagi hokimlar eftaliylar sulolasiga mansub bo‘lgan;\n4) mamlakatda yagona pul tizimi joriy etilgan bo‘lib, tangalar oliy hukmdor nomidan poytaxtda zarb etilgan;\n5) Xitoy, Hindiston, Eron va Vizantiya bilan bo‘lgan xalqaro savdoda faol qatnashgan.\n6) viloyatlarning har biri o‘zining kumush va mis tangalarini zarb etgan."
+},
+{
+"n": 18,
+"q": "Chor Rossiyasining O‘rta Osiyoga yurishlari 4-bosqichida Turkiston generalgubernatori kim edi?",
+"opts": [
+"Rozenbax",
+"Kuropatkin",
+"Kaufman",
+"Duxovskiy"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Qaysi qirol davrida qirol Fransiyadagi eng katta feodalga aylandi va umumdavlat boshqaruv organlari – Qirol kengashi, Oliy sud va Moliya boshqarmasi tuzildi?",
+"opts": [
+"Lyudovik VII",
+"Lyudovik VIII",
+"Lyudovik IX",
+"Filipp II"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Xiva xoni Muhammad Rahimxon I davrida amalga oshirilgan tadbirlarni aniqlang.",
+"opts": [
+"1, 3, 4, 8, 10",
+"2, 5, 6, 8, 9",
+"2, 4, 5, 6, 10",
+"2, 4, 5, 7, 8"
+],
+"ans": "D",
+"extra": "1) Usmonli davlatidan sifatli tayyorlangan miltiq olib kelindi;\n2) mamlakatda ichkilik taqiqlangan;\n3) Xiva shahri atrofi mudofaa devori bilan o‘ralgan;\n4) bojxona xizmati tashkil etilgan;\n5) “xon navkarlari” deb atalgan muntazam qo‘shin tuzilgan;\n6) zamonaviy to‘pchi qo‘shini tashkil etilgan;\n7) oltin tangalar zarb etilib, muomalaga chiqarildi;\n8) soliqlarning mahalliy hokimlar tomonidan yig‘ilishiga chek qo‘yildi.\n9) Arabxon va Muhammad amin inoq madrasalari qayta qurildi;\n10) biy, otaliq, inoq lavozimlari joriy etildi."
+},
+{
+"n": 21,
+"q": "Buxoro amirlari Muzaffar (a) va Nasrullo (b) hukmronligi davriga tegishli bo‘lgan ma’lumotlarni to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"a-1, 2, 5; b-6, 7, 8",
+"a-3, 6, 7; b-4, 5, 8",
+"a-1, 2, 8; b-3, 4, 7",
+"a-3, 6, 8; b-4, 5, 7"
+],
+"ans": "D",
+"extra": "1) Fayzulla Xo‘jayev rahbarligida “Inqilobchi yosh buxoroliklarning Turkistondagi markaziy byurosi”ning tuzilishi;\n2) Buxoro Xalq Sovet Respublikasi tuzilganligining e’lon qilinishi;\n3) Baljuvon bekligida Vose qo‘zg‘olonining boshlanishi;\n4) Ahmad Donishning Moskva, Peterburg va boshqa Rossiya shaharlariga birinchi elchilik safari;\n5) Aleksandr Byorns boshchiligidagi ingliz missiyasining Buxoroga tashrif buyurishi;\n6) Cho‘ponota tepaligi va Zirabuloqdagi janglarda Buxoro amirligi qo‘shinlarining rus qo‘shinlaridan mag‘lubiyatga uchrashi;\n7) Angliyaning Ost-Indiya kompaniyasi vakillari Ch. Stoddart va A. Konnolining amir tomonidan qatl qilinishi;\n8) Buxoro amirligining Rossiya protektoratiga aylantirilishi."
+},
+{
+"n": 22,
+"q": "Fransiya va Angliya o‘rtasida yuz bergan yuz yillik urush davrida ikki davlat o‘rtasida bo‘lib o‘tgan quyidagi janglar ketma-ketligi to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"1, 4, 2, 3",
+"2, 3, 1, 4",
+"1, 4, 3, 2",
+"2, 4, 3, 1"
+],
+"ans": "B",
+"extra": "1) Azenkur jangi;\n2) Kresi jangi;\n3) Puate yaqinidagi jang;\n4) Kompen qal’asi uchun jang."
+},
+{
+"n": 23,
+"q": "Mamlakatimiz Prezidenti Shavkat Mirziyoyev tashabbusi bilan 2018-yil 9yanvarda qabul qilingan qonunni belgilang.",
+"opts": [
+"O‘zbekiston Respublikasining “Tashqi siyosiy faoliyati konsepsiyasi”",
+"“Fuqarolaming o‘zini o‘zi boshqarish organlari to‘g‘risida”",
+"“O‘zbekiston Respublikasi Mudofaa doktrinasi to‘g‘risida”",
+"“O‘zbekiston Respublikasi tashqi siyosiy faoliyatining asosiy prinsiplari to‘g‘risida”"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Rossiya hukumatidan Buxoroga po‘lat (a) va zambarak (b) sotishini so‘rab, elchi yuborgan Buxoro Amirlarini aniqlang.",
+"opts": [
+"a - Amir Shohmurod; b - Amir Haydar",
+"a - Amir Nasrullo; b - Amir Haydar",
+"a - Amir Shohmurod; b - Amir Nasrullo",
+"a - Amir Haydar; b - Amir Nasrullo"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Quyidagi asarlarni ularga tegishli bo‘lgan mulohazalar bilan mos ravishda joylashtiring.",
+"opts": [
+"1-a, 2-c, 3-b",
+"1-b, 2-a, 3-c",
+"1-c, 2-a, 3-b",
+"1-c, 2-b, 3-a"
+],
+"ans": "B",
+"extra": "1) Kamoliddin Binoiyning “Shayboniynoma” asari;\n2) Abulg‘ozi Bahodirxonning “Shajarayi turk” asari;\n3) Muhammad Hakimxon to‘ra ibn Ma’sumxon to‘raning “Muntaxab ut-tavorix” asari.\na) Buxoro va Xiva munosabatlari haqida ma’lumot beradi;\nb) Buxoro va Eron munosabatlari haqida ma’lumot beradi;\nc) Buxoro va Qo‘qon munosabatlari haqida ma’lumot beradi."
+},
+{
+"n": 26,
+"q": "XIX asrning oxirida AQSH iqtisodiy taraqqiyotining nihoyatda tezlashuviga sabab bo‘lgan omillarni aniqlang.",
+"opts": [
+"1, 3, 5, 6",
+"2, 4, 5, 6",
+"2, 3, 4, 5",
+"1, 3, 4, 6"
+],
+"ans": "D",
+"extra": "1) fuqarolar urushidan keyin yagona ichki bozorning vujudga kelganligi;\n2) mamlakatning “Marshall rejasi” doirasida olgan moliyaviy yordami;\n3) qulchilikning tugatilishi, quldorlik latifundiyalarining bekor qilinishi;\n4) mamlakatda unumdor yerlarning, foydali qazilma boyliklarining ko‘pligi;\n5) Tinch okean markazidagi Mariana, Marshall va Karolina orollarining bosib olinishi;\n6) Amerika xalqining tadbirkorligi."
+},
+{
+"n": 27,
+"q": "Ikkinchi jahon urushi yillarida O‘zbekiston o‘z aholisining … yo‘qotgan (halok bo‘lgan yoki bedarak yo‘qolgan).",
+"opts": [
+"1/5 qismini",
+"10 % ga yaqinini",
+"30 % ga yaqinini",
+"1/6 qismini"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Quyidagi xaritada M uqaddas Rim imperiyasi tarkibiga kirgan hududlar nechanchi raqamlar bilan ko‘rsatilgan?",
+"opts": [
+"2, 3, 6, 7",
+"3, 4, 5, 6",
+"1, 6, 7, 8",
+"2, 3, 4, 6 « » ʻ ʻ ʻ ʻ ʻ ʻ"
+],
+"ans": "B",
+"img": "img/dtm/bmba-09-28.jpg"
+},
+{
+"n": 29,
+"q": "Jadvalda harflar bilan belgilangan kataklarga quyida berilgan ma’lumotlardan moslarini qo‘yib to‘g‘ri javobni toping. Asr O‘zbekiston tarixidagi voqea Jahon tarixidagi voqea a o‘lkamiz “Turkiston” nomi bilan atala c d boshlanishi b Lenyano jangida Liga qo‘shini imperator ritsarlarini tor-mor qilishi IX e f g Abruy boshchiligida qo‘zg‘alon boshlanishi h i j Rossiyaning imperiya deb e’lon qilinishi XX asr k l",
+"opts": [
+"a-2, b-1, c-15, d-16, e-5, f-19, g-4, h-3, i-12, j-6, k-6, l-11",
+"a-4, b-8, c-9, d-16, e-1, f-17, g-2, h-5, i-12, j-6, k-10, l-3",
+"a-4, b-18, c-7, d-6, e-13, f-5, g-2, h-8, i-15, j-16, k-14, l-11",
+"a-2, b-5, c-9, d-16, e-1, f-18, g-4, h-8, i-12, j-6, k-14, l-3"
+],
+"ans": "C",
+"extra": "Ma’lumotlar: 1) O‘g‘uzlar davlati qipchoqlar tomonidan qaqshatqich zarbaga uchrashi;\n2) VI asr;\n3) Avstriya sotsial-demokratik partiyasi tuzilishi;\n4) VII asr;\n5) Parxe qirolligi qudratli davlatga aylanishi;\n6) Xorazmda Kubroviya tariqati vujudga kelishi;\n7) XII asr;\n8) Franklarning chek yerlari allodga aylanishi;\n9) XI asr;\n10) Turkistonda mustamlakachilar oddiy fuqarolarni bevosita harbiy dala sudiga bera boshlashi;\n11) Sun Yat Sen “Tunminxay” tashkilotini tuzishi;\n12) XVII asr;\n13) Movarounnahrning deyarli barcha viloyatlari somoniylar tasarrufiga o‘tishi;\n14) Buxoroda “Tarbiyai atfol” jamiyati tashkil etilishi;\n15) XVIII asr;\n16) Toshkentni ko‘chmanchi jung‘orlar egallab olishi;\n17) salib yurishlarining to‘xtatilishi;\n18) Xanchjou, Kayfin, Yanchjou shaharlarining yuksalishi;\n19) Fransiyaning markazlashuvi yakunlanishi.",
+"img": "img/dtm/bmba-09-29.jpg"
+},
+{
+"n": 30,
+"q": "Tarixiy voqea va uning natijasi o‘zaro mos berilgan qatorlarni toping. № Voqea Natija “Jakeriya” qo‘zg‘oloni dehqonlarni to‘lov evaziga qaramlikdan ozod etishning tezlatilishi “Qizil va oq gullar” urushi tyudorlar sulolasining tugatilishi Uot Tayler qo‘zg‘oloni dehqonlarning mehnat majburiyatidan voz kechilishi Knyaz Dmitriy va Oltin O‘rda qo‘shinlarining Kulikova maydonidagi jangi mahalliy mulkdor Minamotoning Kiotoni egallashi Rus yerlarida mo‘g‘ullar hukmronligining nihoyasiga yetishi Yaponiyada qo‘shhokimiyatchilikning vujudga kelishi Silla qirolligining Tan sulolasi bilan ittifoq tuzishi Mali hukmdori Muso I ning Makkaga haj safari Koreyaning Xitoyga boj-yasoq to‘lab turishi uzoq yillar arab dunyosida oltinning narxi past bo‘lishi",
+"opts": [
+"1, 3, 5, 6, 7",
+"1, 2, 5, 6, 7",
+"1, 2, 3, 4, 6",
+"2, 3, 4, 5, 7"
+],
+"ans": "A",
+"img": "img/dtm/bmba-09-30.jpg"
+}
+]
+}
