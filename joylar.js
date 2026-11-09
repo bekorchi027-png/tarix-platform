@@ -21,6 +21,11 @@ async function snapFor(d, yil){
   return snapAtOrBefore(want);
 }
 const uzName = n => { const d = EN2DAV[n]; if(d) return d.length>1 ? d.map(x=>x.nom.replace(/ \(.*\)/,"")).join(" / ") : d[0].nom; return CHEGARA_UZ[n] || n; };
+const uzTip = n => { const iz = window.CHEGARA_IZOH && CHEGARA_IZOH[n]; return iz ? `${esc(n)}<br><span style="font-weight:400">${esc(iz)}</span>` : esc(uzName(n)); };
+const rulerOf = (d, y) => window.hukmdor ? hukmdor(d.id, y) : null;
+// events of a snapshot: from halfway to the previous snapshot to halfway to the next one
+function eventWindow(i){ const lo = i>0 ? Math.floor((YRS[i-1]+YRS[i])/2)+1 : -1e9, hi = i<YRS.length-1 ? Math.floor((YRS[i]+YRS[i+1])/2) : 1e9; return [lo, hi]; }
+const evIcon = big => L.divIcon({className:"", html:`<div class="evdot${big?" big":""}"></div>`, iconSize:[16,16], iconAnchor:[8,8]});
 function colorOf(n){ let h=0; for(const c of n) h=(h*31+c.charCodeAt(0))>>>0; return `hsl(${h%360} 45% 48%)`; }
 
 // --- test questions that mention a place ---
@@ -105,6 +110,7 @@ async function viewJoylar(arg, qs){
             <button type="button" class="tb-btn tb-play" id="jplay" aria-label="Yillarni avtomatik aylantirish" title="Avtomatik aylantirish">▶</button>
             <button type="button" class="tb-btn tb-min" id="jmin" aria-label="Panelni yig'ish" title="Panelni yig'ish">–</button>
           </div>
+          <div class="tb-sub" id="jwin"></div>
           <div class="tb-slide">
             <input type="range" id="jy" min="0" max="${YRS.length-1}" step="1" aria-label="Yil">
             <div class="tb-ticks">${ERA_TICKS.map(([y,t])=>`<button type="button" data-y="${y}" style="left:${(100*YRS.indexOf(snapAtOrBefore(y))/(YRS.length-1)).toFixed(2)}%">${t}</button>`).join("")}</div>
@@ -118,11 +124,14 @@ async function viewJoylar(arg, qs){
         <label class="f">Davlat hududini ko'rsatish<select id="jd"><option value="">Tanlang…</option>${[...DAVLATLAR].sort((a,b)=>a.boshi-b.boshi).map(d=>`<option value="${d.id}">${esc(d.nom)} (${span(d)})</option>`).join("")}</select></label>
         <div><div class="eyebrow" style="margin-bottom:6px">Shu yildagi davlatlar</div><div class="jchips" id="jchips"></div></div>
         <p class="note" id="jinfo" style="margin:0"></p>
+        <div id="jhuk"></div>
+        <div id="jev"></div>
         <details class="jmore" open><summary>Ko'rinish</summary>
           <div class="seg" id="jr" style="margin:8px 0"><button data-v="all" aria-pressed="true">Hammasi</button><button data-v="uz" aria-pressed="false">Markaziy Osiyo</button><button data-v="j" aria-pressed="false">Jahon</button></div>
           <label class="f">Joylar davri<select id="jp"><option value="all">Barcha davrlar</option>${JOY_DAVR.map(p=>`<option value="${p.id}">${p.name}</option>`).join("")}</select></label>
           <label class="chk"><input type="checkbox" id="jb" ${bordersOn?"checked":""}> Davlat chegaralari</label>
           <label class="chk"><input type="checkbox" id="jl" checked> Joy nomlari (nuqtalar)</label>
+          <label class="chk"><input type="checkbox" id="je" checked> Shu davr voqealari</label>
           <label class="chk"><input type="checkbox" id="jm"> Hozirgi nomlar</label>
           <label class="chk"><input type="checkbox" id="jo" checked> Eski xarita ko'rinishi</label>
           <div class="jlegend">${JOY_DAVR.map(p=>`<span><i style="background:${p.c}"></i>${p.name}</span>`).join("")}</div>
@@ -136,7 +145,8 @@ async function viewJoylar(arg, qs){
   const map = baseMap($("#map"));
   map.setView([40, 62], 4.5);
   const st = {r:"all", per:"all", yi: YRS.indexOf(snapAtOrBefore(P.yil!=null?P.yil:1400)), dav: dav?dav.id:"", borders: bordersOn, joy:"", places:true};
-  const markers = new Map(), pl = L.layerGroup().addTo(map), sl = L.layerGroup().addTo(map);
+  const markers = new Map(), pl = L.layerGroup().addTo(map), sl = L.layerGroup().addTo(map), evl = L.layerGroup().addTo(map);
+  st.events = true;
   let bl = null, tok = 0, timer = null;
   const baseClean = cleanup;
   const onKey = e => {
@@ -177,7 +187,8 @@ async function viewJoylar(arg, qs){
       if(!hit && (w<130 || h<50)) return;
       let c; try{ c = l.getCenter(); }catch(e){ c = b.getCenter(); }
       const txt = uzName(n), fs = Math.max(10, Math.min(15, 9 + z));
-      L.marker(c, {interactive:false, keyboard:false, icon:L.divIcon({className:"", html:`<div class="slabel${hit?" hit":""}" style="font-size:${fs}px;max-width:${Math.max(90,Math.min(w,220))}px">${esc(txt)}</div>`, iconSize:[0,0]})}).addTo(sl);
+      const ds = EN2DAV[n], ru = ds && ds.length===1 ? rulerOf(ds[0], YRS[st.yi]) : null;
+      L.marker(c, {interactive:false, keyboard:false, icon:L.divIcon({className:"", html:`<div class="slabel${hit?" hit":""}" style="font-size:${fs}px;max-width:${Math.max(90,Math.min(w,220))}px">${esc(txt)}${ru?`<small>${esc(ru[2])}</small>`:""}</div>`, iconSize:[0,0]})}).addTo(sl);
     });
   }
   map.on("zoomend moveend", paintStateLabels);
@@ -186,13 +197,25 @@ async function viewJoylar(arg, qs){
     const here = DAVLATLAR.filter(d => d.en.some(n=>names.has(n))).sort((a,b)=>a.boshi-b.boshi);
     $("#jchips").innerHTML = here.length ? here.map(d=>`<button type="button" data-d="${d.id}" aria-pressed="${d.id===st.dav}">${esc(d.nom)}</button>`).join("") : `<span class="note">${st.borders?"Bu yil uchun ro'yxatdagi davlatlar yo'q.":"Chegaralar o'chirilgan."}</span>`;
     $$("#jchips [data-d]").forEach(b => b.onclick = () => { st.dav = st.dav===b.dataset.d ? "" : b.dataset.d; $("#jd").value = st.dav; paintBorders(!!st.dav); });
+    const y = YRS[st.yi], rows = here.map(d => [d, rulerOf(d, y)]).filter(r => r[1]);
+    $("#jhuk").innerHTML = g && rows.length ? `<div class="eyebrow" style="margin-bottom:6px">${esc(yTxt(y))}-yilda hukmronlik qilganlar</div><ul class="jrul">${rows.map(([d,r])=>`<li${d.id===st.dav?' class="on"':""}><b>${esc(r[2])}</b><span>${esc(d.nom)} · ${yTxt(r[0])}–${r[1]>=2100?"hozir":yTxt(r[1])}</span></li>`).join("")}</ul>` : "";
+  }
+  function paintEvents(){
+    evl.clearLayers();
+    if(!st.borders || !st.events){ $("#jev").innerHTML = ""; $("#jwin").textContent = ""; return; }
+    const [lo, hi] = eventWindow(st.yi);
+    const list = EVENTS.filter(e => e.y>=lo && e.y<=hi && (st.r==="all" || e.r===st.r)).sort((a,b)=>a.y-b.y);
+    $("#jwin").textContent = `Voqealar: ${lo<-1e8?"…":yTxt(lo)} – ${hi>1e8?"hozir":yTxt(hi)}` + (list.length ? ` (${list.length} ta)` : "");
+    list.forEach((e,k) => { e._m = L.marker([e.lat,e.lng], {icon:evIcon(), title:e.t, zIndexOffset:800}).bindTooltip(`${esc(yTxt(e.y))}: ${esc(e.t)}`, {direction:"top", offset:[0,-8], className:"etip"}).bindPopup(`<div class="jcard"><div class="eyebrow">${esc(yTxt(e.y))}-yil</div><b class="jn">${esc(e.t)}</b><p style="margin:6px 0 0">${esc(e.d)}</p></div>`, {maxWidth:300}).addTo(evl); });
+    $("#jev").innerHTML = list.length ? `<div class="eyebrow" style="margin-bottom:6px">Shu davr voqealari</div><ol class="jevl">${list.map((e,k)=>`<li><button type="button" data-e="${k}"><span class="num">${esc(yTxt(e.y))}</span> ${esc(e.t)}</button></li>`).join("")}</ol>` : `<p class="note" style="margin:0">Bu davr uchun voqealar hali kiritilmagan.</p>`;
+    $$("#jev [data-e]").forEach(b => b.onclick = () => { const e = list[+b.dataset.e]; map.setView([e.lat,e.lng], Math.max(map.getZoom(), 5)); e._m.openPopup(); });
   }
   async function paintBorders(fit){
     const my = ++tok;
     $("#jyb").hidden = !st.borders || $("#jyb").dataset.min==="1"; $("#jopen").hidden = !st.borders || $("#jyb").dataset.min!=="1";
     const y = YRS[st.yi]; $("#jy").value = st.yi; $("#jyv").textContent = y<0 ? -y : y; $("#jys").textContent = y<0 ? "mil. avv." : "-yil";
     $("#jprev").disabled = st.yi<=0; $("#jnext").disabled = st.yi>=YRS.length-1;
-    if(!st.borders){ if(bl){ map.removeLayer(bl); bl = null; } sl.clearLayers(); paintChips(null); $("#jinfo").textContent = "Nuqtani bosing: joyning qadimgi va hozirgi nomi, davri va izohi chiqadi. Rang davrni bildiradi."; syncHash(); return; }
+    if(!st.borders){ if(bl){ map.removeLayer(bl); bl = null; } sl.clearLayers(); paintChips(null); paintEvents(); $("#jinfo").textContent = "Nuqtani bosing: joyning qadimgi va hozirgi nomi, davri va izohi chiqadi. Rang davrni bildiradi."; syncHash(); return; }
     let g; try{ g = await geo(y); }catch(e){ $("#jinfo").textContent = "Chegaralar faylini yuklab bo'lmadi."; return; }
     if(my!==tok) return;
     if(bl){ map.removeLayer(bl); bl = null; }
@@ -201,12 +224,12 @@ async function viewJoylar(arg, qs){
     const col = n => { let h=0; for(const c of n) h=(h*31+c.charCodeAt(0))>>>0; return PALETTE[h%PALETTE.length]; };
     bl = L.geoJSON(g, {
       style: f => hit(f) ? {color:"#9c2b22", weight:3, fillColor:"#c0392b", fillOpacity:.38} : {color:"#6b5a44", opacity:.55, weight:1, fillColor:col(f.properties.NAME), fillOpacity: d ? .18 : .42},
-      onEachFeature: (f, l) => l.bindTooltip(esc(uzName(f.properties.NAME)), {sticky:true, className:"blabel"})
+      onEachFeature: (f, l) => l.bindTooltip(() => { const n = f.properties.NAME, ds = EN2DAV[n], ru = ds && ds.length===1 ? rulerOf(ds[0], YRS[st.yi]) : null; return uzTip(n) + (ru ? `<br><span style="font-weight:400">Hukmdor: ${esc(ru[2])}</span>` : ""); }, {sticky:true, className:"blabel"})
         .on("mouseover", () => { if(!hit(f)) l.setStyle({weight:2, opacity:.9}); }).on("mouseout", () => { if(!hit(f)) l.setStyle({weight:1, opacity:.55}); })
         .on("click", () => { const ds = EN2DAV[f.properties.NAME]; if(ds && ds.length===1){ st.dav = ds[0].id; $("#jd").value = st.dav; paintBorders(false); } })
     }).addTo(map);
     bl.bringToBack();
-    paintStateLabels(); paintChips(g);
+    paintStateLabels(); paintChips(g); paintEvents();
     const has = d && g.features.some(hit);
     $("#jinfo").innerHTML = d ? (has ? `<b>${esc(d.nom)}</b> (${span(d)}), ${esc(yTxt(y))}-yil holatida. ` : `<b>${esc(d.nom)}</b> bu yilgi xaritada yo'q: u ${span(d)} yillarda bo'lgan. `) + `Chegaralar taxminiy.`
       : `Davlat ustiga bosing yoki ro'yxatdan tanlang. Chegaralar taxminiy.`;
@@ -227,10 +250,11 @@ async function viewJoylar(arg, qs){
     return true;
   }
 
-  $$("#jr button").forEach(b => b.onclick = () => { st.r = b.dataset.v; $$("#jr button").forEach(x=>x.setAttribute("aria-pressed", x===b)); const l = paintPlaces(); if(l.length && st.r!=="all") map.fitBounds(L.latLngBounds(l.map(p=>[p.lat,p.lng])).pad(.1)); });
+  $$("#jr button").forEach(b => b.onclick = () => { st.r = b.dataset.v; $$("#jr button").forEach(x=>x.setAttribute("aria-pressed", x===b)); const l = paintPlaces(); paintEvents(); if(l.length && st.r!=="all") map.fitBounds(L.latLngBounds(l.map(p=>[p.lat,p.lng])).pad(.1)); });
   $("#jp").onchange = e => { st.per = e.target.value; paintPlaces(); };
   $("#jb").onchange = e => { st.borders = e.target.checked; if(!st.borders) stopPlay(); paintBorders(!!st.dav); };
   $("#jl").onchange = e => { st.places = e.target.checked; paintPlaces(); };
+  $("#je").onchange = e => { st.events = e.target.checked; paintEvents(); };
   $("#jm").onchange = e => map.setModern(e.target.checked);
   $("#jo").onchange = e => $("#map").classList.toggle("oldmap", e.target.checked);
   $("#jy").oninput = e => { st.yi = +e.target.value; paintBorders(false); };
