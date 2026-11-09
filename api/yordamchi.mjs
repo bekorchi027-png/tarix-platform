@@ -50,7 +50,7 @@ function safeLink(u){
   m = u.match(/^\/mashqlar\.html#(joylar|xarita)\?(.*)$/);
   if(m && k.hasJoylar){
     const p = new URLSearchParams(m[2]), out = new URLSearchParams();
-    const yil = p.get("yil"); if(yil && /^-?\d{1,4}$/.test(yil)) out.set("yil", yil);
+    const yil = p.get("yil"); if(yil && /^-?[1-9]\d{0,3}$/.test(yil)) out.set("yil", yil);
     const d = p.get("davlat"); if(d && k.davlatIds.has(d)) out.set("davlat", d);
     const j = p.get("joy"); if(j && k.joyNames.has(k.norm(j))) out.set("joy", j);
     if(p.get("chegara") === "0") out.set("chegara", "0");
@@ -79,7 +79,7 @@ const SCHEMA = {type:"OBJECT", properties:{
 async function ask(model, body){
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
     method:"POST", headers:{"Content-Type":"application/json", "x-goog-api-key":process.env.GEMINI_API_KEY},
-    body:JSON.stringify(body), signal:AbortSignal.timeout(10000)
+    body:JSON.stringify(body), signal:AbortSignal.timeout(8000)
   });
   if(!r.ok) throw Object.assign(new Error("gemini " + r.status), {status:r.status});
   const j = await r.json();
@@ -111,8 +111,9 @@ export default async function handler(req, res){
     generationConfig:{responseMimeType:"application/json", responseSchema:SCHEMA, maxOutputTokens:600, temperature:0.3}
   };
   let out = null, last = null;
-  for(const m of MODELS){
-    try{ out = await ask(m.trim(), body); break; }catch(e){ last = e; }
+  // Free-tier models are sometimes briefly overloaded (503): retry the first one once, then try the others.
+  for(const m of [MODELS[0], ...MODELS]){
+    try{ out = await ask(m.trim(), body); break; }catch(e){ last = e; if(e.status === 503) await new Promise(r => setTimeout(r, 800)); }
   }
   if(!out) return res.status(last?.status === 429 ? 429 : 502).json({xato: last?.status === 429 ? "limit" : "xato"});
   const links = [];
