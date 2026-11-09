@@ -94,8 +94,10 @@ async function ask(model, body){
 export default async function handler(req, res){
   res.setHeader("Cache-Control", "no-store");
   // GET is a health check: says whether the key is set, never shows it.
-  if(req.method === "GET") return res.status(200).json({kalit: !!process.env.GEMINI_API_KEY});
-  if(req.method !== "POST") return res.status(405).json({xato:"POST kerak"});
+  // GET ?sinov=1 runs one fixed question end to end (same rate limit).
+  const sinov = req.method === "GET" && req.query?.sinov === "1";
+  if(req.method === "GET" && !sinov) return res.status(200).json({kalit: !!process.env.GEMINI_API_KEY});
+  if(req.method !== "POST" && !sinov) return res.status(405).json({xato:"POST kerak"});
   if(!process.env.GEMINI_API_KEY) return res.status(503).json({xato:"kalit"});
   const ip = String(req.headers["x-forwarded-for"] || "").split(",")[0].trim() || "?";
   const now = Date.now(), h = (hits.get(ip) || []).filter(t => now - t < WINDOW_MS);
@@ -103,7 +105,7 @@ export default async function handler(req, res){
   h.push(now); hits.set(ip, h);
   if(hits.size > 5000) hits.clear();
 
-  let b = req.body; if(typeof b === "string"){ try{ b = JSON.parse(b); }catch(e){ b = {}; } }
+  let b = sinov ? {q:"Temuriylar davlati hududini ko'rsat"} : req.body; if(typeof b === "string"){ try{ b = JSON.parse(b); }catch(e){ b = {}; } }
   const q = String(b?.q || "").trim().slice(0, 500);
   if(!q) return res.status(400).json({xato:"bo'sh"});
   const hist = (Array.isArray(b.tarix) ? b.tarix : []).slice(-6)
