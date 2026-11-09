@@ -1,0 +1,56 @@
+// Rulers by state (ids from xarita-davlatlar.js): [from, to, name]. Years < 0 are BC. The map shows who ruled in the chosen year.
+// Ancient reigns (Kushan, Bactrian Greeks, early Turks, early Karakhanids) are approximate; t marks "taxminiy".
+window.HUKMDORLAR = {
+  "ahamoniylar":[[-559,-530,"Kir II"],[-530,-522,"Kambiz II"],[-522,-486,"Doro I"],[-486,-465,"Kserks I"],[-465,-424,"Artakserks I"],[-424,-404,"Doro II"],[-404,-358,"Artakserks II"],[-358,-338,"Artakserks III"],[-336,-330,"Doro III"]],
+  "iskandar":[[-336,-323,"Iskandar Zulqarnayn"]],
+  "salavkiylar":[[-312,-281,"Salavk I Nikator"],[-281,-261,"Antiox I"],[-261,-246,"Antiox II"],[-246,-225,"Salavk II"],[-222,-187,"Antiox III"],[-175,-164,"Antiox IV"],[-164,-63,"So'nggi Salavkiylar"]],
+  "yunon-baqtriya":[[-256,-235,"Diodot I (taxm.)",1],[-235,-230,"Diodot II (taxm.)",1],[-230,-200,"Yevtidem I (taxm.)",1],[-200,-180,"Demetriy I (taxm.)",1],[-171,-145,"Yevkratid I (taxm.)",1],[-145,-125,"Geliokl I (taxm.)",1]],
+  "parfiya":[[-247,-217,"Arshak I (taxm.)",1],[-171,-132,"Mitridat I"],[-124,-88,"Mitridat II"],[-57,-38,"Orod II"],[-37,-2,"Fraat IV"],[51,78,"Vologez I"],[208,224,"Artaban IV"]],
+  "xunnlar":[[-209,-174,"Mode shanyu"],[-174,-161,"Laoshan shanyu"],[-161,-126,"Gyunchen shanyu"]],
+  "kushonlar":[[30,80,"Kujula Kadfiz (taxm.)",1],[80,90,"Vima Taktu (taxm.)",1],[90,113,"Vima Kadfiz (taxm.)",1],[127,150,"Kanishka I (taxm.)",1],[150,190,"Huvishka (taxm.)",1],[190,230,"Vasudeva I (taxm.)",1]],
+  "sosoniylar":[[224,242,"Ardasher I"],[242,270,"Shopur I"],[309,379,"Shopur II"],[459,484,"Feruz I"],[488,531,"Kavod I"],[531,579,"Xusrav I Anushirvon"],[590,628,"Xusrav II Parviz"],[632,651,"Yazdigard III"]],
+  "turk-xoqonligi":[[552,553,"Bumin xoqon"],[553,576,"Istami yabg'u (g'arbda)"],[576,603,"Tardu"],[618,630,"Tun yabg'u xoqon"],[630,742,"G'arbiy turk xoqonlari"]],
+  "xorazm":[[305,995,"Afrig'iy Xorazmshohlar"]],
+  "umaviylar":[[661,680,"Muoviya I"],[680,683,"Yazid I"],[685,705,"Abdulmalik"],[705,715,"Valid I"],[715,717,"Sulaymon"],[717,720,"Umar II"],[724,743,"Hishom"],[744,750,"Marvon II"]],
+  "abbosiylar":[[750,754,"Abul Abbos as-Saffoh"],[754,775,"Abu Ja'far al-Mansur"],[775,785,"al-Mahdiy"],[786,809,"Horun ar-Rashid"],[809,813,"al-Amin"],[813,833,"al-Ma'mun"],[833,842,"al-Mu'tasim"],[847,861,"al-Mutavakkil"],[902,908,"al-Muktafiy"],[908,932,"al-Muqtadir"],[1180,1225,"an-Nosir"],[1242,1258,"al-Musta'sim"]],
+  "tan":[[618,626,"Gaoszu"],[626,649,"Taytszun"],[649,683,"Gaoszun"],[690,705,"U Szetyan"],[712,756,"Syuanszun"],[756,762,"Suszun"],[762,907,"Keyingi Tan imperatorlari"]],
+  "somoniylar":[[875,892,"Nasr I"],[892,907,"Ismoil Somoniy"],[907,914,"Ahmad ibn Ismoil"],[914,943,"Nasr II"],[943,954,"Nuh I"],[954,961,"Abdulmalik I"],[961,976,"Mansur I"],[976,997,"Nuh II"],[997,999,"Mansur II, Abdulmalik II"]],
+  "qoraxoniylar":[[940,955,"Sotuq Bug'roxon (taxm.)",1],[992,999,"Hasan Bug'roxon (taxm.)",1],[999,1012,"Nasr Ilekxon"],[1040,1068,"Ibrohim Tamg'achxon"],[1080,1095,"Ahmad xon"],[1102,1130,"Arslonxon Muhammad"],[1130,1212,"Keyingi Qoraxoniylar (Qoraxitoylarga tobe)"]],
+  "gaznaviylar":[[977,997,"Sabuktegin"],[998,1030,"Mahmud G'aznaviy"],[1030,1041,"Mas'ud I"],[1041,1048,"Mavdud"],[1059,1099,"Ibrohim"],[1099,1115,"Mas'ud III"],[1117,1157,"Bahromshoh"],[1160,1186,"Xusravmalik"]],
+  "saljuqiylar":[[1037,1063,"To'g'rulbek"],[1063,1072,"Alp Arslon"],[1072,1092,"Malikshoh I"],[1092,1105,"Barkiyaruq"],[1105,1118,"Muhammad I"],[1118,1157,"Sulton Sanjar"],[1176,1194,"To'g'rul III"]],
+  "qoraxitoylar":[[1124,1143,"Yelyuy Dashi (Gurxon)"],[1143,1150,"Taobuyan (regent)"],[1150,1163,"Yelyuy Yilye"],[1164,1178,"Pusuvan (regent)"],[1178,1211,"Yelyuy Chjilugu"],[1211,1218,"Kuchluk"]],
+  "xorazmshohlar":[[1097,1127,"Qutbiddin Muhammad"],[1127,1156,"Otsiz"],[1156,1172,"Il-Arslon"],[1172,1200,"Takash"],[1200,1220,"Alouddin Muhammad"],[1220,1231,"Jaloliddin Manguberdi"]],
+  "mugul-imperiyasi":[[1206,1227,"Chingizxon"],[1229,1241,"O'gedey qoon"],[1246,1248,"Guyuk qoon"],[1251,1259,"Munke qoon"],[1260,1294,"Xubilay qoon"]],
+  "chigatoy-ulusi":[[1227,1242,"Chig'atoy"],[1282,1306,"Duvaxon"],[1318,1326,"Kebekxon"],[1326,1334,"Tarmashirin"],[1343,1346,"Qozonxon"],[1347,1358,"Amir Qazag'an"],[1360,1363,"Tug'luq Temur (Movarounnahrda)"],[1363,1370,"Amir Husayn"]],
+  "oltin-orda":[[1242,1255,"Botuxon"],[1257,1266,"Berkaxon"],[1266,1280,"Mangu Temur"],[1313,1341,"O'zbekxon"],[1342,1357,"Jonibekxon"],[1380,1395,"To'xtamishxon"],[1395,1419,"Amir Edigu (Edigey)"]],
+  "elxoniylar":[[1256,1265,"Hulagu"],[1265,1282,"Abaqa"],[1295,1304,"G'ozonxon"],[1304,1316,"O'ljaytu"],[1316,1335,"Abu Said"]],
+  "oq-orda":[[1361,1377,"O'rusxon"],[1377,1380,"To'xtamish"],[1428,1468,"Abulxayrxon (Dashti Qipchoq)"]],
+  "temuriylar":[[1370,1405,"Amir Temur"],[1405,1409,"Xalil Sulton (Samarqand)"],[1409,1447,"Shohrux"],[1447,1449,"Mirzo Ulug'bek"],[1449,1450,"Abdullatif"],[1451,1469,"Abusaid Mirzo"],[1469,1494,"Sulton Ahmad Mirzo (Samarqand), Husayn Boyqaro (Hirot)"],[1494,1506,"Husayn Boyqaro (Hirot)"],[1506,1507,"Badiuzzamon Mirzo"]],
+  "dehli-sultonligi":[[1206,1210,"Qutbiddin Oybek"],[1211,1236,"Iltutmish"],[1266,1287,"G'iyosiddin Balban"],[1296,1316,"Alouddin Xalji"],[1325,1351,"Muhammad bin Tug'luq"],[1351,1388,"Feruzshoh Tug'luq"],[1394,1413,"Nosiriddin Mahmud"],[1451,1489,"Bahlul Lodiy"],[1489,1517,"Sikandar Lodiy"],[1517,1526,"Ibrohim Lodiy"]],
+  "buxoro-xonligi":[[1500,1510,"Muhammad Shayboniyxon"],[1512,1530,"Ko'chkinchixon"],[1530,1533,"Abusaidxon"],[1533,1539,"Ubaydullaxon"],[1539,1551,"Abdullaxon I, keyin Abdulazizxon"],[1561,1583,"Iskandarxon (amalda Abdullaxon II)"],[1583,1598,"Abdullaxon II"],[1598,1599,"Abdulmo'minxon"],[1601,1606,"Boqi Muhammadxon (Ashtarxoniylar)"],[1606,1611,"Valimuhammadxon"],[1611,1642,"Imomqulixon"],[1642,1645,"Nodir Muhammadxon"],[1645,1680,"Abdulazizxon"],[1680,1702,"Subhonqulixon"],[1702,1711,"Ubaydullaxon II"],[1711,1747,"Abulfayzxon"],[1747,1756,"Muhammad Rahim (otaliq, keyin xon)"]],
+  "buxoro-amirligi":[[1756,1758,"Muhammad Rahimxon"],[1758,1785,"Doniyolbiy otaliq"],[1785,1800,"Amir Shohmurod"],[1800,1826,"Amir Haydar"],[1826,1827,"Amir Husayn, Amir Umar"],[1827,1860,"Amir Nasrullo"],[1860,1885,"Amir Muzaffar"],[1885,1910,"Amir Abdulahad"],[1910,1920,"Amir Olimxon"]],
+  "xiva-xonligi":[[1511,1518,"Elbarsxon"],[1558,1602,"Hojimxon"],[1603,1621,"Arab Muhammadxon"],[1623,1643,"Asfandiyorxon"],[1643,1663,"Abulg'ozixon"],[1663,1687,"Anushaxon"],[1688,1702,"Erenakxon va boshqalar"],[1702,1714,"Shohniyozxon"],[1714,1740,"Sherg'ozixon va boshqalar"],[1740,1770,"Nodirshoh qo'yganlar va inoqlar"],[1770,1790,"Muhammad Amin inoq"],[1790,1804,"Avaz inoq"],[1804,1806,"Eltuzarxon"],[1806,1825,"Muhammad Rahimxon I"],[1825,1842,"Olloqulixon"],[1842,1845,"Rahimqulixon"],[1845,1855,"Muhammad Aminxon"],[1856,1864,"Said Muhammadxon"],[1864,1910,"Muhammad Rahimxon II (Feruz)"],[1910,1918,"Asfandiyorxon"],[1918,1920,"Said Abdullaxon"]],
+  "qoqon-xonligi":[[1709,1721,"Shohruhbiy"],[1721,1733,"Abdurahimbiy"],[1733,1751,"Abdukarimbiy"],[1751,1763,"Erdonabiy"],[1763,1798,"Norbo'tabiy"],[1798,1810,"Olimxon"],[1810,1822,"Umarxon"],[1822,1842,"Muhammad Alixon (Madalixon)"],[1842,1845,"Sheralixon"],[1845,1858,"Xudoyorxon"],[1858,1862,"Mallaxon"],[1862,1863,"Shohmurodxon"],[1863,1875,"Xudoyorxon"],[1875,1876,"Nasriddinxon, Po'latxon"]],
+  "qozoq-xonligi":[[1465,1480,"Kerey va Jonibek"],[1511,1521,"Qosimxon"],[1538,1580,"Haqnazarxon"],[1598,1628,"Eshimxon"],[1680,1715,"Tauke xon"],[1771,1781,"Abilayxon"]],
+  "safaviylar":[[1501,1524,"Shoh Ismoil I"],[1524,1576,"Shoh Tahmasp I"],[1588,1629,"Shoh Abbos I"],[1629,1642,"Shoh Safi"],[1642,1666,"Shoh Abbos II"],[1694,1722,"Shoh Sulton Husayn"],[1729,1736,"Tahmasp II, Abbos III"]],
+  "boburiylar":[[1526,1530,"Zahiriddin Muhammad Bobur"],[1530,1556,"Humoyun"],[1556,1605,"Akbar"],[1605,1627,"Jahongir"],[1628,1658,"Shoh Jahon"],[1658,1707,"Avrangzeb"],[1707,1857,"Keyingi Boburiylar"]],
+  "usmonlilar":[[1299,1324,"Usmon I"],[1324,1362,"O'rxon"],[1362,1389,"Murod I"],[1389,1402,"Boyazid I"],[1421,1451,"Murod II"],[1451,1481,"Mehmed II Fotih"],[1481,1512,"Boyazid II"],[1512,1520,"Salim I"],[1520,1566,"Sulaymon Qonuniy"],[1566,1574,"Salim II"],[1623,1640,"Murod IV"],[1789,1807,"Salim III"],[1808,1839,"Mahmud II"],[1876,1909,"Abdulhamid II"],[1909,1918,"Mehmed V"],[1918,1922,"Mehmed VI"]],
+  "vizantiya":[[395,408,"Arkadiy"],[527,565,"Yustinian I"],[610,641,"Irakliy"],[976,1025,"Vasiliy II"],[1081,1118,"Aleksey I Komnin"],[1449,1453,"Konstantin XI"]],
+  "rim":[[-27,14,"Avgust"],[14,37,"Tiberiy"],[54,68,"Neron"],[98,117,"Trayan"],[117,138,"Adrian"],[161,180,"Mark Avreliy"],[284,305,"Diokletian"],[306,337,"Konstantin I"],[379,395,"Feodosiy I"],[475,476,"Romul Avgustul"]],
+  "maurya":[[-322,-297,"Chandragupta"],[-297,-273,"Bindusara"],[-268,-232,"Ashoka"]],
+  "xan":[[-202,-195,"Lyu Ban (Gaoszu)"],[-141,-87,"U-di"],[25,57,"Guan U-di"],[189,220,"Syan-di"]],
+  "ossuriya":[[-745,-727,"Tiglatpalasar III"],[-705,-681,"Sinaxxerib"],[-668,-631,"Ashshurbanipal"]],
+  "bobil":[[-1792,-1750,"Hammurapi"],[-605,-562,"Navuxodonosor II"],[-556,-539,"Nabonid"]],
+  "kiyev-rusi":[[882,912,"Oleg"],[945,972,"Svyatoslav"],[980,1015,"Vladimir I"],[1019,1054,"Yaroslav Donishmand"],[1113,1125,"Vladimir Monomax"]],
+  "franklar":[[481,511,"Xlodvig I"],[768,814,"Buyuk Karl"],[814,840,"Lyudovik Taqvodor"]],
+  "muqaddas-rim":[[962,973,"Otton I"],[1155,1190,"Fridrix I Barbarossa"],[1519,1556,"Karl V"],[1792,1806,"Frans II"]],
+  "rossiya-imperiyasi":[[1721,1725,"Pyotr I"],[1741,1762,"Yelizaveta"],[1762,1796,"Yekaterina II"],[1796,1801,"Pavel I"],[1801,1825,"Aleksandr I"],[1825,1855,"Nikolay I"],[1855,1881,"Aleksandr II"],[1881,1894,"Aleksandr III"],[1894,1917,"Nikolay II"]],
+  "sssr":[[1922,1924,"V. Lenin"],[1924,1953,"I. Stalin"],[1953,1964,"N. Xrushchyov"],[1964,1982,"L. Brejnev"],[1982,1984,"Yu. Andropov"],[1984,1985,"K. Chernenko"],[1985,1991,"M. Gorbachyov"]],
+  "ozbekiston":[[1991,2016,"Islom Karimov"],[2016,2100,"Shavkat Mirziyoyev"]],
+  "misr":[[-2589,-2566,"Xufu (Xeops)"],[-1479,-1425,"Tutmos III"],[-1279,-1213,"Ramzes II"],[-51,-30,"Kleopatra VII"]]
+};
+// The ruler of state id in year y (or the closest earlier one inside the state's years)
+window.hukmdor = function(id, y){
+  const l = window.HUKMDORLAR[id]; if(!l) return null;
+  return l.find(r => y>=r[0] && y<=r[1]) || null;
+};
