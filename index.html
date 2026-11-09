@@ -12,11 +12,15 @@
 <meta property="og:url" content="https://ozing-organ.uz/">
 <meta property="og:locale" content="uz_UZ">
 <meta property="og:image" content="https://ozing-organ.uz/icon-192.png">
-<meta name="theme-color" content="#13345c">
+<meta name="theme-color" content="#070b14">
 <link rel="icon" href="/favicon.png" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="/icon-192.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"O'zing O'rgan","alternateName":["Ozing Organ","Oʻzing oʻrgan","ozing-organ.uz"],"url":"https://ozing-organ.uz/","inLanguage":"uz"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("oz-tema")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
 /* Layout: exam booklet. Sticky timer bar, one task per sheet, answer-sheet grid of 45 bubbles beside it (below on phones). */
@@ -198,7 +202,8 @@ button,.opt,.cell,.vcard{touch-action:manipulation;-webkit-tap-highlight-color:t
   .progress{display:none}
 }
 </style>
-<link rel="stylesheet" href="dizayn.css?v=2">
+<link rel="stylesheet" href="dizayn.css?v=3">
+<script src="dizayn.js?v=3" defer></script>
 
 </head><body>
 <div class="wrap" id="app"><section class="cover">
@@ -407,9 +412,9 @@ function statOf(v){
   return {k:"new",txt:"Yangi"};
 }
 function vcardHtml(v){
-  const m=v.title.match(/^(\d+)-variant\s*(?:\((.*)\))?$/), n=m?m[1]:"•", nm=m&&m[2]?m[2]:v.title;
+  const m=v.title.match(/^(\d+)-variant\s*(?:\((.*)\))?$/), n=m?m[1]:"•", nm=m&&m[2]?m[2]:(m?"Namunaviy test":v.title);
   const S=statOf(v), ser=SERIES.find(x=>x[0]===seriesOf(v))[1];
-  return `<button class="vcard s-${S.k} sr-${seriesOf(v)}" data-v="${v.id}" aria-label="${esc(v.title)}"><span class="vn">${n}</span><b>${esc(nm)}</b><span class="src">${esc(v.src)}</span><span class="foot"><span class="pill ${S.k}">${S.txt}</span><span class="pill ser">${ser}</span></span>${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy, o'qituvchi tekshiruvida</span>`:""}</button>`;
+  return `<button class="vcard s-${S.k} sr-${seriesOf(v)}" data-v="${v.id}" aria-label="${esc(v.title)}"><span class="vtop"><span class="vn">${n}<small>-variant</small></span><span class="pill ser">${ser}</span></span><b>${esc(nm)}</b><span class="src">${esc(v.src)}</span><span class="foot"><span class="pill ${S.k}">${S.txt}</span></span>${S.k==="done"?`<span class="vbar"><i style="width:${Math.max(3,Math.min(100,S.sc))}%"></i></span>`:""}${v.key==="taxminiy"?`<span class="warn">Javob kaliti taxminiy</span>`:""}</button>`;
 }
 function filtered(){
   const q=LF.q.trim().toLowerCase().replace(/[‘’ʻʼ`]/g,"'");
@@ -430,28 +435,28 @@ function renderList(){
   const cnt=k=>k==="all"?VARIANTS.length:VARIANTS.filter(v=>seriesOf(v)===k).length;
   $("#app").innerHTML = `
   <section class="hero">
-    <svg class="rosette" viewBox="0 0 400 400" aria-hidden="true"><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2d28a"/><stop offset="1" stop-color="#b8862b"/></linearGradient></defs><g class="spin" fill="none" stroke="url(#rg)"><circle cx="200" cy="200" r="192" stroke-width="1.5" opacity=".55"/><circle cx="200" cy="200" r="178" stroke-width="1" opacity=".4" stroke-dasharray="2 6"/><path stroke-width="2.2" opacity=".9" d="M316.7 316.7 L83.3 316.7 L83.3 83.3 L316.7 83.3Z M200.0 365.0 L35.0 200.0 L200.0 35.0 L365.0 200.0Z"/><path stroke-width="1.4" opacity=".7" d="M263.1 47.6 L284.9 115.1 L352.4 136.9 L320.0 200.0 L352.4 263.1 L284.9 284.9 L263.1 352.4 L200.0 320.0 L136.9 352.4 L115.1 284.9 L47.6 263.1 L80.0 200.0 L47.6 136.9 L115.1 115.1 L136.9 47.6 L200.0 80.0Z"/><circle cx="200" cy="200" r="118" stroke-width="1.2" opacity=".5"/><path stroke-width="1.8" opacity=".85" d="M238.3 292.4 L107.6 238.3 L161.7 107.6 L292.4 161.7Z M161.7 292.4 L107.6 161.7 L238.3 107.6 L292.4 238.3Z"/><path stroke-width="1.2" opacity=".65" d="M200.0 130.0 L210.1 149.0 L226.8 135.3 L228.9 156.8 L249.5 150.5 L243.2 171.1 L264.7 173.2 L251.0 189.9 L270.0 200.0 L251.0 210.1 L264.7 226.8 L243.2 228.9 L249.5 249.5 L228.9 243.2 L226.8 264.7 L210.1 251.0 L200.0 270.0 L189.9 251.0 L173.2 264.7 L171.1 243.2 L150.5 249.5 L156.8 228.9 L135.3 226.8 L149.0 210.1 L130.0 200.0 L149.0 189.9 L135.3 173.2 L156.8 171.1 L150.5 150.5 L171.1 156.8 L173.2 135.3 L189.9 149.0Z"/><circle cx="200" cy="200" r="40" stroke-width="2" opacity=".9"/><path stroke-width="1.4" opacity=".8" d="M213.0 168.6 L211.3 188.7 L231.4 187.0 L216.0 200.0 L231.4 213.0 L211.3 211.3 L213.0 231.4 L200.0 216.0 L187.0 231.4 L188.7 211.3 L168.6 213.0 L184.0 200.0 L168.6 187.0 L188.7 188.7 L187.0 168.6 L200.0 184.0Z"/></g></svg>
-    <div class="eyebrow">O'zing O'rgan · Tarix</div>
-    <h1>Tarix fanidan <em>sertifikat</em> sinovi</h1>
-    <p>Milliy sertifikat formatidagi ${VARIANTS.length} ta variant: 45 topshiriq, 90 daqiqa, natija va daraja darhol hisoblanadi.</p>
-    <div class="stats">
-      <div class="stat"><b>${VARIANTS.length}</b><span>variant</span></div>
-      <div class="stat"><b>${done.length}</b><span>yechildi</span></div>
-      <div class="stat"><b>${best===null?"—":fmt(best)}</b><span>eng yaxshi</span></div>
-    </div>
+    <span class="badge"><i>${VARIANTS.length} variant</i> Milliy sertifikat formatida</span>
+    <h1>Tarixni <em>o'zing o'rgan</em>, sertifikatni ol</h1>
+    <p>45 topshiriq, 90 daqiqa, haqiqiy imtihon kabi. Natija, daraja va har bir savol tahlili darhol chiqadi.</p>
     <div class="acts">
       ${run?`<button class="btn gold" id="cont">Davom ettirish: ${esc(run.title.replace(/\s*\(.*\)$/,""))}</button>`:""}
-      <button class="btn${run?"":" gold"}" id="rnd">Tasodifiy variant</button>
-      <a class="btn ghost" href="/mashqlar.html" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center">Mashqlar →</a>
+      <a class="btn" href="#variantlar">Variant tanlash</a>
+      <button class="btn ghost" id="rnd">Tasodifiy variant</button>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>${VARIANTS.length}</b><span>variant</span></div>
+      <div class="stat"><b>${done.length}</b><span>siz yechdingiz</span></div>
+      <div class="stat"><b>${best===null?"—":fmt(best)}</b><span>eng yaxshi ball</span></div>
     </div>
   </section>
-  <section class="feats" aria-label="Afzalliklar">
-    <div class="feat"><span class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg></span><b>45 topshiriq</b><span>Milliy sertifikat formatida</span></div>
-    <div class="feat"><span class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg></span><b>90 daqiqa</b><span>Haqiqiy imtihon vaqti</span></div>
-    <div class="feat"><span class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span><b>Darhol natija</b><span>Ball, daraja va tahlil</span></div>
-    <div class="feat"><span class="fi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16M16 6v16"/></svg></span><b>Xarita va o'yinlar</b><span>Mashq qilib takrorlang</span></div>
+  <section class="bento" aria-label="Bo'limlar">
+    <a class="tile big t1" href="#variantlar"><span class="ti"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg></span><div><b>Sertifikat sinovi</b><span>${VARIANTS.length} ta to'liq variant: TMS, Quadro, Milliy sertifikat, TESTLIDER va boshqalar. Vaqt, javoblar varaqasi, avtomatik baholash.</span></div><span class="go">Variantlar →</span></a>
+    <a class="tile wide t2" href="/mashqlar.html#joylar"><span class="ti"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16M16 6v16"/></svg></span><div><b>Tarixiy xarita</b><span>Davlat chegaralari yillar kesimida, qadimgi joy nomlari</span></div></a>
+    <a class="tile sm t3" href="/mashqlar.html#viktorina"><span class="ti"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span><div><b>Tezkor viktorina</b><span>Vaqtga qarshi savollar va reyting</span></div></a>
+    <a class="tile sm t4" href="/mashqlar.html#jonli"><span class="ti"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span><div><b>Jonli bellashuv</b><span>Sinf bilan PIN kod orqali o'yin</span></div></a>
+    <a class="tile wide t5" href="/mashqlar.html"><span class="ti"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span><div><b>Barcha mashqlar</b><span>G'ildirak, xronologiya, kartochkalar va boshqalar</span></div></a>
   </section>
-  <section class="catalog">
+  <section class="catalog" id="variantlar">
     <div class="cat-head">
       <h2 class="orn">Variantni tanlang</h2>
       <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="vq" type="search" placeholder="Qidirish: muallif, TMS, Quadro…" aria-label="Variant qidirish" value="${esc(LF.q)}"></label>
