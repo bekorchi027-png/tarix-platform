@@ -89,6 +89,8 @@ async function ask(model, body){
 
 export default async function handler(req, res){
   res.setHeader("Cache-Control", "no-store");
+  // GET is a health check: says whether the key is set, never shows it.
+  if(req.method === "GET") return res.status(200).json({kalit: !!process.env.GEMINI_API_KEY});
   if(req.method !== "POST") return res.status(405).json({xato:"POST kerak"});
   if(!process.env.GEMINI_API_KEY) return res.status(503).json({xato:"kalit"});
   const ip = String(req.headers["x-forwarded-for"] || "").split(",")[0].trim() || "?";
