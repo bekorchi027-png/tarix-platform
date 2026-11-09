@@ -31,7 +31,7 @@ function knowledge(){
     ...bilim.bolimlar.map(b => `- ${b.id} | ${b.nom} | ${b.url} | ${b.tavsif}`),
     `\nTEST VARIANTLARI (${tests.length} ta). Variantni ochish havolasi: /?v=<id>`,
     ...tests.map(t => `- ${t.id}: ${t.title} (${t.src})`),
-    davlat.length ? `\nCHEGARALI XARITA: /mashqlar.html#joylar?yil=<yil>&davlat=<id>&joy=<joy nomi>. Hamma parametr ixtiyoriy, mil. avv. yillar manfiy son. Davlatlar (id | nom | yillar):` : "",
+    davlat.length ? `\nCHEGARALI XARITA: /mashqlar.html#joylar?yil=<yil>&davlat=<id>&joy=<joy nomi>. Hamma parametr ixtiyoriy, mil. avv. yillar manfiy son. Chegaralar odatda ko'rinadi; faqat foydalanuvchi chegarasiz xaritani so'rasa chegara=0 qo'sh. Davlatlar (id | nom | yillar):` : "",
     ...davlat.map(d => `- ${d.id} | ${d.nom} | ${y(d.boshi)} - ${y(d.oxiri)}`),
     joy.length ? `Joylar ro'yxatida ${joy.length} ta tarixiy joy bor (shaharlar, qal'alar va h.k.); joy= ga joyning o'zbekcha nomini yozing.` : ""
   ].filter(Boolean).join("\n");
@@ -53,6 +53,7 @@ function safeLink(u){
     const yil = p.get("yil"); if(yil && /^-?\d{1,4}$/.test(yil)) out.set("yil", yil);
     const d = p.get("davlat"); if(d && k.davlatIds.has(d)) out.set("davlat", d);
     const j = p.get("joy"); if(j && k.joyNames.has(k.norm(j))) out.set("joy", j);
+    if(p.get("chegara") === "0") out.set("chegara", "0");
     return "/mashqlar.html#joylar" + (out.toString() ? "?" + out.toString() : "");
   }
   return null;
