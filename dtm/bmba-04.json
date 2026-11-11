@@ -1,0 +1,275 @@
+{
+"id": "bmba-04",
+"items": [
+{
+"n": 1,
+"q": "Portugaliyada 1968-yilda hokimiyatga kelgan Marselu Kaetanu davrida ... .",
+"opts": [
+"barcha siyosiy partiyalar o‘z faoliyatini to‘xtatdi",
+"Afrikadagi mustamlakalarga mustaqillik berildi",
+"mamlakat Yevropa Iqtisodiy Hamjamiyatiga a’zo bo‘ldi",
+"mustaqil kasaba uyushmalariga ruxsat berildi"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Quyida berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. U 1819–1830-yillarda mamlakat prezidenti bo‘lgan. U pomeshchiklarning yerlarini musodara qilish to‘g‘risidagi qonun loyihasini ishlab chiqqan. Biroq bu loyiha pomeshchiklar tomonidan qattiq qarshilikka uchrab, amalga oshmay qolgan. Butun hokimiyati davrida pomeshchiklar unga qarshi bo‘lib, oxir-oqibat uning iste’foga chiqishiga erishishgan.",
+"opts": [
+"Simon Bolivar",
+"Xose San Martin",
+"Avraam Linkoln",
+"Kamillo Kavur"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Quyida berilgan ma’lumotlardan qaysilari Gʻarbiy Turk xoqonligiga oid?",
+"opts": [
+"1, 2",
+"2, 3",
+"3, 4",
+"2, 4"
+],
+"ans": "D",
+"extra": "1) VI asr o‘rtalarida Bumin tomonidan asos solingan;\n2) VII asrning dastlabki choragida hukmdorlik qarorgohi Choch shahriga ko‘chirilgan;\n3) taxt otadan bolaga qolmay, shu suloladan kim loyiq topilsa, o‘sha taxtga o‘tirgan;\n4) sharqiy chegarasi Oltoyga, janubiy chegarasi Sind (Hind) daryosi bo‘ylarigacha cho‘zilgan."
+},
+{
+"n": 4,
+"q": "1960-yillarda Rabot shahrida bo‘lib o‘tgan konferensiyada ta’sis etilgan “Islom konferensiyasi” tashkiloti kimning tashabbusi bilan tuzilgan?",
+"opts": [
+"Saudiya podshohi Feysal",
+"Iordaniya podshohi Abdulloh I ibn Husayn",
+"Iroq prezidenti Saddam Husayn",
+"Liviya rahbari Muammar Qazzofiy"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Quyida berilganlardan qaysilari Anushteginiylar davlati tarixiga oid?",
+"opts": [
+"1, 3",
+"3, 4",
+"1, 2",
+"2, 3"
+],
+"ans": "D",
+"extra": "1) 1097-yilda Qutbiddin ibn Muhammad Kat shahrini ishg‘ol etib, Xorazmning ikkala qismini birlashtirdi va Xorazmshoh unvoniga sazovor bo‘ldi;\n2) 1210-yilda o‘trorliklar, 1212-yilda Samarqand aholisi Alovuddin Muhammadga qarshi qo‘zg‘olon ko‘tardilar;\n3) 1210-yilda Talos vodiysida qoraxitoylar mag‘lubiyatga uchratildi;\n4) Yangi Urganch yaqinida Shohobod kanali nomi berilgan katta kanal qazildi."
+},
+{
+"n": 6,
+"q": "Quyida berilganlardan qaysilari davlat-shaxs (davlat yoki hukumat rahbari)-voqea mosligi to‘g‘ri berilgan?",
+"opts": [
+"1, 3, 5",
+"2, 3, 4",
+"2, 4, 5",
+"1, 2, 3"
+],
+"ans": "A",
+"extra": "1) AQSH – Vudro Vilson – yangi erkinlik deb atalgan siyosiy dastur amalga oshirildi;\n2) Gretsiya – Konstantinos Saldaris – respublikani tiklashga kirishdi;\n3) Iordaniya – Abdulloh I ibn Husayn – G‘arbiy qirg‘oqqa bo‘lgan huquqidan falastinliklar foydasiga voz kechdi;\n4) Hindiston – Benazir Bhutto – harbiy rejim davrida qamoqqa olingan barcha siyosiy arboblarga amnistiya berdi;\n5) Buyuk Britaniya – Margaret Tetcher – Folklend oroli masalasida Argentina bilan urush harakatlari bo‘lib o‘tdi."
+},
+{
+"n": 7,
+"q": "Nuqtalar o‘rniga tarixiy va mantiqiy jihatdan mos keluvchi javobni aniqlang. O‘rta asrlar",
+"opts": [
+"Saroy Botu, Damashq",
+"Nikeya, Maymurg‘",
+"Saroy Berka, Bag‘dod",
+"Ryazan, Marv"
+],
+"ans": "A",
+"extra": "1) Usmon I (Usmoniylar davlati) – Bursa;\n2) Svyatoslav (Kiyev Rusi) – Itil;\n3) Botuxon (mo‘g‘ul) – ... ;\n4) Usmon (Arab xalifasi) – ... ."
+},
+{
+"n": 8,
+"q": "Quyida berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-a, 2-b",
+"1-a, 2-c",
+"1-d, 2-b",
+"1-d, 2-c"
+],
+"ans": "D",
+"img": "img/dtm/bmba-04-8.jpg"
+},
+{
+"n": 9,
+"q": "O‘zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev 2017-yilda 19-sentyabrda BMT Bosh Assambleyasining 72-sessiyasida qanday takliflarni ilgari surgan?",
+"opts": [
+"1, 2, 4",
+"2, 3, 5",
+"1, 3, 5",
+"2, 3, 4"
+],
+"ans": "B",
+"extra": "1) Afg‘onistonda tinchlikni ta’minlash maqsadida NATO tarkibidagi qurolli kuchlarni joylashtirish;\n2) Bosh Assambleyaning “Ma’rifat va diniy bag‘rikenglik” deb nomlangan maxsus rezolyutsiyani qabul qilish\n3) BMTning Yoshlar huquqlari to‘g‘risidagi xalqaro konvensiyani ishlab chiqish;\n4) Orolni qutqarish xalqaro jamg‘armasini tashkil etish;\n5) Markaziy Osiyoda suv resurslaridan oqilona foydalanish."
+},
+{
+"n": 11,
+"q": "Quyidagi Yevropa hukmdorlaridan qay biri uchinchi salib yurishlarida ishtirok etgan?",
+"opts": [
+"Richard II (Angliya)",
+"Filipp II (Fransiya)",
+"Fridrix II (Germaniya)",
+"Ioann (Angliya)"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyidagi ma’lumotlarga xos yakuniy xulosalalar (to‘g‘ri/noto‘g‘ri) keltirilgan javobni aniqlang.",
+"opts": [
+"I-to‘g‘ri; II-noto‘g‘ri; III-to‘g‘ri",
+"I-to‘g‘ri; II-to‘g‘ri; III-noto‘g‘ri",
+"I-noto‘g‘ri; II-to‘g‘ri; III-to‘g‘ri",
+"I-noto‘g‘ri; II-noto‘g‘ri; III-noto‘g‘ri"
+],
+"ans": "C",
+"extra": "I. Zirabuloq shartnomasidan so‘ng Xiva xonligi hududi uch baravar qisqarib ketdi;\nII. Po‘latxon asli ismi Is’hoq Hasan o‘g‘li bo‘lib, Qo‘qon xoni Olimxon nabirasi Po‘latxon nomidan soxta xon sifatida 1873–1876­yillarda qo‘zg‘olonga rahbarlik qilgan;\nIII. Xiva xonligida Muhammad Rahimxon II davrida Matyoqub pishiq boshchilgida qo‘zg‘olon bo‘lib o‘tgan."
+},
+{
+"n": 13,
+"q": "Quyida berilganlardan 1870–1918-yillar tarixiga oid bo‘lganlarni belgilang.",
+"opts": [
+"1, 2, 4",
+"3, 4, 6",
+"1, 3, 5",
+"1, 3, 6"
+],
+"ans": "D",
+"extra": "1) “Midhat konstitutsiyasi”;\n2) Ikkinchi afyun urushi;\n3) Sinxay inqilobi 4) SSSRning tashkil topishi;\n5) Turkiyaning respublikaga aylanishi;\n6) Rossiyadagi ikkinchi inqilob."
+},
+{
+"n": 14,
+"q": "Quyidagi shaxslardan qay biri fandagi yutuqlarga faqat ilmiy kuzatishlar va tajribalar yo‘li bilan erishish mumkinligini isbotlagan?",
+"opts": [
+"Leonardo da Vinchi",
+"Frensis Bekon",
+"Franchesko Petrarka",
+"Rojer Bekon"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Nomuvofi qlikka yo‘l qo‘yilgan javobni aniqlang.",
+"opts": [
+"Xatxor – go‘zallik xudosi",
+"Baxus – may xudosi",
+"Indra – momaqaldiroq xudosi",
+"Geya – Quyosh xudosi"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "XVII–XVIII asrlarda Xiva xonligida ijod qilgan usta xattotlarni aniqlang.",
+"opts": [
+"1, 2",
+"3, 4",
+"2, 5",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) Hamadoniy;\n2) Muhammad Rizo Oxund;\n3) Mir Ma’sum Olamiyon;\n4) Mirzo Sodiq Jondoriy;\n5) Muhammad Yusuf Roziy."
+},
+{
+"n": 17,
+"q": "Mualliflar va ularning asarlari to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-a, 2-b",
+"1-c, 2-b",
+"1-a, 2-d",
+"1-c, 2-d"
+],
+"ans": "D",
+"img": "img/dtm/bmba-04-17.jpg"
+},
+{
+"n": 20,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"I-a, II-b",
+"I-b, II-c",
+"I-d, II-b",
+"I-d, II-c"
+],
+"ans": "B",
+"img": "img/dtm/bmba-04-20.jpg"
+},
+{
+"n": 21,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan to‘g‘ri javobni toping. Chingizxon   Amir Temur",
+"opts": [
+"I-b, e; II-a, c; III-d",
+"I-a, f; II-b, e; III-d",
+"I-b, c; II-a, d; III-e",
+"I-b, d; II-a, c; III-e"
+],
+"ans": "D",
+"extra": "a) Bag‘dod shahrini qayta qurdirib, obod qildi;\nb) “keshik” deb atalgan maxsus qo‘shin tuzdi;\nc) Dehli shahrini egalladi; d) Xitoyning shimoliy hududlarini bo‘ysundirdi; e) Xorazm yerlarini egalladi; f) Mahmud Yalavochni Pekin shahriga hokim etib tayinladi.",
+"img": "img/dtm/bmba-04-21.jpg"
+},
+{
+"n": 25,
+"q": "Qaysi javobda Yangi tarixda Yevropada barpo etilgan madaniy yodgorliklarning nomi keltirilgan?",
+"opts": [
+"Kolizey amfiteatri, Parfenon ibodatxonasi",
+"To‘pqopi saroyi, Laax monastiri",
+"Ali Kapa va Chexel Sotun saroy ansambllari",
+"Eyfel minorasi, Luvr muzeyi"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyida berilgan voqealardan eng keyin yuz bergan?",
+"opts": [
+"Angliyada gannoverlar sulolasi hukmronligi boshlanishi",
+"Fransiyada prezidentlik lavozimining joriy etilishi",
+"Rossiya va Fransiya o‘rtasida Tilzit shartnomasining imzolanishi",
+"Birinchi afyun urushining yakunlanishi"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Quyidagilardan 1940-yillar tarixiga oid bo‘lganlarini belgilang.",
+"opts": [
+"2, 4",
+"4, 5",
+"1, 3",
+"2, 5"
+],
+"ans": "D",
+"extra": "1) urushlar tarixida birinchi tankning qo‘llanishi;\n2) Holokost;\n3) “Qullik haqida konvensiya”;\n4) AQSHda ilk vodorod bombasining yaratilishi;\n5) Atlantik xartiya."
+},
+{
+"n": 28,
+"q": "Xaritada yulduzcha ostida berilgan davlat (hudud) tarixiga oid ma’lumotlarni toping.",
+"opts": [
+"1, 2, 6",
+"2, 4, 5",
+"1, 3, 5",
+"2, 4, 6"
+],
+"ans": "D",
+"extra": "1) 1907-yilda ingliz shifokori o‘ldirilishi ortidan Buyuk Britaniya bilan munosabatlar keskinlashdi;\n2) 1912-yilda Fransiya mustamlakasiga aylantirildi;\n3) jahon urushlari oralig‘ida Habib Burg‘iba boshchiligida milliy-ozodlik harakatlari avj oldi;\n4) jahon urushlari oralig‘ida Abdul Karim boshchiligida milliy-ozodlik harakatlari avj oldi;\n5) 1958-yilda boshlangan fuqarolar urushi 3 ming kishining oʻlimiga olib keldi;\n6) poytaxt shahrida 1960-yillar oxirlarida bo‘lib o‘tgan yig‘ilishda “Islom konferensiyasi” tashkilotiga asos solindi.",
+"img": "img/dtm/bmba-04-28.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalda ma’lumotlar to‘g‘ri moslashtirilgan qatorlarni toping. № Davlat Voqea Shaxs 1 Rim imperiyasi Olimpiya o‘yinlarini o‘tkazish taqiqlandi Feodosiy I 2 Ispaniya Ispaniya BMTga a’zo bo‘lib kirdi Franko 3 AQSH Rokfellerning neft tresti ikkiga bo‘lindi Teodor Ruzvelt 7 Anvar Sadatning Misr prezidenti etib saylanishi 4 Qo‘qon xonligi Usmoniylar davlati Qo‘qon xonligining Buxoro amirligi oldida mustaqil davlat maqomini tan oldi Umarxon 5 Gretsiya Hukumatning taqiqlari tufayli barcha siyosiy partiyalar o‘z faoliyatini to‘xtatdi Antonio Salazar 6 Xiva xonligi Rossiya bilan “Majburiyatlar akti” shartnomasi imzolandi. Muhammad Aminxon",
+"opts": [
+"1, 2, 4",
+"2, 3, 4",
+"3, 4, 5",
+"1, 3, 6 ʻ « » ʻ ʻ ʻ ʻ ʻ ʻ"
+],
+"ans": "A",
+"img": "img/dtm/bmba-04-30.jpg"
+}
+]
+}

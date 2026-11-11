@@ -139,7 +139,7 @@ body .ozbar .who.in{background:var(--accent-soft);color:var(--ink);box-shadow:in
 .tile.big .ti{width:60px;height:60px;border-radius:18px}
 .tile.wide{grid-column:span 3}
 .tile.sm{grid-column:span 3}
-.t1{--c:#6d7dff}.t2{--c:#16c2b3}.t3{--c:#f5a623}.t4{--c:#e0567a}.t5{--c:#9b6dff}
+.t1{--c:#6d7dff}.t2{--c:#16c2b3}.t3{--c:#f5a623}.t4{--c:#e0567a}.t5{--c:#9b6dff}.t6{--c:#3fa9f5}
 @media (min-width:901px){.tile.sm{grid-column:span 3}}
 @media (max-width:900px){.bento{grid-template-columns:repeat(2,minmax(0,1fr))}.tile.big,.tile.wide{grid-column:1/-1;grid-row:auto}.tile.sm{grid-column:span 1}}
 @media (max-width:600px){.bento{gap:10px;margin-top:28px;grid-auto-rows:auto}.tile{padding:16px}.tile.big{padding:20px}.tile b{font-size:17px}.tile span{font-size:13px}.tile .ti{width:40px;height:40px}}

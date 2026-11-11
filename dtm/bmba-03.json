@@ -1,0 +1,215 @@
+{
+"id": "bmba-03",
+"items": [
+{
+"n": 1,
+"q": "Gruziyada 2003-yilda hokimiyatga kelgan M ixail Sakashvili …",
+"opts": [
+"Rossiya bilan Do‘stlik, yaxshi qo‘shnichilik va hamkorlik to‘g‘risida shartnoma imzoladi",
+"bank sektori va logistikani rivojlantirishga qaror qildi",
+"ziyolilar bilan munosabatlarni buzdi va millatlararo munosabatlar keskinlashib, gruzin- abaxaz mojarosini keltirib chiqardi",
+"mamlakatda korrupsiyaga qarshi kurash e’lon qildi"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Quyidagi berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. XIX asr oxiri XX asr boshlarida Afg‘onistonda hukmronlik qilgan. Uning davrida mamlakatda yopiq siyosat olib borilgan, iqtisodiy hayotga to‘siq bo‘lgan ba’zi tadbirlarni bekor qilgan, ishlab chiqarish va savdo sohalarida bir qadar o‘sish kuzatilgan. Tashqi munosabatlarda Rossiya va Buyuk Britaniyaning kelishmovchiliklaridan ustalik bilan foydalangan.",
+"opts": [
+"Abdulhamid II",
+"shoh Muzaffariddin",
+"Amir Abdurahmon",
+"Amir Sheralixon"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Quyidagilardan bir yilda yubileyi nishonlangan shaharlar juftligi NOM UVOFIQ berilgan javobni aniqlang.",
+"opts": [
+"Shahrisabz – Qarshi",
+"Xiva – Buxoro",
+"Samarqand – Marg‘ilon",
+"Termiz – Shahrisabz"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Nuqtalar o‘rniga mos keluvchi javobni aniqlang. O‘rta asrlar:",
+"opts": [
+"Muso I; Asparux",
+"Sundiata Keyt; Simeon",
+"Qutbiddin Oyboq; Muso I",
+"Almi; Boleslav Jasur"
+],
+"ans": "D",
+"extra": "1) Mo‘g‘ullar davlati– O‘qtoy;\n2) Chexiya davlati – knyaz Vatslav;\n3) Songai davlati – …;\n4) Polsha davlati – … ."
+},
+{
+"n": 8,
+"q": "Quyidagi berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1 –a, 2 – b",
+"1 – a, 2 – c",
+"1 – b, 2 – d",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-03-8.jpg"
+},
+{
+"n": 9,
+"q": "2017-yilda O‘zbekiston umumiy qiymati 16 milliard dollarlik 55 ta hujjat imzolagan (a) va umumiy qiymati 23 mlrd. dollar boʻlgan 105 ta ikki tomonlama hujjatlar imzolagan (b) davlatlar to‘g‘ri berilgan javoblarni aniqlang.",
+"opts": [
+"Xitoy (a) va AQSH (b)",
+"Rossiya (a) va Xitoy (b)",
+"Hindiston (a) va Xitoy (b)",
+"Rossiya (a) va Hindiston (b)"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyidagi voqealarni to‘g‘ri xronologik ketma-ketlikda joylashtiring.",
+"opts": [
+"1, 3, 2",
+"3, 2, 1",
+"1, 2, 3",
+"2, 1, 3"
+],
+"ans": "D",
+"extra": "1) dastlabki rus-tuzem maktabi Toshkentda Saidg‘ani Saidazimboy uyida  ochiladi;\n2) Toshkentda birinchi gimnaziya ochilib, unda zamonaviy  fanlar  va  kundalik turmushda  zarur  bo‘ladigan  bilimlar o‘qitilgan;\n3) Turkiston o‘lkasida 50  ga  yaqin jadid  maktablari  yopib  qo‘yildi."
+},
+{
+"n": 13,
+"q": "Quyidagilardan 1870-1918-yillar tarixiga oid bo‘lganlarini aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 3, 6",
+"2, 5, 6"
+],
+"ans": "A",
+"extra": "1) “Umumiy elektr jamiyati”;\n2) “Kontinental uyushma”;\n3) “Sharqqa hujum” (Grang nach osten);\n4) “Chartistlar harakati”;\n5) “Antanta ittifoqi”;\n6) “Qrim urushi”."
+},
+{
+"n": 15,
+"q": "Quyidagilardan qadimgi Rim tarixiga oid bo‘lgan atamalar to‘g‘ri izohlangan qatorni aniqlang.",
+"opts": [
+"1, 2, 5",
+"1, 3, 5",
+"1, 4, 5",
+"1, 3, 4, 5"
+],
+"ans": "B",
+"extra": "1) Yepiskop – xristian  jamolariga peshvolik qilgan ruhoniylar;\n2) Parfeonon – Rimdagi barcha xudolar ibodatxonasi;\n3) Apostollar – havoriylar Iso Masih izdoshlari;\n4) Grammatika – chiroyli so‘zlash san’ati;\n5) Varvarlar – Rimliklarga  nisbatan  madaniy rivojlanish  jihatidan  quyi  pog‘onada turuvchi qabilalar."
+},
+{
+"n": 17,
+"q": "Quyidagilardan mil. avv. I asrning birinchi yarmida bo‘lgan voqealarni aniqlang.",
+"opts": [
+"1, 2",
+"5",
+"1, 2, 6",
+"4, 6"
+],
+"ans": "D",
+"extra": "1) Yunoniston qirg‘oqlarida Antoniy va Oktavian o‘rtasida urush  bo‘ldi;\n2) Yuliy Sezar Rubikon  daryosidan kechib o‘tib, Rimga yurish qildi;\n3) Karfagen butunlay  vayronaga aylantirildi;\n4) Spartak va Mark Krass  o‘rtasida hal qiluvchi jang bo‘ldi;\n5) Trayan Rim imperatori deb e’lon qilindi;\n6) 6  mingdan  ziyod  asirlar  Rim-Kapuya oralig‘idagi yo‘l bo‘ylaridagi xochlarga mixlab tashlandi."
+},
+{
+"n": 18,
+"q": "Quyidagilardan  O‘ratepa  va  Xo‘jand viloyatlarini  Buxoro xonligi  tasarrufidan Qo‘qon  xonligiga  qaytarib  olgan (a)  va Qo‘qon  xonligini  Sin  imperiyasiga  qaram bo‘lgani  haqidagi shartnomani  imzolagan (b) hukmdorlar  berilgan  qatorni aniqlang?",
+"opts": [
+"Abdurahimbiy (a) va Erdonabiy (b)",
+"Abdukarimbiy (a) va Erdonabiy (b)",
+"Erdonabiy (a) va Erdonabiy (b)",
+"Madalixon (a) va Norbo‘tabiy (b)"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni aniqlang.",
+"opts": [
+"1 –a, 2 – d",
+"1 – b, 2 – d",
+"1 – b, 2 – c",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-03-20.jpg"
+},
+{
+"n": 21,
+"q": "Quyidagi voqealarni tahlil qilib Eyler-Venn diagrammasiga mos keladigan to‘g‘ri javobni toping. Eron      Afg‘oniston",
+"opts": [
+"I-1, 4; II-2, 3; III-5",
+"I-1, 3; II-2, 3; III-5",
+"I-1, 4; II-2, 6; III-5",
+"I-1, 6; II-2, 3; III-5"
+],
+"ans": "A",
+"extra": "1) Rossiya bilan  1826–1828-yillari  bo‘lgan urushlarda  mag‘lubiyatga  uchradi  va Kavkazga  bo‘lgan da’vosidan voz kechdi;\n2) 1747-yilda davlat tashkil topgan;\n3) 1857-yilda Buyuk Britaniya bilan harbiy shartnoma tuzildi;\n4) 1857-yili  Buyuk Britaniya bilan Parij  Tinchlik  shartnomasi imzolandi;\n5) 1722-yilda urush harakatlari amalga oshirilgan;\n6) Rossiya bilan 1853–1856yillarda urush olib borgan.",
+"img": "img/dtm/bmba-03-21.jpg"
+},
+{
+"n": 23,
+"q": "GFR tarixida qaysi yillar iqtisodning jadal  o‘sish  davri  bo‘lib,  «nemis iqtisodiy  mo‘jizasi»  nomini  oldi?",
+"opts": [
+"1950 – 1960-yillar",
+"1960 – 1970-yillar",
+"1970 – 1980-yillar",
+"1990 – 2000-yillar"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Kushon podsholigida mavjud bo‘lgan yodgorliklarni ularga oid ma’lumotlar bilan to‘g‘ri muvofiqlashtiring.",
+"opts": [
+"1-c, 2-b, 3-d, 4-a",
+"1-b, 2-c, 3-d, 4-a",
+"1-c, 2-b, 3-a, 4-d",
+"1-b, 2-c, 3-a, 4-d"
+],
+"ans": "B",
+"extra": "1) Xolchayon;\n2) Dalvarzintepa;\n3) Ayritom;\n4) Surxko‘tal.\na) Yunon  alifbosidagi  kushon  bitiklari topilgan; b) Kushon  hukmdorlari  saroyi joylashgan; c) Fil  suyagidan  yasalgan shaxmat donalari  topilgan; d) Do‘mbirachi hamda ud cholg‘u asbobini chalayotgan musiqachilar tasvirlari topilgan.",
+"img": "img/dtm/bmba-03-24.jpg"
+},
+{
+"n": 25,
+"q": "Quyidagi ma’lumot kim haqida ekanligini aniqlang. “U 22 yoshidan boshlab Venada yashadi. Daxshatli  kasallik oqibatida  qiynalgan  va butunlay  eshitmay qolgan … taslim bo‘lmadi. U kasallikka qarshi  kurashgan  yillari ta’sirining  qudrati  vago‘zalligi  bilan kishilarni  hayratga  soladigan asarlar yaratdi”",
+"opts": [
+"Iogann Sebastyan Bax",
+"Volfgang Amadey Motsart",
+"Lyudvig van Betxoven",
+"Fransua Bushe"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Qachon Qozog‘iston, Qirg‘iziston, Tojikiston,  Turkmaniston  va  O‘zbekiston ta’sisligida  Orolni qutqarish xalqaro jamg‘armasi (OQXJ) tashkil etildi?",
+"opts": [
+"1992-yilda",
+"1993-yilda",
+"1994-yilda",
+"1999-yilda"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Quyidagi xaritada 2 raqami ostida ko‘rsatilgan davlat tarixiga aloqador bo‘lgan to‘g‘ri ma’lumotni aniqlang.",
+"opts": [
+"XV asrda tyudorlar sulolasi hokimiyat tepasiga kelgan",
+"XV asrda butun hududi yaxlit markaziy hokimiyatga bo‘ysundirilgan",
+"XII asrdan boshlab qishloq xo‘jaligida siljishlar boshlangan",
+"XII–XIII asrlarda Seviliya va Valensiya universitetlari ochilgan"
+],
+"ans": "B",
+"img": "img/dtm/bmba-03-28.jpg"
+}
+]
+}

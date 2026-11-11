@@ -1,0 +1,271 @@
+{
+"id": "bmba-10",
+"items": [
+{
+"n": 2,
+"q": "Quyidagi tarixiy shaxslarning millati va ilmiy faoliyati bilan bog‘liq ma’lumotlar qaysi javobda mos ravishda to‘g‘ri ko‘rsatilgan?",
+"opts": [
+"I. 1-c; II. 2-d",
+"I. 4-d; II. 3-c",
+"I. 3-b; II. 1-a",
+"I. 3-c; II. 4-d"
+],
+"ans": "D",
+"extra": "I. V. Rentgen; II. A. Popov.\n1) amerikalik;\n2) ingliz;\n3) nemis;\n4) rus.\na) elektromagnit to‘lqinlari tarqalish faktini jahonda birinchi bo‘lib tajriba yo‘li bilan isbotladi;\nb) hamma atomlar og‘ir yadroga ega ekanligini isbotladi;\nc) har xil buyum, narsalardan turlicha o‘tuvchi ko‘rinmas nurlarni kashf etdi;\nd) simsiz aloqa uchun elektromagnit to‘lqinlarini chiqarish va qabul qilish usulini topdi."
+},
+{
+"n": 3,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan oldinroq sodir bo‘lgan?",
+"opts": [
+"Fransiyada mutlaq monarxiyaning tugatilishi",
+"Germaniyaning ikkinchi marta imperiya deb e’lon qilinishi",
+"Fransiya tarixida birinchi konstitutsiyaning qabul qilinishi",
+"Veymarda Germaniya Respublikasi Konstitutsiyasi qabul qilinishi"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Butun Movarounnahr va Xurosonning Ismoil Somoniy tasarrufiga o‘tishi qaysi tarixiy jarayon ortida yuz bergan?",
+"opts": [
+"aka-uka Ismoil va Nasr o‘rtasida bo‘lib o‘tgan taxt uchun kurashda Ismoilning g‘olib bo‘lishi",
+"Xurosonda hukmronlik qilgan tohiriylarga qarshi g‘oziylarning isyon ko‘tarishi",
+"xalifaning safforiylar hukmdori Amr ibn Laysga Movarounnahr ustidan ham hukm yuritish huquqini berishi",
+"Ma’mun ukasi Aminni xalifalik taxtidan ag‘darib, hokimiyatni egallashida somoniylarning Ma’munga yordam berishi"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Quyida keltirilganlardan qaysilarida tosh asri-davr-voqea mos ravishda berilgan?",
+"opts": [
+"1, 3, 5",
+"2, 4, 5",
+"1, 5, 6",
+"2, 4, 6"
+],
+"ans": "C",
+"extra": "1) mezolit – mil. avv. 15–8-mingyilliklar – itning xonakilashtirilishi;\n2) so‘nggi paleolit – mil. avv. 40–12mingyilliklar – kesuvchi va arralovchi mehnat qurollarining yasalishi;\n3) o‘rta paleolit – mil. avv. 1 mln–100mingyilliklar – Buyuk muzlik davrining boshlanishi;\n4) eneolit – mil. avv. 4–3-mingyilliklarning o‘rtalari – ko‘p xonali uylarning qurila boshlanishi;\n5) neolit – mil. avv. 6–4-mingyilliklar – kulolchilik o‘choqlaridan foydalanila boshlanishi;\n6) ilk paleolit – mil. avv. 1 mln–100mingyilliklar – odamlarning tabiiy olovdan foydalana boshlashi."
+},
+{
+"n": 6,
+"q": "Quyida berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-a, 2-b",
+"1-a, 2-d",
+"1-c, 2-d",
+"1-c, 2-b"
+],
+"ans": "D",
+"img": "img/dtm/bmba-10-6.jpg"
+},
+{
+"n": 7,
+"q": "Quyidagi tarixiy voqealar (ma’lumotlar) to‘g‘ri xronologik ketma-ketlikda ko‘rsatilgan javobni toping.",
+"opts": [
+"4, 1, 2, 5, 3, 6",
+"2, 1, 4, 6, 3, 5",
+"4, 2, 1, 3, 6, 5",
+"2, 1, 4, 3, 5, 6"
+],
+"ans": "C",
+"extra": "1) “Dunyoning yetti mo‘jizasi”dan biri – Zevs haykali bunyod etildi;\n2) qadimgi Rimda konsullik boshqaruvi vujudga keldi;\n3) Xitoy va Davan davlati o‘rtasida urush boshlandi;\n4) qadimgi Yunonistonda Afina shahri vujudga keldi;\n5) Kushon davlatiga buddaviylik dini kirib keldi;\n6) Rim davlati imperiya deb e’lon qilindi."
+},
+{
+"n": 8,
+"q": "Hukmdorlar va ular ishtirok etgan tarixiy janglar to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1-a, 2-b, 3-e, 4-d",
+"1-c, 2-a, 3-e, 4-d",
+"1-c, 2-e, 3-b, 4-a",
+"1-a, 2-e, 3-b, 4-d"
+],
+"ans": "D",
+"img": "img/dtm/bmba-10-8.jpg"
+},
+{
+"n": 10,
+"q": "Tarixiy shaxsni aniqlang. U 1994-yilda birinchi marta hukumat boshlig‘i lavozimini egalladi. Uning hukumati 1994-yil oxirigacha tura oldi, xolos. Korrupsiyaga qarshi kurash e’lon qilgan bo‘lsa-da, uning o‘zi soliq qoidalarini buzganlikda ayblandi va iste’foga chiqishga majbur bo‘ldi.",
+"opts": [
+"Aleksandr Lukashenko",
+"Benazir Bxutto",
+"Imomali Rahmon",
+"Silvio Berluskoni"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Quyidagilarni tarixiy jihatdan tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping.",
+"opts": [
+"Yustinian I, Sechjon Buyuk",
+"Ivan III, O‘qtoy",
+"Mixail VIII paleolog, Chingizxon",
+"Mehmet II, Li Son Ge"
+],
+"ans": "D",
+"extra": "1) Suy sulolasi – Li Yuan;\n2) Sun sulolasi – Xubilay;\n3) Vizantiya imperiyasi – … ;\n4) Koryo sulolasi – … ."
+},
+{
+"n": 13,
+"q": "Tarixiy davlatni aniqlang. Ushbu davlat XIX asr oxiri – XX asr boshlarida iqtisodiy taraqqiyotda boshqa buyuk davlatlarga nisbatan orqada edi. Mamlakatda monopolistik kapitalizm feodalmonarxiya qoldiqlari bilan chirmashib ketgandi. XIX asrning 80–90-yillarida sanoat ishlab chiqarishida bir qator yutuqlarga erishdi, 90-yillariga kelib sanoat toʻntarishi yakunlandi va mamlakat ishlab chiqarishning umumiy hajmi boʻyicha dunyoning beshta eng yirik industrial davlatlari qatoriga qoʻshildi.",
+"opts": [
+"Yaponiya",
+"Eron",
+"Turkiya",
+"Rossiya"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "O‘rta Osiyoda IV–XV asrlarda hukmronlik qilmagan sulolani toping.",
+"opts": [
+"eftallar",
+"somoniylar",
+"shayboniylar",
+"xorazmshohlar"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Koshinkorlik san’ati qaysi Xiva xoni davrida yuksak cho‘qqiga chiqqan edi?",
+"opts": [
+"Muhammad Rahimxon I",
+"Olloqulixon",
+"Muhammad Rahimxon II",
+"Rahimqulixon"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Ma’lumki, Ikkinchi jahon urushi yillarida frontoldi hududlaridan bir qancha rus, ukrain, belorus millatiga mansub yozuvchilar, shoirlar evakuatsiya qilingan. Keyinchalik ular o‘zbek yozuvchi-shoirlari bilan adabiy hamkorlik ishlari olib borgan. Quyida keltirilgan adabiyot vakillaridan Ikkinchi jahon urushi yillarida frontoldi hududlaridan O‘zbekistonga ko‘chirib keltirilganlarini aniqlang.",
+"opts": [
+"1, 2, 3, 5, 6, 8",
+"1, 4, 5, 7, 9, 10",
+"2, 3, 4, 6, 8, 10",
+"2, 4, 6, 7, 8, 9"
+],
+"ans": "C",
+"extra": "1) Mixail Sholoxov;\n2) Aleksey Tolstoy;\n3) Korney Chukovskiy;\n4) Anna Axmatova;\n5) Konstantin Simonov;\n6) Yanka Kupala;\n7) Boris Pasternak;\n8) Yakub Kolas;\n9) Marina Svetayeva;\n10) Svetlana Somova."
+},
+{
+"n": 17,
+"q": "Quyida keltirilgan ma’lumotlar (voqealar) … ga aloqador. – bir xil libos kiyib olgan qo‘zg‘olonchilar harakati; – Xurosonning poytaxti Marvning egallanishi; – xalifalik markaziy shahri o‘zgartirilishi.",
+"opts": [
+"abbosiylarning hokimiyat tepasiga kelishi",
+"Hoshim ibn Hakim qo‘zg‘oloni",
+"umaviylarning hokimiyat tepasiga kelishi",
+"Movarounnahrda xalifalik hukmronligining tugashi"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Mustaqil O‘zbekiston tarixi va qonunchiligi bilan bog‘liq to‘g‘ri berilgan ma’lumotlarni aniqlang.",
+"opts": [
+"1, 4, 5, 6",
+"2, 3, 4, 6",
+"3, 5, 6, 7",
+"2, 3, 5, 7"
+],
+"ans": "C",
+"extra": "1) 1990-yil 20-iyunda qabul qilingan Mustaqillik deklaratsiyasi Konstitutsiya qabul qilingunga qadar Asosiy qonun rolini bajargan;\n2) Islom Karimov prezidentligi davrida O‘zbekiston Ekologik partiyasi tashkil etilib, Qonunchilik palatasining 15 deputati ekologik partiyadan saylanishi belgilandi;\n3) 1992-yilda Toshkentda birinchi bo‘lib AQSHning elchixonasi ochildi;\n4) 1992-yildan O‘zbekistonda xorijiy valyutani hech qanday cheklovlarsiz konvertatsiyalash boshlandi;\n5) Bosh vazir nomzodi saylovlarda (Oliy Majlis) eng ko‘p deputatlik o‘rinlarini olgan siyosiy partiya yoki teng miqdorda ko‘p o‘rin olgan siyosiy partiyalar tomonidan taklif etiladi;\n6) Xalq deputatlari viloyat, tuman va shahar kengashlariga 21 yoshga to‘lgan fuqarolar saylanishi mumkin;\n7) tuman va shaharlarning hokimlari tegishli viloyat hokimi tomonidan tayinlanadi va lavozimidan ozod qilinadi hamda tegishli xalq deputatlari Kengashi tomonidan tasdiqlanadi."
+},
+{
+"n": 19,
+"q": "1895-yilda imzolangan Simonoseki sulhida quyidagilardan qaysilari o‘rin olgan?",
+"opts": [
+"1, 3, 4",
+"2, 5, 6",
+"1, 4, 6",
+"2, 3, 5"
+],
+"ans": "D",
+"extra": "1) Yaponiyaga Xitoyda o‘z qo‘shinlarini saqlashga ruxsat berildi;\n2) Xitoy Koreyaning mustaqilligini tan olishi belgilandi;\n3) Xitoy Yaponiyaga katta miqdorda tovon to‘lashga majbur etildi;\n4) Xitoyga qurol-aslaha kiritish taqiqlandi;\n5) Tayvan oroli Yaponiyaga berildi;\n6) Xitoyda monarxiyani bekor qilish belgilandi"
+},
+{
+"n": 20,
+"q": "Quyida keltirilganlardan qaysilarida davlat – shaxs – voqea mos ravishda berilgan?",
+"opts": [
+"2, 3, 5, 6, 8",
+"3, 4, 5, 6, 8",
+"1, 3, 5, 6, 7",
+"1, 2, 4, 5, 7"
+],
+"ans": "A",
+"extra": "1) AQSH – Teodor Ruzvelt – Rokfellerning neft tresti ikkiga bo‘lindi;\n2) SSSR – Nikita Xrushchyov – davlat tarixida birinchi marta yengil sanoatning, xalq iste’mol mollari ishlab chiqarishning ustuvorligi belgilandi;\n3) Xitoy – Den Syaopin – davlat o‘zini oziq-ovqat mahsulotlari bilan ta’minlash muammosini hal qilib, mahsulotlarni chetga eksport qila boshladi;\n4) Buyuk Britaniya – Devid Kemeron – Iroqqa qarshi “antiterror” koalitsiyasida AQSHning asosiy ittifoqchisiga aylandi;\n5) Yaponiya – Ryutaro Xasimoto – tashqi siyosatda “yevroosiyochilik” konsepsiyasini tadbiq etishga urindi;\n6) Ispaniya – Franko – mamlakat BMTga a’zo bo‘lib kirdi;\n7) Liviya – Muammar Kaddafiy – BMT inspektorlarini AQSH foydasiga josuslik qilishda ayblab, xalqaro inspektorlarni mamlakatdan quvib chiqardi;\n8) Portugaliya – Antonio Salazar – barcha siyosiy partiyalar o‘z faoliyatini to‘xtatdi."
+},
+{
+"n": 21,
+"q": "SSSRda dinga qarshi mafkuraviy kurash olib boruvchi “Jangovar xudosizlar ittifoqi” tashkiloti va “Bezbojnik” (“Xudosiz”) jurnalining tugatilishiga nima sabab bo‘lgan?",
+"opts": [
+"pravoslavlar va musulmonlar o‘rtasida ziddiyatlarning keskinlashuvi",
+"“Qayta qurish” siyosatining asosiy maqsadi mamlakatni demokratlashtirish etib belgilanganligi",
+"dindor qatlam tomonidan tashkilot a’zolariga ommaviy terror boshlanganligi",
+"aholini Ikkinchi jahon urushiga safarbar etish zarurati"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Minorai Kalon me’moriy obidasi davlatchiligimiz tarixidagi qaysi sulola davrida bunyod etilgan?",
+"opts": [
+"qoraxoniylar",
+"somoniylar",
+"shayboniylar",
+"temuriylar"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "XX asrning ikkinchi o‘n yilligida Turkistonda nima sababdan paxtaga o‘zgarmas narx joriy etilgan?",
+"opts": [
+"fermerlarni paxta yetishtirishga rag‘batlantirish va to‘qimachilik sanoatini barqaror ta’minlash",
+"AQSH Rossiyaga paxta yetkazib berishni butunlay to‘xtatganligi",
+"mahalliy aholi har yili paxta narxini oldingi yilga nisbatan besh-olti baravar oshirib yuborishi",
+"imperiya moliyasi urushdagi talafotlar o‘rnini to‘ldirish va harbiy xarajatlar o‘sishini qoplashga sarflanayotganligi"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "O‘zaro muvofiqlik saqlangan javobni toping.",
+"opts": [
+"I-a-2; II-c-1; III-a-3; IV-b-4",
+"I-a-4; II-c-1; III-d-2; IV-b-3",
+"I-c-1; II-d-2; III-b-4; IV-a-3",
+"I-a-4; II-a-3; III-b-4; IV-c-2"
+],
+"ans": "B",
+"extra": "I. Qadimgi Yunoniston; II. Qadimgi Hindiston\nIII. Mesopotamiya; IV. Qadimgi Misr;\na) Apollon; b) Tot; c) Indra; d) Ea;\n1) momaqaldiroq xudosi;\n2) suv xudosi;\n3) donishmandlik xudosi;\n4) yorug‘lik xudosi."
+},
+{
+"n": 27,
+"q": "Yangi Bobil hukmdori Navuxodonosor II tomonidan vayron qilib tashlangan hudud (shahar) nechanchi raqam bilan berilgan?",
+"opts": [
+"1",
+"2",
+"3",
+"4"
+],
+"ans": "A",
+"img": "img/dtm/bmba-10-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi grafikda qaysi raqamlar ostida asar va uning muallifi bir-biriga muvofiq keladi?",
+"opts": [
+"1, 4, 6, 8",
+"2, 3, 6, 8",
+"1, 4, 5, 7",
+"2, 3, 5, 7"
+],
+"ans": "D",
+"img": "img/dtm/bmba-10-28.jpg"
+}
+]
+}

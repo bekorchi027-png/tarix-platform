@@ -153,6 +153,19 @@ textarea{resize:vertical;min-height:180px;line-height:1.5}
 .order li.bad{border-color:var(--bad);background:var(--bad-soft)}
 .order .yr{font-family:var(--mono);font-weight:600}
 
+/* DTM block */
+.dtm-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.dtm-list a{display:grid;gap:6px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--sheet);color:var(--ink);text-decoration:none}
+.dtm-list a:hover{border-color:var(--accent)}
+.dtm-list b{font-size:17px}.dtm-list small{color:var(--muted);font-size:13px}
+.qnav{display:flex;flex-wrap:wrap;gap:6px}
+.qnav button{width:38px;height:38px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:8px;font:600 14px var(--mono);cursor:pointer}
+.qnav button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.qnav button.cur{outline:2px solid var(--accent);outline-offset:2px}
+.qnav button.ok{background:var(--ok-soft);border-color:var(--ok)}.qnav button.bad{background:var(--bad-soft);border-color:var(--bad)}
+.timer{font-family:var(--mono);font-size:20px;font-weight:600}.timer.low{color:var(--bad)}
+.review{display:grid;gap:18px}.review .qbox{padding-top:14px;border-top:1px solid var(--line)}
+
 /* Flashcards */
 .flash{perspective:1200px;cursor:pointer;min-height:260px}
 .flash .in{position:relative;min-height:260px;transition:transform .45s;transform-style:preserve-3d}
@@ -203,19 +216,33 @@ async function bank(){
       open.push({...src, q:it.q, extra:it.extra||"", img:imgSrc(it.img), part:"b", ask:it.qb, ansTxt:it.showB});
     }
   }));
-  BANK = {variants:list, closed, open};
+  // DTM (BMBA) block variants: dtm/index.json → items {n,q,opts,ans,extra?,img?}
+  let dtm = [];
+  try{
+    const di = await (await fetch("dtm/index.json",{cache:"no-cache"})).json();
+    dtm = await Promise.all(di.map(v => fetch(v.file,{cache:"no-cache"}).then(r=>r.json()).then(d=>({...v, items:d.items})).catch(()=>({...v, items:[]}))));
+    dtm.forEach(v => v.items.forEach(it => {
+      if(it.opts && it.opts.length===4 && LET.includes(it.ans)) closed.push({vid:"dtm:"+v.id, vtitle:"DTM · "+v.title, src:v.src, self:!!v.self, n:it.n, q:it.q, extra:it.extra||"", img:it.img||"", opts:it.opts, ans:LET.indexOf(it.ans), section:"DTM"});
+    }));
+  }catch(e){ console.warn("DTM bazasi yuklanmadi", e); }
+  BANK = {variants:list, closed, open, dtm};
   return BANK;
 }
 function pickQuestions(n, opt={}){
   let pool = BANK.closed;
-  if(opt.vid && opt.vid!=="all") pool = pool.filter(q=>q.vid===opt.vid);
+  if(opt.vid==="ms") pool = pool.filter(q=>!q.vid.startsWith("dtm:"));
+  else if(opt.vid==="dtm") pool = pool.filter(q=>q.vid.startsWith("dtm:"));
+  else if(opt.vid && opt.vid!=="all") pool = pool.filter(q=>q.vid===opt.vid);
   if(opt.pics==="img") pool = pool.filter(q=>q.img);
   if(opt.pics==="noimg") pool = pool.filter(q=>!q.img);
   if(opt.section && opt.section!=="all") pool = pool.filter(q=>q.section===opt.section);
   return shuffle(pool).slice(0, n);
 }
 function variantSelect(id, withAll=true){
-  return `<select id="${id}">${withAll?`<option value="all">Barcha variantlardan aralash</option>`:""}${BANK.variants.map(v=>`<option value="${v.id}">${esc(v.title)}</option>`).join("")}</select>`;
+  const dn = BANK.closed.filter(q=>q.vid.startsWith("dtm:")).length;
+  return `<select id="${id}">${withAll?`<option value="all">Hammasi aralash (Milliy sertifikat + DTM)</option><option value="ms">Milliy sertifikat variantlaridan</option>${dn?`<option value="dtm">DTM testlaridan (${dn} ta savol)</option>`:""}`:""}
+    <optgroup label="Milliy sertifikat">${BANK.variants.map(v=>`<option value="${v.id}">${esc(v.title)}</option>`).join("")}</optgroup>
+    ${BANK.dtm.length?`<optgroup label="DTM (BMBA)">${BANK.dtm.map(v=>`<option value="dtm:${v.id}">${esc(v.title)}</option>`).join("")}</optgroup>`:""}</select>`;
 }
 function qHtml(q, opts={}){
   return `<div class="qbox">
@@ -224,13 +251,14 @@ function qHtml(q, opts={}){
     ${q.extra && !/^33–35-savollar/.test(q.extra) ? `<pre class="extra">${esc(q.extra)}</pre>`:""}
     ${q.img?`<img class="qimg" src="${esc(q.img)}" alt="Topshiriq rasmi">`:""}
     <div class="tiles">${q.opts.map((o,i)=>`<button class="tile" data-c="${i}" type="button"><span class="l">${LET[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
-    <p class="note">Manba: ${esc(q.vtitle)}, ${q.n}-topshiriq</p>
+    <p class="note">Manba: ${esc(q.vtitle)}, ${q.n}-topshiriq${q.src?` · ${esc(q.src)}`:""}${q.self?` · javob kaliti O'zing O'rgan tomonidan yechilgan`:""}</p>
   </div>`;
 }
 const points = (ok, msLeft, dur) => ok ? Math.round(500 + 500*Math.max(0, msLeft)/(dur*1000)) : 0;
 
 // ---------- Hub ----------
 const ICON = {
+  dtm:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h12l4 4v12H4z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg>',
   carx:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg>',
   viktorina:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>',
   jonli:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="9" r="3"/><circle cx="17" cy="9" r="3"/><path d="M2 20c.5-3.5 3-5 6-5s5.5 1.5 6 5M13 15.5c1-.4 2.3-.5 4-.5 3 0 5.5 1.5 5.5 5"/></svg>',
@@ -240,6 +268,7 @@ const ICON = {
   kartochka:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>'
 };
 const MODES = [
+  ["dtm","DTM testlari","BMBA namunasidagi 30 talik bloklar: 3,1 ballik savollar, vaqt va tahlil bilan. Variant tanlang yoki tasodifiy blok yeching.","Yakka"],
   ["carx","Tasodifiy g'ildirak","O'quvchilar ismini kiriting, g'ildirak aylanib kimdadir to'xtaydi. Xohlasangiz, unga tasodifiy savol chiqadi.","Darsda"],
   ["viktorina","Tezkor viktorina","Vaqtga qarshi 10–20 savol. Tez va to'g'ri javob ko'proq ball beradi, haftalik reyting bor.","Yakka"],
   ["jonli","Jonli bellashuv","O'qituvchi savollarni ekranga chiqaradi, o'quvchilar telefondan PIN kod bilan qo'shilib javob beradi.","Sinf bilan"],
@@ -720,8 +749,70 @@ async function viewKartochka(){
   }
 }
 
+// ---------- DTM (BMBA) blocks: 30 questions × 3.1 points, about 2 minutes per question ----------
+const DTM_PT = 3.1, DTM_SEC = 120;
+const fmt1 = x => String(Math.round(x*10)/10).replace(".", ",");
+async function viewDtm(arg){
+  await bank();
+  if(!BANK.dtm.length){ $("#app").innerHTML = `<div class="card"><h2>DTM testlari yuklanmadi</h2><p>Sahifani yangilab ko'ring.</p>${back}</div>`; return; }
+  if(arg) return dtmRun(arg);
+  const best = store.get("oz-dtm-best", {}), total = BANK.closed.filter(q=>q.vid.startsWith("dtm:")).length;
+  $("#app").innerHTML = `<div class="head"><h1>DTM testlari</h1><span class="sp"></span>${back}</div>
+  <div class="card">
+    <p>Oliy ta'limga kirish imtihoni (BMBA) namunasidagi tarix bloklari. Har bir savol <b>3,1 ball</b>, 30 talik blok uchun eng yuqori ball <b>93</b>. Har savolga taxminan 2 daqiqa vaqt beriladi. Javobni o'zgartirish va savollar orasida o'tish mumkin, yakunlagach har bir savol tahlili chiqadi.</p>
+    <div class="row"><a class="btn big" href="#dtm/tasodifiy" style="text-decoration:none;display:grid;place-items:center">Tasodifiy 30 savollik blok</a></div>
+    <p class="note">Bazada hozircha ${total} ta DTM savoli bor. Bu savollar Tezkor viktorina, Jonli bellashuv va G'ildirakda ham «Manba» ro'yxatidan tanlanadi.</p>
+  </div>
+  <h2 style="font-size:22px;margin:22px 0 10px">Variantlar</h2>
+  <div class="dtm-list">${BANK.dtm.map(v=>`<a href="#dtm/${v.id}"><b>${esc(v.title)}</b><small>${v.n} ta savol · ${esc(v.src)}</small>${v.self?`<small>Javob kaliti O'zing O'rgan tomonidan yechilgan; aniq bo'lmagan savollar kiritilmagan.</small>`:""}${best[v.id]!=null?`<small>Eng yaxshi natijangiz: <b>${fmt1(best[v.id])}</b> ball</small>`:""}</a>`).join("")}</div>`;
+}
+function dtmRun(id){
+  let Q, title;
+  if(id==="tasodifiy"){ Q = pickQuestions(30, {vid:"dtm"}); title = "Tasodifiy DTM bloki"; }
+  else {
+    const v = BANK.dtm.find(x=>x.id===id);
+    if(!v){ location.hash = "#dtm"; return; }
+    Q = BANK.closed.filter(q=>q.vid==="dtm:"+id).sort((a,b)=>a.n-b.n); title = v.title;
+  }
+  const N = Q.length, A = Array(N).fill(-1), end = Date.now() + N*DTM_SEC*1000;
+  let cur = 0, timer = 0, done = false;
+  $("#app").innerHTML = `<div class="head"><h1>${esc(title)}</h1><span class="sp"></span><a class="btn ghost" href="#dtm">← DTM testlari</a></div><div class="card" id="dx"></div>`;
+  const box = $("#dx");
+  const clock = () => { const left = Math.max(0, end-Date.now()), m = Math.floor(left/60000), s = Math.floor(left/1000)%60; return `${m}:${String(s).padStart(2,"0")}`; };
+  function show(){
+    const q = Q[cur];
+    box.innerHTML = `<div class="stats"><span>Savol <b>${cur+1}</b>/${N}</span><span>Belgilangan <b>${A.filter(x=>x>=0).length}</b></span><span>Qolgan vaqt <b class="timer" id="tm">${clock()}</b></span></div>
+      <div class="qnav">${Q.map((_,i)=>`<button type="button" data-i="${i}" class="${A[i]>=0?"on":""} ${i===cur?"cur":""}">${i+1}</button>`).join("")}</div>
+      ${qHtml(q)}
+      <div class="row"><button class="btn ghost" id="pv" type="button" ${cur?"":"disabled"}>← Oldingi</button><span style="flex:1"></span>${cur+1<N?`<button class="btn ghost" id="nx" type="button">Keyingi →</button>`:""}<button class="btn" id="fin" type="button">Yakunlash</button></div>`;
+    $$("#dx .tile").forEach((t,k)=>{ if(k===A[cur]) t.classList.add("mine"); t.onclick = () => { A[cur] = k; if(cur+1<N) cur++; show(); }; });
+    $$("#dx .qnav button").forEach(b => b.onclick = () => { cur = +b.dataset.i; show(); });
+    $("#pv").onclick = () => { cur--; show(); };
+    if($("#nx")) $("#nx").onclick = () => { cur++; show(); };
+    $("#fin").onclick = () => { const e = A.filter(x=>x<0).length; if(!e || confirm(`${e} ta savolga javob belgilanmagan. Baribir yakunlaysizmi?`)) finish(); };
+  }
+  function finish(){
+    if(done) return; done = true; clearInterval(timer);
+    const right = Q.filter((q,i)=>A[i]===q.ans).length, ball = right*DTM_PT, max = N*DTM_PT;
+    if(id!=="tasodifiy"){ const b = store.get("oz-dtm-best", {}); if(b[id]==null || ball>b[id]){ b[id] = ball; store.set("oz-dtm-best", b); } }
+    box.innerHTML = `<div class="eyebrow">Blok yakunlandi</div><h2 style="font-size:32px"><span class="num">${fmt1(ball)}</span> ball <span class="note" style="font-size:18px">/ ${fmt1(max)}</span></h2>
+      <p>${N} ta savoldan <b>${right}</b> tasiga to'g'ri javob berdingiz (${Math.round(100*right/N)}%).</p>
+      <div class="row"><button class="btn" id="again" type="button">Qayta yechish</button><a class="btn ghost" href="#dtm">Boshqa variant</a></div>
+      <h3 style="font-size:20px;margin-top:10px">Tahlil</h3>
+      <div class="qnav">${Q.map((q,i)=>`<button type="button" data-i="${i}" class="${A[i]===q.ans?"ok":"bad"}">${i+1}</button>`).join("")}</div>
+      <div class="review">${Q.map((q,i)=>`<div id="rv${i}">${qHtml(q,{top:`<div class="eyebrow">${i+1}-savol · ${A[i]===q.ans?"to'g'ri":A[i]<0?"belgilanmagan":"noto'g'ri"}</div>`})}</div>`).join("")}</div>`;
+    Q.forEach((q,i)=>$$(`#rv${i} .tile`).forEach((t,k)=>{ t.disabled = true; t.classList.toggle("right", k===q.ans); t.classList.toggle("dim", k!==q.ans && k!==A[i]); if(k===A[i]) t.classList.add("mine"); }));
+    $$("#dx .qnav button").forEach(b => b.onclick = () => $("#rv"+b.dataset.i).scrollIntoView({behavior:"smooth", block:"start"}));
+    $("#again").onclick = () => dtmRun(id);
+    window.scrollTo(0,0);
+  }
+  timer = setInterval(() => { const t = $("#tm"); if(t){ t.textContent = clock(); t.classList.toggle("low", end-Date.now() < 5*60000); } if(Date.now()>=end) finish(); }, 1000);
+  cleanup = () => clearInterval(timer);
+  show();
+}
+
 // ---------- Router ----------
-const VIEWS = {carx:viewCarx, viktorina:viewViktorina, jonli:viewJonli, xarita:viewXarita, joylar:viewJoylar, xronologiya:viewXronologiya, kartochka:viewKartochka};
+const VIEWS = {dtm:viewDtm, carx:viewCarx, viktorina:viewViktorina, jonli:viewJonli, xarita:viewXarita, joylar:viewJoylar, xronologiya:viewXronologiya, kartochka:viewKartochka};
 async function route(){
   if(cleanup){ try{ cleanup(); }catch(e){} cleanup = null; }
   // "#name/arg?key=value": the query part carries deep-link options (see joylar.js)

@@ -1,0 +1,237 @@
+{
+"id": "bmba-06",
+"items": [
+{
+"n": 2,
+"q": "Quyidagi berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. XVII asr ikkinchi yarmi XVIII asr boshlarida parchalanayotgan imperiyani saqlab qolishning yo‘li sifatida islom dini qoidalarini qat’iy joriy qilishga kirishdi. Musulmon bo‘lmaganlardan olinadigan jizya solig‘ini qayta tikladi, hindlar uchun qolgan barcha soliqlarni ikki hissaga oshirdi, ularga o‘z bayramlarini nishonlashni taqiqladi, hind ibodatxonalarini buzib tashlashni buyurdi. Oqibatda, mamlakat bo‘ylab xalq qo‘zg‘olonlari boshlanib ketdi.",
+"opts": [
+"Avrangzeb Olamgir",
+"Humoyunshoh",
+"Amir Abdurahmon",
+"Amir Do‘stmuhammadxon"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Quyidagilardan turli davlatlarda XIV asrda hokimiyatga kelgan sulolalarni aniqlang.",
+"opts": [
+"Min va Tyudorlar",
+"Yuan va Li",
+"Yuan va Tyudorlar",
+"Min va Li"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Xamurappi qonunlarining qadimgi Bobil davlati uchun muhim bo‘lgan jihatini aniqlang.",
+"opts": [
+"jamiyatda talon-taroj va o‘g‘rilik kabi jinoyatlarni to‘xtatishda katta ahamiyatga ega bo‘ldi",
+"Qurg‘oqchilikka barham bergan",
+"Yirik shaharlarning shakllanishida muhim rol o‘ynagan",
+"Bobil va qo‘shni o‘lkalar o‘rtasida savdo ishlarida muhim rol o‘ynagan"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Quyidagi tarixiy ma’lumot qaysi davlat haqida ekanligini aniqlang. IX asrning birinchi yarmida Xurosonda hukmronligi boshlangan, davlat poytaxti Marv, keyinchalik Nishopur shaharlari hisoblangan, Talxa va Abul Abbos Abdulloh kabi hukmdorlar davlatni boshqargan.",
+"opts": [
+"Safforiylar davlati",
+"Turk xoqonligi",
+"Somoniylar davlati",
+"Tohiriylar davlati"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Quyidagi berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1 – a, 2 – b",
+"1 – a, 2 – d",
+"1 – b, 2 – d",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-06-8.jpg"
+},
+{
+"n": 9,
+"q": "O‘rta asrlarda qaysi amerika xalqlari maxsus tepaliklar yasab, baland poydevorlar ustida oʻzlarining zinapoyali ehromlarini, saroy va ibodatxonalarini barpo etganlar?",
+"opts": [
+"mayyalar",
+"asteklar",
+"kechualar",
+"olmeklar"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "O‘zaro muvofiqlik saqlangan javobni toping.",
+"opts": [
+"I-c-1; II-a-2; III-b-4; IV-d-3",
+"I-d-1; II-a-3; III-b-4; IV-c-2",
+"I-c-2; II-d-1; III-a-3; IV-b-4",
+"I-a-4; II-d-2; III-c-1; IV-b-3"
+],
+"ans": "A",
+"extra": "I. Qadimgi Misr; II. Qadimgi O‘rta Osiyo;\nIII. Mesopotamiya; IV. Qadimgi Hindiston;\na) Anahita; b) Sina; c) Anubis; d) Ganesha;\n1) marhumlar va mumiyolanganlar xudosi;\n2) hosildorlik va suv ilohasi;\n3) donishmandlik xudosi;\n4) Oy xudosi."
+},
+{
+"n": 14,
+"q": "Quyidagilardan XVIII asrda bo‘lgan voqeani aniqlang.",
+"opts": [
+"Orenburgda Buxoro amirligi savdogarlarining qarorgohi qurildi",
+"Angliyaning Virjiniyadagi ilk manzilgohi – Jeymstaun tashkil qilindi",
+"Buyuk rus olimi M.V. Lomonosov tashabbusi bilan Moskva universitetitashkil qilindi",
+"Xiva xonligi Subxonqulixon tomonidan Buxoro tasarrufiga kiritildi"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Rossiya tarixiga oid ma’lumotlarning qaysi birida xatolikka yo‘l qo‘yilgan? (XIX asr oxiri – XX asr boshlari)",
+"opts": [
+"1883-yilda G.V.Plexanov “Mehnatni ozod qilish” guruhini tuzdi",
+"1895-yilda Peterburgda “Ishchilar sinfini ozod qilish uchun kurash ittifoqi” tuzildi",
+"G.V. Plexanov boshchiligidagi “Mehnatni ozod qilish” guruhi dehqonlar sinfini inqilobiy kuch deb hisoblagan",
+"G.V. Plexanov boshchiligidagi guruh hokimiyatni qurolli qo‘zg‘alon yo‘li bilan bosib olishga qarshi va jamiyatni islohotlar yo‘li bilan yangilash tarafdori edi"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi shaharda XIX asr oxiri XX asr boshlarida Rossiya–Osiyo va  Sibir savdo  bankining  bo‘limlari,  pochta-telegraf idorasi,  komission va  sug‘urta jamiyatlarining  vakolatxonalari  ochilgan?",
+"opts": [
+"Qo‘ng‘irot",
+"Gurlan",
+"Yangi Urganch",
+"Xiva"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Quyidagi O‘rta asrlar Yevropa me’morchiligida mavjud bo‘lgan uslublarda qurilgan me’morchilik inshootlari mos ravishda ko‘rsatilgan javobni toping.",
+"opts": [
+"1-a, 2-c, 3-b",
+"1-b, 2-c, 3-d",
+"1-d, 2-c, 3-b",
+"1-b, 2-c, 3-a"
+],
+"ans": "D",
+"extra": "1) gotika uslubi;\n2) roman uslubi;\n3) vizantiya uslubi;\na) Dojlar saroyi;\nb) Bibi Maryam ibodatxonasi;\nc) Puate ibodatxonasi; d) Al-Hamro saroyi"
+},
+{
+"n": 20,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni aniqlang.",
+"opts": [
+"1 –a, 2 – d",
+"1 – b, 2 – d",
+"1 – b, 2 – c",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-06-20.jpg"
+},
+{
+"n": 21,
+"q": "Quyidagi voqealarni tahlil qilib EylerVenn diogrammasiga mos keladigan to‘g‘ri javobni toping. Usmon Yusupov  Sharof Rashidov",
+"opts": [
+"I – 1,2; II – 3,6; III – 5",
+"I – 1,4; II – 2,6; III – 5",
+"I – 1,4; II – 3,6; III – 5",
+"I – 1,3; II – 4,6; III – 5"
+],
+"ans": "C",
+"extra": "1) Ikkinchi jahon urushi yillarida o‘zbekistonliklarni fashizmga qarshi kurashga safarbar qilishga bosh-qosh bo‘lgan;\n2) 1947–1950-yillarda O‘zbekiston SSR Oliy Soveti Prezidiumi raisi lavozimida ishlagan;\n3) 1950–1959-yillarda O‘zbekiston SSR Oliy Soveti Prezidiumi raisi lavozimida ishlagan;\n4) 1953–1954-yillarda O‘zbekiston SSR Ministrlar Soveti raisi bo‘lib ishlagan;\n5) O‘zbekiston Kompartiyasi MKning birinchi sekretari lavozimida ishlagan;\n6) Toshkent metropoliteni qurilishi uning tashabbusi bilan boshlangan.",
+"img": "img/dtm/bmba-06-21.jpg"
+},
+{
+"n": 23,
+"q": "Quyidagi tarixiy ma’lumot qaysi davlat haqida ekanligini aniqlang. “Ushbu davlatda burjua inqilobi XVII asrda boshlandi. Ushbu inqilob natijasida mutlaq monarxiya tuzumi ag‘darib tashlandi. Ushbu davlatda yuz bergan burjua inqilobi va uning g‘oyalari boshqa Yevropa mamlakatlari rivojiga katta ta’sir ko‘rsatdi. Inqilob e’lon qilgan siyosiy tamoyillar va o‘rnatilgan iqtisodiy tartib yangi industrial sivilizatsiyaga asos bo‘ldi.”",
+"opts": [
+"Angliya",
+"Fransiya",
+"AQSH",
+"Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Quyidagilardan to‘g‘ri mantiqiy ketma-ketlik(moslik) berilgan javobni aniqlang.",
+"opts": [
+"Neolit – doimiy turar joylar – xom g‘ishtdan ko‘p xonali uylar – kulolchilik va to‘quvchilik",
+"Eneolit – Qadimgi Sharqda ilk shahar va davlatlarning vujudga kelishi – O‘rta Osiyo janubida sun’iy sug‘orishga asoslangan dehqonchilik",
+"Bronza – Zamonbobo,Sopollitepa – Zarautsoy – kulolchilik charxi va g‘ildirak",
+"So‘nggi paleolit – urug‘ jamolariga birlashuv – o‘q-yoyning kashf etilishi – sun’iy olov"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Quyidagilardan Urush paytlarida qoraqalpoqlar Xiva xonligiga to‘lagan (a) va Qo‘qon xonligida harbiy xarajatlarni qoplash uchun joriy etilgan (b) soliqlarni aniqlang.",
+"opts": [
+"a – miltiq puli; b – jo‘l solig‘i",
+"a – qalqon puli; b – madadi lashkar",
+"a – qozon puli; b – miltiq puli",
+"a – ushr solig‘i; b – zobitona"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "O‘zbekiston 1920-yil 6-8-oktabrda Butunbuxoro xalq vakillarining I qurultoyida BXSR tuzilganligi e’lon qilingach, BXSRning dastlabki hukumati tarkibiga kiritilgan shaxslarni ular egallagan lavozimlari bilan mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-a, 2-c, 3-d, 4-f, 5-b, 6-g, 7-i, 8-e, 9-h",
+"1-e, 2-g, 3-f, 4-a, 5-b, 6-c, 7-d, 8-i, 9-h",
+"1-e, 2-g, 3-h, 4-a, 5-f, 6-c, 7-b, 8-i, 9-d",
+"1-a, 2-c, 3-f, 4-g, 5-b, 6-i, 7-d, 8-e, 9-h"
+],
+"ans": "B",
+"extra": "1) Fayzulla Xo‘jayev;\n2) Qori Yo‘ldosh Po‘latov;\n3) Muxtorjon Saidjonov;\n4) Usmon Xo‘ja;\n5) Najib Husainov;\n6) Y. Ibrohimov;\n7) Mukammal Burhonov;\n8) Mirzo Muhiddin Mansurov;\n9) Shihobuddinov;\na) moliya noziri; b) davlat nazorati noziri;\nc) favqulodda komissiya raisi; d) adliya noziri;\ne) tashqi ishlar noziri; f) ichki ishlar noziri;\ng) maorif noziri; h) harbiy ishlar noziri;\ni) savdo va sanoat noziri"
+},
+{
+"n": 28,
+"q": "Xaritada ajratib ko‘rsatilgan davlat tarixiga oid ma’lumotlarni aniqlang.",
+"opts": [
+"2, 3",
+"3, 4",
+"2, 4",
+"2, 6"
+],
+"ans": "C",
+"extra": "1) 1881-yilda birinchi temiryo‘l ishga tushirildi;\n2) 1876-yilda moliyaviy bankrot deb e’lon qilindi;\n3) 1857-yilda Buyuk Britaniya bilan “Parij tinchlik shartnomasi” ni tuzdi;\n4) XVI asrda Liviyani o‘ziga qo‘shib oldi;\n5) XII asrda asos solindi;\n6) XVI asr boshlarida Jazoirga bostirib kirdi va uning qirg‘oq hududlarini egallab oldi.",
+"img": "img/dtm/bmba-06-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi o‘zaro mos berilmagan javoblar to‘liq ko‘rsatilgan qatorni aniqlang. № Voqea N atija 1. San Stefano shartnomasi Bosniya va Gersogovina AvstriyaVengriyaga in’om etildi 2. Yaponiya – Xitoy urushi Yaponiya Penxu orolini qo‘lga kiritdi 3. Afg‘onistonda Abdurahmon hokimiyatining o‘rnatilishi Afg‘onistonning yopiq davlatga aylanishi 4. Fransiya burjua inqilobi Inqilob feodal mulkchilikka zarba berdi, ammo tugallanmay qoldi, chunki dehqonlarni yerning to‘liq egalariga aylantirmadi 5. Rossiyaga Ernazarbiy elchiligi Buxoro amirligi va Rossiya o‘rtasida savdo aloqalarining rivojlanishi 6. Birinchi ingliz-afg‘on urushi Buyuk Britaniyaning g‘alabasi 7. Angliyada oranyelar sulolasining hokimiyatga kelishi Reformatsiyaning yakunlanishi",
+"opts": [
+"2, 3, 5, 6",
+"1, 4, 6, 7",
+"1, 3, 4, 7",
+"3, 5, 6, 7"
+],
+"ans": "B",
+"img": "img/dtm/bmba-06-29.jpg"
+},
+{
+"n": 30,
+"q": "Jadvalning harflar bilan belgilangan kataklariga mos keluvchi ma’lumotlarni aniqlang. Hukmdor Voqea Yil Tokugava Ieyasu a b c Fransiya tarixida birinchi Konstitutsiyaning qabul qilinishi 1791 d Rossiya tomonidan Alyaskaning AQShga sotilishi 1867 Mustafo III e f g Ingliz-afg‘on do‘stlik shartnomasining imzolanishi 1855",
+"opts": [
+"a-11, b-2, c-10, d-8, e-14, f-1, g-7",
+"a-12, b-3, c-10, d-9, e-13, f-4, g-6",
+"a-11, b-3, c-5, d-8, e-13, f-4, g-7",
+"a-12, b-3, c-10, d-8, e-13, f-4, g-7 ʻ « » ʻ ʻ ʻ ʻ ʻ"
+],
+"ans": "D",
+"extra": "Ma’lumotlar:\n1) 1512-y.;\n2) 1592-y.;\n3) 1603-y.;\n4) 1768-y.;\n5) Lyudovik XVIII;\n6) Fathxon;\n7) Do‘st Muhammadxon;\n8) imperator Aleksandr II;\n9) imperator Nikolay I;\n10) Lyudovik XVI;\n11) Yaponiyada imperator Meydzining taxtga chiqishi;\n12) Yaponiyada uchinchi syogunlikka asos solinishi;\n13) Rossiyaga qarshi urushning boshlanishi;\n14) Misr poytaxti Qohiraning egallanishi",
+"img": "img/dtm/bmba-06-30.jpg"
+}
+]
+}

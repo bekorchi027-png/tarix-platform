@@ -1,0 +1,336 @@
+{
+"id": "bmba-01",
+"items": [
+{
+"n": 1,
+"q": "Fransiyada 2017-yilda Emanuel Makronning hokimiyatga kelishi…",
+"opts": [
+"mamlakatda multikulturalizm siyosatining barbod bo‘lganligini ko‘rsatdi",
+"shu paytgacha yuqori darajada saqlanib kelayotgan ishsizlik yana ham murakkablashdi",
+"boshqa siyosiy partiyalarning obro‘yi tushib ketganligini ko‘rsatdi",
+"tashqi siyosatda Buyuk Britaniya bilan kelishmovchiliklar paydo bo‘ldi"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Quyidagi berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. XIX asrning ikkinchi yarmida u boshchiligida keng islohotlar o‘tkazilishi mamlakatni zamonaviy davlatga aylanishida muhim rol o‘yandi. Mamlakat boshqa barcha davlatlar uchun ochib qo‘yildi. Natijada, Yevropada ixtiro qilingan kashfiyotlardan foydalangan holda mamlakat sanoati tez rivojlandi. Iqtisodiy ko‘rsatkichlar bo‘yicha Yevropa davlatlariga yetib oldi va ba’zilaridan o‘zib ketdi.",
+"opts": [
+"Qirol Yongjo",
+"Kassa",
+"Amir Abdurahmon",
+"Mutsixito"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Quyidagi berilgan ma’lumotlardan qaysilari Eftallar davlati tarixiga oid?",
+"opts": [
+"1, 4",
+"2, 3",
+"1, 3",
+"2, 4"
+],
+"ans": "B",
+"extra": "1) o‘n ming qo‘shin qo‘mondoni “shod” deb atalgan;\n2) taxt otadan bolaga qolmay, shu suloladan kim loyiq deb topilsa o‘sha taxtga o‘tirishi belgilangan;\n3) V asr o‘rtalarida o‘zaro aloqalar o‘rnatish uchun Xitoyga elchi yuborgan;\n4) davlatning markazi Oltoy qilib belgilangan."
+},
+{
+"n": 4,
+"q": "O‘rta Osiyoga arablar bosqini arafasida Xorazmda qaysi sulola hukmronlik qilayotgan edi?",
+"opts": [
+"Ma’muniylar",
+"Anushteginiylar",
+"Afrig‘iylar",
+"Siyovushlar"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagi ma’lumotlarni qaysi hukmdor davrida sodir bo‘lganligi bo‘yicha to‘g‘ri muvofiqlashtiring.",
+"opts": [
+"1-c, 2-f, 3-e, 4-a",
+"1-c, 2-g, 3-d, 4-a",
+"1-c, 2-f, 3-d, 4-a",
+"1-c, 2-f, 3-d, 4-b"
+],
+"ans": "C",
+"extra": "1) Uning farmoniga ko‘ra mamlakatda xalq maktablari joriy etilgan;\n2) Uning hukmronligi davrida Rusda maorif yuksalgan;\n3) Eski anglsaks qonunlarini yozishni va Angliya tarixiga oid ma’lumotlarni to‘plashni buyuradi;\n4) Uning davrida yangi qonun chiqarilib, u o‘g‘il voris bo‘lmasa, yerni avvalgidek jamoaga emas,marhumning qizi,singlisi yoki ukasiga o‘tish huquqini tasdiqlaydi.\na) Xilperik; b) Xlodvig; c) Buyuk Karl;\nd) Buyuk Alfred; e) Amvrosiy Avrelian;\nf) Yaroslav; g) Vladimir."
+},
+{
+"n": 7,
+"q": "Nuqtalar o‘rniga mos keluvchi javobni aniqlang. O‘rta asrlar:",
+"opts": [
+"Ismoil I; Mahmud",
+"Yaqub ibn Lays; Sobuqtegin",
+"Amr ibn Lays; Qutbiddin Oyboq",
+"Nuh II; Alptegin"
+],
+"ans": "B",
+"extra": "1) Somoniylar davlati – Nasr II;\n2) Tohiriylar davlati – Abul Abbos Abdulloh;\n3) Safforiylar davlati – …;\n4) G‘aznaviylar davlati – … ."
+},
+{
+"n": 8,
+"q": "Quyidagi berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1 –b, 2 – d",
+"1 – b, 2 – c",
+"1 – a, 2 – c",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-01-8.jpg"
+},
+{
+"n": 9,
+"q": "2017-yilda BMT ning 72-sessiyasida mamlakatimiz rahbari uchrashgan Xalqaro valuta jamg‘armasi farmoyish beruvchi direktori (a) va Jahon banki prezidenti (b) to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"a – 1, b – 2",
+"a – 2, b – 3",
+"a – 2, b – 4",
+"a – 3, b – 4"
+],
+"ans": "C",
+"extra": "1) Zayd Raad al-Husayn;\n2) Kristin Lagard;\n3) Rumen Rudev;\n4) Jim Yeng Kim."
+},
+{
+"n": 10,
+"q": "Quyidagilardan Rossiya imperiyasining oxirgi imperatori (a) va Turkistonning so‘nggi general-gubernatori (b) berilgan javobni aniqlang.",
+"opts": [
+"a-2; b-1",
+"a-2; b-4",
+"a-3; b-4",
+"a-3; b-1"
+],
+"ans": "B",
+"extra": "1) G.Rozenbax;\n2) Nikolay II;\n3) Aleksanr III;\n4) A. N. Kuropatkin."
+},
+{
+"n": 11,
+"q": "Quyidagilardan Arab xalifaligiga qarshi VIII asrning birinchi choragida bo‘lib o‘tgan qo‘zg‘olon rahbar (lar) ini aniqlang.",
+"opts": [
+"1, 5",
+"3, 4",
+"1, 2, 6",
+"2, 6"
+],
+"ans": "D",
+"extra": "1) Bobak;\n2) G‘urak;\n3) Muqanna;\n4) Abu Muslim;\n5) Rofe ibn Lays;\n6) Divashtich"
+},
+{
+"n": 12,
+"q": "Shayboniylar davrida Buxoro xonligida mavjud bo‘lgan mansablar va ularga oid bo‘lgan vazifalar to‘g‘ri muvofiqlashtirib ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1-a, 2-c, 3-d, 4-b",
+"1-d, 2-a, 3-c, 4-b",
+"1-d, 2-b, 3-c, 4-a",
+"1-a, 2-c, 3-b, 4-d"
+],
+"ans": "B",
+"extra": "1) Parvonachi;\n2) Dodxoh;\n3) Otaliq;\n4) Ko‘kaldosh.\na) dargohga  tushgan  arizalarni  qabul  qilgan va  ularga  javob  qaytargan; b) xon siyosatiga  fuqarolarning  munosabatini o‘rgangan  va  bu  siyosatning  daxlsizligini ta’minlagan; c) Xon  siyosatining viloyatlardagi  ta’siri  shu mansabga tayinlanganlaring  nufuzi  bilan belgilangan;\nd) xon  farmonlarini,  rasmiy  hujjatlarni mas’ul  shaxslarga,  ijrochilarga yetkazishdan iborat  bo‘lgan.",
+"img": "img/dtm/bmba-01-12.jpg"
+},
+{
+"n": 13,
+"q": "Quyidagilardan 1800-1870-yillar tarixiga oid bo‘lganlarini aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 3, 6",
+"2, 5, 6"
+],
+"ans": "B",
+"extra": "1) II Internatsional;\n2) Bobiylar qo‘zg‘oloni;\n3) “Ems depeshasi”;\n4) “Dekabristlar harakati”;\n5) “Uchlar ittifoqi”;\n6) Taypinlar davlati."
+},
+{
+"n": 14,
+"q": "Quyidagilardan XV asrda hokimiyatga kelgan shaxsni aniqlang.",
+"opts": [
+"Sechjon Buyuk",
+"Muhammad Tug‘luq",
+"Sundiata Keyt",
+"O‘zbekxon"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Nomuvofiqlikka yo‘l qo‘yilgan javobni aniqlang. (qadimgi diniy e’tiqodlar)",
+"opts": [
+"Sina – oy ma’budi",
+"Demetra – dehqonchilik ma’budi",
+"Mars – urush xudosi",
+"Xatxor – adolat va haqiqat ilohasi"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Quyidagilardan VII (a) va IX (b) asrda vujudga kelgan davlatlar to‘g‘ri muvofiqlashtirilgan javobni aniqlang.",
+"opts": [
+"a – 3, b – 5",
+"a – 3, b – 4",
+"a – 3, b – 1",
+"a – 3, b – 6"
+],
+"ans": "C",
+"extra": "1) Kiyev Rusi;\n2) Chexiya;\n3) Bolgariya;\n4) Polsha;\n5) Muqaddas Rim imperiyasi;\n6) Franklar davlati."
+},
+{
+"n": 17,
+"q": "Mualliflar va ularning asarlari to‘g‘ri muvofiqlashtirilgan javobni aniqlang.",
+"opts": [
+"1 –b, 2 – d",
+"1 – b, 2 – c",
+"1 – b, 2 – a",
+"1 – a, 2 – c"
+],
+"ans": "B",
+"img": "img/dtm/bmba-01-17.jpg"
+},
+{
+"n": 18,
+"q": "Germaniyada 1891-yildan  boshlab…",
+"opts": [
+"2, 4, 5",
+"1, 3, 4",
+"1, 4, 5",
+"1, 2, 5"
+],
+"ans": "C",
+"extra": "1) yakshanba  dam  olish  kuni  deb belgilandi;\n2) haftada 54 soatlik ish kuni belgilandi;\n3) 10 yoshdan katta bolalarga umumiy bepul majburiy ta’lim joriy qilindi;\n4) 13  yoshdan kichik bo‘lgan  bolalar  mehnati  taqiqlandi;\n5)  Xotin-qizlar  uchun  11  soatlik  ish kuni joriy  qilindi."
+},
+{
+"n": 19,
+"q": "Quyidagi voqealarni to‘g‘ri xronologik ketma-ketlikda joylashtiring.",
+"opts": [
+"1, 4, 3, 2",
+"4, 1, 3, 2",
+"1, 3, 4, 2",
+"1, 2, 4, 3"
+],
+"ans": "C",
+"extra": "1) Kidariylar davlati va sosoniylar o‘rtasida harbiy to‘qnashuv yuz berdi;\n2) Turklar eftallar davlatiga bostirib kirdi;\n3) Pero‘z eftallarga qarshi yurishi natijasida halok bo‘ldi;\n4) Turk xoqonligi Sirdaryo va Orolgacha bo‘lgan yerlarni bosib oldi;"
+},
+{
+"n": 20,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni aniqlang.",
+"opts": [
+"1 –a, 2 – d",
+"1 – b, 2 – c",
+"1 – b, 2 – a",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-01-20.jpg"
+},
+{
+"n": 21,
+"q": "Quyidagi voqealarni tahlil qilib EylerVenn diogrammasiga mos keladigan to‘g‘ri javobni toping. O‘rta asrlarda Polsha         Chexiya",
+"opts": [
+"I-1, 5; II-2, 3; III-4",
+"I-1, 4; II-2, 3; III-5",
+"I-1, 3; II-2, 5; III-4",
+"I-2, 5; II-1, 3; III-4"
+],
+"ans": "A",
+"extra": "1) bu davlatning hukmdori kuchli  qo‘shin bilan  Moraviya  va  Chexiyani  bosib  oladi;\n2) Vatslav yoshligidan  xristian  aqidalari bo‘yicha  tarbiyalangan,  keyinchalik  bor kuchi  bilan  dinning bu davlatda yoyilishiga harakat  qilgan;\n3) Vltava daryosi  havzasida vujudga kelgan;\n4) X asrda vujudga kelgan;\n5) Gnezno  atroflarida yashagan slavyan qabilalari ushbu davlatga asos solgan.",
+"img": "img/dtm/bmba-01-21.jpg"
+},
+{
+"n": 22,
+"q": "Ma’lumki, sharqiy slavyanlar taklifiga koʻra, uch aka-uka Rusga kelib, hokimlik qila boshlaydilar. Qaysi javobda ular hukmronlik qilgan shaharlar oʻzaro muvofiqlashtirib berilgan?",
+"opts": [
+"1-c, 2-b, 3-a",
+"1-b, 2-c, 3-a",
+"1-a, 2-b, 3-c",
+"1-c, 2-a, 3-b"
+],
+"ans": "B",
+"extra": "1) Ryurik;\n2) Sineus;\n3) Truvor.\na) Izborsk b) Novgorod c) Beloozero"
+},
+{
+"n": 23,
+"q": "Quyidagilardan XIX asr oxirida temir rudasi qazib chiqarish (a) va kimyo sanoati (b) da birinchi o‘ringa chiqib olgan davlatlar to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"a-3, b-4",
+"a-2, b-4",
+"a-2, b-1",
+"a-2, b-3"
+],
+"ans": "B",
+"extra": "1) Buyuk Britaniya  2) Fransiya  3) Italiya\n4) Germaniya"
+},
+{
+"n": 24,
+"q": "Rossiya imperiyasi tomonidan 1864 – 1866-yillarda O‘rta Osiyoda bosib olgan hududlari asosida qaysi viloyat tashkil etiladi?",
+"opts": [
+"Turkiston viloyati",
+"Samarqand viloyati",
+"Sirdaryo viloyati",
+"Kaspiyorti viloyati"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi ma’lumotlarni qaysi davlatda sodir bo‘lganligi bo‘yicha to‘g‘ri muvofiqlashtiring. (O‘rta asrlar)",
+"opts": [
+"1-d, 2-c, 3-a, 4-b",
+"1-d, 2-d, 3-a, 4-b",
+"1-b, 2-d, 3-a, 4-c",
+"1-d, 2-d, 3-c, 4-b"
+],
+"ans": "B",
+"extra": "1) Oʻrta asrlar davrida oʻziga xos yuksak madaniyati bilan Yevropaning eng ilgʻor mamlakati boʻlib qoldi;\n2) VIII asrda “Ziroatchilik qonunlari” yozildi;\n3) Bu davlat hukmdoriga arab xalifasi Horun ar-Rashid o‘z elchilari orqali qimmatbaho sovg‘alar bilan birga Quddusdagi Iso payg‘ambar qabri joylashgan yerni ham taqdim etgan;\n4) Xristian katolik cherkovi homiyligida bo‘lganligi uchun unga “muqaddas” nomi berilgan.\na) Franklar imperiyasi;   b) Germaniya;\nc) Angliya;                   d) Vizantiya."
+},
+{
+"n": 27,
+"q": "Quyidagilardan mustaqil O‘zbekistonda Bosh vazir (Vitse-prezident) lavozimida ishlagan shaxslarni to‘g‘ri xronologik ketma-ketlikda joylashtiring.",
+"opts": [
+"Shukrullo Mirsaidov, Oʻtkir Sultonov, Abdulhoshim Mutalov, Shavkat Mirziyoyev, Abdulla Aripov",
+"Shukrullo Mirsaidov, Mirahmad Mirqosimov, Oʻtkir Sultonov, Shavkat Mirziyoyev, Abdulla Aripov",
+"Mirahmad Mirqosimov, Abdulhoshim Mutalov, Oʻtkir Sultonov, Shavkat Mirziyoyev, Abdulla Aripov",
+"Shukrullo Mirsaidov, Abdulhoshim Mutalov, Oʻtkir Sultonov, Shavkat Mirziyoyev, Abdulla Aripov"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Quyida berilgan xaritadagi qaysi raqamlar bilan ko‘rsatilgan hududlarga VI asrda Yustinian I harbiy yurish uyushtirganligini aniqlang.",
+"opts": [
+"1, 2",
+"2, 3",
+"1, 3",
+"3, 4"
+],
+"ans": "C",
+"img": "img/dtm/bmba-01-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi o‘zaro MUVOFIQ berilgan qatorlarni aniqlang. № Voqea Natija Buyuk Britaniyada birinchi parlament islohoti Hukumatning faqat quyi palata oldida javobgarligi belgilab qo‘yilishi Vena kongressi Kap koloniyasining Fransiyaga berilishi Eronda Qojarlar sulolasining hokimiyatga kelishi Poytaxtning Tehronga ko‘chirilishi Ikkinchi afyun urushi Sin sulolasining hokimiyatga kelishi Rossiya-Turkiya urushi Buyuk Britaniya kemalarining Qora dengizga erkin kirish huquqini olishi",
+"opts": [
+"2, 3, 4",
+"1, 3, 5",
+"1, 2, 3",
+"3, 4, 5"
+],
+"ans": "B",
+"img": "img/dtm/bmba-01-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyida jadvalda ma’lumotlar NOMUVOFIQ berilgan qatorlarni aniqlang. № Davlat Voqea Shaxs Salavkiylar davlati Mamlakatni alohida viloyatlar (satrapliklar) ga bo‘ldi Salavk Franklar imperiyasi Muntazam otliq qo‘shin shakllantirildi  Xlodvig Xiva xonligi Nemis-mennonitlarning bir necha oilasiga o‘lkada yashashiga ruxsat berdi Muhammad Rahimxon II Oltin O‘rda xonligi Davlat o‘z qudratining cho‘qqisiga erishdi Chig‘atoyxon Germaniya Germaniya ikkinchi marta imperiyaga aylandi Vilgelm II Qo‘qon xonligi Nisbatan zamonaviy to‘pchi qo‘shin shakllantirildi Xudoyorxon",
+"opts": [
+"1, 3, 6",
+"1, 3, 5",
+"2, 4, 5",
+"3, 4, 6 ʻ « » ʻ ʻ ʻ ʻ ʻ"
+],
+"ans": "C",
+"img": "img/dtm/bmba-01-30.jpg"
+}
+]
+}

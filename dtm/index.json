@@ -1,10 +1,90 @@
 [
  {
+  "id": "bmba-01",
+  "title": "BMBA namunasi · 1-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 28,
+  "file": "dtm/bmba-01.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-02",
+  "title": "BMBA namunasi · 2-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 23,
+  "file": "dtm/bmba-02.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-03",
+  "title": "BMBA namunasi · 3-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 18,
+  "file": "dtm/bmba-03.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-04",
+  "title": "BMBA namunasi · 4-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 23,
+  "file": "dtm/bmba-04.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-05",
+  "title": "BMBA namunasi · 5-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 17,
+  "file": "dtm/bmba-05.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-06",
+  "title": "BMBA namunasi · 6-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 20,
+  "file": "dtm/bmba-06.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-07",
+  "title": "BMBA namunasi · 7-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 23,
+  "file": "dtm/bmba-07.json",
+  "self": 1
+ },
+ {
+  "id": "bmba-08",
+  "title": "BMBA namunasi · 8-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 24,
+  "file": "dtm/bmba-08.json",
+  "self": 1
+ },
+ {
   "id": "bmba-09",
   "title": "BMBA namunasi · 9-variant",
   "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
   "n": 30,
   "file": "dtm/bmba-09.json"
+ },
+ {
+  "id": "bmba-10",
+  "title": "BMBA namunasi · 10-variant",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 23,
+  "file": "dtm/bmba-10.json",
+  "self": 1
+ },
+ {
+  "id": "zam-01",
+  "title": "Zamonaviy tarix · 30 ta namuna",
+  "src": "J. Boltayev, A. Alijonov (@TESTLIDER)",
+  "n": 22,
+  "file": "dtm/zam-01.json",
+  "self": 1
  },
  {
   "id": "smt-01",

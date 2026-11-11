@@ -1,0 +1,274 @@
+{
+"id": "bmba-02",
+"items": [
+{
+"n": 2,
+"q": "Quyidagi berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. U siyosat maydoniga kichik yer egasining o‘g‘li sifatida chiqdi. Mamlakatni yagona davlatga birlashtirdi va 1855-yili o‘zini imperator deb e’lon qildi. U yaxshi harbiy tayyorgarlik ko‘rgan qo‘shin tuza oldi. Yirik feodallarni o‘z qo‘shiniga ega bo‘lish huquqidan mahrum etdi. Mamlakatda iqtisodiyotni yuksaltirishga qaratilgan qator islohotlar o‘tkazdi. Imperator fuqarolarni o‘zlari oldin shug‘ullangan mehnat faoliyatini davom ettirishga chaqirdi",
+"opts": [
+"Qirol Yongjo",
+"Kassa",
+"Amir Abdurahmon",
+"Mutsixito"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Quyidagi berilgan ma’lumotlardan qaysilari Turk xoqonligi tarixiga oid?",
+"opts": [
+"1, 4",
+"2, 3",
+"1, 3",
+"2, 4"
+],
+"ans": "A",
+"extra": "1) o‘n ming qo‘shin qo‘mondoni “shod” deb atalgan;\n2) taxt otadan bolaga qolmay, shu suloladan kim loyiq deb topilsa o‘sha taxtga o‘tirishi belgilangan;\n3) V asr o‘rtalarida o‘zaro aloqalar o‘rnatish uchun Xitoyga elchi yuborgan;\n4) davlatning markazi Oltoy qilib belgilangan."
+},
+{
+"n": 4,
+"q": "Quyida berilgan shaxslardan qaysi birining taklifi bilan “Islom konferensiyasi” tashkiloti tuzildi?",
+"opts": [
+"Abdulloh ibn Husayn",
+"Feysal",
+"Saddam Husayn",
+"Abdul Karim Qosim"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Quyida berilganlardan qaysilari Tohiriylar davlati tarixiga oid emas?",
+"opts": [
+"1, 2",
+"3, 4",
+"1, 4",
+"2, 3"
+],
+"ans": "B",
+"extra": "1) VIII asr oxiri – IX asr boshlarida Arab xalifaligida yuz bergan siyosiy inqiroz natijasida shakllangan;\n2) Marv va Nishopur shaharlari davlat poytaxti vazifasini bajargan;\n3) IX asr oxirida somoniylar bilan olib borilgan kurash natijasida davlat tugatilgan;\n4) IX asr oxirgi choragida butun Movarounnahr uning tarkibiga kirgan."
+},
+{
+"n": 6,
+"q": "Quyida berilganlardan qaysilarida davlatshaxs-voqea mosligi to‘g‘ri berilgan?",
+"opts": [
+"1, 3, 5",
+"2, 4, 5",
+"1, 3, 4",
+"2, 3, 4"
+],
+"ans": "C",
+"extra": "1) Kuba – Fidel Kastro – davlat to‘ntarishidan keyin hokimiyatga keldi;\n2) Germaniya – Paul fon Gindenburg – Myunxen kelishuvini imzoladi;\n3) Pokiston – Parvez Musharraf – harbiy to‘ntarish natijasida hokimiyatga keldi;\n4) Italiya – Matteo Rensi – ta’lim tizimini isloh qilish boshlandi;\n5) Yaponiya – J. Koidzumi – Tayvan masalasida ilk bor Xitoyni ochiq qo‘lladi."
+},
+{
+"n": 8,
+"q": "Quyidagi berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"1 – a, 2 – b",
+"1 – a, 2 – d",
+"1 – b, 2 – d",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-02-8.jpg"
+},
+{
+"n": 9,
+"q": "Mustaqil O‘zbekistonga 2002 yilda (a) va 2010-yilda (b) tashrif buyurgan BMT bosh kotiblarini aniqlang.",
+"opts": [
+"a – 1, b – 2",
+"a – 2, b – 3",
+"a – 2, b – 4",
+"a – 3, b – 4"
+],
+"ans": "C",
+"extra": "1) Antoniu Guterrish;\n2) Kofe Anan;\n3) Federiko Mayor;\n4) Pan Gi Mun."
+},
+{
+"n": 10,
+"q": "XIX asr oxiri XX asr boshlarida rangli metallurgiya sohasida “Med” jamiyati (a) va bir qancha sohalarni o‘z qo‘lida to‘plagan “Fiat” aksiyadorlik jamiyati (b) qaysi davlatda tashkil etilganligini aniqlang.",
+"opts": [
+"a – 5, b – 2",
+"a – 1, b – 2",
+"a – 2, b – 5",
+"a – 5, b – 1"
+],
+"ans": "A",
+"extra": "1) Fransiya;\n2) Italiya;\n3) Buyuk Britaniya;\n4) Germaniya;\n5) Rossiya."
+},
+{
+"n": 13,
+"q": "Quyidagilardan 1870–1918-yillar tarixiga oid bo‘lganlarini aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 3, 6",
+"2, 5, 6"
+],
+"ans": "A",
+"extra": "1) II Internatsional;\n2) Bobiylar qo‘zg‘oloni;\n3) “Ems depeshasi”;\n4) “Dekabristlar harakati”;\n5) “Uchlar ittifoqi”;\n6) Taypinlar davlati."
+},
+{
+"n": 14,
+"q": "Quyidagi shaxslardan qaysi biri Yevropada yangi davrdagi “Ma’rifat asri” vakillaridan hisoblanadi?",
+"opts": [
+"Iogann Volfgang Gyote",
+"Rembrandt",
+"Leonardo da Vinchi",
+"Rafael Santi"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Nomuvofiqlikka yo‘l qo‘yilgan javobni aniqlang. (qadimgi diniy e’tiqodlar)",
+"opts": [
+"Ishtar – urush va g‘alaba ilohasi",
+"Demetra – temirchilik va hunarmandlar ma’budi",
+"Baxus – may xudosi",
+"Maat – haqiqat va adolat ilohasi"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Temuriyzoda Abu Said Mirzo vafot etgandan so‘ng Samarqand taxtiga (Movarounnahr) o‘tirgan shaxslarni taxtga o‘tirgan yillariga qarab to‘g‘ri xronologik ketma-ketlikda berilgan javobni aniqlang.",
+"opts": [
+"4, 1, 2, 3",
+"1, 3, 2, 4",
+"3, 1, 2, 4",
+"3, 2, 1, 4"
+],
+"ans": "C",
+"extra": "1) Sulton Mahmud;\n2) Boysung‘ur Mirzo;\n3) Sulton Ahmad;\n4) Sulton Ali Mirzo."
+},
+{
+"n": 17,
+"q": "Mualliflar va ularning asarlari to‘g‘ri muvofiqlashtirilgan javobni aniqlang.",
+"opts": [
+"1 – a, 2 – b",
+"1 – a, 2 – d",
+"1 – b, 2 – d",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-02-17.jpg"
+},
+{
+"n": 18,
+"q": "Ma’lumki, Qo‘qon xonligida XIX asrda muntazam qo‘shin tashkil etilgan. Quyidagilardan ushbu qo‘shin tarkibiy jihatdan qaysi qismlardan iborat ekanligini aniqlang.",
+"opts": [
+"1, 2, 4, 5",
+"2, 3, 4, 5",
+"1, 3, 4, 5",
+"2, 4, 5, 6"
+],
+"ans": "A",
+"extra": "1) sipoh;\n2) to‘pchi;\n3) maysara;\n4) sarboz;\n5) maxsus bo‘lim;\n6) ilg‘or."
+},
+{
+"n": 20,
+"q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni aniqlang.",
+"opts": [
+"1 –a, 2 – d",
+"1 – b, 2 – d",
+"1 – b, 2 – c",
+"1 – c, 2 – d"
+],
+"ans": "B",
+"img": "img/dtm/bmba-02-20.jpg"
+},
+{
+"n": 21,
+"q": "Quyidagi voqealarni tahlil qilib Eyler-Venn diogrammasiga mos keladigan to‘g‘ri javobni toping. XIX asr ikkinchi yarmi XXI asr birinchi yarmi Fransiya      Germaniya",
+"opts": [
+"I – a, b; II – d, e; III – f",
+"I – a, b; II – d, e; III – c",
+"I – a, d; II – b, c; III – e",
+"I – a, b; II – d, f; III – c"
+],
+"ans": "B",
+"extra": "a) 1876-yilgi Senatga bo‘lgan saylovlarda respublikachilar qo‘li baland keldi;\nb) Shimoliy Afrikadagi Tunisni bosib oldi;\nc) multikulturalizm siyosati barbor bo‘ldi ;\nd) Afrikaning o‘rta qismidagi Togo va Komerun hududlarini bosib oldi;\ne) “Bag‘dod temiryo‘li” loyihasini qo‘lga kiritdi;\nf) Janubiy Afrikadagi Kap koloniyasini qo‘lga kiritdi."
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi davlatda Xristian sotsialistlar partiyasi arboblari “Buyuk Germaniya” g‘oyasini sinfiy tinchlikni targ‘ib qilish, barcha ijtimoiy nizolarni “inoqlik va muhabbat” ruhida hal qilishga da’vat qilish va antisemitizmni targ‘ib qilish bilan qo‘shib olib bordilar?",
+"opts": [
+"Germaniya",
+"Bolgariya",
+"Avstriya-Venriya",
+"Italiya"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Quyidagilardan Sovet Rossiyasida 1920-yillarda o‘tkazilgan Yangi iqtisodiy siyosat mohiyati to‘g‘ri ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"oziq-ovqat razvyorstkasini oziq ovqat solig‘i bilan almashtirish",
+"barcha yetishtirilgan mahsulotlarning davlatga topshirilishi",
+"yirik yer egaligini butunlay tugatish",
+"boy quloq xo‘jaliklariga to‘liq barham berish"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi shaxslarga aloqador ma’lumotlarni to‘g‘ri muvofiqlashtiring. (O‘rta asrlar)",
+"opts": [
+"1-b; 2-a,c; 3-f; 4-d",
+"1-b; 2-a,c; 3-e; 4-f",
+"1-b,c; 2-a; 3-e; 4-d",
+"1-b; 2-a,c; 3-e; 4-d"
+],
+"ans": "D",
+"extra": "1) Alkuin;\n2) Eyngard;\n3) Mavrikiy;\n4) Tatsit;\na) uning asarlari orqali Buyuk Karlning hayoti va faoliyati haqidagi ma’lumotlarni bilib olishimiz mumkin; b) Buyuk Karlning saroy akademiyasi a’zolaridan biri oʻz shogirdlari bilan maorifni yoyishda katta xizmat qilgan;\nc) Ilmga chanqoqligi va tirishqoqligi tufayli zamondoshlari “mehnatsevar chumoli” deb ataganlar; d) german qabilalari haqida ma’lumot beruvchi “Germaniya” asari muallifi;\ne) Slavyan dehqonlarining boshoqli ekinlardan koʻproq arpa va tariq ekkani haqida yozib qoldirgan vizantiyalik tarixchi; f) Slavyan qabilalari haqida ma’lumot bergan yunon-rim tarixchisi."
+},
+{
+"n": 26,
+"q": "Quyidagilardan XVIII asrda Angliya taxtiga kelgan qirol berilgan javobni aniqlang.",
+"opts": [
+"Villem van Oranye",
+"Georg I",
+"Yakov II",
+"Karl II"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Quyidagi xaritada 2 va 3 raqami bilan ko‘rsatilgan davlatlar va ularning tarixiga oid ma’lumotlarni to‘g‘ri muvofiqlashtiring. (XIX asr oxiri XX asr boshlari)",
+"opts": [
+"2 – “Dreyfus ishi” deb atalgan mojaro kelib chiqdi; 3 – savdo floti dunyoda uchinchi o‘ringa ko‘tarilib oldi",
+"2 – katolik cherkoviga qarshi “Kulturkampf” deb atalgan siyosat olib borildi; 3 – “trializm” go‘yasi shakllandi",
+"2 – “Qonli yakshanba” nomini olgan chiqishlar bo‘lib o‘tdi; 3 – tashqi siyosatda irredentizm g‘oyasi shakllandi",
+"2 – ichki siyosatida “irland muammosi” jiddiy tus oldi; 3 – tashqi siyosatda “milliy sharmandalik” deb atalgan harbiy yurishlar bo‘lib o‘tdi"
+],
+"ans": "D",
+"img": "img/dtm/bmba-02-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi o‘zaro NOMUVOFIQ berilgan qatorlarni aniqlang. № Voqea Natija Fernando Magellan ekspeditsiyasi Yerning dumaloqligi amalda isbotanishi Abel Tasman ekspeditsiyasi Avstraliyaning kashf etilishi Bobiylar qo‘zg‘oloni Qojarlar sulolasining ag‘darilishi Taypinlar qo‘zg‘oloni Sin sulolasining hokimiyatga kelishi Fransiya-Prussiya urushi Germaniyada ikkinchi imperiyaning e’lon qilinishi",
+"opts": [
+"2, 3, 4",
+"1, 3, 4",
+"1, 2, 3",
+"3, 4, 5"
+],
+"ans": "A",
+"img": "img/dtm/bmba-02-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyida jadvalda ma’lumotlar to‘g‘ri moslashtirilgan qatorlarni aniqlang. № Davlat Voqea Shaxs Salavkiylar davlati Mamlakatni alohida viloyatlar (satrapliklar) ga bo‘ldi Salavk Franklar imperiyasi Muntazam otliq qo‘shin shakllantirildi Xlodvig Xiva xonligi Nemis-mennonitlarning bir necha oilasiga o‘lkada yashashiga ruxsat berdi Muhammad Rahimxon II Oltin O‘rda xonligi Davlat o‘z qudratining cho‘qqisiga erishdi Chig‘atoyxon Germaniya Germaniya ikkinchi marta imperiyaga aylandi Vilgelm II Qo‘qon xonligi Nisbatan zamonaviy to‘pchi qo‘shin",
+"opts": [
+"1, 3, 6",
+"1, 3, 5",
+"2, 4, 5",
+"3, 4, 6 ʻ « » ʻ shakllantirildi Xudoyorxon ʻ ʻ ʻ"
+],
+"ans": "A",
+"img": "img/dtm/bmba-02-30.jpg"
+}
+]
+}
