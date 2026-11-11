@@ -1,0 +1,343 @@
+{
+"id": "zn-09",
+"items": [
+{
+"n": 1,
+"q": "Buddaviylik dinida dastlab nima uchun hudolar bo’lmagan?",
+"opts": [
+"Hudolarga ishonishmagan",
+"Sidharta Gautama inson bo’lganligi uchun",
+"Xudolar insonlar azob uqubutlarini yengilashtirib bera olmaganligi uchun",
+"Faqat ko’rgan narsalarigagina ishonganlari uchun"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Ahmad al Farg’oniy haqida notog’ri bo’lgan javobni toping?",
+"opts": [
+"astronomiya, matematika va geografiya bilan shug‘ullanadi",
+"Damashqdagi rasadxonada faoliyat yuritadi",
+"Suriyaning shimolida Sinjordashtida va ar­Raqqaoralig‘ida yer meridianining bir darajasi uzunligini o‘lchashda qatnashdi",
+"Bizning davrimizgacha yigirmatta asaridan o’ntasi yetib kelgan"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Karl VII o’g’li Lyudovik XI o’z siyosatini qaysi grafliklarni bo’ysundirishdan boshlagan edi?",
+"opts": [
+"Burgundiya va Bretan",
+"Bretan va Anju",
+"Marsel va Provans",
+"Pravans va Burgundiya"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagi qaysi elchi Buxoro aholisini Astraxan orqali Hajga borishini kafolatlovchi kelishuvga erishgan?",
+"opts": [
+"Ernazar Maqsutov",
+"Polvonquli qurchi",
+"Muhammad qozi",
+"Mahmudbiy ko’kaldosh"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Nima sababdan XIX asrda AQSh demoktarik partiyasi va plantatorlar alohida konfederatsiya tuzishga qaror qildilar?",
+"opts": [
+"O’z yerlarini saqlab qolish maqsadida",
+"Qulchilikni saqlab qolish maqsadida",
+"Savdodagi cheklovardan qutulish maqsadida",
+"Saylovlardagi tenglikka qarshi bo’lganlari uchun"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "1889-yili  Eronda ochilgan  ,,Shahanshohbank“  qanday huquqlarga ega edi? 1. Qog’oz pullar chiqarish 2. Temir yo’llar qurish 3. Tashqi savdoni nazorat qilish 4. Portlarni boshqarish 5. Yer osti boyliklaridan foydalanish",
+"opts": [
+"1,3",
+"2,5",
+"1,5",
+"2,3"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Vabo isyoni haqidagi tog’ri hukmni toping?",
+"opts": [
+"Qo’zg’alonchilar tahminan 4000 kishi edi",
+"Qo’zg’alonchilar asosan savdogarlar va ruhoniylar edi",
+"Isyonchilar eski shahar yangi oqsaqoli Putinsev oldiga borishdi",
+"Isyonchilar shahar boshlig’idan Muhammad Yoqubni berishni so’rashdi"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Quyidagi jadvalda faqat tog’ri javoblar berilgan qatorni toping? Doro I Mil. avv. 522-yilda taxga chiqqan Kichik Osiyoni sharqidagi Frakiyani bosib oldi Mahmud G’aznaviy Xorazmni G’aznaviylar davlatiga bo’ysundirdi Janna d’Ark 997-yilda taxtga chiqqan Fransuz xalq qahramoni Dehqonning qizi edi Aleksandr Byorns Buxoroda ingliz savdosini rivojlanishiga hissa qo’shdi Napaleon Bonapart 1831-yilda Buxoroga yetib keldi Italiyaga yurishidan so’ng o’zini xalqlarning taqdirini o’zgartirishga qodir shaxs sifatida angladi Kuropatkin 1799-yil birinchi konsulga aylandi Chor Rossiyasin ing harbiy vaziri Dukchi eshon qo’zg’alonidan so’ng Korolkovga o’lim jazosini ko’paytirmaslik haqida telegramma yuboradi",
+"opts": [
+"1,3,5",
+"2,3,5",
+"2,4,6",
+"1,4,6"
+],
+"ans": "B",
+"img": "img/dtm/zn-09-8.jpg"
+},
+{
+"n": 9,
+"q": "Fors davlatida Eron nomi rasman kiritilgan yilda sodir bo’lgan voqeani toping?",
+"opts": [
+"Germaniyada umumiy harbiy majburiyat to’g’risidagi qonun kuchga kirdi",
+"Ispaniyada korteslarga o‘tkazilgan saylovlarda Xalq fronti g‘alaba qozondi",
+"Yaponiya va Germaniya antikomintern paktideb ataluvchi hujjatni imzoladi",
+"Sovet Ittifoqi Millatlar Ligasiga a’zo bo‘ldi"
+],
+"ans": "A",
+"img": "img/dtm/zn-09-9.jpg"
+},
+{
+"n": 10,
+"q": "O’zbekiston  SSR hududida 1937-yili savodsizlikni tugatish kurslarining soni qaysi javobda to’g’ri berilgan?",
+"opts": [
+"18 ta",
+"539 ta",
+"413 ta",
+"50 ta"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qachon Iroqda to’ntarish o’tkazilib BAAS partiyasi hokimiyat tepasiga keldi?",
+"opts": [
+"1932-yil",
+"1959-yil",
+"1961-yil",
+"1968-yil"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "2010-yili  respublika  yrtimiz rahbarining tashabbusi bilan qaysi davlatlardan olib kelingan, intensiv texnologiyalar asosida parvarishlanadigan pakana daraxtlar yetishtirish yo’lga qo’yildi?",
+"opts": [
+"Ukraina va Polsha",
+"Serbiya va Ruminiya",
+"Isroil va Turkiya",
+"Aqsh va Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Koguryo                            Pekche 1. Qadimgi Choson o’rnida tashkil topgan 2. IV asrda markazlashga qudratli davlatga aylandi  3. Koreya yarim orolini janubida joylashgan edi  4. Koreya yarimorolini shimolida joylashgan edi  5. O’z tarkibiga qo’shni Lyaodun yarimorolini ham olar edi 6. Ilk budda tasvirlari ayni shu mamlakatdan qo’shni Yaponiyaga o’tgan edi",
+"opts": [
+"I- 4,5 II-3,6 III-1,2",
+"I-2,5 II- 3,6 III-1,4",
+"I-4,5 II-2,6 III-1,3",
+"I-1,6 II-3,5 III-2,4"
+],
+"ans": "A",
+"img": "img/dtm/zn-09-13.jpg"
+},
+{
+"n": 14,
+"q": "Mil. avv.XI asrda tuzilgan Isroil podsholigi quyidagi qaysi hududda tuzilgan edi?",
+"opts": [
+"Finikiya",
+"Falastin",
+"Turkiya",
+"Suriya"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "O’rta asrlardagi quyidagi qaysi davlat aholisi quyoshdan tashqari turli tabiat kuchlariga, yer va suv ilohlariga ham e’tiqod qilar edi?",
+"opts": [
+"Slavyanlar",
+"Ateklar",
+"Arablar",
+"Inklar"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi sulola boshqaruvining qaror topishi bilan madaniy hayotning rivoji uchun keng  yo‘l ochilib Movarounnahrning madaniy hayotida uyg‘onish davri boshlandi?",
+"opts": [
+"Qoraxoniylar",
+"Somoniylar",
+"G’aznaviylar",
+"Tohiriylar"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Amir Nasrullo davrida ijod qilib Sadiy va Hofiz she’rlarini rasm bilan bezagan rassom qaysi javobda berilgan?",
+"opts": [
+"Ahmad Donish",
+"Mir Ma’sum Olamiyon",
+"Mirzo Sodiq Jondoriy",
+"Muhammad Yusuf Roziy"
+],
+"ans": "C",
+"img": "img/dtm/zn-09-17.jpg"
+},
+{
+"n": 18,
+"q": "Tarixda xalqlar jangi nomini olgan jang nechanchi yilda bo’lib o’tga edi?",
+"opts": [
+"1807-yil",
+"1812-yil",
+"1813-yil",
+"1815-yil"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Quyidagi graﬁkda qaysi raqam ostida Hukmdorlar va ularning xotinlari  bir-biriga muvoﬁq keladi? Amir Tarag’ay Amir Umarxon Umarshayx ibn Abu Said Alovuddin Muhammad Malika       Qutlug   Uvaysiy  Takina xotun    Nigorxonim               xotun",
+"opts": [
+"5,7",
+"1,7",
+"3,7",
+"1,3,7 2 3"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Turkiyada “Yosh turklar” o’rniga kelgan “Hurriyat va birdamlik” partiyasini og’ir siyosiy ahvolga solgan omilni toping?",
+"opts": [
+"Italiya Liviyani bosib olishi",
+"Rossiya-Turkiya urushidagi mag’lubiyat",
+"1-va 2- Bolqon urushlari",
+"I- jahon urushini boshlanishi"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi javobda 1899-yilda Andijonda o’z jadid maktabini ochgan shaxs berilgan?",
+"opts": [
+"Salohiddin domla",
+"Shamsiddin domla",
+"Manon Qori",
+"Mannon uyg’ur"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "„Sanoat  taraqqiyoti  tepasida  ish  haqi yuqori  bo‘lgan  mamlakatlar  turadi“,  deb ta’kidlagan siyosiy arbob mamlakatni boshqargan davr oralig'ida yuz bergan voqeani toping?",
+"opts": [
+"Fransiya-Rossiya o’rtasida bir vaqtda harbiy safarbarlik to’g’risida kelishuv tuzildi",
+"Ingliz-Bur urushlari nihoyasiga yetdi",
+"Angliya tred-yunionlar partiyasi tashkil topdi",
+"Yuan Shikay so’ngi Sin sulolasi vakilini taxtdan voz kechishga majbur qildi"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Geradot qoldirgan ma’lumotlarga ko’ra qaysi xalqlarning qurollari kamon  va naysalar emas edi?",
+"opts": [
+"Baqtriyaliklar",
+"Sug’diylar",
+"Saklar",
+"Xorazmliklar"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Angliyada qaram dehqonlar to’lov evazga ozodlikka erishgan asrda yuz bergan voqeani toping?",
+"opts": [
+"Yaponiyada yer egaligi munosabatlari o’rnatildi",
+"Yuz yillik urush nihoyasiga yetdi",
+"Songaini Marokash sultonligi bosib oldi",
+"Parxe qirolligi yuksak darajada rivojlandi"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Quyidagi xaritada ajratib ko’rsatilgan hudud haqida tog’ri javobni toping?",
+"opts": [
+"Bu mamlakatda Shimoliy urushni yakunlovchi bitim tuzilgan",
+"Bu mamlakat bosqinlari angl-sakslarni qirol Garolda qarshi isyon ko’tarishiga sabab bo’lgan",
+"Bu mamlakat Germaniya shaharlarini shimoliy dengizdagi raqobatchisi edi",
+"Bu mamlakat Bolqon urushidan so’ng mustaqillikka erishgan edi"
+],
+"ans": "A",
+"img": "img/dtm/zn-09-25.jpg"
+},
+{
+"n": 26,
+"q": "Amir Temr qo’shinlarining harbiy yurishlari vaqtida hukmdor qarorgohi yon atrofidagi rezerv qo’shinlar nima deb atalgan?",
+"opts": [
+"Manglay",
+"Burong’or",
+"Qanbul",
+"Izofa"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Yaponiya okkupatsiya qilinganidan keyin hokimiyat AQSh okkupatsion qo‘shinlari shtabi ixtiyoriga o‘tib, bu yerda demokratik jarayonlarni boshlagan amerikaliklar qandaj maqsadlarni ko‘zlagan edi?",
+"opts": [
+"2, 3",
+"1,4",
+"1, 3",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) Yaponiyaning demokratik davlatga aylanishi va hech qachon boshqalarga xavf solmasligini;\n2) Yaponiyada monarxiyani bekor qilish;\n3) yaponlarda o'zining ming yillik jangchilik an’analariga ega bo‘lgan jangovorlik ruhini sindirishni;\n4) AQSh Yaponiya hududida og‘ir sanoat awalo metallurgiya, mashinasozlik, kimyo sanoati korxonalarini barpo etib, uning ichki bozorini to‘liq egallashini."
+},
+{
+"n": 28,
+"q": "1917-yilda tashkil etilgan Turkiston musulmonlarining Milliy Markazi Turkiston o‘lka musulmonlar kengashi (Kraymussovet) faoliyatida qatnashgan shaxslarni toping.",
+"opts": [
+"1, 2, 5",
+"1, 3, 5",
+"3, 4, 6",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) Mustafo Cho‘qay;2) Munawarqori Abdurashidxonov;\n3) Abdulqodi Muhitdinov;\n4) Husaynbek Matmurodov;\n5) Ahmad Zaki Validiy;\n6) Sanjar Asfandiyorov."
+},
+{
+"n": 29,
+"q": "Nechanchi yildan boshlab rus aholisini Farg’onaga ko’chirib keltirish boshlangan?",
+"opts": [
+"1886-yil",
+"1888-yil",
+"1891-yil",
+"1898-yil"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Quyida berilgan voqealardan bir yilda sodir bo‘lganlarini aniqlang.",
+"opts": [
+"2, 4, 5",
+"1, 2, 4",
+"2, 3, 4",
+"1, 3, 5"
+],
+"ans": "B",
+"extra": "1) Gruziyada prezidentlik lavozimi joriy qilindi;\n2) Nursulton Nazarboyev Qozog‘istonning birinchi prezidenti etib saylandi;\n3) Ozarbayjonda A.Elchibey boshchiligidagi Xalq fronti hokimiyatga keldi;\n4) Levon Ter Petrosyan Armanistonning birinchi prezidenti etib saylandi;\n5) Mustaqil Chexiva Respublikasi tashkil topdi."
+}
+]
+}

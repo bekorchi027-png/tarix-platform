@@ -1,0 +1,353 @@
+{
+"id": "zn-06",
+"items": [
+{
+"n": 1,
+"q": "Sin Shixuandi faoliyati bilan bog`liq to`g`ri ma`lumotlarni aniqlang",
+"opts": [
+"2,4",
+"1,3",
+"2,3",
+"1,4"
+],
+"ans": "A",
+"extra": "1) ko`chmanchi yuechji qabilalariga qarshi kurash maqsadida Buyuk Xitoy devorini qurishni buyurdi\n2) o`z davlatini hududini 36 viloyatga taqsimlagan hukmdor har biriga o`z noibini tayinladi\n3) Lyu Ban boshchiligidagi dehqonlar qo`zg`alonini bostirdi\n4) tirikligidayoq o`ziga maqbara qurish to`g`risida farmon bergan edi"
+},
+{
+"n": 2,
+"q": "Quyidagilarni tahlil qilib , nuqtalar o`rniga mantiqan mos keluvchi javobni toping",
+"opts": [
+"To`g`rulbek; Xuloku",
+"Nevskiy ; Xubilay",
+"O`rxon; Yuan Chjan",
+"Mustafo Kamol; U Di"
+],
+"ans": "C",
+"extra": "1) Tan sulolasi- Li Yuan;\n2) Saksoniyaliklar sulolasi- Genrix I;\n3) Usmoniylar sulolasi-……..  ;\n4) Min sulolasi - ………. ;"
+},
+{
+"n": 3,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan oldinroq sodir bo`lgan ?",
+"opts": [
+"Braziliyada “Oltin qonun”ning qabul qilinishi",
+"Birlashgan Italiya qirolligining tashkil topishi",
+"Fransiyada 1-Respublikaning o`rnatilishi",
+"Londonda Gretsiyaga muxtoriyat berilishi"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "“Birinchi Bolqon urushi ”da Bolqon ittifoqi tarkibiga kirmagan davlatni aniqlang",
+"opts": [
+"Turkiya",
+"Serbiya",
+"Bolgariya",
+"Gretsiya"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Quyida keltirilgan ma`lumotlar ( voqealar ) …ga aloqador - 90-yillarning oxirida Shandunning bir qismini bosib olinishi ; - Karolina va Mariana orollarini egalanishi - Togo va Kamerun hududlarini egallanishi",
+"opts": [
+"Fransiya mustamlakachilik siyosati",
+"AQSH mustamlakachilik siyosati",
+"Buyuk Britaniya mustamlakachilik siyosati",
+"Germaniya mustamlakachilik siyosati"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Quyidagilardan 1906-yilgi “Stolipin agrar islohoti” ga nomuvofiq bo`lganlarini aniqlang",
+"opts": [
+"1,2,3",
+"1,3",
+"1,2",
+"4,5"
+],
+"ans": "D",
+"extra": "1) jamoa yer egaligini bekor qilish\n2) dehqonlarga sotib olgan jamoa yerini xususiy mulkka aylantirish hamda dehqonga o`z yerini sotish huquqini ham berish      3) dehqonlarning davlat va pomeshiklarga qarashli yerlarni sotib olishlari uchun ularga “Dehqonlar banki” orqali yordam berish 4) Sibir, Turkiston,Uzoq Sharq va imperiyaning milliy chekka o`lkalaridagi dehqonlarni markaziy gubernyalarga ko`chirish\n5) pomeshiklarga tegishli hosildorlar yerlarning 1/3 qismini jamoa a`zolariga bepul bo`lib berish"
+},
+{
+"n": 7,
+"q": "SS,SD, Gestapo kabi tashkilotlar qaysi davlatda mavjud bo`lgan ?",
+"opts": [
+"Buyuk Britaniya",
+"Fransiya",
+"AQSH",
+"Germaniya"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "2015-yil oxiriga kelib , Suriyadan va urush harakatlari davom etayotgan boshqa mamlakatlardan kelayotgan qochoqlar muammosi qaysi davlat rahbarining obro`yini biroz pasaytirdi ?",
+"opts": [
+"B. Klinton",
+"B.Obama",
+"J.Meyjor",
+"A.Merkel"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Quyida keltirilganlardan qaysilarida davlatshaxs-voqea mos ravishda berilgan ?",
+"opts": [
+"1,3,4",
+"2,4,5",
+"1,2,3",
+"3,4,5"
+],
+"ans": "A",
+"extra": "1) SSSR- I.Stalin-mamlakat Ikkinchi jahon urushiga qo`shildi;\n2) Fransiya- N.ChemberlanMyunxen shartnomasi imzolandi    3) EronMuhammad Rizo Pahlaviy- “Oq inqilob” amalga oshirildi  4) Turkmaniston- G.Berdimuhammedov- 2017-yil sentabrda Ashxobodda  V Osiyo o`yinlari o`tkazildi   5) Qirg`iziston- Roza Otunbayeva- “Lola inqilobi” natijasida hokimiyatga keldi"
+},
+{
+"n": 10,
+"q": "Tarixiy voqealar to`g`ri xronologik ketmaketlikda ko`rsatilgan javobni toping",
+"opts": [
+"1,4,2,3",
+"2,3,1,4",
+"2,4,3,1",
+"4,3,1,2"
+],
+"ans": "C",
+"extra": "1) “Aprel inqilobi” yuz berdi\n2) “Qizil va oq gullar ” urushi tugadi\n3) Vena kongressi natijasida “Muqaddas Ittifoq” tuzildi     4) Turkiyaga qarshi “Muqaddas Liga” tashkil topdi"
+},
+{
+"n": 11,
+"q": "“Ekspansiya” atamasining izohi qaysi javobda to`g`ri berilgan ?",
+"opts": [
+"bir davlatning o`zga mamlakatlar hududi va bozorini egallab olish maqsadida o`z siyosiy va iqtisodiy ta`sirini yoyishga qaratilgan siyosati",
+"xalqdan ajralib qolganhukmron guruh manfaatlarini himoya qiluvchi ma`muriyatchilik boshqaruv tizimi",
+"hech qanday cheklovlarsiz, hukmron sinfning kuchiga tayanib ish yurituvchi hokimiyat",
+"jamiyatning iqtisodiy, siyosiy va ijtimoiy hayotini harbiy maqsadlarga bo`ysundirish"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Quyidagi ma`lumotlar qaysi tarixiy shaxs haqida ekanligini aniqlang “ To`g`onlar, suv omborlari qurildi, ocharchilik holati uchun maxsus don omborlari tashkil qilindi. Uning davrida dehqonlarning katta yer egalariga shaxsiy qaramligini bekor qilish va qul ayolning nevarasi ozod inson bo`lishi haqidagi deklaratsiya e`lon qilindi “",
+"opts": [
+"Sechjon Buyuk",
+"Qirol Yongjo",
+"Qirol Kojon",
+"Meydzi"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Quyida berilganlardan Xurosonda noiblik qilgan shaxslarni aniqlang",
+"opts": [
+"1,2,3,4",
+"2,4,5,6",
+"1,5,6",
+"4,5,7"
+],
+"ans": "D",
+"extra": "1) Umar ibn Abdulaziz    2) Mansur    3) Rofe ibn Lays    4) Nasr ibn Sayyor    5) Tohir ibn Husayn\n6) Muoviya I      7) Ashros"
+},
+{
+"n": 14,
+"q": "Buxoro xonligini ashtarxoniylar sulolasi boshqargan davrda har bir xon davrida amalga oshirilgan tadbirlarni to`g`ri moslashtiring",
+"opts": [
+"2-a,3-c,4-b",
+"2-b,3-a,4-c",
+"2-c,3-a,4-b",
+"1-d,2-a,3-c,4-b"
+],
+"ans": "A",
+"extra": "1) Ubaydullaxon     2) Boqi Muhammad\n3) Imomqulixon     4) Subhonqulixon\na) 1603-yili Balxga hujum qilgan safaviylar qo`shinini mag`lubiyatga uchratdi\nb) Xiva xoni Anushaxon bilan kurash olib bordi va Xivani o`z tasarrufiga kiritdi\nc) qozoqlar va jung`orlarga qarshi muvaffaqiyatli kurash olib bordi    d) Mir Arab madrasasi qurildi"
+},
+{
+"n": 15,
+"q": "Quyidagi bandlar mazmuniga oid yakuniy hukmni aniqlang",
+"opts": [
+"I-to`g`ri; II-to`g`ri; III-noto`g`ri",
+"I-to`g`ri; II-to`g`ri; III-to`g`ri",
+"I-noto`g`ri; II-to`g`ri; III-noto’g’ri",
+"I-to`g`ri; II-noto`g`ri; III-noto’g’ri"
+],
+"ans": "B",
+"extra": "I.Ernazarbiy qo`zg`alonini bostirish uchun yasovulboshi Muhammadniyoz jo`natilgan\nII. 1902-yili Matyoqub pishiq rahnamoligida Xonqa,Hazorasp,Bog`ot tumanlarida qo`zg`alon ko`tarildi\nIII. Usta kulollar Nurmuhammad,Abdujabbor, uning o`g`li So`fimuhammad Niyoz va Abdullalar oddiy loydan go`zal san`at asarlarini yaratish mumkinligini isbotlab berdilar"
+},
+{
+"n": 16,
+"q": "O`zbekiston Respublikasi Prezidentining 1991-yil 25-avgustdagi farmoniga ko`ra ….?",
+"opts": [
+"1,2,3",
+"3,4",
+"2,3",
+"1,4"
+],
+"ans": "D",
+"extra": "1) Ichki ishlar vazirligi,Davlat xavfsizligi komitetining respublika tasarrufiga o`tkazildi\n2) Prezident mamlakat Qurolli kuchlarining Oliy Bosh Qo`mondoni hisoblanadi\n3) Mudofaa ishlari vazirligi tashkil qilindi\n4) SSSR Ichki ishlar vazirligining yurtimizdagi qo`shinlari O`zbekiston Prezidentiga bo`ysundirildi"
+},
+{
+"n": 17,
+"q": "Mustaqil O`zbeiston tarixi bilan bog`liq qaysi ma`lumotlar to`g`ri ?",
+"opts": [
+"I va II",
+"II va III",
+"III va IV",
+"I va IV"
+],
+"ans": "A",
+"extra": "I.1992-yil Prezident farmoniga ko`ra Vazirlar Mahkamasi huzurida Din ishlari bo`yicha qo`mita tuzildi\nII. 2017-yil 15-dekabrdagi farmon asosida O`zbekiston Islom akademiyasi tashkil etildi\nIII. 1998-yili Xorazm Ma`mun akademiyasi qayta tiklandi\nIV. 2005-yildan boshlab “Universiada”, “Barkamol avlod” kabi sport o`yinlari uyushtirildi"
+},
+{
+"n": 18,
+"q": "Tarixiy voqealar to`g`ri xronologik ketmaketlikda berilgan javobni toping",
+"opts": [
+"1,3,2,4",
+"1,3,4,2",
+"4,3,2,1",
+"3,1,2,4"
+],
+"ans": "B",
+"extra": "1) Xiva xonligida qo`ng`irotlar hokimiyatni egalladilar\n2) Turkiston muzeyi tashil etildi    3) Turkiston xalq kutubxonasi tashkil etildi\n4) Buxoro bilan Rossiya amirlikka o`z vakilini tayinlash huquqini beruvchi yangi shartnoma imzoladi"
+},
+{
+"n": 19,
+"q": "Quyidagilarni tahlil qilib , nuqtalar o`rniga mantiqan mos keluvchi javobni toping O`rta asrlarda saljuqiylar sulolasiga mansub hukmdorlar :",
+"opts": [
+"Muso I",
+"Abu Bakr",
+"Alptegin",
+"Alp Arslon"
+],
+"ans": "D",
+"extra": "1) To`g`rulbek    2 ) Saljuqbek    3) ……"
+},
+{
+"n": 20,
+"q": "XIX asr oxirida Afg`oniston davlati ….?",
+"opts": [
+"“Birlik va taraqqiyot pariyasi” tashkil etildi",
+"Amir Abdurahmon hukmronligi yakunlandi",
+"Inglizlar bilan “Dyurand chizig`i” shartnomasini imzoladi",
+"“Zulm davri”ni boshdan kechirdi"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "XX asrning ikkinchi yarmida qaysi shaxs hokimiyatga harbiy to`ntarish orqali kelmagan edi?",
+"opts": [
+"K.Evren",
+"Ziyo ul- Haq",
+"Augusto Pinochet",
+"Muhammad Dovud"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "O`zbekiston SSRda industrlashtirish dastlab sekinlik bilan bordi . Quyida berilganlardan “industrlashtirish” mohiyati keltirilgan javobni aniqlang",
+"opts": [
+"xalq xo`jaligining barcha sohalarida yirik mashina ishlab chiqarish jarayonini keltirish, ishlab chiqarish tarmoqlarini mashina texnikasi asosiga o`tkazish",
+"dehqonlarga o`zi yetishtirgan mahsulotni bozorda erkin sotish huquqini berish",
+"ayrim shaxs yoki birlashmalarning xususiy mulki bo`lgan yer,ishlab chiqarish korxonalari,transport va boshqalarni davlat ixtiyoriga o`tkazish",
+"mayda-mayda dehqon xo`jaliklaridan ommaviy tarzda yirik kollektiv xo`jaliklarni tashkil etish"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "To`g`ri moslashtirilgan javobni toping",
+"opts": [
+"Sin imperiyasi- Baqtra,Maroqand,Marv va Termiz yirik shahar va madaniyat markazlar edi",
+"Afina- urushga tayyorgarlik ko`rayotgan shaharga o`xshar edi",
+"Sparta- xalq tribuni qashshoq fuqarolar manfaatini himoya qilar va “veto” huquqi mavjud edi",
+"Kushon imperiyasi- poytaxt Baqtriyada Peshovarga ko`chirilgan edi"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Quyida berilgan xalqlar orasidan qaysi biri janubiy slavyanlar guruhiga mansub emas  ?",
+"opts": [
+"chex",
+"sloven",
+"bosniya",
+"chernogor"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi grafikda qaysi raqam ostidagiga muvofiqkeladi? Abdullanoma” “Umarnoma” “O`zbeklar Xorazmda” “Esdaliklar” Muravyov  Vasilevskiy    Fazliy    Hofiz Namangoniy Tanish al-Buxoriy",
+"opts": [
+"1,4,5,7",
+"3,5,7",
+"1,3,5,7",
+"1,2,3,5 2 3"
+],
+"ans": "C",
+"img": "img/dtm/zn-06-25.jpg"
+},
+{
+"n": 26,
+"q": "Quyida berilgan muallifning asarlarini toping.",
+"opts": [
+"1,2",
+"1,4",
+"1,3,4",
+"1,2,3,4"
+],
+"ans": "B",
+"extra": "2) “Rugon Makkarlar”\n1) “Qurol va inson”"
+},
+{
+"n": 27,
+"q": "Quyidagi jadvalda voqea va uning natijasi o‘zaro mos berilgan qatorlarni aniqlang. № Voqea Natija 1 Yuz yillik urush Sharqda qudratli xristian davlati tashkil topdi 2 Sarbadorlar harakati Amir Temur shu voqea sabab bu hududga 5 marta askar tortdi 3 1933-1937yillarda ikkinchi besh yillik SSSR sanoat ko`rsatkichlari bo`yicha ikkinchi o`ringa ko`tarildi 4 1701-yili Prussiya qirolligi tashkil topdi Fridrix II davrida mutlaq monarxiyaga aylandi 5 Yunon-fors urushlari Forslar Markaziy Yevropani to`liq egallashdi 6 Ikkinchi jahon urushi Germaniya okkupatsion zonalarga bo`lindi",
+"opts": [
+"2,3,4,5",
+"1,5,6",
+"1,2,3,4,6",
+"3,4,6"
+],
+"ans": "D",
+"img": "img/dtm/zn-06-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi jadvalning qaysi qatordagi javoblar mos ravishda berilgan? № Davlat Voqea Hukmdor (shaxs) 1 Afina Xalq boshqaruvini bekor qilgan qonunlar yozildi Drakont 2 Fransiya Lyudovik VIII 3 Rossiya Turkiston,Sibir,Kavkaz dan front orti ishlari uchun odam olish belgilandi Salib yurishlarida ishtirok etdi Nikolay I 4 G`aznaviylar davlati Davlat o`zining eng kuchaygan davriga kirdi Mahmud G`aznaviy 5 Usmoniylar Konstantinopol egallandi Mahmud VI Shoh Muzaffaridin",
+"opts": [
+"1,2,4,6",
+"2,4,5,6",
+"1,2,3,4,6",
+"1,2,4,5 6"
+],
+"ans": "A",
+"img": "img/dtm/zn-06-28.jpg"
+},
+{
+"n": 29,
+"q": "Eyler-Venn diagrrammasidagi ma`lumotlarni taxlil qilib, mos keluvchi javobni aniqlang. Yaponiya                  Xitoy I III II",
+"opts": [
+"I-b,f; II-a,c; III-d",
+"I- a,e II- b,f; III-d",
+"I-a,e; II- b,f; III-g,d",
+"I-b,f; II-c,a; III-g"
+],
+"ans": "C",
+"extra": "a) 1925-yili sovet davlati bilan munosabatlar yo`lga qo`yildi;\nb) 1989-yili Tyananmin maydonida namoyish bo`ldi va bositirildi;\nc) XIX asr oxiridaYanszi viloyatini bosib oldi ;\nd) Simonoseki shartnomasini imzoladi;\ne) 1938-yili Sharqiy Osiyoda yangi tartib o`rnatish hukumat vazifasi ekanligini aytildi;\nf) 1970-yillarda “Katta sakrash ” amalga oshirildi;\ng) 1937-yili urush harakatlari boshlandi ;"
+},
+{
+"n": 30,
+"q": "Quyida turli raqamda berilgan qaysi mamlakatlar o`rtasida “Muqaddas ittifoq “ shakllangan ?",
+"opts": [
+"1,2,3",
+"4,5,6",
+"1,3,4",
+"2,5,6"
+],
+"ans": "C",
+"img": "img/dtm/zn-06-30.jpg"
+}
+]
+}

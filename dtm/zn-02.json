@@ -1,0 +1,352 @@
+{
+"id": "zn-02",
+"items": [
+{
+"n": 1,
+"q": "Quyidagilardan Qadimgi Rimga oid bo’lmagan atamani toping.",
+"opts": [
+"Konsul",
+"Forum",
+"Periyek",
+"Liktor"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Sin Shixuandining faoliyati bilan bog`liq noto`g`ri ma`lumotlarni aniqlang.",
+"opts": [
+"2,4",
+"2,3",
+"1,4",
+"1,3"
+],
+"ans": "D",
+"extra": "1) Uning davrida “Sariq ro’mollilar ” qo’zg’oloni sodir bo’lgan;\n2) O’z davlatini ko’chmanchi xunnlarning hujumlaridan himoya qilish uchun Shimoliy Xitoy bo’ylab qurilgan mudofaa devorini yanada mustahkamlashni buyurgan;\n3) Uning davrida “qizil qoshlilar” qo’zg’oloni sodir bo’lgan;\n4) O’z davlati hududini 36 viloyatga taqsimlagan;"
+},
+{
+"n": 3,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar bir-biriga mos ravishda to‘g‘ri berilgan? № Davlat Voqea 1. Qadimgi Misr Husnixat san’atini egallagan kishilar yuksak saviyadagi ma’lumotli va savodxon kishilar sanalgan, ular katta imtiyozlarga ega bo’lib, izzathurmatda bo’lganlar; 2 Qadimgi Hindiston Ashoka savdo-sotiqni rivojlantirish maqsadida, barcha shaharlar uchun uzunlik,maydon va og’irlik o’lchovini joriy etadi; 3 Qadimgi Yunoniston Drakont taklifi bilan dehqonlarning qarzlari va qarzdorlarni qul qilish bekor qilinadi; 4 Qadimgi Xorazm Kulolchilik, temir, mis asboblar qurollar, zargarlik buyumlariga talab katta bo’lgan; 5 Kushon Vima Kadfiz hukmronligi davrida hukmdor nomi ko’rsatilgan tangalar zarb qilish boshlandi;",
+"opts": [
+"1, 2, 3 ,4",
+"1, 4, 5",
+"1, 3, 4",
+"2, 3,5"
+],
+"ans": "B",
+"img": "img/dtm/zn-02-3.jpg"
+},
+{
+"n": 4,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping. Arab xalifaligini boshqargan hukmdorlar",
+"opts": [
+"Nosir",
+"Bahouddin Roziy",
+"Muso I",
+"Ziryab"
+],
+"ans": "A",
+"extra": "1) Usmon;\n2) Ali ;\n3) . . . ."
+},
+{
+"n": 5,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping.",
+"opts": [
+"Lyudovik XI; Aleksandr Nevskiy",
+"Yelizaveta I; Fyodor Ivanovich",
+"Vilgelm II; Ivan IV",
+"Fridrix I Barbarossa; Nikolay II"
+],
+"ans": "D",
+"extra": "1) Kapetinglar  sulolasi – Filipp IV;\n2) Sin  sulolasi – Sin Shixuandi;\n3) Shtaufenlar  sulolasi − . . . ;\n4) Romanovlar  sulolasi − . . . ."
+},
+{
+"n": 6,
+"q": "“Oq kiyimlilar” qo’zg’olonining rahbari Muqanna qayerda tug’ilgan?",
+"opts": [
+"Nishopurda",
+"Keshda",
+"Somda",
+"Kozada"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Mahalliy hokimliklardan Toxariston tarkibiga kirgan hududlar qaysi javobda ko`rsatilgan ?",
+"opts": [
+"1,2,5",
+"1,4,6",
+"2,3,7",
+"4,6,8"
+],
+"ans": "B",
+"extra": "1) Qunduz            2) Kesh       3) Buxoro\n4) Xuttal\n5) Quramozor      6) Balx\n7) Xorazm   8) Naxshab"
+},
+{
+"n": 8,
+"q": "Quyidagi jadvalda ma’lumotlar to‘g‘ri moslashtirilgan qatorlarni toping. №   Davlat Voqea Hukmdor 1. Somoniylar Nasr II Buxoroning Registon maydonida amir qasri qarshisida devonlar uchun saroy qurilib, mahkama shu maxsus binoga joylashgan edi 2. G’arbiy Turk Xoqonligi To'ng yabg'u Boshqaruv tartiblari Islohotiga ko’ra, mahalliy hukmdorlarga xoqonlikning “yabg’u” unvoni berilib, ular xoqonning noibiga (vakiliga)  aylanadilar 3. Mo’g’ulis -ton O’qtoy Yomlar bo’ylab pochta xizmati uchun ajratilgan otlar soni belgilanib, aholidan ortiqcha ot talab qilish man etiladi; 4. Xorazmshohlar Otsiz Kaspiy dengizi sohillaridan to Sirdaryoning o’rta oqimiga qadar bo’lgan yerlarda davlatning poydevorini barpo etadi; 5. G’aznavi ylar Ma’sud G’aznaviy Davlatning siyosiy nufuzi ortib, Somoniylar tomonidan e’tirof etilgan;",
+"opts": [
+"1, 3,5",
+"1,2, 4,5",
+"1,2,4",
+"3,4,5"
+],
+"ans": "C",
+"img": "img/dtm/zn-02-8.jpg"
+},
+{
+"n": 9,
+"q": "Quyidagi ma’lumotlar qaysi tarixiy shaxs haqida ekanligini aniqlang. “Tevongun eng muhim davlat lavozimlariga o`z odamlarini qo`yib olgan noron (oqsoqollar) asilzodalar partiyasining zo`ravonligiga chek qo`ydi. U, hatto dvoryan bo`lmagan qatlamlarsavdogarlar, o`ziga to`q mayda yer egalarining ayrim vakillariga ham davlat xizmatiga kirish imkoniyatini yaratdi. Oddiy kishilar to`laydigan harbiy soliq barcha qatlamlar uchun uy boshi solig`i bilan almashtirildi”.",
+"opts": [
+"Meydzi",
+"Sechjon Buyuk",
+"Li Sun Sin",
+"Li Xa In"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan oldinroq sodir bo‘lgan?",
+"opts": [
+"Italiya qirolligining tashkil topishi",
+"AQSHda Konstitutsiyaning qabul qilinishi",
+"Afyun urushining boshlanishi",
+"Yevropa davlatlari tomonidan inqiloblarga qarshi “Muqaddas Ittifoq”ning tuzilishi"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Quyidagi raqamlar bilan berilgan mamlakatlardan qaysilarida 1848-yili Konstitutsiya qabul qilingan edi ?",
+"opts": [
+"2,3,4",
+"4,5",
+"1,3",
+"4,5"
+],
+"ans": "C",
+"img": "img/dtm/zn-02-11.jpg"
+},
+{
+"n": 12,
+"q": "Abdullaxon timi nechanchi yilda qurilgan?",
+"opts": [
+"1678-yil",
+"1597-yil",
+"1556- yil",
+"1577-yil"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Eyler-Venn diagrrammasidagi ma`lumotlarni taxlil qilib, mos keluvchi javobni aniqlang. Mir Ma’sum Olamiyon    Mirzo Sodiq Jondoriy I III II",
+"opts": [
+"I-b,f; II-a,c; III-d,g",
+"I- b,e II- a,c; III-d,g",
+"I-b,f; II- d,e; III- a,c",
+"I-b,f; II-a,c; III-d,e,g"
+],
+"ans": "B",
+"extra": "a) Nasrulloxon amirligi davrida ijod qilgan;\nb) Amir Haydar davrida ijod qilgan\nc) Sa’diy va Hofiz asarlariga turmush manzaralari tasvirlangan rasmlar ishladi;\nd) XIX  asrda ijod qilgan\ne) “Ahloqi Muhsiniy” kitobini hamda Sa’diyning she’riy asarlarini rasm bilan bezadi;\nf) “Shohi darvesh”, “Ajoyib at-tabaqot” asarlarini ko’chirgan;\ng) Tasviriy sa’nat bilimdonlari;",
+"img": "img/dtm/zn-02-13.jpg"
+},
+{
+"n": 14,
+"q": "Quyidagi grafikda qaysi raqam ostidagiga muvofiq keladi? “Dastur ulamal” “Tarixlar sarasi” “Zarbulm Asal” “Husn-u Dil” Nishotiy   Gulxaniy   Ogahiy  Munis",
+"opts": [
+"1,4,6,7",
+"3,4,6,7",
+"1,3,5",
+"1,2,3,5 6 7 4 5 2 3"
+],
+"ans": "C",
+"img": "img/dtm/zn-02-14.jpg"
+},
+{
+"n": 15,
+"q": "Quyidagi davlatlar orasidan 1867-yili dominion huquqini olganini belgilang",
+"opts": [
+"Kanada",
+"Hindiston",
+"Irlandiya",
+"Misr"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Quyida berilgan muallifning asarini toping",
+"opts": [
+"1,2,3",
+"2,3,4",
+"1,4",
+"2,3"
+],
+"ans": "D",
+"img": "img/dtm/zn-02-16.jpg"
+},
+{
+"n": 17,
+"q": "Quyida keltirilgan ma’lumotlar (voqealar) . . . ga aloqador. − Ispaniyaga 20 mln to`lab Filippinga ega bo`lib oldi; − bir qator davlatlardan Xitoydagi “ta`sir doiralari”ni o`z tovarlari uchun ochib qo`yishni talab qildi; − 1903-yili Panamada isyon tashkil etdi",
+"opts": [
+"AQSH mustamlakachilik siyosati",
+"Yaponiya mustamlakachilik siyosati",
+"Buyuk Britaniya mustamlakachilik siyosati",
+"Germaniya mustamlakachilik siyosati"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Quyidagi qaysi me`moriy inshoot  XIX  asrda qurilgan ?",
+"opts": [
+"Qoraqum eshon madrasasi",
+"Mo’yi muborak madrasasi",
+"Shayboniyxon madrasasi",
+"Mir Arab madrasasi"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Tarixiy voqealar to‘g‘ri xronologik ketmaketlikda berilgan javobni toping.",
+"opts": [
+"1, 3, 2, 4",
+"2, 1, 3, 4",
+"4, 1, 2, 3",
+"3, 1, 4, 2"
+],
+"ans": "A",
+"extra": "1) Munis “Savodi ta’lim ” asarini yozdi;\n2) Bog’chasaroyda  birinchi jadid  maktabi ochildi;\n3) Turkiston xalq kutubxonasi tashkil etildi;\n4) Xudoybergan Devonov vafot etdi;"
+},
+{
+"n": 20,
+"q": "Quyidagi bandlar mazmuniga oid yakuniy hukmni aniqlang.",
+"opts": [
+"I − to‘g‘ri; II − to‘g‘ri; III − noto‘g‘ri",
+"I − noto‘g‘ri; II − to‘g‘ri; III − to‘g‘ri",
+"I − to‘g‘ri; II − noto‘g‘ri; III − to‘g‘ri",
+"I − noto‘g‘ri; II − noto‘g‘ri; III − to‘g‘ri"
+],
+"ans": "D",
+"extra": "I. 1909-yilda Abdulmalik to’ra  Afg’onistonda vafot etgan;\nII. 1876-yil 19-fevralda Aleksandr III tomonidan “Qo’qon xonligini tugatilganligi to’g’risida ” farmon e’lon qilindi;\nIII. Bobo G’oklan boshchiligidagi qo’zg’olon o’n yil davom etgan;"
+},
+{
+"n": 21,
+"q": "Farg`ona vodiysidagi istiqlolchilik harakati rahbarlaridan bo`lgan Madaminbek faoliyatiga tegishlisini aniqlang",
+"opts": [
+"Farg`ona muvaqqat muxtoriyati hukumatini tuzdi",
+"Turkiston – turk mustaqil islom jumhuriyatini tashkil etdi",
+"“Turiston milliy birligi ” tashkiloti ko`rsatmalari asosida faoliyat ko`rsatgan",
+"Cho`lpon tomonidan unga atab “Baljuvon” marsiyasi yozilgan edi"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "O`zbekiston Kompartiyasi Markaziy Komitetining birinchi sekretari lavozimida Nuriddin Muhitdinov faoliyat ko`rsatgan davrda qanday o`zgarishlar bo`lgan edi ?",
+"opts": [
+"1,2,3",
+"2,3",
+"1,4",
+"1,3,4"
+],
+"ans": "B",
+"extra": "1) islom diniga erkinliklar berila boshlandi\n2) o`zbek ziyolilarini oqlanishida tashabbuskorlik ko`rsatgan edi\n3) paxtaga xarid narxini oshirishni Markaz oldiga qo`yib buni uddaladi\n4) Ikkinchi jahon urushida g`alab qozonildi"
+},
+{
+"n": 23,
+"q": "2017-yilda O’zbekiston Respublikasi Prezidenti Shavkat Mirziyiyevning qaysi davlatga qilgan tashrifi natijasida umumiy qiymati 16 milliard dollar bo’lgan 55 ta hujjat imzolangan?",
+"opts": [
+"Rossiya",
+"AQSH",
+"Turkmaniston",
+"Af’aniston"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "O`zbekiston Respublikasida yillarni nomlanishini  to`g`ri ketma-ketlikda joylashtiring.",
+"opts": [
+"2,1,3",
+"1,2,3",
+"2,3,1",
+"3,2,1"
+],
+"ans": "A",
+"extra": "1)” Yoshlar yili”     2) “Oila yili”   3) “Faol tadbirkorlik, innovatsion g’oyalar va texnologiyalarni qo’llab-quvatlash yili”"
+},
+{
+"n": 25,
+"q": "Mustaqil O‘zbekiston tarixi bilan bog‘liq qaysi ma’lumotlar noto‘g‘ri?",
+"opts": [
+"I va IV",
+"II va III",
+"I va II",
+"III va IV"
+],
+"ans": "B",
+"extra": "I. 2016- yil o’zbek palovi YuNESKOning nomoddiy madaniy meros ro’yxatiga kiritildi;\nII. O’zbekiston Respublikasi Oliy Kengashining 1992-yil 18-noyabrda bo’lib o’tgan VIII sessiyasida “O’zbekiston Respublikasining davlat bayro’gi to’g’risida”gi qonun qabul qilindi;\nIII. 2017-yil 2-sentyabrda Islom Karimov og’ir xastalik tufayli vafot etdi;\nIV. O’zbekiston Respublikasi Konstitutsiyasining 93-moddasiga muvofiq Prezident mamlakat Qurolli Kuchlarining Oliy Bosh Qo’mondoni hisoblanadi;"
+},
+{
+"n": 26,
+"q": "Ispaniya va Portugaliya kabi mamlakatlarda parlament qanday nomlangan ?",
+"opts": [
+"Katolitsizm",
+"Oliy Kengash",
+"Kortes",
+"Ekspansiya"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "XXI asrga kelib qaysi davlat Yevropada eng kuchli iqtisodiy imkoniyatlarga ega bo`lib, YIM hajmi bo`yicha dunyoda uchinchi o`rinni egalladi?",
+"opts": [
+"AQSh",
+"Yaponiya",
+"Germaniya",
+"Rossiya"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "1936-yil noyabrda qaysi davlatlar antikomintern pakti deb ataluvchi hujjatni imzolaganlar ?",
+"opts": [
+"Buyuk Britaniya va Fransiya",
+"Xitoy va Yaponiya",
+"Yaponiya va Germaniya",
+"AQSH va Buyuk Britaniya"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "“Deklaratsiya” atamasining izohi qaysi javobda to`g`ri berilgan ?",
+"opts": [
+"Qandaydir muhim ma’lumotlar bayon qilingan ayrim rasmiy hujjatlarning nomlanishi",
+"Majburiy kuchga ega bo‘lmagan xalqaro aktning umumiy qoidalari va maqsadlarini ifodalaydigan hujjat",
+"Xalqaro kelishuv va normalarni buzgan bir guruh shaxslar yoki butun boshli davlatga nisbatan qo‘llaniladigan cheklov chorasi",
+"Ma’lum muddatga belgilangan faoliyat turi bilan shug‘ullanish uchun beriladigan huquqni tasdiqlovchi rasmiy hujjat"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Quyida keltirilganlardan qaysilarida davlatshaxs-voqea mos ravishda berilgan?",
+"opts": [
+"1, 3, 4",
+"2, 3, 4",
+"1, 3, 5",
+"2, 4, 5"
+],
+"ans": "D",
+"extra": "1) AQSh – Fransua Olland – “Uotergeyt ishi” tufayli impichmentdan zo`rg`a qutulib qoldi;\n2) SSSR −M.I.Gorbachyov – “qayta qurish” siyosatini e`lon qildi;\n3) Italiya −Margaret Tetcher – soliqlar oshirilishi hisobiga italyanlarni daromadlarini oshirish dasturini boshladi;\n4) Iroq −Saddam Husayn – Eronga qarshi urush boshladi;\n5) Xitoy –Den Syaopin –Szyan Szeminni o`zining vorisi deb e`lon qildi;"
+}
+]
+}

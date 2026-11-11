@@ -1,0 +1,353 @@
+{
+"id": "zn-24",
+"items": [
+{
+"n": 1,
+"q": "Nuqtalar o‘rniga mos keluvchi javobni aniqlang. Yangi tarix:",
+"opts": [
+"Mutsuxito, Li Xa In, Barquq",
+"Xubilay, Taxmasp I, Ahmad Orabibey",
+"Li Sze Xvan, Avrangzeb Olamgir, Abbos I",
+"Shunchji, Akbarshoh, Xayriddin"
+],
+"ans": "D",
+"extra": "1) Rossiya – Pyotr I;\n2) Yaponiya− Oda Nobunaga;\n3) Xitoy −... ;\n4) Hindiston−... ;\n5) Jazoir−... ."
+},
+{
+"n": 2,
+"q": "Quyida tarixiy voqealar keltirilgan.",
+"opts": [
+"Xitoyda Yuan sulolasiga asos solindi",
+"Novgorod aynan shu vaqtdan uzil-kesil feodal respublikaga aylanadi",
+"Dehli sultonligi tashkil topdi",
+"Lankasterlar xonadoni qo`llagan Genrix VII Tyudor taxtni egalladi"
+],
+"ans": "D",
+"extra": "1) Angliyada Yuz yillik urushdan so`ng Bosvort yaqinidagi jang sodir bo`ladi;\n2) Hindistonning shimoliy hududlariga turk va afg`on qabilalarining hujumlari va joylashuvlari kuchaygan;\n3) Xubilay davrida Xitoyning markaziy va janubiy hududlariga ham ta`sir o`tkaziladi;\n4) Novgorodliklar vechesi Monomaxning nabirasi Vsevolod Mstislavichni knyazlik taxtidan chetlatdi Ular orasidan ENG KEYIN sodir bo‘lgan voqeaning natijasi keltirilgan javobni toping."
+},
+{
+"n": 3,
+"q": "Quyidagilardan boshqalariga nisbatan ENG AVVAL(a) va ENG KEYIN(b) sodir bo‘lganlarini aniqlang.",
+"opts": [
+"a-1, b-6",
+"a-1, b-2",
+"a-2, b-5",
+"a-6, b-2"
+],
+"ans": "C",
+"extra": "1) Turklarning qariyb besh asrlik hukmronligi tugab Albaniya mustaqillikka erishdi;\n2) Baroqxon madrasasida ta`mirlash ishlari boshlandi;\n3) Yurtimizda Islomxo`ja minorasi qurildi;\n4) Versalda Vilgelm I imperator deb e`lon qilindi;\n5) AQSH Kongressi trestlarga qarshi qonun qabul qildi;\n6) Rossiyada “Med” jamiyati tashkil etildi"
+},
+{
+"n": 4,
+"q": "Quyidagilar orasidan TO‘G‘RI ma’lumotlar ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1, 3, 4, 6",
+"2, 3, 5, 7",
+"1, 4, 5, 7",
+"2, 5, 6, 7"
+],
+"ans": "C",
+"extra": "1) Amir Nasrullo tomonidan 1842-yili Qo`qon shahri ishg`ol qilindi;\n2) 1770-yili Qo`qonda hokimiyat tepasiga yangi sulola – ashtarxoniylar sulolasi keldi;\n3) 1821yili Napaleon hokimiyatni egallagach Misr davlatiga bosqinchilik yurishini uyushtirdi;\n4) 1842-yili Sulton Mahmudxon Qo`qondan Rossiyaga ikkinchi elchilar guruhini yuborgan;\n5) Zamondoshlari Motsartni o`z davrining haqiqiy mo`jizasi deb atashgan;\n6) 1785-yili Yevropa davlatlari Turkiyaga qarshi “Muqaddas Liga tuzishdi” ;\n7) Angliya va Shotlandiya o`rtasidagi uniyadan so`ng 1707-yildan mamlakat Buyuk Britaniya deb atala boshlandi;"
+},
+{
+"n": 5,
+"q": "Quyidagi jadvalda voqea va uning natijasi o‘zaro mos berilgan qatorlarni aniqlang. № Voqea Natija 1549-yili Rossiyada Zemstvo sobori chaqirildi Sudebnik tuzish haqida qaror qilindi Salohiddin Ayyubiy tomonidan Quddus shahri qaytarib olindi Shu tariqa Salib yurishlari batamom to`xtatildi Mil.avv XII asrda doriylar Janubiy Yunonistonga  kirdilar Salavkiylar davlati tashkil topdi 1902-yili YaponiyaBuyuk Britaniya shartnomasi imzolandi Ikki davlat har qanday sharoitda ham bir-birini qo`llab-quvvatlashga kelishib oldi 1592-yili yaponlar Koreyaga bostirib kirdilar Seul va Pxenyan shaharlari yaponlar tomonidan egallandi 1832-yili Pekinda Xitoy-Qo`qon shartnomasi imzolandi Qo`qon savdogarlari Sharqiy Turkistonda boj to`lamay savdo qilishadigan bo`ldi",
+"opts": [
+"2,4,5,6",
+"1,4,5,6",
+"1,2,3,4,6",
+"1,3,4,6"
+],
+"ans": "B",
+"img": "img/dtm/zn-24-5.jpg"
+},
+{
+"n": 6,
+"q": "Xaritada raqamlar bilan ko`rsatilgan davlatlar tarixiga tegishli bo`lgan ma`lumotni to`ping.",
+"opts": [
+"1-a, 2-d, 3- f, 4-c",
+"1-a, 2-f, 3-c, 4-d",
+"1-c, 2-f, 3- a, 4-b",
+"1- c, 2-d, 3-a, 4-b"
+],
+"ans": "C",
+"extra": "a) 2009-yilgi saylovlarda M.Ahmadinajot g`alaba qozondi;\nb) «Ruhnoma» nomli kitobi ommaviy axborot vositalarida keng targ‘ib qilinib, o‘quv yurtlarida o‘qitildi;\nc) 1932-yili o`z mustaqilligini e`lon qildi;\nd) 1992-yildan g`alla eksportini boshladi;\nf) Buyuk Britaniya bilan “Dyurand chizig`i” kelishuvini imzoladi",
+"img": "img/dtm/zn-24-6.jpg"
+},
+{
+"n": 7,
+"q": "Eyler-Venn diagramma sidagi ma`lumotla rni taxlil qilib, mos keluvchi javobni aniqlang. Xudoyorxon       Muhammad Rahimxon II I III II",
+"opts": [
+"I-a,e; II-b,f,g; III-c,n",
+"I-a,e; II-b,f; III-d,g",
+"I-b,f; II-c,a; III-n",
+"I-a; II-b,f; III-c,n"
+],
+"ans": "D",
+"extra": "a) “Qipchoqlar qirg`ini” uyushtirilgan edi;\nb) 1882-yili musiqa sohasiga doir qaror qabul qildi;\nc) F.Kaufman bilan shartnoma imzolagan edi;\nd) Peterburgda u 3 yil davomida harbiy ishlar va davlat boshqarish asoslarini o‘rgandi;\ne) “Vabo isyoni”ni bostirish to`g`risida buyruq bergan edi;\nf) Nemis mennonitlariga o`lkada yashashga ruxsat bergan edi;\ng) 1896-yili birinchi rus-tuzem maktabini ochgan edi; n) Davlati hududida saroy qurdirgan edi",
+"img": "img/dtm/zn-24-7.jpg"
+},
+{
+"n": 8,
+"q": "Quyida berilgan muallifning asarlarini toping.",
+"opts": [
+"1-a, 2-b, 3-c, 4-f, 5-j",
+"1-c, 2-b, 3-d, 4-j, 5-m",
+"1-a,c, 2-b, 3-d, 4-j, 5-m,e",
+"1-a,c, 2-b, 3-e, 4-j, 5-d"
+],
+"ans": "B",
+"extra": "1) Muhammad Sharif Buxoriy\na) «Tarixi Amir Haydar»\nb) «Tarixi arba` ulus»\n2) Mirzo Ulug`bek\nc) «Xoqonga foydali maslahatlar»\n3) Ajiniyoz\nd) «Yigitlar»\nf) «O`rta Osiyo bo`ylab sayohat»\n5) N.Vasilevskiy\nj) «Bo`lgan emas» m) «Qo`ng`irot sulolasi»"
+},
+{
+"n": 9,
+"q": "Quyidagi grafikda qaysi raqam Iskandarxon o`g`li Abdullaxon II siyosatiga muvofiq keladi? Boqi Muhammaddan yengildi Rasman xon deb e`lon qilindi Ko`chimxonga Sibirda hokimiyat-ni egallashda yordam berdi Tavvalud topdi yillar              1534            1563           1583      1601",
+"opts": [
+"1,3,5,7",
+"1,3,5",
+"1,5,7",
+"1,2,3,7"
+],
+"ans": "B",
+"img": "img/dtm/zn-24-9.jpg"
+},
+{
+"n": 10,
+"q": "To`g`ri moslashtirilgan javobni toping",
+"opts": [
+"Trayan – Rim shahrida balandligi 40 metrlik ustun qurdirgan",
+"1829-yil – Munis tomonidan “Savodi ta`lim” yozildi",
+"Afina shahri – Tibrdagi eng baland tepalik ustida bunyod etilgan",
+"Buyuk Britaniya – U.Gladston davrida “Iyul monarxiyasi” sodir bo`lgan"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Quyida berilgan ma’lumotlarni muallifiga muvofiqlashtiring.",
+"opts": [
+"I−Lloyd Jorj, II− Emiliano Sapata, III− N.Kuropatkin",
+"I− U.Cherchill, II−X.Vitboy, III− F.Kaufman",
+"I−Dizraeli, II− Kamillo Kavur, III-M.Chernyayev",
+"I− J. Ferri, II− F.Vilya, III− K.Palen"
+],
+"ans": "A",
+"extra": "I. «Tarix o`zining xudbinlarcha qaysarligi bilan quroldosh rus o`rtoqlarini halokatga duchor etgan Fransiya va Buyuk Britaniyaning qo`mondonligidan javob talab qiladi»;\nII. Mamlakat janubidagi dehqonlar harakatiga rahbarlik qilgan. 1911-yili o`z agrar dasturini e`lon qilgan\nIII. Harbiy vazir .......yangi tayinlangan Turkiston general-gubermatori S.M.Duxovskoyga o`lim jazosini ko`paytirmaslik haqida telegramma jo`natdi Ushbu ma’lumotlar qaysi tarixiy shaxslar haqida ekanligini aniqlang."
+},
+{
+"n": 12,
+"q": "Qo`qon xoni Olimxon davriga oid berilgan javobni toping.",
+"opts": [
+"o‘zbeklar va turkmanlardan tuzilgan «xon navkarlari» deb atalgan muntazam qo‘shinga tayanib yirik zodagonlar va Orolbo'yi o‘zbeklari qarshiligini sindirdi",
+"“Uning davrida koshinkorlik san’ati yuksak cho‘qqiga chiqdi. Bu san’at, ayniqsa, Pahlavon Mahmud maqbarasi va Ko‘hna arkni koshin bilan bezatishda o‘zining yorqin ifodasini topdi",
+"Shahrisabz va Kitob bekliklarini to‘la bo‘ysundirish uchun kurash 30 yil davom etdi. Nihoyat, 1856-yildagina u Shahrisabz va Kitobni bo‘ysundirishga muvaffaq bo‘ldi",
+"1805-yilda birinchi bo‘lib xonlikda 10 ming kishilik muntazam qo‘shin tuzdi. Bu qo‘shinning asosini tog‘li tojiklar tashkil etdi"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyida berilgan ma’lumotlarni o‘qing.",
+"opts": [
+"I-to‘g‘ri; II-noto‘g‘ri; III-noto‘g‘ri; IV-to‘g‘ri; V-to‘g‘ri",
+"I-noto‘g‘ri; II-to‘g‘ri; III-noto‘g‘ri; IV-to‘g‘ri; V-noto‘g‘ri",
+"I-noto‘g‘ri; II-to‘g‘ri; III-to‘g‘ri; IV-to‘g‘ri; V- noto‘g‘ri",
+"I-to‘g‘ri; II-noto‘g‘ri; III-to‘g‘ri; IV-noto‘g‘ri; V-noto‘g‘ri"
+],
+"ans": "D",
+"extra": "I. 1910-yilda Buxoroda mudarris Hoji Rafiy, Mirza Abduvohid, Hamidxo`ja Mehriy, Usmonxo`ja va Muhammaddin maxdum kabilar “Tarbiyai atfol” jamiyatini tashkil etdilar;\nII. Mesopotamiyada Anubis musiqa, sevgi va go`zallik ilohasi hisoblanadi;\nIII. 1886-yilgi “Nizom” ga muvofiq Turkiston general-gubernatorligi Kengashi tashkil etildi;\nIV. Angliyada 1358-yili soliqlar og`irligidan Uot Tayler qo`zg`aloni boshlandi ;\nV. 2010-yili Tojikistonda Elboshi to`g`risidagi qonun qabul qilindi Ushbu ma’lumotlarning yakuniy xulosasi (to‘g‘ri/noto‘g‘ri) keltirilgan javobni aniqlang."
+},
+{
+"n": 14,
+"q": "“… Qo‘qon shahrida tug`ilgan.  “Qo`qondan Farg`onagacha”, “Qo`qondan Isfaragacha” kabi ilk sayohatnomalarning muallifidir ”. Nuqtalar o’rniga berilgan to’g’ri javobni toping.",
+"opts": [
+"Dilshodi Barno",
+"Zavqiy",
+"Muqimiy",
+"Anbar otin"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Quyidagi jadvalning qaysi qatordagi javoblar mos ravishda berilgan? 1 Germaniya Yigirma yil davomida imperator saylanmaydi va 1273-yili taxtga o`tiradi Rudolf Gabsburg 2 Xiva Sitorai Mohi Xosa qurildi Nasriddinbek 3 Polsha qirolligi German imperatorlariga qarshi davlat mustaqiligi uchun kurash olib boradi Boleslav Jasur 4 Afg`on iston Ingliz missiyasini 1878-yili qabul qilishdan bosh tortadi Sheralixon 5 Bolgar podsho -ligi Yoshligidan xristian aqidalari bo`yicha ta`lim olib ulg`aygan edi Vatslav 6 YunonBaqtriya Hindistonning bir qismi qo`shib olindi Demetriy",
+"opts": [
+"1,2,4,6",
+"2,4,5,6",
+"1,3,4,6",
+"1,3,5,6"
+],
+"ans": "C",
+"img": "img/dtm/zn-24-15.jpg"
+},
+{
+"n": 16,
+"q": "Ikkinchi jahon urushi davrida yurtimizda qanday suv omborlari qurilgan edi ?",
+"opts": [
+"Krasnogvardeysk va Yangiyo`l",
+"Zirabuloq va Qo`qon",
+"Yuqori Chirchiq va Shimoliy Farg`ona",
+"Kosonsoy va Rudasoy"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Yaponiya tarixiga oid XXI asrga tegishli javobni aniqlang",
+"opts": [
+"400 mlrd dollardan oshiqroq summaga teng mahsulot eksport qilyapti",
+"Sinszyan-Uyg`ur avtonom o`lkasida terrorizmga qarshi kurash olib bormoqda",
+"Davlatning qarzi juda katta, hozir u YIMga nisbatan 130% ni tashkil etadi",
+"2016-yil iyun oyidagi referendumda mamlakat aholisining 50 % turli xalqaro tashkilotlardan chiqishga ovoz berdi"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan oldinroq sodir bo`lgan ?",
+"opts": [
+"“O`zbekiston Sovet Sotsialistik Respublikasini tashkil etish to`g`risida Deklaratsiya” qabul qilindi",
+"Eronda Mustafo Kamoldan o`rnak olinib shoh yevropacha libos joriy qildi",
+"“Ittifoqi muslimin” siyosiy partiyasi tuzildi",
+"Italiya davlati Millatlar Ligasidan chiqdi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "“Bu yerda voqealar rivoji boshqacha yo‘ldan bordi. Dastlab o‘zining  Birinchi jahon urushidagi neytraliteti bilan boshqa  Yevropa davlatlaridan keskin ajralib turdi.  Shunga qaramasdan, urushdan keyin ham ancha vaqt G‘arbiy  Yevropaning eng qoloq davlatlaridan biri bo‘lib qolaverdi.  Dunyoni larzaga keltirgan Rossiyadagi inqilobiy voqealar bu davlatga ham ta’sir ko‘rsatdi “ Yuqorida berilgan ta`rif qaysi davlatga tegishli",
+"opts": [
+"Italiya",
+"Ispaniya",
+"Avstriya",
+"Gretsiya"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Quyida berilgan ta`rifga mos atama belgilansin Davlatning  iqtisodiyotga  aralashuvini  kamaytirish maqsadida o‘tkaziladigan tadbirlar. Uning tarafdorlari bozor o‘zini o‘zi tartibga soladi deb hisoblaydi",
+"opts": [
+"Neoliberal islohot ( Neoliberalizm )",
+"Neokonservatizm",
+"Devalvativ islohot ( Devalvatsiya )",
+"Ultrakonservator"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Tarixiy voqealar to`g`ri xronologik ketma-ketlikda ko`rsatilgan javobni toping",
+"opts": [
+"1,4,2,3",
+"2,3,1,4",
+"3,4,1,2",
+"4,3,1,2"
+],
+"ans": "D",
+"extra": "1) O‘zbekiston ekologik harakati tashkil topdi;\n2) “O`zbekiston Respublikasi Fanlar Akademiyasining haqiqiy a`zolarini tasdiqlash to`g`risidagi” farmon tasdiqlandi;\n3) Yurtimizda Turkman madaniyati markazi tashkil etildi;\n4) “Yoshlar ittifoqi” tugatilib, “Kamolot ” jamg`armasi tuzildi"
+},
+{
+"n": 22,
+"q": "Quyida keltirilgan ma`lumotlar ( voqealar ) … ga aloqador. - Kuchli va intizomli qo`shinning bo`lishi shimoldan mo`g`ullar hujumini qaytarish imkonini bergan; - hukmdori Shamsiddin Eltutmish; - Sultonning soliq islohoti vyuz bergan qurg`oqchilik tufayli muvaffaqiyatsiz tugaydi; - Mamlakatda asosiy yer egaligi turi iqto` deb atalgan",
+"opts": [
+"Saljuqiylar davlati",
+"G’aznaviylar davlati",
+"Usmonlilar davlati",
+"Dehli sultonligi"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagilardan arab qabilalari tarixiga oid bo`lganlarini aniqlang.",
+"opts": [
+"1,2,3",
+"1,3",
+"1,2",
+"3,4,5"
+],
+"ans": "D",
+"extra": "1) yirik shaharlarda maktablar tashkil etilib, ularda bo`lajak amaldorlarni tayyorlashgan. O`quvchilardan matematika, grammatikadan tashqari, falsafa va vadabiyotni bilish talab etilgan. Me`morlar toshdan, yog`ochdan, marmarva temirdan foydalanib, ajoyib saroylar, ibodatxonalar va ko`priklar bunyod etishgan;\n2) katta qoyatoshlar va g`orlar ichida o`yib ishlangan ibodatxonalar ham bo`lgan. Ulardan eng mashhuri mil.avv II asrdan – milodiy VII asrga qadar g`or ichiga o`yib ishlangan;\n3) tuyachilik, qo`ychilik va yilqichilik bilan shug`ullanganlar;\n4) janub va g`arbda o`troq dehqonchilik bilan shug`ullanuvchi aholisi soy va jilg`alar, quduqlar bo`ylarida xurmo bog`lari va uzumzorlarni barpo etganlar;\n5) VI asrda aholis soni ko`payib qabilalar orasida suv manbalari va yaylovlar uchun kurash kuchaygan"
+},
+{
+"n": 24,
+"q": "Quyida berilgan ta`riflarga mos keluvchi shaxslarni aniqlang",
+"opts": [
+"a- Qo`chqor Turdiyev; b- Mannon Ramziy",
+"a- U.Doniyorov; b- Sobir Rahimov",
+"a- Solih Umarov; b- Mirkomil Mirsharopov",
+"a- Xalloq Aminov; b- Ismoil Bekjonov"
+],
+"ans": "C",
+"extra": "a) Berlinni zabt etgan jangchilar orasida bo`lib, Sovet Ittifoqi Qahramoni unvonini olgan edi.\nb) 19- tog`li otliq O`zbek diviziya komandiri lavozimida ishlagan."
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi shaxslar tomonidan qilingan ixtirolar kompyuter va boshqa asboblar hajmining keskin qisqarishiga, faoliyat sohasini keskin kengaytirishga olib keldi ?",
+"opts": [
+"D.Kilbi va R.Noys",
+"J.Makleod va F.Banting",
+"Aleksandr Fleming va Enriko Fermi",
+"N.G. Basov, A.M. Proxorov, Ch.Tauns"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Qadimgi dunyo tarixi bilan bog‘liq qaysi ma’lumotlar to‘g‘ri?",
+"opts": [
+"I va III",
+"I va IV",
+"I va II",
+"III va IV"
+],
+"ans": "B",
+"extra": "I. Misrda O`rta podsholik davrida Janubiy Falastin va Nubiya shimoli zabt etilgan edi;\nII. Kushon davlati tashkil  topayotganda Baqtriya, So‘g‘diyonaning  asosiy  aholisi moniylik dinida  edi;\nIII. XIX asrning oxirida fransuz olimi F.Shampolyon Gomer  hikoyalarini  tadqiq  qilib,  Troya joylashgan  yerni  aniqladi;\nIV. Yo‘llar bilan bir qatorda, Rimda suv o‘tkazish tizimi – suv quvurlari qoldiqlari ham hozirga qadar saqlanib qolgan. Quvurlar nishablik asosida qurilgan bo‘lib, tog‘dagi buloqlardan  suvning  o‘zi  oqib  kelar edi."
+},
+{
+"n": 27,
+"q": "Quyidagi qaysi voqea boshqalariga nisbatan keyinroq sodir bo`lgan ?",
+"opts": [
+"Jaloliddin tomonidan Marog`a shahri jangsiz egallandi",
+"Ma`sudbek tomonidan pul islohoti o`tkazildi",
+"G`aznaviylar davlati barham topdi",
+"Mahmud Yalavoch Pekinga noib etib tayinlandi"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Quyidagi qaysi davlatni ozod qilish maqsadida “Sahrodagi bo`ron” operatsiyasi o`tkazilgan?",
+"opts": [
+"Iroq",
+"Suriya",
+"Yugoslaviya",
+"Quvayt"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Qaysi shaharga Yevropa va Osiyoni bog`lagani uchun “Oltin ko`prik” nomi berilgan edi ?",
+"opts": [
+"Venetsiya",
+"Florensiya",
+"Konstantinopol",
+"Genuya"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "O`zbekiston SSR tarixida qaysi shaxslar tergov harakatlari olib borganliklari bilan bog`liq ma`lumotlar mavjud ?",
+"opts": [
+"T.X.Gdlyan, Katanyan",
+"N.V.Ivanov, M.Frunze",
+"Y.Andropov,Vasilyev-Yujin",
+"Spiridinov, A.Tupikov"
+],
+"ans": "A"
+}
+]
+}

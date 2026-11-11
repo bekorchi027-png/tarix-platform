@@ -1,0 +1,346 @@
+{
+"id": "zn-20",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi hujjatning mohiyati “Ozodlik, Tenglik, Birodarlik!” degan uchta so‘zda o‘z ifodasini topgan?",
+"opts": [
+"AQSh Konstitutsiyasi",
+"Vestfal sulhi",
+"“Buyuk ozodlik xartiyasi”",
+"“Inson va fuqaro huquqlari Deklaratsiyasi”"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Shimoliy Amerikaning mustaqillik uchun kurashida ingliz qo‘shinlari yengilgach, Buyuk Britaniya hukumati 1782-yil Parijda tinchlik muzokaralarini o‘tkazishga qaror qiladi. Ushbu muzokaralarda Amerika (AQSh) tomonidan qatnashgan shaxslarni toping.",
+"opts": [
+"2, 3, 5",
+"2, 3, 4",
+"2, 4, 5",
+"1,3,5"
+],
+"ans": "A",
+"extra": "1) Tomas Jefferson;\n2) Benjamin Franklin;\n3) Jon Jey;\n4) Jorj Vashington;\n5) Jon Adams."
+},
+{
+"n": 3,
+"q": "1574-yilda Tunis qirg‘oqlariga kelib tushgan Usmonli turk qo‘shinlari qaysi davlatning Tunisdagi hukmronligiga chek qo‘ygan?",
+"opts": [
+"Portugaliyaning",
+"Ispaniyaning",
+"Angliyaning",
+"Fransiyaning"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Mulla Abdulqahhor (a), Ibrohimbek (b) qo‘rboshilar faoliyati bilan bog‘liq ma’lumotlar to‘g‘ri moslab berilgan javobni aniqlang.",
+"opts": [
+"a-1, 2, b-3",
+"a-2, 3, b-4",
+"a-1, 3, b-2",
+"a-1, 4, b-2"
+],
+"ans": "C",
+"extra": "1) Uning qo‘l ostida 2O nafar qo‘rboshi birlashgan bo'lib, ular G’ijduvon, Shofirkon. Vobkent, Romitan tumanlari hamda Nurota va Karmanada qizil askarlarga qarshi kurashini kuchaytirgan;\n2) Sharqiy Buxoro hududida o‘zining boshqaruv usulini amalga oshirdi;\n3) Qizilqumda qizilaskarlarga qarshi bo‘lgan janglarning birida halok bo'lgan;\n4) Qarshi yaqinidagi Qiliko‘l atrofida Anvar Posho bilan uchrashib , maxsus bayonot bilan chiqib, qizil armiyaga qarshi muqaddas kurash e’lon qiladi."
+},
+{
+"n": 5,
+"q": "Qaysi Kiyev Rusi knyazi mahalliy knyazlar sulolalarini tugatib, ularning o'rniga o‘g’illarini noiblikka tayinlagan?",
+"opts": [
+"Svyatoslav",
+"Igor",
+"Vladimir",
+"Yaroslav"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Ashtarxoniy sulolasining qaysi vakili davrida Buxoroda ‘Dor ush-shifo” qurilib bemorlarni davolash ishi yodga qo‘yilgan?",
+"opts": [
+"Subhonqulixon",
+"Abdulazizxon",
+"Nodir Muhammad",
+"Ubaydullaxon II"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "AQShda “Uotergeyt ishi” nomli siyosiy janjal qaysi Prezident boshqaruvi davri bilan bog‘liq?",
+"opts": [
+"D.Eyzenxauer",
+"R.Reygan",
+"R.Nikson",
+"L.Jonson"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "SSSR rahbarlaridan qaysi birining boshqaruv davri tarixda “iliqlik” davri degan nom olgan?",
+"opts": [
+"N.Xrushchyov",
+"I.Stalin",
+"L.Brejnev",
+"Yu. Andropov"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Quyidagilardan Qadimgi Yunonistonning harbiy sarkardasi bodgan shaxslarni belgilang.",
+"opts": [
+"2, 4",
+"3,4",
+"1, 3",
+"1,2"
+],
+"ans": "A",
+"extra": "1) Mark Krass;\n2) Leonid;\n3) Ssipion;\n4) Miltiad."
+},
+{
+"n": 10,
+"q": "“Karib inqirozi” AQSh va SSSRda qaysi rahbarlarning boshqaruvi davriga to‘g‘ri kelgan?",
+"opts": [
+"R.Reygan va M.Gorbachov",
+"R.Reygan va L.Brejnev",
+"J.Kennedi va N.Xrushchyov",
+"J.Kennedi va L.Brejnev"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "XX asrning ikkinchi yarmi XXI asr boshlarida Janubi- Sharqiy Osiyo mintaqasidagi qaysi davlatlar jadal modernizatsiyalashni amalga oshirib “Osiyo yo‘lbarslari”, “Yangi industrial davlatlar” deb atala boshlangan?",
+"opts": [
+"2, 3, 5, 6",
+"1, 2, 4, 7",
+"1, 4, 5, 7",
+"2, S, 4, 6"
+],
+"ans": "C",
+"extra": "1) Janubiy Koreya;\n2) Bruney;\n3) Nepal;\n4) Tayvan;\n5) Singapur;\n6) Kambodja;\n7) Gonkong."
+},
+{
+"n": 12,
+"q": "XIX asr boshlarida Xiva xonligiga kelgan qaysi rus elchisi o‘zining “Esdaliklar” kitobida o‘zbek xalqiga xos xususiyatlar haqida to‘xtalib, o‘zbeklarni “aql-idrokli, suhbati yoqimli va o‘tkir, qat’iyatli, matonatli, urf- odati oddiy, yolg‘on va aldovdan nafratlanuvchi, harbiy ishda hormay-tolmaydigan mard va jasur kishilar” deb ta’riflagan?",
+"opts": [
+"N. Ignatyev",
+"R.Baziner",
+"N. I. Muravyov",
+"I.D.Xoxlov"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagilardan I jahon urushidan keyin tashkil topgan Millatlar Ligasining asosiy vazifalarini aniqlang.",
+"opts": [
+"2, 4",
+"1,4",
+"2, 3",
+"1,3"
+],
+"ans": "B",
+"extra": "1) tinchlik uchun kurash;\n2) rivojlanib kelayotgan davlatlarga moliyaviy yordam ko‘rsatish;\n3) mustamlakachilik zulmiga qarshi kurashish;\n4) xalqlar o‘rtasida hamkorlik va xavfsizlik masalalari."
+},
+{
+"n": 14,
+"q": "Quyidagilardan bir yilda sodir bodgan voqealarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 5, 6",
+"2, 3, 4",
+"4,5,6"
+],
+"ans": "A",
+"extra": "1) Brest-Litovsk shahrida Germaniya bilan Rossiya o‘rtasida sulh tuzildi;\n2) ‘Daues rejasi” qabul qilindi;\n3) Rossiyaning Volgabo‘yi, Ural, Sibir, Uzoq Sharq hududlarida sovet hokimiyati ag‘darildi;\n4) Germaniyada Veymar Respublikasi davri boshlandi;\n5) Germaniyada Fridrix Ebert boshchiligidagi yangi hukumat tuzildi;\n6) Ispaniyada general Migel Primo de Rivera davlat to‘ntarishi uyushtirdi."
+},
+{
+"n": 15,
+"q": "Nechanchi yilda Germaniyaning Frankfurt shahrida Fransiya- Germaniya o‘rtasida sulh shartnomasi imzolangan?",
+"opts": [
+"1873-yilda",
+"1875-yilda",
+"1882-yilda",
+"1871-yilda"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "…da O‘zbekiston Respublikasi Prezidenti ayni vaqtda Vazirlar Mahkamasining Raisi bo‘lishi, O‘zbekiston Respublikasi Prezidentining va O‘zbekiston Respublikasi Ministrlar Sovetining apparati O‘zbekiston Respublikasi Prezidenti huzuridagi bitta apparatga birlashtirilishi belgilandi.",
+"opts": [
+"1990-yil 24-mart",
+"1990-yil 1-noyabr",
+"1991-yil 18-noyabr",
+"1991-yil 29-dekabr"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "XIX asr oxirida Afrika qit’asidagi Misr, Uganda, Bunoro davlatlarini bosib olgan davlatni aniqlang.",
+"opts": [
+"Germaniya",
+"Buyuk Britaniya",
+"Fransiya",
+"Italiya"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Shimoliy dengiz qirg‘oqlarida joylashgan Niderlandiya qirolligining asosiy savdo markazi bo‘lgan shaharni toping.",
+"opts": [
+"Antverpen",
+"Lissabon",
+"Florensiya",
+"Sevilya"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "XX asrning 20-30-yillarida iqtisodiy evolutsiya, iqtisodiy raqobat, iqtisodiyotga ta’sir qilishning iqtisodiy usullari o‘rniga jamiyatni boshqarishning ma’muriy-buyriiqbozlik, favqulodda, noiqtisodiy usullarni tanlagan davlatni aniqlang.",
+"opts": [
+"AQSh",
+"Hindiston",
+"SSSR",
+"Yaponiya"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Qadimgi misrliklar rivoyatiga ko‘ra kim Misrning ilk podsholaridan biri bo‘lib, o‘z xalqini dehqonchilikka o‘rgatgan?",
+"opts": [
+"Yaxmos",
+"Xufu",
+"Osiris",
+"Menes"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Qirg‘izistonda 2010-yili “Aprel inqilobi” deb atalgan ommaviy harakat natijasida qaysi Prezidentning hokimiyati ag‘darib tashlangan?",
+"opts": [
+"Almazbek Atambayev",
+"Kurmanbek Bakiyev",
+"Askar Akayev",
+"Sooronbay Jeenbekov"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Mirzo Ulug‘bek ichki savdoning fulusiy pullarga bo’lgan talabini qondirish uchun qaysi shaharlarda zarbxonalar tashkil etib, bir xil vazndagi fuluslar zarb ettirib muomalaga chiqargan?",
+"opts": [
+"1, 4",
+"1,3",
+"2, 3",
+"2, 4"
+],
+"ans": "B",
+"extra": "1) Buxoro;\n2) O‘ratepa;\n3) Samarqand;\n4) Tabriz."
+},
+{
+"n": 23,
+"q": "19O6-yil Xiva xonligida qaysi hududlarda muhtoj dehqonlar yirik zamindorlar yerlarini egallab olgan?",
+"opts": [
+"2, 3",
+"1, 4",
+"2, 4",
+"1, 3"
+],
+"ans": "D",
+"extra": "1) Yangi Urganch: 2) Bog‘ot;\n3) Xonqa;\n4) Pitnak."
+},
+{
+"n": 24,
+"q": "1904-yilda Fransiya va Buyuk Britaniya o‘rtasida imzolangan bitimga ko‘ra, Marokash sultoni o‘z vazifasini bajara olmagan taqdirda Marokash hududining Gibraltar bo‘g‘oziga tutash qismi qaysi davlatga berilishi belgilab qo‘yilgan?",
+"opts": [
+"Germaniyaga",
+"Turkiya",
+"Italiyaga",
+"Ispaniyaga"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Teyshebaini shahri qaysi davlat hujumi natijasida vayron qilingan?",
+"opts": [
+"Midiya",
+"Xett podsholigi",
+"Bobil podsholigi",
+"Ossuriya"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyidagi Eron prezidentlarining ular prezidentlikka saylangan yillariga qarab to‘g‘ri ketma- ketlikda berilgan javobni toping.",
+"opts": [
+"2, 3, 1",
+"1, 3, 2",
+"1, 2, 3",
+"2, 1, 3"
+],
+"ans": "D",
+"extra": "1) Mahmud Ahmadinajod;\n2) Muhammad Hotamiy;\n3) Hasan Ruhoniy."
+},
+{
+"n": 27,
+"q": "Xaritada 1-raqamda joylashgan davlat hududidan qaysi odam topilgan?",
+"opts": [
+"Zinjantrop",
+"Avstrolopitek",
+"pitekantrop",
+"Neandertal"
+],
+"ans": "C",
+"img": "img/dtm/zn-20-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagilar orasidan qaysi xalqlarning milliy bayrami muvofiq emas?",
+"opts": [
+"Koreys – “Soller”",
+"Uyg‘ur – “Ovul-tano”",
+"Xitoyliklar – “Chunuze”",
+"Tatar – “Sabanto‘y”"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Quyidagi qaysi qonun qonun mamlakatimizda davlat bosh-qaruv shakli – prezidentlik respublikasiga asosla-nishini mustahkamlab qo‘ydi?",
+"opts": [
+"«O‘zbekiston Respublikasi Prezidenti saylovi to‘g‘risida»gi Qonun",
+"«O‘zbekiston Respublikasida ijroiya va boshqaruv hokimiyatining tuzilishini takomillashtirish hamda O‘zbekiston SSR Konstitutsiyasi (Asosiy Qonuni)ga o‘zgartirish va qo‘shimchalar kiritish to‘g‘risida»gi Qonun",
+"«O‘zbekiston Respublikasining Konstitutsiyasini qabul qilish to‘g‘risida»",
+"«O‘zbekiston Respublikasining davlat mustaqilligi asoslari to‘g‘risida»gi qonun"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Quyidagi grafikda qaysi raqam ostidagiga muvofiq keladi? “Tarixi Ma’sudiy” “Metafizika” “Geodeziya” “Qonuni Ma’sudiy” Beruniy   Farobiy    Arastu Bayhaqiy",
+"opts": [
+"1,2,4,7",
+"1,2,5,7",
+"1,3,4,7",
+"1,2,3,5"
+],
+"ans": "B",
+"img": "img/dtm/zn-20-30.jpg"
+}
+]
+}

@@ -1,0 +1,349 @@
+{
+"id": "zn-07",
+"items": [
+{
+"n": 1,
+"q": "Qoraxoniylarning mahalliy hukmdori Ibrohim Bo’ritegin tomonidan 1038-yilda G’aznaviylardan tortib olingan  viloyatlarni aniqlang?",
+"opts": [
+"1,2,5",
+"1,4,6",
+"2,3,7",
+"4,6,8"
+],
+"ans": "A",
+"extra": "1) Xuttalon            2) Vaxsh       3) Samarqand\n4) Yettisuv   5) Chag’oniyon     6) Zarafshon\n7) Farg’ona   8) Shosh"
+},
+{
+"n": 2,
+"q": "O’zbekistonni qaysi davlat bilan diplomatik aloqalari 1992-yil 13-oktyabrda o’rnatilgan?",
+"opts": [
+"Xitoy",
+"Hindiston",
+"Afg’oniston",
+"Turkiya"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi tarixiy shahslar bilan bog’liq ma’lumotlar bir-biriga mos ravishda to‘g‘ri berilgan? № Tarixiy Ma’lumot shaxs 1. Bess Aleksandr Makedonskiy hujumi davrida Baqtra shahrini dushmanga qoldirib, Amudaryoning narigi tomoniga qochib ketgan Ahamoniylar sulolasidan bo’lgan oxirgi hukmdor; 2. Vima Kadfiz Uning hukmronligi davrida Kushon davlati hududi yanada kengayadi; 3. Chjan Xe Uning yurgan yo’l bo’ylab Xitoy mamlakatini Markaziy va G’arbiy Osiyo bilan bog’lovchi jahon ahamiyatiga ega “Buyuk Ipak yo’li ” deb ataluvchi karvon yo’li o’tadigan bo’ldi; 4.  Yuliy Sezar Galliya urushlaridagi ga’labalar tufayli uning obro’yi va nufuzi ancha ortgan edi ; 5. Tutmos II  Uning davrida Misr qo’shini Falastin, Finikiya va Suriyani istilo qilishni boshlagan ;",
+"opts": [
+"1, 2, 3 ,4",
+"2, 4, 5",
+"1, 3, 4",
+"2, 3,5"
+],
+"ans": "B",
+"img": "img/dtm/zn-07-3.jpg"
+},
+{
+"n": 4,
+"q": "Misrda Jamoliddin al – Afg`oniy “Xizb ul - Vatan” (“Vatan partiyasi”)ni tuzgan  yili …   .",
+"opts": [
+"Italiyada cherkov va davlat munosabatini tartibga soluvchi qonun qabul qilindi",
+"Yaponiyada to‘rt tabaqa haqidagi qonun bekor qilindi",
+"Inglizlar Eron neft konlaridan foydalanish, tosh va temiryo‘l qurish konsessiyalari olindi",
+"Sheralixon ingliz missiyasini Kobul shahrida qabul qilishdan bo’sh tortdi"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Quyidagi qaysi me`moriy inshoot  Toshkentda joylashmagan ?",
+"opts": [
+"Tillashayx masjidi",
+"Hazrati Imom majmuasi",
+"Baroqxon madrasasi",
+"Tillakori madrasa-masjidi"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Pyotr Ilich Chaykovskiyning hamon jahon teatrlari sahnasidan tushmay kelayotgan operalarini aniqlang. 1. «Shelkunchik»; 2.  «Ruslan va Lyudmila»; 3. «Kavkaz asiri»; 4. «Kazaklar»; 5. «Uxlayotgan go’zal» 6. «Yevgeniy Onegin»;",
+"opts": [
+"1,3,5,6",
+"2,3,6",
+"1,4,9",
+"1,5,6"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Shayboniyxon bosib olgan hududlarni ketma ket joylashtiring? 1.Farg’ona 2.Xuroson 3.Xorazm 4.Toshkent 5. Samarqand 6.Shohruhiya",
+"opts": [
+"5.6.4.3.2.1",
+"6.5.2.3.1.4",
+"5.4.6.1.3.2",
+"5.4.6.1.2.3"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Quyidagi jadvalda ma’lumotlar noto‘g‘ri moslashtirilgan qatorlarni toping. № Davlat Voqea Hukmdor 1. Chig'atoy ulusi O’z qarorgohini mo’gul hukmdorlari orasida birinchi bo’lib Movarounnahrga ko’chiradi Kebek 2. Temuriy lar Qoraqo’yunli turkmanlarning qabila boshligi Qora Yusuf bilan bo’lgan jangda halok bo’ladi Pirmuha mmad 3. Anushteg iniylar 1187-1193yillarda Nishopur, Ray, Marv shahararini  zabt etadi Elarslon 4. Safforiy lar 900-yilda Ismoil Somoniydan mag’lub bo’lgan Amr ibn Lays 5. Qoraxoni ylar 992-yilda Movorounnahrga yurish boshlaydi Nasr Eloqxon",
+"opts": [
+"1, 3,5",
+"1,2,4,5",
+"1,4",
+"2,3,5"
+],
+"ans": "D",
+"img": "img/dtm/zn-07-8.jpg"
+},
+{
+"n": 9,
+"q": "Suqrot  faoliyati bilan bog`liq to`g`ri ma`lumotlarni aniqlang.",
+"opts": [
+"2,4",
+"1,3",
+"1,2",
+"3,4"
+],
+"ans": "D",
+"extra": "1) To’plangan bilimlarni alohida tarmoqlarga ajratdi va ularni mustaqil fanlar sifatida ta’riflab berdi ;\n2) Bizni qurshab turgan hamma narsa ko’zga ko’rinmaydigan mayda-mayda zarralaratomlardan tashkil topgan degan ma’nodagi fikrni bayon etgan;\n3)Fuqarolarning axloqiy-ma’naviy tarbiyasiga kata ahamiyat bergan;\n4)Tarixda odamgarchilik,sabr-matonat va jasurlik timsoli bo’lib qolgan;"
+},
+{
+"n": 10,
+"q": "Olimlar qaysi ixtironi yaratilishini XX asrning so’ngi 50 yili ichida qilingan eng mashhur ixtiro deb atashgan?",
+"opts": [
+"Lazerni",
+"Penitsilinni",
+"Integral mikrosxemalarni",
+"Uyali telfonni"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Quyidagilardan Mesopotamiyaga   oid bo’lgan atamani toping.",
+"opts": [
+"Tirsak",
+"Zand",
+"Zikkurat",
+"Triyera"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Mantiqiy ketma-ketlikni toping.",
+"opts": [
+"Lashkarboshi Van Gon – Koryo sulolasi – 907-1258-yillar",
+"1243-yilda O'qtoyning vafot etishi – Botuxon – Volgabo'yi dashtlariga qaytishi",
+"Qunduz–1402-yil- Abdullaxon II",
+"Uot Tayler–1420–Genrix II"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Mustaqil O‘zbekiston tarixi bilan bog‘liq qaysi ma’lumotlar to‘g‘ri?",
+"opts": [
+"I va IV",
+"II va III",
+"I va II",
+"III va IV"
+],
+"ans": "C",
+"extra": "I. Minor masjidi 2014-yil 1-oktyabrda, Qurbon hayiti kuni ochildi;\nII. O’zbekistonda 1996-yildan ta’lim olishda konrtakt-shartnoma to’lovi joriy etildi;\nIII. 2017-2018-o’quv yilidan boshlab test jarayonini bir kunda emas, 15 kun davomida o’tkazish, natijasini esa imtihonning ertasiga e’lon qilish vazifalari qo’yilgan ;\nIV.2019-yilda  futbol bo’yicha 17 yoshgacha bo’lgan olimpiya terma jamoasi Osiyo chempioni unvoniga sazovor bo’lgan;"
+},
+{
+"n": 14,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping.",
+"opts": [
+"Toshkent traktor zavodi (TTZ) barpo etildi; Toshkent aviatsiya zavodi barpo etildi",
+"Yangiyo'l biokimyo zavodi barpo etildi; Toshkent mashina-traktor stansiyasi (MTS) barpo etildi",
+"O'zbekiston metallurgiya zavodida yangi prokat sexi ishga tushirildi; Bekobodda O'rta Osiyoda dastlabki zamonaviy metallurgiya kombinati zavodining birinchi navbati ishga tushirildi",
+"O'zbekistonning mashinasozlik sanoati qishloq xo'jaligi va irrigatsiya ehtiyojlari uchun mashina va uskunalar ishlab chiqarishga o'tkazildi; Andijon viloyati Asaka shahrida Markaziy Osiyo hududidagi birinchi avtomobil zavodi ishga tushirildi"
+],
+"ans": "A",
+"extra": "1) 1948-yili –\"Tashselmash\" zavodi paxta terish mashinalarining dastlabki partiyasini ishlab chiqardi;\n2) 1949-yil–\"Tashavtomash\" zavodi traktorlar, paxta terishga moslashtirilgan mashina va traktor pritseplari (tirkagichlari) ni ishlab chiqarish yo'lga qo'yildi;\n3) 1969-yili − . . . ;\n4) 1941-yil oktyabr − . . . ."
+},
+{
+"n": 15,
+"q": "XIX asr oxirlarida AQSh iqtisodiy hayotini nazorat qilib turgan “ katta uchlik ” oilariga quyidagilardan qaysi biri kiradi. 1 – Rotshildlar;   2 – Morgan;   3 – Simens; 4 – Karnegi;     5 – Krupp;   6 – Rokfeller",
+"opts": [
+"1, 2, 4",
+"2, 4, 6",
+"1, 3, 5",
+"3, 4, 6"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "O`zbekiston Respublikasida ishlab chiqarilgan avtomobillarni xronologik  ketma-ketlikda joylashtiring.",
+"opts": [
+"2,1,3",
+"1,2,3",
+"2,3,1",
+"3,2,1"
+],
+"ans": "D",
+"extra": "1)” Chevrolet Spark”     2) “Nexia II”\n3) “Chevrolet Captiva”"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi rassomlar voqelikni, kuzatishdan olingan taassurotlarni sof holda aks ettirardilar?",
+"opts": [
+"Jen Bonyan",
+"Polzunov, Pol Gogen va Vinsent Van Gog",
+"A. Frans",
+"Eduard Mane, Klod Mone, Ogyust Renuar, Pissaro"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Quyidagilardan  Buxorxudodning qiziga uylangan Xuroson noibini aniqlang?",
+"opts": [
+"Abu Muslim",
+"Ashros",
+"Nasr ibn Sayyor",
+"Qutayba ibn Muslim"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Eyler-Venn diagrrammasidagi ma`lumotlarni taxlil qilib, mos keluvchi javobni aniqlang. Abulg’oziy Bahodirxon              Anushaxon I III II",
+"opts": [
+"I-b,f; II-a,c; III-d",
+"I- a,e II- b,f; III-d",
+"I-a,e; II- b,f; III-g",
+"I-b,f; II-c,a; III-g"
+],
+"ans": "C",
+"extra": "a) 1662-yilda Buxoro xonligi bilan sulh tuzgan;\nb) Ma’lum muddat Samarqandni egalladi, hatto o’z nomiga xutba ham o’qittirdiva tanga pullar zarb ettirdi;\nc) Kalta Minor nomi bilan mashhur minorani qurdirgan ;\nd) Qo’ng’irotlar sulolasidan bo’lgan; e ) Yangi Urganch shahriga asos solgan;\nf) Yangi Urganch yaqinida Shohobod nomi berilgan kanal qazilgan ;\ng) Shayboniylar sulolasidan ;"
+},
+{
+"n": 20,
+"q": "Quyidagi bandlar mazmuniga oid yakuniy hukmni aniqlang.",
+"opts": [
+"I − to‘g‘ri; II − to‘g‘ri; III − noto‘g‘ri",
+"I – to’g’ri; II − to‘g‘ri; III − to‘g‘ri",
+"I − to‘g‘ri; II − noto‘g‘ri; III − to‘g‘ri",
+"I − noto‘g‘ri; II − noto‘g‘ri; III − to‘g‘ri"
+],
+"ans": "B",
+"extra": "I. 1911-yilda Turkistonda dastlabki yozma milliy sahna asarlari yaratildi;\nII. 1910-yilda jadid adabiyotida Abdulla Qodiriy ilk nasriy asarlarini e’lon qildi ;\nIII. Turkistonda birinchi o’zbek milliy teatri Samarqand shahrida Mahmudxo’ja Behbudiy rahbarligida tashkil etildi;"
+},
+{
+"n": 21,
+"q": "Quyidagi xaritada ko’rsatilgan Shimoliy Afrika davlatlaridan qaysi raqamda belgilanganlari Fransiyaning mustamlakalari bo‘lib, Birinchi jahon urushidan keyin ham shu holat saqlanib qoldi?",
+"opts": [
+"3, 4",
+"1, 2, 3",
+"1, 2",
+"1, 4"
+],
+"ans": "C",
+"img": "img/dtm/zn-07-21.jpg"
+},
+{
+"n": 22,
+"q": "O`zbekiston Kompartiyasi Markaziy Komitetining birinchi sekretari lavozimida ishlagan Usmon Yusupov  faoliyati bilan bog’liq voqealarni aniqlang?",
+"opts": [
+"1,2,4",
+"2,3",
+"1,3",
+"1,3,4"
+],
+"ans": "C",
+"extra": "1)  SSSR Paxtachilik Ministri lavozimida ishlagan;\n2)  KPSS MK ideologiya sekratari lavozimida ishlagan;\n3) Mirzacho’ldagi “4-Boyvut ” savxozida direktor bo’lgan;\n4) 1988-1989-yillarda O’zbekistonga rahbarlik qilgan;"
+},
+{
+"n": 23,
+"q": "Quyida berilgan davlat rahbarlaridan bir davlatga tegishlilarini toping.",
+"opts": [
+"1,2,3",
+"1,4",
+"1,3,4",
+"1,2,3,4"
+],
+"ans": "A",
+"extra": "2) Mahmud Ahmadinajod\n1) Muhammad Hotamiy Eron\n4) Hafizullo Amin\n3) Oyatilloh Humayniy"
+},
+{
+"n": 24,
+"q": "Quyidagilardan qaysi biri A. S. Pushkinga tegishli?",
+"opts": [
+"insonning o‘z g‘oyalari uchun kurashi buyuk kurash ekanligini ta’kidlagan",
+"tashabbusi bilan Moskva universiteti tashkil qilindi",
+"asarlari Rossiya hayoti bilan birga, rus tilining ham butun boyligini namoyon qildi",
+"asari qahramoni og‘ir holatda ham insoniylikni saqlab qolishga da’vati bugun ham o‘z ahamiyatini yo‘qotmaga"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Quyidagilardan taniqli o’zbek matematik olimi Toshmuhammad Qori-Niyoziy  faoliyatiga tegishlisini aniqlang.",
+"opts": [
+"O’zbekiston Kompartiyasi Markaziy Komitetining mafkuraviy masalalarga bag’ishlangan X plenumida “Respublikada mafkuraviy ishning ahvoli va uni yahshilash choralari to’g’risida” ma’ruza qilgan;",
+"1940-yil 8-mayda bo’lgan O’zbekiston SSR Oliy Soveti III sessiyasida qilgan ma’ruzasi bo’yicha lotin yozuvidan kirill (rus grafikasi) asosidagi o’zbek yozuviga o’tish to’g’risida qaror qabul qilindi;",
+"1925-yil 3 –martda bu shahs rahbarligida “Davlat apparatini mahalliylashtirish Markaziy komissiyasi tuzildi”;",
+"Bu shahs O’zbekiston SSR Fanlar komitetiga 1934-yilda rais qilib saylangan ;"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Quyidagi grafikada qaysi raqam ostida tarixiy shaxs va uning hukumatga kelgan yili bir-biriga muofiq keladi? Asqar Nursulton Gurbanguli Imomali 1996        2006       1991       1992",
+"opts": [
+"4,5,7",
+"3,5,6",
+"1,2,6,7",
+"1,3,5,6 2 3"
+],
+"ans": "B",
+"img": "img/dtm/zn-07-26.jpg"
+},
+{
+"n": 27,
+"q": "Tarixiy voqealar to‘g‘ri xronologik ketmaketlikda berilgan javobni toping.",
+"opts": [
+"1, 3, 2, 4",
+"2, 1, 3, 4",
+"4, 1, 2, 3",
+"1, 2, 3, 4"
+],
+"ans": "D",
+"extra": "1) Muhammad Ali (Dukchi eshon)tug’ildi;\n2) Chor Rossiyasi tomonidan “Davlat tartiboti va jamoat osoyishtaligini qo’riqlashga qaratilgan chora-tadbirlar to’g’risidagi Nizom ” e’lon qilindi\n3) Matyoqub pishiq boshchiligida qo’zg’olon boshlandi ;\n4) Xiva xoni Asfandiyorxon o’ldirildi”;"
+},
+{
+"n": 28,
+"q": "Nechanchi yilda amir Nasrullo Xo’jand va O’ratepani qo’lga kiritish uchun Qo’qon xonligiga qarshi kurash boshladi?",
+"opts": [
+"1845-yil",
+"1843-yil",
+"1837- yil",
+"1856-yil"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "«Tilzit shartnomasi» qaysi davlatlar o`rtasida imzolangan?",
+"opts": [
+"Fransiya va Gollandiya",
+"Fransiya va Rossiya",
+"Fransiya va Buyuk Britaniya",
+"Fransiya va AQSH"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Quyidagi o’rta asr davlatlaridan qaysi aniq taqvimi 12 oyga bo'lingan. Tabiblar insonning bosh suyagida jarrohlik muolajalarini amalga oshirishni bilganlar?",
+"opts": [
+"Mali",
+"Atstek",
+"Inklar",
+"Mayya"
+],
+"ans": "C"
+}
+]
+}

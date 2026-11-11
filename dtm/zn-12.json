@@ -1,0 +1,347 @@
+{
+"id": "zn-12",
+"items": [
+{
+"n": 1,
+"q": "Qaysi qatorlarda davlat, hukmdor va hukmronlik yillari to‘g‘ri berilgan. № Davlat Hukmdor Hukmdor-lik yillari Eron Muhammad Alishoh 1905-1909 Afg’oniston Amir Abdurahmon 1878-1901 Fransiya (2-imperiya) Napoleon III 1852-1870 Germaniya imperiyasi Vilgelm I 1871-1888 Hindiston Akbarshoh 1540-1555 Angliya Yelizaveta I 1558-1603",
+"opts": [
+"2 , 3 , 5",
+"2, 4, 6",
+"1, 3, 5",
+"3, 4, 6"
+],
+"ans": "D",
+"img": "img/dtm/zn-12-1.jpg"
+},
+{
+"n": 2,
+"q": "Quyidagi hukmdorlar ular boshqaruv davri bilan bog’liq voqealar to‘g‘ri moslashtirib berilgan javobni toping.",
+"opts": [
+"1-d, 2-a",
+"1-c, 2-a",
+"1-a, 2-c",
+"1-d, 2-b"
+],
+"ans": "A",
+"extra": "1) Sin Shixuandi;\n2) Filipp II;\na) yunonlar bilan birlashib, forslarga qarshi ittifoq tuzadi;b) Kaspiy dengiz bo‘ylarida yashovchi skiflar ustiga yurish qildi; c) Jahon tarixida birinchi bo‘lib muntazam qo‘shin tuzdi;\nd) davlat hududini 36 viloyatga taqsimlab, har biriga o‘z noiblarini rahbar etib tayinlagan."
+},
+{
+"n": 3,
+"q": "Quyida berilgan manzilgohlar qaysi davrga oid ekanligi to‘g‘ri ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1-c, 2-b, 3-d",
+"l-b, 2-c, 3-a",
+"l-b, 2-d, 3-a",
+"1-c, 2-a, 3-d"
+],
+"ans": "C",
+"extra": "1) Zarautsoy;\n2) Jarqo‘ton;3) Teshiktosh;\na) o‘rta paleolit; b) mezolit;c) neolit;\nd) bronza."
+},
+{
+"n": 4,
+"q": "VI asrda vizantiyaliklar tomonidan qaysi hududda poytaxti Ravenna bo‘lgan alohida noiblik tuzilgan?",
+"opts": [
+"Ispaniyada",
+"Shimoliy Afrikada",
+"Italiyada",
+"Yunonistonda"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "1814-1815-yillarda bo'lib o‘tgan Vena kongressining asosiy maqsadi to‘g‘ri berilgan javobni toping.",
+"opts": [
+"Yevropa davlatlari ittifoqini tuzish",
+"Qora tanli quilar savdosini qollab- quvvatlovchi qonunni qabul qilish",
+"Yevropani g‘olib davlatlar manfaatlari yolida qayta taqsimlash",
+"Fransiya harbiy qo‘shinini tarqatib yuborish"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "IV asrda O‘rta Osiyoga kirib kelgan turkiy qabilani toping.",
+"opts": [
+"kidariy",
+"ajamlar",
+"xioniylar",
+"eftaliylar"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "1911-yil Buyuk Britaniyada parlament islohotlari to‘g‘risida qabul qilingan qonunga ko‘ra...",
+"opts": [
+"1,2,5",
+"2,3,6",
+"4,5,6",
+"1,3,4"
+],
+"ans": "D",
+"extra": "1) Lordlar palatasi moliya masalalarini hal etishdan chetlashtirildi;\n2) Tred- yunionlarga o‘z partiyalarini tuzish huquqi berildi;\n3) deputatlarga maosh joriy etildi.\n4) Lordlar palatasining veto huquqlari cheklandi;5) Parlamentning vakolat muddati 6 yil etib belgilandi;\n6) jamoa palatasi tomonidan bir qonun loyihasi tasdiqlanmasa ham, lordlar palatasi tomonidan 3 marta ma’qullansa qonun kuchga ega bo‘ladigan bo‘ldi."
+},
+{
+"n": 8,
+"q": "1997-yilda Buyuk Britaniya bosh vaziri lavozimini egallagan shaxsni toping.",
+"opts": [
+"Gordon Braun",
+"Entoni Bier",
+"Jon Meyjor",
+"Robin Kuk"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) tarixi bilan bo‘g’liq voqeani aniqlang.",
+"opts": [
+"Gollandlarga tegishli Kap koloniyasi barpo etildi.",
+"1847-yilda Liberty a mustaqil davlati tashkil topdi.",
+"1855-yili o‘zini imperator deb e’lon hukmdor fuqarolarni o‘zlari oldin shug‘ullangan mehnat faoliyatini davom ettirishga chaqirdi",
+"Erkin Oranj Respublikasi tashkil topdi."
+],
+"ans": "C",
+"img": "img/dtm/zn-12-9.jpg"
+},
+{
+"n": 10,
+"q": "“Halol qo‘llar” kompaniyasi natijasida iste’foga chiqqan Italiya prezidentini toping.",
+"opts": [
+"M.Rensi",
+"S.Berluskoni",
+"R.Prodi",
+"F.Kossiga"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "1405-yil 18-martda o‘zini Movarounnahrning oliy hukmdori deb e’lon qilgan Xalil Sulton Mirzo kimning farzandi edi?",
+"opts": [
+"Pirmuhammadning",
+"Mironshohning",
+"Umarshayxning",
+"Shohruxning"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyidagilardan XVIII asrda Buxoroda hukmronlik qilgan hukmdorlarni toping.",
+"opts": [
+"1, 3, 5",
+"2, 3, 6",
+"1, 4, 5",
+"2, 4, 6"
+],
+"ans": "C",
+"extra": "1) Ubaydullaxon II;\n2) Imomqulixon;\n3) Vali Muhammad;\n4) Amir Muhammad Rahim;\n5) Doniyolbiy otaliq;6) Abdulazizxon."
+},
+{
+"n": 13,
+"q": "V asrning 20-yillaridan VI asrning 70yillarigacha bo‘lgan davrda O‘rta Osiyoda hukmronlik qilgan davlatni belgilang.",
+"opts": [
+"Xioniylar davlati",
+"Kidariylar davlati",
+"Turk xoqonligi",
+"Eftallar davlati"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Qo‘qon xoni Nasriddinbek va Turkiston general-gubernatori K.P.Kaufman o‘rtasida imzolangan shartnomaga ko‘ra, quyidagi qaysi hududlar Rossiya ixtiyoriga o‘tganligi belgilangan?           1) Qo‘qon; 2) Namangan;",
+"opts": [
+"1, 3",
+"2, 4",
+"2, 3",
+"1, 4"
+],
+"ans": "B",
+"extra": "3) Andijon;\n4) Chust."
+},
+{
+"n": 15,
+"q": "G‘arbiy Buxoro (a) va Sharqiy Buxoro(b) hududlarida istiqlolchilik harakatlariga rahbarlik qilgan qo‘rboshilarni aniqlang.",
+"opts": [
+"a-2, b-3, 4",
+"a-1, b-2, 4",
+"a-2, b-3, 6",
+"a-1, b-5, 6"
+],
+"ans": "B",
+"extra": "1) Mulla Abdulqahhor;2) Ibrohimbek;\n3) Ochilbek;4) Davlatmandbek;\n5) Yormat Maxsum;\n6) Bahrombek."
+},
+{
+"n": 16,
+"q": "Quyidagi hukmdorlar ular faoliyati bilan bog'liq voqealar to‘g‘ri moslashtirib berilgan javobni toping.",
+"opts": [
+"1-b, 2-c",
+"1-a, 2-d",
+"1-b, 2-d",
+"1-a, 2-c"
+],
+"ans": "C",
+"extra": "1) Ashoka;\n2) Kanishka.\na) Shimoliy Hindistonda Maurya davlatiga asos solgan;b) uning davrida Maurya davlati rivojlanishda yuksak taxaqqiyotga erishgan:\nc) uning hukmronligi davrida Afg‘oniston va Kashmir Kushon davlatiga qo‘shib olingan:\nd) Kushon davlati poytaxtini Baqtriyadan Peshovarga ko'chirgan."
+},
+{
+"n": 17,
+"q": "XX asr 90-yillarida qaysi davlatda musulmon bo’lmagan aholining o‘z kiyimiga sariq belgi taqib yurishi haqida qabul qilingan dekret jahon jamoatchiligining g‘azabini keltirgan?",
+"opts": [
+"Afg‘onistonda",
+"Liviyada",
+"Pokistonda",
+"Eronda"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Quyidagi grafikda berilgan ma’lumotlardan to’g’ri kesishgan nuqtalar ostidagi raqamlarni belgilang? Bakeland Jen Bonyan Lui Paster Roden „Mutafakkir“ Chechakka “Kurosivo” plastasri         qarshi         asari         massa emlash                       olish usulu",
+"opts": [
+"5,7",
+"4,7",
+"1,7",
+"1,6,7"
+],
+"ans": "C",
+"img": "img/dtm/zn-12-18.jpg"
+},
+{
+"n": 19,
+"q": "Yilnomalarda yozilishicha sharqiy slavyan qabilalari o‘zlariga knyaz yuborishlarini so‘rab kimlarga elchi jo‘natgan?",
+"opts": [
+"vizantiyaliklarga",
+"frank qabilalariga",
+"varyaglarga",
+"germanlarga"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Quyidagi hukmdorlar ularni boshqaruv davri bilan bog‘liq voqealar to‘g‘ri moslashtirib berilgan javobni toping.",
+"opts": [
+"l-b, 2-d",
+"1-a, 2-d",
+"l-b, 2-c",
+"1-a, 2-c"
+],
+"ans": "C",
+"extra": "1) Makedoniyalik Aleksandr;2) Chandragupta.\na) Baqtra satrapi Bess bilan bo‘lgan jangda magdubiyatga uchradi; b) Fors davlatini bosib olgan;\nc) Maurya davlatiga asos solgan; d) xristianlik dinini davlat dini deb e’lon qilgan."
+},
+{
+"n": 21,
+"q": "Quyidagilardan qaysi birlari 2016-yilgi Riode-Janeyro shahrida  bo‘lib o‘tgan yozgi Olimpiadada oltin medal olishgan edi? 1. Hasanboy Do‘stmatov   2. Shahobiddin Zoirov 3. Shahram G‘iyosov   4. Bektemir Meliqo‘ziyev   5. Rustam To‘laganov   6. Fazliddin G‘oyibnazarov  7. Ruslan Nuriddinov",
+"opts": [
+"1,2,6,7",
+"1,3,5,7",
+"2,4,5,6",
+"1,2,4,7"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "XX asr boshida Madero quyidagi qaysi davlatda prezidentlik lavozimini egallagan edi?",
+"opts": [
+"Braziliyada",
+"Argentinada",
+"Kubada",
+"Meksikada"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Mustamlakachilik jabr- zulmiga qarshi ko‘tarilgan qozg‘olonlardan qaysi birida qo‘zg‘olonchilar kurash usullarini o‘zgartirib, boylar va volost boshliqlarining qarorgohlariga hujum uyushtirganlar?",
+"opts": [
+"1878-yil Mingtepadagi Yetimxon boshchiligidagi qo‘zg‘olon",
+"1896-yil Namangan uyezdining Oqsuv- Shahrixon uyezdidagi qo‘zg’olon",
+"1879-yil Marg‘ilon uyezdidagi qo ‘zg‘olon.",
+"1885-yil Andijonda Daruishxon boshchiligidagi qo‘zg‘olon"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Sharqiy slavyanlarning taklifiga binoan rusga kelgan uch aka-ukalardan biri Sineus qayerda hukmronlik qilgan?",
+"opts": [
+"Izborskda",
+"Kiyevda",
+"Novgorodda",
+"Beloozeroda"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Quyidagilardan qaysi biri tarixiy haqiqatga muvofiq kelmaydi ?",
+"opts": [
+"O‘zbekiston Prezidentining 2017-yil fevraldagi farmoniga muvofiq, O‘zbekistonda Madaniyat va sport ishlari vazirligi tugatilib, uning negizida Jismoniy tarbiya va sport davlat qo‘mitasi tashkil etildi",
+"O‘zbekiston davlat jismoniy tarbiya institutida 2017–2018-o‘quv yilidan boshlab ta’limning sirtqi bo‘limi tashkil etildi.",
+"nufuzli xalqaro musobaqalarda mamlakatimiz sportchilarining muvaffaqiyatli ishtirok etishlarining eng asosiy sabablaridan biri ham ushbu sohaning dalat tomonidan muntazam ravishda qo‘llab-quvvatlanganligidir.",
+"«Pahlavon» sport majmuasi Jizzax shahridagi bunyod etilgan"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Ikki jahon urushi oralig‘ida qnyida berilgan Afrika davlatlaridagi milliy ozodlik harakatlariga rahbarlik qilgan shaxslar mos ravishda to‘g‘ri berilgan javobni toping.",
+"opts": [
+"1-d, 2-b",
+"1-d, 2-c",
+"1-a, 2-c",
+"1-a, 2-b"
+],
+"ans": "C",
+"extra": "1) Jazoir;\n2) Tunis; a) Farhod Abbos; b) Abdul Karim;  c) Habib Burg‘iba; d) Abdul Qodir."
+},
+{
+"n": 27,
+"q": "1935-1936-yillaxda Italiya Efiopiya urushi natijasida quyidagi qaysi hududlar Italiyaning mustamlakasiga aylantirildi?",
+"opts": [
+"Senegal, Eritreya va Tunis",
+"Efiopiya, Liviya va Togo",
+"Efiopiya, Kongo va Eritreya",
+"Efiopiya, Eritreya va Somalining bir qismi"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "INHA universiteti qachon tashkil etilgan ?",
+"opts": [
+"2009",
+"2008",
+"2017",
+"2014"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Rossiya imperatori Nikolay II 1898-yilda Turkiston general- gubernatori general-leytenant A.Vrevskiyni lavozimidan chetlatib lining vazifasini vaqtinchalik kimning zimmasiga yuklagan?",
+"opts": [
+"A.N.Kuropatkin",
+"N. Korolkov",
+"G.Rozenbax",
+"S.M.Duxovskoy"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Turkiyada islom dini tarafdorlarining «Refax» (Farog‘at) partiyasiga kim boshchilik qilgan?",
+"opts": [
+"Nejmiddin Erbakan",
+"Abdulla Ojalon",
+"Rejep Tayyip Erdo‘g‘on",
+"Sulaymon Demirel"
+],
+"ans": "C"
+}
+]
+}

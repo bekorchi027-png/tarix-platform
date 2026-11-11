@@ -1,0 +1,346 @@
+{
+"id": "zn-10",
+"items": [
+{
+"n": 1,
+"q": "Qaysi qatorlarda davlat, hukmdor va hukmronlik yillari to‘g‘ri berilgan. № Davlat Hukmdor Hukmdorlik yillari 1 Germaniya Fridrix I Barbarossa 1152-1190 2 Kiyev-Rusi Igor 912-945 3 Fransiya Lyudovik XI 1422-1461 4 Usmonli turklar davlati Boyazid 1389-1402 5 Dehli sultonligi Qutbiddin Oyboq 1211-1236 6 Mali Sundiata Keyt 1240-1265",
+"opts": [
+"1, 2, 4",
+"3, 5, 6",
+"2, 4, 6",
+"1, 3, 5"
+],
+"ans": "A",
+"img": "img/dtm/zn-10-1.jpg"
+},
+{
+"n": 2,
+"q": "XIX asr oxiri XX asr boshlarida AvstriyaVengriya sanoatining metallurgiya, mashinasozlik, elektrotexnika tarmoqlari qaysi davlat firmalari tomonidan moliyaviy jihatdan ta’minlanib turilgan?",
+"opts": [
+"Germaniya",
+"Ispaniya",
+"Italiya",
+"Rossiya"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "1793-yil yanvarda qirol Lyudovik XVI ning qatl qilinishi qaysi davlatlarni Fransiyaga qarshi urushga chorlagan?",
+"opts": [
+"Belgiya va Angliya",
+"Ispaniya va Germaniya",
+"Angliya va Ispaniya",
+"Ispaniya va Portugaliya"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Gannibal boshchiligidagi karfagenliklar Shimoliy Italiya hududiga bostirib kirib, mil. avv.216-yilda qaysi jangda rimliklar armiyasini tor-mor etgan?",
+"opts": [
+"Sitsiliya orollaridagi jangda",
+"Zama yaqinidagi jangda",
+"Kann yaqinidagi jangda",
+"Karfagen qirg‘oqlaridagi jangda"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Detsentralizatsiya atamasining ma’nosi to‘g‘ri berilgan javobni toping.",
+"opts": [
+"Etnik mojaroning shakllaridan biri bo‘lib, unda etnik ziddiyat diniy ziddiyat bilan qo‘shilib ketadi",
+"Qarorlar qabul qilish bo‘yicha vakolat va majburiyatlami markazdan boshqa tashkilotlarga о‘tkazish",
+"Davlatning iqtisodiyotga aralashuvini kamaytirish maqsadida o‘tkaziladigan tadbir",
+"Saralangan fuqarolaming ehtiyojlariga emas, xalq ommasi ehtiyojlariga qaratilgan siyosiy nutq shakli"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "XX asr o‘zbek kinematografiyasi rivojiga katta hissa qo‘shgan ijodkor berilgan javobni toping.",
+"opts": [
+"Muhiddin Qori Yoqubov",
+"Yahyo G'ulomov",
+"Toshmuhammad Qori Niyoziy",
+"Komil Yormatov"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Quyidagilardan Andijondagi Dukchi eshon qo‘zg'oloni haqidagi to‘g‘ri ma’lumotlar berilgan javobni toping.",
+"opts": [
+"2, 4",
+"1, 3",
+"2, 3",
+"1, 4"
+],
+"ans": "C",
+"extra": "1) mustamlakachi hukumat tomonidan qo‘zg‘olonni bostirish uchun polkovnik Ivanov boshchiligidagi harbiy kuchlar yuborilgan;\n2) Tojikqishloqdagi telegraf simlarining qirqib tashlanishi bilan qo’zg’olon boshlanib ketgan:\n3) Nikolay II tomonidan N. Korolkov zimmasiga qo'zg'olonchilarni batamom yo'q qilishga qaratilgan jazo ekspeditsiyasiga shaxsan rahbarlik qilish vazifasi topshirilgan: 4) ahohning mingboshi-lar saylovlaridagi noroziligi oshkora qo’zg'olonga aylanib ketgan."
+},
+{
+"n": 8,
+"q": "Xiva xoni Arab Muhammadxon boshqaruv davri bilan bog’liq to‘g‘ri ma’lumotlarni aniqlang.",
+"opts": [
+"1,2,4,5",
+"2,3,5,6",
+"2,4,5,6",
+"1,3,4,6"
+],
+"ans": "A",
+"extra": "1) xonlikda parokandalik yuqori nuqtasiga yetdi;\n2) xonlik poytaxti Urganchdan Xivaga ko‘chirildi;\n3) Eron shohi Abbos yordamida o‘g’illaridan taxtni qaytarib oldi;\n4) Rossiya chegaralarini qo‘riqlab turgan ataman Nechay va ataman Shamay boshchiligidagi Yoyiq kazaklari Urganchga hujum qildi;\n5) o‘gillari Habash Sulton va Elbars Sulton otasiga qarshi isyon ko‘tardi;\n6) Buxoro xonligi hududlariga tez-tez harbiy yurishlar uyushtirib, xonavayron qildi."
+},
+{
+"n": 9,
+"q": "VIII asr boshlarida arablarning Movarounnahrga yurishlari davrida Xorazm va Sug‘dda hukmronlik qilayotgan shaxslarni belgilang.",
+"opts": [
+"Hurzod va Divashtich",
+"Chag‘on va G‘urak",
+"Hurzod va G‘urak",
+"Chag‘on va Divashtich"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Avstriya hukumati ham Bismarkdan o‘rnak olib, 1884-yilda ishchilar harakatiga qarshi “Favqulodda qonun” joriy etdi. Qonun .",
+"opts": [
+"4,5,6",
+"1,2,4",
+"3,4",
+"1,3,6"
+],
+"ans": "B",
+"extra": "1) Ishchilar harakatiga qarshi politsiya terrorining kuchaytirilishiga ruxsat berdi;\n2) Kasaba uyushmalarini tarqatib yubordi:\n3) haftada 54 soatlik ish vaqti belgilandi;\n4) Ishchi gazetalarini nashr etishni to‘xtatdi:\n5) kasaba uyushmalariga o’z manfaatlarini sudda hirnoya qilish huquqini berdi;\n6) ish tashlash davrida korxonalar ko‘rgan zarar kasaba- uyushmalaridan undiriladigan bo‘ldi."
+},
+{
+"n": 11,
+"q": "Quyidagilardan XX asr o‘zbek teatr san’ati rivojiga katta hissa qo‘shgan ijodkor (aktyor va rejissyor) berilgan javobni toping.",
+"opts": [
+"Nabi G‘aniyev",
+"Mannon Uyg'ur",
+"Muhiddin Qori Yoqubov",
+"Komil Yormatov"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyida berilgan shaharlardan qaysilari XIX asr oxiri XX asr boshlarida jadidchilik harakatining markaziga aylangan?",
+"opts": [
+"Pishpak, Kitob",
+"Qo‘ng‘irot, Xojayli",
+"Xiva, Toshkent",
+"Namangan, O‘zgan"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "O‘rta asrlarda xaritada yulduzcha bilan belgilangan hudud(davlat)da bunyod etilgan me’moriy inshootni aniqlang.",
+"opts": [
+"Xori monastiri",
+"Laax monastiri",
+"Dojlar saroyi",
+"Kordovadagi masjid"
+],
+"ans": "B",
+"img": "img/dtm/zn-10-13.jpg"
+},
+{
+"n": 14,
+"q": "Xiva xoni Muhammad Rahimxon I boshqaruvi bilan bog‘liq voqealar berilgan javobni toping.",
+"opts": [
+"2, 4, 6",
+"1, 3, 5",
+"1, 4, 6",
+"2, 3, 5"
+],
+"ans": "C",
+"extra": "1) xonlik kundalik hayotiga oid masalalarni hal etish uchun Kichik Kengash ta’sis etildi;\n2) xonlikda yashovchi qabilalar 4 guruhga bodindi;\n3) 111 honali Toshhovli saroyi qurildi;\n4) qoraqalpoqlar bo‘ysunishga majbur etildi;\n5) xonlik hududi Eron bosqinchilaridan ozod etildi;\n6) mamlakatni birlashtirish jarayonida turkmanlar bo‘ysundirildi."
+},
+{
+"n": 15,
+"q": "V asr 20-yillarda Sirdaryo va Orol bo‘ylari orqali Xorazm hamda Amudaryo havzasiga kirib kelgan ko‘chmanchi chorvador aholini toping.",
+"opts": [
+"qang‘arlar",
+"yuechjilar",
+"toxarlar",
+"xioniylar"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Muqaddas ichimlikka sig‘inuvchi saklar yashagan hududlar to‘g‘ri berilgan javobni toping.",
+"opts": [
+"Orol dengizi bo‘yi va Sirdaryoning quyi oqimida",
+"Zarafshon va Qashqadaryo vohalarida",
+"Hozirgi Toshkent viloyati va janubiy Qozog‘iston yerlarida",
+"Pomiming tog‘li tumanlari Farg‘onada"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi davlat BRIKS tashkiloti a’zosi hisoblanadi?",
+"opts": [
+"Argentina",
+"Kanada",
+"Meksika",
+"Rossiya"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "1932-yil aprelda Germaniyada bo‘lib o‘tgan prezidentlik saylovida g‘olib chiqqan shaxsni toping.",
+"opts": [
+"Adolf Gitler",
+"Eduard Dalad’e",
+"Paul Gindenburg",
+"Fridrix Ebert"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Tarixga „Sharq masalasi” nomi bilan kirgan Yevropa davlatlarining Usmonlilar imperiyasiga qaram o‘lkalarni egallab olish uchun o‘zaro kurashi davrida Rossiya quyidagi qaysi hududlarni qo‘lga kiritishga intilgan edi?",
+"opts": [
+"2, 3",
+"2, 4",
+"1, 3",
+"1, 5"
+],
+"ans": "C",
+"extra": "1) Qora dengizning Bosfor va Dardanell bo‘g‘ozlari;\n2) O‘rtayer dengizidagi Kipr orollari;\n3) Istanbul shahri;\n4) Misr;\n5) Anqara shahri."
+},
+{
+"n": 20,
+"q": "Qo‘qon hukmdorlari egallagan hududlar mos ravishda to‘g‘ri ko‘rsatilgan javobni toping.",
+"opts": [
+"1-c, 2-e, 3-d, 4-b",
+"1-d, 2-a, 3-c,",
+"1-c, 2-b, 3-d, 4-e",
+"1-c, 2-a, 3-d, 4-b"
+],
+"ans": "D",
+"extra": "1) Abdurahimbiy;\n2) Erdonabiy;\n3) Norbo‘tabiy;\n4) Madalixon;\na) O‘sh;    b) Ko‘lob;    c) Xo‘jand;    d) Chust;\ne) Ohangaron vohasi."
+},
+{
+"n": 21,
+"q": "O‘zbekiston SSR Oliy Soveti III sessiyasida quyidagi qaysi shaxsning ma’mzasidan so‘ng lotin yozuvidan kirill asosidagi o‘zbek yozuviga o‘tish to‘g‘risidagi qaror qabul qilingan?",
+"opts": [
+"Usmon Yusupov",
+"Fayzulla Xo‘jayev",
+"Yahyo G‘ulomov",
+"Toshmuhammad Qori Niyoziy"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "XX asr 20-yillarida qaysi davlat og‘ir sanoatida “Mitsubisi” va ‘Sumitomo” konsernlari o‘z pozitsiyasini mustahkamlab olgan?",
+"opts": [
+"Hindiston",
+"Yaponiya",
+"Xitoy",
+"Turkiya"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Ikkinchi jahon urushi yillarida Liviyaning qulay strategik joylashuvidan foydalanib uning hududida portlar, aerodromlar, yo‘llar qurgan davlatni toping.",
+"opts": [
+"Germaniya",
+"Fransiya",
+"Italiya",
+"Buyuk Britaniya"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Pokistonda 1977-vildagi davlat to‘ntarishidan so’ng hokimiyat tepasiga kelgan shaxsni aniqlang.",
+"opts": [
+"Parvez Musharraf",
+"Ziyo ul-Haq",
+"Liikat Alixon",
+"Benazir Bxutto"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Rossiyada hukmronlik qilgan     Romanovlar sulolasining birinchi va so‘nggi vakilini aniqlang.",
+"opts": [
+"1, 3",
+"3",
+"2, 4",
+"1,4"
+],
+"ans": "D",
+"extra": "1) Mixail Fyodorovich Romanov;\n2) Pyotr I;\n3) Aleksandr III;\n4) Nikolay II."
+},
+{
+"n": 26,
+"q": "1901-yil AQShda prezidentlik lavozimini egallagan Teodor Ruzvelt davlat boshqaruv davri bilan bog‘liq to‘g‘ri ma’lumotlarni aniqlang.",
+"opts": [
+"1, 2, 5",
+"1, 3, 4",
+"2, 3, 5",
+"2, 3, 4"
+],
+"ans": "B",
+"extra": "1) monopoliyalarga qarshi kurash siyosati “Adolatli yo’l deb nom olgan;\n2) ish tashlash davrida trestlarga yetkazilgan zararni kasaba uyushmalaridan undirib olish tartibini bekor qilgan;\n3) uning hukumati ishchilar bilan ish beruvchilar o‘rtasidagi mojarolarda hakamlik vazifasini ham bajargan.\n4) temiryodlar faoliyatini tartibga soluvchi qonun qabul qilingan;\n5) Daromadning oshib borishiga qarab, qo‘shimcha soliqlar joriy etgan."
+},
+{
+"n": 27,
+"q": "2017-2018-yillarda Andijon viloyatida quyidagi qaysi ijodkorning xotirasini abadiylashtirish bo‘yicha tadbirlar o‘tkazilgan va uning nomi bilan atalgan markaz, ijod maktabi ochilgan?",
+"opts": [
+"Erkin Vohidov",
+"Is’hoqxon Ibrat",
+"Ibroyim, Yusupov",
+"Muhammad Yusuf"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Davlatning vijdon erkinligi va dinga oid siyosatini belgilab beruvchi qonunni toping ?",
+"opts": [
+"Vijdon erkinligi va diniy tashkilotlar to’g’risidagi qonun",
+"O’zbekiston Respublikasi konistitutsiyasi",
+"Diniy davlat konfessiyalar to’g’risidagi qonun",
+"Vazirlar maxkamasi qarorlari"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Quyidagi ma’lumotlarni bir-biri bilan muvofiqlashtiring.",
+"opts": [
+"1-a, 2-c, 3-b",
+"1-a, 2-b, 3-c",
+"1-b, 2-c, 3-a",
+"1-b, 2-a, 3-c"
+],
+"ans": "A",
+"extra": "1) qishloq aholisining kanalizatsiya va vodoprovod bilan ta’minlanishi, 2) ichimlik suv bilan ta’minlanishi, 3) tabiiy gaz bilan ta’minlanishi.\na) 5 %,      b) 17 %,       c) 50 %"
+},
+{
+"n": 30,
+"q": "XVIII asrda Amerikada peyzaj va portret janrida ijod qilgan rassomlar berilgan qatorni toping?",
+"opts": [
+"Jon Koli , Mobi Dik",
+"Genri Longfello, Benjamin Uest",
+"Fenimor Kuper, Mark Tven",
+"Jon Kopli , Benjamin Uest"
+],
+"ans": "D"
+}
+]
+}

@@ -1,0 +1,344 @@
+{
+"id": "zn-27",
+"items": [
+{
+"n": 1,
+"q": "Qaysi podsholik davrida Misrda Sinay yarimoroli bosib olinadi?",
+"opts": [
+"Qadimgi",
+"Ilk",
+"O`rta",
+"So`nggi"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Kvantun armiyasini mag`lub etishda qatnashgan jangchilarni aniqlang",
+"opts": [
+"N.Latipov, U.Doniyorov, U.Asanov, A.Karimov",
+"B.Boboyev, S.Umarov, T.Boboyev",
+"B.Hayit,B.Boboyev, Q.Turdiyev",
+"I.Bekjonov, S.Rahimov,X.Aminov, Sh.Ergashev"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Harbiy xizmat merosiy bo`lgan davlatga tegishli bo`lmaganini  aniqlang",
+"opts": [
+"maysara va maymana",
+"miltiq puli",
+"galabotit",
+"afanak puli"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "1995-yili Turkiyadagi saylovlarda kim boshchiligidagi \"Refax \" partiyasi hammadan ko`p ovoz oladi ?",
+"opts": [
+"R.Erdog`an",
+"N. Erbakan",
+"A.Ojalon",
+"Abdulloh Gul"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Yulduzcha bilan berilgan davlatga tegishli javob belgilansin",
+"opts": [
+"1700-yili Rossiya Boltiq dengiziga chiqish uchun unga qarshi urush boshladi",
+"1612-yili Moskva uchun jangda Mag’lub bo’ldi",
+"Kuchukqaynarji shartnomasi imzolangan joy",
+"1867-1918-yillarda mavjud bo’lgan"
+],
+"ans": "A",
+"img": "img/dtm/zn-27-5.jpg"
+},
+{
+"n": 6,
+"q": "Eyler -Venn diagrammasiga ko`ra mos keluvchi javobni toping Buyuk Britaniya                     Germaniya I III II",
+"opts": [
+"I-a,d ; II- b, c ; III- g,f",
+"I-b,c ; II- a, d ; III- e,f",
+"I-a,d ; II- b, c ; III- e,f",
+"I-a,b ; II- c,d ; III- e,f"
+],
+"ans": "C",
+"extra": "a) XVII asrda \"Sharafli inqilob\" sodir bo`ldi\nb) 1878-yili sotsialistlarga qarshi favqulodda qonun qabul qilindi\nc) Noyabr inqilobi natijasida imperiya ag`darildi\nd) XIX asrda Chartistlar harakati sodir bo`ldi\ne) Xitoyda va Afrikada mustamlakarga ega bo`lgan\nf)  Myunxen kelishuvini imzolagan\ng) Mamlakat janubida \"Ikkinchi inqilob\" sodir bo`lgan",
+"img": "img/dtm/zn-27-6.jpg"
+},
+{
+"n": 7,
+"q": "“Zubdat ut- tavorix” asari qaysi yillarda bo'lgan Xorazmning tarixini bayon etdai?",
+"opts": [
+"1843-1846-yillar",
+"1846-1855-yillar",
+"1825-1842-yillar",
+"1512-1663-yil"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "«100 moddali Farmon» deb ataluvchi qonunlar to‘plami e’lon qilingan mamlakatga tegishli javobni toping.",
+"opts": [
+"Mamlakatda naqqoshlikda bezak vositasi sifatida, asosan, miniatura rasmlaridan va yozuvlardan foydalanilar edi",
+"Yangi davrda xalq og‘zaki ijodi adabiyot maqomini oldi va yozma adabiyot sifatida ham davom ettirildi",
+"Qabul qilingan qonun xristian dinini mamlakat dushmani deb e’lon qildi",
+"Mamlakat hukmdori harbiy, ham diplomatik usullar yordamida barcha musulmon beklari va mahalliy hukmdorlar o‘ziga bo‘ysundirdi"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Ikkinchi jahon urushi yillarida kolxozchi dehqonlar va butun O`zbekiston mehnatkashlarining  kuchlari bilan qurilgan suv omborlar qaysilar ?",
+"opts": [
+"1,2,3",
+"2,3,5",
+"1,4",
+"1,2,3,4"
+],
+"ans": "C",
+"extra": "1) Kosonsoy   2) Yuqori Chirchiq\n3) Uchqo`rg`on\n4) Rudasoy\n5) So`x-Shohimardon"
+},
+{
+"n": 10,
+"q": "\"Mayl End\" dasturi qabul qilingan davlat hukmdorlaridan qaysi biri taxtdan ag`darilgan?",
+"opts": [
+"Genrix VII",
+"Genrix VIII",
+"Yelizaveta I",
+"Yakov II"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "“Milliy xavfsizlik tog’risida”gi konsepsiyasi nechanchi yilda qabul qilingan?",
+"opts": [
+"1997-yil avgust",
+"1996-yil 24-aprel",
+"1998-yil sentyabr",
+"1996-yil avgust"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Muvofiqlashtiring",
+"opts": [
+"1-d,2-a,3-b,4-c",
+"1-d,2-a,3-c,4-b",
+"1-d,2-c,3-a,4-b",
+"1-b,2-a,3-c,4-d"
+],
+"ans": "B",
+"extra": "1) o`zbek yozuvini arab grafikasidan lotin grafikasiga o`tkazish haqida qaror qilindi\n2) arab imolasi isloh qilinib, ancha soddalashtirildi\n3) lotin yozuvidan kirill yozuviga o`tish haqida qaror qabul qilindi\n4) O`zbekiston SSR Sovetlarining V qurultoyida hamma bolalarni majburiy yetti yillik ta`limga tortish to`g`risida taklif bildirildi\na) 1921-1922-yillar    b) 1935-yil   c) 1940-yil\nd) 1929-yil",
+"img": "img/dtm/zn-27-12.jpg"
+},
+{
+"n": 13,
+"q": "Vazirlar Mahkamasi huzurida Din ishlari bo‘yicha qo‘mita qachon tashkil etildi?",
+"opts": [
+"1991-yil",
+"1992-yil",
+"1996-yil",
+"1998-yil"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "1939-yil 19-sentyabr kuni…?",
+"opts": [
+"qizil armiya qo`shinlari Vilnyusni bosib oldi",
+"Millatlar Ligasi sovet davlatini aggressor deb e`lon qildi",
+"SSSR va Germaniya o`rtasida do`stlik va chegaralar to`g`risida shartnoma imzolandi",
+"Brest-Litovskda sovet-german parade o`tkazildi"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Jadvaldagi qaysi javob muvofiq emas ? № Asar muallifi Asar Frans \"Silvester Bonnarning jinoyati\" Gi de Mopassan \"Mont-Oriol\" M.Tven \"Halokat \" J.London \"Girdob\"",
+"opts": [
+"1,2",
+"3,5",
+"1,2,3",
+"3, 4"
+],
+"ans": "D",
+"img": "img/dtm/zn-27-15.jpg"
+},
+{
+"n": 16,
+"q": "Tarixiy mantiqiy to`g`ri javobni aniqlang",
+"opts": [
+"Yustinian I – ostgotlar – Axen",
+"Muqanna- xalifa Mansur- Shamsiddin Mahbubiy",
+"Xrushyov- Usmon Yusupov- 4-Boyovut",
+"Olloqulixon- “ Majburiyatlar akti”- Jukovskiy"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi hududlarning qo`ldan ketishi Muhammad Xorazmshohni larzaga keltrdi ?",
+"opts": [
+"Xo`jand, Samarqand,Buxoro",
+"Buxoro, Marv ,Kesh",
+"Kesh, Balx, Nishopur",
+"Samarqand,Toshkent , Buxoro"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Voqealarni xronologik tarzda tartiblang.",
+"opts": [
+"3,1,4,2",
+"3,1,2,4",
+"1,2,3,4",
+"1,3,2,4"
+],
+"ans": "B",
+"extra": "1) O`rta asrlarda Hindistonda yirik yer egalari tabaqasi shakllandi\n2) Arabistonda aholi soni ko`payib qabilalar orasida suv manbaalari va yaylovlar uchun kurash kuchayadi\n3) Varvar qabilalari  urug`chilik jamoasi darajasida  yashardilar\n4) Vizantiyada feodal munosabatlar uzil-kesil shakllandi"
+},
+{
+"n": 19,
+"q": "SHHT da MATT qaysi yili joriy qilingan ?",
+"opts": [
+"1994-yil",
+"2001-yil",
+"2002-yil",
+"2006-yil"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Abdumalik To’raning vafotidan 50 yil oldin...",
+"opts": [
+"Ko’kaldosh madrasasini ta’mirlash ishlari boshlanadi",
+"Hazrati Kalon Sohibzoda madrasasi bitkazildi",
+"Qrim urushi tugadi",
+"Xiva xoni Said Muhammadxon qora- qalpoq xalqining qattiq bosimi ostida ularga o'zini o'zi boshqarish huquqini berdi"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Bir yilda sodir bo’lgan voqealarni toping.",
+"opts": [
+"Buyuk Britaniyada dunyodagi ilk temiryo‘l qurildi; Eron –Rossiya urushi boshlandi",
+"V. Motsart tug’ildi, ikkinchi afyun urushi boshlandi",
+"Koreya qirg‘oqlari yaqinida paydo bo‘lgan kema Buyuk Britaniya nomidan savdo munosabatlari o‘rnatishni taklif qildi, Britaniyada dastlabki parlament islohoti o‘tkazildi",
+"Qozoq xonligidan chingiziy sulton Xiva hukmdori Elbarsxonning hukmronligi tugadi; Birinchi afyun urushi boshlandi"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Turkiston general gubernatorligining Sirdaryo viloyatining tarkibiga qaysi uyezdlar kirgan?",
+"opts": [
+"Perovsikiy, G’azali, Avliyoota",
+"Kattaqo’rg’on, Xo’jand, Jizzax",
+"Kopal, Lepsinek, Pishpak, Prjevalsk",
+"Tajan, Marv, Krasnovodsk"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Ahamoniy hukmdorlarni to`g`ri ketmaketlikda belgilang",
+"opts": [
+"Kir II, Kambiz II, Doro I, Kserks, Doro III",
+"Kir II, Doro I, Kambiz II, Kserks, Doro III",
+"Kir II, Kambiz II, Kserks, Doro I",
+"Doro I, Kir II, Kserks, Doro III"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Qaysi asrda Midiya qudratli davlatga aylanadi ?",
+"opts": [
+"mil.avv V asr",
+"mil.avv VI asr",
+"mil.avv VII asr",
+"mil.avv IV asr"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Dehli sultonligida qaysi asrlarga kelganda musulmonlar hokimiyati uzil-kesil o`rnatiladi?",
+"opts": [
+"X- XI asrlar",
+"XI- XII asrlar",
+"IX- X asrlar",
+"XII- XIII asrlar"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "O`rta Osiyoda joylashgan qadimgi madaniyat yodgorliklarini mos keluvchi javobi bilan aniqlang № Madaniy yodgorlik Mos keluvchi hudud Turfan Sharqiy Turkiston Mug` qal`asi Panjob yaqini Panjikent,Varaxsha, Afrosyob Zarafshon vodiysi Bolaliktepa Surxon vohasi Quva Qashqadaryo vohasi",
+"opts": [
+"1,2,3,4,5",
+"1,3,4,5",
+"1,2,3",
+"1,3,4"
+],
+"ans": "D",
+"img": "img/dtm/zn-27-26.jpg"
+},
+{
+"n": 27,
+"q": "Gruziya Mustaqil Davlatlar Hamdo‘stligidan chiqish haqidagi istagini bildirgan yili ochilgan o’quv yurtni toping.",
+"opts": [
+"Moskva davlat universitetining filiali",
+"Turin politexnika universiteti",
+"Moskva neft-gaz universitetining filiali",
+"Singapur menejmentni rivojlantirish instituti"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Buxoro amirligiga Kitob va Shahrisabz bo`ysundirilgandan 100 yil avval qaysi asar muallifi tavallud topdi ?",
+"opts": [
+"\"Beparvo\"",
+"\"Rekviyem\"",
+"\"Oydin\"",
+"\"Matto bayon etgan buyuk musibat\""
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Ulug‘bek rasadxona qoshida zamonasining boy kutubxonasi bo`lib u yerda fanning qaysi sohalariga oid va qancha kitob saqlangan ?",
+"opts": [
+"o`n ming jild, falsafa,tarix ,geometriya",
+"o`n ikki ming , jug`rofiya, handasa, tib",
+"o`n besh ming, fanning deyarli hamma sohasi",
+"yigirma ming, tarix, adabiyot, falsafa, handasa"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Qo`qon xonlari orasidan  qaysi biri birinchi bo`lib tanga pul islohoti o`tkazgan?",
+"opts": [
+"Shohruxbiy",
+"Abdulkarimbiy",
+"Abdurahimbiy",
+"Norbo`tabiy"
+],
+"ans": "D"
+}
+]
+}

@@ -1,0 +1,341 @@
+{
+"id": "zn-17",
+"items": [
+{
+"n": 1,
+"q": "Misrda gazlama tayyorlash uchun qanday ekin yetishtirilgan?",
+"opts": [
+"Tut",
+"Kanop",
+"Paxta",
+"Bambuk"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Quyidagilardan Farg‘ona vodiysida bolsheviklarga qarshi istiqlolchilik harakati rahbarlari bo‘lgan qo‘rboshilarni belgilang.",
+"opts": [
+"1, 4, 5",
+"1, 3, 5",
+"2, 4, 6",
+"2, 3, 6"
+],
+"ans": "A",
+"extra": "1) Katta Ergash;\n2) Ochilbek;\n3) Bahrombek;\n4) Shermuhammadbek;\n5) Islom Polvon;\n6) Hamroqulbek."
+},
+{
+"n": 3,
+"q": "VII – VIII asrlarda Xitoyda qayi sohalarda ishlab chiqarish yuksalgan? 1. Qog’oz ; 2. Chinni;  3. Metall; 4.Sopol idish;  5. Shoyi ipak;   6. Tog’-kon.",
+"opts": [
+"1,3,5",
+"2,4,6",
+"1,5,6",
+"2,3,4"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagi qaysi Qo’qon xoni davrida Qo’qon shahrini obodonlashtirish ishlari boshlangan edi?",
+"opts": [
+"Shohruhbiy",
+"Abdurahimbiy",
+"Abdukarimbiy",
+"Erdonabiy"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Buyuk frnasuz burjua inqilobining boshlanishi haqida xaqiqatga mos bo’lmagan javobni toping?",
+"opts": [
+"Qirol Lyudovik XVI o’z nutqida yangi soliqlar joriy etishni so’radi",
+"Qirol nutqidan 3- tabaqa vakilari noroziligi boshlandi",
+"1- va 2- tabaqalardan islohot tarafdorlari 3- tabaqaga qo’shildilar",
+"Parijlik aholi Versal tomon kela boshlagach 3 tabaqa vakillari o’z yig’ilishlarini Ta’sis Majlis deb atay boshladi"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "1904-yilda tuzilgan Britaniya –Fransiya shartnomasiga muvofiq bo’lmagan javobni toping?",
+"opts": [
+"Britaniya Fransiyaning Marokashga daxldor huquqlarini tan oldi",
+"Fransiya Britaniya Misrdagi ishlariga bundan buyon to’sqinlik qilmaydi",
+"Marokashning Bosfor bo’g’oziga tutash qismi, Ispaniyaga beriladi",
+"Fransiya Marokashning asosiy qismini nazorat qilishiga ruxsat beriladi"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Quyidagi qaysi javobda Sirdaryo magistral kanali qurilgan yillar oralig’ida yuz bergan voqea berilgan?",
+"opts": [
+"Hazorasp va Xonqada qo’zga’lon ko’tarildi",
+"Muhammad Rahim I islohotlar loyihasini qabul qildi",
+"Abdulla Qodiriy o’zining ilk nasriy asarlarini e’lon qildi",
+"Samarqand va Toshkentga rus aktrisasi V. F. Komissarjevskaya truppasining gastrollari uyushtirildi"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Eron kazak askarar polki sardori Rizoxon qachon hokimiyat to’ntarishi o’tkazdi?",
+"opts": [
+"1921-yil",
+"1925-yil",
+"1927-yil",
+"1935-yil"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Nechanchi yilga qadar SSSRda mamlakat xalq xo’jaligi bir yillik re’jalar asosida amalga oshirildi?",
+"opts": [
+"1925-yil",
+"1927- yil",
+"1928-yil",
+"1930-yil"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Quyidagi jadvalda faqat to’g’ri javoblar berilgan qatorni toping? Misr Marhumlar dunyosi hukmdori Osiris Mil avv 525-yilda Kambiz II egallagan Qoraxitoylar Movorounnahrda n Takash haydab chiqargan Muqaddas Rim Imperiyasi Mog’ullarga mansub qabila Asoschisi Genrix I 1806-yilgacha mavjud bo’lgan Iyul Monarxiya Faqat bitta hukmdor Lui Flipp bilan yakunlangan Samarqand 1723-yili Taxtga 1830-yili o’rnatilgan xonligi tuzilgan Ibrohimbiyning kuyovi Abdulmo’min otqazilgan Mahdiylar davlati Poytaxti Omdurman 1889-yilda Britaniya va Misr birlashib barham berilgan",
+"opts": [
+"1,3,5",
+"1,4,6",
+"2,4,6",
+"2,3,5"
+],
+"ans": "B",
+"img": "img/dtm/zn-17-10.jpg"
+},
+{
+"n": 11,
+"q": "XX asrda Islom dini  Quyidagi qaysi mintaqalarda juda qudratli ijtimoiy-siyosiy kuch sifatida maydonga chiqdi va va ushbu mintaqalarda  G‘arb qadriyatlarining joriy qilinishiga faol qarshi  turmoqda?",
+"opts": [
+"O’rta Osiyo va Markaziy Afrika",
+"Kichik Osiyo va Arab mamlakatlari",
+"O’rta sharq va Kakkaz mamlakatlari",
+"Yaqin Sharq va Shimoliy Afrikada"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. O’zbekiston           Qirg’iziston 1. 1991-yil 31-avgustda mustaqillik e’lon qilgan 2. 1991-yil dekabrda MDHga a’zo bo’ldi 3. Oltin zaxirasi  bo’yicha MDHda 3-o’rinni egallaydi 4. kanop va tamaki yetishtirish bo’yicha dunyodagi ilg’or mamlakat hisoblanadi 5. 1996-yilda iqtisodiy barqarorlashuv boshlanadi 6. 320 dan ortiq aviakompaniyaga aeronavigatsiya xizmatini ko’rsatadi",
+"opts": [
+"I- 2,5 II-4,3 III-1,6",
+"I-4,6 II- 3,5 III-1,2",
+"I-2,4 II-1,6 III-3,5",
+"I-1,6 II-3,5 III-2,4"
+],
+"ans": "B",
+"img": "img/dtm/zn-17-12.jpg"
+},
+{
+"n": 13,
+"q": "Qachon Parijda Amir Temurga bag‘ishlangan bir haftalik xalqaro anjuman bo‘lib o‘tdi?",
+"opts": [
+"1996-yil aprel",
+"1996-yil oktabr",
+"1995-yil may",
+"1995-yil sentabr"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Quyidagilardan tarixiy, mantiqiy ketmaketlikda tog’ri berilgan javobni toping?",
+"opts": [
+"Maurya—Pataliputra—Ashoka",
+"Yunoniston—Oykumena—yagona imperiya",
+"Aleksandr—Sharqqa yurish—15 yillik harbiy yurishlar",
+"Xorazm—Shaharsozlik mil. avv. VII asr – Tuproqqa’la mil. avv. III-II asr"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Nima sababdab Osiyo shaharlarida Yevropadagi kabi yirik zamindorlarga qarshi kurashlar olib borilmagan?",
+"opts": [
+"Zamindorlar shaharlar yuzaga kelishidan manfaatdor bo’lgani uchun",
+"Yevropadagidek kishini kishiga qaramligi bo’lmaganligi uchun",
+"Shaharlar davlat yerlarida bunyod etilgani uchun",
+"Shaharlar mustaqillikka intilmaganlari uchun"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Ma’lumki XIII asr boshida Xorazm juda keng maydonni egallagan  buyuk davlatga aylangan edi. Uning shimoli g‘arbiy va g‘arbiy chegaralari qaysi javobda tog’ri berilgan?",
+"opts": [
+"Iroq",
+"G’azna",
+"Yettisuv va Dashti Qipchoq",
+"Kaspiy va Orol"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Amir Shohmurod davrida quyidagi qaysi lavozimlarning nufuzi oshdi?",
+"opts": [
+"Shayhulislom, naqib",
+"Inoq, Qozi kalon",
+"Rais, Qozi askar",
+"Muftiy, otaliq"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Quyidagi qaysi asarda Insonning o‘z g‘oyalari uchun kurashi  buyuk kurash ekanligini ta’kidlash bilan Ma’rifat asrining mohiyatini ochib beradi?",
+"opts": [
+"“Robinzon Kruzo”",
+"“Gulliverning sayohatlari”",
+"“Qiyin taklif”",
+"“Faust”"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Quyidagi graﬁkda qaysi raqam ostida hukmdorlar va ularning yashagan yoxud hukmronlik qilgan yillari  bir-biriga muvoﬁq keladi? Abdulla-xon II 6           7 O’zbekxon Yongjo Abu Said 1451-1469   1725-     1342-   15831776      1357     1598",
+"opts": [
+"1,5,7",
+"1,3,7",
+"1,2,5",
+"2,6,7 2 3"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Turkistondagi birinchi o’zbek milliy teatri quyidagi qaysi shaharda ochilgan?",
+"opts": [
+"Toshkent",
+"Samarqand",
+"Buxoro",
+"Qo’qon"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi javobda AQSHda qora tanlilarni saylovda ishtirok etishini har qanaqasiga cheklashni taqiqlash va janubdagi sobiq isyonchilarga umumiy afv berish haqida qarorlar chiqishi orasida yuz bergan voqea berilgan?",
+"opts": [
+"Italiyada davlat va cherkov munosabatlari-ni tartibga soluvchi qonun qabul qilingan",
+"Kurks siyraklashtirilgan havodagi katod nurlarini kashf etdi",
+"Fransiya-Prussiya urushi boshlandi",
+"Yaponiya Janubiy Sahalin hisobiga Kuril Orollarini Rossiyadan ajratib oldi"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi davlatda Ipak yo’lining shimoliy tarmog’i o’tganligi sababli ko’chmanchilar bilan tezt-tez urush bo’lib turgan?",
+"opts": [
+"Xorazm",
+"Baqtriya",
+"Qang’",
+"Davan"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Jaloliddin Manguber Ozarbayjonda o’z davlatini tuzgacha qaysi davlatga yurish qiladi?",
+"opts": [
+"Gurjiston",
+"Eron",
+"Kirmon",
+"Arab xalifaligi"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Quyida berilgan davlatlar  ularni milliy valutasi bilan mos ravishda to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"1-a, 2-e, 3-b, 4-c, 5-d",
+"1-e, 2-a, 3-b, 4-d, 5-c",
+"1-e, 2-c, 3-b, 4-d, 5-a",
+"1-e, 2-a, 3-b, 4-c, 5-d"
+],
+"ans": "D",
+"extra": "1) Ukraina;\n2) Turkiya;3) Hindiston;\n4) Meksika;5) Laos.\na) lira; b) rupiya; c) peso;  d) kipa; e) grivna."
+},
+{
+"n": 25,
+"q": "XVII asrda ispanlar(a) va gollandlar(b) Xitoyga tegishli qaysi hududlarni egallab olgan edi?",
+"opts": [
+"a-Tayvan b-Flippin",
+"a-Guanchjou b-Tayvan",
+"a-Tailand b-Birma",
+"a-Flippin b-Tayvan"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Mang’itlar davrida yerni qay tarzda inom etish kuchaygan edi?",
+"opts": [
+"Suyurg’ol",
+"Tanho",
+"Tarxon",
+"Iqto"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "1911-yil 11-dekabrda Nankinda chaqirlgan Millat Majlisi qarorlariga mos kelmagan javobni toping?",
+"opts": [
+"Sun Yat Sen Xitoyning vaqtincha prezidenti bo’ldi",
+"Xitoy Respublika deb e’lon qilindi",
+"Barcha fuqorolar tengligi e’lon qilindi",
+"Yer egaligini tengligi e’lon qilindi"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Turkiston general-gubernatorligidagi qaysi viloyat nisbatan kechroq tashkil etilgan?",
+"opts": [
+"Samarqand",
+"Farg’ona",
+"Yettisuv",
+"Kaspiyorti"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Quyidagi xaritada ajratib ko’rsatilgan hudud haqida to’g’ri hukmni toping?",
+"opts": [
+"Xalifa Usmon davrida to’liq bosib olingan",
+"Bobak boshchiligidagi qo’zg’alon ko’tarilgan",
+"X asrda Xalifalik tarkibidan ajralib chiqqan",
+"Birinchi mustaqil amirlik aynan shu mamlakatda tuzilgan"
+],
+"ans": "A",
+"img": "img/dtm/zn-17-29.jpg"
+},
+{
+"n": 30,
+"q": "Hindiston bosh vaziri Atal Bixari Vajpai hukumati amalga oshirgan ishlari to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"2, 4, 5",
+"1, 2, 5",
+"2, 3, 4",
+"1, 3, 4"
+],
+"ans": "D",
+"extra": "1) Kashmirdagi musulmon separatizmini kuchsizlantirish tadbirlari o‘tkazildi;\n2) mamlakatda rupiyani devalvatsiya qildi, oziqovqat mahsulotlarining narxi va soliqlar miqdorini oshirdi;\n3) mamlakat shimoli-g‘arbida uchta yangi shtat tashkil qilindi:\n4) saylovoldi kampaniyasida moliyaviy xarajatlarning oshkoraligini ta’minlash maqsadkia bir qator saylov islohotlarini amalga oshirdi;\n5) Tadbirkorlar va firmalar faoliyati ustidan davlat nazorati kuchaytirdi."
+}
+]
+}

@@ -1,0 +1,348 @@
+{
+"id": "zn-04",
+"items": [
+{
+"n": 1,
+"q": "Somoniylar hukmdorlardan Nasr(a), Ismoil(b) hukmronligi davrida qulagan davlatlarni toping. 1. Somoniylar;    2. Safforiylar;      3. Toxiriylar; 4. Abbosiylar;  5; G’aznaviylar",
+"opts": [
+"a-2, b-1",
+"a-2, b-3",
+"a-5, b-4",
+"a-3, b-2"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Quyida keltirilganlardan qaysilarida davlatshaxs-voqea mos ravishda berilgan?",
+"opts": [
+"1, 2",
+"1, 3, 4",
+"1, 3",
+"2,3"
+],
+"ans": "C",
+"extra": "1) Italiya  – Mussolini  – 1938-yilda irqiy qonunlar chiqardi;\n2) Ispaniya  –I.Irigoyen – 1939-yil sentyabrda neytralitet haqida dekretni imzoladi;\n3) Buyuk Britaniya – Margaret Tetcher – Yevropada eng ko’p ish o’rinlarini yaratdi;\n4) Xitoy  − Mao Szedun– Yaponiya ustidan shikoyat qilib Millatlar Ligasiga murojaat  qildi ;"
+},
+{
+"n": 3,
+"q": "Quyidagi jadvalda tarixiy voqea va uning natijasi o‘zaro muvofiq berilgan qatorlarni aniqlang. №Voqea Natija 1 Mil. avv. 334-yilda Makedoni-yalik Aleksandr  Sharqqa yurish boshladi Yurish  10 yil davom etdi 2 Qadimgi Rimda mamlakatda soz (tekis) yo'llar tarmog'i barpo etilgan Bu yo'llar bilan mamlakatning har qanday o'lkasiga borish mumkin bo'lgan 3 Mil. avv. 558-yil Ahamoniylar sulolasidan  Doro I Barcha forslarni o’z hokimiyati ostida birlashtirdi 4 Mil. avv. 539-yilda yunonlar Bobilni bosib oldilar Yangi Bobil podsholigi yunonlar davlati tarkibiga kirdi. 5 milodiy 476-yil – G'arbiy Rim imperiyasining qulashi Qadimgi dunyo tarixi nihoyasiga yetdi 6 Doriylar Janubiy Yunonistonga bostirib kirdi Miken davlatining tugatilishi",
+"opts": [
+"1,2,4,5",
+"1,3,4,6",
+"2,4,5,6",
+"1,2,5,6"
+],
+"ans": "D",
+"img": "img/dtm/zn-04-3.jpg"
+},
+{
+"n": 4,
+"q": "Quyidagi qaysi asarda Raqib, Fasod, Nafs obrazlari salbiy sifatlar hamda turli yovuzliklarning timsoli edi?",
+"opts": [
+"“Qushlar munozarasi”",
+"“Yilnomalar to’plami”",
+"“Husn-u Dil”",
+"“Gulshan ul-muluk”"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Shoira Anbar Otinning shahardagi mutaassiblar tomonidan ta’qibga uchrashiga va kaltaklanishiga sabab bo‘lgan omil nima edi?",
+"opts": [
+"shoiraning ayrim dindorlarning axloqsizligini fosh qiluvchi she’rlar yozganligi sababli",
+"ayollarning erkinligi va teng huquqli bo‘lishiga da’vat etganligi uchun",
+"uyida maktab ochib, u yerda qiz va o‘g‘il bolalarni birgalikda o‘qitganligi sababli",
+"ayollarning ilm egallashini targ‘ib qilganligi uchun"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Fayzulla Xo'jayev    Akmal Ikromov I III II",
+"opts": [
+"I-a,e,d; II-b,c,f; III-n,j",
+"I-a,e,d,f; II-b,c; III-n,j",
+"I-a,e,d,c; II-b,f; III-j",
+"I-a,b,d; II-c,f; III-n"
+],
+"ans": "B",
+"extra": "a) O'zbekiston SSR XKS raisi;\nb) \"Davlat apparatini mahalliylashtirish Markaziy komissiyasi\" ga a'zo bo'ldi;\nc) O'zbekiston Kompartiyasi MK birinchi sekretari;\nd) Uning raisligida yosh buxoroliklarning 7 kishidan iborat inqilobiy qo'mitasi (revkom) tuzildi;\ne) BXSR Nozirlar Sho'rosining raisi;\nf) 1924-yil 31-oktyabrda u rahbarligida O'zbekiston SSR Muvaqqat inqilobiy komiteti (Markaziy revkom) tashkil topdi; n) XX asr 1-yarmida rahbarlik lavozimiga kelgan;\nj) O’zbekiston SSR da Rahbarlik lavozimlarida ishlagan.",
+"img": "img/dtm/zn-04-6.jpg"
+},
+{
+"n": 7,
+"q": "Arab xalifaligida xalifa davlatni boshqarishda ulug‘ vazirga tayangan. Ulug’ vazir qanday nom bilan atalgan?",
+"opts": [
+"amir ul-umaro",
+"xo’jayi buzruk",
+"vazir ul-vuzaro",
+"hojib ul-hujob"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping.",
+"opts": [
+"Alp Arslon ; O’rxon",
+"Xubilayxon ; O’zbekxon",
+"To’g’rulbek; Muhammad Tug’luq",
+"Alouddin Xiljiy; Jonibek"
+],
+"ans": "D",
+"extra": "1) Shtaufenlar – Fridrix II;\n2) Min   sulolasi – Chju Yuan Chjan ;\n3) Dehli sultonligi  sulolasi − . . . ;\n4) Oltin O’rda hukmdori − . . . .;"
+},
+{
+"n": 9,
+"q": "“Devalvatsiya ” atamasining izohi qaysi javobda to`g`ri berilgan ?",
+"opts": [
+"Qarorlar qabul qilish bo’yicha vakolat va majburiyatlarni markazdan boshqa tashkilotlarga o’tkazish ;",
+"Qat’iy xalqaro valyutaga nisbatan milliy valyutaning rasmiy kursini pasaytirish;",
+"Qarz yoki kreditni to’lash shatlarini qayta ko’rib chiqish va o’zgartirish;",
+"Qo’shimcha qiymat olishda foydalaniladigan moddiy, intelektual va moliyaviy vositalar yig’indisi;"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "XX asr bоshida sanоat ishchilarining sоni jihatidan qaysi davlat 1-o`rinni egalladi?",
+"opts": [
+"Farnsiya",
+"AQSH",
+"Gеrmaniya",
+"Rossiya"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Xaritada ko’rsatilgan davlat bilan bog’liq ma’lumotni aniqlang.",
+"opts": [
+"XVI asrning oxirigacha qul savdosi bilan faqat shu davlat shug’ullangan;",
+"Bu davlatda “Umumiy saylov huquqi uchun kurash ishchi assotsiatsiyasi” tuzildi;",
+"“Iyul monarxiyasi” davrida mamlakatni Lui Filipp boshqargan;",
+"Bu davlatdagi inqilobning asosiy maqsadi siyosiy tarqoqlikka barham berish va feodal tartiblarni tugatish edi;"
+],
+"ans": "B",
+"img": "img/dtm/zn-04-11.jpg"
+},
+{
+"n": 12,
+"q": "1995-yilda qaysi davlatda bo’lib o’tgan saylovlarda “Likud” bloki  g’alaba qozongan?",
+"opts": [
+"Misr",
+"Isroil",
+"Falastin",
+"Malayziya"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Quyidagi ma’lumotlar qaysi tarixiy shaxs haqida ekanligini aniqlang. U tayyorlagan konstitutsiya loyihasi Rossiyani konstitutsiyaviy monarxiya deb e’lon qilishni ko’zda tutardi. Mulk senzi asosida saylanadigan ikki palatali Xalq Vechasi oliy qonun chiqaruvchi hokimyat organi (parlament) bo’lishi kerak edi.",
+"opts": [
+"Nikita Muravyov",
+"Pavel Pestel",
+"Stolippin",
+"Plexanov"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Quyidagi grafikda qaysi raqam ostidagiga muvofiq keladi? “Umarnoma” “Bo’ston” “Bo’zatov” “Hapalak” Mahmud   Ajiniyoz    Sa’diy   Namangoniy",
+"opts": [
+"1,4,6,7",
+"3,4,6,7",
+"1,3,5,7",
+"1,2,3,5 2 3"
+],
+"ans": "C",
+"img": "img/dtm/zn-04-14.jpg"
+},
+{
+"n": 15,
+"q": "Islom Karimov faoliyati bilan bog‘liq to‘g‘ri ma’lumotlarni aniqlang.",
+"opts": [
+"2, 3",
+"1, 4",
+"1, 2",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) O‘zbekistonning “Shanxay forumi”ga to‘la huquqli a’zo bo‘lishi to‘g‘risida”gi Bayonotni imzoladi;\n2) Uning tashabbusi bilan BMT Bosh Assambleyasi 68sessiyasining rasmiy hujjati sifatida “Orolning qurishi oqibatlariga barham berish va Orolbo‘yi ekotizimi halokatini oldini olish tadbirlari Dasturi” ilgari surildi;\n3) BMT Bosh kotibi Antoniu Guterrish O‘zbekistonga tashrif buyurganda Samarqandda kutib oldi;\n4) 2017-yil iyunda Shanxay Hamkorlik Tashkilotining Ostona sammiti munosabati bilan Prezident sifatida u Qozog‘istonda bo‘ldi.",
+"img": "img/dtm/zn-04-15.jpg"
+},
+{
+"n": 16,
+"q": "Quyidagi bandlar mazmuniga oid yakuniy hukmni aniqlang.",
+"opts": [
+"I − to‘g‘ri; II − to‘g‘ri; III − noto‘g‘ri",
+"I − noto‘g‘ri; II − to‘g‘ri; III − to‘g‘ri",
+"I − to‘g‘ri; II − noto‘g‘ri; III − noto‘g‘ri",
+"I − noto‘g‘ri; II − noto‘g‘ri; III − to‘g‘ri"
+],
+"ans": "A",
+"extra": "I. 19-tog'li otliq O'zbek diviziyasi komandiri lavozimida ishlagan Mirkomil Mirsharopov sovet rejimi tomonidan Maykopda 1937- yilda qamoqqa olindi.\nII. 1959-yil 15-martda O'zbekiston Kompartiyasi Markaziy Komitetining birinchi sekretari lavozimiga Sharof Rashidov (1917 - 1983) saylandi. U bu lavozimda umrining oxirigacha samarali faoliyat ko'rsatdi.\nIII. Qayta qurishning ikkinchi bosqichi (1983 - 1987-yillar) jamiyatning barcha jabhalarini kompleks tarzda isloh qilishni kun tartibiga qo'ydi."
+},
+{
+"n": 17,
+"q": "Quyida berilgan muallifning asarini toping",
+"opts": [
+"1,2,3",
+"2,3,4",
+"3,4",
+"1,2"
+],
+"ans": "C",
+"extra": "2) Salomeya\n1) Azizim Jek London\n3)  Martin Iden\n4) Dengiz"
+},
+{
+"n": 18,
+"q": "“Karib inqirozi” nechanchi yilda sodir bo’ldi?",
+"opts": [
+"1972-yil",
+"1961-yil",
+"1989-yil",
+"1962-yil"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Qachon Arab xalifaligi og‘ir siyosiy tanglikka uchradi?",
+"opts": [
+"VII asr oxiri – VIII asr boshlarida",
+"VIII asr oxiri – IX asr boshlarida",
+"VIII asr o’rtalarida",
+"IX asr o’rtalarida"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Qadimgi Misrda Yangi podsholik davrida sodir bo’lgan javoblarni toping. 1. Fir’avnlar Nubiya va Old Osiyo mamlakatlariga hujumni boshlab yubordilar; 2. Fir’avn Tutmos II Falastin, Finikiya va Suriyani istilo qilishni boshladi; 3. Old Osiyoda misrliklar hukmronligi o‘rnatildi; 4. Sinay yarimoroli bosib olinadi, mahalliy qabilalar Misrga soliq to‘lay boshlashdi; 5. fir’avnlari Janubiy Falastin yerlari va Nubiya shimolini Misrga qo‘shib olishga erishdilar; 6. Fir’avn Tutmos II dan keyin fir’avn Tutmos III yurishlarni davom ettirdi.",
+"opts": [
+"1, 2, 3, 4, 5, 6",
+"1, 2, 3, 6",
+"2, 3, 4, 5",
+"1, 3, 5, 6"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Ikkinchi jahon urushidan so’ng Fransiyaga xos bo’lgan to’g’ri javoblarni toping. 1. 1960-yili Afrikadagi deyarli barcha mustamlakalariga mustaqillik berdi 2.Uchinchi respublika konstitutsiyasini qabul qildi 3. 1960-yillar oxirida iqtisodiyotini modernizatsiya qilish davom etdi 4. 1960-yillar oxirida Beshinchi respublikada inqiroz boshlandi 5. O‘zaro Iqtisodiy Yordam Kengashi (O‘IYK)ga a’zo bo’ldi 6. 1968-yil mayda poytaxt talabalarining namoyishi boshlandi",
+"opts": [
+"1.2.3.4",
+"2.3.4.5",
+"1.3.4.6",
+"1.3.5.6"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Quyida keltirilgan ma’lumotlar (voqealar) . . . ga aloqador. − 1897-1898-yillarda Shandun viloyatini o’z ta’sir doirasiga kiritgan; − XIX asr oxirlarida Afrikaning sharqiy qismidagi hududlarni va Zanzibarni bosib olgan; −  XIX asr oxirlarida Togo va Kamerunni bosib olgan ;",
+"opts": [
+"Rossiya mustamlakachilik siyosati",
+"Yaponiya mustamlakachilik siyosati",
+"AQSH mustamlakachilik siyosati",
+"Germaniya mustamlakachilik siyosati"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping. Fransiyada Kapetinglar sulolasidan  bo’lgan hukmdorlar",
+"opts": [
+"Genrix II",
+"Richard I Sheryurak",
+"Garold",
+"Filip IV"
+],
+"ans": "D",
+"extra": "1) Lyudovik VI  ;\n2) Filipp II ;\n3) . . . ."
+},
+{
+"n": 24,
+"q": "XIX asr oxiri va XX asr boshlarida Xiva xonligida ayrim tumanlar hunarmandchilik ishlab chiqarishining u yoki bu sohasiga ixtisoslashuvi jarayoni kuzatildi shundan metallni qayta ishlovchi asosiy ustaxonalar asosan qaysi shaharlarda joylashgan edi?",
+"opts": [
+"Xiva, Yangi Urganch, Chimboy, Hazorasp",
+"Bog’ot, Mo’ynoq, Taxta",
+"Xiva, Yangi Urganch, Qo’ng’irot, Gurlan",
+"Xiva, Yangi Urganch, Xo’jayli"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi ikki viloyat Qo’qon xoni Olimxon davrida goh Buxoro tomoniga, goh Qo’qon tomoniga o‘tib turdi?",
+"opts": [
+"Xo`jand, O`ratepa",
+"Sayram, Turkiston",
+"Jizzax, O`ratepa",
+"Sayram, Turkiston"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Toshkentda «Shahar nizomi» joriy etilgandan keyin, shahar boshqaruvi qaysi davlat organi qo’liga o’tgan?",
+"opts": [
+"Harbiy vazir",
+"Dumaga",
+"general-gubernator",
+"imperator"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan oldinroq  sodir bo‘lgan?",
+"opts": [
+"Liberiya davlati tashkil topdi;",
+"Buyuk Britaniya Afg’oniston o’rtasida harbiy shartnoma imzolandi;",
+"Do’st Muhammadxon vafot etdi;",
+"Muhammad Ali Misr va Sudanni boshqarishni meros qilib qoldirish huquqini qo’lga kiritdi;"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Quyidagi jadvalda to’g’ri moslashtirilgan qatorlarni toping. № Davlat Voqea Yil rahbari Si Szinpin Xitoyda hokimiyatga kelgan 2012 Jak Shirak Fransiyada prezi dentlik saylovlarida g‘olib chiqdi 1995 M. Tetcher Britaniyada bosh vazir lavozimidan iste’foga chiqdi 1990 Xillari Klinton AQSHda prezidentlik saylovlarida yutqazib qo‘ydi 2016 Mao Szedun Xitoy Xalq Sovet Respublikasini raisi etib saylandi 1932 M.Rizoғx on hukumatni ag‘darib tashladi 1921",
+"opts": [
+"1,2,3,4,5",
+"2,3,4,5,6",
+"2,4,5,6",
+"1,2,3,4,6"
+],
+"ans": "D",
+"img": "img/dtm/zn-04-28.jpg"
+},
+{
+"n": 29,
+"q": "“Barcha zamonlarda olimlar ilmiy masala yechimini topgan yunon fizigi va matematigi . . ning  «Topdim, topdim!» qiyqirig'ini takrorlab yurishadi“. Nuqtalar o’rnidagi allomani toping.",
+"opts": [
+"Aristotel (Aristotel)",
+"Sokrat (Suqrot)",
+"Arximed",
+"Platon (Aflotun)"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "O‘zbekiston Respublikasida yangi tezyurar poyezd tashkil qilgingach quyidagi qaysi yo’nalish qurilishi keyinroq amalga oshirildi?",
+"opts": [
+"Toshkent–Samarqand yo‘nalishi",
+"Toshkent–Buxoro” yo‘nalishi",
+"Toshkent– Qarshi shahrigacha",
+"Toshkent–Xiva yo‘nalishi"
+],
+"ans": "D"
+}
+]
+}

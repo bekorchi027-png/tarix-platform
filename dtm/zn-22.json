@@ -1,0 +1,343 @@
+{
+"id": "zn-22",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi yillarda yuz bergan voqealar to’g’ri ko’rsatilgan javobni toping. 1. 1950-yil; 2.1954-yil; 3.1949-yil; 4.1952-yil;",
+"opts": [
+"1-d, 2-c, 3-b, 4-a",
+"1-d, 2-c, 3-a, 4-b",
+"1-c, 2-d, 3-b, 4-a",
+"1-d, 2-b, 3-c, 4-a"
+],
+"ans": "A",
+"extra": "a) AQSHda o’tkazilgan prezident saylovlarida D.Eyzenxauer g’alaba qozondi;\nb) Pekinda Milliy siyosiy maslahat konferensiyasi ochildi;    c) Nikita Xrushchev asossiz tarzda Usmon Yusupovni respublika hukumati raisligidan olib tashladi; d) kadrlar tayyorlashning amerikacha standartlari joriy qilindi."
+},
+{
+"n": 2,
+"q": "Buyuk Britaniya tarixida birinchi marta hukumatni leyboristlar partiyasi boshqargan yili sodir bo’lgan voqeani toping?",
+"opts": [
+"“Daues” rejasi qabul qilindi.",
+"Buyuk Britaniya Misrning mustaqilligini tan olishga majbur bo’ldi",
+"Chan Kayshi boshchiligidagi Gomindan milliy hukumati Milliy inqilobiy armiyaning Shimolga yurishini boshladi",
+"prezident Gindenburg vafot etdi"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Quyidagi grafikda qaysi raqam ostidagiga muvofiq keladi? \"Tarixi Salimiy\" \"Foydali tarix\" «Alvido, qurol!» «Chol va dengiz» Ernest     Teodor        Ali           Mirza Xeminguey   Drayzer  Baljuvoniy   Salimbek",
+"opts": [
+"1,2,4,7",
+"1,2,5,7",
+"1,3,5,7",
+"1,2,3,5"
+],
+"ans": "B",
+"img": "img/dtm/zn-22-3.jpg"
+},
+{
+"n": 4,
+"q": "Tarixiy mantiqiy to`g`ri javobni aniqlang.",
+"opts": [
+"Eron-Ismoil Safaviy-Marv",
+"Mutafakkir-Roden-Avstriya",
+"Eron-Oq inqilob-Abdurashit Do’stim",
+"Qarluq-Karmankat-Yangikent"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Yakov I                         Karl VI I III II",
+"opts": [
+"I-c,d,e; II-a,b,f,n; III-j",
+"I-a,b; II-c,d,f,n; III-j",
+"I-a,b,e; II-c,d,f; III-j",
+"I-a,b,e; II-c,d,n; III-f,j"
+],
+"ans": "B",
+"extra": "a) Fransiya qiroli;\nb) 1403-yil 15-iyunda Amir Temurga javob maktubini yo‘llagan;\nc) Uning sulolasi shotlandiyalik edi;\nd) Uning davrida absolutizmning inqirozi kuchaydi;         e) Uning mamlakat va Yevropadagi nufuzi keskin oshadi;\nf) Georg I uning ajdodi;     n) ingliz qiroli;\nj) Yevropa mamlakati qirollaridan.",
+"img": "img/dtm/zn-22-5.jpg"
+},
+{
+"n": 6,
+"q": "Vestminster statuti deb nomlangan hujjat qabul qilingan yili dunyo tarixida bo’lib o’tgan voqealarni toping. 1. Yaponya Xitoyning shimoli-sharqidagi Manjuriga bostirib kirdi; 2. AQSH Sovet Ittifoqi bilan diplomatik munosabatlar o‘rnatildi; 3. SSSRda ta’lim tizimi to‘liq isloh qilinib, majburiy boshlang‘ich ta’lim joriy qilindi; 4. Xitoy Sovet Respublikasini e’lon qildi va Mao Szedun uning raisi etib saylandi; 5. Italiya Liviyadagi qarshilik harakati bostirilib, uning rahbarlari qatl qilindi; 6. Germaniyada bo‘lib o‘tgan prezidentlik saylovlarida Gindenburg g‘olib chiqdi.",
+"opts": [
+"1, 4, 5",
+"4, 5, 6",
+"1, 2, 3",
+"2, 3, 6"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Quyidagi tarixiy voqealar to’g’ri xronologik ketma-ketlikda berlilgan javobni toping. 1. Tripoli ispanlar tomonidan zabt etildi; 2. Butun Liviyani Turkiya imperiyaga qo‘shib oldi;   3. Mir Arab madrasasi qurilishi; 4. Tunis qirg‘oqlariga kelib tushgan 40 ming kishilik turk qo‘shinlari bu yerda ham ispanlar hukmronligiga xotima yasadi.",
+"opts": [
+"4, 1, 3, 2",
+"3, 1, 2, 4",
+"1, 2, 4, 3",
+"1, 3, 2, 4"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "1906-yil Konstitutsiyasining birinchi qismini tasdiqlagan  Eron shohini aniqlang.",
+"opts": [
+"Muhammad Alishoh",
+"Shoh Muzaffariddin",
+"Ahmadshoh",
+"Said Ali Muhammad"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Buxoro xonligi qo’shini haqidagi to’g’ri ta’rifni toping?",
+"opts": [
+"hirovul qo’shinning orqa qism shunday atalgan",
+"harbiy yurish boshlagan vaqtda uning oldida zobit deb ataluvchi qism borgan",
+"qo’shinning so’l qanoti barong'or deb atalgan",
+"qo’shinning o’ng qanoti javong'or deb atalgan"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Abulg’ozi Baxodirxon hukmdorligi davrida Ashtarxoniy hukmdorni toping?",
+"opts": [
+"Imomqulixon",
+"Abulfayzxon",
+"Subxonqulixon",
+"Abdulazizxon"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "O’zbekistonda XX-asr 30-yillarida… .",
+"opts": [
+"Chirchiq-Bo'zsuv GESlar kaskadi barpo etildi",
+"qatag'onlar asosan madaniyat va fan arboblariga qarshi qaratildi",
+"O'zbekiston Kommunistik partiyasining IV syezdi jazo mexanizmi ishga tushirildi",
+"yuksak tezliklar va parvozlar davrini ochib bergan"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "«Xalqlar jangi» deb nom olgan urush sodir bo’lgan yili sodir bo’lgan voqeani toping?",
+"opts": [
+"Jejudo orolida dehqonlar va baliqchilarning qo‘zg‘oloni bo‘lib o‘tdi",
+"Vena kongressi boshlandi",
+"Rossiyada «Krepostnoy huquqni bekor qilish to‘g‘risida»gi Qonun imzolandi",
+"Angliya taxtida turgan oranyelar sulolasining oxirgi vakili vafot etdi"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Samarqandda faoliyat yuritgan jadidlar berilgan javobni toping.",
+"opts": [
+"Munavvarqori Abdurashidxonov, Abdulla Avloniy, Ubaydullaxo‘ja Asadullaxo‘jayev",
+"Abdurauf Fitrat, Sadriddin Ayniy",
+"Hamza Hakimzoda Niyoziy, Obidjon Mahmudov, Abdulhamid Cho‘lpon",
+"Mahmudxo‘ja Behbudiy, Abduqodir Shakuriy, Saidahmad Siddiqiy-Ajziy"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Jadval asosida ma`lumotlarni tartiblang. O‘zbekiston tarixi bilan bog`liq voqea Yil (Asr) Jahon tarixidagi voqea Mo'g'ul xoni Xuloku Bag'dodni egalladi Abbosiylar sulolasi hukmronligi tugadi a 1451 b c Mali butunlay inqirozga uchrab, parchalanib ketdi d e",
+"opts": [
+"a-1,b-4,c-9,d-11,e-14",
+"a-2,b-5,c-9,d-12,e-15",
+"a-1,b-4,c-10,d-11,e-15",
+"a-1,b-4,c-9,d-12,e-15"
+],
+"ans": "D",
+"extra": "1) 1258-yil    2) 1273-yil   3) 1270-yil\n4) Abulxayrxon Toshkent, Chinoz va Jizzax orqali Samarqandga yurish boshlandi\n5) Abu Said Xuroson taxtini egalladi\n6) Mirzo Ulug`bek 55 yoshga to`ldi\n7) Sayyidlar sulolasi hukmronligi boshlandi\n8) Abdurahmon Jomiy tavallud topdi\n9) Sayyidlar sulolasi hukmronligi nixoyasiga yetdi\n10)  XIII asr   11) XIV asr    12) XV asr\n13) Chig‘atoy ulusining mo‘g‘ul amaldorlari doirasida o‘troqlikka ko‘chish, shahar hayotiga yaqinlashish boshlandi\n14) Chig‘atoy ulusida mo‘g‘ullarning o‘troqlikka o‘tish jarayoni kuchayib, ularning ijtimoiy hayotida jiddiy o‘zgarishlar sodir bo‘la boshlaydi\n15) Samarqand va Hirotda olimlar-u fuzalolar, shoirlar-u bastakorlarning kattagina guruhi to‘plangan",
+"img": "img/dtm/zn-22-14.jpg"
+},
+{
+"n": 15,
+"q": "Quyida yulduzcha bilan berilgan hududga oid ma`lumotni aniqlang.",
+"opts": [
+"XIX asr oxirida 300 mingdan ortiq fransuz yashardi",
+"1881-yili Fransiya hukmronligi o’rnatildi",
+"1907-yil shu yerda Fransuz vrachi o’ldirildi",
+"1912-yil Italiya mustamlakasiga aylandi"
+],
+"ans": "A",
+"img": "img/dtm/zn-22-15.jpg"
+},
+{
+"n": 16,
+"q": "Xitoyda Yuan Shikay davrida amalga oshirgan islohotlarni toping. 1. Sin sulolasini taxtdan voz kechishga majbur etdi; 2. demokratik erkinliklarni yo‘qqa chiqara boshladi; 3. yerga egalik huquqini tenglashtirish yo‘li bilan, ijtimoiy adolatli tuzum yaratish mumkin, degan fikirda edi; 4. ishni, avvalo, inqilob qo‘shinlarini butunlay qurolsizlantirishdan boshladi; 5. hukumatga qarshi tuzilgan har qanday guruh a’zolarining taqdiri o‘lim bilan yakunlanardi 6. Konstitutsiyasida Respublika ta’sis etish va yerga egalik huquqini tenglashtirish, mustaqillikni tiklash ko‘zda tutilgan edi",
+"opts": [
+"1,3,4,5",
+"1,2,3,4,5",
+"1,2,4,5",
+"1,2,4,5,6"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Diniy ta’limot, islomiy urf-odatlar insonning kamol topishida dunyoqarashining shakllanish mohiyati talqin etilgan asarlar muallifini toping.",
+"opts": [
+"Abu Mansur al-Moturidiy",
+"Mahmud az-Zamaxshariy",
+"Burhonuddin al-Marg‘inoniy",
+"Hakim at-Termiziy"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "O'zbekiston Respublikasi Davlat Mustaqilligi 1991-yil 31-avgust  kuni Oliy Kengashning qaysi sessiyasida e’lon qilingan?",
+"opts": [
+"navbatdan tashqari VI sessiyasida",
+"VII sessiyasida",
+"V sessiyasida",
+"navbatdan tashqari I V sessiyasida"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "VIII asrning  II choragida moliya islohoti o'tkazgan Xuroson noibini aniqlang",
+"opts": [
+"Muoviya",
+"Umar ibn Abdulaziz",
+"Nasr ibn Sayyor",
+"Mansur"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "1868-yil Buxoro amirligini Rossiya imperiyasining protektoratiga aylantirgan shartnomaga  ko’ra qaysi shaharlar Rossiya imperiyasi ixtiyoriga o’tdi?",
+"opts": [
+"Chimkent, O’zgan, Qorategin, O’ratepa, Xo’jand, Ko’lob",
+"Urgut, Samarqand, Panjikent, Zarafshon, Kattaqo’rg’on, Ko’lob",
+"Xo’jand, O’ratepa, Panjikent, Jizzax, Samarqand, Kattaqo’rg’on",
+"Toshkent, Panjikent, Samarqand, Kattaqo’rg’on, O’ratepa, Urgut"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Yaponiyada tokugava sulolasining oxirgi syoguni oliy hokimiyatdan voz kechgan yilda sodir bo’lgan voqeani toping?",
+"opts": [
+"Ispaniyada inqilob roy berdi",
+"Vena shahrida ishchilarni ommaviy namoishi bo'ldi",
+"Turkiston general gubernatorligi tashkil topdi",
+"Buyuk Britaniya –Fransiya o'rtasida savdo shartnomasi tuzildi"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Venetsiyalik sayyoh Marko Polo Uzoq Sharq va Xitoyga sayohati boshlangan yilda bo’lib o’tgan voqeani belgilang.",
+"opts": [
+"Xorazmshoh Jaloliddin Manguberdining hukmronligi tugadi",
+"Erondsa Xulokular davlati vujudga keldi",
+"Chig’atoy ulusida Ma’sudbek pul islohotini amalga oshirdi",
+"Shihobiddin ibn Ahmad an-Nasaviy o’z asarini yozishni boshladi"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Qadimgi Xitoy hududida ilk davlat quyidagi qaysi hududda paydo bo’ladi?",
+"opts": [
+"Yantszi daryosining quyi oqimida",
+"Xuanxe va Yantszi daryolarining janubiy Xitoy dengiziga quyulish joyida",
+"Xuanxe daryosining o'rta oqimida",
+"Yantszi daryosining o'rta oqimida"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Plateya va Xeroneya shaharlari yaqinida janglar bo'lib o'tgan yillar to'g'ri javobini toing.",
+"opts": [
+"mil.avv. 480, mil.avv. 338-yillar",
+"mil.avv. 479, mil.avv. 338-yillar",
+"mil.avv. 480, mil.avv. 337-yillar",
+"mil.avv. 449, mil.avv. 336-yillar"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Bir yilda bo’lgan voqealarni toping.",
+"opts": [
+"Buxoro amiri Nasrulloning Qo’qonga hujumi, Sheralixon Qo’qon taxtiga kelishi, I-afyun urushi tugadi",
+"Yevropa davlatlari iqtisodiyotini inqiroz qamrab oldi, Fransiyada inqilobi natijasida Iyul monarxiyasi quladi, Rossiya O’rta Osiyo xonliklarga olib boradigan yo‘lda ikkita istehkom qurdi",
+"O‘sh xalqi qo‘zg‘oloni, Buxoro xonligining Markaziy Osiyo – Rossiya tashqi savdosidagi ulushi 25 foizni tashkil etgan, Fransiyada qurg‘oqchilik ro‘y berdi",
+"jahon mamlakatlarida barcha temiryo‘llarning uzunligi 7700 km ga yetdi, ko‘zi tug‘ma ojiz bo‘lgan ijodkor vafot etdi, Sulton Mahmudxon Qo’qon taxtiga o’tirdi"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "YuNESKO tomonidan yuritiladigan insoniyatning nomoddiy madaniy merosi ro‘yxatidan Shashmaqom(a), Boysun madaniy muhiti(b), Navro‘z(c), Katta ashula(d), Askiya(e) o‘rin oldi 1. 2008-yil;   2. 2014-yil;   3. 2009-yil; 4. 2006-yil;   5. 2010-yil;   6. 2012-yil.",
+"opts": [
+"a-1; b-1; c-3; d-3; e-2",
+"a-1; b-2; c-3; d-4; e-2",
+"a-2; b-1; c-5; d-3; e-4",
+"a-5; b-1; c-3; d-3; e-2"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Quyidagi Fransiya qirollarining ular hukmronlik qilgan yillari bilan mos ravishda keltirilgan javobni toping 1. Fillip IV;   2. Lyudovik XI;    3. Karl VII; 4. Lyudovik VI.",
+"opts": [
+"1-d, 2-c, 3-a 4-b",
+"1-b, 2-c, 3-d 4-a",
+"1-a, 2-c, 3-d 4-b",
+"1-a, 2-d, 3-c 4-b"
+],
+"ans": "C",
+"extra": "a) 1285-1314-yillar;    b) XII asr boshlari;\nc) 1461-1483-yilar;     d) 1422-1461-yillar."
+},
+{
+"n": 28,
+"q": "Turli davrlarda yurtimiz hududida savdogarlardan olingan soliqlarni belgilang. 1. tamg’a;    2. kalon;    3. targ’u;    4. savdo puli;    5. salg’ut;    6. ushr.",
+"opts": [
+"1,3,5",
+"2,5,6",
+"1,3,4",
+"2,4,6"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Chizgan suratlar eng nozik his-tuyg‘ularni, qahramonlarning ko‘z ilg‘amas kayfiyatlarini ifodalaydigan ijodkorga tegishli javobni toping.",
+"opts": [
+"ma’rifatparvarlarning oliyjanob g‘oyalari odamlarni o‘zgartirmaganligini, burjua jamiyati ham feodal jamiyat singari mukammallikdan ancha yiroq ekanligini o‘zining asarida yozgan ijodkor",
+"o‘z qahramonini ishbilarmon, mehnatsevar, o‘z kuchiga ishonuvchi qilib yaratgan ijodkor",
+"«Qiyin taklif» asari muallifi",
+"«qirolning birinchi tasvirchisi» nomini olgan ijodkor"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Qaysi AQSH prezidenti saylov oldi kompaniyasini «O‘zingizga yer olish uchun ovoz bering!» shiori ostida tashkil qilib, yerlarni fermerlarga bepul tarqatish to‘g‘risida qonun qabul qilishga va’da berdi?",
+"opts": [
+"J.Vashington",
+"T.Ruzvelt",
+"J.Braun",
+"A.Linkoln"
+],
+"ans": "D"
+}
+]
+}

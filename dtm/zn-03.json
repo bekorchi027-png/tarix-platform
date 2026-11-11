@@ -1,0 +1,344 @@
+{
+"id": "zn-03",
+"items": [
+{
+"n": 1,
+"q": "“… Lotin Amerikasi mamlakatlaridagi milliyozodlik urushlarida nom qozongan italiya xalq qahramoni”. Nuqtalar o’rniga kerakli javobni qo’ying?",
+"opts": [
+"Kamillo Kavur",
+"Emiliano Sapata",
+"Juzeppe Garibaldi",
+"Juzeppe Madzini"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Xurosonni nazorat qilish masalasida shayboniylardan kimlar ustunlik qilgan? 1.Muhammad Shayboniyxon   2.Ko`chkinchixon 3.Ubaydullaxon   4.Abdullaxon II",
+"opts": [
+"1,2,3",
+"1,2,4",
+"1,3,4",
+"1,2,3,4"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyidagi grafikda qaysi raqam ostida ma’lumotlar bir-biriga  muvofiq keladi? Kanishka Kambiz II Kiaksar Kaligula Rim  Midiya     Fors  Parfiya",
+"opts": [
+"1,3,5",
+"1,2,3",
+"1,2,6,7",
+"2,3,5,7 6 7 4 5 2 3"
+],
+"ans": "A",
+"img": "img/dtm/zn-03-3.jpg"
+},
+{
+"n": 4,
+"q": "Birinchi jahon urushidan keying Turkiyada islohotlarning bosh maqsadi nimaedi?",
+"opts": [
+"Davlar iqtisodini ko’tarish",
+"Davlatni yevropacha nusxada rivojlantirish",
+"Mamlakatni modernizatsiya qilish",
+"Germaniya bilan yaqinlashish"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "“Tarbiyayi atfol” (Bolalar tarbiyasi)jamiyatini tashkil qilgan shaxslarni aniqlang. 1.Hoji Rafiy   2.A.Fitrat     3.Mirzo Abduvohid 4.Hamidxo’ja Mehriy     5.A.Avloniy 6.Usmonxo’ja     7.Muhammadin Mahdum 8.Munavvar  Qori  9.Shakuriy",
+"opts": [
+"2,4,6,8,9",
+"1,3,4,6,7",
+"1,3,5,8,9",
+"1,2,3,4,5,6"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "O’rta asrlarda mukammal hisoblangan ilmlar tasnifini yaratgan olim qachon tug’ilgan?",
+"opts": [
+"973-yilda",
+"950-yilda",
+"873-yilda",
+"1394-yilda"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Quyidagi ta’rif qaysi qo’rboshi haqida ekanligini aniqlang? “Vodiydagi sovet hokimiyati organlariga muqobil ravishda o‘z siyosiy boshqaruv usulini joriy qildi”",
+"opts": [
+"Shermuhammadbek",
+"Madaminbek",
+"Katta Ergash",
+"Kichik Ergash"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qadimgi Yunonistonda mavjud bo`lgan Miken davlati kimlar tomonidan vayron etilgan?",
+"opts": [
+"Liqurlar",
+"Etrusklar",
+"Axeylar",
+"Doriylar"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Rossiya tomonidan O’rta Osiyoning bosib olinishining to’rtinchi bosqichi qaysi yillarda bo’lib o’tdi?",
+"opts": [
+"1873-1879-yillar",
+"1865-1868-yillar",
+"1880-1885-yillar",
+"1847-1865-yillar"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Quyidagi qaysi asarda O’rta Osiyo va Xurosonning XV asr oxiri va XVI asr birinchi choragidagi ijtimoiy-siyosiy tarixi aks etgan?",
+"opts": [
+"“Majolis un-nafois”",
+"“Habib us- siyar”",
+"“Ravzat us-safo”",
+"“Al-Komil fit-tarix”"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Abbos I                  Ismoil Safaviy I III II",
+"opts": [
+"I-a,b,n; II-d,e,f; III-c,g",
+"I-a,b,f; II-d,e,n; III-c,j",
+"I-d,b,n; II-a,e,f; III-c,j",
+"I-a,e,n; II-d,b,f; III-c,g"
+],
+"ans": "B",
+"extra": "a) davlati o‘z qudratining cho‘qqisiga erishdi;\nb) Poytaxtni Isfahonga ko‘chirdi;\nc) Eronda hukmronlik qilgan;\nd) o‘zini shahanshoh deb e’lon qildi;\ne) Poytaxt etib Tabriz shahri belgilandi; n) yer egaligining suyurg‘ol shaklini deyarli butunlay bekor qildi;\nf) Mamlakat soliq tizimida tartib o‘rnatdi va soliqlar miqdori kamaytirildi;\nj) XVI asrda taxtga o’tirgan;\nk) Safforiylar sulolasi hukmdori;\ng) XV asrda taxtga kelgan",
+"img": "img/dtm/zn-03-11.jpg"
+},
+{
+"n": 12,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar  to‘g‘ri berilgan?",
+"opts": [
+"1, 2,3,4",
+"1,2,3,5",
+"1, 4, 5",
+"1,2,3,4,5,6."
+],
+"ans": "B",
+"img": "img/dtm/zn-03-12.jpg"
+},
+{
+"n": 13,
+"q": "Italiyada “Fiat ” nomli aksiyadorlik jamiyati tashkil topgan yili …",
+"opts": [
+"Ismoil Obidov tahriri ostida “ Taraqqiy ” gazetasining birinchi soni chiqdi",
+"taniqli sharqshunos va arxeolog V. L. Vyatkin Ulug`bek rasadxona binosi qoldiqlarini bir qismini topishga muvaffaq bo`ldi",
+"“A – Meta” sindikati tashkil etildi",
+"Rossiyada “Med” jamiati tashkil etildi"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Xiva Rossiyaga 137 ming rublli (a), 1,5 million rublli (b) tovar eksport qilgan yillarni aniqlang.",
+"opts": [
+"a-1843-yilda, b-1867-yilda",
+"a-1844-yilda, b-1867-yilda",
+"a-1842-yilda, b-1867-yilda",
+"a-1844-yilda, b-1869-yilda"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "1896-yil  1-avgustda Adua yaqinidagi  jangda maglubiyatga uchragan davlat xaritada nechanchi raqamda berilgan?",
+"opts": [
+"4",
+"2",
+"1",
+"3"
+],
+"ans": "A",
+"img": "img/dtm/zn-03-15.jpg"
+},
+{
+"n": 16,
+"q": "Urush yillarida yozilgan \"O‘zbekiston qilichi\" asarini mualliflarini aniqlang. 1. Hamid Olimjon  2. Uyg‘un  3. Izzat Sulton 4. Sobir Abdulla   5. Abdulla Qahhor 6. Oybek",
+"opts": [
+"1,2,3",
+"1,2,4",
+"2,3,5",
+"1,3,4"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Norbo’tabiy vafotidan oldin o’g’illariga berilgan hududlarni moslashtiring 1. Muhammad Aminbek            2. Olimbek",
+"opts": [
+"1-a, 2-c.",
+"1-b, 2-d.",
+"1-c, 2-a.",
+"1-d, 2-c."
+],
+"ans": "B",
+"extra": "a) Andijon       b) Marg’ilon   c) Tepaqo’rg’on\nd) To’raqo’rg’on"
+},
+{
+"n": 18,
+"q": "Qadimgi Choson uch qirollikka bo’linib ketadi ular qaysi javobda to’g’ri ko’rsatilgan?",
+"opts": [
+"Pekche, Silla va Choson",
+"Pekche, Silla va Koguryo",
+"Parxe, Silla va Koguryo",
+"Van In, Parxe va Silla"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "O‘zbekiston tasviriy san’at galereyasi qachon ish boshladi?",
+"opts": [
+"2002-yil",
+"2004-yil",
+"2005-yil",
+"2001-yil"
+],
+"ans": "B",
+"img": "img/dtm/zn-03-19.jpg"
+},
+{
+"n": 20,
+"q": "Yevrotonnel qayerda qurilgan edi?",
+"opts": [
+"Gibraltar bo‘g‘ozida",
+"La-Mansh bo‘g‘ozida",
+"Bosfor bo‘g‘ozida",
+"Dardanell bo‘g‘ozida"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Quyidagilardan qaysilari bir vaqtda sodir bo’lgan edi? 1. Buxoro amirligi bo’ylab birinchi temir yo’l o’tkazildi 2. Ko’lob bekligida g’alayonlar boshlandi    3. Kalif qo’zg’aloni     4. Vose’ qo’zg’aloni bo’lgan 5. Buxoro amirligida rus qishloqlari paydo bo’la boshladi  6. Amir Abdulahad o’g’li Said Olimxonni Peterburgga o’qishga jo’natdi",
+"opts": [
+"1,2,3",
+"2,5",
+"3,5",
+"1,4,5"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Quyidagi xudolarni ular qanday iloh ekanligi to‘g‘ri ko‘rsatilgan javobni belgilang.",
+"opts": [
+"1 - b; 2 - a; 3 - d; 4 - c",
+"1 - c; 2 - a; 3 - b; 4 - d",
+"1 - a; 2 - b; 3 - d; 4 - c",
+"1 - b; 2 - a; 3 - c; 4 - d"
+],
+"ans": "D",
+"extra": "1) Geya;\n2) Ea;\n3) Uran;\n4) Vulkan;\na) Suv xudosi; b) Yer xudosi; c) Osmon xudosi;\nd) temirchilik xudosi;"
+},
+{
+"n": 23,
+"q": "Mitropolit Vladimir qanday orden bilan mukofatlandi?",
+"opts": [
+"“Do’stlik”",
+"“Shuhrat”",
+"“Buyuk xizmatlari uchun”",
+"“El-yurt”"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Xaritada keltirilgan hududga oid ma`lumotni aniqlang.",
+"opts": [
+"2001-yil defolt e’lon qilingan;",
+"XX asrda Habib Burg‘iba boshchiligida milliy- ozodlik harakatlari avj oldi;",
+"“Oydin yo’l” terorchi tashkiloti bu davlatda faollashgan;",
+"Abdul Fattoh as-Sisi 2014-yili bo‘lib o‘tgan saylovlarda prezidenti etib saylandi;"
+],
+"ans": "B",
+"img": "img/dtm/zn-03-24.jpg"
+},
+{
+"n": 25,
+"q": "Rossiya bilan … yillari(a) bo’lib o’tgan urushda Eron mag’lubiyatga uchradi va … (b) bo’lgan davosida voz kechdi.",
+"opts": [
+"a-1826-1828-yillar, b-Kavkazga",
+"a-1856-1857-yillar, b-Hirotga",
+"a-1768-1774-yillar, b-Qrimga",
+"a-1853-1856-yillar, b-Falastin"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Tarixiy mantiqiy to`g`ri javobni aniqlang.",
+"opts": [
+"Xitoy-numisma-grass",
+"Yaponiya-Nagoya- Tonggi tarovat",
+"Guptalar–yer egaligi munosabatlari –IV asr",
+"Bank-Germaniya -XIV asr"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Chig’atoy ulusi hukmronligi davrida Movarounnahrning qaysi shaharlari qayta tiklanadi?",
+"opts": [
+"Samarqand va Nasaf",
+"Samarqand va Toshkent",
+"Urganch va Buxoro",
+"O’tror va Xo’jand"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "“Sho’royi ulamo” jamiyatining qaysi shahardagi sho‘basiga Sherali Lapin boshchilik qiladi?",
+"opts": [
+"Qo’qon",
+"Namangan",
+"Buxoro",
+"Toshkent"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "2011-yili qaysi davlatda hukumatga qarshi g‘alayonlar boshlanib, qo‘zg‘olonchilar muvaqqat hukumat tuzib, yordam so‘rab NATO ga murojaat qildi?",
+"opts": [
+"Liviya",
+"Sudan",
+"Misr",
+"Tunis"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "1920-1930-yillarda qaysi davlat Xitoyni, Uzoq Sharqni, keyin esa butun Osiyoni bosib olishni, Tinch okeani havzasida o’z hukmronligini o’rnatishni rejalashtirayotgan edi?",
+"opts": [
+"Yaponiya",
+"AQSH",
+"SSSR",
+"Germaniya"
+],
+"ans": "A"
+}
+]
+}

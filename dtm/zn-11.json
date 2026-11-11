@@ -1,0 +1,345 @@
+{
+"id": "zn-11",
+"items": [
+{
+"n": 1,
+"q": "Quyidagilardan Qadimgi Misr tarixi bilan bog‘liq bo‘lgan ma’lumotlar mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-c, 2-d, 3-a",
+"1-a, 2-b, 3-c",
+"1-b, 2-a, 3-d",
+"1-b, 2-c, 3-a"
+],
+"ans": "D",
+"extra": "1) oddiy misrliklarning uylari;\n2) zodagonlarning uylari;\n3) Fir’avnlarning saroylari va ibodatxonalar;\na) toshdan barpo etilgan; b) loy suvalgan papirus poyalaridan qurilgan; c) oftobda quritilgan xom g‘ishtdan qurilgan; d) pishgan g‘ishtdan barpo etilgan."
+},
+{
+"n": 2,
+"q": "Quyidagi voqealarni yillari bilan moslang.",
+"opts": [
+"1-d, 2-f, 3-c, 4-b, 5-a",
+"1-c, 2-f, 3-d, 4-a, 5-b",
+"1-c, 2-e, 3-d, 4-a, 5-b",
+"1-d, 2-e, 3-c, 4-b, 5-a"
+],
+"ans": "D",
+"extra": "1) Hirot hokimi Abulqosim Boburning hukmronligi tugadi;\n2) Movarounnahrda Sulton Ahmadning hukmronligi boshlandi;\n3) Mirzo Ulug‘bek muomaladagi fulusiy pullar islohotini amalga oshirdi;\n4) Xurosonda Boysung‘urning o‘g‘li Alouddavlaning hukmronligi tugadi;\n5) Issiqko‘l yaqinida sodir bo‘lgan to‘qnashuvda Mirzo Ulug‘bek mo‘g‘ullar ustidan g‘alaba qozondi.\na) 1425-yil; b) 1448-yil; c) 1428-yil; d) 1457yil; e) 1469-yil; f) 1494-yil."
+},
+{
+"n": 3,
+"q": "Qoraqalpoq xalqining atoqli shoirlaridan biri Berdaq o‘zining qaysi she’rlarida mehnatkash xalqning o‘g‘ir hayotini, Xiva xonlari, amaldorlari zulmiga qarshi xalq noroziligini ifodalagan?",
+"opts": [
+"«Bo‘lgan emas», «Xalq uchun», «Soliq»",
+"«Xalq uchun», «Umrim», «Ahmoq bo‘lma»",
+"«Umrim», «Soliq», «Bo‘lgan emas»",
+"«O‘g‘limga», «Ahmoq bo‘lma», «Soliq»"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Quyidagi voqealar to‘g‘ri xronologik tartibda berilgan javobni toping.",
+"opts": [
+"2, 1, 5, 4, 3",
+"2, 1, 3, 5, 4",
+"1, 2, 3, 5, 4",
+"1, 2, 5, 4, 3"
+],
+"ans": "D",
+"extra": "1) Horun Bug‘roxon boshliq qoraxoniylar Movarounnahrga hujum boshladi;\n2) Qoraxoniylar Somoniylar hukmronligiga barham berdi;\n3) Qoraxitoylar Xo‘jand shahri yaqinida qoraxoniylarning eloqxoni Mahmudga qaqshatqich zarbn berdilar;\n4) Ibrohim Bo‘ritegin Movarounnahrni va Farg‘onani o‘ziga bo‘ysundirib, mustaqil siyosat yurita boshladi;\n5) Qoraxoniylar Xurosonga ikki marta yurish qildi."
+},
+{
+"n": 5,
+"q": "Toshkentda to‘rt hokimlik tugatilgan yilni toping.",
+"opts": [
+"1758-yil",
+"1810-yil",
+"1784-yil",
+"1803-yil"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "IX asrda arab xalifaligidan Eron, Xuroson, Movarounnahr va Misr mustaqillikka erishgach, abbosiylar qo‘lida qaysi hududlar qolgan?",
+"opts": [
+"Kichik Osiyo va Shimoliy Afrika",
+"Yaqin Sharq va Arabiston yarimoroli",
+"Yaqin Sharq va Kichik Osiyo",
+"Kichik Osiyo va Arabiston yarimoroli"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Quyidagilardan VIII asrda tashkil topgan davlatlarni toping.",
+"opts": [
+"Gana va O‘g‘uzlar davlati",
+"Aksum va Qarluqlar davlati",
+"Gana va Qarluqlar davlati",
+"Aksum va O‘g‘uzlar davlati"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Rimda Respublika davrida liktorlar nima uchun yelkalari orasida boltacha sanchilgan qayishqoq arqonchalardan bog‘lama taqib yurishgan?",
+"opts": [
+"Rimning tub aholisi plebeylar isyon ko‘targanda uni bostirish maqsadida.",
+"Konsul - urush davrida Rim hukmdori etib tayinlangani uchun.",
+"Konsul jinoyattchilarni jazolash imkoniyatiga egaligi alomati sifatida.",
+"Rimning barcha fuqarolari mavqeyidan qat’iy nazar qonun oldida tengligini nazorat qilish maqsadida."
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Quyida berilgan voqealarni yillari bilan to‘g‘ri moslashtirib berilgan javobni aniqlang.",
+"opts": [
+"1-d, 2-e, 3-b",
+"1-c, 2-e, 3-b",
+"1-c, 2-a, 3-b",
+"1-a, 2-c, 3-b"
+],
+"ans": "C",
+"extra": "1) O’ratepa shahri ruslar tomonidan egallandi;\n2) Asfandiyorxon «Islohotlar loyihasini» e’lon qildi;\n3) Qo’qon xonligi tugatildi;\na) 1910-yil; b) 1876-yil; c) 1866-yil;\nd) 1868-yil;    e) 1917-yil"
+},
+{
+"n": 10,
+"q": "Quyidagi voqealarni bo‘lib o‘tgan davri bilan moslang.",
+"opts": [
+"1-c, 2-f, 3-e, 4-a, 5-d",
+"1-d, 2-b, 3-f, 4-a, 5-c",
+"1-d, 2-e, 3-f, 4-a, 5-b",
+"1-c, 2-e, 3-a, 4-f, 5-b"
+],
+"ans": "C",
+"extra": "1) Yunon-Baqtriya davlati tashkil topdi;\n2) «Buyuk meridianal yo‘l» vujudga keldi;\n3) Rim imperiya davlatiga aylandi;\n4) Finikiyada 22 ta undosh harfdan iborat alifbo yaratildi;\n5) Misr Ahamoniylar davlati tomonidan bosib olindi.\na) mil. avv. X asr; b) mil. avv. VI asr; c) mil. avv. IV asr; d) mil. avv. III asr o‘rtalari;\ne) mil. avv. II asr;   f) mil. avv. I asr."
+},
+{
+"n": 11,
+"q": "Buxoro amirligidagi eng quyi ma’muriy bo‘linma to‘g‘ri ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"beklik",
+"amlokdorlik",
+"ovul boshliqlari",
+"tuman"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Rim imperiyasi Britaniya orollarini istilo qilgan vaqtda orolning shimolida - hozirgi Irlandiya va Shotlandiya hududida qaysi qabilalar yashagan?",
+"opts": [
+"kelt, britt",
+"angl, saks",
+"yut, alemann",
+"pikt, skot"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi hududlardan qaysi biri XIX asr o‘rtalarida Buxoro amirligi tarkibiga kirmagan?",
+"opts": [
+"Pishpak",
+"Sherobod",
+"Qarshi",
+"G‘uzor"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Yodgor Nasriddinova faoliyati bilan bog‘liq to‘g‘ri ma’lumotni toping.",
+"opts": [
+"Qo'qonda tug'ilgan bo'lib, komsomol va partiya organlarida rahbar lavozimlarida ishlagan",
+"1978 - 1983-yillarda O'zbekiston SSR Oliy Soveti Prezidiumi raisi lavozimlarida faoliyat ko'rsatdi",
+"Buxorodagi istiqlolchilik harakati yo’lboshchisi Nodira qiz",
+"snayperchi; mardligi va jasorati uchun Qizil Bayroq ordeni bilan mukofotlangan"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "«O‘zbekiston Respublikasining Davlat Mustaqilligi asoslari to‘g‘risida»gi qonun nechta moddadan iborat?",
+"opts": [
+"17 modda",
+"128 modda",
+"30 modda",
+"15 modda"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Quyidagilardan qaysi biri 1917-yilda tashkil etilgan?",
+"opts": [
+"Turkiston Avtonom Sovet Sotsialistik Respublikasi",
+"Turkiston Muxtoriyati",
+"Xorazm Xalq Sovet Respublikasi",
+"Buxoro Xalq Sovet Respublikasi"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Quyidagi qo‘zg‘olonlardan qaysilari Arab xalifaligiga qarshi ko‘tarilgan?",
+"opts": [
+"1, 4",
+"1, 3",
+"2, 4",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) «Sariq ro‘mollilar»;\n2) «Qizil ko‘ylaklilar»;\n3) «Qizil qoshlilar»;\n4) «Oq kiyimlilar»."
+},
+{
+"n": 18,
+"q": "Bir yilda bo‘lib o‘tgan voqealar berilgan javobni aniqlang.",
+"opts": [
+"Birinchi afyun urushi Xitoyning mag‘lubiyati bilan tugadi; Bobiylik ta’limoti asoschisi sayyid Ali Muhammad qatl etildi.",
+"Birinchi afg‘on-ingliz urushi Buyuk Britaniya mag‘lubiyati bilan tugadi; Birinchi afyun urushi Xitoyning mag‘lubiyati bilan tugadi.",
+"Bobiylik ta’limoti asoschisi sayyid Ali Muhammad qatl etildi; Hindistonda sipohilar qo‘zg‘olon ko’tardi.",
+"Taypinlar davlati tugatildi; Bobiylar qo‘zg‘oloni bostirildi."
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Xaritadagi nechanchi raqamdagi mamlakat diniy rahbari Oyatilloh Ruhulloh Humayniy 1989-yili vafot etdi?",
+"opts": [
+"1",
+"2",
+"3",
+"4"
+],
+"ans": "A",
+"img": "img/dtm/zn-11-19.jpg"
+},
+{
+"n": 20,
+"q": "Eronda turli qabilalar o‘rtasida taxt uchun kurash tugaganida (zend va qojar o’rtasida) Sodir bo’lgan voqeani toping?",
+"opts": [
+"Toshkentda jung‘orlarga qaramlik tugadi",
+"Norbo’tabiy hukmronligi tugadi",
+"Buxoroda mang’itlar sulolasi hokimiyatni to‘la egalladi",
+"Xitoy Sharqiy Turkistonni o'ziga bo‘ysundirish nixoyasiga yetdi"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "1994-yilda qaysi vatandoshimiz tavalludining 600 yilligi nishonlangan?",
+"opts": [
+"Zahiriddin Muhammad Bobur",
+"Imom al-Moturidiy",
+"Mahmud az-Zamaxshariy",
+"Mirzo Ulug‘bek"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Quyidagi jadvalning qaysi qatordagi ma’lumotlar bir-biriga mos ravishda berilgan? № Davlat Voqea Yil rahbari Chan Kayshi Yanan shahrini egallab oldi 1947 Duglas Makartur Shu yilgach Yaponiya hukumati uning shtab tomonidan nazorat qilindi 1952 M. Tetcher bosh vazir lavozimidan iste’foga chiqdi 1990 Duayt Eyzenxauer saylovda g‘olib chiqdi 1952 Mao Szedun Xitoy Xalq Sovet Respublikasini raisi etib saylandi 1932 M.Rizoxon hukumatni ag‘darib tashladi 1921",
+"opts": [
+"1,2,3,4,5",
+"2,3,4,5,6",
+"2,4,5,6",
+"1,2,3,4,6"
+],
+"ans": "D",
+"img": "img/dtm/zn-11-22.jpg"
+},
+{
+"n": 23,
+"q": "Taypinlar davlatini ag’darishda Xitoy hukumatiga yordam bergan davlatlarni toping.",
+"opts": [
+"2, 3, 6",
+"1, 4, 6",
+"2, 3, 5",
+"1, 4, 5"
+],
+"ans": "C",
+"extra": "1) Rossiya;\n2) Buyuk Britaniya;\n3) Fransiya;\n4) Ispaniya;\n5) AQSH;\n6) Avstriya."
+},
+{
+"n": 24,
+"q": "II jahon urushi yillarida O‘zbekistonda barpo etilgan GESlarni aniqlang.",
+"opts": [
+"2, 3, 5",
+"2, 4, 5",
+"1, 2, 5",
+"1, 3, 4"
+],
+"ans": "D",
+"extra": "1) Oqqovoq;\n2) Yangi Angren;\n3) Salor;\n4) Qibray;\n5) Navoiy."
+},
+{
+"n": 25,
+"q": "G’arbiy Yevropa va AQSHda sanoat to’ntarishi nihoyasiga yetgan davrni aniqlang.",
+"opts": [
+"XX asrning 40-50-yillarida",
+"XIX asrning 30-40-yillarida",
+"XVIII asrning 70-80-yillarida",
+"XIX asrning 50-60-yillarida"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyidagilardan XX asr 90-yillarida Ruminiyada prezidentlik lavozimida ishlagan shaxsni belgilang.",
+"opts": [
+"M. Snegur",
+"I. Iliyesku",
+"L. Valensa",
+"L. Kravchuk"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "XX asr boshlarida Turkiyada panturk va panislom mafkuralarini o‘ziga shior qilib olgan siyosiy kuchlar to‘g‘ri ko'rsatilgan javobni toping.",
+"opts": [
+"«Ittihodi Muhammadi» partiyasi",
+"«Hurriyat va birdamlik partiyasi»",
+"«Uchlik» deb atalgan guruh",
+"«Kamolchi»lar guruhi"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Rossiya Prezidenti B. Yelsin nechanchi yilda Oliy Sovetni tarqatib yubordi?",
+"opts": [
+"1993-yilda",
+"1991-yilda",
+"1992-yilda",
+"1996-yilda"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "1889-1913-yillarda Qizil dengiz bo‘yi va Somali yarimoroli qaysi davlatlar o‘rtasida taqsimlab olingan?",
+"opts": [
+"Buyuk Britaniya, Ispaniya, Germaniya",
+"Fransiya, Gollandiya, Buyuk Britaniya",
+"Germaniya, Portugaliya, Fransiya",
+"Buyuk Britaniya, Fransiya, Italiya"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "Sobiq Ittifoq tarkibida bo‘lgan quyidagi qaysi davlat Mustaqil Davlatlar Hamdo‘stligiga a’zo bo‘lmagan?",
+"opts": [
+"Ozarbayjon",
+"Qirg‘iziston",
+"Latviya",
+"Tojikiston"
+],
+"ans": "C"
+}
+]
+}

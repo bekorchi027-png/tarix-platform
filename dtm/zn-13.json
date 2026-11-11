@@ -1,0 +1,347 @@
+{
+"id": "zn-13",
+"items": [
+{
+"n": 1,
+"q": "Nil daryosining quyilish joyini “delta” deb atashgan.",
+"opts": [
+"yunonlar",
+"akkadlar",
+"shumerlar",
+"misrliklar"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Uchinchi salib yurishlarida qaysi davlatlarning hukmdorlari ishtirok etgan?",
+"opts": [
+"Fransiya, Germaniya, Angliya",
+"Vizantiya, Angliya, Kastiliya",
+"Italiya, Fransiya, Germaniya",
+"Kastiliya, Vizantiya, Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Quyidagi millatlar ichidan 1989-yilda O’zbekiston viloyatlarida dastlabki o’z milliymadaniy markazlarini ochgan millatlarni ko’rsating.",
+"opts": [
+"1, 4, 8, 12",
+"1, 2, 11, 12",
+"2, 4, 5, 7",
+"2, 3, 9, 10"
+],
+"ans": "A",
+"extra": "1) koreyslar, 2) ruslar, 3) moldavanlar,\n4) qozoqlar, 5) qirg’izlar, 6) turklar,\n7) turkmanlar, 8) yahudiylar,  9) yaponlar,\n10) xitoylar, 11) gruzinlar, 12) armanlar"
+},
+{
+"n": 4,
+"q": "Italiyaning birlashishiga beqiyos katta xizmat ko‘rsatgan buyuk shaxsni aniqlang.(XIX asr 2yarmi)",
+"opts": [
+"2, 4",
+"1,4",
+"2, 3",
+"1, 3"
+],
+"ans": "D",
+"extra": "1) K.Kavur;\n2) J.Jolitti;\n3) J.Madzini;\n4) V.Emmanuil II."
+},
+{
+"n": 5,
+"q": "Qadimgi Xitoydagi Sya sulolasi qaysi qabila tomonidan taxtdan ag‘darilgan?",
+"opts": [
+"Sin",
+"Shan",
+"Xunn",
+"Chjou"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "1920-yilda imzolangan qaysi shartnomaga ko‘ra. Turkiya hududi bir guruh Yevropa davlatlari o‘rtasida bo‘lib olinishi ko‘zda tutilgan?",
+"opts": [
+"Lozanna",
+"Rapallo",
+"Sevr",
+"Varshava"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Xiva xonligida avvallari juda katta mavqega ega bo’lgan inoqlarning nufuzi qachondan boshlab pasaya boshladi?",
+"opts": [
+"XVIII asr birinchi yarmi",
+"XIX asr birinchi yarmi",
+"XVIII asr ikkinchi yarmi",
+"XIX asr ikkinchi yarmi"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "XIX asr oxiri XX asr boshlarida Xiva xonligining qaysi shahrida Rossiya-Osiyo va Sibir savdo bankining bodimlari ochilgan?",
+"opts": [
+"Pitnakda",
+"Porsuda",
+"Yangi Urganchda",
+"Xonqada"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Suriyada 2011-yil ‘\"Juma inqilobi’ nomini olgan g'alayonlar davrida isyonchilar qanday talablar bilan chiqishgan?",
+"opts": [
+"1,3",
+"2, 3",
+"2, 4",
+"1, 4"
+],
+"ans": "D",
+"extra": "1) B.Asad rejimini ag‘darish;\n2) Iroq va Shom islom davlatini tuzishni;\n3) Rossiya harbiykosmik kemalarini Suriya hududidan olib chiqib ketishini;\n4) mamlakatda demokratik islohotlar o'tkazish."
+},
+{
+"n": 10,
+"q": "XIX asrning oxirida Buxoro amirligining qaysi shaharlarida Rossiya firmalarining idora va omborxonalari mavjud bo‘lgan?",
+"opts": [
+"1, 4",
+"2,3",
+"1, 3",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) Chorjo‘y;\n2) Kattaqo‘rg‘on;\n3) Termiz;\n4) Jizzax."
+},
+{
+"n": 11,
+"q": "Bugungi kunda  respublikamizda yuqori malakali sportchilarni tayyorlashga ixtisoslashtirilgan ..  (a)…. ta bolalar-o‘smirlar sport maktablari, .. (b)… ta olimpiya zaxiralari kollejlari, ..(c)…. ta respublika oliy sport mahorati maktablari faoliyat ko‘rsatmoqda.",
+"opts": [
+"(a-354), (b-14), (c-8)",
+"(a-635), (b-5), (c-12)",
+"( a-534), (b-12), (c-5)",
+"(a-536) , (b-5), (c-8)"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Yaponiya imperatori Meydzi faoliyati bilan bog’liq to‘g‘ri berilgan ma’lumotlarni aniqlang. (XIX asr oxiri",
+"opts": [
+"2, 3, 4",
+"2, 4, 5",
+"1, 3, 5",
+"1, 3, 4"
+],
+"ans": "D",
+"extra": "1) ishlab chiqarish kuchlarining rivojiga to'sqinlik qiluvchi qonun va tartiblami bekor qildi;\n2) Edo shahrini mamlakat poytaxti deb e’lon qildi: 3) Yaponiya dunyoning barcha davlat lari uchun ochib qo‘yikh:   4) mamlakat da yagona pul birligi-iyena joriy etildi;\n5) “100 moddali Farmon” deb ataluvchi qonunlar to'plamini qabul qildi."
+},
+{
+"n": 13,
+"q": "Mali aholisi qachon islom dinini qabul qilgan?",
+"opts": [
+"XIII asrda",
+"X asrda",
+"XI asrda",
+"XII asrda"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "XI asrda Anushteginni Xorazmga noib qilib tayinlagan saljuqiylar hukmdorini belgilang.",
+"opts": [
+"To‘g‘rulbek",
+"sulton Sanjar",
+"Alp Arslon",
+"Malikshoh"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Quyida berilgan tarixchilardan qaysi biri Buxoro hukmdori Ubaydullaxon hukmronligi davri haqida shunday yozgan edi. “Uning davlati va xalofati zamonida Movarounnahr, ayniqsa Buxoro viloyati gullab-yashnadi“?",
+"opts": [
+"Hofiz Tanish al-Buxoriy",
+"Muhammad Solih",
+"Muhammad Yusuf Munshiy",
+"Abdurahmon Tole"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "1870-yilda quyidagi qaysi davlatda imperator hokimiyati ag‘darilganligi e’lon qilingan?",
+"opts": [
+"Fransiya",
+"Buyuk Britaniya",
+"Rossiya",
+"Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Koguryo                            Pekche 1. Qadimgi Choson o’rnida tashkil topgan 2. IV asrda markazlashga qudratli davlatga aylandi  3. Koreya yarim orolini janubida joylashgan edi  4. Koreya yarimorolini shimolida joylashgan edi  5. O’z tarkibiga qo’shni Lyaodun yarimorolini ham olar edi 6. Ilk budda tasvirlari ayni shu mamlakatdan qo’shni Yaponiyaga o’tgan edi",
+"opts": [
+"I- 4,5 II-3,6 III-1,2",
+"I-2,5 II- 3,6 III-1,4",
+"I-4,5 II-2,6 III-1,3",
+"I-1,6 II-3,5 III-2,4"
+],
+"ans": "A",
+"img": "img/dtm/zn-13-17.jpg"
+},
+{
+"n": 18,
+"q": "Oltin O‘rda xonligida tashqi siyosat masalalari bilan kimlar shug‘ullangan?",
+"opts": [
+"Bosqoq, vazir, no‘yon",
+"Xon va ulusbegi, no’yon",
+"Xon, xonning yaqin maslahatchilari, beklarbegi",
+"Bosqoq, no‘yon, ulusbegi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Doro I elchilari bo‘ysunishini talab qilib, qaysi shaharga kelganda elchilar chuqur quduqqa tashlab yuborilgan edi?",
+"opts": [
+"Afinaga",
+"Troyaga",
+"Spartaga",
+"Plateyaga"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "2013-vilda Misming qaysi prezidenti harbiylar tomonidan ag‘darildi va qamoqqa olindi?",
+"opts": [
+"A.F.as-Sisi",
+"H.Muborak",
+"J.A.Nosir",
+"M.Mursi"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Qaysi voqeadan keyin AQSh ikkinchi jahon urushiga qo‘shilgan?",
+"opts": [
+"SSSR Atlantik xartiyaning asosiy tamoyillarini qabul qilgandan so‘ng.",
+"Germaniyaning Polshaga bostirib kirishi bilan.",
+"Yaponiya floti Pyorl- Xarborga-AQSh flotining Tinch okeandagi asosiy bazasiga hujum qilgandan so‘ng.",
+"Yaponlar Xalxin-Gol daryosi yonida Mo‘g‘uliston hududiga bostirib kirgandan so‘ng."
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "V asrda O‘rta Osiyo hududida tashkil topgan davlatlarni aniqlang.",
+"opts": [
+"Eftaliylar, Turk xoqonligi",
+"Kidariylar, Turk xoqonligi",
+"Eftaliylar, Kidariylar",
+"Xioniylar, Turk xoqonligi"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Qaysi qatorlarda davlat, hukmdor va hukmronlik yillari to‘g‘ri berilgan. № Davlat Hukmdor Hukmdorlik yillari 1. Chig‘atoy ulusi Kebek 1318-1336 Xorazm davlati (Anushteginiy) Elarslon 1156-1172 Arab xalifaligi Abul Abbos Saffoh 750-754 G‘aznaviylar davlati Ma’sud G‘aznaviy 1030-1040 G‘arbiy turk xoqonligi 618-650",
+"opts": [
+"2, 4, 6",
+"2, 3, 4",
+"1, 5, 6",
+"1, 3, 5"
+],
+"ans": "B",
+"img": "img/dtm/zn-13-23.jpg"
+},
+{
+"n": 24,
+"q": "O‘zbekiston Respublikasini rivojlantirishning Harakatlar strategiyasida har bir ustuvor yo‘nalish uchun o‘ziga xos ranglar ajratilgan bo‘lib, ularning qaysi sohani ifoda etishini aniqlang.",
+"opts": [
+"a-2, b-1, c-5, d-4, e-3",
+"a-3, b-2, c-5, d-4, e-1",
+"a-3, b-1, c-5, d-4, e-2",
+"a-2, b-1, c-3, d-5, e-4"
+],
+"ans": "C",
+"extra": "a) tillarang; b) moviy; c) oq rang; d) qizil rang;\ne) siyoh rang.\n1) davlat va jamiyat qurilish tizimini takomillashtirish;\n2) qonun ustuvorligini ta’minlash va sud-huquq tizimini yanada isloh qilish;\n3) iqtisodiyotni rivojlantirish va liberallashtirish;\n4) ijtimoiy sohani rivojlantirish;\n5) xavfsizlik, diniy bag‘rikenglik va millatlararo totuvlik, o‘zaro manfaatli va amaliy tashqi siyosat."
+},
+{
+"n": 25,
+"q": "XIX asr o‘rtalarida Xiva xonligida shahar aholisi- hunarmand va savdogarlardan qanday soliqlar olingan?",
+"opts": [
+"2, 4, 5",
+"1, 2, 4",
+"1, 3, 4",
+"2, 3, 5"
+],
+"ans": "C",
+"extra": "1) savdo puli;\n2) targ‘u;3) do‘kon puli;\n4) tarozi puli;5) afanak puli."
+},
+{
+"n": 26,
+"q": "Turkiston o’lkasida boshlangan istiqlolchilik harakatining asosiy harakatlantiruvchi kuchlari kimlar bo’lgan?",
+"opts": [
+"1, 3, 6",
+"1, 4, 6",
+"2, 3, 6",
+"2, 4, 5"
+],
+"ans": "A",
+"extra": "1) hunarmandlar;\n2) chorvadorlar;\n3) savdogarlar 4) chorikorlar;\n5) din ulamolari;\n6) ziyolilar."
+},
+{
+"n": 27,
+"q": "Kim tomonidan BMT inspektorlari Iroqda AQSh foydasiga josuslik qilishga ayblanib barcha xalqaro inspektorlar mamlakatdan quvib chiqarilgan?",
+"opts": [
+"Bashar Asad",
+"Hafiz Asad",
+"Saddam Husayn",
+"Hasan al-Bakr"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Turkiston general- gubernatorligining Sirdaryo viloyati tarkibiga kirgan hududlarni belgilang.",
+"opts": [
+"1, 3",
+"2, 4",
+"1, 4",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) Avliyoota;\n2) Verniy;\n3) Pishpak;\n4) Chimkent."
+},
+{
+"n": 29,
+"q": "1885-yilda mustaqil mahdiylar davlati tuzilgan hudud (davlat) xaritada nechanchi raqam bilan berilgan?",
+"opts": [
+"2",
+"4",
+"3",
+"1"
+],
+"ans": "C",
+"img": "img/dtm/zn-13-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi javoblardan I jahon urushidagi janglar va unda foydalanilgan qurollar to’g’ri tutashgan javoblarni toping? Xlor Tank Suv osti kemasi Ognemyot Nivel qirg’ini       Buyuk      Somma   Ipr chekinish     jangi   jangi",
+"opts": [
+"1,7",
+"2,5",
+"3,5",
+"5,7"
+],
+"ans": "D"
+}
+]
+}

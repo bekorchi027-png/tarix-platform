@@ -1,0 +1,340 @@
+{
+"id": "zn-18",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi Qonunda fuqarolarning vijdon va e’tiqod erkinligi bilan bog‘liq huquq hamda burchlari aniq-ravshan belgilab qo‘yildi?",
+"opts": [
+"1998-yilgi yangi taxrirdagi „Vijdon erkinligi va diniy tashkilotlar to'g'risida\"",
+",,Ma'naviyat va ma'rifat\" jamoatchilik markazi ishini yanada takomillashtirish to'g'risida\"",
+"1991-yilgi “Vijdon erkinligi va diniy tashkilotlar to‘g‘risida”",
+"„Oliy Majlisning Inson huquqlari bo'yicha vakili (ombudsman) to'g'risida\""
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "O‘zbekiston Respublikasi Qurolli Kuchlarining quyidagi harbiy okruglaridan Markaziy harbiy okrugni toping?",
+"opts": [
+"Toshkent shahri va Toshkent viloyati",
+"Samarqand, Jizzax, Sirdaryo viloyatlari",
+"Andijon, Namangan, Farg‘ona viloyatlari",
+"Buxoro, Navoiy, Qashqadaryo va Surxondaryo viloyatlari"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Yaponiyada syogunlikni tugatishda qatnashgan tabaqalar qaysilar?",
+"opts": [
+"samuraylar, ularga qishloq va shaharlarning boy hamda o’rta tabaqalari qo’shilishdi",
+"samuraylarning savodxon qismi va ziyolilar",
+"o‘rta va mayda yer egalari, shahar aholisining o‘ziga to‘q qismi, shuningdek, mamlakat ziyolilari",
+"mutaassib din arboblari va mustamlakachi chetel davlatlari"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "Qaysi mamlakatlarda ikki jahon urushi yillarida kapron, perlon, neylon, sintetik qatron kabi sun’iy tolalarning olinishi yangi, o‘ta sifatli konstruktiv materiallar olish imkonini yaratdi?",
+"opts": [
+"3, 4",
+"7, 8, 9",
+"2, 5, 6",
+"1, 4"
+],
+"ans": "D",
+"extra": "1) Germaniya;\n2) Fransiya;\n3) SSSR;\n4) AQSH;\n5) Buyuk Britaniya;\n6) Yaponiya;\n7) Turkiya;\n8) Italiya;\n9) Xitoy."
+},
+{
+"n": 5,
+"q": "Noto‘g‘ri javobni toping.",
+"opts": [
+"Sharq shaharsozligida asosiy qurilish ashyolari pishiq g'isht va marmarlardan bo‘lgan",
+"Osiyo va Shimoliy Afrikada sex birlashmalari shaharlar bilan bir davrda vujudga keldi.",
+"Sharq hunarmandlari ipak gazlamalar va zeb-ziynat buyumlarining katta qismini chet mamlakatlar uchun tayyorlagan.",
+"Xitoy me’morchiligida g'isht, tosh va sopoldan foydalanishgan."
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Ravshan Ermatovga tegishli to’g’ri javoblarni toping. № Mukofoti (ordeni) Yil “O‘zbekiston iftixori” faxriy unvoni 2010 Olimpiya Oltin ordeni bilan mukofotlandi 1996 “Buyuk xizmatlari uchun” ordeni 2015 “El-yurt hurmati” ordeni 2014 Futbol bo‘yicha jahon chempionatlari final bosqichida eng ko‘p – 11 uchrashuvni 2018yil gacha boshqarib dunyo rekordi o‘rnatdi “Dunyoning eng yaxshi hakami” 2011 Malibu avtomobili bilan mukofotlandi 2012",
+"opts": [
+"1,2,3,4,5,6,7",
+"2,3,4,5,7",
+"1,3,4,5,6,7",
+"1,3,4,5,6"
+],
+"ans": "D",
+"img": "img/dtm/zn-18-6.jpg"
+},
+{
+"n": 7,
+"q": "AQSH Vyetnamda faol urush harakatlarini boshlab yuborganidan 100 yil avval ...",
+"opts": [
+"AQShda Fuqarolar urushi yakuniga yetdi",
+"Rossiya tomonidan butun Kavkaz hududi egallandi",
+"Germaniyada «Shimoliy Germaniya ittifoqi» ga asos solindi",
+"Parijni 20 yillik qurilish maydoniga aylantirish ishlari boshlandi"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Taynol no‘yon va Jaloliddin o’rtasidagi jang qachon va qayerda bo’ldi?",
+"opts": [
+"1225-yil avgustda Garni qal’asi yaqinida",
+"1224-yil aprelda Tabriz yaqinida",
+"1224-yil Basra yaqinida",
+"1227-yil sentabrda Isfahon yaqinida"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Quyidagi qaysi soha Koguryo davlatida rivojlanmagan?",
+"opts": [
+"to'qimachilik",
+"metall quyish",
+"tibbiyot",
+"savdo-sotiq"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Quydagi qaysi asarda Shayboniylar bilan Eron o'rtasidagi munosabatlar haqida ma’lumotlar uchraydi?",
+"opts": [
+"Muhammad Solih «Shayboniynoma»",
+"Hofiz Tanish Buxoriy «Abdullanoma»",
+"Z.M.Bobur «Boburnoma»",
+"Kamoliddin Binoiy «Shayboniynoma»"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Buyuk Britaniyada o‘tkazilgan parlament islohotlaridan qaysi birida sanoat burjyaziyasi siyosiy jihatdan o‘z hukmronligini o‘rnatdi?",
+"opts": [
+"1867-yil",
+"1832-yil",
+"1911-yil",
+"1825-yil"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Podsho hukumati tomonidan qachon harbiy xizmat to‘g‘risida yangi nizom chiqarildi?",
+"opts": [
+"1875-yil",
+"1867-yil",
+"1865-yil",
+"1892-yil"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "1913-yilda Xitoyning qaysi hududida hukumatning siyosatiga qarshi «ikkinchi inqilob» deb nomlangan qo'zg'olon boshlanib ketgan?",
+"opts": [
+"sharqida",
+"g'arbida",
+"janubida",
+"shimolida"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Transilvaniya l-jahon urushi davrigacha qaysi davlatga tegishli bo'lganligini aniqlang?",
+"opts": [
+"Vengriya",
+"Chexoslavakiya",
+"Yugoslaviya",
+"Italiya"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Turkiston o'lkasi general-gubernatori va Turkiston harbiy okrugi qo'mondoni bo’lgan kim lavozimlaridan chetlashtirilib, 1917-yil 31martda uy qamog'iga tashlangan edi?",
+"opts": [
+"Duxovskoy",
+"Rozenbax",
+"Kuropatkin",
+"Frunze"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Napoleon 100 kun boshqarganidan so’ng qaysi ittifoqchi davlatlar juda katta armiyani unga qarshi qo‘ydi?",
+"opts": [
+"5, 6, 7",
+"4, 5, 7",
+"2, 3, 4",
+"1, 4, 5, 6, 7"
+],
+"ans": "A",
+"extra": "1) Fransiya;\n2) Yaponiya;\n3) Belgiya;\n4) Avstriya;\n5) Buyuk Britaniya;\n6) Gollandiya;\n7) Prussiya."
+},
+{
+"n": 17,
+"q": "Ispaniyada qachon falangachilar hamma joyda harbiy to‘ntarishni boshlab yubordi?",
+"opts": [
+"1934-yil",
+"1936-yil",
+"1935-yil",
+"1933-yil"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "XIX asr oxirida qanday omil Yaponiyani mustamlakalarni bosib olishga undagan?",
+"opts": [
+"Xom ashyoga bo‘lgan talab",
+"Iqtisodiy inqiroz",
+"Aholining kambag'alligi",
+"Dunyoga hukmron bo'lish"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Quyidagi tarixiy voqealaming qaysi biri keyinroq ro‘y berdi?",
+"opts": [
+"Buyuk Britaniyada dunyodagi ilk temiryo‘l qurildi.",
+"Napoleon vafot etdi.",
+"Gretsiyaga muxtoriyat huquqi berilishini ko‘zda tutuvchi bitim imzolandi.",
+"Fransiya taxtini Karl X egalladi."
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Baqtriyaliklarning yurti to‘g‘ri tartib bilan berilgan javobni toping.",
+"opts": [
+"Surxon vodiysi, Afg'onistonning shimoliy hududlari va janubiy Turkmaniston",
+"Surxon vodiysi, Afg'onistonning shimoliy hududi va Tojikistonning janubiy hududlari",
+"Surxon vodiysi, Afg'onistonning g'arbiy hududlari va shimoliy sharqiy Tojikiston",
+"Surxon vodiysi, markaziy Afg'oniston va janubiy g'arbiy Tojikiston"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Chor Rossiyasining O‘rta Osiyodagi harbiy harakatlarining Ikkinchi bosqichi davrida hokimiyati davom etayotgan Efiopiya hukmdorini aniqlang.",
+"opts": [
+"Menelik",
+"Yo‘xonni",
+"Abdulloh",
+"Fyodor II"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "G‘urak So‘g‘d podshosi sifatida hokimiyatni boshqargan davrda ro‘y bermagan voqeani aniqlang.",
+"opts": [
+"Arablar Naxshab va Keshni bosib oldi.",
+"Bolgariya hukmdori Asparux hokimiyati yakunlandi.",
+"Karl Martell boshchiligida Puate jangi bo‘lib o‘tdi.",
+"So‘g‘ddan dubulg'a namunasi Xitoyga yuborildi."
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Qaysi alloma o‘n olti yoshidan boshlab turli fanlar bo‘yicha Sharq va G‘arb olimlarining ilmiy asarlarini mustaqil o‘rgandi?",
+"opts": [
+"Muso al-Xorazmiy",
+"Abu Rayhon Beruniy",
+"Abu Nasr Forobiy",
+"Abu Ali ibn Sino"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "«Shamol ortidan yugurayotgan odam» deb nomlangan romanda so’z ketgan mamlakatdan chiqqan siyosatchini toping.",
+"opts": [
+"Abdulla Abdulla",
+"Parvez Musharraf",
+"Sardor Farruk Ahmad xon",
+"Abdulla Gul"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "XIX asr oxirida amalga oshirilgan ixtiro va kashfiyotlarni sodir bo'lgan yillari bilan ketmaketlikda belgilang,",
+"opts": [
+"2, 5, 6, 1, 3, 4",
+"1, 2, 4, 5, 3, 6",
+"6, 1, 2, 4, 3, 5",
+"5, 6, 3, 4, 2, 1"
+],
+"ans": "C",
+"extra": "1) P.N. Yablochkov «elektr shami»ni yaratdi;\n2) fransuz olimi Vyelye piroksinli tutunsiz porox tayyorlashga muvaffaq bo‘ldi;\n3) Nobel dinamit yaratdi;\n4) elektrolit yo‘li bilan aluminiy ajratib olindi;\n5) R. Dizel yonilg‘i siqilganda o‘z-o‘zidan alangalanib ketadigan yangi dvigatel yaratdi;\n6) U.Kurks Siyraklashtirilgan havoda katod nurlarini kashf etdi."
+},
+{
+"n": 26,
+"q": "Britaniya bosh vaziri U. Gladston boshqaruvi davrida Xiva xonligi qurilgan madrasa?",
+"opts": [
+"Muhammad Aminxon madrasasi",
+"Muhammad Rahimxon II madrasasi",
+"Nurillaboy madrasasi",
+"Muhammad Rahimxon I madrasasi"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Quyidagi qaysi javobda rimliklar xudolarining ta’rifi noto‘g‘ri berilgan?",
+"opts": [
+"Venera - bahor va sevgi xudosi",
+"Neptun - dengiz xudosi",
+"Femida - odil sudlov ilohasi",
+"Baxus - may xudosi"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Buxoro taxtiga akasidan keyin kelgan hukmdorlarni aniqlang. 1. Vali Muhammad;   2. Subhonquluxon; 3. Abulfayzxon;    4. Imomqulixon; 5. Uaydullaxon II;  6. Amir Haydar.",
+"opts": [
+"1,2,3",
+"1,3,5",
+"4,5,6",
+"2,4,6"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Nechanchi raqamdagi mamlakat 1927-yilda Albaniyani protektoratiga aylantirdi?",
+"opts": [
+"1",
+"4",
+"3",
+"2"
+],
+"ans": "B",
+"img": "img/dtm/zn-18-29.jpg"
+},
+{
+"n": 30,
+"q": "Ilk o’rta asrlarda Sug’d ixshidlari ittifoqiga quyidagi qaysi vohalarni o’n bitta yirik mulklari kirar edi?",
+"opts": [
+"Buxoro, Chag’oniyon, Usturshona",
+"Samarqand, Buxoro, Kesh",
+"Poykand, Naxshab, Kesh",
+"Samarqand, Naxshab, Kesh"
+],
+"ans": "B"
+}
+]
+}

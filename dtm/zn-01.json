@@ -1,0 +1,345 @@
+{
+"id": "zn-01",
+"items": [
+{
+"n": 1,
+"q": "Quyidagilardan 2-Turkiston o‘qchi diviziyasining boshlig‘ini toping?",
+"opts": [
+"Tobolin",
+"Veryovkin-Roxalskiy",
+"Frunze",
+"Kuropatkin"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Turklarning g‘arbga tomon yurishlariga kim boshchilik qiladi?",
+"opts": [
+"Bumin",
+"Istami",
+"Xusrav I Anushervon",
+"To‘ng yabg‘u"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Kultegin va Bilga xoqon bitiklari qayerlardan topib o‘rganilgan?",
+"opts": [
+"1, 2, 3, 4",
+"2, 3, 5, 6, 8",
+"1, 3, 5, 6, 7",
+"3, 4, 6, 7, 8"
+],
+"ans": "C",
+"extra": "1) Oltoy;\n2) Panjikent;\n3) Sharqiy Turkiston;\n4) Toxariston;\n5) Yettisuv;\n6) Farg‘ona vodiysi;\n7) Zarafshon vodiysi;\n8) Samarqandning qadimiy xarobasi Afrosiyobdan."
+},
+{
+"n": 4,
+"q": "Shavkat Mirziyoyev Nursulton Nazarboyevni qaysi orden bilan taqdirladi?",
+"opts": [
+"“Do’stlik”",
+"“El-yurt hurmati”",
+"“O’zbekiston Qahramoni”",
+"“Buyuk xizmatlari uchun”"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Tarixiy mantiqiy to`g`ri javobni aniqlang.",
+"opts": [
+"Mayya -Kusko-Meksika",
+"Ink -Chichen-Itsa- Urubamba daryosi",
+"Atstek–Tenochtitlan –XII asr",
+"Panno –hindlar -XII asr"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar  to‘g‘ri berilgan? № Davlat Voqea 1. Bolgariya 1872-yilda Vasi Levskiy qatl qilindi; Afg’oniston Amir Abdurahmon yopiq siyosat olib borgan; Misr Jamoliddin al-Afg’oniy tomonidan “Xizb-ul-Vatan” partiyasi tuzildi; Yaponiya 1879-yilda Xitoyning noroziligiga qaramay Ryukyu orolini bosib oldi; Germaniya 1876-yilda GSDP tuzildi; 6 Irlandiya  1907-yilda “Shinfeyn” partiyasi tuzildi;",
+"opts": [
+"1, 4, 6",
+"1,2,3,4",
+"1, 4, 5",
+"1,2,3,4,5,6."
+],
+"ans": "B",
+"img": "img/dtm/zn-01-6.jpg"
+},
+{
+"n": 7,
+"q": "O‘zbekiston Prezidentining …dagi «Muzeylar faoliyatini tubdan yaxshilash va takomillashtirish to‘g‘risida»gi farmoni mamlakatimizda muzey ishini rivojlantirish istiqbollarini belgilab berdi.",
+"opts": [
+"1998-yil",
+"1993-yil",
+"1996-yil",
+"1995-yil"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Angliya taxtida turgan oranyelar sulolasining oxirgi vakili nechanchi yilda vafot etgan?",
+"opts": [
+"1707-yil",
+"1714-yil",
+"1603-yil",
+"1688-yil"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Quyidagi grafikda berilgan olimlar tavallud yillari to’g’ri kesishgan nuqtalar ostidagi raqamlarni belgilang? 873-yil 980-yil 783-yil 2               3 797-yil al-Farg’oniy  ibn Sino   Beruniy  Farobiy",
+"opts": [
+"1,4,6",
+"2,4,7",
+"1,4,7",
+"1,6,7"
+],
+"ans": "C",
+"img": "img/dtm/zn-01-9.jpg"
+},
+{
+"n": 10,
+"q": "XIX asr oxiri-XX asr boshlaridagi Fransiya siyosiy ahvoli haqidagi quyidagi fikrlarning qaysi biri noto’g’ri?",
+"opts": [
+"Ichki siyosiy hayotning o’ziga xos bir xususiyati – bu ko’ppartiyaviylikning qaror topganligi bo’ldi;",
+"1910-yilda pensiya to’g’risida qonun qabul qilindi;",
+"A.Dreyfus 1906-yilda to’la oqlandi;",
+"1876-yilgi Senatga bo’lgan saylovlarda monarxiya tarafdorlarining qo’li baland keldi;"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Abdulla Avloniy nechanchi yilda islom ta’limoti bo’yicha asar yozdi?",
+"opts": [
+"1909-yilda",
+"1915-yilda",
+"1910-yilda",
+"1917-yilda"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi qaysi shahar XIX asr oxirlarida qoplar va arqonlar tayyorlash bilan Xiva xonligida  mashxur bo’lgan edi?",
+"opts": [
+"Mang’it",
+"Yangi Urganch",
+"Ko’hna Urganch",
+"G’azovot"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Quyidagilardan  III-salib yurishida ishtirok etmagan davlat hukmdorini toping.",
+"opts": [
+"German",
+"Fransiya",
+"Angliya",
+"Italiya"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Berlinni egallashda Sovet ittifoqi Qahramoni unvoniga sazovor bo‘lganlardan toshkentlik … (a) va marg’ilonlik … (b)bor edi?",
+"opts": [
+"a-Botir Boboyev va Solih Umarov, b-Tojiali Boboyev",
+"a-Botir Boboyev va Tojiali Boboyev, b-Solih Umarov",
+"a-Solih Umarov, b-Botir Boboyev Va Tojiali Boboyev",
+"a-Solih Umarov, b-Botir Boboyev"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Yulduzcha bilan belgilangan davlat tarixiga oid ma`lumotni aniqlang.",
+"opts": [
+"Samore Ture bu davlatga qarshi kurashgan;",
+"Saad Zaglul bu davlatga qarshi kurashgan;",
+"Xristo Botev bu davlatga qarshi kurashgan;",
+"Xenrik Vitboy bu davlatga qarshi kurashgan;"
+],
+"ans": "A",
+"img": "img/dtm/zn-01-15.jpg"
+},
+{
+"n": 16,
+"q": "Germaniya tomonidan  Avstriya anshlyus qilingan(a) va Chexoslovakiya qo’shib olingan (b) yillar aniq berilgan javobni belgilang.",
+"opts": [
+"a-1939-yil; b-1938-yil",
+"a-1937-yil; b-1938-yil",
+"a-1939-yil; b-1940-yil",
+"a-1938-yil; b-1939-yil"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Qaysi javobdagi qabila Italiyada qadimdan yashagan, chorvachilik bilan shug'ullanganlar?",
+"opts": [
+"Liqurlar",
+"Etrusklar",
+"Axeylar",
+"Doriylar"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "O‘zbekiston Kompartiyasi Markaziy Komiteti byurosi qachon \"O‘zbekiston SSR Fanlar akademiyasining ishi to‘g‘risida\"gi masalasini ko‘rib chiqdi unda Akademiya olimlaridan sharqshunos va tarixchi … noxaq ravishda qoralandi.",
+"opts": [
+"Vohid Zohidov",
+"Abdulloh Karimov",
+"Abdusamad Boboxo‘jayev",
+"Olim Usmonov"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "O`zaro ichki kurashlar natijasida Umarshayx Mirzo qo`lida qaysi hududlar qoladi?",
+"opts": [
+"Farg`ona, Xo`jand, O`ratepa",
+"Farg`ona, Xo`jand, Jizzax",
+"Farg`ona, Jizzax, O`ratepa",
+"Jizzax, Xo`jand, O`ratepa"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Forslar Kir II davrida O`rtayer dengizi sohiliga chiqadilar,…bo`ysundiradilar.",
+"opts": [
+"Armaniston, Lidiya va Bobil",
+"Misr va Bobil",
+"Afina va Sparta",
+"Falastin va Finikiya"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "2008-yildan qaysi  davlat  MDH faoliyatida  qatnashmasligini  ma’lum qildi?",
+"opts": [
+"Gruziya",
+"Ukraina",
+"Ozarbayjon",
+"Mo’g’iliston"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. Asfandiyorxon         Sayid Olimxon I III II",
+"opts": [
+"I-b,f; II-d,e; III-c",
+"I-a,b; II-d,e; III-c",
+"I-b,f; II-a,e; III-c",
+"I-d,c; II-j,e; III-a"
+],
+"ans": "C",
+"extra": "a) hukmdor qo’lidagi rus sanoat banklari aksiyalarining qiymati 33 million so’m edi;\nb) Petro-Aleksandrovsda turgan Rossiya harbiy kuchlari madadiga ishonib,  yangi xon islohotlar o’tkazdi, ishni zulmni kuchaytirish va muholifatni toliq mahv etishdan boshladi;\nc) XX asrni  birinchi choragida hukmronlik qilgan;\nd) Peterburgga imperator huzuriga katta sovg’a –salom bilan har yili qatnardi;\ne) Taxtga o’tirgan hukmdor davlat asoslari va diniy tizimni o’zgartirish taraddudida bo’lmadi;\nf) Junaidxon buyrug’iga ko’ra o‘ldirilgan;",
+"img": "img/dtm/zn-01-22.jpg"
+},
+{
+"n": 23,
+"q": "Xalq orasida “Madrasayi  mir” nomi bilan mashhur madrasa nomi qaysi javobda to’g’ri ko’rsatilgan?",
+"opts": [
+"Norbo’tabiy",
+"Dahmayi shahon",
+"Modarixon",
+"Mingoyim"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Qaysi davlat Birinchi jahon urushidan so’ng, “Biz istaganimizning hammasiga, hatto undan ham ko’prog’iga erishdik” deya, xalqni xotirjam qilishga urindi?",
+"opts": [
+"AQSH",
+"Fransiya",
+"Germaniya",
+"Angliya"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Yaponiyaning birlashtirishda quyidagi hukmdorlardan  qaysilarini xizmatlari beqiyos bo’lgan?",
+"opts": [
+"1,2,3,5",
+"2,3,4,5",
+"1,3,4",
+"1,4,5"
+],
+"ans": "C",
+"extra": "1) Oda Nabunaga;\n2) Yosimune Tokugava;\n3) Toyotomi Xideyosi ; 4)Tokugava Ieyasu;\n5) Li Sze Xvan"
+},
+{
+"n": 26,
+"q": "Javoblarni yashagan(joylashgan) hududiga qarab moslashtiring!",
+"opts": [
+"1-c,2-e,3-a,4-d,5-f",
+"1-c,2-e,3-a,4-d,5-b",
+"1-c,2-a,3-e,4-d,5-f",
+"1-c,2-e,3-a,4-b,5-b"
+],
+"ans": "B",
+"extra": "1) So`g`d;\n2) Baqtriya;\n3) Xorazm;\n4) massaget;\n5) saka xaumavarka.\na) Amudaryoning quyi oqimi;\nb) Pomirning tog`li tumanlari va Farg`ona vodiysi;\nc) Zarafshon va Qashqadaryo vohasi;\nd) Cho`llar va Amudaryo bo`ylari;\ne) Surxandaryo vohasi,Tojikistonning janubi va Afg`onistonning shimoli;\nf) Toshkent viloyati va Janubiy Qozog'iston."
+},
+{
+"n": 27,
+"q": "Xaritada keltirilgan hududga oid ma`lumotni aniqlang.",
+"opts": [
+"2001-yil defolt e’lon qilingan;",
+"XX asrning 90-yillarida qurollangan so’l radikal harakat avj olib, ularning qo’shinlari mamlakat hududining 40% nazorat qilardi;",
+"“Oydin yo’l” terorchi tashkiloti bu davlatda faollashgan;",
+"1994-yilda bu davlatda hindularning ommaviy qo’zg’oloni boshlandi;"
+],
+"ans": "B",
+"img": "img/dtm/zn-01-27.jpg"
+},
+{
+"n": 28,
+"q": "Prezidentlarni  davlatlar bilan moslashtiring. 1.Litva;  2.Latviya;  3.Moldaviya; 4.Estoniya;",
+"opts": [
+"1-b,2-c,3-a,4-d",
+"1-d,2-b,3-c,4-a",
+"1-d,2-c,3-b,4-a",
+"1-b,2-a,3-c,4-d"
+],
+"ans": "C",
+"extra": "a) Kersti  Kalyulayd  b) Igor  Dodon\nc) Raymonds  Veyonis   d) Dalya Gribauskayte"
+},
+{
+"n": 29,
+"q": "Adabiyotda munozara janri taraqqiyotiga katta hissa qo’shgan shaxs kim?",
+"opts": [
+"Mujrim Obid",
+"Nasafiy",
+"Nishotiy",
+"Mir Olim Buxoriy"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "“So’ngi hukmdor … amalda hech qanday hokimyatga ega emas edi. Buning ustiga xalqni turk va afg’on bosqinchilariga qarshi kurashishga chorlay oladigan qobiliyat ham yo’q edi ”. Nuqtalar o’rniga kerakli javobni qo’ying?",
+"opts": [
+"Abbos I",
+"Shuanchji",
+"Taxmasp II",
+"Shuju"
+],
+"ans": "C"
+}
+]
+}

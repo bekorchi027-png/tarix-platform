@@ -1,0 +1,342 @@
+{
+"id": "zn-28",
+"items": [
+{
+"n": 1,
+"q": "Qadimgi misrliklar o‘z yozuvlarini qanday nomlashgan?",
+"opts": [
+"«mixxat»",
+"«iyerogliflar»",
+"«xudolar kalomi»",
+"«qat’iy belgilangan qonunlar»"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Turkiston o‘lkasida volost boshliqlari, qishloq oqsoqollari, ovul boshliqlari va ularning yordamchilari aholi tomonidan necha yilga saylangan? (XIX asr oxirida)",
+"opts": [
+"2 yil",
+"3 yil",
+"1 yil",
+"1,5 yil"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "1949-yilda sodir bo‘lgan voqeani belgilang.",
+"opts": [
+"O‘zaro Iqtisodiy Yordam Kengashi tuzildi.",
+"Varshava shartnomasi tashkiloti tuzildi.",
+"«Marshal rejasi» qabul qilindi.",
+"Mustaqil Davlatlar Hamdo‘stligi tuzildi."
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "Turk xoqonligi yemirilgach, o‘g‘uzlarning kattagina qismi qaysi hududlarga muqim o‘rnashib olganlar?",
+"opts": [
+"1, 4",
+"2, 4",
+"1, 3",
+"2, 3"
+],
+"ans": "D",
+"extra": "1) Amudaryo havzasi;\n2) Sirdaryo havzasi;\n3) Orol dengizi bo‘ylari;\n4) Kaspiy dengizi bo‘ylari."
+},
+{
+"n": 5,
+"q": "Quyidagi Angliya qirollaridan qaysi birining hukmronlik yillari Amir Temur hukmronligi davriga to‘g‘ri keladi?",
+"opts": [
+"Ioann",
+"Genrix II",
+"Richard I Sheryurak",
+"Genrix IV"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "«O‘zbekmuzey» Respublika jamg‘armasi tuzilgan yilni belgilang.",
+"opts": [
+"1997-yil",
+"1996-yil",
+"1994-yil",
+"1998-yil"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Quyidagilardan qaysi biri Saljuqiylar davlatining keyingi taraqqiyotiga salbiy ta’sir ko‘rsatgan? (XIII asrda)",
+"opts": [
+"Qurg‘oqchilik natijasida iqtisodni zavolga yuz tutishi",
+"Vizantiya bosqini",
+"Mo‘g‘ullar bosqini",
+"Usmonli turklar bilan jang"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "O‘zbekiston Respublikasida hokimlarning vakolat muddati necha yil hisoblanadi?",
+"opts": [
+"4 yil",
+"3 yil",
+"5 yil",
+"7 yil"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Xettlarning asosiy raqibiga aylangan Mitanni podsholigi hozirgi qaysi davlat hududida vujudga kelgan?",
+"opts": [
+"Suriya",
+"Livan",
+"Falastin",
+"Liviya"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Eyler -Venn diagrammasiga ko`ra mos keluvchi javobni toping Ubaydullaxon              Abdullaxon II I III II",
+"opts": [
+"I-a,d,g,n; II-b,c; III-e,f",
+"I-a,d,g,h; II-b,c; III-e,f,n",
+"I-a,d,g; II-b,c,n; III-e,f",
+"I-a,d,g,h ; II-b,c; III-e,n"
+],
+"ans": "C",
+"extra": "a) Ismoil Safaviy qo‘shinining hujumlarini bartaraf etdi\nb) Buxoroda uning nomi bilan yirik, usti berk bozor -tim qurildi\nc) Antoniy Jenkinsonni Buxoroga yuborilganda u tomonidan qabul qilindi\nd) 1512-yilda G‘ijduvonda shayboniylar bilan safaviylar o‘rtasidagi hal qiluvchi jangda shayboniylar qo‘shinining qalb qismiga qo‘mondonlik qildi\ne) Xiva xonligini bo‘ysundirdi\nf)  Buxoro xonligi shayboniylar sulolasi hukmdorlaridan\ng) U Ahmad Yassaviy asos solgan hikmatnavislik an’anasini rivojlantirdi\nh) tariximizda mahalliy hokimlaming o‘zboshimchaligiga chek qo‘yishga, markaziy hokimiyatni kuchaytirishga harakat qilgan so‘nggi ashtarxoniy hukmdor sifatida nom qoldirdi n) Xiva xonligi hududiga bir necha bor hujum qildi",
+"img": "img/dtm/zn-28-10.jpg"
+},
+{
+"n": 11,
+"q": "Bir yilda sodir bo‘lgan voqealar to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"Ismoil I Safaviy Tabriz shahrini ishg‘ol etdi, Muhammad Shayboniyxon pul islohoti o‘tkazdi.",
+"Tripoli ispanlar tomonidan zabt etildi, shoh Ismoil Xorazmni bosib oldi.",
+"Tunis qirg‘oqlariga 40 ming kishilik turk qo‘shinlari kelib tushdi, Abdullaxon II miniaturasi.",
+"Yelizavetta I Angliya taxtiga keldi, Navro’z Ahmadxon vafot etdi."
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "XIX asr oxirida Kamerun quyidagi qaysi davlat mustamlakasiga aylangan?",
+"opts": [
+"Fransiya",
+"Buyuk Britaniya",
+"Italiya",
+"Germaniya"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "SSSR va AQSH o‘rtasida SQCH-2 shartnomasi imzolangan yilni toping.",
+"opts": [
+"1985-yil",
+"1979-yil",
+"1982-yil",
+"1975-yil"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Monopolistik kapitalizm bosqichida «Standart oil» tresti qaysi davlatda tashkil etilgan?",
+"opts": [
+"Germaniya",
+"Fransiya",
+"AQSH",
+"Buyuk Britaniya"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Quyidagilardan germanlarning eng yirik qabilalarini toping.",
+"opts": [
+"frank, yut, angl",
+"tyuring, alemann, bavar",
+"alemann, got, saks",
+"alemann, got, frank"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) tarixi bilan bog‘liq to‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"1848-yilda Respublika deb e’lon qilindi",
+"XIX asr boshida Kap koloniyasini egalladi",
+"1510-yilda Kubani bosib oldi",
+"XIX asr oxirida Eritreyani o‘ziga bo‘ysundirdi"
+],
+"ans": "C",
+"img": "img/dtm/zn-28-16.jpg"
+},
+{
+"n": 17,
+"q": "Quyidagilardan qaysi biri Turkiston o‘lkasidagi okrug sudlari qarori ustidan berilgan apellyatsiyani ko‘rib chiqqan?",
+"opts": [
+"Uchastka mirovoy sudlari",
+"Sud tergovchilari va ularning yordamchilari",
+"General-gubernator devoni",
+"Rossiya imperiyasida oliy sud bo‘lgan hukumat senati"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Quyidagilardan Manchjur qo’shinlari Koreyaga bostirib kirgan va ular sardori Abaxay o‘zini xon, deb atagan yillarni aniqlang.",
+"opts": [
+"1636- va 1644-yillar",
+"1621- va 1644-yillar",
+"1627- va 1636-yillar",
+"1625- va 1637-yillar"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Kim o‘zining 45 yillik hukmronligi davrida Angliyaning jadal rivojlanishi, dunyoning yetakchi davlatiga aylanishiga katta hissa qo‘shdi?",
+"opts": [
+"Genrix VIII Tyudor",
+"Mariya Tyudor",
+"Yakov I",
+"Yelizavetta I"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Nechanchi yilda qabul qilingan «Davlat tartiboti va jamoat osoyishtaligini qo‘riqlashga qaratilgan chora-tadbirlar to‘g‘risidagi» «Nizom»ga muvofiq Turkiston generalgubernatori «kuchaytirilgan» yoki «favqulodda» qo‘riqlash holatini o‘z ixtiyori bilan joriy qilish huquqiga ega bo‘ldi?",
+"opts": [
+"1865-yilda",
+"1916-yilda",
+"1886-yilda",
+"1881-yilda"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Quyidagi jadvalda mos keluvchi ma’lumotlar to‘g‘ri ko‘rsatilgan javobni toping. № Tarixiy Shahri Asari shaxis Rixard Shtraus „Salomey „Elektra“ Muqimiy Qo‘qon «Saylov», «Tanobchilar», Muhammad Solih Myunxen Toshkent “Tarixi jadidayi Toshkand Jek London London „Dengiz bo‘risi“ Bernard Shou Parij „Mayor Barbara“ Naoe Kinosito Pekin „Olovli ustun“",
+"opts": [
+"1,2,3",
+"2,3,5,6",
+"1,2,3,5",
+"2,3,4,5"
+],
+"ans": "A",
+"img": "img/dtm/zn-28-21.jpg"
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi hukmdor tariximizdagi xizmatlari katta bo’lib avvalo, u Ismoil Safaviy qo'shinining hujumlarini bartaraf etib, Movarounnahrni ularning harbiy-siyosiy tazyiqlaridan saqlab qoldi?",
+"opts": [
+"Shayboniyxon",
+"Abdullaxon II",
+"Amir Olimxon",
+"Ubaydullaxon"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi dostonda qoraqalpoq xalqining hayoti, ayniqsa, ularning yurtma-yurt ko‘chib yurish jarayoni bilan bog‘liq voqealar katta mahorat bilan tasvirlangan?",
+"opts": [
+"«Xalq uchun»",
+"«Oydo‘stbiy»",
+"«Avlodlar»",
+"«Bo’zatov»"
+],
+"ans": "D",
+"img": "img/dtm/zn-28-23.jpg"
+},
+{
+"n": 24,
+"q": "To‘g‘ri ma’lumotni toping.",
+"opts": [
+"Doro I Suza shahridan Qora dengiziga qadar «shoh yo‘li» degan savdo yo‘lini qurdirgan.",
+"Doro I Qizil dengizi bo‘ylarida yashovchi skiflar ustiga yurish qildi.",
+"Doro I qo'shinlarni qaytadan tuzdi.",
+"Doro I butun mamlakat uchun «numisma» deb nomlangan mis tangani muomalaga kiritdi."
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi shaxslarning hukmronligi davrida Movarounnahrda islom dinini qabul qilganlardan xiroj va jizya soliqlarini olmaslikka qaror qilingan?",
+"opts": [
+"1, 4",
+"2, 3",
+"1, 3",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) xalifa Umar ibn Abdulaziz;\n2) Xuroson noibi Nasr ibn Sayyor;\n3) Xuroson noibi Ashros;\n4) xalifa Mansur."
+},
+{
+"n": 26,
+"q": "Quyidagilardan qaysi biri Turkiston odkasida 1919-yilda tashkil etilgan?",
+"opts": [
+"O‘zbekiston SSR",
+"Turkiston Kommunistik partiyasi",
+"Musbyuro",
+"TASSR"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Mahmudbiy otaliq qaysi ashtarxoniy hukmdori bilan kurash olib borgan?",
+"opts": [
+"Abulfayzxon",
+"Ubaydullaxon II",
+"Abdulazizxon",
+"Nodir Muhammad"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "BXSR Buxoro Sovet Sotsialistik Respublikasi deb e’lon qilingan qurultoy nechanchi yilda bo’lib o‘tgan?",
+"opts": [
+"1920-yilda",
+"1918-yilda",
+"1924-yilda",
+"1925-yilda"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "BMT dunyoning eng qashshoq mamlakati deb tan olgan mamlakatga tegishli to’g’ri javobni toping.",
+"opts": [
+"1997-yil Mobutuning diktatorlik rejimi ag‘darildi.",
+"1989-yili etnik asosda fuqarolar urushi boshlandi",
+"Mengistu Xayle Mariam hukumati 1991-yili ag‘darib tashlandi",
+"2000-yillarga kelib, islom fundamentalizmi faollashib qoldi"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Isroil iqtisodi jadal rivojlanayotgan mamlakatlar qatoriga kirgan davrda mamlakatimizda sodir bo’lgan voqeani toping.",
+"opts": [
+"Paxtachilik va chorvachilik har yili 30 mln rubldan ortiqroq zarar ko'rdi",
+"Nazar Matchonov Oliy Soveti Prezidiumi raisi",
+"Mustaqillik qo’lga kiritildi",
+"Gazli shahrida 0,4 mlrd m3 tabiiy gaz ishlab chiqarilgan"
+],
+"ans": "C"
+}
+]
+}

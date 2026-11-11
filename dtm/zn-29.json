@@ -1,0 +1,352 @@
+{
+"id": "zn-29",
+"items": [
+{
+"n": 1,
+"q": "Qadimda Maurya davlatining poytaxti bo‘lgan shaharni belgilang.",
+"opts": [
+"Pataliputra",
+"Malla",
+"Koshalo",
+"Panjob"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Rim va Karfagen o‘rtasidagi birinchi Puni urushi qanday natija bilan yakunlangan?",
+"opts": [
+"Karfagen g‘alaba qozonib, Sitsiliyani egalladi va Rimni o’lpon to‘lashga majbur qildi",
+"Rim Karfagenni to‘liq bosib oldi",
+"Karfagen g‘alaba qozonib, janubiy Italiyani bosib oldi",
+"Rim g‘alaba qozonib, Sitsiliyani egalladi va Karfagenni o‘lpon to‘lashga majbur qildi"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "1066-yilda Gastings jangida mag’lubiyatga uchragan hukmdorni toping.",
+"opts": [
+"Alp Arslon",
+"Vilgelm I",
+"Roman IV Diogen",
+"Garold"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "1916-yil 10-iyul qaysi hudud aholisi mardikorlikni bekor qilishni talab qilib mahalliy ma’muriyat idoralariga kirib, mahalliy ma’muriyat vakillari uylariga va ma’muriy binolarga o‘t qo‘yganlar?",
+"opts": [
+"Eski Marg‘ilon",
+"Toshkent",
+"Jizzax",
+"Namangan"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Koreyada hokimiyatni vaqtincha tevongun, ya’ni hokim hisoblangan Li Xa In boshqargan davrda amalga oshirilgan ishlar to‘g‘ri berilgan javobni aniqlang.                 (XIX asr)",
+"opts": [
+"1, 3, 4",
+"1, 4, 5",
+"2, 3, 5",
+"2, 4, 5"
+],
+"ans": "A",
+"extra": "1) oddiy kishilar to‘laydigan harbiy soliq barcha qatlamlar uchun majburiy uy boshi solig‘i bilan almashtirildi;\n2) mamlakatda xristianlik dini joriy etildi;\n3) aslzodalar va oddiy xalqni tenglashtirish maqsadida xalq uchun qora rangli oyoq kiyim kiyishni taqiqladi;\n4) XVI asrda yaponlar bosqini paytida yonib ketgan Kyonbokkun saroyi tiklandi;\n5) “Qonunlarning buyuk to‘plami” deb nomlangan hujjat qabul qilindi."
+},
+{
+"n": 6,
+"q": "Quyidagi GFR kanslerlaridan qaysi biri davrida Germaniya Yevropa Ittifoqining yetakchi davlatiga aylangan?",
+"opts": [
+"F. Ebert",
+"P.Gindenburg",
+"O.Bismark",
+"A.Merkel"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Quyidagilardan Farg‘onavodiysida bolsheviklarga qarshi istiqlolchilik harakati rahbarlari bo‘lgan qo‘rboshilarni belgilang.",
+"opts": [
+"1, 4, 5",
+"1, 3, 5",
+"2, 4, 6",
+"2, 3, 6"
+],
+"ans": "A",
+"extra": "1) Katta Ergash;\n2) Ochilbek;\n3) Bahrombek;4) Shermuhammadbek;\n5) Islom Polvon;\n6) Hamroqulbek."
+},
+{
+"n": 8,
+"q": "XIX asr oxiri XX asr boshlarida Fransiya (a) va Buyuk Britaniya (b) davlatlarida ijtimoiy sohada amalga oshirilgan tadbirlar to‘g‘ri kodsatilgan javobni toping.",
+"opts": [
+"a-3, 4; b-1, 2",
+"a-2, 4; b-1, 3",
+"a-1, 4; b-2, 3",
+"a-1, 3; b-2, 4"
+],
+"ans": "D",
+"extra": "1) ishchi tashkilotlari vakillari o‘zlarining “ishchi partiya”larini tuzdilar;\n2) konchilar uchun 8 soatlik ish kuni belgilandi;\n3) pensiya yoshi 65 yosh deb belgilandi;\n4) pensiya yoshi 70 yosh deb belgilandi."
+},
+{
+"n": 9,
+"q": "1556-yilda Sirdaryonining quyi etagiga ko‘chib kelgan qoraqalpoqlar qaysi xonlik tarkibiga kirgan?",
+"opts": [
+"qozoqlaming О ‘rta Juz xonligi",
+"No‘g‘ay xonligi",
+"Xiva xonligi",
+"qozoqlaming Kichik Juz xonligi"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Xitoy imperatori qo‘shinlari 640-yilda Buyuk Ipak yo‘li ustida joylashgan Gaochan davlatini mag‘lub etganidan so‘ng kimlarga qarshi uzoq yillar davom etgan urushlarni boshladi?",
+"opts": [
+"uyg‘urlarga",
+"arablarga",
+"yaponlarga",
+"manjurlarga"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Rossiya imperatori Aleksandr II tomonidan imzolangan “Krepostnoy huquqni bekor qilish to‘g‘risida”gi qonunga ko‘ra krepostnoy dehqonlar qanday huquqlarga ega bo‘ldilar?",
+"opts": [
+"2, 3, 4",
+"1, 2, 4",
+"2, 4, 5",
+"1, 3, 5"
+],
+"ans": "B",
+"extra": "1) shaxsan ozod bo‘lish;\n2) ko‘chmas mulk sotib olish va uni meros qoldirish;\n3) saylovlarda ovoz berish;\n4) mustaqil oila qurish;\n5) pomeshchikning ruxsati bilan shartnoma va bitimlar imzolash."
+},
+{
+"n": 12,
+"q": "Xalifa Ma’mun somonxudotning nabiralaridan kimni Farg‘onaga noib qilib tayinlaydi?",
+"opts": [
+"Ahmadni",
+"Yahyoni",
+"Nuhni",
+"Ilyosni"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Qadimgi Rim imperiyasida qaysi voqeadan keyin Oktavian davlatning G‘arbiy qismini, Mark Antoniy esa Sharqiy qismini boshqarishni o‘z qo‘liga olgan?",
+"opts": [
+"ular о ‘zaro ittifoq tuzib, Brut boshchiligidagi respublika tarafdorlarini tor-mor",
+"Mark Antoniy Misr malikasi Kleopatra yordamida Sharqiy etganidan keyin hududlami egallab olganidan keyin",
+"Mark Antoniy Misr malikasi Kleopatraga uylanganidan keyin",
+"Yunoniston qirg'oqlarida ular о‘rtasida jang bo‘lib о‘tganidan keyin"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Quyidagi qo‘zg‘olonlardan qaysilari XIX asr boshlarida Koreyada bo‘lib o‘tgan?",
+"opts": [
+"1, 3",
+"2, 4",
+"4, 3",
+"1, 2"
+],
+"ans": "A",
+"extra": "1) boy zamindor Xon Gyon Ne boshchiligidagi eng yirik qurolli qo‘zg‘olon;\n2) Li Sze Xvan boshchiligida tevongunga qarshi ko‘tarilgan qo‘zg‘olon;\n3) Jejudo orolida dehqonlar va baliqchilar qo‘zg‘oloni;\n4) Xun Syutsyuan boshchiligidagi Taypinlar qo‘zg‘oloni."
+},
+{
+"n": 15,
+"q": "1941-yilda Atlantik xartiyani imzolagan davlatlar o‘z zimmalariga olgan majburiyatlari to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"2, 3, 5",
+"1, 3, 4",
+"2, 4, 6",
+"1, 2, 5"
+],
+"ans": "B",
+"extra": "1) hududiy va boshqa boyliklarni egallab olishga intilmaslik;\n2) o‘z tasarrufiga o‘tishi kerak bo‘lgan hududlar doirasida boshqaruvni amalga oshirish;\n3) xalqlarning o‘z boshqaruv shaklini erkin tanlash huquqini hurmat qilish;\n4) zo‘ravonlik yo‘li bilan suverenitetidan mahrum qilingan xalqlarni o‘z huquqlarini tiklashga intilishini qo‘llab- quvvatlash;\n5) fashistlarga qarshi kurash olib borayotgan xalqlarning partizan harakatini qo‘llabquvvatlash;\n6) Fashist jinoyatchilarini jazolash maqsadida xalqaro sud tashkil etish."
+},
+{
+"n": 16,
+"q": "1917-yil 5-aprelda Xiva xoni Asfandiyorxon Yosh xivaliklar partiyasining islohot to‘g‘risidagi manifestiga imzo chekdi. Unda quvidagilardan qaysilari belgilab qo'yilgan edi?",
+"opts": [
+"1, 3, 5",
+"2, 4 6",
+"1, 3, 6",
+"2, 4, 5"
+],
+"ans": "D",
+"extra": "1) Rossiyadagi Muvaqqat hukumat qarorlarini bekor qilish;\n2) pochta, telegraf barpo etilishi zarurligi;\n3) xon yerlarini zodagon va amaldorlarga bo‘lib berish;\n4) barcha amaldorlarning saylanishi va maosh bilan ta’minlanishi:5) butun aholining shariat oldida tengligi;\n6) vaqf mulklari, xususiy yerlarni Maorif nozirligi tasarrufiga o‘tkazish lozimligi."
+},
+{
+"n": 17,
+"q": "Quyidagilardan qaysi biri 2010-yilda tashkil etilgan?",
+"opts": [
+"“O‘zbeknavo” estrada birlashmasi",
+"“O‘zbekteatr” ijodiy-ishlab chiqarish birlashmasi",
+"“O‘zbekmuzey” Respublika jamg‘armasi",
+"O‘zbekiston Yozuvchilar uyushmasi huzurida \"Ijod\" fondi"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "1916-yilda Jizzax qo‘zg‘oloni podsho hukumati tomonidan ayovsiz bostirilgach, nima sababdan mahalliy aholi o‘z uylaridan cho‘lga haydab yuborildi?",
+"opts": [
+"2, 3, 4",
+"l, 3, 4",
+"1, 3, 5",
+"2, 4, 5"
+],
+"ans": "C",
+"extra": "1) qo‘zg‘olonda ishtirok etganligi sababli;\n2) podsho hukumatiga qarshi qo‘zg‘olon ko‘targan boshqa shahar aholisiga o‘rnak bodishi uchun;\n3) ular qo‘zg‘olonchilarga xayrixoh bodganligi uchun;\n4) chod hududini o‘zlashtirib uni unumli yerga aylantirish uchun;\n5) qo‘zg‘olon rahbarlarini, ishtirokchilarini tutishda podsho hukumatiga yordam bermaganligi uchun."
+},
+{
+"n": 19,
+"q": "Quyidagi qo‘zg‘olonlardan qaysi biri somonxudotning nabiralari tomonidan bostirilgan?",
+"opts": [
+"G‘urak va Divashtich boshchiligidagi qo'zg'olon",
+"Rofe ibn Lays boshchiligidagi qo ‘zg‘olon",
+"“Oq kiyirnlilar\" qo’zg‘oloni",
+"Abu Muslim boshchiligidagi qo‘zg‘olon"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Fransiya prezidentlaridan qaysi biri boylar uchun qo‘shimcha soliq o‘rnatish tashabbusi bilan chiqqan?",
+"opts": [
+"Fransua Olland",
+"Marin Le Pen",
+"Nikolya Sarkozi",
+"Emmanyuel Makron"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "1469-yilda Abu Said Mirzo halok bo’lgach, Movarounnahr uning o‘g‘illari hukmdor bo’lgan uch mustaqil davlatga bo’linib ketdi. Quyidagi qaysi javobda uch mustaqil davlat hukmdorlari va ular hukmronlik qilgan hududlar mos ravishda berilgan javobni toping.",
+"opts": [
+"1-a, 2-c, 3-b",
+"1-b, 2-c, 3-a",
+"1-b, 2-d, 3-c",
+"1-d, 2-b, 3-a"
+],
+"ans": "B",
+"extra": "1) Sulton Ahmad;\n2) Umarshayx Mirzo;\n3) Sulton Mahmud Mirzo;\na) Hisor, Xuttalon va Badaxshonda;\nb) Samarqandda;\nc) Farg‘onada;  d) Buxoro va Karmanada."
+},
+{
+"n": 22,
+"q": "Bir yilda bo’lib o‘tgan voqealarni toping.",
+"opts": [
+"1, 3, 5",
+"2, 3, 4",
+"2, 4, 5",
+"1, 2, 4"
+],
+"ans": "D",
+"extra": "1) Suriyada “Juma inqilobi” boshlandi;\n2) Misr prezidenti Husni Muborak iste’foga chiqdi;\n3) Devid Kemeron Buyuk Britaniya bosh vaziri lavozimini egalladi;\n4) Almazbek Atambayev Qirg‘iziston prezidenti etib saylandi;\n5) Viktor Yanukovich Ukraina prezidenti etib saylandi."
+},
+{
+"n": 23,
+"q": "Qaysi javobda Afg‘oniston hukmdori Abdurahmon boshqaruvi davrida o‘tkazilgan tadbirlar to‘g‘ri berilgan?",
+"opts": [
+"1, 3, 5",
+"1, 4, 6",
+"2, 4, 5",
+"2, 3, 6"
+],
+"ans": "A",
+"extra": "1) mamlakatda yagona pul birli joriy etildi;\n2) yagona soliq jori; etildi;\n3) mamlakat uchun bir xil tosh-tarozi joriy qilindi;\n4) chet el savdosi uchun boj to'lovlarin oshirdi;\n5) mamlakat uchun yagona uzunlik o‘lchovlari joriy etildi;\n6) mamlakatni yangi konstitutsiyasini qabul qildi."
+},
+{
+"n": 24,
+"q": "1512-yil G’ijduvonda shayboniylar bilan safaviylar o’rtasidagi hal qiluvchi jangda shayboniylar qo’shiniga qo’mondonlik qilgan shaxslarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 2, 4",
+"2, 4, 5",
+"2, 3, 5"
+],
+"ans": "B",
+"extra": "1) Ubaydullo Sulton;2) Muhammad Temur;\n3) Jonibek Sulton;\n4) Abu Said;\n5) Suyunchxo’ja."
+},
+{
+"n": 25,
+"q": "Mustaqillik yillarida quyidagi qaysi vatandoshimizning 675 yilligi nishonlangan?",
+"opts": [
+"Najmiddin Kubro",
+"Ahmad al-Farg‘oniy",
+"Abu Mansur al-Moturidiy",
+"Bahouddin Naqshband"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "1912-yilda tashkil topgan “Yosh Jazoir” partiyasi mustamlaka hukumat oldida qanday talablarni qo‘ygan edi.",
+"opts": [
+"3,5,6",
+"1,3,4,6",
+"2,4,5,7",
+"1,2,4,7"
+],
+"ans": "B",
+"extra": "1) sud ishlarida jazoirliklar uchun “mahalliy kodeks” nomli kamsituvchi tartibni bekor qilish;\n2) chet elliklar bilan tuziladigan iqtisodiy bitimlarga Jazoirni roziligini olish;\n3) soliq todashda jazoirliklar va yevropaliklarni tenglashtirish;\n4) xalq maorifini kengaytirish;\n5) jamiyatlar tuzish, majlislar o‘tkazishga ruxsat berish;\n6) saylanadigan lavozimlarda arablar uchun o‘rinlarni ko‘paytirish;\n7) qonun oldida hamma teng, shaxs va mulk daxlsizligini berishni."
+},
+{
+"n": 27,
+"q": "So’ggi paleolit davri odamlari manzilgohi hisoblangan kromoyon g’ori topilgan hudud xaritada qaysi raqam bilan ko’rsatilgan?",
+"opts": [
+"1",
+"3",
+"4",
+"2"
+],
+"ans": "B",
+"img": "img/dtm/zn-29-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi grafikda qaysi raqam ostida Lotin Amerikasidagi davlatlar va ularning mustaqilligi bir-biriga muvofiq keladi?",
+"opts": [
+"1,2,3,4",
+"5,6,7,8",
+"1,5,7,8",
+"3,5,6,8"
+],
+"ans": "B",
+"img": "img/dtm/zn-29-28.jpg"
+},
+{
+"n": 29,
+"q": "XIX asr oxiri XX asr boshlarida Orta Osiyo davlatlarining qaysi shaharlarida metallni qayta ishlovchi asosiy ustaxonalar joylashgan?",
+"opts": [
+"2, 3",
+"3,4",
+"1, 2",
+"1, 4"
+],
+"ans": "D",
+"extra": "1) Chimboy;\n2) Poykand;3) Eloq;\n4) Hazorasp."
+},
+{
+"n": 30,
+"q": "To’g’ri javoblarni toping № Ijodkor Asari Yurti Vatto «Beparvo» Fransiya Tomas Mor «Utopiya» Angliya Motsart «Rekviyem» Germaniya Nasafiy «To‘rt unsur» Buxoro Muqiymiy Tanobchilar Qo’qon",
+"opts": [
+"1,2,5",
+"2,4,5",
+"1,2,3,5",
+"2,3,4"
+],
+"ans": "A",
+"img": "img/dtm/zn-29-30.jpg"
+}
+]
+}

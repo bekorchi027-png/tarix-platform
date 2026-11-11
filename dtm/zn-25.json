@@ -1,0 +1,346 @@
+{
+"id": "zn-25",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi davlatlarning o‘z taraqqiyoti cho‘qqisiga erishgan davri mos ravishda ko‘rsatilgan javobni toping.",
+"opts": [
+"1-a, 2-b, 3-c, 4-d",
+"1-b, 2-d, 3-f, 4-a",
+"1-c, 2-e, 3-f, 4-a",
+"1-a, 2-d, 3-f, 4-c"
+],
+"ans": "B",
+"extra": "1) Urartu;\n2) Qang‘;\n3) Maurya;\n4) Davan;\na) mil. avv. II-I asrlar;\nb) mil. avv. IX- VIII asr boshlari;\nc) mil. avv. XIII asr;   d) mil. avv. II asr oxiri;\ne) milodiy I-IIAsrlar;    f) mil. avv. III asr."
+},
+{
+"n": 2,
+"q": "Quyidagilardan bir asrda sodir bodgan voqealar berilgan javobni toping.",
+"opts": [
+"2, 3, 4, 6",
+"1, 2, 4, 5",
+"1, 3, 5, 6",
+"2, 4, 5, 6"
+],
+"ans": "A",
+"extra": "1) G‘arbiy Turk xoqoni To‘ng yabg‘uning hukmronlik davri tugadi;\n2) Qutayba ibn Muslim tomonidan Buxoro egallandi;\n3) Xalifa Umar ibn Abdulazizning xalifalik davri tugadi;\n4) Abu Muslim tomonidan yuborilgan harbiy kuch Talos vodiysida Xitoy qo‘shinlariga zarba berdi;\n5) Tohiriylarning hukmronligi tugadi;\n6) Ispaniyada Arab xalifaligidan ajralib chiqqan birinchi mustaqil amirlik tashkil topdi."
+},
+{
+"n": 3,
+"q": "Dunyoni qayta bo‘lib olish yo‘lidagi birinchi urushda  qaysi AQSH prezidenti shaxsan qatnashib, shuhrat qozongan?",
+"opts": [
+"V.G. Taft",
+"U. Mak-Kinli",
+"T. Ruzvelt",
+"V. Vilson"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Rossiyaning qaysi imperatori Turkiston o’lkasida Rossiya imperiyasining siyosiy, iqtisodiy va geosiyosiy maqsadlarini amalga oshirishda К.P.Kaufmanga katta vakolatlar bergan?",
+"opts": [
+"Aleksandr III",
+"Nikolay II",
+"Nikolay I",
+"Aleksandr II"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Rus olimi A. Popov faoliyati bilan bog‘liq to‘g‘ri ma’lumotni toping.",
+"opts": [
+"1911-yilda Meksikada agrar dasturni e’lon qilgan.",
+"Simsiz aloqa uchun elektromagnit todqinlarini chiqarish va qabul qilish usulini topgan.",
+"1895-yil har xil buyum, narsalardan turlicha o‘tuvchi ko‘rinmas nurlarni kashf etdi.",
+"1871-1890-yillarda Germaniya kansleri lavozimida ishlagan."
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Quyidagilardan Kann yaqinidagi (a) va Zama yaqinidagi (b) janglar bilan bog‘liq tegishli ma’lumotlar to‘g‘ri moslab ko‘rsatilgan javobni toping.",
+"opts": [
+"a-1, 3, 5, 6; b-2, 4, 7",
+"a-1, 3, 4, 6; b-2, 5, 7",
+"a-2, 3, 5, 7; b-1, 4, 6",
+"a-2, 4, 6; b-1, 3, 5, 7"
+],
+"ans": "A",
+"extra": "1) mil. avv. 216-yilda yuz bergan;\n2) mil. avv. 202-yilda bo‘lib o‘tgan;\n3) 70 ming rimlik legioner halok bo‘lgan;\n4) Shimoliy Afrika hududida bo‘lgan;\n5) Shimoliy Italiya hududida bo‘lgan;\n6) Gannibal qo‘shinlari g‘olib bo‘lgan;\n7) Ssipion qo‘shinlari g‘olib bo‘lgan."
+},
+{
+"n": 7,
+"q": "Mil. avv. II asrda tashkil topgan «Buyuk meridianal yo‘li» (Buyuk Ipak yo‘li) Sariq dengizdan boshlanib qaysi hududlar orqali O‘rta yer dengizi sohillarigacha borgan?",
+"opts": [
+"O‘rta Osiyo, Eron, Mesopotamiya, Misr",
+"Sharqiy Turkiston, O‘rta Osiyo, Mesopotamiya, Eron",
+"Sharqiy Turkiston, O‘rta Osiyo, Misr,",
+"Sharqiy Turkiston, O‘rta Osiyo, Eron, Mesopotamiya"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Vaksina nima?",
+"opts": [
+"voqelikni bilishda ongning imkoniyatini rad etuvchi yoki uni juda cheklangan deb biluvchi falsaﬁy konsepsiya.",
+"zamonaviy jamiyat hayotining deyarli barcha sohalariga kirib kelgan maishiy, ko‘ngilochar va axborot madaniyati.",
+"mistikaga asoslangan diniy-idealistik dunyoqarash shakli.",
+"yuqumli kasalliklarga qarshi emlash"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Nechanchi asrlarda birinchi va so‘nggi salib yurishlari amalga oshirilgan?",
+"opts": [
+"XI va XIII asrlar",
+"XI va XIV asrlar",
+"XII va XIV asrlar",
+"XII va XIII asrlar"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Quyidagi javoblardan “turli musulmon guruhlarining birlashgan kengashi” ga oid to’g’ri javoblarni aniqlang? 1. Kengash kun tartibida “Turkistonda hokimiyatni tashkil etish” masalasi turar edi; 2. Unda Sirdaryo va Xorazm viloyatlaridan kelgan vakillar qatnashdi; 3. Kengash o‘rinlarining yarmi musulmon aholisi vakillariga beriladigan koalitsion hukumat tuzishni yoqlab chiqdi; 4. Bolsheviklar o‘zlari bilan koalitsion hukumat tuzishni orzu qilgan Sherali Lapin boshchiligidagi ulamochilarning fikrlarini qat’iy suratda rad etishdi; 5. Ulamochilarning koalitsion hukumat talabini milliy demokratik kuchlar ham qo‘llabquvvatlamadi; 6. Koalitsion hukumatda yevropaliklarga 8 ta o’rin berish ko’zda tutilgan edi;",
+"opts": [
+"1,3,4,5",
+"1,2,4,6",
+"1,2,3,4,6",
+"1,2,3,4,5,"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Quyidagi atamalardan qaysi biri “uzatmoq” ma’nosini anglatadi?",
+"opts": [
+"Konveyer",
+"Karter",
+"Postmodernizm",
+"Patsifizm"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Quyidagi voqealardan qaysi biri Buxoroda «Bolalar tarbiyasi» jamiyatini tashkil qilingan yili bo‘lib o‘tgan?",
+"opts": [
+"Atlantika va Tinch okeanlarini birlashtirgan Panama kanali qurilishi tugallandi.",
+"AQSH Davlat departamenti tashabbusi bilan Vashingtonda birinchi Panamerika konferensiyasi chaqirildi.",
+"AQSH prezidentlik saylovlarida Vudro Vilson g‘alaba qozondi.",
+"Buenos-Ayresda o‘tkazilgan IV Panamerika konferensiyasida Amerika Respublikalari ittifoqi tashkiloti «Panamerika ittifoqi» deb nomlandi."
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Chexoslovakiyaning Sudet viloyati Germaniyaga berilgan yilni aniqlang.",
+"opts": [
+"1935-yil",
+"1937-yil",
+"1938-yil",
+"1940-yil"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "2001-yildan «Shanxay forumi» nomi qanday ataladigan bo‘ldi?",
+"opts": [
+"Shanxay Hamkorlik Tashkiloti",
+"Yevropa Iqtisodiy Hamjamiyati",
+"Shanxay Beshligi",
+"Osiyo Hamkorlik Tashkiloti"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Xaritada yulduzcha bilan belgilangan davlat tarixi bilan bog‘liq to‘g‘ri ma’lumotni toping.",
+"opts": [
+"Mil.avv. VI asrda Ahamoniylar davlati tashkil etilgan.",
+"Mil.avv. XI asrda Isroil davlati vujudga kelgan.",
+"Mil.avv. VIII asrda Etrusklar davlati vujudga kelgan.",
+"Mil.avv. XII asrda Sparta davlatiga asos solingan."
+],
+"ans": "D",
+"img": "img/dtm/zn-25-15.jpg"
+},
+{
+"n": 16,
+"q": "Quyida berilganlardan to‘g‘ri ma’lumotlar berilgan javobni belgilang.",
+"opts": [
+"1, 2, 4",
+"2, 3, 4",
+"1, 3, 5",
+"1, 4, 5"
+],
+"ans": "C",
+"extra": "1) Yosimune Tokugava 1716-1745-yillarda hukmronlik qilgan;\n2) 1864-yilda Yevropa davlatlari Turkiyaga qarshi «Muqaddas Liga» tuzdilar;\n3) Argentinada 1810-yilda mustaqillik uchun qurolli kurash boshlandi;\n4) 1824-yili Meksika mustaqillikka erishdi;\n5) 1325-yilda Dehli sultonligi taxtiga Muhammad Tug‘luq keldi."
+},
+{
+"n": 17,
+"q": "O‘rta asrlarda qaysi savdo yo’dida joylashgan Venetsiya va Genuya kuchli dengiz floti tuzgan?",
+"opts": [
+"Shoh yo‘li",
+"Levant",
+"Shimoliy",
+"Buyuk ipak yo‘li"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Qaysi davlatda 1997-yili Mobutuning diktatorlik rejimi ag‘darildi?",
+"opts": [
+"Kongo Demokratik Respublikasida",
+"Janubiy Afrika Respublikasida(JAR)",
+"Ruanda va Burundida",
+"Zimbabve"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "XIX asrda Afg‘oniston tarixida bo‘lib o‘tgan voqealarni belgilang.",
+"opts": [
+"1, 2, 5",
+"1, 3, 6",
+"2, 3, 6",
+"2, 4, 5"
+],
+"ans": "C",
+"extra": "1) Eron shohi Nodirshoh Afg‘onistonni egalladi;\n2) Durroniylar sulolasi hukmronligi barham topdi;\n3) Birinchi ingliz-afg‘on urushi bo‘lib o‘tdi;\n4) Mir Mahmud boshchiligidagi afg‘on qo‘shini Eron poytaxti Isfahonni egalladi;\n5) Gilzoiy qabilasi xoni Mir Vaysxon Qandahor shahrini egalladi;\n6) Afg‘oniston taxtiga Durroniylar sulolasi vakili Shuju o‘tqazildi."
+},
+{
+"n": 20,
+"q": "Yer-suv islohotini amaliy jihatdan ro‘yobga chiqarish 1921-yil bahorida boshlanib,  u dastlab qaysi viloyattlarda amalga  oshirildi? 1. Yettisuv;   2. Sirdaryo;   3. Farg‘ona; 4. Xorazm;     5. Samarqand;    6. Buxoro; 7. Toshkent.",
+"opts": [
+"1,2,3,7",
+"2,3,4,5",
+"1,2,5,6",
+"1,2,3,5"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "1908-1910-yillarda Turkiston odkasini Rossiya podshosi topshirig‘i bilan taftish qilgan shaxsni aniqlang.",
+"opts": [
+"P. Lessar",
+"N. Korolkov",
+"K. Palen",
+"F. Girs"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "O‘rta asrlarda tashkil topgan Bolgariya podsholigi bilan bog‘liq to‘g‘ri ma’lumotlar berilgan javobni belgilang.",
+"opts": [
+"1,4,5",
+"1,3,5",
+"2,4,5",
+"2,3,5"
+],
+"ans": "B",
+"extra": "1) slavyanlar yashagan hududdagi ilk davlat hisoblanadi;\n2) X asr boshlarida tashkil topgan;\n3) Simeon davrida o‘z qudratining cho‘qqisiga ko‘tarilgan;\n4) IX asr oxirida davlatda xristian dini joriy qilingan;\n5) Asparux tomonidan asos solingan."
+},
+{
+"n": 23,
+"q": "Quyidagilardan to‘g‘ri ma’lumotlar ko‘rsatilgan javobni belgilang.",
+"opts": [
+"1, 3, 5",
+"1, 3, 4",
+"2, 3, 4",
+"2, 3, 5"
+],
+"ans": "B",
+"extra": "1) Arab xalifaligida markaziy hokimiyat 749-yilga qadar Damashqda bo‘lgan;\n2) VII asr boshlarida arablar Movarounnahr hududini to‘liq bosib olishga kirishdilar;\n3) 806-yilda Samarqandda arab lashkarboshisi Rofe ibn Lays boshchiligida xalifalikka qarshi qo‘zg‘olon boshlangan;\n4) Muqanna Kesh yaqinidagi tog‘ tepasida bino qilingan Som qal’asini o‘z qarorgohiga aylantirgan;\n5) arablarning Movarounnahrga ilk bor hujumlari 654-yilda Maymurg‘ va 657-yilda Buxorodan boshlandi."
+},
+{
+"n": 24,
+"q": "Turkistonda qachon dastlabki yozma milliy sahna asarlari yaratilgan?",
+"opts": [
+"1911-yilda",
+"1913-yilda",
+"1909-yilda",
+"1910-yilda"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Simon Bolivar Buyuk Kolumbiya Prezidenti lavozimini egallagach amalga oshirmoqchi bo‘lgan qaysi tadbir pomeshchiklarning qarshiligiga duch kelib amalga oshmay qolgan?",
+"opts": [
+"Ispaniyadan ozod qilingan barcha Amerika respublikalarining konfederatsiyasini tuzish loyihasini ishlab chiqishi",
+"Yirik pomeshchiklarga soliq solish",
+"Yirik pomeshchiklarning yerlarini musodara qilish to‘g‘risida qonun loyihasini ishlab chiqishi",
+"Chet el kapitali kirib kelishiga to'sqinlik qilish to‘g‘risidagi qonun loyihasini ishlab chiqishi"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Jadvaldagi to’g’ri javoblarni toping. № Ma’lumot Yil (asr) Afg’onistonda hokimiyatga Muhammad Najibullo keldi 1979 SSSRda dunyoda birinchi Yerning sun’iy yo‘ldoshi uchirildi 1957 E-mail (elektron pochta) paydo bo‘ldi 1972 Martin Lyuter King o‘ldirildi 1963 Turkiya respublika deb e’lon qilindi 1919 Yaponiya Millatlar Ligasidan chiqdi 1934 Ispaniyada general Migel Primo de Rivera davlat to‘ntarishi uyushtirdi 1923 Hasan ko‘li atrofidagi jang 1938",
+"opts": [
+"2,4,6,8",
+"1,2,3,4,5,6,7",
+"1,3,5,7",
+"2,3,7,8"
+],
+"ans": "D",
+"img": "img/dtm/zn-25-26.jpg"
+},
+{
+"n": 27,
+"q": "Quyidagilardan bir asrda sodir bo‘lgan voqealarni aniqlang.",
+"opts": [
+"2, 3, 4, 5",
+"1, 2, 4, 5",
+"2, 3, 5, 6",
+"1, 2, 4, 6"
+],
+"ans": "B",
+"extra": "1) Xalifa Mu’tazidning hukmronligi tugadi;\n2) Nasr II ning hukmronlik davri boshlandi;\n3) Mahmud G‘aznaviyning hukmronlik davri tugadi;\n4) Xitoyda Tan sulolasi hukmronligi tugadi;\n5) knyaz Igor drevlyan qabilalari bilan jangda halok bo‘ldi;\n6) Ma’mun xalifalik taxtiga o‘tirdi."
+},
+{
+"n": 28,
+"q": "Quyidagilarni yillari bilan moslashtiring.",
+"opts": [
+"1-c, 2-b, 3-a",
+"1-d, 2-c, 3-b",
+"1-b, 2-d, 3-a",
+"1-a, 2-b, 3-c"
+],
+"ans": "A",
+"extra": "1) О‘zbekiston BMT ga qabul qilindi;\n2) Toshkentda BMTning vakolatxonasi ish boshladi;\n3) BMT Xavfsizlik Kengashining terrorizmga qarshi kurash bo‘yicha maxsus qo‘mitasi ta’sis etildi;\na) 2001-yil; b) 1993-yil;\nc) 1992-yil; d) 1995-yil."
+},
+{
+"n": 29,
+"q": "O’rta asrlarda qaysi davlatning  yirik shaharlarida aholi sopol quvurlar yordamida toza suv bilan taminlangan, shaharni axlat va chiqindilardan tozalash,  o’t o’chirish ishlari yo’lga qo’yilgan?",
+"opts": [
+"Angliya",
+"Xitoy",
+"Fransiya",
+"Yaponiya"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Yevropada feodallarning  3-salib yurishlari yuz bergan davrda, Xorazm hukmdori bo’lgan shaxsni toping.",
+"opts": [
+"Elarslon",
+"Otsiz",
+"Qutbiddin Muhammad",
+"Takash"
+],
+"ans": "D"
+}
+]
+}

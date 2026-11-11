@@ -1,0 +1,342 @@
+{
+"id": "zn-19",
+"items": [
+{
+"n": 1,
+"q": "Qaysi Dehli sultoni kuchli qo'shin tuzib, o'zboshimcha feodallarni bo'ysundiradi?",
+"opts": [
+"Alouddin Xiljiy",
+"Muhammad Tug‘luq",
+"Feruzshoh Tug‘luq",
+"Shamsiddin Eltutmish"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Yunonistonning janubi-sharqidagi tog'li viloyat nima deb atalgan?",
+"opts": [
+"Attika",
+"Lakonika",
+"Beotiya",
+"Messeniya"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Abdurahmon jevachi omon qolgan 600 kishilik odamlari bilan 20-21-iyulda kimga qarshi kurash olib bordi?",
+"opts": [
+"polkovnik Kuropatkin",
+"general leytenant Romanovskiy",
+"polkovnik Afanasyev",
+"polkovnik Ivanov"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "O‘rta asrlarda Koguryo qirolligi tomonidan egallangan yarimorol hududini XIX asr oxiriga kelib o‘z tarkibiga qo'shib olgan davlat?",
+"opts": [
+"Yaponiya",
+"Xitoy",
+"AQSh",
+"Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "1866 yilda Toshkentda o‘ziga xos muassasa - mahkama tashkil etilgan edi. Uning tarkibiga necha nafar a’lam kirgan?",
+"opts": [
+"7 nafar",
+"9 nafar",
+"12 nafar",
+"13 nafar"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Quyidagilardan qaysi shahar gilam va kigiz ishlab chiqarishga ixtisoslashgan shaharlar qatoriga kirmaydi?",
+"opts": [
+"G‘azovot",
+"Porsu",
+"Ko'hna Urganch",
+"Xo'jayli"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Buyuk Britaniya tashqi siyosatiga oid quyidagi voqealardan qaysi biri M. Tetcher nomi bilan bog‘liq?",
+"opts": [
+"AQShning Iroqqa qarshi harakatlarini qo'llab-quvvatladi.",
+"Bu davrda iqtisodning barqaror o‘sish sur’atlariga erishishning iloji bo‘lmadi.",
+"Infilatsiyaga qarshi kurash bosh vazifa qilib belgilandi.",
+"1977-yilgi konstitutsiya qabul qilish tashabbuskoriga aylandi."
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "N.Latipov, A.Karimov, U.Doniyorov, yefreytor U.Asanov va boshqa jasur o'zbek o'g'lonlariga tegishli javoblarni toping ?",
+"opts": [
+"1, 3",
+"1, 2, 3",
+"2,4",
+"l, 4"
+],
+"ans": "A",
+"extra": "1) Kvantun armiyasini tor- mor keltirishga katta hissa qo'shdilar;\n2) Sovet Ittifoqi Qahramoni unvoniga sazovor bo'lgan;\n3) 1945-yil avgustda Yaponiyaga qarshi sovet qo'shinlari hujumida ishtirok etishdi;\n4) Dnepr uchun olib borilgan janglarda qahramonlik ko'rsatgan."
+},
+{
+"n": 9,
+"q": "Qaysi o'zbek xalqining otashin shoirlari muxtoriyat hukumatini alqab, o'tli she'rlar bitishdi?",
+"opts": [
+"1, 3, 6",
+"2, 3, 6",
+"1, 2, 6",
+"1,2,3,4,5,6,7,8"
+],
+"ans": "C",
+"extra": "1) Fitrat;\n2) Cho'lpon;\n3) Usmon Nosir;\n4) Avloniy;\n5) Behbudiy;\n6) Hamza;\n7) Munavvar qori;\n8) Obidjon Mahmudov."
+},
+{
+"n": 10,
+"q": "1996-yil 26-aprelda imzolangan shartnomaga ko’ra…    .",
+"opts": [
+"“Shanxay beshligi” vujudga keldi",
+"“Shanxay forumi” tashkil topdi",
+"“Shanxay Hamkorlik Tashkiloti – ShHT” deb o‘zgartirildi",
+"“ShHTga a’zo davlatlarning 20 yilga mo‘ljallangan savdo-iqtisodiy hamkorlik dasturi” qabul qilindi"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Tarixan qoraqalpoqlar qayerlarda yashagan?",
+"opts": [
+"1, 2, 6, 7",
+"1, 3, 5, 7",
+"2, 4, 6, 7",
+"1, 2, 3, 4"
+],
+"ans": "B",
+"extra": "1) Ural;\n2) Amudaryoning quyi oqimi;\n3) Volga bo'ylarida;\n4) Orolning janub va janubi g‘arb tomonida;\n5) Orol atrofi;\n6) Amudaryo havzasi;\n7) Sirdaryoning quyi havzalari etaklari."
+},
+{
+"n": 12,
+"q": "Rivojlangan o'rta asrlarga kelib Rusda qanday shaharlarga asos solinadi?",
+"opts": [
+"Kiyev, Novgorod, Pskov, Rostov",
+"Rostov, Suzdal, Yaroslavl, Vladimir",
+"Ryazan, Novgorod, Pskov, Yuryev",
+"Izborsk, Tver, Moskva, Pskov"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "V asr oxiri - VI asr boshlarida qaysi hududlar atrofida hashamatli qo‘rg‘onlar qurilgan.",
+"opts": [
+"2, 3, 4, 5, 7, 8",
+"1, 2, 4, 5, 7, 8",
+"1, 2, 5, 7",
+"2, 3, 5, 6, 7, 8"
+],
+"ans": "C",
+"extra": "1) Xorazm;\n2) So‘g‘d;\n3) Farg'ona;\n4) Buxoro;\n5) Choch;\n6) Eloq;\n7) Toxariston;\n8) Toshkent."
+},
+{
+"n": 14,
+"q": "1913-yilda Xitoyning qaysi hududida hukumatning siyosatiga qarshi «ikkinchi inqilob» deb nomlangan qo'zg'olon boshlanib ketgan?",
+"opts": [
+"sharq",
+"g'arb",
+"janub",
+"shimol"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Mustaqillik yillarida milliy kino san’atiga oid ishlarni to’g’ri javoblarni topinglarю № Amalga oshirilgan ish Yil kino san’ati uchun muhim yil 2017 budjetidan 12 milliard 400 million so‘m ajratildi 2017 “O‘zbekkino” milliy agentligi tashkil etildi 2004 “Madaniyat va san’at” hujjatli filmi yaratildi 2006 “Hunarmand” kinosi namoish etildi 2016 President kino san’ati xodimlari va mutasaddilari bilan uchrashdi 2017",
+"opts": [
+"1, 2, 3, 6",
+"1, 2, 3, 4, 5, 6",
+"1, 2, 3, 5",
+"2, 5, 4, 6"
+],
+"ans": "A",
+"img": "img/dtm/zn-19-15.jpg"
+},
+{
+"n": 16,
+"q": "«Birinchi afyun urushi» tugagan yilda bo'lib o‘tgan voqeani toping.",
+"opts": [
+"Birinchi afg‘on-ingliz urushi Buyuk Britaniya mag'lubiyati bilan tugadi",
+"«Ost-Indiya» kompaniyasi Hindistonning Sind viloyatini bo'ysundirdi",
+"Afg'onistonda Kobul aholisi qo'zg'olon ko'tardi",
+"Yaponiyada AQSh fuqarolariga eksterritorial huquq berildi"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Quyidagilardan aynan bir paytda sodir bo'lgan voqealar to'g'ri ko'rsatilgan javobni aniqlang.",
+"opts": [
+"1,4, 5",
+"3, 5, 6",
+"2, 4, 6",
+"1, 4, 6"
+],
+"ans": "A",
+"extra": "1) Elam davlati tashkil topdi;\n2) Bobil podsholigi tashkil topdi;\n3) Mixxat yozuvi kashf etildi;\n4) Xitoyda qabilalar ittifoqi paydo bo'la boshladi;\n5) Hind vodiysida katta shaharlar vujudga kela boshladi;\n6) Yunonistonda ilk shahar-davlatlar vujudga kela boshladi."
+},
+{
+"n": 18,
+"q": "Frank qirollari saroy ahli hamda cherkovlarga yerlarni hadya qilishardi. Mazkur yer fondi nima hisobiga hosil bo'lar edi?",
+"opts": [
+"gal-rim boylari yerlarining musodara etilishi",
+"Pireney yarimoroli yerlarining bosib olinishi",
+"feodal yerlar (allod)ining keng tarqalishi",
+"rim imperatorlari yerlarini o'zlashtirish"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Nima sababdan Botuxon Yaroslavni «knyazlar oqsoqolligi»ga tayinlagan edi?",
+"opts": [
+"Bo'ysundirilgan aholidan soliq va to'lovlarni tezroq to'plash uchun",
+"Bo'ysundirilgan aholidan yangi harbiy qo'shin tuzish uchun",
+"Knyaz Yaroslav bilan do'stona munosabatda bo'lganligi sababli",
+"Bo'ysundirilgan xaiqlarni boshqarishning dastlabki bosqiohida qiyinchilikka uchramaslik uchun"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Mirxondning «Ravzat us-safo» asarida qaysi davr haqida yozilgan?",
+"opts": [
+"Dunyoning boshlanishidan 1523-yilgacha",
+"Muhammad Payg'ambarning Makkadan Madinaga o'tishidan 1628-yilgacha",
+"Yer yuzida odamning paydo bo'lishidan 1469-yilgacha",
+"Amir Temurning tug'ilishidan 1726-yilgacha"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Najmiddin Kubroning taxallusi qanday ma’noni bildiradi?",
+"opts": [
+"«Qur’onning buyuk bilimdoni»",
+"«Dinning buyuk yulduzi»",
+"«Sharqning buyuk mutafakkiri»",
+"«Dinning buyuk hukmdori»"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Samarqanddagi Ulug'bek madrasasining ta’rifini to'g’ri aniqlang.",
+"opts": [
+"«3 qavatli bino, 46 hujrasi bor, har bittasida namozxona, darslar uchun xona va hammom bor»",
+"«2 qavatli bino, 50 hujrasi bor, har bittasida yotoqxona, darsxona va omborxona bor»",
+"«1 qavatli bino, 32 hujrasi bor, har bittasida hammom, mehmonxona va omborxona bor»",
+"«3 qavatli bino, 55 hujrasi bor, har bittasida yotoqxona, darsxona va namozxona bor»"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi mamlakatda 2016-yil iyunda o‘tkazilgan referendumda ishtirok etgan aholining yarmidan ko‘pi mamlakatning Yevropa Ittifoqidan chiqish uchun ovoz berdi?",
+"opts": [
+"Buyuk Britaniya",
+"Fransiya",
+"Italiya",
+"Hindiston"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Afg'oniston amiri Abdurahmon inglizlar bilan bitim tuzishga majbur bo‘ldi (Dyurand chizig‘iga). Unga ko‘ra ...",
+"opts": [
+"«Yosh afg'onlar» harakati taqiqlandi",
+"Afg'oniston janubidagi afg'on qabilalari hududlari Buyuk Britaniya qaramog’ida qoladigan bo'ldi",
+"Kobul shahri Abdurahmonga topshirildi",
+"Kobulda ingliz rezidensiyasi ochiladigan bo'ldi"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Yulduzcha bilan ko’rsatilgan davlatga tegishli to’g’ri javobni toping.",
+"opts": [
+"1990-yillarda ko‘pchilik uning rahbarini rejimining qulashini bashorat qilgan edi. Ammo bu rejim saqlanib qoldi.",
+"1930-yilgi burjua inqilobi qahva oligarxiyasi rejimini ag‘darib tashladi",
+"XIX asr ohirida ichki kurashlar natijasida holdan toygach AQSHga qaram bo‘lib qoldi",
+"1895-1896-yillarda yagona davlat – Buyuk Markaziy Amerika Respublikasiga birlashgan davlatlardan biri"
+],
+"ans": "A",
+"img": "img/dtm/zn-19-25.jpg"
+},
+{
+"n": 26,
+"q": "Buyuk olimlardan qaysi biri olam abadiy mavjud, u hech qachon yo‘q bo‘lmaydi, degan xulosani dadil ilgari surdi, olamning cheksizligi va abadiyligi haqidagi nazariyani yaratdi?",
+"opts": [
+"Galileo Galiley",
+"Nikolay Kopernik",
+"Leonardo da Vinchi",
+"Jordano Bruno"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "1556-yilda xattot Hamadoniy XI asr mumtoz adabiyotining qaysi yirik asarini Xiva xoni Eshmuhammad uchun ko'chirib bergan?",
+"opts": [
+"«Shohnoma»",
+"«Zafarnoma»",
+"«Kitob at-tarix»",
+"«Al-Kashshof»"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Qadimgi Xitoy davlati qayerda vujudga kelgan?",
+"opts": [
+"Yanszi daryosining quyi oqimida",
+"Xuanxe va Yanszi daryolarining janubiy Xitoy dengiziga quyulish joyida",
+"Xuanxe daryosining o'rta oqimida",
+"Yanszi daryosining o'rta oqimida"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "N. Xrushchyov KPSS MK Birinchi sekretari lavozimiga SSSR Ministrlar Sovetining Raisi lavozimini ham qo‘shib olgan yilda Fransiya tarixida qanday siyosiy o’zgarish sodir bo’ldi?",
+"opts": [
+"Yangi Konstitutsiya qabul qilindi va 5-Respublika tashkil topdi",
+"sanoat mahsulotlarining umumiy hajmi bo‘yicha Lotin Amerikasida birinchi o‘ringa chiqdi",
+"Afrikadagi deyarli barcha mustamlakalari-ga musta qillik berdi",
+"Mamlakatda modernizatsiyalash nihoyasiga yetdi"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Quyidagi qaysi davlatda  ”Yashillar” partiyasi faoliyat olib  borgan?",
+"opts": [
+"AQSH",
+"Fransiya",
+"Angliya",
+"Germaniya"
+],
+"ans": "D"
+}
+]
+}

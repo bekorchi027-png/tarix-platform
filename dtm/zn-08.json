@@ -1,0 +1,349 @@
+{
+"id": "zn-08",
+"items": [
+{
+"n": 1,
+"q": "Xaritada yulduzcha bilan belgilangan davlat hududida XIX asr oxirida tashkil etilgan tashkilotni aniqlang.",
+"opts": [
+"«Tinchlik va adolat uchun ko‘tarilgan musht» yashirin tashkiloti",
+"«Ishchilar sinfini ozod qilish uchun kurash ittifoqi» tashkiloti",
+"«Birlik va taraqqiyot» tashkiloti",
+"Mujohidlar tashkiloti"
+],
+"ans": "C",
+"img": "img/dtm/zn-08-1.jpg"
+},
+{
+"n": 2,
+"q": "Quyidagilardan XIX asr so‘nggi choragida Tropik va Janubiy Afrika davlatlari tarixida bo‘lib o‘tgan voqealarni belgilang.",
+"opts": [
+"1, 4, 5",
+"1, 5, 6",
+"1, 4, 5, 6",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) Fransiya G‘arbiy Sudanni bosib oldi;\n2) Buyuk Britaniya mustamlaka hududlari bo'lgan Transvaal, Oranj, Natal, Kapni «Janubiy Afrika Ittifoqi» nomi ostida birlashtirdi;\n3) Bur Respublikalari (Transvaal va Oranj) Britaniya mulklari tarkibiga qo‘shib olindi;\n4) Zuluslar hukmdori Ketchvayo uch to‘qnashuv davomida inglizlarning 20 ming kishilik qo‘shinini yakson qilib tashladi;\n5) Fransuzlar Samori Tureni taslim etdilar;\n6) Suvaysh kanali ochilishi."
+},
+{
+"n": 3,
+"q": "Quyidagi qaysi Dehli sultoni davrida kuchli va intizomli qo‘shin tuzilib shimoldan mo‘g‘ullar hujumlari qaytarilgan?",
+"opts": [
+"Shamsiddin Eltutmish",
+"Muhammad Tug‘luq",
+"Alouddin Xiljiy",
+"Mahmud"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Fransiya tarixida yuz bergan quyidagi voqealar to‘g‘ri xronologik ketma-ketlikda berilgan javobni aniqlang.",
+"opts": [
+"1, 4, 5, 2, 3",
+"2, 1, 4, 5, 3",
+"1, 3, 4, 5, 2",
+"2, 3, 5, 1, 4"
+],
+"ans": "B",
+"extra": "1) mamlakatning birinchi konstitutsiyasi qabul qilindi;\n2) Bastiliya qal’asi qo’lga kiritildi;\n3) Misrga qilingan yurish Napoleonni siyosiy hokimiyatni egallashga chorladi;\n4) Lyudovik XVI qatl etildi;\n5) Jirondachilar hokimiyati ag‘darildi."
+},
+{
+"n": 5,
+"q": "O‘rta asrlarda yuz yillik urushdagi qaysi jangdan so‘ng Fransiya hududining yarmi Angliya qodiga otib, cherkov va ruhoniylar ingliz qirolini tan olganlar?",
+"opts": [
+"Puate jangi",
+"Kompen qal’asi uchun jang",
+"Kresi jangi",
+"Azenkur jangi"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar bir-biriga mos ravishda berilgan? № Davlat Voqea Yil Xitoy Yuan Chjan Min impe1368 riyasiga asos soldi FranYevropada ilk bor yer1086 siya mulk va aholi ro‘yxati o‘tkazildi GermaMamlakat janubidagi 1481 niya Provans viloyati qirol hukmiga o‘tdi QoraxoHorun Bug‘roxon boshliq qoraxoniylar Movarounnahrga hujum niylar davlati boshladi YapoKoreya vassal davlatga 1637 niya aylantirildi Turkiya Mustafo III Rossiyaga 1768 qarshi urush boshladi",
+"opts": [
+"1, 4, 6",
+"2, 4, 5",
+"1, 3, 5",
+"2, 3, 6"
+],
+"ans": "A",
+"img": "img/dtm/zn-08-6.jpg"
+},
+{
+"n": 7,
+"q": "1943-yilda antifashist koalitsiya davlatlari (AQSH, Buyuk Britaniya va SSSR) rahbarlarining uchrashuvi qaysi shaharda o‘tkazilgan?",
+"opts": [
+"Londonda",
+"Yaltada",
+"Potsdamda",
+"Tehronda"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Quyidagi voqealar to‘g‘ri xronologik tartibda berilgan javobni toping.",
+"opts": [
+"2, 5, 4, 3, 1",
+"5, 2, 4, 3, 1",
+"2, 5, 3, 1, 4",
+"5, 2, 3, 1, 4"
+],
+"ans": "C",
+"extra": "1) Lyudovik XVIII vafot etdi;\n2) Angliya Respublika deb e’lon qilindi;\n3) Fransiyada Birinchi Respublika e’lon qilindi;\n4) Braziliya Respublika deb e’lon qilindi;\n5) Yetti yillik urush boshlandi."
+},
+{
+"n": 9,
+"q": "Nechanchi yilda Kubada F. Kastro hokimiyat tepasiga kelgan?",
+"opts": [
+"1957-yilda",
+"1961-yilda",
+"1962-yilda",
+"1959-yilda"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "1968-yili qaysi davlatda hokimiyat tepasiga Arab sotsialistik uyg‘onish partiyasi (BAAS) kelgan?",
+"opts": [
+"Misr",
+"Falastin",
+"Iroq",
+"Eron"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Quyidagi qaysi mamlakatda infilatsiya pasaydi, milliy valuta – kipaning qiymati oshmoqda",
+"opts": [
+"Kambodja",
+"Laos",
+"Singapur",
+"Malayziya"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Xivada saroy fitnasi natijasida Asfandiyorxon o`ldirilgan yili….?",
+"opts": [
+"Rossiyada fevral inqilobi bo`ldi",
+"“Sho`royi ulamo” ga asos solindi",
+"Kichik Ergash muxtoriyat rahbariga aylandi",
+"Farg`ona muvaqqat muxtoriyat hukumati tuzildi"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagilardan Ahamoniylar hukmdori Doro III hukmronlik qilgan asrda yashagan shaxsni belgilang.",
+"opts": [
+"Fidiy",
+"Demosfen",
+"Spartak",
+"Gerodot"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Quyidagilardan XIX asrda Eron tarixida bo‘lib o‘tgan voqealarni belgilang.",
+"opts": [
+"1, 3, 5",
+"2, 5, 6",
+"1, 3, 4",
+"2, 4, 6"
+],
+"ans": "D",
+"extra": "1) Safaviylar sulolasi hukmronligi tugadi;\n2) Eron Hirot shahrini bosib oldi;\n3) afg‘onlar yetakchisi Mir Mahmud Eron shohi deb e’lon qilindi;\n4) Buyuk Britaniya va Eron o‘rtasida Parij Tinchlik shartnomasi imzolandi;\n5) Eronda yangi sulola - Qojarlar sulolasi hukmronligi o'rnatildi;\n6) shoh qo‘shini Bobiylar qo‘zg‘olonini bostirdi, Muhammad Ali esa qatl etildi."
+},
+{
+"n": 15,
+"q": "MDHning Nizomi qabul qilingan (imzolangan) yilni belgilang.",
+"opts": [
+"1996-yil Toshkent",
+"1995-yil Ashxabod",
+"1993-yil Minsk",
+"1998-yil Almati"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Quyidagilardan XIV asrda hukmronlik qilgan Moskva knyazlarini belgilang.",
+"opts": [
+"1, 4",
+"1, 3",
+"2, 3",
+"2, 4"
+],
+"ans": "B",
+"extra": "1) Ivan Kalita;\n2) Ivan III;\n3) Dmitriy Donskoy;\n4) Aleksandr Nevskiy."
+},
+{
+"n": 17,
+"q": "Tarixga «Afrika yili» sifatida kirgan yilni toping.",
+"opts": [
+"1960-yil",
+"1961-yil",
+"1964-yil",
+"1970-yil"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Quyidagilardan mil. avv. III ming yillikda bo‘lib o‘tgan voqeani toping.",
+"opts": [
+"Sargon I Akkad va Shumer shaharlarini o‘z hokimiyati ostida birlashtirdi.",
+"Falastin hududida Isroil podsholigi vujudga keldi.",
+"Misrda Yaxmos yangi fir’avnlar sulolasiga asos soldi.",
+"Bobil podshosi Xammurapi butun Mesopotamiyani yagona davlatga birlashtirdi."
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Rossiyaning qaysi imperatori davrida Turkiston o‘lkasida mustamlakachilarning siyosiy va iqtisodiy zulmiga qarshi Mingtepada Yetimxon boshchiligida qo‘zg‘olon ko‘tarilgan?",
+"opts": [
+"Nikolay II",
+"Aleksandr III",
+"Aleksandr II",
+"Nikolay I"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Quyidagi grafikda qaysi raqam ostidagiga muvofiq keladi? Amaterasu Sin Apis Astar Hosildorlik   Urush        Oy       Quyosh 6                         7 2             3",
+"opts": [
+"1,4,5,7",
+"1,2,5,7",
+"1,2,6,7",
+"1,2,3,5"
+],
+"ans": "B",
+"img": "img/dtm/zn-08-20.jpg"
+},
+{
+"n": 21,
+"q": "Birinchi rus inqilobi izsiz ketmadi. Jumladan ...",
+"opts": [
+"2, 5, 6, 7",
+"2, 4, 5, 6",
+"1, 2, 4, 7",
+"1, 3, 4, 6"
+],
+"ans": "C",
+"extra": "1) ishchilarga kasaba uyushmalariga birlashish huquqi berildi;\n2) ish tashlaganlik uchun jinoiy javobgarlikka tortish bekor qilindi;\n3) ish tashlaganlarning maoshlari saqlanadigan bo‘ldi;\n4) dehqonlarning yer uchun haq to‘lashlari bekor qilindi;\n5) dehqonlar fondi orqali yersiz dehqonlarga yer berish joriy qilindi;\n6) qo‘zg‘olonchilarga umumiy avf berildi;\n7) podsho hokimiyati izmida bo‘lsa-da vakolatli muassasa - parlament joriy etildi."
+},
+{
+"n": 22,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Abulg’ozixon Asfandiyorxon I III II",
+"opts": [
+"I-c,d; II-a,b,f; III-n,j",
+"I-a,d,j; II-b,c; III-e,f",
+"I-b,c,f; II-a,d; III-e",
+"I-a,b,d; II-c,f; III-n"
+],
+"ans": "B",
+"extra": "a) 1655-yilda katta qo‘shin bilan yurish qilib, Buxoro atroflarini ikki bor talon-taroj qildi;\nb) siyosatidan turkmanlar norozi bo‘lgan;\nc) 1623-yilda Xiva taxtini egalladi;\nd) Xorazm tarixnavislik maktabiga asos solgan shaxs;\ne) 1621-yildagi isyon chog‘ida otasi tarafida urushda qatnashdi;\nf) Arab Muhammadxonni o’g’li; n) XV asrda hukmronlik qilgan;\nj) O’z asarida turkiy qabilalar shajarasi haqida qimmatli ma’lumotlar beradi.",
+"img": "img/dtm/zn-08-22.jpg"
+},
+{
+"n": 23,
+"q": "Quyidagi atamalarning ma’nolari mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-d, 2-a, 3-b, 4-e",
+"1-b, 2-d, 3-a, 4-c",
+"1-c, 2-e, 3-d, 4-a",
+"1-b, 2-a, 3-d, 4-c"
+],
+"ans": "D",
+"extra": "1) missiya;\n2) nota;\n3) manifest;\n4) doktrina;\na) bir davlatning boshqa davlatga yozgan rasmiy murojaatnomasi; b) bir davlatning ikkinchi davlatga maxsus topshiriq bilan yuborgan vakillari; c) siyosiy rahbarlik tamoyili;  d) hukumatning juda muhim voqea munosabati bilan xalqqa qilgan yozma murojaati; e) qonun loyihasi, konstitutsiyaga tenglashtirilgan hujjat.",
+"img": "img/dtm/zn-08-23.jpg"
+},
+{
+"n": 24,
+"q": "“Xiva xonligini siyosiy jihatdan birlashtirishga kirishdi. Bu juda muhim, kerak bo‘lsa, hayot-mamot masalasi edi. Chunki Rossiya tomonidan mustahkamlangan Orenburg liniyasining paydo bo‘lishi Xiva xonligiga bevosita tahdid solmoqda edi” ta’rif kim haqida?",
+"opts": [
+"Olloqulixon",
+"Muhammad Rahimxon I",
+"Elbarsxon",
+"Eltuzar"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "O‘zbekiston Respublikasi Oliy Majlisi nechanchi yillarda bir palatali tizimda faoliyat olib borgan?",
+"opts": [
+"1995-2004-yillarda",
+"2000-2010-yillarda",
+"1990-2000-yillarda",
+"1994-2004-yillarda"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Quyidagilardan Urartu davlatining shaharlarini belgilang.",
+"opts": [
+"3,4",
+"1,4",
+"2, 3",
+"1,2"
+],
+"ans": "D",
+"extra": "1) Tushpa;\n2) Teyshebaini;\n3) Ekbatana;\n4) Ugarit."
+},
+{
+"n": 27,
+"q": "Somoniy hukmdor Nuh ibn Nasr bilan bir asrda yashagan shaxsni toping.",
+"opts": [
+"Mahmud Torobiy",
+"Tohir ibn Husayn",
+"Ya’qub ibn Lays",
+"Abu Ali Chag’oniy"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Quyidagilardan «Oq kiyimlilar» qo‘zg‘olonining mag’lubiyatga uchrashi sabablaridan birini aniqlang.",
+"opts": [
+"mahalliy mulkdorlarning birin-ketin arablar tomoniga o’tib ketishi",
+"Arab xalifaligi Tohir ibn Husayndan yordam so‘ragani",
+"Ummaviylar sulolasining qo‘zg‘olonni bostirishga katta harbiy kuch yuborishi",
+"Robiya qal’asining dushmanga ochib berilishi"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Qaysi xalifa davrida Ozarbayjonda arablarga qarshi Bobak bushchiligidagi qo‘zg‘olon boshlangan edi?",
+"opts": [
+"Amin",
+"Ma’mun",
+"Xorun ar-Rashid",
+"Mu’tazid"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Tarixiy mantiqiy to`g`ri javobni aniqlang",
+"opts": [
+"Toxir – 822 – Abul Abbos Saffoh",
+"Amir Temur- Samarqand- Musulmonqul",
+"Aliquli- Turkiston- Toshkent",
+"Buyuk Britaniya-pikt-Mozambik"
+],
+"ans": "C"
+}
+]
+}

@@ -1,0 +1,355 @@
+{
+"id": "zn-21",
+"items": [
+{
+"n": 1,
+"q": "O‘rta Osiyoning quyidagi shaharlari Podsho Rossiyasi qo’shinlari tomonidan egallangan yillariga qarab to’g’ri xronoligik tartibda ko’rsatilgan javobni belgilang.",
+"opts": [
+"3, 2, 1",
+"3, 1, 2",
+"1, 3, 2",
+"1, 2, 3"
+],
+"ans": "B",
+"extra": "1) Kattaqo‘rg‘on;\n2) Namangan;\n3) Jizzax."
+},
+{
+"n": 2,
+"q": "XIX asr oxiri-XX asr boshlarida qaysi davlatlar xaritada yulduzcha bilan belgilangan davlatni o‘z mustamlakalariga aylantirganlar?",
+"opts": [
+"Belgiya, Fransiya, Germaniya",
+"Buyuk Britaniya, Fransiya, Germaniya",
+"Belgiya, Fransiya, Portugaliya",
+"Partugaliya, Germaniya, Fransiya"
+],
+"ans": "C",
+"img": "img/dtm/zn-21-2.jpg"
+},
+{
+"n": 3,
+"q": "Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija Oltin O’rdaning Kavkazortiga egalik qilish uchun Xulokuga qarshi kurashi O’zbekxonning o’g’li Jonibek sultonning halok bo’lishi Ingliz qirolin Ioanning baronlarga qarshi siyosati \"Mayl End\" dasturi qabul qilinishi Angliyada 1455–1485yillarda “Qizil va oq gullar” urushining bo’lib o’tishi Tyudorlar sulolasi hukmronligi boshlanishi Fransiya qiroli Karl VIII ning 1491-yilda Bretan gersogining qizi Annaga uylanishi Fransiyaning markazlashuvi yakunlanishi ning avvalgi hududlarini tiklash maqsadi tuzilishi",
+"opts": [
+"1, 5",
+"1, 2",
+"2, 4",
+"3, 4"
+],
+"ans": "D",
+"img": "img/dtm/zn-21-3.jpg"
+},
+{
+"n": 4,
+"q": "K.P.Kaufman amir Muzaffarni generalgubernatorlik chegaralariga bostirib kirishga tayyorgarlik ko’rishda ayblab, to‘rt mingdan ziyod qo‘shindan iborat harbiy otryad bilan 1868- yil aprelda qayerni bosib olishga kirishdi?",
+"opts": [
+"Buxoroni",
+"Urgutni",
+"Samarqandni",
+"Kattaqo‘rg‘onni"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Ikkinchi jahon urushi yillarida Yugoslaviyada ozodlik harakatiga boshchilik qilgan shaxsni belgilang.",
+"opts": [
+"I. B. Tito",
+"F.D.Ruzvelt",
+"Sh.de Goll",
+"G.K.Jukov"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "AQSh da qaysi Prezident boshqaruvi davrida O‘zbekiston Respublikasining Birinchi prezidenti Islom Karimov Amerika jamoatchiligi tomonidan “Xalqaro miqyosdagi lider” mukofoti bilan taqdirlangan?",
+"opts": [
+"Kichik Jorj Bush",
+"Barak Obama",
+"Ronald Reygan",
+"Bill Klinton"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Berilgan grafik asosida davlatlarning birinchi prezidentlarini to’g’ri moslashtiring?",
+"opts": [
+"1,3,4",
+"2,4,5,6",
+"1,5,6",
+"1,2,3,4,5"
+],
+"ans": "C",
+"img": "img/dtm/zn-21-7.jpg"
+},
+{
+"n": 8,
+"q": "Quyidagilardan XX asrning birinchi choragida bo’lib o’tgan voqeani belgilang.",
+"opts": [
+"Xiva xoni Muhammad Rahimxon II ning hukmronligi tugadi.",
+"Xiva xonligi taxtiga Said Muhammadxon o‘tirdi.",
+"Qo‘qon xoni Xudoyorxonning hukmronligi tugadi.",
+"Xiva xonligi taxtiga Muhammad Aminxon o‘tirdi."
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, EylerVenn diagrammasiga mos keladigan javobni toping. Gerbert Guver         Duayt Eyzenxauer Donalt Tramp",
+"opts": [
+"I-a,c; II-b,f; III-e; IV-g;",
+"I-c,d; II-b,a; III-e,f; IV-g;",
+"I-c,a; II-b; III-e,f; IV-g;",
+"I-d; II-b; III-e; IV-g;"
+],
+"ans": "D",
+"extra": "a) AQSH iqtisodiy inqirozni boshdan kechirdi.\nb) Mamlakatda makkartizm avj oldi.\nc) ijtimoiy sohani rivojlantirishga katta e’tibor qaratdi.\nd) Amerikacha individualizm va liberalizm tamoyillarini himoya qilib, hech qanday ijtimoiy choralar ko‘rishga rozi bo‘lmadi.\ne) Amerikaning buyukligini tiklash, tashqi siyosatda esa boshqa davlatlar ishlariga aralashmaslikni e’lon qilgan.\nf) Iroq va Suriyadagi vaziyatning og‘irlashuvi, va AQSHning o’zida ham terroristik xavfning kuchayishi.\ng) Respublikachilar partiyasidan bo’lgan.",
+"img": "img/dtm/zn-21-9.jpg"
+},
+{
+"n": 10,
+"q": "Ikkinchi jahon urushi yillarida gitlerchilarga qarshi koalitsiya davlatlarining o‘zaro munosabatlariga oid asosiy masalalar SSSR, AQSh va Buyuk Britaniya liderlarining qaysi shaharlarda bo‘lib o‘tgan uchrashuvlarida hal qilingan?",
+"opts": [
+"2, 4, 5",
+"1, 3, 5",
+"2, 4, 6",
+"1, 3, 6"
+],
+"ans": "D",
+"extra": "1) Yalta;\n2) Minsk;\n3) Potsdam;\n4) Gdansk;\n5) Bag‘dod;\n6) Tehron."
+},
+{
+"n": 11,
+"q": "1940-yil sentabrda qaysi davlatlar o‘rtasida harbiy hamkorlik to‘g‘risida kelishuv Uchlar pakti imzolangan?",
+"opts": [
+"2, 4, 6",
+"1, 4, 5",
+"2, 3, 6",
+"1, 3, 5"
+],
+"ans": "B",
+"extra": "1) Germaniya;\n2) Buyuk Britaniya;\n3) Fransiya;\n4) Yaponiya;\n5) Italiya;\n6) AQSh."
+},
+{
+"n": 12,
+"q": "XIX asrda temiryo’l transporti ommalashuvini boshlab bergan parovoz kim tomonidan ixtiro qilingan?",
+"opts": [
+"Alesandro Volta",
+"Jorj Stefanson",
+"Gemfri Devi",
+"Maykl Faradey"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Quyidagilardan XV asrda portugaliyaliklar tomonidan kashf qilingan orollarni toping.",
+"opts": [
+"2, 4, 6",
+"1, 4, 6",
+"2, 3, 5",
+"1, 3, 5"
+],
+"ans": "C",
+"extra": "1) Krit;\n2) Azor;\n3) Kanar;\n4) Madagaskar;\n5) Madeyra;\n6) Salamanka."
+},
+{
+"n": 14,
+"q": "XVI asrning ikkinchi yarmi XVII asrning boshlarida ispan dengizchilari tomonidan Tinch okean havzasida kashf etilgan hududlarni (orollarni) aniqlang.",
+"opts": [
+"1, 3, 6",
+"1, 3, 5",
+"2, 3, 4",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) Sulaymon;\n2) Azor;\n3) Janubiy Polineziya;\n4) Madagaskar;\n5) Madeyra;\n6) Melaneziya."
+},
+{
+"n": 15,
+"q": "Quyidagi qaysi davlatlar IX asr ikkinchi yarmida tashkil topgan?",
+"opts": [
+"2, 3",
+"2, 4",
+"1,4",
+"1, 2"
+],
+"ans": "C",
+"extra": "1) Somoniylar;\n2) Tohiriylar;\n3) G‘aznaviylar;\n4) Safforiylar."
+},
+{
+"n": 16,
+"q": "Rossiyada 1917-yil oktabrda hokimiyat tepasiga bolsheviklar kelishi bilan boshlanib, 1922-yil kuzda Uzoq Sharqda “oq gvardiyachilar”ning tor-mor qilinishi bilan yakunlangan davr sovet davlati tarixida qanday ataladi?",
+"opts": [
+"Fuqarolar urushi davri",
+"Tiklanish davri",
+"Harbiy kommunizm davri",
+"Madaniy inqilob davri"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Quyidagilardan I jahon urushidan keyin xalqaro munosabatlar va dunyoning siyosiy xaritasida yuz bergan o‘zgarishlar to‘g‘ri berilgan javobni toping.",
+"opts": [
+"2, l, 5",
+"2, 1, 6",
+"1, 3, 5",
+"1, 2, 6"
+],
+"ans": "C",
+"extra": "1) Germaniya. Avstriya-Vengriya va Usmonlilar imperiyalari tarqalib ketdi:\n2) Osiyoda paydo bo'lgan yangi mustaqil davlatlar sanoati rivojlandi;\n3) Yevropada yangi davlatlar vujudga keldi:\n4) Xitoy Osiyoda yetakchi mavqega ega davlatga aylandi:  5) Rossiyada monarxiya ag‘darildi:\n6) Buyuk Britaniya, Fransiya va Germaniyaning Osiyo va Afrikadagi mustamlakalariga mustaqillik berdi.",
+"img": "img/dtm/zn-21-17.jpg"
+},
+{
+"n": 18,
+"q": "Varvar qabilalari yodboshchilari orasida birinchi bodib Rimdan xristianlik dinini qabul qilgan hukmdorni aniqlang.",
+"opts": [
+"Xlodvig",
+"Odoakr",
+"Alarix",
+"Buyuk Karl"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Quyidagilardan janubiy slavyanlar guruhiga kiruvchi xalqni belgilang.",
+"opts": [
+"polyaklar",
+"ukrainlar",
+"bolgarlar",
+"chexlar"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Buxoro amirligida suyurg‘ol egasi davlat xazinasiga xiroj to‘lash bilan birga yana qanday majburiyatni bajarishi lozim edi?",
+"opts": [
+"Oliy hukmdor chaqirig‘iga ko‘ra, zarur holatlarda o‘z qora cherigi bilan harbiy yurishlarga ishtirok etishi",
+"Amirlikda harbiy xarajatlar uchun ham alohida soliq to‘lash",
+"Yiliga bir marotaba amir saroyida bazm uyushtirishi",
+"Amirlikdagi qurilishlar uchun о’z mabla- g’idan ulush ajratish va mardikorlar yuborish"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Quyidagilardan Qadimgi Yunoniston tarixiga oid bodganlarini belgilang.",
+"opts": [
+"1, 4, 6",
+"1, 3, 5",
+"2, 3, 5",
+"2, 4, 6"
+],
+"ans": "D",
+"extra": "1) akveduk;\n2) goplit;\n3) Xalq tribuni;\n4) polis;\n5) plebey;\n6) periek."
+},
+{
+"n": 22,
+"q": "1415-yilda Azenkur jangida kimlar to‘qnashgan?",
+"opts": [
+"inglizlar va vizantiyaliklar",
+"nemislar va fransuzlar",
+"inglizlar va nemislar",
+"inglizlar va fransuzlar"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagilardan VIII asrda Arab xalifaligini boshqargan xalifalarni belgilang.",
+"opts": [
+"2,4",
+"1, 4",
+"2, 3",
+"1, 3"
+],
+"ans": "A",
+"extra": "1) Muoviya I;\n2) Umar ibn Abdulaziz;\n3) Ma’mun;\n4) Sulaymon."
+},
+{
+"n": 24,
+"q": "Quyidagi qaysi hukmdorlar mil. avv. VI asrda hukmronlik qilgan?",
+"opts": [
+"1, 4",
+"1,3",
+"2, 3",
+"2, 4"
+],
+"ans": "A",
+"extra": "1) Kir II;\n2) Doro III;\n3) Aleksandr Makedonskiy;\n4) Kambiz II."
+},
+{
+"n": 25,
+"q": "Quyidagilardan Qadimgi Misr tarixiga oid bo’lganlarini belgilang.",
+"opts": [
+"1, 3, 5",
+"1, 2, 6",
+"2, 3, 6",
+"2, 4, 5"
+],
+"ans": "B",
+"extra": "1) Nomarx;\n2) Yangi podsholik;\n3) “Osmon ostidagi podsholik”;\n4) qo‘shinning to‘rt turi;\n5) kasta;\n6) “Qora tuproq”."
+},
+{
+"n": 26,
+"q": "Ilk o‘rta asrlarda markazi Toxariston bo‘lgan Shimoliy Hindiston, Afg‘oniston, Xurosonning bir qismini ham o‘z ichiga olgan davlatni toping.",
+"opts": [
+"Turk xoqonligi",
+"Qarluqlar davlati",
+"Qoraxitoylar davlati",
+"Xioniylar davlati"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "1917-yil 7-aprelda Muvaqqat hukumat tomonidan Turkiston o’lkasini boshqarish uchun tuzilgan Turkiston komitetiga kadetlar partiyasi (a) va eserlar partiyasi (b) dan kimlar raislik qilishgan?",
+"opts": [
+"a-1, b-4",
+"a-2, b-4",
+"a-2, b-3",
+"a-1, b-3"
+],
+"ans": "D",
+"extra": "1) Nikolay Shchepkin: 2) Georgiy Lvov;\n3) Vladimir Nakivkin; 4)Aleksandr Kerenskiy."
+},
+{
+"n": 28,
+"q": "1928-1932-yillarda Sovet davlatida amalga oshirilgan birinchi besh yillikning asosiy vazifasi nimadan iborat edi?",
+"opts": [
+"SSSRni agrar mamlakatdan sanoati rivojlangan va kuchli harbiy davlatga aylantirish",
+"Yangi iqtisodiy siyosat (NEP) ning rolini oshirish",
+"mahsulot ishlab chiqarish bo‘yicha AQShdan keyingi ikkinchi o‘ringa chiqish",
+"mamlakatni yaqinlashib kelayotgan urushga tayyorlash"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "1930-yil SSSR Oliy sudi sayyor sessiyasining Samarqand shahrida o‘tkazilgan sud jarayonida “aksilinqilobchi millatchi tashkilotlar” a’zolari bilan aloqa bog‘laganlikda, islom dinini himoya qilishda ayblanib, “qosimovchilik” yorlig‘i bosilgan va otishga hukm qilingan shaxslarni aniqlang.",
+"opts": [
+"2, 5, 6",
+"1, 3, 6",
+"2, 4, 5",
+"1, 2, 4"
+],
+"ans": "D",
+"extra": "1) S.Qosimov;\n2) B.Sharipov;\n3) Sh.Badriddinov;\n4) N.Alimov;\n5) R.Inog‘omov;\n6) A.Hojiboyev."
+},
+{
+"n": 30,
+"q": "XX asrning 20-30-yillarida O‘zbekistonda rahbarlik lavozimlarida faoliyat yuritib, keyinchalik sovet hokimiyati tomonidan qatag‘on qurboniga aylangan o‘zbek xotinqizlarini aniqlang.",
+"opts": [
+"1, 2",
+"3,4",
+"1, 4",
+"2,3"
+],
+"ans": "A",
+"extra": "1) Tojixon Shodiyeva;\n2) Jahon Obidova;\n3) Halima Nosirova;\n4) Sora Eshonto‘rayeva."
+}
+]
+}

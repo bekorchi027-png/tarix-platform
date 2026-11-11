@@ -1,0 +1,355 @@
+{
+"id": "zn-16",
+"items": [
+{
+"n": 1,
+"q": "Nuqtalar o‘rniga mos keluvchi javobni aniqlang. Yangi tarix:",
+"opts": [
+"Yongjo, Karl X, Salim I",
+"Mutsuxito, Genrix VIII, Muso I",
+"Toyotomi Xideyosi, Filipp Anjuy, Ismoil Safaviy",
+"Li Xa In, Fridrix II, Fathxon"
+],
+"ans": "A",
+"extra": "1) Ispaniya − Karl II;\n2) Prussiya− Fridrix I;\n3) Koreya −... ;\n4) Fransiya−... ;\n5) Usmoniylar imperiyasi−... ."
+},
+{
+"n": 2,
+"q": "Quyida tarixiy voqealar keltirilgan.",
+"opts": [
+"G'arbiy Yevropa feodallarining Yaqin Sharqdagi bosqinchilik va talonchilik urushlari (Salib yurishlari) boshlanib ketdi",
+"Kiyev Rusi siyosiy tarqoqlik davriga kiradi",
+"vizantiyaliklar deyarli qarshilik ko'rsata olmaganligi tufayli ko'p sonli turkiy qabilalar Kichik Osiyoga yo'l oladi",
+"Bosh shomon butun xalq oldida Temuchinga Chingizxon unvonini beradi"
+],
+"ans": "C",
+"extra": "1) Papa Urban II Fransiyaning janubidagi Klermon shahrida cherkov yig'iniga to'plangan minglab ruhoniylar, ritsarlar va oddiy xalq vakillari huzurida nutq so'zlaydi;\n2) Onon daryosi bo'yidagi qurultoy;\n3) Kiyev knyazi Yaroslav Donishmandning o'g'li Vladimir Monomaxning Lyubech shahrida knyazlarning birinchi syezdini chaqirdi;\n4) “Mansikert jangi”. Ular orasidan ENG OLDIN sodir bo‘lgan voqeaning natijasi keltirilgan javobni toping."
+},
+{
+"n": 3,
+"q": "Quyidagilardan boshqalariga nisbatan ENG AVVAL(a) va ENG KEYIN(b) sodir bo‘lganlarini aniqlang.",
+"opts": [
+"a-2, b-5",
+"a-1, b-2",
+"a-2, b-3",
+"a-6, b-2"
+],
+"ans": "A",
+"extra": "1) Iste’dodli publitsist va shoir Xristo Botev turklar bilan bo‘lgan jangda qahramonlarcha halok bo‘ldi;\n2) Turkiston general-gubernatorligi tashkil etildi;\n3) Yurtimizda “Turon” teatr truppasi tashkil etildi;\n4) Fransiya Prussiyaga qarshi urush e’lon qildi. Shu tariqa, Fransiya-Prussiya urushi boshlandi;\n5) Meksikada demokratik ruhdagi konstitutsiya qabul qilindi;\n6) Xitoyda birinchi «Sinxay inqilobi» sodir bo’ldi."
+},
+{
+"n": 4,
+"q": "Quyidagilar orasidan TO‘G‘RI ma’lumotlar ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1, 3, 4, 6",
+"2, 3, 5, 7",
+"1, 4, 5, 7",
+"2, 5, 6, 7"
+],
+"ans": "C",
+"extra": "1) Amir Haydarning ukasi Dinnosirbek hokimlik qilayotgan Marv viloyati aholisi 1804-yilda qo‘zg‘olon ko‘tardi;\n2) 1756-yili Buxoroda hokimiyat tepasiga yangi sulola –qo’ng’irotlar sulolasi keldi;\n3) Reformatsiya 1615-yili Fransiyaning Vittenberg universiteti ilohiyot fani professori Martin Lyuterning «95 tezislar» deb ataluvchi indulgensiyalarga qarshi da’vati bilan boshlandi;\n4) Qipchoq qabilasidan bo’lgan Aliquli «Diniy ta’lim menga o‘zimni tanitdi» deb ta’kidlagan;\n5) afsonaviy sahnalarning ajoyib ustasi Fransua Bushe «qirolning birinchi tasvirchisi» nomini olgan;\n6) Lotin Amerikasida siyosiy jihatdan mustaqil bolgan davlatlarning tashkil topish jarayoni 1890-yilga kelib, deyarli tugallandi;\n7) 4-iyul har yili AQSHda Mustaqillik kuni sifatida nishonlanadi.",
+"img": "img/dtm/zn-16-4.jpg"
+},
+{
+"n": 5,
+"q": "Quyidagi jadvalda voqea va uning natijasi o‘zaro mos berilgan qatorlarni aniqlang. № Voqea Natija Abdullaxon II 1598yilda vafot etdi taxtni Abdulmo‘min egalladi Lyudovik XIV mamlakat janubidagi Tuluza grafligini o’z mulkiga qo’shib oldi Shu tariqa qirol XVI asrda Buyuk Britaniyadagi eng kuchli feodalga aylanadi Qadimgi forslar lashkari mil. avv. 539yilda Yunonistonga bostirib kiradi Shu paytdan boshlab O’rta Yunoniston Fors davlati tarkibiga kiradi Rossiya tamonidan 1885-yilda Kushka shahri egallandi Buyuk Britaniya va Rossiya o‘rtasida Afg‘onistonning taqdiri va uning chegarasini belgilash masalasi hal etildi Ubaydullaxon II aholidan yig‘iladigan soliqlarni 4 barobarga ko‘paytirdi Buxoro xonligida aholining turmush tarzi yomonlashib xalq xonavayron bo’ldi 1867-yili Buyuk Britaniyada  parlament islohoti, saylovda qatnashuvchilar uchun mulk senzi kamaytirildi erkak aholining 50 foizi saylov huquqiga ega bo‘ldi",
+"opts": [
+"2,4,5,6",
+"1,4,5,6",
+"1,2,3,4,6",
+"1,3,4,6"
+],
+"ans": "B",
+"img": "img/dtm/zn-16-5.jpg"
+},
+{
+"n": 6,
+"q": "Xaritada raqamlar bilan ko`rsatilgan davlatlar tarixiga tegishli bo`lgan ma`lumotni to`ping.",
+"opts": [
+"1-c, 2-f, 3-a, 4-b",
+"1-a, 2-f, 3-c, 4-d",
+"1-a, 2-d, 3-f, 4-c",
+"1-c, 2-d, 3-a, 4-b"
+],
+"ans": "A",
+"extra": "a) 756-yilda Rim papalari davlati – Papa viloyati tashkil topadi;\nb) 2015-yilgi saylovlarda hokimiyatga A.Sipras boshchiligidagi so‘llar hukumati kelgan; c) 1868yilda inqilob yuz berdi. Qirolicha Izabella II mamlakatdan qochib ketishga majbur bo‘ldi;\nd) XVIII asrda Sulton Husayn hokimiyatni Mir Mahmudga topshirishga majbur bo‘ldi;\nf) XVIII asrda Rossiya bilan bir necha bor urushlar olib bordi, biroq yengildi.",
+"img": "img/dtm/zn-16-6.jpg"
+},
+{
+"n": 7,
+"q": "Eyler-Venn diagrammasidagi ma`lumotlarni taxlil qilib, mos keluvchi javobni aniqlang. Nasriddinbek           amir Muzaffar I III II",
+"opts": [
+"I-a,e; II-b,f,g; III-c,n",
+"I-a,e; II-b,f; III-d,g",
+"I-b,f; II-c,a; III-n",
+"I-a; II-b,f; III-c,n"
+],
+"ans": "D",
+"extra": "a) Mustamlakachi hukumat bilan janglar keskin davom etayotgan vaqtda mag‘lubiyatdan qo‘rqib, taslim bo‘ldi va fon Kaufman bilan shartnoma imzoladi;\nb) Zirabuloq jangidan keyin o‘z mag‘lubiyatini tan olib, fon Kaufmanning Turkiston generalgubernatorligining yangi chegaralari haqidagi taklifini qabul qilishga majbur bo‘ldi;\nc) XIX asrda hukmronlik taxtiga o’tirdi;\nd) Peterburgda u 3 yil davomida harbiy ishlar va davlat boshqarish asoslarini o‘rgandi;\ne) «Xudoyqul anvar» asarida uning davri tarixi voqealari batafsil yoritilgan;\nf) katta o‘g‘li Abdumalik to‘ra bo’lgan;\ng) Uning bosh vaziri, ma’rifatli inson Islomxo‘ja edi; n) Chor Rossiyasi bilan shartnoma tuzdi.",
+"img": "img/dtm/zn-16-7.jpg"
+},
+{
+"n": 8,
+"q": "Quyida berilgan muallifning asarlarini toping.",
+"opts": [
+"1-a, 2-b, 3-c, 4-f, 5-j",
+"1-a,c, 2-b, 3-e, 4-j, 5-d",
+"1-a,c, 2-b, 3-d, 4-j, 5-m,e",
+"1-c, 2-b, 3-d, 4-j, 5-m"
+],
+"ans": "D",
+"extra": "1) Muhammad Yusuf Munshiy\na) «Tarixi Amir Haydar»\nb) «Buxoro tarixi»\n2) Muhammad Narshaxiy\nc) «Tarixi Muqimxoniy»\n3) Muhammad Haydar\nd) «Tarixi Rashidiy»\n4) Muhammad Amin Buxoriy\ne) «Kashmir qo‘shig‘i»\nf) «Fathnomayi sultoniy»\n5) Muhammad Hakimxon\nj) «Ubaydullanoma»"
+},
+{
+"n": 9,
+"q": "Quyidagi grafikda qaysi raqam Davlatshayxning o‘g‘li Abulxayrxon siyosatiga muvofiq keladi? «O‘zbek ulusi»ga asos soldi davlatini Oltin O‘rdadan mustaqil deb e’lon qildi Sirdaryoning o‘rta oqimidagi shaharlarni bosib oldi vafot etdi 2            3 yillar            1468         1451       1431       1428",
+"opts": [
+"1,3,5,7",
+"3,5,7",
+"1,5,7",
+"1,2,3,7"
+],
+"ans": "C",
+"img": "img/dtm/zn-16-9.jpg"
+},
+{
+"n": 10,
+"q": "To`g`ri moslashtirilgan javobni toping",
+"opts": [
+"Gannibal – Karfagen armiyasiga boshchilik qilgan (tajribali sarkarda)",
+"1800-yil – Ahmad Donish otasi vafot etgach, saroy kotibi etib tayinlandi",
+"Xammurapi vafoti – keyin tog'lik meteklar Ossuriya shahrini bosib oladi",
+"1909-yilda Rokfeller – «Po‘lat korporatsiyasi» deb atalgan katta trestni tashkil etdi"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Quyida berilgan ma’lumotlarni muallifiga muvofiqlashtiring.",
+"opts": [
+"I−Bismark, II− Juzeppe Garibaldi, III− Abdurauf Fitrat",
+"I− V.Vilsonlar, II−J. Jolitti, III− Islom Karimov",
+"I− Lloyd Jorj, II− Kamillo Kavur, III− Abdulla Avloniy",
+"I− J. Ferri, II− J. Jolitti, III− Mahmudxo‘ja Behbudiy"
+],
+"ans": "D",
+"extra": "I. «Boy mamlakatlar uchun mustamlakalar sarmoya kiritiladigan eng qulay obyektdir... Men aytamanki... Fransiya hamma vaqt ortiqcha sarmoyaga ega bo‘lgan, katta-katta summalar eksport qilib kelgan»;\nII. 1903-1914-yillarda (orada ma’lum uzilishlar bilan) Italiya hukumatini boshqargan, o‘z davrining mashhur siyosiy arbobi;\nIII. «... hozirgi dunyoda yashash, ziyoli, komil va odil» bo‘lish uchun o‘z vatani tarixini o‘rganish da’vati bi lan murojaat qildi. Ushbu ma’lumotlar qaysi tarixiy shaxslar haqida ekanligini aniqlang."
+},
+{
+"n": 12,
+"q": "Olloqulixon davrida amalga oshirilgan ish berilgan javobni toping.",
+"opts": [
+"o‘zbeklar va turkmanlardan tuzilgan «xon navkarlari» deb atalgan muntazam qo‘shinga tayanib yirik zodagonlar va Orolbo'yi o‘zbeklari qarshiligini sindirdi",
+"Uning davrida koshinkorlik san’ati yuksak cho‘qqiga chiqdi. Bu san’at, ayniqsa, Pahlavon Mahmud maqbarasi va Ko‘hna arkni koshin bilan bezatishda o‘zining yorqin ifodasini topdi",
+"Shahrisabz va Kitob bekliklarini to‘la bo‘ysundirish uchun kurash 30 yil davom etdi. Nihoyat, 1856-yildagina u Shahrisabz va Kitobni bo‘ysundirishga muvaffaq bo‘ldi.",
+"1805-yilda birinchi bo‘lib xonlikda 10 ming kishilik muntazam qo‘shin tuzdi. Bu qo‘shinning asosini tog‘li tojiklar tashkil etdi"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Quyida berilgan ma’lumotlarni o‘qing.",
+"opts": [
+"I-to‘g‘ri; II-noto‘g‘ri; III-noto‘g‘ri; IV-to‘g‘ri; V-to‘g‘ri",
+"I-noto‘g‘ri; II-to‘g‘ri; III-noto‘g‘ri; IV-to‘g‘ri; V-noto‘g‘ri",
+"I-to‘g‘ri; II-noto‘g‘ri; III-to‘g‘ri; IV-noto‘g‘ri; V-noto‘g‘ri",
+"I-noto‘g‘ri; II-to‘g‘ri; III-to‘g‘ri; IV-to‘g‘ri; V- noto‘g‘ri"
+],
+"ans": "C",
+"extra": "I. 1896-yilda Namangan uyezdining Oqsuv– Shahrixon volostidagi Naymanchi, Ko‘hna mozor, Langarbob qishloqlarida aholining mingboshilar saylovlaridagi noroziligi oshkora qo‘zg‘olonga aylanib ketdi;\nII. Mitra o'tli chaqmoqlar yordamida Zardusht yovuzlik va o'lim xudosi bo'lmish Ahuramazda bilan jang qiladi;\nIII. K. P. Kaufman Xivani egallagandan so‘ng Xiva xonligi bilan muzokaralar o‘tkazish uchun Gandimiyon qishlog‘idagi qarorgohiga bordi;\nIV. Fransiyada 1381-yilning may oyida soliq yig'uvchilar bedodligidan “jakkeriya” qo’zg’aloni boshlandi;\nV. 1992-yil Qirg‘iziston sotsial-demokratik partiyasi yetakchisi Nursulton Nazarboyev prezident etib saylandi. Ushbu ma’lumotlarning yakuniy xulosasi (to‘g‘ri/noto‘g‘ri) keltirilgan javobni aniqlang."
+},
+{
+"n": 14,
+"q": "“… Qo‘qon shahrida yashab, ayollarning jamiyat va oiladagi haq-huquqsiz ahvoli to‘g‘risida achchiq haqiqatlarni qalamga oldi. Ayollarning erkinligi va teng huquqli bo‘lishi uchun kurashga da’vat etgani uchun shahardagi mutaassib kayfiyatdagi kuchlar tomonidan kaltaklan di va ko‘p o‘tmay hayotdan ko‘z yumdi”. Nuqtalar o’rniga berilgan to’g’ri javobni toping.",
+"opts": [
+"Dilshodi Barno",
+"Zavqiy",
+"Muqimiy",
+"Anbar otin"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Quyidagi jadvalning qaysi qatordagi javoblar mos ravishda berilgan? № Davlat Voqea Davlat rahbari (noib) 1 Germaniya o'z istilolarini salib yurishlari tufayli boyib ketgan Italiya shaharlariga qaratadi Fridrix I Barbarossa 2 Buxoro amirligi Nurullaboy nomi bilan ataluvchi saroy u tomonidan qurilgan Muhammad Rahimxon I 3 Arab Xalifaligi 705-yilda Balx viloyati atroflarini zabt etishni boshlaydi Qutayba 4 AQSH 1912-yilgi prezident saylovlarida demokratik partiya g‘alaba qozondi",
+"opts": [
+"1,2,4,6",
+"2,4,5,6",
+"1,3,4,6",
+"1,3,5,6"
+],
+"ans": "C",
+"extra": "V.Vilson 5 Chexiya Vltava daryosi havzasida yashagan slavyan qabilalarini bo'ysundurdi Meshko 6 Sparta Fermopil darasidagi jangda qatnashdi Leonid",
+"img": "img/dtm/zn-16-15.jpg"
+},
+{
+"n": 16,
+"q": "1925-yil O'zbekiston Kompartiyasi Markaziy Komiteti mas'ul sekretarlari qilib Vladimir Ivanov va … saylandi. Nuqtalar o’rnidagi to’g’ri ko’rsatilgan rahbarni toping.",
+"opts": [
+"Fayzulla Xo’jayev",
+"Yo'ldosh Oxunboboyev",
+"Akmal Ikromov",
+"Amin Niyozov"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "AQSHda 2000-yil …   .",
+"opts": [
+"saylovlarda respublikachilar vakili kichik Jorj Bush prezident etib saylandi",
+"Mamlakatda makkartizm avj oldi",
+"Tabiiy boyliklar, birinchi o‘rinda tabiiy gazning juda katta zaxiralari ko‘plab mamlakatlar va transmilliy korporatsiyalarni o‘ziga jalb qilishni boshladi",
+"«shok terapiyasi» jamiyatda ijtimoiy tanglikni oshirdi"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan oldinroq sodir bo`lgan ?",
+"opts": [
+"Xorazm Sovet Sotsialistik Respublikasi (XSSR)ga aylantirish to'g'risida qaror qabul qildi",
+"Nyu-Yorkda namoyish qilingan «Jaz kuychisi» filmini mutaxassislar birinchi ovozli kino deb tan olishgan",
+"Turkiston Muxtoriyati tashkil etildi",
+"\"Hujum\" kompaniyasini o'tkazish uchun O'rta Osiyo respublikalari, xususan, O'zbekistonda maxsus komissiyalar tuzildi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "“Birinchi jahon urushida mag‘lubiyatga uchradi. Urushdan keyin bu yerda inqilobiy voqealar sodir bo‘ldi. Inqilob 1918-yil noyabrga kelib mamlakatning barcha yirik shaharlarini qamrab oldi. Noyabr inqilobi g‘alaba qozonib, mamlakatda respublika deb e’lon qilindi”. Quyidagi berilgan ta’rif qaysi davlat tarixiga oid?",
+"opts": [
+"Germaniya",
+"Fransiya",
+"SSSR",
+"Italiya"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Ichki bozorni ma’lum cheklovlar (import va eksport boj to‘lovlari, subsidiyalar va boshqa tadbirlar) orqali chet el raqobatidan himoya qilishga qaratilgan siyosat quyidagi qaysi atama bilan nomlanadi?",
+"opts": [
+"Proteksionizm",
+"Multikulturalizm",
+"Izolatsionizm",
+"Neytralitet"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Tarixiy voqealar to`g`ri xronologik ketma-ketlikda ko`rsatilgan javobni toping",
+"opts": [
+"1,4,2,3",
+"2,3,1,4",
+"3,4,1,2",
+"4,3,1,2"
+],
+"ans": "B",
+"extra": "1) “O‘zbekiston Respublikasi Vazirlar Mahkamasi to‘g‘risida”gi (yangi tahriri) qonun qabul qilindi;\n2) Parijda Mirzo Ulug‘bek haftaligi tantana bilan o‘tdi;\n3) Shu yildan mamlakatimizda har yili 1-sinf o‘quvchilariga bepul o‘quv anjomlari, darsliklarni berish joriy etildi;\n4) Xitoyda o‘tkazilgan 23 yoshgacha bo‘lganlar o‘rtasida o‘tkazilgan Osiyo chempionatida O‘zbekiston terma jamoasi g‘oliblikni qo‘lga kiritdi."
+},
+{
+"n": 22,
+"q": "Quyida keltirilgan ma`lumotlar ( voqealar ) ….ga aloqador - XIV asr boshlariga kelib, Kichik Osiyodagi bu davlat parchalanib ketadi; - hukmdori Malikshoh; - Amirlar rasman mavjud sulolani hukmronligini tan olsalar-da, amalda o'z mulklarini mustaqil boshqarganlar; - XII-XIII asrlarda yer egaligiga asoslangan davlat uzil-kesil shakllandi.",
+"opts": [
+"Saljuqiylar davlati",
+"G’aznaviylar davlati",
+"Usmonlilar davlati",
+"Dehli sultonligi"
+],
+"ans": "A",
+"img": "img/dtm/zn-16-22.jpg"
+},
+{
+"n": 23,
+"q": "Quyidagilardan anushteginiylar sulolasi tarixiga oid bo`lganlarini aniqlang.",
+"opts": [
+"2,3,4",
+"1,4,5",
+"1,2",
+"1,5"
+],
+"ans": "D",
+"extra": "1) Kaspiy dengizi sohillaridan to Sirdaryoning o‘rta oqimiga qadar bo‘lgan yerlarda davlatning poydevorini barpo etadi;\n2) mamlakat boshqaruvida viloyat hukmdori voliy, shahar hokimi rais deb yuritilgan. Viloyatda boshqaruv ishlari amid, shaharlarda esa kutvol tomonidan amalga oshirilgan;\n3) mamlakat keskin zarbaga uchrab, zaiflashib qoladi, natijada dastavval undan Kichik Osiyo va Kermon ajralib ketadi;\n4) mamlakatda hukmdorlar o‘z hukmronligini mustahkamlab olishda musulmon ruhoniylari (imomlar, sayyidlar, shayxlar va sadrlarga) bilan yaqin va do‘stona munosabatlar o‘rnatadilar;\n5) XIII asr boshlarida mamlakat juda keng maydonni egallagan buyuk davlatga aylangan edi. Uning shimoli g‘arbiy va g‘arbiy chegarasi Orol va Kaspiy dengiz sohillariga qadar boradi."
+},
+{
+"n": 24,
+"q": "Quyidagi ma’lumotlarni berilgan rahbarlarga moslashtiring. 1952-yil fevralda \"Respublikada mafkuraviy ishning ahvoli va uni yaxshilash choralari to'g'risida\" ma'ruza qildi(a). Moskvaga SSSR Paxtachilik ministri lavozimiga tayinlandi(b)",
+"opts": [
+"a-Amin Niyozov; b-Usmon Yusupov",
+"a-Sobir Kamolov; b-Nuriddin Muhitdinov",
+"a-Sobir Kamolov; b-Yo'ldosh Oxunboboyev",
+"a-Nuriddin Muhitdinov; b-Usmon Yusupov"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Ikki jahon urishi oralig’ida bir qator davlatlarda totalitar tuzumlarning qaror topishida, ijtimoiy ziddiyatlarning keskinlashuvi-da namoyon bo‘ldi. Javoblar ichida shu davlatlar qatoriga kirmagan(totalitar tuzum qaror topmagan)larini toping.",
+"opts": [
+"Germaniya, Italiya",
+"Yаponiya, SSSR",
+"Italiya, Yаponiya",
+"Xitoy, Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Qadimgi dunyo tarixi bilan bog‘liq qaysi ma’lumotlar to‘g‘ri?",
+"opts": [
+"I va IV",
+"II va III",
+"I va II",
+"III va IV"
+],
+"ans": "B",
+"extra": "I. Qadim zamonlarda bobilliklar Frot va Dajla daryolari yuqori oqimidagi kichik hududni egallashgan;\nII. Afinada Mil. avv. 594-yilda Solon davlatni idora qilishning oldingi tizimini o'zgartirdi;\nIII. Mil. avv. 330-yilda Makedoniyalik Aleksandr Qadimgi Fors davlatining Ahamoniylar sulolasidan bo'lgan oxirgi shoh Doro III ning qo'shinlarini tor-mor keltirdi;\nIV. Guptalar davlati ulkanligi bois hukmdorlar uni “Osmon ostidagi podsholik” deb atashgan."
+},
+{
+"n": 27,
+"q": "“Loy jangi” g‘alabasidan so‘ng Ilyosxo’ja hech qanday qarshilikka uchramay (1), (2) shaharlarini egallab, (3) ustiga yurish qiladi.",
+"opts": [
+"1-Xo’jand; 2-Jizzax; 3-Samarqand",
+"1-O’ratepa; 2-Shohruxiya; 3-Buxoro",
+"1-Hirot; 2-Balx; 3-Nishopur",
+"1-O’ratepa; 2-Jizzax; 3-Samarqand"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Nechanchi yili Shotlandiyada Buyuk Britaniyadan ajralib chiqish masala sida umumxalq referendumi o‘tkazilib, unda 45% aholi mus taqillik uchun ovoz berdi?",
+"opts": [
+"2017-yil",
+"2014-yil",
+"1999-yil",
+"2002-yil"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Quyidagi qaysi shaharda O’rta asrlarda kitob chop etish yuksalgan. Nashr qilingan antik davr mualliflari va gumanistlar asarlari butun Yevropada keng tarqalgan?",
+"opts": [
+"Venetsiya",
+"Florensiya",
+"Konstantinopol",
+"Genuya"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Quyidagilardan qaysi javobdagi shaxsga \"Milliy Ittihod\" tashkiloti a'zolari va \"bosmachilar\" bilan aloqa bog'lagan ayblovi e’lon qilindi?",
+"opts": [
+"Sa'dulla Qosimov",
+"Ashurali Zohiriy",
+"Shamsutdin Badriddinov",
+"Mannon Ramziy"
+],
+"ans": "C"
+}
+]
+}
