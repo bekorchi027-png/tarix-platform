@@ -107,6 +107,17 @@
 "extra": "1) Afg‘onistonda tinchlikni ta’minlash maqsadida NATO tarkibidagi qurolli kuchlarni joylashtirish;\n2) Bosh Assambleyaning “Ma’rifat va diniy bag‘rikenglik” deb nomlangan maxsus rezolyutsiyani qabul qilish\n3) BMTning Yoshlar huquqlari to‘g‘risidagi xalqaro konvensiyani ishlab chiqish;\n4) Orolni qutqarish xalqaro jamg‘armasini tashkil etish;\n5) Markaziy Osiyoda suv resurslaridan oqilona foydalanish."
 },
 {
+"n": 10,
+"q": "Uchlar Ittifoqi tashkil etilgan davrda Avstriya-Vengriya (a) va Italiya (b) imperatori kim edi?",
+"opts": [
+"a – Vilgelm I, b – Viktor Emmanuel II",
+"a – Vilgelm I, b – Viktor Emmanuel III",
+"a – Frans Iosif I, b – Viktor Emmanuel III",
+"a – Frans Iosif II, b – Umberto II"
+],
+"ans": "C"
+},
+{
 "n": 11,
 "q": "Quyidagi Yevropa hukmdorlaridan qay biri uchinchi salib yurishlarida ishtirok etgan?",
 "opts": [
@@ -188,6 +199,30 @@
 "img": "img/dtm/bmba-04-17.jpg"
 },
 {
+"n": 18,
+"q": "Quyida Xiva xonligi bilan bog‘liq tarixiy voqealar (ma’lumotlar) berilgan. Qaysi javobda ushbu voqealar to‘g‘ri xronologik ketma-ketlikda ko‘rsatilgan?",
+"opts": [
+"1, 2, 3, 6, 5, 4",
+"1, 2, 3, 6, 5, 4",
+"2, 1, 6, 3, 4, 5",
+"1, 3, 2, 5, 6, 4"
+],
+"ans": "A",
+"extra": "1) shayboniylar sulolasi hukmronligi rasman tugatildi;\n2) Oydo‘stbiy boschiligida qo‘zg‘olon ko‘tarildi;\n3) inoq lavozimi bekor qilindi;\n4) Kalta minor minorasi qurib bitkazildi;\n5) Dishan qal’a qurildi;\n6) Rossiya bilan “Majburiyatlar akti” imzolandi.",
+"img": "img/dtm/bmba-04-18.jpg"
+},
+{
+"n": 19,
+"q": "Rossiya (a) va Buyuk Britaniya (b) Qora dengizga chiqish huquqini ko‘zda tutgan shartnomalar nechanchi yillarda imzolangan?",
+"opts": [
+"a – 1774-yil, b – 1878-yil",
+"a – 1721-yil, b – 1878-yil",
+"a – 1774-yil, b – 1888-yil",
+"a – 1721-yil, b – 1888-yil"
+],
+"ans": "A"
+},
+{
 "n": 20,
 "q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni toping.",
 "opts": [
@@ -211,6 +246,40 @@
 "ans": "D",
 "extra": "a) Bag‘dod shahrini qayta qurdirib, obod qildi;\nb) “keshik” deb atalgan maxsus qo‘shin tuzdi;\nc) Dehli shahrini egalladi; d) Xitoyning shimoliy hududlarini bo‘ysundirdi; e) Xorazm yerlarini egalladi; f) Mahmud Yalavochni Pekin shahriga hokim etib tayinladi.",
 "img": "img/dtm/bmba-04-21.jpg"
+},
+{
+"n": 22,
+"q": "1918–1935-yillarda bo‘lib o‘tgan istiqlolchilik harakatining eng zaif tomonlari qaysi javoblarda keltirilgan?",
+"opts": [
+"1, 3",
+"2, 3",
+"1, 5",
+"4, 5"
+],
+"ans": "C",
+"extra": "1) harakatning Turkiston mintaqasida yagona markaz ostida to‘liq birlasha olmaganligi;\n2) turkiylarning turkistonliklar va buxoroliklardan boshqa xalqlari harakatni qo‘llab-quvvatlamaganligi;\n3) harakat vujudga kelgan davrdan unda asosiy g‘oya va maqsad bo‘lmaganligi;\n4) jadidchilik harakati a’zolari va qo‘rboshilar o‘rtasida kelishuvga erishilmaganligi;\n5) harbiy tayyorgarlikning yetarli darajada emasligi."
+},
+{
+"n": 23,
+"q": "Ma’lumki, 1890-yillarda Fransiyada “Dreyfus ishi” deb nom olgan jinoyat ishi qo‘zg‘atilgan. Siyosiy kuchlar bu jinoyat ishidan, asosan, qanday maqsadda foydalanganlar?",
+"opts": [
+"mamlakatda respublikachilik g‘oyalarini mustahkamlash",
+"sotsialistik va kommunistik qarashlarning tarqalishini rag‘latlanrish",
+"monarxiyani qayta tiklash harakatini qo‘llab-quvvatlash",
+"aholi orasida demokratiyaga qarshi tashviqotni kuchaytirish"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Mustamlakachilik jabr-zulmiga qarshi ko‘tarilgan qozg‘olonlardan qaysi birida qo‘zg‘olonchilar kurash usullarini o‘zgartirib, boylar va volost boshliqlarining qarorgohlariga hujum uyushtirganlar?",
+"opts": [
+"1878-yil Mingtepadagi Yetimxon boshchiligidagi qo‘zg‘olon",
+"1896-yil Namangan uyezdining Oqsuv-Shahrixon uyezdidagi qo‘zg‘olon",
+"1879-yil Marg‘ilon uyezdidagi qo‘zg‘olon",
+"1885-yil Andijonda Darvishxon boshchiligidagi qo‘zg‘olon"
+],
+"ans": "C"
 },
 {
 "n": 25,
@@ -258,6 +327,18 @@
 "ans": "D",
 "extra": "1) 1907-yilda ingliz shifokori o‘ldirilishi ortidan Buyuk Britaniya bilan munosabatlar keskinlashdi;\n2) 1912-yilda Fransiya mustamlakasiga aylantirildi;\n3) jahon urushlari oralig‘ida Habib Burg‘iba boshchiligida milliy-ozodlik harakatlari avj oldi;\n4) jahon urushlari oralig‘ida Abdul Karim boshchiligida milliy-ozodlik harakatlari avj oldi;\n5) 1958-yilda boshlangan fuqarolar urushi 3 ming kishining oʻlimiga olib keldi;\n6) poytaxt shahrida 1960-yillar oxirlarida bo‘lib o‘tgan yig‘ilishda “Islom konferensiyasi” tashkilotiga asos solindi.",
 "img": "img/dtm/bmba-04-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi o‘zaro mos berilgan qatorlarni aniqlang. № Voqea Natija 1 Argentinada jahon tarixidagi eng yirik bankrotlik holati Lotin Amerikasi mamlakatlari modernizatsiyalashning neokonservativ yo‘liga nuqta qo‘yib, neoliberal yo‘nalishga o‘tishdi 2 Oktyabr inqilobi Rossiyada fuqarolar urushi boshlandi 3 Nyu York fond birjasidagi inqiroz (1929) kapitalistik xoʻjalik shaklining monopolistik kapitalizm deb atalgan yangi davri boshlandi 4 V Panafrika kongressi Afrikada birinchi siyosiy partiya – Afrika Milliy Kongressi tashkil etildi 5 Yetti yillik urush Fransiya Hindiston va Shimoliy Amerikadagi mustamlakalaridan ayrildi 6 Gandimiyon shartnomasi Xiva xonligi hududi uch baravar qisqarib ketdi Misr SSSR bilan barcha aloqani uzib, AQSH yordamida iqtisodiy rivojlanishni boshladi",
+"opts": [
+"1, 3, 4, 6",
+"2, 5, 6, 7",
+"1, 2, 5, 7",
+"2, 3, 6, 7"
+],
+"ans": "B",
+"img": "img/dtm/bmba-04-29.jpg"
 },
 {
 "n": 30,

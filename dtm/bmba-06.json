@@ -2,6 +2,17 @@
 "id": "bmba-06",
 "items": [
 {
+"n": 1,
+"q": "Indoneziyada 2001-yilda Megavati Sukarnoputrining hokimiyatga kelishi … .",
+"opts": [
+"iliq qarshi olindi, rupiyaning kursi tezda oshib ketdi",
+"islom fundamentalistlarining hokimiyatga kelishi oldi olindi",
+"janubdagi musulmon ayirmachilarining tor-mor qilinishiga olib keldi",
+"o‘lim jazosinining qayta tiklanishiga olib keldi"
+],
+"ans": "A"
+},
+{
 "n": 2,
 "q": "Quyidagi berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. XVII asr ikkinchi yarmi XVIII asr boshlarida parchalanayotgan imperiyani saqlab qolishning yo‘li sifatida islom dini qoidalarini qat’iy joriy qilishga kirishdi. Musulmon bo‘lmaganlardan olinadigan jizya solig‘ini qayta tikladi, hindlar uchun qolgan barcha soliqlarni ikki hissaga oshirdi, ularga o‘z bayramlarini nishonlashni taqiqladi, hind ibodatxonalarini buzib tashlashni buyurdi. Oqibatda, mamlakat bo‘ylab xalq qo‘zg‘olonlari boshlanib ketdi.",
 "opts": [
@@ -33,6 +44,30 @@
 "Bobil va qo‘shni o‘lkalar o‘rtasida savdo ishlarida muhim rol o‘ynagan"
 ],
 "ans": "A"
+},
+{
+"n": 5,
+"q": "Quyidagi tarixiy voqealar (ma’lumotlar) to‘g‘ri xronologik ketma-ketlikda ko‘rsatilgan javobni toping.",
+"opts": [
+"1, 2, 3, 5, 4, 6",
+"1, 2, 3, 4, 5, 6",
+"1, 3, 2, 5, 4, 6",
+"1, 2, 3, 5, 6, 4"
+],
+"ans": "A",
+"extra": "1) „Monro doktrinasi“ qabul qilindi;\n2) Hind daryosi bo‘yida yashovchi afg‘on qabilalari inglizlarga bo‘ysundirildi;\n3) Angliya-Fransiya o‘rtasida savdo shartnomasi imzolandi;\n4) Bolgariyada milliy ozodlik harakatlarining rahbari Vasil Levskiy qatl etildi;\n5) Italiya davlati tarkibiga Rim viloyati qo‘shib olindi;\n6) Fransiyada Uchinchi Respublikasi e’lon qilindi."
+},
+{
+"n": 6,
+"q": "Ma’lumki, XVIII – XIX asrda Qo‘qon xonligida kata bunyodkorlik ishlari amalga oshirilgan. Quyidagilardan ushbu davrda Qo‘qon xonligida barpo qilingan madrasalar to‘liq va to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"1, 2, 3, 6, 7, 8, 9, 10, 11, 12",
+"1, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+"1, 2, 3, 4, 5, 8, 9, 10, 11, 12",
+"1, 2, 3, 4, 5, 6, 7, 10, 11, 12"
+],
+"ans": "C",
+"extra": "1) Madalixon;\n2) Kamol qozi;\n3) Tunqator;\n4) Haqquli mingboshi;\n5) Miyon hazrat;\n6) Ernazar elchi;\n7) Nodirabegim;\n8) Hakim To‘ra;\n9) Xonxoja eshon;\n10) Buzrukxo‘ja;\n11) Xolmuhammad yasovul;\n12) Xojabek."
 },
 {
 "n": 7,
@@ -69,6 +104,29 @@
 "ans": "A"
 },
 {
+"n": 10,
+"q": "Ilk o‘rta asrlardagi shahriston qurilishi qaysi shaharlardagi arxeologik tadqiqotlarorqali o‘rganilgan?",
+"opts": [
+"2, 3, 4",
+"1, 4, 6",
+"2, 3, 5",
+"2, 4, 5"
+],
+"ans": "A",
+"extra": "1) Quva;\n2) Panjikent;\n3) Poykand\n4) Afrosiyob;\n5) Varaxsha;\n6) Vardonze."
+},
+{
+"n": 11,
+"q": "Qo‘qon xonligida harbiylarga berilgan yerlar qanday nom bilan atalgan?",
+"opts": [
+"muki hur xolis",
+"tarxon yerlari",
+"chek yerlari",
+"tanho yerlari"
+],
+"ans": "C"
+},
+{
 "n": 12,
 "q": "O‘zaro muvofiqlik saqlangan javobni toping.",
 "opts": [
@@ -79,6 +137,18 @@
 ],
 "ans": "A",
 "extra": "I. Qadimgi Misr; II. Qadimgi O‘rta Osiyo;\nIII. Mesopotamiya; IV. Qadimgi Hindiston;\na) Anahita; b) Sina; c) Anubis; d) Ganesha;\n1) marhumlar va mumiyolanganlar xudosi;\n2) hosildorlik va suv ilohasi;\n3) donishmandlik xudosi;\n4) Oy xudosi."
+},
+{
+"n": 13,
+"q": "Quyidagilardan 1800–1870-yillar tarixiga oid BO‘LMAGANlarini aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 3, 6",
+"2, 5, 6"
+],
+"ans": "B",
+"extra": "1) II Internatsional;\n2) “Narx-navo inqilobi”;\n3) “Ems depeshasi”;\n4) Kuchukqaynarji shartnomasi;\n5) “Uchlar ittifoqi”;\n6) “Sharafli inqilob”."
 },
 {
 "n": 14,
@@ -103,6 +173,17 @@
 "ans": "C"
 },
 {
+"n": 16,
+"q": "Quyidagilardan Turkiston o‘lkasida 1917-yilda nashr qilina boshlagan ommaviy axborot vositasi berilgan javobni aniqlang.",
+"opts": [
+"«Sadoi Farg‘ona»",
+"«El bayrog‘i»",
+"«Ulug‘ Turkiston»",
+"«Hurriyat»"
+],
+"ans": "C"
+},
+{
 "n": 17,
 "q": "Quyidagi qaysi shaharda XIX asr oxiri XX asr boshlarida Rossiya–Osiyo va  Sibir savdo  bankining  bo‘limlari,  pochta-telegraf idorasi,  komission va  sug‘urta jamiyatlarining  vakolatxonalari  ochilgan?",
 "opts": [
@@ -112,6 +193,17 @@
 "Xiva"
 ],
 "ans": "C"
+},
+{
+"n": 18,
+"q": "Qo‘qon xonligida qanday yer egaligidan olingan daromad saroy ahli va soqchilari xarajatlari uchun sarflangan?",
+"opts": [
+"xos mulk",
+"taqiq yer",
+"chek yer",
+"vaqf yeri"
+],
+"ans": "A"
 },
 {
 "n": 19,
@@ -151,6 +243,17 @@
 "img": "img/dtm/bmba-06-21.jpg"
 },
 {
+"n": 22,
+"q": "Erkin iqtisоdiy zоnа – bu …",
+"opts": [
+"bunday zоnаlаrdа bоzоr iqtisоdiyotining оchiq tizimi tаshkil etilаdi. Хоrijiy vа milliy tаdbirkоrlаr uchun qulаy, imtiyozli shаrоit yarаtilаdi",
+"bu zоnаlаr аlоhidа mаqоmgа egа bo‘lаdi. Mахsus imtiyoz vа chеgirmаlаr аsоsidа sаvdо, bоj imkоniyatlаri bеrilаdi",
+"bu zоnаlаrdа kоrхоnаlаr fаоliyatini jаdаllаshtirish, sаnоаtni mоdеrnizаtsiya qilish, ichki bоzоrni tоvаrlаr bilаn to‘ldirish, ekspоrt- impоrtni kеngаytirish аmаlgа оshirilаdi",
+"bu zоnаlаrdа yangi tехnоlоgiyalаrni o‘zlаshtirish, аlоhidа sоhаdаgi sаnоаtni rivоjlаntirish, hududning o‘zigа хоs ijtimоiy imkоniyatlаri hisоbgа оlingаn хоldа mахsus sаnоаt mаhsulоtlаrini ishlаb chiqаrish tаshkil etilаdi"
+],
+"ans": "A"
+},
+{
 "n": 23,
 "q": "Quyidagi tarixiy ma’lumot qaysi davlat haqida ekanligini aniqlang. “Ushbu davlatda burjua inqilobi XVII asrda boshlandi. Ushbu inqilob natijasida mutlaq monarxiya tuzumi ag‘darib tashlandi. Ushbu davlatda yuz bergan burjua inqilobi va uning g‘oyalari boshqa Yevropa mamlakatlari rivojiga katta ta’sir ko‘rsatdi. Inqilob e’lon qilgan siyosiy tamoyillar va o‘rnatilgan iqtisodiy tartib yangi industrial sivilizatsiyaga asos bo‘ldi.”",
 "opts": [
@@ -171,6 +274,18 @@
 "So‘nggi paleolit – urug‘ jamolariga birlashuv – o‘q-yoyning kashf etilishi – sun’iy olov"
 ],
 "ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi Ma’lumki, Muhammad Amin inoq Xiva xonligida inoqlik lavozimiga ko‘tarilgandan so‘ng turkman qabilalariga qarshi kurash olib boradi. Lekin, u dastlab muvaffaqiyatsizlikka uchrab Buxoro amirligiga – Doniyolbiy otaliq huzuriga ketishga majbur bo‘ladi. Ayni shu vaqtda turkman qabilalari tomonidan Xorazmning qaysi shaharlari xonavayron qilinganligini aniqlang.",
+"opts": [
+"1, 3, 4, 5, 7",
+"1, 2, 4, 6, 7",
+"2, 3, 4, 6, 8",
+"1, 2, 3, 5, 7"
+],
+"ans": "A",
+"extra": "1) Hazorasp;\n2) Xonqa;\n3) Xo‘jayli;\n4) Shohobod;\n5) Pitnak;\n6) Urganch;\n7) Kat;\n8) Gurlan"
 },
 {
 "n": 26,

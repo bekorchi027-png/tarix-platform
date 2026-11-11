@@ -35,6 +35,18 @@
 "ans": "C"
 },
 {
+"n": 4,
+"q": "Quyidagilardan qaysilari Koreyada 1785-yilda qabul qilingan “Qonunlarning buyuk to‘plami”ga muvofi q EMAS?",
+"opts": [
+"1, 4",
+"2, 3",
+"2, 4",
+"3, 5"
+],
+"ans": "D",
+"extra": "1) so‘roq qilish paytida qiynoqning eng og‘ir turlari taqiqlandi;\n2) ocharchilik holati uchun maxsus don omborlari tashkil qilindi;\n3) chet elliklar bilan har qanday aloqa uchun o‘lim jazosi belgilandi;\n4) guruchdan spirtli ichimlik olish man qilindi;\n5) yerni sotish, sotib olishga, uni xususiy mulkka aylantirishga ruxsat berildi."
+},
+{
 "n": 5,
 "q": "Quyidagilardan XIX asrda hukmronlik qilgan hukmdorlarni belgilang.",
 "opts": [
@@ -58,6 +70,17 @@
 "ans": "C"
 },
 {
+"n": 7,
+"q": "Quyidagi qaysi ma’lumot o‘rta tosh davriga oid?",
+"opts": [
+"neandertal odami yashagan",
+"odamlar sun’iy olov hosil qilishni o‘rgangan",
+"ibtidoiy ziroatchilik va chorvachilik vujudga kelgan",
+"odamlar o‘rtoq turmush tarziga o‘ta boshlagan"
+],
+"ans": "D"
+},
+{
 "n": 8,
 "q": "Quyida berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
 "opts": [
@@ -68,6 +91,17 @@
 ],
 "ans": "D",
 "img": "img/dtm/bmba-07-8.jpg"
+},
+{
+"n": 9,
+"q": "Qaysi hodisa butun Yevropada kapitalistik munosabatlarning hukmron tartibga aylanishini boshlab berdi?",
+"opts": [
+"Buyuk geografik kashfiyotlar",
+"Buyuk fransuz burjua inqilobi",
+"O‘ttiz yillik urush",
+"ingliz burjua inqilobi"
+],
+"ans": "B"
 },
 {
 "n": 10,
@@ -118,6 +152,17 @@
 "extra": "1) Koreya yepiskopligi tuzilganligining e’lon qilinishi;\n2) Taypinlar qo‘zg‘olonining boshlanishi;\n3) “Birinchi afyun urushi”ning boshlanishi;\n4) Birinchi ingliz-afg‘on urushining boshlanishi;\n5) “Bobiylar qo‘zg‘oloni”ning boshlanishi;\n6) “Qrim urushi”ning boshlanishi."
 },
 {
+"n": 14,
+"q": "Qaysi xiva xoni davrida “qoraqalpoq ulusi” shakllantirilgan edi?",
+"opts": [
+"Ollohqulixon",
+"Muhammad Rahimxon I",
+"Asfandiyorxon",
+"Muhammad Aminxon"
+],
+"ans": "B"
+},
+{
 "n": 15,
 "q": "Nima sababdan Shaybonixonning o‘limidan so‘ng taxtga bevosita uning avlodlari o‘tira olmagan?",
 "opts": [
@@ -151,6 +196,18 @@
 ],
 "ans": "B",
 "extra": "1) Angliya − Genrix II;\n2) Fransiya − Karl VIII;\n3) Dehli sultonligi − … ;\n4) Mali davlati − … ;\n5) Songai davlati − … ."
+},
+{
+"n": 18,
+"q": "Qaysi qatorlarda tarixiy jarayonga sabab bo‘lgan voqelik to‘g‘ri ko‘rsatilgan?",
+"opts": [
+"1, 2, 3",
+"1, 2, 3, 5",
+"2, 3, 4, 5",
+"4, 5"
+],
+"ans": "A",
+"extra": "1) Bobur Mirzo Samarqand taxtini birinchi marta egallagandan so‘ng keyinchalik uni tashlab chiqishiga Boburing dushmanlari Farg‘ona taxtiga ukasi Jahongirni o‘tqazish uchun ko‘targan isyon  sabab bo‘lgan edi;\n2) Shayboniyxon 1500-yilda Samarqandni jangsiz egallashiga onasining gapi bilan ish tutgan Sulton Ali Mirzoning kaltabinligi sabab bo‘lgan edi;\n3) Ashtarxoniy Nodir Muhammad davrida davlatchilik asoslari zaiflashuviga xonning mamlakat viloyatlarini o‘g‘illariga va yaqin qarindoshlariga mulk qilib taqsimlab berganligi sabab bo‘lgan edi;\n4) Buxoroni qamal qilayotgan Eron shohi Nodirshohning o‘g‘li Rizoqulining qo‘shinni orqaga qaytarib ketishiga Qarshidan Muhammad Hakimbiyning yordamga kelayotganligi sabab bo‘lgan edi;\n5) XVIII asr birinchi yarmida jung‘orlarga qarshi kurashgan o‘zbek qabilalarining ittifoqi uzoqqa cho‘zilmaganiga minglar tomonidan qipchoqlar va qirg‘izlarga nisbatan jabr-zulm, talonchililik kuchayganligi sabab bo‘lgan edi."
 },
 {
 "n": 19,
@@ -245,6 +302,17 @@
 "ans": "D"
 },
 {
+"n": 27,
+"q": "Quyidagi qaysi urushda SSSR tomonidan urushda qatnashayotgan harbiylarni oziq­ovqat, kiyim­kechak, qurol­yarog‘ va boshqa zaruratlar bilan ta’minlash uchun 100 mlrd rubldan ortiq mablag‘ sarflagan?",
+"opts": [
+"Ikkinchi jahon urushi",
+"sovet-fin urushi",
+"SSSR-Vengriya urushi",
+"sovet-afg‘on urushi"
+],
+"ans": "D"
+},
+{
 "n": 28,
 "q": "Quyidagi xaritada nechanchi raqam bilan ko‘rsatilgan hudud (davlat)da o‘ziga xos, siri faqat ruhoniylargagina ma’lum bo‘lgan “kipu” deb ataluvchi xat bo‘lgan?",
 "opts": [
@@ -255,6 +323,18 @@
 ],
 "ans": "C",
 "img": "img/dtm/bmba-07-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalda ma’lumotlar to‘g‘ri moslashtirilgan qatorlarni toping. № Davlat Voqea Hukmdor Arab xalifaligi arablar jangsiz Marv shahrini egalladi Usmon Fransiya qo‘shimcha jon solig‘i joriy etildi Richard II Hindistonda o‘z nomidan oltin va kumush tangalar zarb ettirdi G‘aznaviylar davlati dvoryan bo‘lmagan qatlamga ham davlat xizmatida ishlash imkoniyati yaratildi Koreya Mahmud Qirol Kojon Rossiya Alyaska AQSHga sotib yuborildi Aleksandr II",
+"opts": [
+"1, 4, 5",
+"1, 3, 4",
+"3, 4, 5",
+"2, 3, 5"
+],
+"ans": "C",
+"img": "img/dtm/bmba-07-29.jpg"
 },
 {
 "n": 30,

@@ -47,6 +47,18 @@
 "ans": "C"
 },
 {
+"n": 5,
+"q": "Quyidagilardan VII asrda bo‘lib o‘tgan voqealar berilgan javobni aniqlang.",
+"opts": [
+"1, 3, 4",
+"1, 2, 3",
+"2, 3, 4",
+"1, 2, 4"
+],
+"ans": "A",
+"extra": "1) G‘arbiy turk xoqonligi hukmdorlik qarorgohini Choch viloyatiga ko‘chiradi;\n2) Turk xoqonligi ikki qismga bo‘linib ketdi;\n3) G‘arbiy turk xoqonligi bilan Xitoy o‘rtasida iqtisodiy aloqalar faollashdi. Bu davrda Xitoyga to‘qqiz marotaba savdo elchilari yuboriladi;\n4) Muoviya I farmoni bilan Ubaydulloh ibn Ziyod Buxoro hududiga bosritib kirdi."
+},
+{
 "n": 6,
 "q": "Quyidagi ma’lumotlarni qaysi hukmdor davrida sodir bo‘lganligi bo‘yicha to‘g‘ri muvofiqlashtiring.",
 "opts": [
@@ -284,6 +296,17 @@
 ],
 "ans": "B",
 "extra": "1) Oʻrta asrlar davrida oʻziga xos yuksak madaniyati bilan Yevropaning eng ilgʻor mamlakati boʻlib qoldi;\n2) VIII asrda “Ziroatchilik qonunlari” yozildi;\n3) Bu davlat hukmdoriga arab xalifasi Horun ar-Rashid o‘z elchilari orqali qimmatbaho sovg‘alar bilan birga Quddusdagi Iso payg‘ambar qabri joylashgan yerni ham taqdim etgan;\n4) Xristian katolik cherkovi homiyligida bo‘lganligi uchun unga “muqaddas” nomi berilgan.\na) Franklar imperiyasi;   b) Germaniya;\nc) Angliya;                   d) Vizantiya."
+},
+{
+"n": 26,
+"q": "Quyidagi qaysi qatorda bir asrda tashkil topgan davlatlar to‘g‘ri juftlashtirib berilgan.",
+"opts": [
+"Vestgot qirolligi – Franklar davlati",
+"Muqaddas Rim imperiyasi – Uesseks qirolligi",
+"Sharqiy Frank qirolligi – Kiyev Rusi",
+"Vestgot qirolligi – Bolgariya qirolligi"
+],
+"ans": "C"
 },
 {
 "n": 27,

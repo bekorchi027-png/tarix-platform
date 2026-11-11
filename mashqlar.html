@@ -764,7 +764,7 @@ async function viewDtm(arg){
     <p class="note">Bazada hozircha ${total} ta DTM savoli bor. Bu savollar Tezkor viktorina, Jonli bellashuv va G'ildirakda ham «Manba» ro'yxatidan tanlanadi.</p>
   </div>
   <h2 style="font-size:22px;margin:22px 0 10px">Variantlar</h2>
-  <div class="dtm-list">${BANK.dtm.map(v=>`<a href="#dtm/${v.id}"><b>${esc(v.title)}</b><small>${v.n} ta savol · ${esc(v.src)}</small>${v.self?`<small>Javob kaliti O'zing O'rgan tomonidan yechilgan; aniq bo'lmagan savollar kiritilmagan.</small>`:""}${best[v.id]!=null?`<small>Eng yaxshi natijangiz: <b>${fmt1(best[v.id])}</b> ball</small>`:""}</a>`).join("")}</div>`;
+  <div class="dtm-list">${BANK.dtm.map(v=>`<a href="#dtm/${v.id}"><b>${esc(v.title)}</b><small>${v.n} ta savol · ${esc(v.src)}</small>${v.self?`<small>Muallif kaliti berilmagan, javoblarni O'zing O'rgan yechib chiqqan.</small>`:""}${best[v.id]!=null?`<small>Eng yaxshi natijangiz: <b>${fmt1(best[v.id])}</b> ball</small>`:""}</a>`).join("")}</div>`;
 }
 function dtmRun(id){
   let Q, title;

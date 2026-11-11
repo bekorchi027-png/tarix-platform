@@ -2,6 +2,17 @@
 "id": "bmba-02",
 "items": [
 {
+"n": 1,
+"q": "Buyuk Britaniyada 2007-yilda hokimiyatga kelgan Gordon Braun …",
+"opts": [
+"soliq qoidalarini buzganlikda ayblandi va iste’foga chiqdi",
+"shu paytgacha yuqori darajada saqlanib kelayotgan ishsizlikni qisqartirishni taklif etdi",
+"soliqlarni pasaytirish evaziga italyanlarning daromadini oshirish maqsadini e’lon qildi",
+"tashqi savdoda proteksionizm siyosatiga qarshi chiqdi"
+],
+"ans": "B"
+},
+{
 "n": 2,
 "q": "Quyidagi berilgan ma’lumotlar qaysi hukmdor haqida ekanligini aniqlang. U siyosat maydoniga kichik yer egasining o‘g‘li sifatida chiqdi. Mamlakatni yagona davlatga birlashtirdi va 1855-yili o‘zini imperator deb e’lon qildi. U yaxshi harbiy tayyorgarlik ko‘rgan qo‘shin tuza oldi. Yirik feodallarni o‘z qo‘shiniga ega bo‘lish huquqidan mahrum etdi. Mamlakatda iqtisodiyotni yuksaltirishga qaratilgan qator islohotlar o‘tkazdi. Imperator fuqarolarni o‘zlari oldin shug‘ullangan mehnat faoliyatini davom ettirishga chaqirdi",
 "opts": [
@@ -60,6 +71,18 @@
 "extra": "1) Kuba – Fidel Kastro – davlat to‘ntarishidan keyin hokimiyatga keldi;\n2) Germaniya – Paul fon Gindenburg – Myunxen kelishuvini imzoladi;\n3) Pokiston – Parvez Musharraf – harbiy to‘ntarish natijasida hokimiyatga keldi;\n4) Italiya – Matteo Rensi – ta’lim tizimini isloh qilish boshlandi;\n5) Yaponiya – J. Koidzumi – Tayvan masalasida ilk bor Xitoyni ochiq qo‘lladi."
 },
 {
+"n": 7,
+"q": "Nuqtalar o‘rniga mos keluvchi javobni aniqlang. O‘rta asrlar:",
+"opts": [
+"Muso I; Asparux",
+"Sundiata Keyt; Simeon",
+"Qutbiddin Oyboq; Muso I",
+"Almi; Boleslav Jasur"
+],
+"ans": "A",
+"extra": "1) Oltin O‘rda davlati – O‘zbekxon;\n2) Vizantiya imperiyasi – Yustinian I;\n3) Mali davlati – …;\n4) Bolgariya podsholigi – … ."
+},
+{
 "n": 8,
 "q": "Quyidagi berilgan atamalar va ularning izohi to‘g‘ri moslashtirilgan javobni toping.",
 "opts": [
@@ -94,6 +117,29 @@
 ],
 "ans": "A",
 "extra": "1) Fransiya;\n2) Italiya;\n3) Buyuk Britaniya;\n4) Germaniya;\n5) Rossiya."
+},
+{
+"n": 11,
+"q": "Quyidagilardan o‘rta asrlarda Niger daryosi havzasida o‘z hukmronligini to‘liq o‘rnatgan davlat berilgan javobni aniqlang.",
+"opts": [
+"Gana davlati",
+"Mali davlati",
+"Aksum davlati",
+"Songai davlati"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Quyidagi ma’lumotlarga mos yakuniy xulosalar (to‘g‘ri/noto‘g‘ri) keltirilgan javobni aniqlang.",
+"opts": [
+"I-to‘g‘ri; II-noto‘g‘ri; III-to‘g‘ri",
+"I-to‘g‘ri; II-to‘g‘ri; III-to‘g‘ri",
+"I-to‘g‘ri; II-noto‘g‘ri; III-noto‘g‘ri",
+"I-noto‘g‘ri; II-noto‘g‘ri; III-to‘g‘ri"
+],
+"ans": "A",
+"extra": "I. Amir Abdulahaddan so‘ng Buxoro amirligi taxtiga uning o‘g‘li Olimxon o‘tirdi;\nII. Qo‘qon xonligi o‘rnida 1876-yilda tashkil etilgan Farg‘ona viloyati tarkibiga Marg‘ilon, Andijon, Qo‘qon, Namangan, O‘sh uyezdlari kirgan;\nIII. XIX asrning ikkinchi yarmida O‘rta Osiyoning Rossiya imperiyasi tomonidan bosib olingan hududlarida dastlab Orenburg generalgubernatorligi tarkibiga kiruvchi Turkiston viloyati tashkil etilgan."
 },
 {
 "n": 13,
@@ -166,6 +212,18 @@
 "extra": "1) sipoh;\n2) to‘pchi;\n3) maysara;\n4) sarboz;\n5) maxsus bo‘lim;\n6) ilg‘or."
 },
 {
+"n": 19,
+"q": "Quyidagi tarixiy voqealar (ma’lumotlar) to‘g‘ri xronologik ketma-ketlikda berilgan javobni aniqlang.",
+"opts": [
+"1, 3, 2, 4",
+"3, 1, 2, 4",
+"3, 2, 1, 4",
+"2, 1, 4, 3"
+],
+"ans": "B",
+"extra": "1) Muqaddas Rim imperiyasi tashkil etildi;\n2) Aksum davlati parchalanib ketdi;\n3) Koryo sulolasiga asos solindi;\n4) Songai davlati Marokash sultoni tomonidan egallandi."
+},
+{
 "n": 20,
 "q": "Chizmada berilgan shaxslar va ularga tegishli asarlar to‘g‘ri moslashtirilgan javobni aniqlang.",
 "opts": [
@@ -188,6 +246,18 @@
 ],
 "ans": "B",
 "extra": "a) 1876-yilgi Senatga bo‘lgan saylovlarda respublikachilar qo‘li baland keldi;\nb) Shimoliy Afrikadagi Tunisni bosib oldi;\nc) multikulturalizm siyosati barbor bo‘ldi ;\nd) Afrikaning o‘rta qismidagi Togo va Komerun hududlarini bosib oldi;\ne) “Bag‘dod temiryo‘li” loyihasini qo‘lga kiritdi;\nf) Janubiy Afrikadagi Kap koloniyasini qo‘lga kiritdi."
+},
+{
+"n": 22,
+"q": "1951-yil 1-sentyabrda “O‘zbekiston SSR Fanlar akademiyasining ishi to‘g‘risida” masala ko‘rilib, unda quyidagi qaysi shaxslar nohaq ravishda qoralandi?",
+"opts": [
+"1, 2",
+"3, 4",
+"1, 4",
+"2, 3"
+],
+"ans": "A",
+"extra": "1) Vohid Zohidov;\n2) Mirkarim Osim;\n3) Yong‘in Mirzo;\n4) Olim Usmonov."
 },
 {
 "n": 23,
@@ -233,6 +303,18 @@
 "Karl II"
 ],
 "ans": "B"
+},
+{
+"n": 27,
+"q": "O‘zbekiston SSRda urush yillarida qurilgan qand lavlagini qayta ishlovchi zavodlar berilgan javobni aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 2, 5",
+"1, 2, 3",
+"2, 3, 6"
+],
+"ans": "A",
+"extra": "1) Zirabuloq;\n2) Namangan;\n3) Qo‘qon;\n4) Olmaliq;\n5) Yangiyo‘l;\n6) Chirchiq."
 },
 {
 "n": 28,

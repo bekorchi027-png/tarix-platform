@@ -24,6 +24,18 @@
 "ans": "C"
 },
 {
+"n": 3,
+"q": "Xiva xonligida kundalik masalalarni hal etish bilan shug‘ullanadigan Kichik Kengash ishida xondan tashqari kimlar qatnashganlar?",
+"opts": [
+"1, 2, 4, 5, 6",
+"1, 2, 3, 6, 7",
+"2, 3, 6, 7, 8",
+"1, 2, 3, 4, 7"
+],
+"ans": "B",
+"extra": "1) mehtar;\n2) qo‘shbegi;\n3) devonbegi;\n4) naqib;\n5) otaliq;\n6) bosh qozi;\n7) shayxulislom;\n8) inoq."
+},
+{
 "n": 4,
 "q": "Quyidagi voqealarning qaysilari Sobiq Ittifoqning birinchi besh yillik davriga to‘g‘ri keladi?",
 "opts": [
@@ -107,6 +119,29 @@
 "ans": "C"
 },
 {
+"n": 11,
+"q": "1886-yil 12-iyuldagi “Turkiston oʻlkasini idora qilish toʻgʻrisidagi Nizom”ga muvofiq keluvchi javobni aniqlang.",
+"opts": [
+"uyezd sudlari bekor qilinib, oʻrniga viloyat harbiy gubernatorlari tomonidan tayinlanadigan uchastka mirovoy sudlari tuzildi",
+"Zarafshon okrugi Samarqand viloyatiga aylantirilib, uning tarkibiga Kattaqoʻrgʻon, Jizzax, Oʻratepa va Samarqand uyezdlari kiritildi",
+"vaqf hujjatlarini e’tirof etish, vaqf daromadlarining toʻgʻri ishlatilishi ustidan nazorat qilish va ularni taftish etish huquqi viloyat ma’muriyati ixtiyoriga oʻtkazildi",
+"oʻtroq aholi bir bosqichli tizim shaklida, ya’ni oqsoqolliklarga, chorvador aholi esa ikki bosqichli tizim koʻrinishidagi volost va ovullarga birlashtirildi"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi tarixiy voqealar (ma’lumotlar) to‘g‘ri xronologik ketma-ketlikda ko‘rsatilgan javobni toping.",
+"opts": [
+"2, 6, 1, 4, 5, 3",
+"6, 1, 3, 5, 4, 2",
+"2, 6, 1, 4, 3, 5",
+"2, 1, 6, 4, 3, 5"
+],
+"ans": "C",
+"extra": "1) Qo‘qon shahrida Salohiddin domla tomonidan yangi usul maktabi tashkil etildi;\n2) Ismoil G‘aspirali Turkistonga ilk marta sayohat uyushtirdi;\n3) Buxoro amirligida barcha jadid maktablari yopib qo‘yildi;\n4) Abdulla Qodiriy ilk nasriy asarlarini e’lon qildi;\n5) “Ulug‘ Turkiston” gazetasi faoliyatini yakunladi;\n6) Andijonda Shamsiddin domla tomonidan yangi usul maktabi ochildi."
+},
+{
 "n": 13,
 "q": "Asfandiyorxon imzolagan Yosh xivaliklar partiyasining islohotlar to‘g‘risidagi manifestida nima ko‘zda tutilgan edi?",
 "opts": [
@@ -160,6 +195,17 @@
 "GDR (Germaniya Demokratik Respublikasi) tashkil qilindi",
 "AQSH-Vyetnam urushi boshlandi",
 "AQSH prezidentlik saylovlarida respublikachi D. Eyzenxaur g‘olib bo‘ldi"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Turk xoqonligini Eron, so‘ngra Vizantiya bilan yaqinlashishiga sabab bo‘lgan asosiy omil qaysi javobda berilgan?",
+"opts": [
+"Ipak yo‘li Eron sosoniylari nazorati ostida edi",
+"turk savdogarlari Vizantiya bilan savdo qilish uchun Eron hududidan o‘tishi kerak edi",
+"egallangan hududlardagi qo‘zg‘olonlarni bostirish uchun xoqonlikka harbiy yordam kerak edi",
+"Turk xoqonligining eftallar bilan to‘qnashishi muqarrar edi"
 ],
 "ans": "A"
 },
@@ -256,6 +302,17 @@
 "ans": "C"
 },
 {
+"n": 27,
+"q": "Kimning tashabbusi bilan O‘zSSR MIK huzurida “Davlat apparatini mahalliylashtirish Markaziy komissiyasi” tuzilgan?",
+"opts": [
+"Akmal Ikromov",
+"Rahim Inog‘omov",
+"Bobon Mavlonbekov",
+"Fayzulla Xo‘jayev"
+],
+"ans": "A"
+},
+{
 "n": 28,
 "q": "Qurollar yasashda temirdan foydalanish xaritada nechanchi raqam bilan belgilangan hududda boshlangan?",
 "opts": [
@@ -266,6 +323,18 @@
 ],
 "ans": "B",
 "img": "img/dtm/bmba-08-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi o‘zaro mos berilgan qatorlarni toping. № Voqea Natija Arab xalifaligi Movarounnahrda o‘z hukmronligini o‘rnatdi “Dehqon” degan tushuncha o‘zining qishloq hokimi degan asl ma’nosini yo‘qotdi. 456-yilda kidariylar va sosoniylar o‘rtasida to‘qnashuv bo‘ldi kidariylar Shimoliy Hindistonga chekindilar va u yerda 75 yil hukmron qildilar 484-yilda eftallar va sosoniylar o‘rtasida urush bo‘lib o‘tdi 585–586-yillarda Buxoroda xalq qo‘zg‘olon ko‘tardi Xorazmda Hurzod boshchiligida qo‘zg‘olon ko‘tarildi. Sosoniylar shohi Pero‘z halok bo‘ldi qo‘zg‘olon yengilib, kadivar va xizmatkorlar dehqonlarga qaytarildi qo‘zg‘olon arablar tomonidan bostirildi va Xorazm arablarga qaram bo‘lib qoldi",
+"opts": [
+"2, 3, 4, 5",
+"1, 3, 5",
+"3, 4, 5",
+"1, 2, 3, 4"
+],
+"ans": "A",
+"img": "img/dtm/bmba-08-29.jpg"
 },
 {
 "n": 30,

@@ -2,6 +2,17 @@
 "id": "bmba-10",
 "items": [
 {
+"n": 1,
+"q": "O‘zbek davlatlarining Rossiyaga qarshi turishida Buyuk Britaniyaga suyanishi ehtimoli nima uchun yo‘qqa chiqdi?",
+"opts": [
+"Buyuk Britaniyada fuqarolar urushi boshlanib ketganligi sababli",
+"Buyuk Britaniya Afg‘onistonga qarshi urushda mag‘lubiyatga uchrab, Rossiya bilan kelishishga qaror qilganligi sababli",
+"O‘zbek xonliklari ichida Buyuk Britaniyaga qarshi kuchlarning nihoyatda ko‘pligi sababli",
+"Rossiya Hindistonga tahdid solmasligi to‘g‘risida Buyuk Britaniyaga bayonnoma taqdim etganligi sababli"
+],
+"ans": "B"
+},
+{
 "n": 2,
 "q": "Quyidagi tarixiy shaxslarning millati va ilmiy faoliyati bilan bog‘liq ma’lumotlar qaysi javobda mos ravishda to‘g‘ri ko‘rsatilgan?",
 "opts": [
@@ -84,6 +95,18 @@
 "img": "img/dtm/bmba-10-8.jpg"
 },
 {
+"n": 9,
+"q": "O‘zbekiston SSRda 1925-yil 29-yanvarda o‘tkazilgan ma’muriy-hududiy bo‘linishga ko‘ra, tashkil etilgan viloyatlarni aniqlang.",
+"opts": [
+"1, 2, 3, 5",
+"1, 3, 7, 8",
+"1, 3, 5, 6",
+"2, 4, 6, 8"
+],
+"ans": "B",
+"extra": "1) Xorazm;\n2) Buxoro;\n3) Zarafshon;\n4) Xo‘jand;\n5) Qo‘qon;\n6) Andijon;\n7) Qashqadaryo;\n8) Surxondaryo."
+},
+{
 "n": 10,
 "q": "Tarixiy shaxsni aniqlang. U 1994-yilda birinchi marta hukumat boshlig‘i lavozimini egalladi. Uning hukumati 1994-yil oxirigacha tura oldi, xolos. Korrupsiyaga qarshi kurash e’lon qilgan bo‘lsa-da, uning o‘zi soliq qoidalarini buzganlikda ayblandi va iste’foga chiqishga majbur bo‘ldi.",
 "opts": [
@@ -105,6 +128,17 @@
 ],
 "ans": "D",
 "extra": "1) Suy sulolasi – Li Yuan;\n2) Sun sulolasi – Xubilay;\n3) Vizantiya imperiyasi – … ;\n4) Koryo sulolasi – … ."
+},
+{
+"n": 12,
+"q": "Quyida keltirilgan ma’lumotlardan qaysi biri XVIII asr O‘rta Osiyo davlatlari tarixi uchun xos?",
+"opts": [
+"Buxoroda Ernazar elchi madrasasi bunyod etildi",
+"Qo‘qon davlati rasman xonlik deb atala boshlandi",
+"Orenburgda Buxoro amirligi savdogarlarining qarorgohi qurildi",
+"O‘rta Osiyoda dastlabki pravoslav cherkovi vujudga keldi"
+],
+"ans": "A"
 },
 {
 "n": 13,
@@ -210,6 +244,30 @@
 "ans": "D"
 },
 {
+"n": 22,
+"q": "Quyidagi qaysi shahar arab sarkardasi Ubaydulloh ibn Ziyod tomonidan egallangan?",
+"opts": [
+"Choch",
+"Farg‘ona",
+"Termiz",
+"Samarqand"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyida berilgan ma’lumotlarni tahlil qilib Eyler-Venn diagrammasiga mos keladigan javoblarni aniqlang. Usmon I       O‘rxon",
+"opts": [
+"I-a, c; II-b, d; III-f",
+"I-d, f; II-a, b; III-e",
+"I-c, b; II-a, d; III-f",
+"I-d, c; II-a, b; III-f"
+],
+"ans": "D",
+"extra": "a) Nikeya shahrini bosib oldi;\nb) tanga pul zarb qildirdi;\nc) 27 yil hukmronlik qildi;\nd) Bursa shahrini bosib oldi;\ne) Boyazid Yildirimga qarshi kurash olib bordi;\nf) bey unvoni qabila boshliqlari yig‘inida berilgan.",
+"img": "img/dtm/bmba-10-23.jpg"
+},
+{
 "n": 24,
 "q": "Minorai Kalon me’moriy obidasi davlatchiligimiz tarixidagi qaysi sulola davrida bunyod etilgan?",
 "opts": [
@@ -266,6 +324,30 @@
 ],
 "ans": "D",
 "img": "img/dtm/bmba-10-28.jpg"
+},
+{
+"n": 29,
+"q": "Qaysi qatorlarda tarixiy voqea va uning ta’siri o‘zaro mos ravishda to‘g‘ri berilgan? № Tarixiy voqea Ta’ sir Rossiyada Fevral inqilobi natijasida samoderjaviyega barham berildi. Rossiyada Oktyabr inqilobi natijasida hokimiyat tepasiga bolsheviklar partiyasi keldi. Xiva va Rossiya o‘rtasida Gandimiyon shartnomasi imzolandi. 1886-yilda Aleksandr III tomonidan “Turkiston o‘lkasini nazorat qilish to‘g‘risidagi nizom” tasdiqlandi. Asfandiyorxon Yosh xivaliklar taqdim etgan islohotlar o‘tkazish to‘g‘risidagi manifestni imzolashga majbur bo‘ldi. Turkiston mintaqasidagi ilk demokratik hukumat – Turkiston muxtoriyati tashkil topishiga sharoit yaratildi. Xonlik ma’muriyati aholiga yangi soliqlar sola boshladi va ilgari mavjud bo‘lgan ba’zi soliqlarni oshirdi. O‘lkadagi masjidlar va maktablarning moddiy ahvoli yomonlashdi. Buxoro, Xiva, Qo‘qon hukmdorlari o‘rtasida Rossiyaga qarshi harbiy ittifoq tuzilib, yagona qo‘mondonlik joriy etildi.",
+"opts": [
+"1, 2, 3",
+"2, 3, 4",
+"1, 3, 4",
+"2, 4, 5 Rossiya qo‘shinlari tomonidan Oqmachit qal’asi bosib olindi."
+],
+"ans": "A",
+"img": "img/dtm/bmba-10-29.jpg"
+},
+{
+"n": 30,
+"q": "Tarixiy voqea va uning natijasi o‘zaro mos berilgan qatorlarni toping. № Voqea Natija Korinf ittifoqi tashkil topdi Filipp II o‘zini yunonlar podshosi deb e’lon qildi Plateya yaqinida yunonlar va forslar o‘rtasida jang bo‘lib o‘tdi Afinada Perikl hukmronligi boshlandi Afinada hukmdori Solon boshqaruv sohasida islohotlar o‘tkazdi Rimliklar Sirakuza shahrini ishg‘ol etdi Kserks qo‘shinlari O‘rta Yunonistonga yetib borib, Afinani ishg‘ol etdi Mamlakatda demokratiya ravnaq topdi Nasl-nasabidan qat’i nazar afinaliklar uchun davlat mansablarini egallash imkoniyati berildi Yunon olimi, matematik Arximed halok bo‘ldi",
+"opts": [
+"1, 3, 4, 5",
+"3, 4, 5",
+"1, 2, 3, 5",
+"1, 2, 4 « » ʻ ʻ ʻ ʻ ʻ ʻ"
+],
+"ans": "A",
+"img": "img/dtm/bmba-10-30.jpg"
 }
 ]
 }

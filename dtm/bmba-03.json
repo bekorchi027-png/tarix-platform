@@ -24,6 +24,29 @@
 "ans": "C"
 },
 {
+"n": 3,
+"q": "Quyidagi voqealarni to‘g‘ri xronologik ketma-ketlikda joylashtiring?",
+"opts": [
+"4, 2, 3, 1",
+"4, 3, 2, 1",
+"3, 4, 2, 1",
+"4, 1, 3, 2"
+],
+"ans": "A",
+"extra": "1) Amir Xudoydot Samarqand tomonga askar tortdi;\n2) Pirmuhammad Pir Ali Toz boshliq fitnachilar qo‘lida halok bo‘ldi;\n3) Ozarbayjon va Iroq temuriylar qo‘lidan ketdi;\n4) Sulton Husayn Mirzo Amudaryoning chap sohilidagi viloyatlarda o‘z hokimiyatini o‘rnatmoq niyatida akasiga qarshi bosh ko‘tardi."
+},
+{
+"n": 4,
+"q": "XX asr 60-yillarida YIHT Iqtisodiy hamkorlik va taraqqiyot tashkiloti deb qayta nomlandi. Quyidagilardan shu yili qaysi davlat bu tashkilotga qabul qilingan.",
+"opts": [
+"Braziliya",
+"Yaponiya",
+"Turkiya",
+"Shvetsiya"
+],
+"ans": "B"
+},
+{
 "n": 5,
 "q": "Quyidagilardan bir yilda yubileyi nishonlangan shaharlar juftligi NOM UVOFIQ berilgan javobni aniqlang.",
 "opts": [
@@ -33,6 +56,18 @@
 "Termiz – Shahrisabz"
 ],
 "ans": "A"
+},
+{
+"n": 6,
+"q": "Quyidagilardan  Buxoro  amirligiga (mustaqil  davlat sifatida) Rossiyaning  oxirgi elchiligi  kelgan  va  Qo‘qon xonligining Rossiyaga  ikkinchi  elchiligi  jo‘natilgan yillar oralig‘ida bo‘lgan voqea(lar)ni toping?",
+"opts": [
+"1, 2, 5",
+"1, 2",
+"5",
+"1, 5"
+],
+"ans": "D",
+"extra": "1) Xudoyorxon  Qo‘qon  chegarasida  yangi istehkomlar  qurilganligidan norozi bo‘lib Rossiyaga elchi jo‘natdi;\n2) Xiva Rossiyaga 137 ming rublli tovar eksport qildi;\n3) Baroqxon madrasasining ta’mirlash ishlari boshlandi;\n4) Rossiya Kichik va O‘rta juz xonliklarini bo‘ysundirdi;\n5) Xivaga Qo‘qon xonligi elchilari keldi;\n6) Xiva xonligi,uning shaharlari haqida muhim ma’lumotlar beradigan “Dili g‘aroyib” asari yaratildi."
 },
 {
 "n": 7,
@@ -70,6 +105,29 @@
 "ans": "B"
 },
 {
+"n": 10,
+"q": "XIX asr oxiri – XX  asr  boshlarida G‘arbiy  Sudan,  Senegal  va  Nil  daryosi havzasi qaysi davlatlar o‘rtasida raqobat maydoniga  aylandi?",
+"opts": [
+"2, 3, 4",
+"2, 3, 5",
+"1, 2, 3",
+"1, 3, 5"
+],
+"ans": "D",
+"extra": "1) Belgiya  2) Gollandiya  3) Buyuk Britaniya\n4) Germaniya  5) Fransiya 6) Italiya"
+},
+{
+"n": 11,
+"q": "Quyidagilardan Jaloliddin Manguberdi bilan aloqador bo‘lgan janglardan qolganlariga qarganda oldinroq sodir bo‘lganini aniqlang?",
+"opts": [
+"Isfahon",
+"Basra",
+"Garni",
+"Arzinjon"
+],
+"ans": "B"
+},
+{
 "n": 12,
 "q": "Quyidagi voqealarni to‘g‘ri xronologik ketma-ketlikda joylashtiring.",
 "opts": [
@@ -94,6 +152,17 @@
 "extra": "1) “Umumiy elektr jamiyati”;\n2) “Kontinental uyushma”;\n3) “Sharqqa hujum” (Grang nach osten);\n4) “Chartistlar harakati”;\n5) “Antanta ittifoqi”;\n6) “Qrim urushi”."
 },
 {
+"n": 14,
+"q": "Quyidagi  qaysi  shaxs  baxshi  sifatida “Alpomish”  va “Qirqqiz” kabi dostonlarni zo‘r mahorat bilan kuylagan?",
+"opts": [
+"Jiyen Jirov",
+"Berdaq",
+"Kunxo‘ja Ibrohim",
+"Ajiniyoz"
+],
+"ans": "A"
+},
+{
 "n": 15,
 "q": "Quyidagilardan qadimgi Rim tarixiga oid bo‘lgan atamalar to‘g‘ri izohlangan qatorni aniqlang.",
 "opts": [
@@ -104,6 +173,18 @@
 ],
 "ans": "B",
 "extra": "1) Yepiskop – xristian  jamolariga peshvolik qilgan ruhoniylar;\n2) Parfeonon – Rimdagi barcha xudolar ibodatxonasi;\n3) Apostollar – havoriylar Iso Masih izdoshlari;\n4) Grammatika – chiroyli so‘zlash san’ati;\n5) Varvarlar – Rimliklarga  nisbatan  madaniy rivojlanish  jihatidan  quyi  pog‘onada turuvchi qabilalar."
+},
+{
+"n": 16,
+"q": "Quyidagilardan  Bal  Gangadxara Tilak (a) va Sun Yat Sen (b) faoliyati bilan bog‘liq ma’lumotlar berilgan javobni aniqlang.",
+"opts": [
+"a-1, b-4",
+"a-2, b-4",
+"a-1,2, b-3",
+"a-1, b-3"
+],
+"ans": "D",
+"extra": "1) Puna shahrida  mustaqil  o‘rta  maktab tashkil  qilgan;\n2) Hindistonda qurolli  qo‘zg‘olon  yo‘li  bilan ozodlikka  chiqish harakatini davom ettirdi;\n3) XIX asr 90-yillarning  boshida  Gonkongda ingliz  tibbiyot  institutini  tamomladi;\n4) 1905-yilda “Ixetuan” – “Tinchlik  va adolat uchun  ko‘tarilgan  musht”  deb  atalgan yashirin  tashkilot tuzdi."
 },
 {
 "n": 17,
@@ -125,6 +206,17 @@
 "Abdukarimbiy (a) va Erdonabiy (b)",
 "Erdonabiy (a) va Erdonabiy (b)",
 "Madalixon (a) va Norbo‘tabiy (b)"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Quyidagilardan 1990-yil  2-iyun  kuni e’lon qilingan hujjatni aniqlang.",
+"opts": [
+"O‘zbekiston Prezidentining “Ro‘za hayitini dam olish kuni deb e’lon qilish to‘g‘risida”gi farmoni",
+"O‘zbekiston Prezidentining “Musulmonlarning Saudiya Arabistoniga haj qilishi to‘g‘risida”gi farmoni",
+"O‘zbekiston Prezidentining “Navro‘zni umumxalq bayrami sifatida nishonlash to‘g‘risida” gi farmoni",
+"O‘zbekiston Prezidentining “Atoqli davlat arbobi va yozuvchi Sharof Rashidov tavalludining 100 yilligini nishonlash to‘g‘risida”gi qarori"
 ],
 "ans": "A"
 },
@@ -152,6 +244,17 @@
 "ans": "A",
 "extra": "1) Rossiya bilan  1826–1828-yillari  bo‘lgan urushlarda  mag‘lubiyatga  uchradi  va Kavkazga  bo‘lgan da’vosidan voz kechdi;\n2) 1747-yilda davlat tashkil topgan;\n3) 1857-yilda Buyuk Britaniya bilan harbiy shartnoma tuzildi;\n4) 1857-yili  Buyuk Britaniya bilan Parij  Tinchlik  shartnomasi imzolandi;\n5) 1722-yilda urush harakatlari amalga oshirilgan;\n6) Rossiya bilan 1853–1856yillarda urush olib borgan.",
 "img": "img/dtm/bmba-03-21.jpg"
+},
+{
+"n": 22,
+"q": "Quyidagilardan XX asr 20-yillarining ikkinchi yarmi va 30-yillar boshida O‘zbekiston SSR da to‘qib chiqarilgan “narkompros” a’zolariga kirmaydigan shaxsni aniqlang.",
+"opts": [
+"Mannon Abdullayev",
+"Bois Qoriyev",
+"Inomjon Xidiraliyev",
+"Mahmud Hodiyev"
+],
+"ans": "D"
 },
 {
 "n": 23,
@@ -200,6 +303,18 @@
 "ans": "B"
 },
 {
+"n": 27,
+"q": "Quyidagilardan XX asr 20-yillarining ikkinchi yarmi va 30-yillar boshida O‘zbekiston SSR da to‘qib chiqarilgan “o‘n sakkizlar guruhi” a’zolari to‘g‘ri ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 2, 3",
+"1, 3",
+"1, 3, 4"
+],
+"ans": "A",
+"extra": "1) Inomjon Xidiraliyev;\n2) Abdulla Rahimboyev;\n3) Muxtorjon Saidjonov;\n4) Nodir Saidov;\n5) Sa’dulla Qosimov."
+},
+{
 "n": 28,
 "q": "Quyidagi xaritada 2 raqami ostida ko‘rsatilgan davlat tarixiga aloqador bo‘lgan to‘g‘ri ma’lumotni aniqlang.",
 "opts": [
@@ -210,6 +325,31 @@
 ],
 "ans": "B",
 "img": "img/dtm/bmba-03-28.jpg"
+},
+{
+"n": 29,
+"q": "Tarixiy voqea va uning natijasi o‘zaro NOM UVOFIQ berilgan qatorlarni aniqlang. № Voqea Natija Rossiya – Gruziya o‘rtasida mojaroning boshlanishi (2008) Gruziyaning MDH ga qabul qilinishi “Atirgullar inqilobi” sodir bo‘lishi Qirg‘izistonda hokimiyatga Kurmanbek Bakiyev kelishi Isroil – Livan urushi (2006) Entoni Blerning iste’foga chiqishi “Halol qo‘llar” kompaniyasi Silvio Belruskoni iste’foga chiqishi Isroil va FATX o‘rtasida Falastin avtonomiyasi to‘g‘risida Vashington kelishuvi",
+"opts": [
+"2, 3, 4",
+"1, 3, 4",
+"1, 2, 4",
+"3, 4, 5 Yosir Arofatning “xoin” sifatida o‘limga hukm qilinishi"
+],
+"ans": "C",
+"img": "img/dtm/bmba-03-29.jpg"
+},
+{
+"n": 30,
+"q": "Jadvalda harflar bilan belgilangan kataklarga quyida berilgan ma’lumotlardan moslarini qo‘yib to‘g‘ri javobni toping. Asr O‘zbekiston tarixidagi voqea Jahon tarixidagi voqea XIII Ma’sudbek pul islohoti a b Farjak madrasasi ochildi Parxe qirolligi parchalandi XVIII c d e Andijonda Jadid maktabi i Xiva xonligida qurg‘oqchilik va hosilsizlik yili bo‘ldi ochildi f Vilson tinchlik dasturini ishlab chiqdi XIX k l M a’lumotlar:",
+"opts": [
+"a – 11, b – 3, c – 10, d – 12, e – 5, e – 7, i – 1",
+"a – 6, b – 3, c – 9, d – 12, e – 8, e – 7, i – 4",
+"a – 11, b – 3, c – 10, d – 13, e – 5, e – 7, i – 4",
+"a – 11, b – 2, c – 10, d – 13, e – 5, e – 12, i – 4 ʻ « » ʻ ʻ ʻ ʻ ʻ"
+],
+"ans": "C",
+"extra": "1) XVII asr;\n2) XV asr;\n3) X asr;\n4) XX asr;\n5) XIX asr;\n6) “Jakeriya” qo‘zg‘oloni bo‘lib o‘tdi;\n7) Lotin Amerikasi mamlakatlarida iqtisodiyotning sezilarli o‘sishi kuzatildi;\n8) X asr;\n9) Xitoyda Suy sulolasi hukmronligining boshlanishi;\n10) Buxoroda Jul deb nomlangan yangi soliq joriy etildi;\n11) “Marko Polo kitobi” asari yozildi;\n12) Meksikada “Burjua inqilobi” bo‘lib o‘tdi;\n13) Napoleon I Birinchi konsul lavozimini egalladi.",
+"img": "img/dtm/bmba-03-30.jpg"
 }
 ]
 }
