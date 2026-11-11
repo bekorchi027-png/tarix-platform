@@ -63,5 +63,6 @@
 {"id": "alj-ms8", "title": "62-variant (Milliy sertifikat VIII, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms8.json"},
 {"id": "alj-ms10", "title": "63-variant (Milliy sertifikat X, Alijonov–Qo‘chqorov)", "src": "A. Alijonov, F. Qo‘chqorov («Milliy sertifikat – 2023» kitobi)", "key": "muallif kaliti", "file": "tests/alj-ms10.json"},
 {"id": "bt27-03", "title": "64-variant (Boltayev 2026–27, 3-variant)", "src": "J. Boltayev (@TESTLIDER)", "key": "muallif kaliti", "file": "tests/bt27-03.json"},
-{"id": "rz-02", "title": "65-variant (Ro‘zmatov 2-variant, HISTORY PRO)", "src": "T. Ro‘zmatov (HISTORY PRO, @Tarixdan_testlar_BH)", "key": "muallif kaliti", "file": "tests/rz-02.json"}
+{"id": "rz-02", "title": "65-variant (Ro‘zmatov 2-variant, HISTORY PRO)", "src": "T. Ro‘zmatov (HISTORY PRO, @Tarixdan_testlar_BH)", "key": "muallif kaliti", "file": "tests/rz-02.json"},
+{"id": "tms36", "title": "66-variant (TMS 36-variant, 31-oktabr namuna III)", "src": "Z. Jumanazarov, B. Hikmatov, H. Xoldorov (@Tarix_tilsimi)", "key": "muallif kaliti", "file": "tests/tms36.json"}
 ]
