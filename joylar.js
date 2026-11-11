@@ -21,6 +21,11 @@ async function snapFor(d, yil){
   return snapAtOrBefore(want);
 }
 const uzName = n => { const d = EN2DAV[n]; if(d) return d.length>1 ? d.map(x=>x.nom.replace(/ \(.*\)/,"")).join(" / ") : d[0].nom; return CHEGARA_UZ[n] || n; };
+const uzTip = n => { const iz = window.CHEGARA_IZOH && CHEGARA_IZOH[n]; return iz ? `${esc(n)}<br><span style="font-weight:400">${esc(iz)}</span>` : esc(uzName(n)); };
+const rulerOf = (d, y) => window.hukmdor ? hukmdor(d.id, y) : null;
+// events of a snapshot: from halfway to the previous snapshot to halfway to the next one
+function eventWindow(i){ const lo = i>0 ? Math.floor((YRS[i-1]+YRS[i])/2)+1 : -1e9, hi = i<YRS.length-1 ? Math.floor((YRS[i]+YRS[i+1])/2) : 1e9; return [lo, hi]; }
+const evIcon = big => L.divIcon({className:"", html:`<div class="evdot${big?" big":""}"></div>`, iconSize:[16,16], iconAnchor:[8,8]});
 function colorOf(n){ let h=0; for(const c of n) h=(h*31+c.charCodeAt(0))>>>0; return `hsl(${h%360} 45% 48%)`; }
 
 // --- test questions that mention a place ---
@@ -83,82 +88,159 @@ function cardHtml(p){
 }
 
 // --- explore view ---
+const PALETTE = ["#d2b48c","#a9bf8e","#d19a85","#93b3c4","#bca7cc","#dcc08a","#b3c29a","#c9a48f","#9dbcae","#c8adaa","#e0b07a","#a6a8cf"];
+const ERA_TICKS = [[-2000,"m.a. 2000"],[100,"100"],[600,"600"],[1000,"1000"],[1300,"1300"],[1600,"1600"],[1880,"1880"],[1994,"1994"]];
 async function viewJoylar(arg, qs){
   qs = qs || new URLSearchParams();
   if(arg==="qayerda") return gameWhere();
   if(arg==="nomi") return gameName();
   const P = {yil: qs.has("yil") ? parseInt(qs.get("yil"),10) : null, davlat: (qs.get("davlat")||"").toLowerCase(), joy: qs.get("joy")||""};
   const dav = DAV[P.davlat] || null;
+  const bordersOn = qs.has("chegara") ? qs.get("chegara")!=="0" : true;
   $("#app").innerHTML = `<div class="head"><h1>Joy nomlari xaritasi</h1><span class="sp"></span>
     <div class="seg"><button type="button" aria-pressed="true">Xarita</button><button type="button" data-g="qayerda" aria-pressed="false">Qayerda?</button><button type="button" data-g="nomi" aria-pressed="false">Nomi nima?</button></div>${back}</div>
-    <div class="card">
-      <div class="maptools">
-        <input id="jsr" list="jdl" placeholder="Joy nomini qidiring: Nautaka, Poykent…" autocomplete="off" style="flex:1;min-width:200px">
+    <div class="jwrap">
+      <div class="jmapbox">
+        <div id="map" class="oldmap jmap"></div>
+        <div class="tbar-yil" id="jyb">
+          <div class="tb-row">
+            <button type="button" class="tb-btn" id="jprev" aria-label="Oldingi yil" title="Oldingi yil (←)">‹</button>
+            <div class="tb-year"><b class="num" id="jyv"></b><span id="jys"></span></div>
+            <button type="button" class="tb-btn" id="jnext" aria-label="Keyingi yil" title="Keyingi yil (→)">›</button>
+            <button type="button" class="tb-btn tb-play" id="jplay" aria-label="Yillarni avtomatik aylantirish" title="Avtomatik aylantirish">▶</button>
+            <button type="button" class="tb-btn tb-min" id="jmin" aria-label="Panelni yig'ish" title="Panelni yig'ish">–</button>
+          </div>
+          <div class="tb-sub" id="jwin"></div>
+          <div class="tb-slide">
+            <input type="range" id="jy" min="0" max="${YRS.length-1}" step="1" aria-label="Yil">
+            <div class="tb-ticks">${ERA_TICKS.map(([y,t])=>`<button type="button" data-y="${y}" style="left:${(100*YRS.indexOf(snapAtOrBefore(y))/(YRS.length-1)).toFixed(2)}%">${t}</button>`).join("")}</div>
+          </div>
+        </div>
+        <button type="button" class="tb-open" id="jopen" hidden>Yillar paneli</button>
+      </div>
+      <aside class="card jside">
+        <label class="f">Joy nomini qidiring<input id="jsr" list="jdl" placeholder="Nautaka, Poykent, Gurganj…" autocomplete="off"></label>
         <datalist id="jdl">${JOYLAR.map(p=>`<option value="${esc(p.n)}">`).join("")}${JOYLAR.filter(p=>p.a).flatMap(p=>p.a.split(",").map(a=>`<option value="${esc(a.trim())}">${esc(p.n)}</option>`)).join("")}</datalist>
-        <div class="seg" id="jr"><button data-v="all" aria-pressed="true">Hammasi</button><button data-v="uz" aria-pressed="false">Markaziy Osiyo</button><button data-v="j" aria-pressed="false">Jahon</button></div>
-      </div>
-      <div class="maptools" style="margin-top:8px">
-        <select id="jp"><option value="all">Barcha davrlar</option>${JOY_DAVR.map(p=>`<option value="${p.id}">${p.name}</option>`).join("")}</select>
-        <label class="chk"><input type="checkbox" id="jb" ${(P.yil!=null||dav)?"checked":""}> Davlat chegaralari</label>
-        <label class="chk"><input type="checkbox" id="jm"> Hozirgi nomlar</label>
-        <label class="chk"><input type="checkbox" id="jo" checked> Eski xarita ko'rinishi</label>
-      </div>
-      <div id="jyb" class="yearbar" hidden>
-        <label class="f" style="flex:1;min-width:220px">Yil: <b class="num" id="jyv"></b><input type="range" id="jy" min="0" max="${YRS.length-1}" step="1"></label>
-        <label class="f">Davlatni ko'rsatish<select id="jd"><option value="">Tanlang…</option>${[...DAVLATLAR].sort((a,b)=>a.boshi-b.boshi).map(d=>`<option value="${d.id}">${esc(d.nom)} (${span(d)})</option>`).join("")}</select></label>
-      </div>
-      <p class="note" id="jinfo" style="margin:8px 0"></p>
-      <div id="map" class="oldmap jmap"></div>
-      <div id="mbot"></div>
-    </div>`;
+        <label class="f">Davlat hududini ko'rsatish<select id="jd"><option value="">Tanlang…</option>${[...DAVLATLAR].sort((a,b)=>a.boshi-b.boshi).map(d=>`<option value="${d.id}">${esc(d.nom)} (${span(d)})</option>`).join("")}</select></label>
+        <div><div class="eyebrow" style="margin-bottom:6px">Shu yildagi davlatlar</div><div class="jchips" id="jchips"></div></div>
+        <p class="note" id="jinfo" style="margin:0"></p>
+        <div id="jhuk"></div>
+        <div id="jev"></div>
+        <details class="jmore" open><summary>Ko'rinish</summary>
+          <div class="seg" id="jr" style="margin:8px 0"><button data-v="all" aria-pressed="true">Hammasi</button><button data-v="uz" aria-pressed="false">Markaziy Osiyo</button><button data-v="j" aria-pressed="false">Jahon</button></div>
+          <label class="f">Joylar davri<select id="jp"><option value="all">Barcha davrlar</option>${JOY_DAVR.map(p=>`<option value="${p.id}">${p.name}</option>`).join("")}</select></label>
+          <label class="chk"><input type="checkbox" id="jb" ${bordersOn?"checked":""}> Davlat chegaralari</label>
+          <label class="chk"><input type="checkbox" id="jl" checked> Joy nomlari (nuqtalar)</label>
+          <label class="chk"><input type="checkbox" id="je" checked> Shu davr voqealari</label>
+          <label class="chk"><input type="checkbox" id="jm"> Hozirgi nomlar</label>
+          <label class="chk"><input type="checkbox" id="jo" checked> Eski xarita ko'rinishi</label>
+          <div class="jlegend">${JOY_DAVR.map(p=>`<span><i style="background:${p.c}"></i>${p.name}</span>`).join("")}</div>
+        </details>
+        <p class="note" style="margin:0">Klaviatura: ← → yil, chegara ustiga bosish shu davlatni belgilaydi.</p>
+      </aside>
+    </div>
+    <div id="mbot"></div>`;
   $$(".seg [data-g]").forEach(b => b.onclick = () => { location.hash = "joylar/" + b.dataset.g; });
   if(!window.L){ $("#map").outerHTML = `<p>Xarita kutubxonasi yuklanmadi. Sahifani yangilang.</p>`; return; }
   const map = baseMap($("#map"));
-  const st = {r:"all", per:"all", yi: YRS.indexOf(snapAtOrBefore(P.yil!=null?P.yil:1400)), dav: dav?dav.id:"", borders: $("#jb").checked};
-  const markers = new Map(), pl = L.layerGroup().addTo(map);
-  let bl = null, tok = 0;
+  map.setView([40, 62], 4.5);
+  const st = {r:"all", per:"all", yi: YRS.indexOf(snapAtOrBefore(P.yil!=null?P.yil:1400)), dav: dav?dav.id:"", borders: bordersOn, joy:"", places:true};
+  const markers = new Map(), pl = L.layerGroup().addTo(map), sl = L.layerGroup().addTo(map), evl = L.layerGroup().addTo(map);
+  st.events = true;
+  let bl = null, tok = 0, timer = null;
+  const baseClean = cleanup;
+  const onKey = e => {
+    if(!st.borders || e.altKey || e.ctrlKey || e.metaKey || /INPUT|SELECT|TEXTAREA/.test((e.target.tagName||""))) return;
+    if(e.key==="ArrowLeft"){ e.preventDefault(); step(-1); } else if(e.key==="ArrowRight"){ e.preventDefault(); step(1); }
+  };
+  document.addEventListener("keydown", onKey);
+  cleanup = () => { clearInterval(timer); document.removeEventListener("keydown", onKey); baseClean && baseClean(); };
 
   function paintPlaces(){
     pl.clearLayers(); markers.clear();
+    if(!st.places) return [];
     const list = JOYLAR.filter(p => (st.r==="all"||p.r===st.r) && (st.per==="all"||p.p.includes(st.per)));
     list.forEach(p => {
-      const m = L.marker([p.lat,p.lng], {icon:pinIcon(placeColor(p)), title:p.n}).bindTooltip(esc(p.n), {permanent:true, direction:"right", offset:[6,0], className:"plabel"}).bindPopup(cardHtml(p), {maxWidth:300});
-      m.on("popupopen", ev => { const b = ev.popup.getElement().querySelector(".jq-btn"); if(b) b.onclick = async () => { b.disabled = true; b.textContent = "Qidirilmoqda…"; const qsx = await questionsFor(p); b.textContent = `Test savollari: ${qsx.length} ta (pastda)`; qList(qsx, $("#mbot"), `«${p.n}» uchraydigan test savollari`); $("#mbot").scrollIntoView({behavior:"smooth", block:"start"}); }; });
+      const m = L.marker([p.lat,p.lng], {icon:pinIcon(placeColor(p)), title:p.n, zIndexOffset:500}).bindTooltip(esc(p.n), {permanent:true, direction:"right", offset:[6,0], className:"plabel"}).bindPopup(cardHtml(p), {maxWidth:300});
+      m.on("popupopen", ev => { const b = ev.popup.getElement().querySelector(".jq-btn"); if(b) b.onclick = async () => { b.disabled = true; b.textContent = "Qidirilmoqda…"; const qsx = await questionsFor(p); b.textContent = `Test savollari: ${qsx.length} ta (pastda)`; qList(qsx, $("#mbot"), `«${p.n}» uchraydigan test savollari`); $("#mbot").classList.add("card"); $("#mbot").scrollIntoView({behavior:"smooth", block:"start"}); }; });
       m.addTo(pl); markers.set(p, m);
     });
     return list;
   }
   function syncHash(){
     const q = new URLSearchParams();
-    if(st.borders) q.set("yil", YRS[st.yi]);
+    if(st.borders) q.set("yil", YRS[st.yi]); else q.set("chegara","0");
     if(st.borders && st.dav) q.set("davlat", st.dav);
     if(st.joy) q.set("joy", st.joy);
     const h = "#joylar" + (q.toString() ? "?"+q : "");
     if(location.hash !== h) history.replaceState(null, "", h);
   }
+  // State names written on the map, only where the shape is big enough on screen
+  function paintStateLabels(){
+    sl.clearLayers();
+    if(!bl) return;
+    const d = DAV[st.dav], z = map.getZoom(), vb = map.getBounds().pad(.2);
+    bl.eachLayer(l => {
+      const b = l.getBounds(); if(!b.isValid() || !vb.intersects(b)) return;
+      const nw = map.latLngToLayerPoint(b.getNorthWest()), se = map.latLngToLayerPoint(b.getSouthEast());
+      const w = se.x-nw.x, h = se.y-nw.y, n = l.feature.properties.NAME, hit = d && d.en.includes(n);
+      if(!hit && (w<130 || h<50)) return;
+      let c; try{ c = l.getCenter(); }catch(e){ c = b.getCenter(); }
+      const txt = uzName(n), fs = Math.max(10, Math.min(15, 9 + z));
+      const ds = EN2DAV[n], ru = ds && ds.length===1 ? rulerOf(ds[0], YRS[st.yi]) : null;
+      L.marker(c, {interactive:false, keyboard:false, icon:L.divIcon({className:"", html:`<div class="slabel${hit?" hit":""}" style="font-size:${fs}px;max-width:${Math.max(90,Math.min(w,220))}px">${esc(txt)}${ru?`<small>${esc(ru[2])}</small>`:""}</div>`, iconSize:[0,0]})}).addTo(sl);
+    });
+  }
+  map.on("zoomend moveend", paintStateLabels);
+  function paintChips(g){
+    const names = new Set(g ? g.features.map(f=>f.properties.NAME) : []);
+    const here = DAVLATLAR.filter(d => d.en.some(n=>names.has(n))).sort((a,b)=>a.boshi-b.boshi);
+    $("#jchips").innerHTML = here.length ? here.map(d=>`<button type="button" data-d="${d.id}" aria-pressed="${d.id===st.dav}">${esc(d.nom)}</button>`).join("") : `<span class="note">${st.borders?"Bu yil uchun ro'yxatdagi davlatlar yo'q.":"Chegaralar o'chirilgan."}</span>`;
+    $$("#jchips [data-d]").forEach(b => b.onclick = () => { st.dav = st.dav===b.dataset.d ? "" : b.dataset.d; $("#jd").value = st.dav; paintBorders(!!st.dav); });
+    const y = YRS[st.yi], rows = here.map(d => [d, rulerOf(d, y)]).filter(r => r[1]);
+    $("#jhuk").innerHTML = g && rows.length ? `<div class="eyebrow" style="margin-bottom:6px">${esc(yTxt(y))}-yilda hukmronlik qilganlar</div><ul class="jrul">${rows.map(([d,r])=>`<li${d.id===st.dav?' class="on"':""}><b>${esc(r[2])}</b><span>${esc(d.nom)} · ${yTxt(r[0])}–${r[1]>=2100?"hozir":yTxt(r[1])}</span></li>`).join("")}</ul>` : "";
+  }
+  function paintEvents(){
+    evl.clearLayers();
+    if(!st.borders || !st.events){ $("#jev").innerHTML = ""; $("#jwin").textContent = ""; return; }
+    const [lo, hi] = eventWindow(st.yi);
+    const list = EVENTS.filter(e => e.y>=lo && e.y<=hi && (st.r==="all" || e.r===st.r)).sort((a,b)=>a.y-b.y);
+    $("#jwin").textContent = `Voqealar: ${lo<-1e8?"…":yTxt(lo)} – ${hi>1e8?"hozir":yTxt(hi)}` + (list.length ? ` (${list.length} ta)` : "");
+    list.forEach((e,k) => { e._m = L.marker([e.lat,e.lng], {icon:evIcon(), title:e.t, zIndexOffset:800}).bindTooltip(`${esc(yTxt(e.y))}: ${esc(e.t)}`, {direction:"top", offset:[0,-8], className:"etip"}).bindPopup(`<div class="jcard"><div class="eyebrow">${esc(yTxt(e.y))}-yil</div><b class="jn">${esc(e.t)}</b><p style="margin:6px 0 0">${esc(e.d)}</p></div>`, {maxWidth:300}).addTo(evl); });
+    $("#jev").innerHTML = list.length ? `<div class="eyebrow" style="margin-bottom:6px">Shu davr voqealari</div><ol class="jevl">${list.map((e,k)=>`<li><button type="button" data-e="${k}"><span class="num">${esc(yTxt(e.y))}</span> ${esc(e.t)}</button></li>`).join("")}</ol>` : `<p class="note" style="margin:0">Bu davr uchun voqealar hali kiritilmagan.</p>`;
+    $$("#jev [data-e]").forEach(b => b.onclick = () => { const e = list[+b.dataset.e]; map.setView([e.lat,e.lng], Math.max(map.getZoom(), 5)); e._m.openPopup(); });
+  }
   async function paintBorders(fit){
     const my = ++tok;
-    $("#jyb").hidden = !st.borders;
-    if(bl){ map.removeLayer(bl); bl = null; }
-    if(!st.borders){ $("#jinfo").textContent = "Nuqtani bosing: joyning qadimgi va hozirgi nomi, davri va izohi chiqadi. Rang davrni bildiradi."; syncHash(); return; }
-    const y = YRS[st.yi]; $("#jy").value = st.yi; $("#jyv").textContent = yTxt(y) + (y<0?"":"-yil");
+    $("#jyb").hidden = !st.borders || $("#jyb").dataset.min==="1"; $("#jopen").hidden = !st.borders || $("#jyb").dataset.min!=="1";
+    const y = YRS[st.yi]; $("#jy").value = st.yi; $("#jyv").textContent = y<0 ? -y : y; $("#jys").textContent = y<0 ? "mil. avv." : "-yil";
+    $("#jprev").disabled = st.yi<=0; $("#jnext").disabled = st.yi>=YRS.length-1;
+    if(!st.borders){ if(bl){ map.removeLayer(bl); bl = null; } sl.clearLayers(); paintChips(null); paintEvents(); $("#jinfo").textContent = "Nuqtani bosing: joyning qadimgi va hozirgi nomi, davri va izohi chiqadi. Rang davrni bildiradi."; syncHash(); return; }
     let g; try{ g = await geo(y); }catch(e){ $("#jinfo").textContent = "Chegaralar faylini yuklab bo'lmadi."; return; }
     if(my!==tok) return;
+    if(bl){ map.removeLayer(bl); bl = null; }
     const d = DAV[st.dav];
     const hit = f => d && d.en.includes(f.properties.NAME);
+    const col = n => { let h=0; for(const c of n) h=(h*31+c.charCodeAt(0))>>>0; return PALETTE[h%PALETTE.length]; };
     bl = L.geoJSON(g, {
-      style: f => hit(f) ? {color:"#b3372f", weight:3, fillColor:"#c0392b", fillOpacity:.32} : {color:colorOf(f.properties.NAME), weight:1, fillColor:colorOf(f.properties.NAME), fillOpacity: d ? .06 : .16},
-      onEachFeature: (f, l) => l.bindTooltip(esc(uzName(f.properties.NAME)), {sticky:true, className:"blabel"}).on("click", () => { const ds = EN2DAV[f.properties.NAME]; if(ds && ds.length===1){ st.dav = ds[0].id; $("#jd").value = st.dav; paintBorders(true); } })
+      style: f => hit(f) ? {color:"#9c2b22", weight:3, fillColor:"#c0392b", fillOpacity:.38} : {color:"#6b5a44", opacity:.55, weight:1, fillColor:col(f.properties.NAME), fillOpacity: d ? .18 : .42},
+      onEachFeature: (f, l) => l.bindTooltip(() => { const n = f.properties.NAME, ds = EN2DAV[n], ru = ds && ds.length===1 ? rulerOf(ds[0], YRS[st.yi]) : null; return uzTip(n) + (ru ? `<br><span style="font-weight:400">Hukmdor: ${esc(ru[2])}</span>` : ""); }, {sticky:true, className:"blabel"})
+        .on("mouseover", () => { if(!hit(f)) l.setStyle({weight:2, opacity:.9}); }).on("mouseout", () => { if(!hit(f)) l.setStyle({weight:1, opacity:.55}); })
+        .on("click", () => { const ds = EN2DAV[f.properties.NAME]; if(ds && ds.length===1){ st.dav = ds[0].id; $("#jd").value = st.dav; paintBorders(false); } })
     }).addTo(map);
     bl.bringToBack();
+    paintStateLabels(); paintChips(g); paintEvents();
     const has = d && g.features.some(hit);
-    $("#jinfo").innerHTML = d ? (has ? `<b>${esc(d.nom)}</b> (${span(d)}), ${esc(yTxt(y))}-yil holatida. ` : `<b>${esc(d.nom)}</b> bu yilgi xaritada yo'q, yilni ${span(d)} oralig'iga suring. `) + `Chegaralar taxminiy.`
-      : `${esc(yTxt(y))}-yildagi davlatlar. Hududni bosing yoki ro'yxatdan davlat tanlang. Chegaralar taxminiy.`;
+    $("#jinfo").innerHTML = d ? (has ? `<b>${esc(d.nom)}</b> (${span(d)}), ${esc(yTxt(y))}-yil holatida. ` : `<b>${esc(d.nom)}</b> bu yilgi xaritada yo'q: u ${span(d)} yillarda bo'lgan. `) + `Chegaralar taxminiy.`
+      : `Davlat ustiga bosing yoki ro'yxatdan tanlang. Chegaralar taxminiy.`;
     if(fit && has){ const b = L.geoJSON({type:"FeatureCollection", features:g.features.filter(hit)}).getBounds(); if(b.isValid()) map.fitBounds(b.pad(.08), {maxZoom:6}); }
     syncHash();
   }
+  function step(k){ const n = Math.max(0, Math.min(YRS.length-1, st.yi+k)); if(n!==st.yi){ st.yi = n; paintBorders(false); } return n; }
+  function stopPlay(){ clearInterval(timer); timer = null; $("#jplay").textContent = "▶"; $("#jplay").setAttribute("aria-label","Yillarni avtomatik aylantirish"); }
   function focusPlace(p, open=true){
     if(!p) return false;
+    if(!st.places){ st.places = true; $("#jl").checked = true; }
     if(st.r!=="all" && p.r!==st.r){ st.r="all"; $$("#jr button").forEach(x=>x.setAttribute("aria-pressed", x.dataset.v==="all")); }
     if(st.per!=="all" && !p.p.includes(st.per)){ st.per="all"; $("#jp").value="all"; }
     if(!markers.has(p)) paintPlaces();
@@ -168,12 +250,25 @@ async function viewJoylar(arg, qs){
     return true;
   }
 
-  $$("#jr button").forEach(b => b.onclick = () => { st.r = b.dataset.v; $$("#jr button").forEach(x=>x.setAttribute("aria-pressed", x===b)); const l = paintPlaces(); if(l.length && st.r!=="all") map.fitBounds(L.latLngBounds(l.map(p=>[p.lat,p.lng])).pad(.1)); });
+  $$("#jr button").forEach(b => b.onclick = () => { st.r = b.dataset.v; $$("#jr button").forEach(x=>x.setAttribute("aria-pressed", x===b)); const l = paintPlaces(); paintEvents(); if(l.length && st.r!=="all") map.fitBounds(L.latLngBounds(l.map(p=>[p.lat,p.lng])).pad(.1)); });
   $("#jp").onchange = e => { st.per = e.target.value; paintPlaces(); };
-  $("#jb").onchange = e => { st.borders = e.target.checked; paintBorders(!!st.dav); };
+  $("#jb").onchange = e => { st.borders = e.target.checked; if(!st.borders) stopPlay(); paintBorders(!!st.dav); };
+  $("#jl").onchange = e => { st.places = e.target.checked; paintPlaces(); };
+  $("#je").onchange = e => { st.events = e.target.checked; paintEvents(); };
   $("#jm").onchange = e => map.setModern(e.target.checked);
   $("#jo").onchange = e => $("#map").classList.toggle("oldmap", e.target.checked);
   $("#jy").oninput = e => { st.yi = +e.target.value; paintBorders(false); };
+  $("#jprev").onclick = () => { stopPlay(); step(-1); };
+  $("#jnext").onclick = () => { stopPlay(); step(1); };
+  $("#jplay").onclick = () => {
+    if(timer) return stopPlay();
+    if(st.yi>=YRS.length-1) st.yi = -1;
+    $("#jplay").textContent = "❚❚"; $("#jplay").setAttribute("aria-label","To'xtatish");
+    step(1); timer = setInterval(() => { if(step(1)>=YRS.length-1) stopPlay(); }, 1600);
+  };
+  $("#jmin").onclick = () => { $("#jyb").dataset.min = "1"; paintBorders(false); };
+  $("#jopen").onclick = () => { $("#jyb").dataset.min = ""; paintBorders(false); };
+  $$(".tb-ticks [data-y]").forEach(b => b.onclick = () => { stopPlay(); st.yi = YRS.indexOf(snapAtOrBefore(+b.dataset.y)); paintBorders(false); });
   $("#jd").onchange = async e => { st.dav = e.target.value; const d = DAV[st.dav]; if(d){ const y = YRS[st.yi]; if(y<d.boshi-60 || y>d.oxiri) st.yi = YRS.indexOf(await snapFor(d)); } paintBorders(true); };
   const go = () => { const p = findPlace($("#jsr").value); if(!focusPlace(p)) $("#jinfo").textContent = `«${$("#jsr").value}» topilmadi. Boshqacha yozib ko'ring (masalan: Marakanda, Gurganj).`; };
   $("#jsr").onchange = go; $("#jsr").onkeydown = e => { if(e.key==="Enter"){ e.preventDefault(); go(); } };
