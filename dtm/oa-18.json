@@ -1,0 +1,345 @@
+{
+"id": "oa-18",
+"items": [
+{
+"n": 1,
+"q": "Birinchi Jahon urushiga nisbatan keyinroq kirgan davlatni toping.",
+"opts": [
+"Italiya",
+"Turkiya",
+"Bolgariya",
+"Ruminiya"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Rasmda tasvsirlangan shaxs nechanchi yilda taxtga chiqqan?",
+"opts": [
+"mil. avv. 49-yilda",
+"mil. avv. 336-yilda",
+"mil. avv. 312-yilda",
+"mil.avv. 594-yilda"
+],
+"ans": "C",
+"img": "img/dtm/oa-18-2.jpg"
+},
+{
+"n": 3,
+"q": "XIX asr oxiri - XX asr boshlarida Gvineyaning hududini bosib olgan davlat xato berilgan variantni toping?",
+"opts": [
+"Portugaliya",
+"Fransiya",
+"Germaniya",
+"Gollandiya"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Buyuk Karlning ushbu saroyi qaysi shaharda joylashgan?",
+"opts": [
+"Shpeyer",
+"Axen",
+"Vorms",
+"Maynts"
+],
+"ans": "B",
+"img": "img/dtm/oa-18-4.jpg"
+},
+{
+"n": 5,
+"q": "XIX asrda Eron valiahdi qarorgohi hisoblangan shaharni kim o'z davlatiga poytaxt deb e'lon qilgan edi?",
+"opts": [
+"Ismoil Safaviy",
+"Abbos I",
+"Og'o Muhammad",
+"Nodirshoh"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Ilk o'rta asrlarda Vizantiya va turklar bilan diplomatik aloqalar olib borgan davlatni toping.",
+"opts": [
+"Kidariylar davlati",
+"Xioniylar davlati",
+"Eftaliylar davlati",
+"Xorazm davlati"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Quyidagi qaysi qo'zg'olon nisbatan ertaroq bo'lib o'tgan ?",
+"opts": [
+"\"Po'latxon\"",
+"\"Yetimxon\"",
+"\"Darveshxon\"",
+"\"Dukchi Eshon\""
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Fransuzlar Samori Tureni taslim eta olgan yilda qayerda jadid maktabi ochilgan?",
+"opts": [
+"Qo'qonda",
+"Toshkentda",
+"Buxoroda",
+"Andijonda"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Kapitalizm davrida imperiyalarning tashkil etilishini xronologik tartibda ketma-ket joylashtiring.",
+"opts": [
+"2, 1, 3, 4",
+"1, 2, 3, 4",
+"4, 1, 2, 3",
+"1, 3, 4, 2"
+],
+"ans": "D",
+"extra": "1) Rossiya;\n2) Buyuk Britaniya;\n3) Avstriya-Vengriya;\n4) Germaniya"
+},
+{
+"n": 10,
+"q": "Jahon tarixida Bosvort yaqinidagi jang bo'lgan asrda O'zbekiston tarixida qaysi voqea sodir bo'lgan?",
+"opts": [
+"Movorounnahr amiri Mo'g'ulistonga yetti marotaba yurish qilgan",
+"Mirzo Ulug'bek Mo'g'ulistonga zafarli yurishni amalga oshirgan",
+"Zahiriddin Muhammad Bobur Kobulda hokimiyatni egallagan",
+"\"Faqihlar madrasasi\" qurilgan"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Angilyada “Taxt vorisligi to’g’risida bill” qachon qabul qilingan?",
+"opts": [
+"1700-yili",
+"1701-yili",
+"1702-yili",
+"1711-yili"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "\"Komprador\" atamasi qaysi tildan olingan?",
+"opts": [
+"golllandcha",
+"nemischa",
+"italyancha",
+"ispancha"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi rasmda qaysi shahar tasvirlangan?",
+"opts": [
+"Bobil",
+"Nineviya",
+"Moxenjodaro",
+"Memfis"
+],
+"ans": "B",
+"img": "img/dtm/oa-18-13.jpg"
+},
+{
+"n": 14,
+"q": "XIX asrning ikkinchi yarmida butun qoraqalpoq urug'larini boshqarish, soliqlarni undirish, harbiy xizmatni  o'tash majburiyatlariga doir ishlarni tartibga solish maqsadida qaysi lavozim tayinlangan?",
+"opts": [
+"beklarbegi",
+"otaliq",
+"qo'shbegi",
+"mehtar"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Rasmda tasvsirlangan xudo hindlaring qaysi xudosi hisoblanadi?",
+"opts": [
+"Braxma",
+"Budda",
+"Indra",
+"Ganesha"
+],
+"ans": "C",
+"img": "img/dtm/oa-18-15.jpg"
+},
+{
+"n": 16,
+"q": "Eronda XX asr boshlarida aksilinqilobiy davlat to'ntarishi o'tkazilgan yillarni belgilang?",
+"opts": [
+"1905-, 1911-yillar",
+"1907-, 1909-yillar",
+"1908-, 1911-yillar",
+"1906-, 1908-yillar"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyida qaysi xalqning rasmli taqvimi berilgan?",
+"opts": [
+"Inklar",
+"Asteklar",
+"Mayyalar",
+"Xitoyliklar"
+],
+"ans": "B",
+"img": "img/dtm/oa-18-17.jpg"
+},
+{
+"n": 18,
+"q": "Quyidagi qaysi Buxoro hukmdori Xiva xonligini bosib olmagan?",
+"opts": [
+"Shayboniyxon",
+"Ubaydullaxon",
+"Abdullaxon II",
+"Subhonqulixon"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "\"Go‘ri Amir va Shohizindaning oyatlar bitilgan naqshinkor eshiklari ... xalq ustalarining yog‘och o‘ymakorligi san’atidagi eng nodir namunalaridan hisoblanadi.\" Nuqtalar o'rnidagi asrni toping.",
+"opts": [
+"XIV asr",
+"XV asr",
+"XVI asr",
+"XVII asr"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Yangi davr boshlarida ilgari fan va adabiyot tili bo’lgan lotin tili o’rniga quyidagilardan qaysi xalq tillari rivojlandi?",
+"opts": [
+"1, 3, 5",
+"1, 2, 3",
+"2, 3, 5",
+"2, 4, 5"
+],
+"ans": "D",
+"extra": "1) nemis  2) ispan  3) ingliz  4) italyan  5) fransuz"
+},
+{
+"n": 21,
+"q": "Ubaydullaxon II davrida kimlar o‘z mulkidan keladigan daromadlaridan mahrum etiladi?",
+"opts": [
+"harbiylar",
+"din peshvolari",
+"suyurg'ol egalari",
+"tanhodorlar"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Rasmda tasvirlangan shahar nomini toping.",
+"opts": [
+"Konstantinopol",
+"Venetsiya",
+"Florensiya",
+"Qohira"
+],
+"ans": "A",
+"img": "img/dtm/oa-18-22.jpg"
+},
+{
+"n": 23,
+"q": "\"Ishchilar sinfini ozod qilish uchun kurash ittifoqi\" tuzilgan (a) va \"Umumiy saylov huquqi uchun kurash ishchi assotsiatsiyasi\" tuzilgan  (b) shaharlarni toping.",
+"opts": [
+"a - Berlin, b - Moskva",
+"a - Peterburg, b - London",
+"a - Parij, b - Berlin",
+"a - Moskva, b – London"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Ushbu tasvirdagi shaxs nechanchi yilda vafot etgan?",
+"opts": [
+"1616-yil",
+"1520-yil",
+"1564-yil",
+"1669-yil"
+],
+"ans": "A",
+"img": "img/dtm/oa-18-24.jpg"
+},
+{
+"n": 25,
+"q": "XIX asr ikkinchi yarmida qaysi davlatda senatorlar hukmdor tomonidan umrbod muddatga tayinlanar edi?",
+"opts": [
+"Germaniya",
+"Avstriya-Vengriya",
+"Italiya",
+"Buyuk Britaniya"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Quyidagi qaysi atama lotincha emas?",
+"opts": [
+"radikal",
+"delegat",
+"kazarma",
+"appellatsiya"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "\"Minbao\" gazetasini quyidagi qaysi tashkilot nashr etgan?",
+"opts": [
+"\"Xitoy uyushmalari ittifoqi\"",
+"Gomindan partiyasi",
+"\"Xitoy uyg'onish jamiyati\"",
+"\"Ixetuan\" harakati"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Turkiston general-gubernatorlarini xronologik ketma-ketlikda joylashtiring.",
+"opts": [
+"3, 5, 4, 1, 2",
+"1, 2, 5, 4, 3",
+"3, 5, 1, 2, 4",
+"3, 4, 5, 2, 1"
+],
+"ans": "D",
+"extra": "1) Kurapatkin;\n2) Duxovskiy;\n3) Kaufman;\n4) Rozenbax;\n5) Verevskiy."
+},
+{
+"n": 29,
+"q": "Quyidagilardan qaysi biri Xivadagi Ichan qal’a darvozasini nomi emas.",
+"opts": [
+"Taxta darvoza",
+"Bog'cha darvoza",
+"Ota darvoza",
+"Polvon darvoza"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "\"Ravzat us-safo\" asari kimning ko'rsatmasi bilan yozilgan?",
+"opts": [
+"Husayn Boyqaro",
+"Alisher Navoiy",
+"Mirzo Ulug'bek",
+"Abu Said"
+],
+"ans": "B"
+}
+]
+}

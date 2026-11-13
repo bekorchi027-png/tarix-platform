@@ -1,0 +1,335 @@
+{
+"id": "oa-05",
+"items": [
+{
+"n": 1,
+"q": "Jaloliddin Manguberdi Ozarbayjon hududida o'zing poytaxti etib belgilagan shahar keyinchalik qaysi temuriyzodaning ulusining markazi bo'lgan?",
+"opts": [
+"Pirmuhammad ibn Jahongir",
+"Umarshayx ibn Temur",
+"Mironshoh ibn Temur",
+"Shohrux ibn Temur"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Olviya, Xersones, Pantikapey koloniyalari quyidagi qaysi dengiz sohilida joylashgan?",
+"opts": [
+"Kaspiy dengizi",
+"Qora dengiz",
+"O'rtayer dengizi",
+"Egey dengizi"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Yevropada birinchi bo'lib mamlakatini viloyatlarga bo'lgan hukmdor kim?",
+"opts": [
+"Vilgelm I",
+"Karl Buyuk",
+"Xlodvig",
+"Otton I"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Qadimgi Yunonistonda qaysi sohalar rivoj topishi bilan shaharlar soni ortib borgan?",
+"opts": [
+"dehqonchilik va chorvachilik",
+"dehqonchilik va savdo-sotiq",
+"hunarmandchilik va savdo-sotiq",
+"hunarmandchilik va dehqonchilik"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Qaysi sulola davrida yurtimiz tarixida imomlar, sayyidlar, shayxlar va sadrlarga e'tibor kuchayib, ularning obro'yi har qachongidan ham balandga ko'tarilgan?",
+"opts": [
+"Temuriylar",
+"Somoniylar",
+"Shayboniylar",
+"Qoraxoniylar"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Quyidagi sulolalardan qaysi biri davrida sug'orish inshootlariga yetarli darajada e'tibor berilmagan?",
+"opts": [
+"Mang'itlar",
+"Ashtarxoniylar",
+"Shayboniylar",
+"Temuriylar"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Xitoydagi Buyuk kanal qaysi sulola davrida bunyod etilgan?",
+"opts": [
+"Sun",
+"Min",
+"Suy",
+"Tan"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "\"Jorulloh\" degan sharafli nomga sazovor bo'lgan ajdodimizni toping.",
+"opts": [
+"Moturidiy",
+"Zamaxshariy",
+"Marg'inoniy",
+"Imom Buxoriy"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Armaniston, Lidiya, Bobilni bosib olgan fors hukmdorini aniqlang.",
+"opts": [
+"Kir II",
+"Kambiz II",
+"Doro I",
+"Kserks"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Quyidagi qaysi atama \"ulug' xonadon\" ma'nosini anglatadi?",
+"opts": [
+"Piramida",
+"Villa",
+"Zikkurat",
+"Fir'avn"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Amir Temur bilan yuzma-yuz o'tirib suhbatlashib, Amir Temurni turk, arab, fors xalqlari tarixini chuqur o'rgangan, diniy, dunyoviy va falsafiy bilimlarning eng murakkab jihatlarigacha yaxshi o'zlashtirgan zot, deya ta'riflagan arab faylasufini toping.",
+"opts": [
+"Ibn Fadlan",
+"Ibn Battuta",
+"Ibn Dast",
+"Ibn Xaldun"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Bobur Kobulda hokimiyatni egallagan yili M.Shayboniyxon qaysi hududni egallagan edi?",
+"opts": [
+"Samarqand",
+"Farg'ona",
+"Xorazm",
+"Toshkent"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "\"Rim tarixi\" asarini kim yozgan?",
+"opts": [
+"Tatsit",
+"Tit Liviy",
+"Plutarx",
+"Kvint Kursiy Ruf"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Quyidagi qaysi qo'zg'olonda 100 mingga yaqin kishi qatnashgan?",
+"opts": [
+"\"Sariq ro'mollilar\" qo'zg'oloni",
+"\"Uat Tayler\" qo'zg'oloni",
+"\"Oq kiyimlilar\" qo'zg'oloni",
+"\"Jakeriya\" qo'zg'oloni"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Ismoil Somoniy nechanchi yilda butun Xurosonni qo'l ostiga birlashtirgan?",
+"opts": [
+"865-yilda",
+"888-yilda",
+"893-yilda",
+"900-yilda"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Ilk o'rta asrlardagi qaysi mahalliy hokimlikda qurolsozlik, shishasozlik, to'qimachilik yuksalgan?",
+"opts": [
+"Sug'd",
+"Farg'ona",
+"Toxariston",
+"Choch"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Shayboniylar davlatida qaysi lavozim mamlakatda adolat mezonlariga amal qilinishini nazorat qilgan?",
+"opts": [
+"Dodxoh",
+"Shayxulislom",
+"Muhtasib",
+"Ko'kaldosh"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "G'aznaviylar davlati butunlay tugatilgan yilda anushteginiylar sulolasidan kim Xorazmshohlar davlatini boshqarayotgan edi?",
+"opts": [
+"Otsiz",
+"Elarslon",
+"Takash",
+"Anushtegin"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "XIV asr oxiri - XV asr boshlarida qaysi davlat hukmdorlarining ulug' davlatchilik siyosati tufayli Amir Temur davlatining shu davlat bilan munosabatlarida jiddiylashuv yuzaga keladi?",
+"opts": [
+"Turkiya",
+"Misr",
+"Oltin O'rda",
+"Xitoy"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Quyidagi qaysi Rus hukmdori bijanaklar bilan urush olib bormagan?",
+"opts": [
+"Oleg",
+"Igor",
+"Svyatoslav",
+"Yaroslav"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Yunon shaharlari ittifoqi nechanchi yilda tashkil etilgan?",
+"opts": [
+"mil.avv. 776-yilda",
+"mil.avv. 490-yilda",
+"mil.avv. 449-yilda",
+"mil.avv. 337-yilda"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Nechanchi yildagi shartnomaga ko'ra, Sobuqtegin Amudaryoning janubidagi yerlarga, shu jumladan, Xurosonda hukmdor bo'lib oladi?",
+"opts": [
+"992-yildagi",
+"996-yildagi",
+"997-yildagi",
+"995-yildagi"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Inkvizitsiya faoliyati o'rta asrlarda quyidagi qaysi davlatda, ayniqsa, keng tus oladi?",
+"opts": [
+"Germaniya",
+"Ispaniya",
+"Fransiya",
+"Angliya"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Yunon-fors urushlaridagi qaysi jangda yunonlar forslarning 7 ta kemasini egallab olishgan?",
+"opts": [
+"Salamin jangi",
+"Marafon jangi",
+"Plateya jangi",
+"Fermopil jangi"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi sulola davrida Movarounnahr va Xorazmda shaharlar o'ndan ortiq darvozali kattagina hunarmandchilik markaziga aylanadi?",
+"opts": [
+"Temuriylar",
+"Qoraxitoylar",
+"Qoraxoniylar",
+"Somoniylar"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Urartu davlati joylashgan hudud o'rta asrlarda qanday nom bilan atalgan?",
+"opts": [
+"Shom",
+"Kastiliya",
+"Shirvon",
+"Jurjon"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Quyidagi qaysi yodgorlikdan ibodatxona qoldiqlari topilgan?",
+"opts": [
+"Selungur",
+"Jarqo'ton",
+"Sopollitepa",
+"Ko'lbuloq"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "G'urakning hukmronligi boshlangan yilda arablar quyidagi  qaysi hududni bosib olishgan edi?",
+"opts": [
+"Balx",
+"Poykand",
+"Kesh",
+"Xorazm"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Qaysi poytaxt shaharga katta ko'l o'rtasidagi orollarda asos solingan?",
+"opts": [
+"Tenochtitlan",
+"Chichen-Itsa",
+"Kusko",
+"Niara"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Fuqarolarning saylov huquqidan foydalanishlarini cheklaydigan shartlar qanday nomlanadi?",
+"opts": [
+"veto",
+"diktatura",
+"senz",
+"boykot"
+],
+"ans": "C"
+}
+]
+}

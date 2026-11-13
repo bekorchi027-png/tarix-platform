@@ -1,0 +1,337 @@
+{
+"id": "oa-39",
+"items": [
+{
+"n": 1,
+"q": "Qaysi olim o'z asarida dunyo xaritasini ilova qilgan?",
+"opts": [
+"Zamaxshariy",
+"Koshg'ariy",
+"Yusuf Xos Hojib",
+"Beruniy"
+],
+"ans": "B",
+"img": "img/dtm/oa-39-1.jpg"
+},
+{
+"n": 2,
+"q": "Genrix III tomonidan Ispaniya elchilari qachon Amir Temurning Kichik Osiyodagi qarorgohiga yuborilgan?",
+"opts": [
+"1402-yil bahorida",
+"1402-yil yozida",
+"1403-yil bahorida",
+"1403-yil yozida"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Amir Temur Mo'g'ulistonga necha marta harbiy yurish tashkillashtirgan?",
+"opts": [
+"3 marta",
+"5 marta",
+"7 marta",
+"9 marta"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Shohrux vafotidan so'ng uning taxtini qaysi nabirasi o'zboshimchalik bilan egallaydi?",
+"opts": [
+"Abdulaziz",
+"Abdulatif",
+"Alouddavla",
+"Abulqosim Bobur"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "\"G'oziylar\" ishtirok etgan qo'zg'olon qaysi sulolaning taxtdan ketishiga sabab bo'lgan?",
+"opts": [
+"Umaviylarning",
+"Safforiylarning",
+"Somoniylarning",
+"Tohiriylarning"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Ilk o'rta asrlarda qaysi shaharning umumiy maydoni qariyb  200 gektardan iborat bo'lgan?",
+"opts": [
+"Buxoroning",
+"Poykandning",
+"Samarqandning",
+"Kat shahrining"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Quyidagi olimlardan qaysi biri 865-yilda tavallud topgan?",
+"opts": [
+"Al-Farg'oniy",
+"Al-Beruniy",
+"Al-Farobiy",
+"Abu Bakr ar-Roziy"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Somoniylar davrida qaysi yer egaligi asosan lalmikor va tog'oldi yerlardan iborat bo'lgan?",
+"opts": [
+"mulki xos",
+"mulki inju",
+"mulki vaqf",
+"jamoa yerlari"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Taynol no'yon va Jaloliddin Manguberdi o'rtasidagi jang qaysi shahar yaqinida sodir bo'lgan?",
+"opts": [
+"Isfahon",
+"Tabriz",
+"Garni",
+"Marog'a"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "\"Qutadg'u bilig\" asari qaysi shaharda yozib tugatiladi?",
+"opts": [
+"Bolosog'unda",
+"Koshg'arda",
+"Bag'dodda",
+"Damashqda"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Nechanchi yilda Turkiya va Sivas elchilari Misrga borib, mamlakatlari Amir Temurga qarshi bo'lgan harbiy ittifoqqa qo'shilishini aytadilar?",
+"opts": [
+"1382-yil",
+"1384-yil",
+"1385-yil",
+"1386-yil"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Qur'onni qo'yish uchun o'rnatilgan ulkan tosh lavh qayerda joylashgan?",
+"opts": [
+"Go'ri Amirda",
+"Shohizindada",
+"Bibixonim jome masjidida",
+"Saroymulkxonim madrasasida"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Ulug'bek rasadxonasiga ulkan sekstantni kimning boshchiligida o'rnatishgan?",
+"opts": [
+"G'iyosiddin Jamshid Koshoniy",
+"Ali Qushchi",
+"Qozizoda Rumiy",
+"Shamsiddin Muhammad Havofiy"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Turkman va qipchoqlarni o'ziga bo'ysundirgan Xorazmshoh kim edi?",
+"opts": [
+"Qutbiddin Muhammad",
+"Otsiz",
+"Takash",
+"Alovuddin Muhammad"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Rofe ibn Lays boshchiligida  qo'zg'olon ko'tarilgan yilda xalifa kim edi?",
+"opts": [
+"Mansur",
+"Ma'mun",
+"Xorun ar-Rashid",
+"Mu'tazid"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Arablar qaysi hudud hukmdoridan yuz ming dirham tovon undirishgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Xorazm",
+"Chag'oniyon"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "G'arbiy Turk xoqonligining qarorgohi qachon Choch viloyatiga ko'chirilgan?",
+"opts": [
+"VII asrning birinchi yarmida",
+"VII asrning ikkinchi yarmida",
+"VII asrning birinchi choragida",
+"VII asrning ikkinchi choragida"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Qachonga kelib Chig'atoy ulusida mo'g'ullarning o'troqlikka o'tish jarayoni kuchayib, ularning ijtimoiy hayotida jiddiy o'zgarishlar sodir bo'la boshlaydi?",
+"opts": [
+"XIII asr boshlarida",
+"XIII asr o'rtalarida",
+"XIII asr ikkinchi yarmida",
+"XIV asr birinchi yarmida"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "\"Dil ba yor-u dast ba kor\" degan hikmat qaysi tariqatning mohiyatini ifodalaydi?",
+"opts": [
+"Yassaviya",
+"Naqshbandiya",
+"Kubroviya",
+"Mazdakiya"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Robiya saroyi qaysi shaharda joylashgan?",
+"opts": [
+"Toshkent",
+"Samarqand",
+"Buxoro",
+"Urganch"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Kimning taxallusi \"dinning ulug' yulduzi\" degan ma'noni anglatadi?",
+"opts": [
+"Burhoniddin Marg'inoniy",
+"Xoja Bahouddin Naqshband",
+"Najmiddin Kubro",
+"Ahmad Yugnakiy"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Turk xoqonligida o'n o'q elning hokimi qanday nomlangan?",
+"opts": [
+"budun",
+"jabg'u",
+"shod",
+"tuman"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Ilk o'rta asrlarda O'rta Osiyo shishasi rangdorligi, yarqiroqligi va tiniqligi jihatdan qaysi hudud shishasidan ustun turgan?",
+"opts": [
+"Vizantiya",
+"Eron",
+"Xitoy",
+"Hindiston"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Muqanna qo'zg'oloni ayniqsa  qaysi hududda avj oladi?",
+"opts": [
+"Eloq",
+"Shosh",
+"Sug'd",
+"Xorazm"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "\"Buyuk Temur\" nomli sahna asarining muallifi kim?",
+"opts": [
+"Pero Meksika",
+"Perondino",
+"Klavixo",
+"Xristofar Morlo"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Samarqanddagi Ulug'bek madrasasida qaysi olim ilmi hay'atdan dars bergan?",
+"opts": [
+"Jamshid Koshoniy",
+"Qozizoda Rumiy",
+"Ali Qushchi",
+"Mirzo Ulug'bek"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Arab tili fonetikasi va uning morfologiyasiga bag'ishlangan asar qaysi?",
+"opts": [
+"\"Al-Kashshof\"",
+"\"Al-Mufassal\"",
+"\"Kitob at-tavhid\"",
+"\"Hibat ul-haqoyiq\""
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Qaysi olim \"o'z davrining Ptolomeyi\" nomini olgan?",
+"opts": [
+"Qozizoda Rumiy",
+"G'iyosiddin Jamshid Koshoniy",
+"Ali Qushchi",
+"Shamsiddin Muhammad Havofiy"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "XV asrda o'rtalarida Termiz, Shahrisabz va Huzor orqali Samarqandga yurish qilgan shaxs kim edi?",
+"opts": [
+"Abulqosim Bobur",
+"Abdulatif",
+"Alouddavla",
+"Abulxayrxon"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Amir Temur va Sulton Barquq o'rtasidagi rasmiy aloqalar nechanchi yilda boshlangan?",
+"opts": [
+"1382-yil",
+"1384-yil",
+"1385-yil",
+"1386-yil"
+],
+"ans": "C",
+"img": "img/dtm/oa-39-30.jpg"
+}
+]
+}

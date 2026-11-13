@@ -1,0 +1,345 @@
+{
+"id": "oa-34",
+"items": [
+{
+"n": 1,
+"q": "\"Mil.avv. IV asrda   ...   Ahamoniylar davlatidan ajralib chiqib, mustaqil davlatga aylandi\". Nuqtalar o'rnidagi davlatni toping.",
+"opts": [
+"Marg'iyona",
+"Xorazm",
+"So'g'diyona",
+"Baqtriya"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "O'rta Osiyoning janubida sun'iy sug'orishga asoslangan dehqonchilik qaysi davrda vujudga kelgan?",
+"opts": [
+"Mezolit",
+"Bronza",
+"Neolit",
+"Eneolit"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Odamning o'zini qurshab turgan tevarak olamni tushunishiga intilishi qaysi sohaning rivojlanishi uchun asos bo'lib xizmat qilgan?",
+"opts": [
+"dastlabki diniy e'tiqodlarning",
+"eng qadimgi tasviriy san'atning",
+"ishlab chiqaruvchi xo'jalikning",
+"o'zlashtiruvchi xo'jalikning"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Qadimgi Misrda qaysi fir'avn zamonidan Yangi podsholik davri boshlangan?",
+"opts": [
+"Menes",
+"Tutanxamon",
+"Yaxmos",
+"Tutmos II"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Yulduzcha bilan belgilangan davlat hududidan ibtidoiy odamning qaysi turi topilgan?",
+"opts": [
+"neandertal",
+"kromanyon",
+"pitekantrop",
+"avstralopitek"
+],
+"ans": "B",
+"img": "img/dtm/oa-34-5.jpg"
+},
+{
+"n": 6,
+"q": "Yurtimiz hududida nechanchi asrda saklar tomonidan davlatga asos solingan?",
+"opts": [
+"mil. avv. V asrda",
+"mil. avv. IV asrda",
+"mil. avv. III asrda",
+"mil. avv. II asrda"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Rim imperiyasida nechanchi yildan keyin xristianlar ibodatxonalar qurish va oshkora ibodat qilish imkoniga ega bo'lgan?",
+"opts": [
+"98-yildan keyin",
+"313-yildan keyin",
+"330-yildan keyin",
+"395-yildan keyin"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qaysi davrda insoniyat o'z rivojida yana bir pog'onaga yuksalgan?",
+"opts": [
+"So'nggi paleolit davrida",
+"Mezolit davrida",
+"Neolit davrida",
+"Eneolit davrida"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Qang' davlatiga kimlar tomonidan asos solingan?",
+"opts": [
+"yuechjilar",
+"massagetlar",
+"saklar",
+"oriylar"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Qadimgi Misrda Sinay yarim oroliga boruvchi yo'l qayerdan o'tgan?",
+"opts": [
+"Falastin hududi orqali",
+"Liviya cho'llari orqali",
+"Memfis shahri orqali",
+"Nil daryosi bo'ylab"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qaysi davr manzilgohlari Buxoro, Surxondaryo va Xorazm hududlaridan topilgan?",
+"opts": [
+"So'nggi paleolit",
+"Mezolit",
+"Neolit",
+"Bronza"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Yulduzcha bilan belgilangan davlat hududidan topilgan g'or qaysi davrga tegishli hisoblanadi?",
+"opts": [
+"So'nggi paleolit davri",
+"O'rta paleolit davri",
+"Ilk paleolit davri",
+"Mezolit davri"
+],
+"ans": "A",
+"img": "img/dtm/oa-34-12.jpg"
+},
+{
+"n": 13,
+"q": "Ushbu tasvir qaysi shahardan topilgan?",
+"opts": [
+"Suza",
+"Persepol",
+"Ekbatana",
+"Zariasp"
+],
+"ans": "B",
+"img": "img/dtm/oa-34-13.jpg"
+},
+{
+"n": 14,
+"q": "So'g'diylar quyidagi  qaysi hududda yashaganlar?",
+"opts": [
+"Amudaryo va Surxondaryo vohasida",
+"Zarafshon va Qashqadaryo vohasida",
+"Surxondaryo va Qashqadaryo vohasida",
+"Zarafshon va Surxondaryo vohasida"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Quyidagi qaysi davlatga milodiy I asrda asos solingan?",
+"opts": [
+"Qang'",
+"Kushon",
+"Yunon-Baqtriya",
+"Davan"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Qaysi atama \"ulug' xonadon\" degan ma'noni anglatadi?",
+"opts": [
+"zikkurat",
+"terma",
+"panteon",
+"fir'avn"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Odamlar guruhi jamoasining biror hayvon yoki o'simlik turi bilan qarindoshlik aloqasiga ishonish qanday nomlanadi?",
+"opts": [
+"Animizm",
+"Totemizm",
+"Fetishizm",
+"Varvarizm"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Ushbu rasm nechanchi yilda chizilganligini toping?",
+"opts": [
+"1635-yilda",
+"1536-yilda",
+"1356-yilda",
+"1563-yilda"
+],
+"ans": "D",
+"img": "img/dtm/oa-34-18.jpg"
+},
+{
+"n": 19,
+"q": "Rasmda tasvirlangan xudo kimligini toping.",
+"opts": [
+"Yupiter",
+"Mars",
+"Vulqon",
+"Neptun"
+],
+"ans": "D",
+"img": "img/dtm/oa-34-19.jpg"
+},
+{
+"n": 20,
+"q": "Yulduzcha bilan belgilangan davlat hududida miloddan avvalgi VI asrda qaysi voqea sodir bo'lgan?",
+"opts": [
+"bu hudud forslar tomonidan bosib olingan",
+"Old Osiyodagi eng yirik sopol taxtachalardan iborat kutubxona tashkil etilgan",
+"\"xudolarsiz din\" vujudga kelgan",
+"alifbo vujudga kelgan"
+],
+"ans": "A",
+"img": "img/dtm/oa-34-20.jpg"
+},
+{
+"n": 21,
+"q": "Qaysi fors hukmdorining hukmronligining birinchi yilida Marg'iyonada qo'zg'alon ko'tarilgan?",
+"opts": [
+"Kir II",
+"Doro III",
+"Kambiz II",
+"Doro I"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Qadimgi Misrda zodagonlarning uylari nimadan qurilgan?",
+"opts": [
+"xumdonda pishirilgan pishgan g'ishtdan",
+"oftobda quritilgan xom g'ishtdan",
+"loy suvalgan paxsadan",
+"chet eldan keltirilgan marmar toshdan"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Ushbu tasvirdagi narsani ibtidoiy odamlar qaysi davrda tayyorlasha boshlashgan?",
+"opts": [
+"ilk paleolit",
+"o'rta paleolit",
+"so'nggi paleolit",
+"mezolit"
+],
+"ans": "C",
+"img": "img/dtm/oa-34-23.jpg"
+},
+{
+"n": 24,
+"q": "Mesopotamiyaning shimoliy qismi qanday nomlangan?",
+"opts": [
+"Akkad",
+"Shumer",
+"Bobil",
+"Elam"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Qadimgi davlatlardan qaysi biri yulduzcha bilan belgilangan davlat hududida tashkil etilgan?",
+"opts": [
+"Mitanni",
+"Xett",
+"Urartu",
+"Elam"
+],
+"ans": "D",
+"img": "img/dtm/oa-34-25.jpg"
+},
+{
+"n": 26,
+"q": "Afinaliklar tomonidan shahardan haydab yuborilgan tarixiy shaxs kim edi?",
+"opts": [
+"Perikl",
+"Kserks",
+"Tarkviniy",
+"Drakont"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Quyidagi davlatlardan qaysi birining poytaxti yulduzcha bilan belgilangan davlat hududida joylashgan?",
+"opts": [
+"Yunon-Baqtriya",
+"Ahamoniylar",
+"Kushon davlati",
+"Salavkiylar davlati"
+],
+"ans": "C",
+"img": "img/dtm/oa-34-27.jpg"
+},
+{
+"n": 28,
+"q": "Tasvirdagi bino qaysi shaharda joylashgan?",
+"opts": [
+"Rim",
+"Afina",
+"Bobil",
+"Memfis"
+],
+"ans": "B",
+"img": "img/dtm/oa-34-28.jpg"
+},
+{
+"n": 29,
+"q": "Turmush va mehnat umumiyligi negizida birlashgan eng qadimgi odamlar jamoasi qanday nomlanadi?",
+"opts": [
+"Urug'",
+"Patriarxal oila",
+"Ibtidoiy to'da",
+"Qabila"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Urartu davlati qaysi hududga joylashgan?",
+"opts": [
+"Turkiyaning g'arbiy qismi va Ozarbayjon hududida",
+"Suriyaning g'arbiy qismi va Armaniston hudidida",
+"Turkiyaning sharqiy qismi va Armaniston hudidida",
+"Suriyaning g'arbiy qismi va Ozarbayjon hududida"
+],
+"ans": "C"
+}
+]
+}

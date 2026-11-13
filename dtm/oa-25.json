@@ -1,0 +1,336 @@
+{
+"id": "oa-25",
+"items": [
+{
+"n": 1,
+"q": "Harbiy sanoat kompleksi korxonalarini xalq iste’mol tovarlari ishlab chiqarishga o‘tkazish, urushdan keyin sanoatni tinchlik davriga moslab qayta qurish qanday nomlanadi?",
+"opts": [
+"konsessiya",
+"konvensiya",
+"kontributsiya",
+"konversiya"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "XX asr boshlariga tegishli quyidagi ma'lumotlardan xatosini toping.",
+"opts": [
+"Albaniyada qo'zg'olon boshlangan yilda Meksikada hosil bo'lmadi",
+"Bengaliya birlashtirilgan yilda Italiya Liviyaga urush boshladi",
+"Buyuk Britaniyadagi tred-yunionlar partiyasi Leyboristlar nomini olgan yilda Eron tarixida birinchi marta parlament tuzildi",
+"Meksikada hosil bo'lmagan yilda Avstriya-Vengriya Rossiya bilan Bolqon yarim orolidagi o'z manfaatlarini qo'llovchi bitim tuzdi va Italiyaning Bolqon mamlakatlariga suqilib kirishiga qat'iy qarshilik ko'rsatishiga kelishib oldi"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Turkiston general-gubernatorligining Farg'ona viloyati gubernatori lavozimida ishlagan ma'murlarni toping.",
+"opts": [
+"F. Romanovskiy va M. Chernyayev",
+"V. A. Perovskiy va N. Krijanovskiy",
+"A. Gippius va M. Skobelov",
+"Afanasyev va Ivanov"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Quyidagi hududlarning Rossiya tarkibiga kiritilgan yillari bo'yicha ketma-ketlikda joylashtiring.",
+"opts": [
+"1, 2, 4, 3",
+"2, 3, 1, 4",
+"4, 1, 3, 2",
+"4, 1, 2, 3"
+],
+"ans": "D",
+"extra": "1) Astraxan;\n2) Qrim;\n3) Kavkaz;\n4) Qozon"
+},
+{
+"n": 5,
+"q": "Mo'yi Muborak madrasasi mavjud bo'lgan shaharni toping.",
+"opts": [
+"Buxoro",
+"Toshkent",
+"Qo’qon",
+"Xiva"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Qaysi Osiyo davlatida XX asrda \"Oq inqilob\" sodir bo'lgan?",
+"opts": [
+"Eron",
+"Iroq",
+"Turkiya",
+"Afg'oniston"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Quyidagi tashkilotlardan tashkil etilgan yili xato keltirilgan javobni toping.",
+"opts": [
+"\"O'zbeknavo\" gastrol-konsert birlashmasi 1996-yil tashkil topgan",
+"O'zbekiston Badiiy akademiyasi 1997-yil tashkil topgan",
+"\"O'zbekmuzey\" Respublika jamg'armasi 1998-yilda tuzilgan",
+"\"O'zbekteatr\" ijodiy-ishlab chiqarish birlashmasi 1999-yilda tashkil etilgan."
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "\"9+1\" nomi bilan tarixga kirgan hujjat qayerda imzolangan?",
+"opts": [
+"Minsk",
+"Novo-Ogoryova",
+"Kiyev",
+"Toshkent"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "1998-yilda Hindistonda kim bosh vazir lavozimini egallagan?",
+"opts": [
+"Narasimxa Rao",
+"Atal Bexari Vajpai",
+"Rajendra Pratap Singx",
+"P. Mukerji"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Shoh Lalibeli ibodatxonasi qaysi davlatda joylashgan?",
+"opts": [
+"Gana",
+"Mali",
+"Aksum",
+"Songai"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Quyidagi vazifalardan qaysi biri dorug'a zimmasiga yuklatilmagan?",
+"opts": [
+"aholini ro'yhatga olish",
+"soliq yig'ish",
+"suv inshootlarini ta'mirlash",
+"mahalliy xalqdan qo'shin to'plash"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi Eron hukmdorlaridan qaysi biri muntazam qo'shin tuzgan?",
+"opts": [
+"Ismoil Safaviy I",
+"Abbos I",
+"Nodir Quli",
+"Sulton Husayn"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "1990-yil 30-aprelda qaysi partiyaning dasturi va nizomi qabul qilingan?",
+"opts": [
+"O'zbekiston Xalq demokratik partiyasi",
+"O'zbekiston Vatan taraqqiyoti partiyasi",
+"Erk demokratik partiyasi",
+"Fidokorlar milliy-demokratik partiyasi"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "2002-yil oktabr oyida BMT ning qaysi Bosh kotibi yurtimizga tashrif buyurgan?",
+"opts": [
+"Butros G'oliy",
+"Kofe Annan",
+"Pan Gi Mun",
+"Antoniu Guterrish"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Podsho Rossiyasi qo'shinining Xivaga hujumida yaralangan generali quyidagi qaysi shaharni bosib olgan edi?",
+"opts": [
+"Turkiston",
+"Chimkent",
+"Oqmachit",
+"Avliyoota"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "1946-yildan to 1948-yilgacha qaysi shaharda Ikkinchi Jahon urushi jinoyatchilari ustidan sud jarayoni bo'lib o'tgan?",
+"opts": [
+"Nyu York",
+"Nyurenburg",
+"Rim",
+"Tokio"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Milanda 5 kunlik umumiy ish tashlash ro‘y bergan yilda qayerda jadid maktabi ochilgan?",
+"opts": [
+"Buxoroda",
+"Qrimda",
+"Qo’qonda",
+"Andijonda"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Chexoslavakiya qachondan ikki mustaqil davlatga - Chexiya Respublikasi va Slovakiya Respublikasiga bo'linib ketgan?",
+"opts": [
+"1991-yil 1-yanvardan",
+"1992-yil 1-yanvardan",
+"1993-yil 1-yanvardan",
+"1994-yil 1-yanvardan"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "\"Matto bayon etgan buyuk musibat\" nomli asar muallifini toping.",
+"opts": [
+"V. Motsart",
+"L. Betxoven",
+"I. Bax",
+"X. Yanni"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "O'rta asrlarda inkvizitsiya qaysi Rim papasi davrida o'z qudratining cho'qqisiga erishgan?",
+"opts": [
+"Innokentiy III",
+"Lev III",
+"Grigoriy VII",
+"Grigoriy IX"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "1137-yil qaysi shahar yaqinida qoraxitoylar Qoraxoniylar eloqxoni Mahmudga qaqshatqich zarba beradilar?",
+"opts": [
+"O'tror",
+"Xo'jand",
+"Jizzax",
+"Toshkent"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Mustafo Kamol Otaturkdan keyin Turkiya prezidenti bo'lgan siyosiy arbobni toping.",
+"opts": [
+"Ismet Inenyu",
+"Kenan Evren",
+"Turg'ut O'zal",
+"Sulaymon Demirel"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "\"Tarixi Rashidiy\" asarini kim yozgan?",
+"opts": [
+"Hofiz Tanish Buxoriy",
+"Kamoliddin Binoiy",
+"Muhammad Haydar",
+"Bobokalon Samarqandiy"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "1999-yil kuzida Pokistonda davlat to'ntarishdan o'tkazilganidan keyin hokimiyat tepasiga kim keladi?",
+"opts": [
+"Navoz Sharif",
+"Parvez Musharraf",
+"G'ulom Is'hoqxon",
+"Ziyoulhaq"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "1842-yilda Afg'onistonda kimning amirlik hokimiyati qayta tiklanadi?",
+"opts": [
+"Temurxon",
+"Fathxon",
+"Akbarshoh",
+"Do'st Muhammadxon"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Toshkentda nechanchi yilda \"Xotira maydoni\" barpo etilgan?",
+"opts": [
+"1995-yil",
+"1997-yil",
+"1999-yil",
+"2001-yil"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Xitoy Koreyaning mustaqilligini tan olgan va Rossiya Koreyani Yaponiya ta'sir doirasi deb tan olgan yillar orasida necha yil farq bor?",
+"opts": [
+"5 yil",
+"10 yil",
+"15 yil",
+"20 yil"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "XIX asr oxiri va XX asr boshlarida O'rta Osiyo Davlat banki qaysi shaharda joylashgan edi?",
+"opts": [
+"Toshkent",
+"Samarqand",
+"Qo'qon",
+"Buxoro"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Bavariyaning Lex daryosi bo'yidagi jangda vengerlar mag'lub etilgan yilda O'rta Osiyo tarixida qaysi voqea sodir bo'lgan?",
+"opts": [
+"Buxoro harbiy askarlarining g'alayoni ko'tarilgan",
+"Qoraxoniylar davlati asoschisi vafot etgan",
+"G'aznaviylar davlati paydo bo'lgan",
+"Somoniylar davlati tugatilgan"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "XI asr oxirida qaysi davlat knyazi qirol unvonini olgan?",
+"opts": [
+"Polsha",
+"Moraviya",
+"Bolgariya",
+"Chexiya"
+],
+"ans": "D"
+}
+]
+}

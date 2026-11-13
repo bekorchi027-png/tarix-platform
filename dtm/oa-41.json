@@ -1,0 +1,337 @@
+{
+"id": "oa-41",
+"items": [
+{
+"n": 1,
+"q": "\"Yaxshi\", \"Yigitlar\", \"Kerak\", \"Bo'ladi\" asarlarining muallifi kim?",
+"opts": [
+"Jiyen Jirov",
+"Ajiniyoz",
+"Berdaq",
+"Kunxo'ja Ibrohim"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Qo'ng'irotlar sulolasi davrida Xiva xonligining Buxoro, Eron va Afg'oniston bilan savdo qiluvchi savdogarlari qanday nom bilan atalgan?",
+"opts": [
+"Tehronchi",
+"Kobulchi",
+"Buxorochi",
+"Xurosonchi"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Ataman Nechay va ataman Shamaylar qaysi hukmdor davrida Xiva xonligiga hujum qilishgan?",
+"opts": [
+"Arab Muhammadxon",
+"Habash Sulton",
+"Asfandiyorxon",
+"Abulg'oziy Bahodirxon"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "\"U amirlik qalamini kambag'allik kiyimi bilan bezadi. Jahon bog'idan dushmanlik va yomonlikni tomiri bilan sug'urib tashladi va adolat nihollarini o'tqazdi\" Ahmad Donishning ushbu ta'rifi kim haqida edi?",
+"opts": [
+"Amir Haydar",
+"Amir Shohmurod",
+"Amir Nasrullo",
+"Amir Muzaffar"
+],
+"ans": "B",
+"img": "img/dtm/oa-41-4.jpg"
+},
+{
+"n": 5,
+"q": "Semipalatinsk shahri qaysi daryo sohilida joylashgan?",
+"opts": [
+"Yoyiq",
+"Volga",
+"Dnepr",
+"Irtish"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Shayboniylar davlatida harbiy yurish paytida davlat bayrog'ini kim ko'tarib borgan?",
+"opts": [
+"jevachi",
+"yasovul",
+"qurchi",
+"yalovbardor"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "1841-yilda Qo'qon shahri madrasalarida qancha mulla ta'lim olgan?",
+"opts": [
+"1 000 nafar",
+"2 000 nafar",
+"3 000 nafar",
+"4 000 nafar"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Jonibek Sultonning o'g'li  Din Muhammad kimning qo'shini  bilan bo'lgan jangda halok bo'lgan?",
+"opts": [
+"Eron hukmdori Shoh Abbos qo'shini bilan",
+"Hindiston hukmdori Akbarshoh qo'shini bilan",
+"Qozoq xoni Tavakkal qo'shini bilan",
+"Xiva xoni Arab Muhammad qo'shini bilan"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Buxoro xoni Ubaydullaxon safaviylar ustidan qozonilgan g'alabani kimga bag'ishlagan?",
+"opts": [
+"otasi Mahmud Sultonga",
+"O'zbek ulusi asoschisi Abulxayrxonga",
+"do'sti Abdulla Sabroniyga",
+"o'g'li Abdulazizxonga"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "\"Odam bolalari ibtidoda bir gavhardan bino bo'lganligi tufayli yaxlit bir vujud kabidirlar. Binobarin, zamon uning bir a'zosiga jarohat yetkazsa, boshqa a'zolari ham o'z tinchini yo'qotadi\". Ushbu jumla qaysi asardan olingan?",
+"opts": [
+"\"Chor kitob\"",
+"\"Guliston\"",
+"\"Qobusnoma\"",
+"\"Taqvodorlar maslagi\""
+],
+"ans": "B",
+"img": "img/dtm/oa-41-10.jpg"
+},
+{
+"n": 11,
+"q": "164 kg.ga teng og'irlik o'lchov birligini toping.",
+"opts": [
+"misqol",
+"pud",
+"karb",
+"botmon"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Qo'qon xonligida qo'shinning chap qanoti qanday nomlangan?",
+"opts": [
+"maysara",
+"maymana",
+"ilg'or",
+"tug'"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Oltinbeshikning ming urug'idan uylangan turmush o'rtog'i o'g'il farzand tug'ib beradi. Unga qanday ism qo'yishgan?",
+"opts": [
+"Tangriyor",
+"Xudoyberdi",
+"Davlatyor",
+"Yodgor"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Nechanchi yilda qoraqalpoqlar Xiva xonligiga to'la bo'ysundirilgan?",
+"opts": [
+"1735-yilda",
+"1770-yilda",
+"1811-yilda",
+"1827-yilda"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Yangi Urganch yaqinida Shohobod nomli kanal qazdirgan Xiva xonini toping?",
+"opts": [
+"Abulg'oziy Bahodirxon",
+"Anushaxon",
+"Sherg'ozixon",
+"Elbarsxon"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Yurtimizda 2018-yilning kuzida bo'lib o'tgan Xalqaro maqom san'ati anjumanida bosh mukofotni qaysi davlat maqom Akademiyasi qo'lga kiritgan?",
+"opts": [
+"Qozog'iston maqom akademiyasi",
+"Turkmaniston maqom akademiyasi",
+"O'zbekiston maqom akademiyasi",
+"Tojikiston maqom akademiyasi"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Gumbazining balandligi 22 metrni tashkil etadigan madrasani toping?",
+"opts": [
+"Ko'kaldosh madrasasi",
+"Baroqxon madrasasi",
+"Sherdor madrasasi",
+"Ernazar elchi madrasasi"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "11 yoshida qatl etilgan Mo'min Mirzo kimning o'g'li bo'lgan?",
+"opts": [
+"Badiuzzamon",
+"Muzaffar Husayn",
+"Husayn Boyqaro",
+"Sulton Ali Mirzo"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Shayboniylar davlatida qo'shhokimiyatchilik paytida Karmana va Miyonqolda kim mustaqil bo'lib oladi?",
+"opts": [
+"Pirmuhammad I",
+"Navro'z Ahmadxon",
+"Abdulatifxon",
+"Iskandarxon"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Buxoro xoni Imomqulixon kimning o'g'li bo'lgan?",
+"opts": [
+"Din Muhammad",
+"Boqi Muhammad",
+"Vali Muhammad",
+"Nodir Muhammad"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Buxoro amirligida yigirma besh ming tanob yer qanday nomlangan?",
+"opts": [
+"hazora",
+"nim hazora",
+"qoriya",
+"marza"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi hukmdordan 220 dan ortiq hikmat meros qolgan?",
+"opts": [
+"Shayboniyxon",
+"Ko'chkunchixon",
+"Abdullaxon II",
+"Ubaydullaxon"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Qo'qon xonligida qo'shin qo'mondonligi lavozimini egallagan Aliquli qaysi qabiladan bo'lgan?",
+"opts": [
+"ming",
+"qirg'iz",
+"qipchoq",
+"kenagas"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "\"O'rta Osiyo bo'ylab sayohat\" asarining muallifi kim?",
+"opts": [
+"N. Vasilevskiy",
+"X. Vamberi",
+"S. Jukovskiy",
+"A. Jenkinson"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "1510-yilda Xorazm mustaqilligi uchun kurash olib borgan Umar qori qaysi shahar qozisi bo'lgan?",
+"opts": [
+"Gurganch",
+"Vazir",
+"Xiva",
+"Hazorasp"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Ernazarbiy madrasasining qurilishiga kim pul ajratgan?",
+"opts": [
+"Pyotr I",
+"Aleksandr I",
+"Yekaterina II",
+"Nikolay I"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Amir Haydar 1806-yilda qaysi davlat hujumiga uchraydi?",
+"opts": [
+"Xiva xonligi",
+"Katta juz xonligi",
+"Eron",
+"Qo'qon xonligi"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Husayn Boyqaro kimning nabirasi hisoblanadi?",
+"opts": [
+"Jahongir",
+"Umarshayx",
+"Mironshoh",
+"Shohrux"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Bobur yosh bo'lganligi sababli dastlab davlat ishlarini qaysi bek yordamida boshqargan?",
+"opts": [
+"Chin So'fi",
+"Abulmakorim",
+"Boyshayx",
+"Hojiqozi"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "Nechanchi yildan boshlab Shayboniylar davlati Buxoro xonligi deb atala boshlangan?",
+"opts": [
+"1501-yildan",
+"1533-yildan",
+"1556-yildan",
+"1601-yildan"
+],
+"ans": "B"
+}
+]
+}

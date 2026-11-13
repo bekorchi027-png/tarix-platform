@@ -1,0 +1,335 @@
+{
+"id": "oa-01",
+"items": [
+{
+"n": 1,
+"q": "Hijriy yil hisobi nechanchi yilda boshlangan?",
+"opts": [
+"610-yil",
+"622-yil",
+"630-yil",
+"632-yil"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Kiaksar qaysi davlatda hukmronlik qilgan?",
+"opts": [
+"Mitanni davlatida",
+"Urartu davlatida",
+"Midiya davlatida",
+"Parfiya davlatida"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyidagi tarixchilardan qaysi biri yunon-rim sarkardalari hayoti haqida kitob yozgan?",
+"opts": [
+"Tatsit",
+"Tit Liviy",
+"Kvint Kursiy Ruf",
+"Plutarx"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "\"Nom\" atamasi qaysi tildan olingan?",
+"opts": [
+"yunon tilidan",
+"fors tilidan",
+"shumer tilidan",
+"lotin tilidan"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Paxsadan uy qurish qaysi davrda boshlangan?",
+"opts": [
+"So'nggi paleolit",
+"Mezolit",
+"Neolit",
+"Eneolit"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Mil.avv III asr o'rtalarida quyidagi qaysi davlat Shimoliy Afrika sohillari, Sardiniya, Korsika orollarini o'z ichiga olgan edi?",
+"opts": [
+"Qadimgi Rim",
+"Karfagen",
+"Finikiya",
+"Makedoniya"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Xitoydagi qaysi qo'zg'olon milodning boshlarida sodir bo'lgan?",
+"opts": [
+"Lyu Ban qo'zg'oloni",
+"Qizil ko'ylaklilar qo'zg'oloni",
+"Sariq ro'mollilar qo'zg'oloni",
+"Qizil qoshlilar qo'zg'oloni"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Yahudiya podsholigini quyidagi qaysi davlat bosib olgan?",
+"opts": [
+"Misr",
+"Ossuriya",
+"Bobil",
+"Mitanni"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Quyidagi qadimgi dunyo xudolaridan qaysilari hosildorlik xudolari hisoblanishadi?",
+"opts": [
+"Tot, Ganesha, Demetra",
+"Apis, Ishtar, Dionis",
+"Artemida, Vesta, Maat",
+"Ishtar, Apis, Demetra"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Quyidagi tarixiy hodisalardan qaysi biri mil.avv. XVIII  asrda sodir bo'lmagan?",
+"opts": [
+"Hind vodiysidagi shaharlarning zavolga yuz tutishi",
+"Xett davlatining tashkil topishi",
+"Bobilda Xammurapi hukmronlik qilishi",
+"Ilk bor Olimpiya o'yinlarining o'tkazilishi"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Ilk o'rta asrdagi yurtimizdagi qaysi davlat Vizantiya va Turk xoqonligi bilan diplomatik aloqalar o'rnatgan?",
+"opts": [
+"Kidariylar davlati",
+"Eftaliylar davlati",
+"Xioniylar davlati",
+"Xorazmshohlar davlati"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Quyidagi shaxslardan qaysi biri frakiyalik emas?",
+"opts": [
+"Spartak",
+"Diomed",
+"Sokrat",
+"Demokrit"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Qadimda Afinada hokimlar va sudyalarni qaysi organ lavozimlariga saylagan?",
+"opts": [
+"Xalq majlisi",
+"Oqsoqollar kengashi",
+"Senat",
+"Beshyuzlar kengashi"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Tasaffuv ta'limoti paydo bo'lgan davrda quyidagi qaysi davlat vujudga kelgan?",
+"opts": [
+"Qarluqlar davlati",
+"O'g'uzlar davlati",
+"Tohiriylar davlati",
+"Somoniylar davlati"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Aleksandr Makedonskiy mil.avv. 327-yilda qaysi hududga yurish qilgan?",
+"opts": [
+"O'rta Osiyoga",
+"Misrga",
+"Eronga",
+"Hindistonga"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Suza shahri qaysi davlat poytaxti bo'lgan?",
+"opts": [
+"Midiya",
+"Urartu",
+"Elam",
+"Mitanni"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Aylana shakldagi ibodatxona qoldiqlari Xorazm hududidagi qaysi yodgorlikdan topilgan?",
+"opts": [
+"Qal'aliqir",
+"Qo'yqirilganqal'a",
+"Jonbosqal'a",
+"Oybuyirqal'a"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Qaysi Rim hukmdori davrida ko'plab saroy va ibodatxonalar qurilgan?",
+"opts": [
+"Yuliy Sezar",
+"Oktavian Avgust",
+"Trayan",
+"Romul Avgustul"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Matriarxatdan Patriarxatga o'tish quyidagi davrlarning qaysi bosqichida sodir bo'lgan?",
+"opts": [
+"Neolit",
+"Eneolit",
+"Mezolit",
+"Bronza"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Arablar VII asrda jangsiz egallagan O'rta Osiyodagi shahar antik davrda qaysi davlatning yirik madaniyat markazlaridan biri bo'lgan?",
+"opts": [
+"Parfiya",
+"Salavkiylar",
+"Yunon-Baqtriya",
+"Kushon"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Bumin xoqon deb e'lon qilinishidan bir asr oldin qaysi voqea sodir bo'lgan?",
+"opts": [
+"Xun qabilalari Italiyaga bostirib kirgan",
+"Kidariylar Sosoniylardan mag'lubiyatga uchragan",
+"Got qabilalari Rimni talagan",
+"Vandallar Rimga hujum qilgan"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Yunon-rim tarixchilari tomonidan \"slavyanlar\" atamasi ishlatilgan asrlarda quyidagi qaysi tarixiy voqea sodir bo'lgan?",
+"opts": [
+"Kushon davlati gullab yashnagan",
+"Rim eng yirik va aholisi ko'p shaharga aylangan",
+"Davan davlati yuksak taraqqiy etgan",
+"Qadimgi Xorazmda kumush va mis tangalar zarb qilina boshlangan"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi davlatda qulchilik saqlanib qolsa-da, aholining katta qismini erkin dehqonlar tashkil etgan?",
+"opts": [
+"Hindiston",
+"Vizantiya",
+"Arab xalifaligi",
+"Xitoy"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Quyidagi davlatlardan qaysi birida XII asrdan boshlab yangi o'zlashtirilgan yerlarda dehqonlar qaramligi bekor qilinib, soliqlarning bir qismi pul bilan to'lanadigan bo'lgan?",
+"opts": [
+"Germaniyada",
+"Yaponiyada",
+"Fransiyada",
+"Angliyada"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Respublika davrida Rimda Senat va armiyaga rahbarlik qiluvchi shaxsni toping.",
+"opts": [
+"Diktator",
+"Konsul",
+"Senator",
+"Strateg"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Klavixoning \"Esdaliklari\" kitobi 1582-yilda qaysi shaharda nashrdan chiqqan?",
+"opts": [
+"Florensiyada",
+"Venetsiyada",
+"Seveliyada",
+"Kordovada"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "XIV asr oxirida To'xtamishxon qaysi davlatlar bilan harbiy ittifoq tuzib, Amir Temurga zarba bermoqchi bo'ladi?",
+"opts": [
+"Misr, Turkiya, Xitoy",
+"Misr, Turkiya, Mo'g'iliston",
+"Misr, Iroq, Turkiya",
+"Misr, Hindiston, Turkiya"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "\"Devoni lug'atit turk\" asari qaysi shaharda yozilgan?",
+"opts": [
+"Koshg'ar",
+"Bolasog'un",
+"Makka",
+"Bag'dod"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Amir Feruzshoh madrasasi qaysi shahar atrofida joylashgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Hirot",
+"Urganch"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Qoraxoniylarga zarba berib, Xurosonni o‘z davlati tasarrufida saqlab qolishga muvaffaq bo‘lgan G'aznaviylar hukmdorini aniqlang?",
+"opts": [
+"Alptegin",
+"Sobuqtegin",
+"Mahmud G'aznaviy",
+"Ma'sud G'aznaviy"
+],
+"ans": "C"
+}
+]
+}

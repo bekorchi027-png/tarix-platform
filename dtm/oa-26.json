@@ -1,0 +1,336 @@
+{
+"id": "oa-26",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi shahar qadimgi dunyo tarixida \"Szi\" deb nomlangan?",
+"opts": [
+"Sian",
+"Dunxuan",
+"Guanchjou",
+"Pekin"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "1990-yilda Polshada bo'lib o'tgan prezidentlik saylovlarida kim g'alaba qozongan?",
+"opts": [
+"Ion Iliyesku",
+"Lex Valensa",
+"Y. Yaruzelskiy",
+"Lex Kachinskiy"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Islom Karimov 1992-yil iyun oyida Qozog'istonga tashrif buyurgan va qaysi shaharda \"O'zbekiston Respublikasi  va Qozog'iston Respublikasi  o'rtasida do'stlik va hamkorlik to'g'risidagi shartnoma\" imzolangan?",
+"opts": [
+"Chimkent",
+"Nur-Sulton",
+"Olmoota",
+"Turkiston"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Qora tanlilar tengligi uchun kurashib, 1968-yilda o'ldirilgan mashhur siyosiy arbob kim edi?",
+"opts": [
+"Markus Garvi",
+"Nelson Mandela",
+"Martin Lyuther King",
+"Silvestr Uilyamm"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "\"O'zbekiston Respublikasining Davlat Mustaqilligi asoslari to'g'risidagi\" qonun necha moddadan iborat?",
+"opts": [
+"12 modda",
+"15 modda",
+"17 modda",
+"21 modda"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Manjurlarning Sin sulolasini ag'darib tashlash va Xitoyda demokratik milliy davlat tuzish uchun kurashgan tashkilotni toping.",
+"opts": [
+"Xitoy uyg'onish jamiyati",
+"Xitoy Milliy partiyasi",
+"Xitoy ozodlik tashkiloti",
+"Ixetuan tashkiloti"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Qoraqalpoqlarda ko'tarilgan qaysi qo'zg'olonni Rossiya imperiyasi ham pul-mablag' bilan, ham harbiy yordam yuborish bilan qo'llab-quvvatlashga uringan?",
+"opts": [
+"Bobo Go'klan qo'zg'olonini",
+"Ernazarbiy qo'zg'olonini",
+"Oydo'stbiy qo'zg'olonini",
+"Maman Botir qo'zg'olonini"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Buxoro amirligida kelgusida davlat mansablariga tayinlanishi mumkin bo'lgan xizmatchilarning faoliyatini tashkil etish bilan qanday mansab egasi shug'ullangan?",
+"opts": [
+"Kichik inoq",
+"Parvonachi",
+"Bosh inoq",
+"Qutvol"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "XIX asr oxiri – XX asr boshlarida xalq maorifida irqchilik ruhi mavjud bo’lgan davlatni belgilang.",
+"opts": [
+"Buyuk Britaniya",
+"AQSH",
+"Germaniya",
+"Rossiya"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "O'rta asrlarda hukmronlik qilgan Issak II Angel qaysi davlat hukmdori bo'lgan?",
+"opts": [
+"Angliya",
+"Fransiya",
+"Sharqiy Rim Imperiyasi",
+"Germaniya"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qadimgi dunyo tarixida mavjud bo'lgan quyidagi qaysi shahar Surxondaryo hududida joylashgan?",
+"opts": [
+"Uzunqir",
+"Surxko'tal",
+"Yerqo'rg'on",
+"Qiziltepa"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Yaponiya davlati bilan O'zbekiston o'rtasidagi diplomatik munosabatlar nechanchi yilda o'rnatilgan?",
+"opts": [
+"1991-yil",
+"1992-yil",
+"1993-yil",
+"1994-yil"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "1992-yil qaysi davlatda \"Halol qo'llar\" tadbiri o'tkazilgan?",
+"opts": [
+"Germaniya",
+"Ozarbayjon",
+"Xitoy",
+"Italiya"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Markaz va Ittifoqdosh Respublikalar o'rtasidagi yangi shartnoma - \"Mustaqil Davlatlar ittifoqi to'g'risidagi shartnoma\" 1991-yilning qaysi sanasiga imzolanishiga kelishib olingan edi?",
+"opts": [
+"18-avgust",
+"19-avgust",
+"20-avgust",
+"21-avgust"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "1960-yil jahon tarixiga qanday nom bilan kirgan?",
+"opts": [
+"\"Osiyo yili\"",
+"\"Afrika yili\"",
+"\"Yevropa yili\"",
+"\"Amerika yili\""
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Kongo hududi qaysi davlatlar o’rtasida bo’lib olingan?",
+"opts": [
+"Ispaniya, Gollandiya, Belgiya",
+"Buyuk Britaniya, Belgiya, Germaniya",
+"Fransiya, Italiya, AQSh",
+"Belgiya, Portugaliya, Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "1916-yilda qaysi hududda aholi tayoq, tosh, ketmonlar bilan qurollanib mardikorlikka olishga qarshi namoyishga chiqqan?",
+"opts": [
+"Jizzax",
+"Andijon",
+"Toshkent",
+"Xo'jand"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Quyidagi ma'lumotlardan xatosini toping.",
+"opts": [
+"13 yoshida Xudoyorxon Namangan hokimi bo’lgan.",
+"14 yoshida Motsart Italiyadagi eng obro‘li musiqa akademiyasining akademigi bo‘ldi.",
+"Shohrux Samarqanddan Hirotga qaytish oldidan 15 yoshli Mirzo Ulug‘bekni Movarounnahr va Turkistonga hokim qilib tayinlaydi.",
+"16 yoshida Ibn Sino Somoniylar amiri Nuh ibn Mansurni davolagan."
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "XIX asrning birinchi yarmida Xiva xonligidagi aholining 26 %ini .... tashkil qilgan.",
+"opts": [
+"qozoqlar",
+"qoraqalpoqlar",
+"o'zbeklar",
+"turkmanlar"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Fransiyada Ta’sis majlisi deputatlaridan qirol tarafdorlari bo‘lganlar o‘nglar yoki ... deb ataldi.",
+"opts": [
+"termidorchilar",
+"jirondachilar",
+"royalistlar",
+"yakobinchilar"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Xunn qabilalari 452-yilda qaysi davlatga hujum qilishgan?",
+"opts": [
+"Sharqiy Rim Imperiyasiga",
+"G'arbiy Rim Imperiyasiga",
+"Vestgot qirolligiga",
+"Vandal qirolligiga"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "N. Xrushchyov qachon shaxsga sig'inish va uning oqibatlari to'g'risida ma'ruza qilgan?",
+"opts": [
+"1954-yil KPSS XVIII syezdida",
+"1956-yil KPSS XX syezdida",
+"1958-yil KPSS XXII syezdida",
+"1960-yil KPSS XXIV syezdida"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "\"Haq olinur, berilmas\" shiorini qaysi jadid marifatparvari aytgan?",
+"opts": [
+"Munavvarqori Abdurashidxonov",
+"Abdurauf Fitrat",
+"Abdulla Avloniy",
+"Mahmudxo'ja Behbudiy"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "A. Pinochet diktaturasi qaysi davlatda bo'lgan?",
+"opts": [
+"Peru",
+"Braziliya",
+"Chili",
+"Argentina"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Italiyada nechanchi yilgacha proporsional saylov tizimi mavjud bo'lgan?",
+"opts": [
+"1991-yil",
+"1992-yil",
+"1993-yil",
+"1994-yil"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "1990-yillarda Afg'onistonda kurash maydoniga kirib kelgan tolibonlar yetakchisi kim edi?",
+"opts": [
+"Abu Bakr al-Bag'dodiy",
+"Usoma bin Laden",
+"mulla Umar",
+"Saddam Hussayn"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "\"Uotergeyt ishi\" bo'yicha iste'foga chiqqan AQSH prezidenti kim?",
+"opts": [
+"L. Jonson",
+"R. Nikson",
+"J. Karter",
+"J. Ford"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Nechanchi yildan boshlab Fors davlatiga yangi rasmiy nom - Eron nomi berilgan?",
+"opts": [
+"1925-yil",
+"1935-yil",
+"1945-yil",
+"1955-yil"
+],
+"ans": "B",
+"img": "img/dtm/oa-26-28.jpg"
+},
+{
+"n": 29,
+"q": "2002-yilda qaysi shaharda Arxeologiya muzeyi barpo etilgan?",
+"opts": [
+"Toshkent",
+"Xiva",
+"Termiz",
+"Samarqand"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Nechanchi yilda Prezident farmoniga binoan Vazirlar Mahkamasi huzurida Din ishlari bo'yicha qo'mita tashkil etilgan?",
+"opts": [
+"1991-yil",
+"1992-yil",
+"1993-yil",
+"1994-yil"
+],
+"ans": "B"
+}
+]
+}

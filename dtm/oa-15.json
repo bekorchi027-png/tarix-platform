@@ -1,0 +1,336 @@
+{
+"id": "oa-15",
+"items": [
+{
+"n": 1,
+"q": "\"Qovunchi madaniyati\" qaysi davlat yodgorligi hisoblanadi?",
+"opts": [
+"Kushon podsholigi",
+"Qang' davlati",
+"Davan davlati",
+"Parfiya podsholigi"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Quyidagi shaxslardan qaysi biri Alisher Navoiy kutubxonasiga boshchilik qilgan?",
+"opts": [
+"Abdullo Xotifiy",
+"Mirxond",
+"Mahmud Muzahhib",
+"Xondamir"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Qaysi ashtarxoniy hukmdor davrida tibbiyot ilmi rivojlangan?",
+"opts": [
+"Ubaydullaxon II",
+"Subhonqulixon",
+"Abdulazizxon",
+"Imomqulixon"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Markaziy Osiyoda ingliz savdosining rivojlanishiga yordam bergan missiya rahbarini belgilang.",
+"opts": [
+"Murkford",
+"Byorns",
+"Abbot",
+"Volf"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Aleksandr Nevskiy kimning ko'magida Pskov va uning atroflaridagi yerlarni ozod qiladi?",
+"opts": [
+"Knyaz Yaroslavl qo'shini ko'magida",
+"Knyaz Rostov qo'shini ko'magida",
+"Knyaz Vladimir qo'shini ko'magida",
+"Knyaz Suzdal qo'shini ko'magida"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "1460-yil birja ochilgan shahar hozirda qaysi davlat hududida joylashgan?",
+"opts": [
+"Belgiya",
+"Fransiya",
+"Angliya",
+"Niderlandiya"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Rim konsullari har yili qaysi organga (shaxsga) hisobot berishgan?",
+"opts": [
+"Senatga",
+"Xalq majlisiga",
+"Xalq tribunlariga",
+"Xalqqa"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Kavkazning Kars, Ardagan, Batumi hududlari Rossiyaga berilgan yildan necha yil o'tib, bu hududlar Turkiyaga qaytariladi?",
+"opts": [
+"20 yil",
+"30 yil",
+"40 yil",
+"50 yil"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Quyidagi qaysi hukmdor o'z davlatida poytaxtini ko'chirmagan? (XVI-XVII asrlarda)",
+"opts": [
+"Ubaydullaxon",
+"Abbos I",
+"Arab Muhammadxon",
+"Abdurahimbiy"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Farg'ona hududida joylashgan davlat qaysi manbada Davan nomi bilan tilga olingan?",
+"opts": [
+"Yunon-rim manbalarida",
+"Fors manbalarida",
+"Xitoy manbalarida",
+"O'rta Osiyo manbalarida"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qonundan tashqari deb e’lon qilingandan so’ng Robespyer va uning tarafdorlaridan qancha kishi qatl etilganligini aniqlang.",
+"opts": [
+"70 ga yaqin",
+"100 dan ortiq",
+"100 ga yaqin",
+"80 dan ortiq"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Qaysi davrga kelib okean to’lqinlariga bardosh beruvchi, shamolga qarshi suza oladigan yelkanli kema – karavella yaratilgan.",
+"opts": [
+"XV asr boshi",
+"XV asr o’rtalari",
+"XV asr oxiri",
+"XVI asr boshi"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagi qaysi Buxoro xoni Balxda hokim bo'lmagan?",
+"opts": [
+"Vali Muhammad",
+"Subhonqulixon",
+"Pirmuhammad",
+"Iskandar Sulton"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Gulxaniy qaysi shaharga borib mardikorlik bilan shug'ullangan?",
+"opts": [
+"Namangan",
+"Andijon",
+"Marg'ilon",
+"Qo'qon"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "O'rta asrlarda Parijdagi eng yirik universitet asoschisi Rober de Sorbonning kasbi nima edi?",
+"opts": [
+"qirol otxonasi boshlig'i",
+"qirol xonadoni ruhoniysi",
+"qirol saroyi tabibi",
+"qirol kutubxonasi boshlig'i"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Xitoydagi qaysi sulola davrida mamlakat xo‘jaligini tiklash uchun hunarmand va savdogarlardan olinadigan to‘lovlar kamaytirilib, sun’iy sug‘orish inshootlari, kanallar, to‘g‘onlar va suv omborlari tiklanadi?",
+"opts": [
+"Suy sulolasi davrida",
+"Tan sulolasi davrida",
+"Sun sulolasi davrida",
+"Min sulolasi davrida"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Chig'atoy ulusidagi qaysi hukmdor ma'muriy va pul islohoti o'tkazgan?",
+"opts": [
+"Munke",
+"Ma'sudbek",
+"Kebekxon",
+"Tug'luq Temur"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Quyidagi qaysi shaxs Kamoliddin Behzod bilan bir yilda dunyoga kelgan?",
+"opts": [
+"Leanardo da Vinchi",
+"Umarshayx ibn Abu Said",
+"Mikelanjelo Buonarroti",
+"Muhammad Shayboniyxon"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Fransiyadagi ikkinchi imperiya birinchi imperiyaga nisbatan necha yil ko'proq yashagan?",
+"opts": [
+"2 yil",
+"4 yil",
+"6 yil",
+"8 yil"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "XX asr boshlarida qaysi davlatda pensiya yoshi 65 yosh etib belgilangan?",
+"opts": [
+"AQSh",
+"Buyuk Britaniya",
+"Germaniya",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Berlin kongressiga ko'ra qaysi davlatga Turkiyadan olib berilgan yangi hududlarga mutanosib miqdorida Turkiyaning chet el davlatlari oldidagi qarzini to'lash majburiyati yuklanadi?",
+"opts": [
+"Bolgariya",
+"Serbiya",
+"Ruminiya",
+"Chernagoriya"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Amir Temur qo'shinida harbiy kuchlarning asosini kimlar tashkil etgan?",
+"opts": [
+"otliq askarlar",
+"piyoda askarlar",
+"ayollardan iborat bo'linma",
+"to'pchilar"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Quyidagilardan to'g'ri ma'lumotni toping.",
+"opts": [
+"Mil.avv. 449-yilda Ahamoniylar davlatining hukmronligi tugagan",
+"Fors shohi Kir II Lidiya va Bobilni bosib olgan",
+"Kambiz II O'rta Osiyoni bosib olishga harakat qilgan dastlabki fors podshosi hisoblanadi",
+"Mil.avv 530-yilda Doro I hukmronligi boshlangan"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Quyidagilardan bir yilda bo'lgan voqealarni toping.",
+"opts": [
+"4, 5",
+"1, 2",
+"2, 4",
+"1, 3"
+],
+"ans": "C",
+"extra": "1) Xitoyda Sin Shixuandi hukmronligi boshlangan;\n2) Parfiya Salavkiylar davlati tarkibidan ajralib chiqdi;\n3) Kann yaqinida Rim armiyasi tor-mor etildi;\n4) Yunon-Baqtriya davlati tashkil topdi;\n5) Xitoyda Lyu Ban qo'zg'oloni boshlandi."
+},
+{
+"n": 25,
+"q": "Qachon AQSHda erkinllikka erishgan qora tanli qullarni Afrikaga joylashtirish boshlandi?",
+"opts": [
+"1826-yildan",
+"1818-yildan",
+"1847-yildan",
+"1816-yildan"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyidagi qaysi shaharning XIX asrda Samarqand nomli darvozasi bo'lgan?",
+"opts": [
+"Toshkent",
+"Qo'qon",
+"Samarqand",
+"Xiva"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "O'rta asrlarda quyidagi qaysi hududlarning gersoglari Fransiya qirollari bilan quda bo'lishgan?",
+"opts": [
+"Normandiya, Bretan;",
+"Akvitaniya, Flandriya;",
+"Burgundiya, Tuluza;",
+"Akvitaniya, Bretan."
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Rossiya tarixida \"Rus haqiqati\" nomli qonunlar to'plami (1) va konstitutsiya loyihasi (2)  yaratilgan asrlarni toping.",
+"opts": [
+"1 - IX asr, 2 - XVIII asr;",
+"1 - XI asr, 2 - XIX asr;",
+"1 - X asr, 2 - XX asr;",
+"1 - XI asr, 2 - XVIII asr."
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Qozoqlarning Kichik juz xonligi Rossiyaga bo'ysundirilgan yilda Buxoro hukmdori kim edi?",
+"opts": [
+"Amir Haydar",
+"Abulfayzxon",
+"Ubaydullaxon II",
+"Amir Nasrullo"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Qaysi davrga qadar Afrikaliklarni qul qilib sotish jarayoni davom etgan?",
+"opts": [
+"XIX asr boshlarida",
+"XIX asr o'rtalarida",
+"XIX asr oxirlarida",
+"XX asr boshlarida"
+],
+"ans": "B"
+}
+]
+}

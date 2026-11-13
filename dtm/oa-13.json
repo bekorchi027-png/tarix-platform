@@ -1,0 +1,335 @@
+{
+"id": "oa-13",
+"items": [
+{
+"n": 1,
+"q": "Nechanchi asrda Germaniyada 20 yil davomida imperator saylanmaydi?",
+"opts": [
+"X asrda",
+"XI asrda",
+"XII asrda",
+"XIII asrda"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Xitoyda qaysi sulola davrida qog'oz kashf etilgan-u, qaysi sulola davrida qog'oz pul ishlab chiqarilgan?",
+"opts": [
+"Sin / Min",
+"Chjou / Yuan",
+"Shan / Tan",
+"Xan / Yuan"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Shohrux Farg'onadan to O'zgangacha bo'lgan hududlarni kimga bergan edi?",
+"opts": [
+"Amir Idiku",
+"Amirak Ahmad",
+"Muhammad Jahongir",
+"Amir Xudoydot"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagi qaysi hudud Amir Temurga jangsiz taslim bo'lmagan?",
+"opts": [
+"Saraxs",
+"Jom",
+"Qavsiya",
+"Seyiston"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Quyidagi qaysi yilda Yuz yillik urushda sulh shartnomasi imzolanmagan?",
+"opts": [
+"1360-yil",
+"1415-yil",
+"1420-yil",
+"1453-yil"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Ilk bor qipchoq xonlarining qo'shinini yengan rus knyazini toping?",
+"opts": [
+"Vladimir",
+"Yaroslav Donishmand",
+"Vladimir Monamax",
+"Dmitriy Ivanovich"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Hozirgi Xorazm viloyatining markazi bo'lgan Urganch shahriga kim asos solgan?",
+"opts": [
+"Elbarsxon",
+"Mustafoxon",
+"Sherg'ozixon",
+"Abulg'oziyxon"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Respublikamiz poytaxti Toshkent shahri qaysi asrdan boshlab hozirgi nomi bilan atala boshlangan?",
+"opts": [
+"IX asrdan",
+"X asrdan",
+"XI asrdan",
+"XII asrdan"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "1860-1910-yillar oralig‘ida qaysi davlatda fermerlar soni 3 marta ko‘paygan?",
+"opts": [
+"Buyuk Britaniya",
+"Germaniya",
+"Rossiya",
+"AQSh"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Inson haqidagi o’rta asrchilik tassavvurlarini rad etib, har bir shaxsning noyobligi va qadrini ko’rsatishga uringan gumanizm dastlab qayerda va qachon paydo bo’lgan.",
+"opts": [
+"Fransiya, XIV asr boshlari",
+"Angliya, XIV asr oxiri",
+"Germaniya, XV asr boshlari",
+"Italiya, XIV asr o’rtalari"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Quyidagi qaysi davlat nisbatan oldinroq mustaqillikka erishgan?",
+"opts": [
+"Argentina",
+"Braziliya",
+"Venesuella",
+"Meksika"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Qadimgi Yunonistonda qaysi sohalar rivoj topishi bilan shaharlar soni ortib borgan?",
+"opts": [
+"dehqonchilik va chorvachilik",
+"dehqonchilik va savdo-sotiq",
+"hunarmandchilik va savdo-sotiq",
+"hunarmandchilik va dehqonchilik"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "XX asr boshlarida qaysi davlatda qabul qilinayotgan qonunlarning shariatga muvofiqligi ustidan besh ulug' ulamo tayinlangan?",
+"opts": [
+"Eron",
+"Turkiya",
+"Afg'oniston",
+"Xiva xonligi"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Avval Kiyevda, so'ngra Novgorodda yilnomalar tuzdirgan knyaz kim edi?",
+"opts": [
+"Vladimir",
+"Yaroslav",
+"Oleg",
+"Olga"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Dojlar saroyi qaysi shaharda joylashgan?",
+"opts": [
+"Florensiya",
+"Sevilya",
+"Venetsiya",
+"Granada"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Meydzi islohotlari davrida dastlab qaysi sohada islohot o'tkazilgan?",
+"opts": [
+"harbiy sohada",
+"ma'muriy sohada",
+"moliya sohasida",
+"agrar sohada"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "O'zini-o'zi boshqaradigan qaram yer, o'lka qanday nom bilan ataladi?",
+"opts": [
+"zemstvo",
+"kommuna",
+"dominion",
+"mustamlaka"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Qaysi anushteginiy hukmdor davrida Movarounnahr qoraxitoylardan ozod etilgan?",
+"opts": [
+"Otsiz",
+"Alouddin Muhammad",
+"Elarslon",
+"Takash"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Mirzo Ulug'bek nechanchi yilda jangda mag'lubiyatga uchragach Kalifga chekinadi?",
+"opts": [
+"1410-yilda",
+"1425-yilda",
+"1447-yilda",
+"1449-yilda"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Qadimgi Rimda bahor va sevgi xudosi qanday nom bilan atalgan?",
+"opts": [
+"Demetra",
+"Diana",
+"Venera",
+"Afrodita"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "18 yil davomida dunyoning juda ko'p mamlakatlarini kezib chiqqan tarixiy shaxs kim?",
+"opts": [
+"Marko Polo",
+"Muhammad Hakimxon To'ra ibn Sayid Ma'sumxon",
+"Boborahim Mashrab",
+"Mahmud Koshg'ariy"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Buxoro amirligida vaqf mulkini kim tasarruf etgan?",
+"opts": [
+"naqib",
+"sadr",
+"muftiy",
+"mutavalli"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Xitoyga sholi urug'i(1) qayerdan olib borilgan-u, paxta urug'i(2) qayerdan olib borilgan?",
+"opts": [
+"1-O'rta Osiyo / 2-Amerika",
+"1-Hindiston / 2-O'rta Osiyo",
+"1-Yaponiya / 2-Yevropa",
+"1-Hindiston / 2-Amerika"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Xammurapi qonunlariga ko'ra, shifokor amalga oshirgan jarrohlik muolajasi natijasida bemor bevaqt vafot etsa, shifokor qanday jazo olgan?",
+"opts": [
+"shifokor qatl etilgan",
+"shifokor qul qilingan",
+"shifokorning qo'llari kesib tashlangan",
+"shifokorning oilasi qullikka sotib yuborilgan"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Yevropada o'rta asr sexlari shaharni qo'riqlashda, urushlar paytida qanday vazifani bajargan?",
+"opts": [
+"sexlar mudofaa uchun pul yig'ib berishgan",
+"sexlar urushlar paytida shaharni tark etib mahsulotlarini sotish uchun qulay joyga ketishgan",
+"sexlar urushlar paytida shaharning mudofaasida alohida bo'linma tarzida qatnashgan",
+"sexlar urushlar paytida askarlarga halal bermaslik uchun o'z ishlaridan ajratilmagan"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Hindiston tarixida Sindni egallagan hukmdorni belgilang?",
+"opts": [
+"Qutbiddin Oyboq",
+"Alouddin Xiljiy",
+"Shamsiddin Eltutmish",
+"Muhammad Tug'luq"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Abulxayrxon qaysi yildan boshlab o‘z davlatini Oltin O‘rda xonligidan mustaqil deb e’lon qildi?",
+"opts": [
+"1446-yil",
+"1428-yil",
+"1430-yil",
+"1431-yil"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "XVIII asr oxirlarida qaysi shahar aholisi Shohobod kanalini qazigan?",
+"opts": [
+"Namangan",
+"Urganch",
+"Qo'qon",
+"Buxoro"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "1914-yilda qaysi davlatda parlament tarqatib yuborilgan?",
+"opts": [
+"Xitoy",
+"Turkiya",
+"Avstriya-Vengriya",
+"Eron"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "XVII asrning ikkinchi yarmida qaysi davlat Yevropaning kuchli davlatlari qo'lida qo'g'irchoqqa aylanib qolgan edi?",
+"opts": [
+"Gretsiya",
+"Italiya",
+"Turkiya",
+"Germaniya"
+],
+"ans": "D"
+}
+]
+}

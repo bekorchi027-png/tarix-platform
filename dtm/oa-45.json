@@ -1,0 +1,335 @@
+{
+"id": "oa-45",
+"items": [
+{
+"n": 1,
+"q": "Aleksandr Nevskiy \"Muz ustidagi jang\"da kimlar ustidan g'alaba qozongan?",
+"opts": [
+"shvedlar",
+"mo'g'ullar",
+"nemislar",
+"bijanaklar"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Quyidagi qaysi davlatda hukmdor \"buyuk kishi\" deb nomlangan?",
+"opts": [
+"Asteklar davlati",
+"Mayyalar davlati",
+"Inklar davlati",
+"Gana davlati"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Panjob, Sind va Bengaliyani bo'ysundirgan Dehli sultoni kim edi?",
+"opts": [
+"Qutbiddin Oyboq",
+"Shamsiddin Eltutmish",
+"Alouddin Xiljiy",
+"Muhammad Tug'luq"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Xitoyda panno to'qish nechanchi asrda ixtiro qilingan?",
+"opts": [
+"X asrda",
+"XI asrda",
+"XII asrda",
+"XIII asrda"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Al-Qasar qasri qaysi davlatda joylashgan?",
+"opts": [
+"Iroqda",
+"Ispaniyada",
+"Eronda",
+"Turkiyada"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Quyidagi qaysi hukmdor \"yerdagi jonli qonun\" nomi bilan e'tirof etilgan?",
+"opts": [
+"Otton I",
+"Fridrix I",
+"Otton III",
+"Fridrix II"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Tantanalarda dasturxonga taom tortish tartibini belgilab bergan shaxs nechanchi asrda yashagan?",
+"opts": [
+"VIII asrda",
+"IX asrda",
+"X asrda",
+"XI asrda"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Langobardlar qabilasi quyidagi qaysi hududda davlat tuzishgan?",
+"opts": [
+"Italiyada",
+"Ispaniyada",
+"Britaniyada",
+"Shimoliy Afrikada"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Qaysi Rus knyazi davrida Rus savdogarlariga Vizantiyada bojsiz savdo qilishga ruxsat berilgan?",
+"opts": [
+"Svyatoslav",
+"Oleg",
+"Igor",
+"Vladimir"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Ajanta ibodatxonalari majmuasi jami necha asr davomida qurilgan?",
+"opts": [
+"V asr",
+"IX asr",
+"VII asr",
+"VIII asr"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Qaysi diniy ritsarlik ordeni a'zolari xayriya va in'omlar olishdan tashqari, sudxo'rlik bilan ham shug'ullangan?",
+"opts": [
+"Gospitaliyerlar ordeni a'zolari",
+"Tampliyerlar ordeni a'zolari",
+"Tevton ordeni a'zolari",
+"Iyeziutlar ordeni a'zolari"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Richard I Sheryurak nechanchi salib yurishida ishtirok etgan?",
+"opts": [
+"I salib yurishida",
+"II salib yurishida",
+"III salib yurishida",
+"IV salib yurishida"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagi qaysi tarixiy shaxsning hayoti qiyinchiliklar va xavf-xatarlar ichida, cherkov ta'qibida o'tgan?",
+"opts": [
+"Iogann Gutenberg",
+"Franchesko Petrarka",
+"Rober de Sorbon",
+"Rojer Bekon"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Inklarning o'ziga xos \"tugunli xati\" (kipu) bo'lib, uning sirlari faqat kimlarga ma'lum bo'lgan?",
+"opts": [
+"hukmdor oila a'zolariga",
+"xattotlarga",
+"ruhoniylarga",
+"tabiblarga"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Qaysi Dehli sultonining soliq va pul islohoti natijasiz tugagan?",
+"opts": [
+"Shamsiddin Eltutmish",
+"Alouddin Xiljiy",
+"Muhammad Tug'luq",
+"Feruzshoh Tug'luq"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Xitoydagi Tan sulolasi bilan ittifoq tuzib, Koreya yarim orolini o'z hokimiyati ostiga birlashtirgan qirollikni toping.",
+"opts": [
+"Parxe qirolligi",
+"Silla qirolligi",
+"Koguryo qirolligi",
+"Pekche qirolligi"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "\"Jahon hayrati\" nomini olgan imperatorni toping.",
+"opts": [
+"Fridrix I",
+"Fridrix II",
+"Fridrix III",
+"Fridrix IV"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Yevropada kim ilk bora mamlakatini viloyatlarga taqsimlagan?",
+"opts": [
+"Xlodvig",
+"Buyuk Karl",
+"Otton I",
+"Vilgelm I"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Kuchkova qo'rg'oniga nechanchi asrda asos solingan?",
+"opts": [
+"X asrda",
+"XI asrda",
+"XII asrda",
+"XIII asrda"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "XIV - XV asrda qaysi davlat qishloqlarida ocharchiliklar tez-tez takrorlanib turgan?",
+"opts": [
+"Xitoy",
+"Yaponiya",
+"Koreya",
+"Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi shaharda har yili madhiya, qissalar yozadigan shoir-qo'shiqchilar ko'rik-musobaqalari o'tkazilib, g'oliblar mukofotlangan?",
+"opts": [
+"Kusko",
+"Chichen-Itsa",
+"Tenochtitlan",
+"Niara"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "\"Suyurg'ol\" so'zi qaysi tildan olingan?",
+"opts": [
+"turk",
+"mo'g'ul",
+"so'g'd",
+"fors"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Qaysi Usmonli turk hukmdori qo'shinni piyoda va otliq qismlarga bo'lib, harbiy birliklarga aylantiradi?",
+"opts": [
+"Usmon",
+"Boyazid",
+"O'rxon",
+"Mehmet II"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Qaysi ingliz hukmdori mamlakatda qo'shimcha jon solig'i joriy qilgan?",
+"opts": [
+"Richard I",
+"Genrix II",
+"Richard II",
+"Genrix VII"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Fransiyaning qaysi gersogligida d'E qal'asi joylashgan?",
+"opts": [
+"Burgundiya",
+"Akvitaniya",
+"Bretan",
+"Normandiya"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "O'rta asrlarda qaysi papa davrida inkvizitsiya o'z qudratining cho'qqisiga chiqqan?",
+"opts": [
+"Grigoriy VII",
+"Innokentiy III",
+"Grigoriy IX",
+"Silvestr III"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Qutb minor qaysi shaharda joylashgan?",
+"opts": [
+"Bag'dodda",
+"Dehlida",
+"Qohirada",
+"Seviliyada"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Qaysi hukmdor davrida Yevropada birinchi marta aholi va yer-mulk ro'yhatga olingan?",
+"opts": [
+"Xlodvig",
+"Buyuk Karl",
+"Vilgelm",
+"Fridrix I Barbarossa"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "4-salib yurishlarida salibchilar tomonidan qaysi shaharning qamal qilingan?",
+"opts": [
+"Venetsiya",
+"Konstantinopol",
+"Quddus",
+"Damashq"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "XIV asrda Oltin O'rda ulus nomini olgan to'rt yirik viloyatga bo'linib ketadi. O'sha viloyatlarda kim qo'shin boshlig'i bo'lgan?",
+"opts": [
+"bosqoq",
+"ulusbegi",
+"beklarbegi",
+"dorug'achi"
+],
+"ans": "B"
+}
+]
+}

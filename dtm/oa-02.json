@@ -1,0 +1,335 @@
+{
+"id": "oa-02",
+"items": [
+{
+"n": 1,
+"q": "O'rta Osiyo hududidagi qaysi davlatda hunarmandchilik, binokorlik va savdo-sotiq yuksak darajada rivojlangan?",
+"opts": [
+"So'g'diyona",
+"Qadimgi Baqtriya",
+"Marg'iyona",
+"Qadimgi Xorazm"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Old Osiyo xalqlaridan qaysi biri urushlarda otliq qo'shindan foydalanishgan?",
+"opts": [
+"Ossuriyaliklar",
+"Xettlar",
+"Mitanniliklar",
+"Urartlar"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyidagi yer egaliklaridan qaysi biri dastlavval asosan oliy tabaqa zodagonlar: sulola a'zolari - amirzodalar va yirik mansabdorlarga in'om etilgan?",
+"opts": [
+"suyurg'ol",
+"jogir",
+"tanho",
+"iqto"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Buxorodagi mashhur Minorai kalon obidasi qaysi sulola davrida bino qilingan?",
+"opts": [
+"Somoniylar",
+"Temuriylar",
+"Qoraxoniylar",
+"Shayboniylar"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Shimoliy Hindiston, Afg'oniston, Xurosonning bir qismini o'z ichiga olgan ilk o'rta asr davlatini aniqlang.",
+"opts": [
+"Xioniylar",
+"Kidariylar",
+"Eftaliylar",
+"G'arbiy Turk xoqonligi"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Quyidagi qaysi hukmdor davrida Old Osiyoda misrliklar hukmronligi o'rnatilgan?",
+"opts": [
+"Yaxmos",
+"Tutmos II",
+"Tutanxamon",
+"Tutmos III"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Mikrolitlar qaysi davrda kashf qilingan?",
+"opts": [
+"So'nggi paleolit",
+"Mezolit",
+"Neolit",
+"Bronza"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Barchamizga ma'lum bo'lgan \"demokratiya\" atamasi qaysi tildan olingan?",
+"opts": [
+"yunon tilidan",
+"lotin tilidan",
+"fors tilidan",
+"sanskrit tilidan"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Quyidagi slavyan davlatlaridan qaysi biri eng oxirida tashkil topgan?",
+"opts": [
+"Bolgariya",
+"Chexiya",
+"Polsha",
+"Kiyev Rusi"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Qaysi koreys qirolligining qo'shini o'zining jangovarligi bilan ajralib turgan?",
+"opts": [
+"Pekche",
+"Silla",
+"Koguryo",
+"Parxe"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Ikkinchi salib yurishida qaysi davlat qiroli ishtirok etgan?",
+"opts": [
+"Fransiya",
+"Germaniya",
+"Angliya",
+"Italiya"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Hind daryosi vodiysida qachon katta shaharlar vujudga kela boshlagan?",
+"opts": [
+"mil.avv. 4-ming yillikda",
+"mil.avv. 3-ming yillikda",
+"mil.avv. 2-ming yillikda",
+"mil.avv. 1-ming yillikda"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Kulolchilik xumdonlaridan foydalanish qaysi davrga to'g'ri keladi?",
+"opts": [
+"Mezolit",
+"Neolit",
+"Eneolit",
+"Bronza"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Rimda bahor va sevgi xudosi kim edi?",
+"opts": [
+"Xatxor",
+"Baxus",
+"Venera",
+"Fortuna"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Quyidagi qaysi tariqatda mashaqqatli mehnat va aziyat shariat yo'lida bo'lmog'i hamda tarkidunyochilik targ'ib etilsada, inson zoti sharif darajasida ulug'lanadi. Insonning har qanday mol-dunyodan va davlatdan ustun turishi ta'kidlanadi?",
+"opts": [
+"Naqshbandiya",
+"Yassaviya",
+"Kubroviya",
+"Qodiriya"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Garni qal'asi yaqinidagi jang qachon bo'lgan?",
+"opts": [
+"1225-yil may",
+"1227-yil sentabr",
+"1225-yil avgust",
+"1230-yil avgust"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Yurtimizdagi o'rta asr davlatlaridan qaysi biri harbiy yurishlar, hukmron sulolaning ichki nizolari, mahalliy hokimlarning boshboshdoqliklari tufayli iqtisodiy tanglikka duchor bo'lgan?",
+"opts": [
+"Somoniylar",
+"Qoraxoniylar",
+"Xorazmshohlar (Anushteginiylar)",
+"G'aznaviylar"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Rofe ibn Lays qo'zg'oloni ko'tarilgan yilda Arab xalifaligining hukmdori kim edi?",
+"opts": [
+"Mu'tazid",
+"Ma'mun",
+"Xorun ar-Rashid",
+"Mansur"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Ilk o'rta asrlarda yurtimiz hududidagi qaysi shaharning umumiy maydoni qariyb 200 gektarni tashkil etgan?",
+"opts": [
+"Buxoro",
+"Samarqand",
+"Poykand",
+"Kat"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Puni urushlarining qaysi birida rimliklar karfagenliklarni o'lpon to'lashga majbur qilishgan?",
+"opts": [
+"uchinchi Puni urushida",
+"ikkinchi Puni urushida",
+"birinchi Puni urushida",
+"hammasida"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Qirol yerlaridagi feodal urushlarni taqiqlagan Fransiya hukmdorini toping.",
+"opts": [
+"Filipp II",
+"Lyudovik IX",
+"Filipp IV",
+"Lyudovik XI"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Qunduz, Xuttal, Termiz hududlari ilk o'rta asrlarda yurtimizdagi qaysi hokimlik tarkibida bo'lgan?",
+"opts": [
+"Sug'd",
+"Choch",
+"Toxariston",
+"Farg'ona"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Muqaddas ichimlikka sig'inuvchi saklar quyidagi qaysi hududda yashagan?",
+"opts": [
+"Pomirning tog'li tumanlar va Farg'onada",
+"Orol dengizi bo'ylari, Sirdaryoning quyi oqimida",
+"Toshkent viloyati, Janubiy Qozog'iston yerlarida",
+"Cho'llar va Amudaryo bo'ylarida"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Quyidagi tarixiy ma'lumotlardan qaysi biri mil.avv. IV asrda sodir bo'lmagan?",
+"opts": [
+"Buyuk Xitoy devorini qurish boshlangan",
+"Xorazm Ahamoniylar davlatidan ozod bo'lgan",
+"\"Afina akademiyasi\"ga asos solingan",
+"Antiox Salavkiylar davlati hukmdori bo'lgan"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Falangada og'ir qurollangan askarlar odatda necha qatorga saf tortishgan?",
+"opts": [
+"6 yoki 12 qatorga",
+"8 yoki 14 qatorga",
+"9 yoki 16 qatorga",
+"6 yoki 9 qatorga"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Ustunlarsiz shiftlari gumbaz shaklida qurilgan Rimdagi Panteon ibodatxonasi qaysi tildan tarjima qilinganida \"barcha xudolar ibodatxonasi\" ma'nosini anglatadi?",
+"opts": [
+"Sanskrit",
+"Yunon",
+"Lotin",
+"Shumer"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Jaloliddin Manguberdining ukasi G'iyosiddin Pirshoh akasi qarorgohini tark etgach uni kim qo'lga olib qatl etadi?",
+"opts": [
+"Jazira hokimi",
+"Kirmon hokimi",
+"Bag'dod xalifasi",
+"Ko'niya hokimi"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Toshdan dastlabki taqinchoqlar-munchoq, tumor, uzuklar  qaysi davrda yasala boshlangan?",
+"opts": [
+"Mezolit",
+"So'nggi paleolit",
+"Neolit",
+"Eneolit"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Quyidagi tarixiy obidalardan qaysi biri yorug'lik tushishiga qarab o'z rangini oltin rangidan havorang yoki kulranggacha o'zgartirib, tuslangan?",
+"opts": [
+"Toj-Mahal",
+"Parfenon ibodatxonasi",
+"Avliyo Sofiya ibodatxonasi",
+"Panteon ibodatxonasi"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Xitoyda yaratilgan 500 jildlik solnoma qaysi sulola davriga tegishli?",
+"opts": [
+"Sun",
+"Tan",
+"Suy",
+"Xan"
+],
+"ans": "A"
+}
+]
+}

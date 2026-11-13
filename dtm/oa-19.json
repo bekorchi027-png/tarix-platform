@@ -1,0 +1,347 @@
+{
+"id": "oa-19",
+"items": [
+{
+"n": 1,
+"q": "Buxoro taxtiga o'tirishidan oldin Balx hokimi bo'lgan va taxtga chiqqach Balx viloyatlarida hokimlik qilayotgan o'g'illariga qarshi kurashgan xonni aniqlang.",
+"opts": [
+"Vali Muhammad",
+"Nodir Muhammad",
+"Abdulazizxon",
+"Subhonqulixon"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Rasmda tasvirlangan shaxsning kimligini toping.",
+"opts": [
+"Kir II",
+"Kambiz II",
+"Doro I",
+"Kserks"
+],
+"ans": "A",
+"img": "img/dtm/oa-19-2.jpg"
+},
+{
+"n": 3,
+"q": "Monopolistik kapitalizm davri bo'yicha berilgan quyidagi ma'lumotlarni to'g'ri moslab  joylashtiring.",
+"opts": [
+"a - 2, 3; b - 4, 6; c - 5; d - 1;",
+"a - 3; b - 2, 4; c - 5, 6; d - 1;",
+"a - 2, 3; b - 4; c - 6; d - 1, 5;",
+"a - 4; b - 2, 3; c - 1; d - 4, 5;"
+],
+"ans": "A",
+"extra": "1) XIX asr o'rtalariga kelib, industrial davlatlarda aholining ..?..  shaharlarda to'plandi.\n2) 1906 - 1916-yillarda Buyuk Britaniya vazirlarining ..?.. eng sara bilim yurti bitiruvchilari edi.\n3) XX asr boshlarida AQShda umumiy sanoat ishchilarining ..?.. malakali ishchilar edi.\n4) XX asr boshlarida Germaniyada umumiy sanoat ishchilarining ..?.. malakali ishchilar edi.\n5) XX asr boshlarida \"ishchi aristokratiyasi\" Buyuk Britaniyada umumiy ishchilar sonining  ..?.. tashkil qilgan.\n6) Buyuk Britaniya, Fransiya va AQShda XIX asr 70yillariga kelib 20 mln. ishchining ..?.. qashshoqlik bo'sag'asida yashagan. a - 2/3 qismi;  b - yarmidan ko'prog'i; c - 1/3 qismi;   d - qariyb yarmi;"
+},
+{
+"n": 4,
+"q": "Ushbu rasmdagi zikkurat qaysi shaharda joylashgan?",
+"opts": [
+"Bobil",
+"Uruk",
+"Ur",
+"Lagash"
+],
+"ans": "C",
+"img": "img/dtm/oa-19-4.jpg"
+},
+{
+"n": 5,
+"q": "Buxoro amirligida davlat yerlari XVIII asrda qanday shaklda in'om etilgan?",
+"opts": [
+"1, 2",
+"2, 5",
+"3, 4",
+"2, 4"
+],
+"ans": "D",
+"extra": "1) iqto;\n2) suyurg'ol;\n3) tiyul;\n4) tanho;\n5) jogir"
+},
+{
+"n": 6,
+"q": "Ushbu tasvirdagi minora qayerda joylashgan?",
+"opts": [
+"Istanbul",
+"Qohira",
+"Dehli",
+"Hirot"
+],
+"ans": "C",
+"img": "img/dtm/oa-19-6.jpg"
+},
+{
+"n": 7,
+"q": "Berdaq o'qigan madrasa qaysi davrda qurilgan edi?",
+"opts": [
+"XVIII asrning oxirida",
+"XIX asr o'rtalarida",
+"1841-yilda",
+"1865-yilda"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Yangi davr boshlarida (XVII asrda) Angliya taxtiga qaysi ikki davlatdan hukmdorlar o’tirgan edi?",
+"opts": [
+"Shotlandiya, Germaniya",
+"Irlandiya, Gollandiya",
+"Shotlandiya, Gollandiya",
+"Irlandiya, Fransiya"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Rasmda tasvirlangan shaxsning asarini toping.",
+"opts": [
+"\"Insoniy komediya\"",
+"\"Rekviyem\"",
+"\"Faust\"",
+"\"Oydin\""
+],
+"ans": "B",
+"img": "img/dtm/oa-19-9.jpg"
+},
+{
+"n": 10,
+"q": "Qo'qon xonligida bahor kelganida chorvadorlardan yig'iladigan zakot turini toping.",
+"opts": [
+"\"Qozon puli\"",
+"\"Yig'im soliq\"",
+"\"Tutin haqi\"",
+"\"Qo'ra boshi\""
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "XIX asr ikkinchi yarmida qaysi davlatda 25 yoshli erkaklar saylash va saylanish huquqiga ega bo'lgan?",
+"opts": [
+"Germaniya",
+"Fransiya",
+"Argentina",
+"Avstriya-Vengriya"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Qaysi AQSh prezidenti davrida daromadning oshib borishiga qarab, qo'shimcha soliq solinadigan bo'lgan?",
+"opts": [
+"V. Vilson",
+"V. Taft",
+"T. Ruzvelt",
+"A. Linkoln"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Rasmda tasvirlangan shaxs kim?",
+"opts": [
+"Lyu Ban",
+"U Di",
+"Sin Shixuandi",
+"Sim Syan"
+],
+"ans": "B",
+"img": "img/dtm/oa-19-13.jpg"
+},
+{
+"n": 14,
+"q": "Qo'qon xonligi bilan Buxoro amirligi o ‘rtasida joylashgan - Toshkent, Qo'qon, Balx va Buxoroni o'zaro bog'lovchi shahar qaysi?",
+"opts": [
+"Jizzax",
+"O'ratepa",
+"Panjikent",
+"Xo'jand"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "XIX asr oxiri va XX asr boshlarida aholi jon boshiga daromad taqsimoti darajasi bo‘yicha G‘arbiy Yevropada eng oxirgi o‘rinda qaysi davlat turgan?",
+"opts": [
+"Avstriya-Vengriya",
+"Polsha",
+"Italiya",
+"Ispaniya"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi davlatda davrlar o'tishi bilan qullar qaram dehqonlarga aylanadi. Qullarning avlodlari esa kichik yer-mulkning egalariga aylanib, davlatga faqat soliq to'lashgan?",
+"opts": [
+"Gana",
+"Mali",
+"Songai",
+"Aksum"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Rasmda tasvirlangan imorat qaysi shaharda joylashgan?",
+"opts": [
+"Buxoro",
+"Xiva",
+"Samarqand",
+"Toshkent"
+],
+"ans": "A",
+"img": "img/dtm/oa-19-17.jpg"
+},
+{
+"n": 18,
+"q": "Qaysi davlatda saltanat yakka hukmdor tomonidan boshqarilgan. Taxt otadan bolaga qolmay, shu suloladan kim loyiq deb topilsa o‘sha taxtga o‘tirgan?",
+"opts": [
+"Turk xoqonligi",
+"Qoraxoniylar davlati",
+"Eftaliylar davlati",
+"Xioniylar davlati"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Birinchi Bolqon urushida (a) va Ikkinchi Bolqon urushida (b) yengilgan davlatlarni toping.",
+"opts": [
+"a - Serbiya; b - Turkiya;",
+"a - Avstriya-Vengriya; b - Bolgariya;",
+"a - Turkiya; b - Gretsiya;",
+"a - Turkiya; b - Bolgariya."
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "XIX asrda o'zini xon deb e'lon qilgan dastlabki Qo'qon va Xiva hukmdorlarini aniqlang.",
+"opts": [
+"Norbo'tabiy va Avaz Muhammad",
+"Olimbek va Eltuzar",
+"Umarbek va Muhammad Rahim",
+"Madalixon va Rahimqulixon"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Ushbu tasvirdagi shaxs kim?",
+"opts": [
+"Buyuk Karl",
+"Otton I",
+"Xilperik",
+"Xlodvig"
+],
+"ans": "D",
+"img": "img/dtm/oa-19-21.jpg"
+},
+{
+"n": 22,
+"q": "Ushbu tasvirdagi yo'lak qayerga olib boradi?",
+"opts": [
+"Kolizeyga",
+"Olimpiya o'yingohiga",
+"Fermopil darasiga",
+"Golgofa tog'iga"
+],
+"ans": "B",
+"img": "img/dtm/oa-19-22.jpg"
+},
+{
+"n": 23,
+"q": "Yaponiyadagi syogunlik sulolalarini hukmronlik bo'yicha ketma-ketlikda joylashtiring.",
+"opts": [
+"1, 2, 3",
+"3, 2, 1",
+"3, 1, 2",
+"2, 1, 3"
+],
+"ans": "C",
+"extra": "1) Asikaga;\n2) Tokugava;\n3) Minamoto."
+},
+{
+"n": 24,
+"q": "\"Bu shahar XIX asr o'rtalarida 4 dahaga bo'linib, har dahaning qozisi, mingboshisi bo'lgan. Dahalar oqsoqol boshliq mahallalarga bo'lingan.\" Yuqoridagi ta'rif qaysi shahar haqida?",
+"opts": [
+"Qo'qon",
+"Toshkent",
+"Samarqand",
+"Andijon"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "\"Hapalak qishlog‘i ahlining xonga arzi\" asarini kim yozgan?",
+"opts": [
+"Maxmur",
+"Zavqiy",
+"Muqimiy",
+"Mashrab"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Xonliklar davrida \"Ko'kaldosh\" nomli madrasalar qaysi ikki shaharda qurilgan?",
+"opts": [
+"Toshkent, Samarqand",
+"Samarqand, Buxoro",
+"Buxoro, Qo'qon",
+"Toshkent, Buxoro"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Monopolistik kapitalizm davrini eslang, nechanchi yilda Xitoy Koreyaning mustaqilligini tan olgan?",
+"opts": [
+"1876-yilda",
+"1895-yilda",
+"1905-yilda",
+"1910-yilda"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Rasmda qaysi shahar tasvirlangan?",
+"opts": [
+"Chichen-Itsa",
+"Kusko",
+"Venetsiya",
+"Tenochtitlan"
+],
+"ans": "D",
+"img": "img/dtm/oa-19-28.jpg"
+},
+{
+"n": 29,
+"q": "XVI asrning ikkinchi yarmida qaysi davlatda (a) iqtisodiy tushkunlik boshlangan-u,  XVIII asrda qaysi davlatda (b)  iqtisodiy tushkunlik boshlangan ?",
+"opts": [
+"a-Xitoy, b-Turkiya;",
+"a-Germaniya, b-Eron;",
+"a-Turkiya, b-Eron;",
+"a-Yaponiya, b-Germaniya;"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "1645-yilda qozoqlar Movarounnahrga hujum qilib qaysi shahargacha yetib kelishadi?",
+"opts": [
+"O'ratepa",
+"Chimkent",
+"Xo'jand",
+"Jizzax"
+],
+"ans": "C"
+}
+]
+}

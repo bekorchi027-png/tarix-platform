@@ -1,0 +1,335 @@
+{
+"id": "oa-50",
+"items": [
+{
+"n": 1,
+"q": "Lotin Amerikasi mamlakatlarida iqtisodning o'sishi nechanchi yildan sezilarli kuzatila boshlangan?",
+"opts": [
+"1860-yildan",
+"1870-yildan",
+"1840-yildan",
+"1850-yildan"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Rossiya imperiyasida krepostnoylik huquqi kimning davrida bekor qilingan?",
+"opts": [
+"Aleksandr I",
+"Nikolay I",
+"Aleksandr II",
+"Nikolay II"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Yangi davr boshlarida Koreya tasviriy san'atiga qaysi davlatning \"tog' va suvni tasvirlash\" janri kirib kelgan?",
+"opts": [
+"Xitoyning",
+"Yaponiyaning",
+"Hindistonning",
+"Rossiyaning"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "\"Ramaning jasoratlari\" nomli juda katta poemaning muallifi kim?",
+"opts": [
+"Tulsidas",
+"Surdas",
+"Bedil",
+"Ahmad Hasaniy"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Qaysi kompazitor vafot etganidan so'ng, uning o'g'illari meros bo'lib qolgan qo'lyozmalarning ancha qismini yo'qotib yuborishgan?",
+"opts": [
+"Betxoven",
+"Bax",
+"Motsart",
+"Skarlatti"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Rus milliy teatrining asoschisining  asli kasbi nima edi?",
+"opts": [
+"etikdo'z",
+"dehqon",
+"harbiy",
+"savdogar"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "XIX asrning birinchi yarmida qaysi davlatdagi milliyozodlik kurashiga Abdulqodir ismli shaxs rahbarlik qilgan?",
+"opts": [
+"Tunis",
+"Liviya",
+"Misr",
+"Jazoir"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Vasko da Gama boshchiligidagi ekspeditsiya nechanchi yilda Afrikani janubdan aylanib o'tib, Hind okeaniga chiqqan?",
+"opts": [
+"1497-yil",
+"1498-yil",
+"1499-yil",
+"1500-yil"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "\"Meros\" badiiy filmi kimlarga bag'ishlangan?",
+"opts": [
+"Buyuk geografik kashfiyot davri dengiz sayyohlariga",
+"Rossiya imperiyasidagi dekabristlarga",
+"Lotin Amerikasidagi milliy-ozodlik harakati rahbarlariga",
+"Italiya Uyg'onish davri vakillariga"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Yangi davrning eng sharmandali hodisasi nima?",
+"opts": [
+"qul savdosi",
+"irqchilik mafkurasi",
+"Amerika hindularing qirib yuborilishi",
+"burjua inqiloblarida ko'p qon to'kilishi"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Ali Kapa va Chexel Sotun ansamllari qaysi davlatda joylashgan?",
+"opts": [
+"Eronda",
+"Hindistonda",
+"Usmonli davlatida",
+"Afg'onistonda"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Birinchi afyun urushi yakunida qaysi davlat Gongkong orolini bosib oladi?",
+"opts": [
+"Yaponiya",
+"Buyuk Britaniya",
+"Fransiya",
+"AQSh"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Quyidagi qaysi tarixiy hodisa Napoleon Bonapart vafot etgan yilda sodir bo'lgan?",
+"opts": [
+"\"Muqaddas ittifoq\" tashkil etilishi",
+"Mustaqil Peru davlati tashkil topishi",
+"Jorj Stefenson tomonidan parovozning ixtiro qilinishi",
+"Betxovenning vafot etishi"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "\"Muqaddas liga\" tuzilgan yilda quyidagilardan qaysi biri tug'ilgan ?",
+"opts": [
+"Jon Lokk",
+"Fransua Bushe",
+"Antuan Vatto",
+"I. S. Bax"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Rus milliy teatrining asoschisi kim edi?",
+"opts": [
+"I.I. Polzunov",
+"I.A. Krilov",
+"G.D. Derjavin",
+"F.G. Volkov"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Kimning davrida Angliya \"dengizlar malikasi\"ga aylandi?",
+"opts": [
+"Genrix VIII Tyudor",
+"Yelizaveta I",
+"Yakov I",
+"Oliver Kromvel"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "XIX asr boshlarida mustaqillikka erishgan Lotin Amerikasi davlatlardan qaysi birida Respublika tuzumi o'rnatilmagan edi?",
+"opts": [
+"Argentina",
+"Kuba",
+"Braziliya",
+"Venesuella"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Rus mumtoz musiqasiga kim asos solgan?",
+"opts": [
+"M. I. Glinka",
+"P. I. Chaykovskiy",
+"A. M. Skryabin",
+"S. V. Raxmaninov"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "G'arbiy Afrikada XVI asr oxirigacha qul savdosi bilan faqat kimlar shug'ullangan?",
+"opts": [
+"portugaliyaliklar",
+"gollandlar",
+"ispanlar",
+"fransuzlar"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "XVIII asrda quyidagi qaysi davlatlar o'rtasida \"Do'stlik va Tijorat Bitimi\" imzolangan?",
+"opts": [
+"Fransiya - Buyuk Britaniya",
+"Buyuk Britaniya - Eron",
+"Rossiya - Usmonli davlati",
+"AQSh - Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Rossiyada kimning davrida davlat lavozimlarini faqat zodagon naslidan bo'lgan kishilar egallashi tartibiga chek qo'yilgan?",
+"opts": [
+"Ivan IV Grozniy",
+"Pyotr I",
+"Aleksandr II",
+"Nikolay I"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Qaysi ingliz qiroli davrida burjua inqilobi uchun iqtisodiy, siyosiy va g'oyaviy asoslar shakllangan?",
+"opts": [
+"Karl I",
+"Yelizaveta I",
+"Yakov I",
+"Oliver Kromvel"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "XVIII asr ikkinchi yarmida aholi soni bo'yicha Yevropaning eng katta davlati qaysi edi?",
+"opts": [
+"Prussiya",
+"Rossiya",
+"Shvetsiya",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "\"Chingizxonning oq buluti\" qissasini kim yozgan?",
+"opts": [
+"Mixail Ivanin",
+"Chingiz Aytmatov",
+"Pirimqul Qodirov",
+"Mirkarim Osim"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "1709-yilda Afg'onistonning qaysi viloyatida Eron bosqinchilariga qarshi qo'zg'olon ko'tarilgan?",
+"opts": [
+"Badaxshon",
+"Qunduz",
+"Qandahor",
+"Shiburg'on"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Quyidagi qaysi atama \"xizmat qilmoq\" deb tarjima qilinadi?",
+"opts": [
+"mikado",
+"syogun",
+"kabuki",
+"samuray"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Yaxshi Umid burniga nom bergan dengiz sayyohini toping?",
+"opts": [
+"X. Kolumb",
+"Abel Tasman",
+"A. Vespuchchi",
+"B. Diash"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Kalvinizm ta'limotiga qaysi shaharda asos solingan?",
+"opts": [
+"Reyms",
+"Tuluza",
+"Jeneva",
+"Florensiya"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "\"Qabrdagi gulchambar\" asarining muallifi kim?",
+"opts": [
+"Piter Abraxams",
+"E. M. Remark",
+"Paulo Koelo",
+"Xolid Husayniy"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Buyuk Britaniya qachon Janubiy Afrikadagi Kap koloniyasini bosib olgan?",
+"opts": [
+"XVIII asr oxirida",
+"XIX asr boshlarida",
+"XIX asr o'rtalarida",
+"XIX asr oxirida"
+],
+"ans": "B"
+}
+]
+}

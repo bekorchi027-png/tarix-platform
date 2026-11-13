@@ -1,0 +1,335 @@
+{
+"id": "oa-07",
+"items": [
+{
+"n": 1,
+"q": "XIX asr boshlarida baland devor bilan o'rab olingan shaharni belgilang.",
+"opts": [
+"Xiva",
+"Namangan",
+"Qo'qon",
+"Samarqand"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Kimning vafotidan keyin Oltin O'rda taxti uchun kurash boshlanib ketgan?",
+"opts": [
+"Botuxon",
+"Berkaxon",
+"O'zbekxon",
+"Jonibek"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Quyidagi qaysi alloma mintaqa geografiyasiga oid ma'lumotlar to'plagan?",
+"opts": [
+"Zamaxshariy",
+"M. Koshg'ariy",
+"Beruniy",
+"Farg'oniy"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "Abbosiylar sulolasi hukmronligini eslang. Ularga qarshi dastlabki qo'zg'olon ko'tarilgan hududni Qutayba ibn Muslim nechanchi yilda bosib olgan edi?",
+"opts": [
+"651-yil",
+"712-yil",
+"715-yil",
+"709-yil"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Shohobod nomi bilan atalgan kanal qaysi hukmdor davrida qazilgan?",
+"opts": [
+"Olloqulixon",
+"Muhammad Rahimxon I",
+"Anushaxon",
+"Abulg’oziyxon"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagi qaysi tarixiy shaxs haqida \"u ko'p o'qigan, g'oyat ziyrak bo'lib, kimyogarlik, sehr va tilsim ilmini o'rgangan\", deya ma'lumot berilgan?",
+"opts": [
+"Zardusht",
+"Dukchi Eshon",
+"Hoshim ibn Hakim",
+"Ahmad ibn Umar Xivaqiy"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Qaysi hukmdor davrida kuchli nemis otliq qo'shini vujudga kelgan?",
+"opts": [
+"Genrix I",
+"Fridrix I Barbarossa",
+"Otton I",
+"Buyuk Karl"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Yunonlar qaysi hududning binokorlik va hunarmandchilik an'analarini o'zlashtirishgan?",
+"opts": [
+"Misr",
+"Hindiston",
+"Rim",
+"Baqtriya"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Kuchli qo'shin yordamida karvon o'tadigan hududlarni, oltin konlarini, qolaversa, qadimgi Gana yerlarini egallagan hukmdorni aniqlang.",
+"opts": [
+"Abu Bakr",
+"Sundiata Keyt",
+"Almi",
+"Muso I"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Quyidagi tarixiy shaxslardan qaysi biri o'zini shoir emas, adab muallimi, deb hisoblagan?",
+"opts": [
+"Yusuf Xos Hojib",
+"Ahmad Yugnakiy",
+"Mahmud Koshg'ariy",
+"Ahmad Yassaviy"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Quyidagi shaxslardan bir yilda vafot etmaganlarini aniqlang.",
+"opts": [
+"Rafael Santi va Sultonali Mashhadiy",
+"Mikelanjelo Buonarroti va Galileo Galiley",
+"Vola va Mohlaroyim",
+"Uilyam Shekspir va Migel de Servantes"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyidagi qaysi atama forscha emas?",
+"opts": [
+"satraplik",
+"sarbador",
+"shashmaqom",
+"madrasa"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Qo'ng'irot sulolasi hukmdorlaridan qaysi biri davrida jon saqlash uchun o'zga yurtga qochib fuqarolar yana qaytib kela boshladilar?",
+"opts": [
+"Muhammad Amin inoq",
+"Avaz Muhammad inoq",
+"Eltuzarxon",
+"Muhammad Rahimxon I"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Yaponiyada Meydzi islohotlari davrida qaysi davlatdan harbiy mutaxasisslar taklif etilgan?",
+"opts": [
+"Buyuk Britaniya",
+"Ispaniya",
+"Fransiya",
+"Portugaliya"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "G'arbiy Yevropa madaniyati qaysi asrlardan boshlab yuksala boshlangan?",
+"opts": [
+"X-XI asrlardan",
+"XIV-XV asrlardan",
+"XI-XII asrlardan",
+"XII-XIII asrlardan"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi davlatda uylar xom g'isht yoki toshdan yasalgan ustunlar ustida bunyod etilgan?",
+"opts": [
+"Mayyalar davlatida",
+"Aksum davlatida",
+"Asteklar davlatida",
+"Inklar davlatida"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Muqanna vafot etgan yili qaysi alloma dunyoga kelgan?",
+"opts": [
+"Farobiy",
+"Xorazmiy",
+"Beruniy",
+"Farg'oniy"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Bolaliktepa yodgorligi qaysi hududda joylashgan?",
+"opts": [
+"Farg'ona vodiysi",
+"Surxon vohasi",
+"Zarafshon vohasi",
+"Sharqiy Turkistonda"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Quyidagi hukmdorlardan qaysi biri sulolasining birinchi hukmdori emas?",
+"opts": [
+"Ismoil Safaviy",
+"Abul Abbos Saffoh",
+"Ya'qub ibn Lays",
+"Abul Abbos Abdulloh"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Nechanchi asrda Angliyada qaram dehqonlar to'lov evaziga ozodlikka erishgan?",
+"opts": [
+"XII asrda",
+"XIV asrda",
+"XIII asrda",
+"XV asrda"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "\"Milliy kalendar\" jurnali quyidagi qaysi davlatda nashr etilgan?",
+"opts": [
+"Bolgariya",
+"Albaniya",
+"Turkiya",
+"Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Olam abadiy mavjud, u hech qachon yo‘q bo‘lmaydi, degan xulosani tarafdori bo'lgan yangi davr olimini toping.",
+"opts": [
+"Nikolay Kopernik",
+"Galileo Galiley",
+"Jordano Bruno",
+"Isaaak Nyuton"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Qaysi davlatda qadimgi davrda dehqonchilik e'tiborli va faxrli kasb hisoblangan?",
+"opts": [
+"Xitoy",
+"Hindiston",
+"Eron",
+"Misr"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Afrikadagi qaysi davlat aholisi mamlakat ichkarisiga kirib borgan portugal, ispan, fransuz mustamlakachilariga muvaffaqiyatli ravishda qarshilik ko'rsatishgan?",
+"opts": [
+"Marokash",
+"Misr",
+"Jazoir",
+"Madagaskar"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Qaysi davlat davrida o'zbeklarning umumelat tili qaror topgan?",
+"opts": [
+"Somoniylar",
+"Qoraxoniylar",
+"Chig'atoy ulusi",
+"Shayboniylar"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Dunyoni qayta bo'lib olish yo'lidagi birinchi urush qaysi asrda sodir bo'lgan?",
+"opts": [
+"XVI asrda",
+"XVIII asrda",
+"XIX asrda",
+"XX asrda"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "\"Tungin\" atamasiga quyidagi qaysi atama mos tusha oladi?",
+"opts": [
+"aylboshi",
+"qo'shunboshi",
+"mirihazora",
+"tuman og'asi"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "K. Salyutati vafot etgan yili Min sulolasi hukmdorlari qaysi hududni bosib olishgan?",
+"opts": [
+"Veytnamni",
+"Koreyani",
+"Mo'g'ilistonni",
+"Shri Lankani"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Quyidagi sulolalardan bir asrda hokimiyat tepasiga kelganlarini belgilang. 1. Shayboniylar; 2. Stuartlar; 3. Qo'ng'irotlar; 4. Ashtarxoniylar; 5. Tokugava; 6. Romanovlar; 7. Barakzaylar; 8. Boburiylar",
+"opts": [
+"1,2,3,4",
+"5,6,7,8",
+"1,5,7,8",
+"2,4,5,6"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "Hoja dodxoh madrasasi quyidagi qaysi shaharda qurilgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Xiva",
+"Qo'qon"
+],
+"ans": "D"
+}
+]
+}

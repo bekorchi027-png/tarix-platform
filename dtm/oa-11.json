@@ -1,0 +1,335 @@
+{
+"id": "oa-11",
+"items": [
+{
+"n": 1,
+"q": "Muhammad Yusuf Roziy, Bobojon Sanoiy, Muhammad Rizo Oxund kabi usta xattotlar qaysi sulola davrida ijod qilishgan?",
+"opts": [
+"Buxoro xonligi Ashtarxoniylar sulolasi davrida",
+"Qo'qon xonligi minglar sulolasi davrida",
+"Xiva xonligi arabshohiylar sulolasi davrida",
+"Buxoro amirligi mang'itlar sulolasi davrida"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Qaysi dostonda Amir Temur va To'xtamishxon bilan bog'liq voqealar bayon etilgan?",
+"opts": [
+"\"Mastposhsho\"",
+"\"Edigey\"",
+"\"Qublon\"",
+"\"Qirqqiz\""
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Angl-saks zodagonlarini lordlar palatasiga kiritgan shaxs kim?",
+"opts": [
+"Richard II",
+"Yelizavetta I",
+"Genrix VII Tyudor",
+"Genrix VIII Tyudor"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Yunonlarda qaysi xudo yorug'lik, musiqa va she'riyat xudosi hisoblangan?",
+"opts": [
+"Apollon",
+"Gelios",
+"Demetra",
+"Artemida"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Samolyotlarni avtomatik boshqarishni kim(lar) yaratgan?",
+"opts": [
+"Charlz Bebbij",
+"Uilber va Orvill Raytlar",
+"N.I. Kibalchich",
+"L. Sperri"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Kiyev Rusi chegaralarida yangi mudofaa qal'alarini qurdirgan knyazni toping.",
+"opts": [
+"Oleg",
+"Yaroslav",
+"Svyatoslav",
+"Vladimir"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Budda ibodatxonasi yaqinida qurilgan yapon shahrini belgilang?",
+"opts": [
+"Sapai",
+"Xakata",
+"Nara",
+"Nagoya"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "\"Dehqonlarni himoya qilish xuntasi\" tashkiloti qaysi davlatda tashkil etilgan?",
+"opts": [
+"Meksika",
+"Braziliya",
+"Argentina",
+"Kuba"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Tarixchi Mirxondning ota-bobolari qaysi soha bo'yicha yetuk olimlar hisoblanishgan?",
+"opts": [
+"riyoziyot",
+"fiqh",
+"ilmi nujum",
+"musiqa"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Nishopur, Ray, Marv shaharlarini davlatiga qo'shib olgan anushteginiy hukmdor kim?",
+"opts": [
+"Otsiz",
+"Elarslon",
+"Takash",
+"Sultonshoh Mahmud"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Quyidagi shaxslardan qaysi biri 1636-yilda imperator deb e'lon qilingan?",
+"opts": [
+"Abaxay",
+"Li Szi-chen",
+"Shunchji",
+"U San-guy"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Quyidagi qaysi hukmdor taxtga o'tirgunga qadar Namangan hokimi bo'lgan?",
+"opts": [
+"Murodxon",
+"Umarxon",
+"Sheralixon",
+"Xudoyorxon"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Shahrisabz hokimi Ibrohimbiy qaysi qabiladan bo'lgan?",
+"opts": [
+"kenagas",
+"qatag'on",
+"qo'ng'irot",
+"barlos"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Baqtra, Maroqanda, Marg'iona Antioxiyasi, Termiz qaysi davlatning yirik shaharlari hisoblangan?",
+"opts": [
+"Salavkiylar",
+"Yunon-Baqtriya",
+"Parfiya",
+"Kushon"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Nechanchi yilda Ispaniyani Arab xalifaligi bosib olgan-u, nechanchi yilda Karl Buyuk Ispaniyaga yurish boshlagan?",
+"opts": [
+"709-yil / 804-yil",
+"711-yil / 768-yil",
+"673-yil / 773-yil",
+"711-yil / 778-yil"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Qadimgi Xitoy hududidagi ilk davlat qayerda tashkil topgan?",
+"opts": [
+"Xuanxe daryosining yuqori oqimida",
+"Yantszi daryosining o'rta oqimida",
+"Xuanxe daryosining o'rta oqimida",
+"Yantszi daryosining quyi oqimida"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Ikkinchi Bolqon urushi natijasida qaysi davlat Bolqonning yetakchi davlatiga aylangan?",
+"opts": [
+"Serbiya",
+"Bolgariya",
+"Avstriya-Vengriya",
+"Turkiya"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "1457-yilda qaysi temuriy shaxzoda Hirot taxtini egallagan?",
+"opts": [
+"Alouddavla",
+"Husayn Boyqaro",
+"Abulqosim Bobur",
+"Abu Said"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Ismoil Somoniy nechanchi yilda butun Xurosonni egallaganu, Ismoil Safaviy nechanchi yilda butun Xurosonni egallagan?",
+"opts": [
+"900-yilda / 1505-yilda",
+"893-yilda / 1510-yilda",
+"900-yilda / 1510-yilda",
+"888-yilda / 1505-yilda"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "\"Buxoro tarixi\" nomli asar yozgan shaxs nechanchi yilda vafot etgan?",
+"opts": [
+"865-yilda",
+"955-yilda",
+"959-yilda",
+"899-yilda"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "XIX asrning birinchi yarmida Buxoro shahrida nechta karvonsaroy bo'lgan?",
+"opts": [
+"2 ta",
+"83 ta",
+"38 ta",
+"9 ta"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "\"Sharafli inqilob\" nomli saroy to'ntarishi orqali taxtga o'tirgan hukmdor oldin qaysi davlat hukmdori bo'lgan?",
+"opts": [
+"Gollandiya",
+"Fransiya",
+"Ispaniya",
+"Shotlandiya"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "1825-yilda qo'zg'olon ko'targan dekabristlar kimlarning farzandlari edilar?",
+"opts": [
+"ruhoniylarning",
+"hunarmandlarning",
+"zodagonlarning",
+"dehqonlarning"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Matematika va navigatsiya fanlari maktabi qaysi shaharda joylashgan?",
+"opts": [
+"Berlin",
+"Rim",
+"Moskva",
+"Peterburg"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Fransiya savdogarlari uchun 3 % miqdorida bojxona to'lovi joriy qilgan davlatni toping?",
+"opts": [
+"Yaponiya",
+"Eron",
+"Xitoy",
+"Turkiya"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyidagi shaxslardan qaysi biri Norbo'tabiy madrasasida o'qigan?",
+"opts": [
+"Mahmud (shoir)",
+"Mirzo Qalandar Mushrif Isfarangiy",
+"Muhammad Solih",
+"Mulla Niyoz Muhammad Ho'qandiy"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Qaysi adabiyot vakili \"Ma'nolar otasi\" degan nom olgan?",
+"opts": [
+"Turdi Farog'iy",
+"Sayido Nasafiy",
+"Mirzo Abdulqodir",
+"So'fi Olloyor"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Burgundiyaning g'arbiy qismini Fransiyaga qo'shib olgan qirolni toping.",
+"opts": [
+"Karl VII",
+"Lyudovik IX",
+"Karl VIII",
+"Lyudovik XI"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Yupqa shisha idish oltin va kumush idishlarga nisbatan qulay va nafis ekanligini isbotlagan shaxs nechanchi asrda yashagan?",
+"opts": [
+"IX asrda",
+"X asrda",
+"XI asrda",
+"XII asrda"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Nechanchi yilga kelib Yevropaning buyuk davlatlari ikki harbiy-siyosiy ittifoqqa bo'linib ketdi?",
+"opts": [
+"1882-yil",
+"1904-yil",
+"1907-yil",
+"1914-yil"
+],
+"ans": "C"
+}
+]
+}

@@ -1,0 +1,335 @@
+{
+"id": "oa-16",
+"items": [
+{
+"n": 1,
+"q": "\"Ost-Indiya\" kompaniyasi tugatilgan yilda yurtimizga kimning elchilik missiyasi tashrif buyurgan?",
+"opts": [
+"G. Danilevskiy",
+"U. Murkford",
+"N. Ignatiyev",
+"V. A. Perovskiy"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Yangi davr boshlarida quyidagi qaysi davlatda amaldorlar orasida poraxo'rlik va jinoyatchilik, xalq orasida esa ocharchilik va vabo avjiga chiqadi?",
+"opts": [
+"Koreya",
+"Xitoy",
+"Yaponiya",
+"Xiva xonligi"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Qaysi ashtarxoniy hukmdor davrida markaziy davlat hokimiyati nisbatan mustahkamlagan?",
+"opts": [
+"Boqi Muhammad",
+"Abdulazizxon",
+"Subhonqulixon",
+"Imomqulixon"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "O'rta asr Yevropasida qaysi hukmdor ilk marotaba universitet tashkil etgan?",
+"opts": [
+"Buyuk Karl",
+"Yaroslav",
+"Fridrix II",
+"Filipp II"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Qaysi o'rta asr davlatida urushlar, hosilsizlik yillari yoki turli tabiiy ofatlar paytida barcha jabrlanganlarga davlat zaxirasidan makka doni va quritilgan kartoshka tarqatilgan?",
+"opts": [
+"Inklar davlatida",
+"Mayyalar davlatida",
+"Mali davlatida",
+"Asteklar davlatida"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Anushteginni Xorazmga noib qilib tayinlagan Saljuqiylar hukmdori kim edi?",
+"opts": [
+"To'g'rul",
+"Malikshoh",
+"Alp Arslon",
+"Ertug'rul"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Nechanchi yilda ko'tarilgan qo'zg'olon o'sha hududdagi mahalliy kuchlar yordamida bostirilgan?",
+"opts": [
+"585-586-yillardagi qo'zg'olon",
+"769-783-yillardagi qo'zg'olon",
+"1238-yildagi qo'zg'olon",
+"750-yildagi qo'zg'olon"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Qadimgi dunyo tarixida qaysi xalq haqida \"davlati qulagach boshqa xalqlarga singishib ketgan\" deya ma'lumot berilgan?",
+"opts": [
+"ossuriyaliklar",
+"urartlar",
+"xettlar",
+"shumer-akkadlar"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Otto fon Bismark qaysi davlatni o'z siyosiy rejalarini amalga oshirish yo'lidagi asosiy g'ov deb bilgan?",
+"opts": [
+"Rossiyani",
+"Fransiyani",
+"Buyuk Britaniyani",
+"AQShni"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "2018-yilda Respublikamizning qaysi shahrida Xalqaro maqom san’ati anjumani bo‘lib o‘tgan?",
+"opts": [
+"Samarqand",
+"Termiz",
+"Urganch",
+"Shahrisabz"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Qaysi hujjatga ko'ra Rossiya Qora dengiz bo'yida harbiy flot qurish huquqini qo'lga kiritgan-u (1), qaysi hujjatga ko'ra Buyuk Britaniya kemalari Qora dengizga kirish huquqiga (2) ega bo'lgan?",
+"opts": [
+"1-Guliston sulh shartnomasi, 2-Parij tinchlik shartnomasi",
+"1-Tilzit shartnomasi, 2-San-Stefano shartnomasi",
+"1-Turkmanchoy shartnomasi, 2-Simokaseki sulhi",
+"1-Kuchukqaynarji shartnomasi, 2-Berlin traktati"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "XVI asrda qaysi davlatda  dehqonlarning shaharlarga, tog'larga qochib ketishining oldini olish maqsadida yer egalariga qochib ketgan dehqonlarni majburan qaytarib olib kelish huquqini beruvchi maxsus farmon chiqarilgan?",
+"opts": [
+"Eron",
+"Yaponiya",
+"Turkiya",
+"Koreya"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagi tarixiy shaxslardan qay birining g‘azallari “Shashmaqom”ning barcha kuylariga mos tushadi?",
+"opts": [
+"Ogahiy",
+"Munis",
+"Nodira",
+"Mashrab"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Jaloliddin Manguberdi yutgan  dushmanlarining qo'shinlarini yiliga mos ravishda xronologik tartibda ketma-ket joylashtiring. a-60 ming nafar, b-45 ming nafar, c-20 ming nafar.",
+"opts": [
+"a, c, b",
+"b, c, a",
+"c, b, a",
+"a, b, c"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Qadimgi Misrni o'z davlatiga bo'ysundirgan hukmdorlarni belgilang.",
+"opts": [
+"Kir II, Oktavian, Oshshurbanpal;",
+"Kambiz II, Xammurapi, Trayan;",
+"Doro I, Navuxodonosor II, Mark Krass;",
+"Kambiz II, Oktavian, Navuxodonosor II."
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Qaysi usmonli turk hukmdori davrida harbiy yurishlar uyushtirilib Qora dengiz sohiliga chiqilgan?",
+"opts": [
+"Mexmet II",
+"O'rxon",
+"Yildirim Boyazid",
+"Usmon"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Qaysi Kiyev Rusi knyazi davrida Rusda maorif yuksalgan?",
+"opts": [
+"Vladimir",
+"Olga",
+"Yaroslav",
+"Svyatoslav"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Meksika tarixida qaysi davlat boshlig'iga oddiy xalq, milliy burjuaziya, burjuaziyalashgan pomeshchiklarning bir qismi qarshi chiqganlar?",
+"opts": [
+"general Uerta",
+"Porfirio Dias",
+"Madero",
+"Antonio Predo"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Qaysi Xiva xoni taxtga o'tirgunga qadar  Eronda 10 yil tutqinlikda kun kechirgan?",
+"opts": [
+"Asfandiyorxon",
+"Arab Muhammadxon",
+"Elbarsxon",
+"Abulg'oziyxon"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "XVIII asrning ikkinchi yarmidan boshlab amirlik iqtisodiyotida rivojlanish yuz berganligi, o‘z navbatida………",
+"opts": [
+"mamlakat harbiy qudratining oshishiga olib keldi",
+"mulkdorlar tabaqasining ajralib chiqishiga olib keldi",
+"chet elliklarning kirib kelishiga olib keldi",
+"aholi sonining oshishiga olib keldi"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Quyidagilardan kim tuzgan qurolli guruh 22 kishidan iborat bo'lgan?",
+"opts": [
+"Migel Idalgo",
+"Xose Morelos",
+"Jon Broun",
+"Bonifatsio"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "\"Gumanitar\" atamasi qaysi tildan olingan?",
+"opts": [
+"fransuz",
+"lotin",
+"nemis",
+"italyan"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "O'g'uzlar quyidagi qaysi xalqning etnogenizida muhim rol o'ynamagan?",
+"opts": [
+"turkman",
+"qoraqalpoq",
+"tojik",
+"ozarbayjon"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "\"Poytaxt axboroti\" nomli gazeta VIII asrdan boshlab qaysi shaharda chiqarila boshlangan?",
+"opts": [
+"Xanlin",
+"Nankin",
+"Loyan",
+"Pekin"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Mil.avv II ming yillikda yunonlar tomonidan Attikaning g'arbiy qismida qurilgan qal'a qanday nom bilan atalgan?",
+"opts": [
+"\"Persepol\"",
+"\"Vizantiy\"",
+"\"Akropol\"",
+"\"Lakonika\""
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "1860-yilda sanoat mahsulotlari hajmi bo'yicha dunyoda 4-o'rinda turgan davlatni toping.",
+"opts": [
+"Fransiya",
+"AQSh",
+"Italiya",
+"Rossiya"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Qaysi afg’on amiri davrida mamlakatda yagona pul birligi, bir xil tosh-tarozi va o'lchov birliklari joriy etilgan?",
+"opts": [
+"Abdurahmon",
+"Omonullaxon",
+"Habibullaxon",
+"Do'st Muhammadxon"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Quyidagi qaysi davlatda hukmdor qarindoshlari va yaqinlariga \"to'ra\" unvoni berilgan?",
+"opts": [
+"Buxoro amirligida",
+"Xiva xonligida",
+"Qo'qon xonligida",
+"Toshkent hokimligida"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Qaysi yevropalik elchi \"Samarqandga sayohat kundaligi \" nomli asar yozgan?",
+"opts": [
+"Antoniy Jenkinsin",
+"Xerman Vamberi",
+"Rui Gonsales de Klavixo",
+"Aleksandr Byorns"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Buyuk Britaniyada nechanchi yilda 9 yoshgacha bo'lgan  bolalarning mehnati taqiqlangan-u (a), nechanchi yilda 10 yoshdan kichik bolalarni ishga qabul qilish taqiqlangan (b) ?",
+"opts": [
+"a-1911-yil, b-1876-yil",
+"a-1867-yil, b-1832-yil",
+"a-1825-yil, b-1874-yil",
+"a-1832-yil, b-1875-yil"
+],
+"ans": "D"
+}
+]
+}

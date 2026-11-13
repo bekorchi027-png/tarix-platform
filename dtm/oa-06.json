@@ -1,0 +1,336 @@
+{
+"id": "oa-06",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi atama dastlab qabila nomi bo'lib, keyinchalik hukmron toifa - zodagonlarning umumiy nomiga aylangan?",
+"opts": [
+"\"ink\"",
+"\"mayya\"",
+"\"astek\"",
+"\"olmek\""
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Quyidagi qaysi alloma o'n olti yoshidan boshlab turli fanlar bo'yicha Sharq va G'arb olimlarining ilmiy asarlarini mustaqil o'rgangan.",
+"opts": [
+"Beruniy",
+"Farg'oniy",
+"Ibn Sino",
+"Marg'inoniy"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Buddaviylik dini qaysi asrda vujudga kelgan?",
+"opts": [
+"mil.avv. VIII asrda",
+"mil.avv. VI asrda",
+"mil.avv. IV asrda",
+"mil.avv III asrda"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Qaysi Buxoro amiri barcha mang'it beklariga katta yer-mulkni tanho qilib beradi?",
+"opts": [
+"Muhammad Rahim",
+"Doniyolbiy otaliq",
+"Shohmurod",
+"Haydar"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Angliyada nechanchi yilda “Uzoq muddatli parlament” chaqirilgan?",
+"opts": [
+"1640-yil",
+"1643-yil",
+"1649-yil",
+"1688-yil"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Mo'g'ullar ustidan g'alaba qozongan dastlabki rus knyazini toping.",
+"opts": [
+"Dmitriy Ivanovich",
+"Aleksandr Yaroslavich",
+"Vladimir Monamax",
+"Ivan III"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Jaloliddin Manguberdi 1225-yil mayda qaysi shaharni jangsiz egallagan?",
+"opts": [
+"Tabriz",
+"Marog'a",
+"G'azna",
+"Isfahon"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Imperator Konstantin nechanchi yilda xristianlikni boshqa dinlar bilan teng deb e'lon qilgan?",
+"opts": [
+"395-yil",
+"313-yil",
+"330-yil",
+"376-yil"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Xudoyorxon O'rdasi qaysi shaharda joylashgan?",
+"opts": [
+"Qo'qon",
+"Marg'ilon",
+"Toshkent",
+"Buxoro"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Quyidagi qaysi asarga dunyo xaritasi ilova qilingan?",
+"opts": [
+"\"Qutadg'u bilig\"",
+"\"Devoni lug'atit turk\"",
+"\"Samoviy harakatlar va umumiy ilmi nujum\"",
+"\"Ziji jadidi Ko'ragoniy\""
+],
+"ans": "B",
+"img": "img/dtm/oa-06-10.jpg"
+},
+{
+"n": 11,
+"q": "Kimning asarlarining qahramonlari xudolar va avliyolar emas, balki oddiy odamlar bo'lgan?",
+"opts": [
+"Uilyam Shekspir",
+"Migel de Servantes",
+"Leonardo da Vinchi",
+"M. Buonarroti"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi qaysi davlatda IV asrda yozuv islohoti o'tkazilgan?",
+"opts": [
+"Guptalar davlati",
+"Pekche davlati",
+"Aksum davlati",
+"Vizantiya"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Qaysi Rim hukmdorining xohish-irodasi qonun kuchiga ega bo'lgan?",
+"opts": [
+"Yuliy Sezar",
+"Oktavian Avgust",
+"Trayan",
+"Konstantin"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Qo'qon xonligida 1845-yilda qo'zg'olon ko'tarilgan hududni qaysi hukmdor Qo'qon bekligiga qo'shib olgan edi?",
+"opts": [
+"Norbo'tabiy",
+"Erdonabiy",
+"Abdurahimbiy",
+"Olimbek"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Samarqanddagi Ulug'bek madrasasida ilmi hay'atdan kim dars bergan?",
+"opts": [
+"Shamsiddin Muhammad Xavofiy",
+"G'iyosiddin Jamshid Koshoniy",
+"Ali Qushchi",
+"Qozizoda Rumiy"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Quyidagi atamalardan qaysi biri mo'g'ulcha emas?",
+"opts": [
+"Ulus",
+"Suyurg'ol",
+"Dorug'a",
+"Iqto"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Shvabiya ittifoqi qaysi davlat shaharlari bilan bevosita savdo qilgan?",
+"opts": [
+"Fransiya",
+"Daniya",
+"Italiya",
+"Niderlandiya"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Qaysi qoraqalpoq yozuvchisi \"Darbadar el\" dostonini yozgan?",
+"opts": [
+"Jiyen Jirov",
+"Kunxo'ja Ibrohim",
+"Ajiniyoz",
+"Berdaq"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Fransiyada nechanchi yilda absolut (mutlaq) monarxiya qulagan?",
+"opts": [
+"1789-yilda",
+"1790-yilda",
+"1791-yilda",
+"1792-yilda"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Tarnob yaqinidagi jang nechanchi yilda bo'lgan?",
+"opts": [
+"1447-yilda",
+"1410-yilda",
+"1449-yilda",
+"1448-yilda"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Magnavr oliy maktabi tashkil etilgan asrda qaysi slavyan davlati vujudga kelgan?",
+"opts": [
+"Bolgariya davlati",
+"Chexiya davlati",
+"Kiyev Rusi knyazligi",
+"Polsha davlati"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Yer yuzidagi hamma narsa olovdan kelib chiqqan, degan yunon faylasufini toping.",
+"opts": [
+"Demokrit",
+"Platon",
+"Geraklit",
+"Arximed"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Buxoro xonligida shayboniylar sulolasi davrida moliya va xo'jalik ishlarini qaysi lavozimdagi shaxs boshqargan?",
+"opts": [
+"mehtar",
+"devonbegi",
+"parvonachi",
+"naqib"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Amir Temur kimga suyurg'ol qilib bergan ulus markazi dastlab G'azna shahri, so'ngra Balx etib belgilangan ?",
+"opts": [
+"Shohrux",
+"Mironshoh",
+"Umarshayx",
+"Pirmuhammad"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "O'z siyosatini Bretan va Anju gersoglarini bo'ysundirishdan boshlagan fransuz qirolini toping.",
+"opts": [
+"Lyudovik VI",
+"Filipp II",
+"Lyudovik IX",
+"Lyudovik XI"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Tug'luq Temur Movarounnahrga bostirib kirgan vaqtda Amir Hoji Barlos qayerga qochadi?",
+"opts": [
+"Sharqiy Turkistonga",
+"Hindistonga",
+"Eronga",
+"Xurosonga"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Qaysi hukmdor davrida qoraqalpoqlar Xiva xonligiga to‘la bo‘ysundirildi?",
+"opts": [
+"Elbarsxon",
+"Muhammad Amin inoq",
+"Avaz Muhammad inoq",
+"Muhammad Rahimxon I"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Qaysi qirollik davrida Koreya Xitoyga boj-yasoq to'lab turgan?",
+"opts": [
+"Koguryo",
+"Pekche",
+"Silla",
+"Parxe"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Xondamir tarixga oid qancha asar yozgan?",
+"opts": [
+"yigirmaga yaqin",
+"o'nga yaqin",
+"yigirmadan ortiq",
+"o'ndan ortiq"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Quyidagi shaxslardan qaysi biri Frakiyalik emas?",
+"opts": [
+"Spartak",
+"Diomed",
+"Arximed",
+"Demokrit"
+],
+"ans": "C"
+}
+]
+}

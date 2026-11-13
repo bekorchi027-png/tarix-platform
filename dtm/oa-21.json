@@ -1,0 +1,335 @@
+{
+"id": "oa-21",
+"items": [
+{
+"n": 1,
+"q": "1655-yilda katta qo'shin bilan yurish qilib, Buxoro atroflarini ikki bor talon-taroj qilgan Xiva xoni kim edi?",
+"opts": [
+"Sherg'ozixon",
+"Abulg'oziyxon",
+"Anushaxon",
+"Muhammad Rahimxon I"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Qaysi davrda odamlar ancha takomillashgan kesuvchi va arralovchi mehnat qurollari yasaydigan bo'lishgan?",
+"opts": [
+"mezolit",
+"so'nggi paleolit",
+"neolit",
+"ilk paleolit"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Quyidagi qaysi jang nisbatan avvalroq sodir bo'lgan?",
+"opts": [
+"\"Verden qirg'ini\"",
+"\"Marna jangi\"",
+"\"Somma jangi\"",
+"\"Buyuk chekinish\""
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Eron hukmdori Abbos I yordamida taxtni egallagan hukmdorni toping.",
+"opts": [
+"Imomqulixon",
+"Abulg'oziyxon",
+"Nodir Muhammad",
+"Asfandiyorxon"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "\"100 moddali Farmon\" deb ataluvchi qonunlar to'plami qaysi davlatda joriy etilgan?",
+"opts": [
+"Yaponiya",
+"Koreya",
+"Turkiya",
+"Eron"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Nechanchi yilda Yevropa va Osiyoni bog'lab turgan savdo yo'llari ustidan nazorat Usmonli turklar qo'liga o'tadi?",
+"opts": [
+"1299-yil",
+"1389-yil",
+"1492-yil",
+"1453-yil"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Quyidagi qaysi asar Islom dini axloqini tashviq qilish, komil insonni tarbiyalab yetishtirish maqsadi bilan yozilgan?",
+"opts": [
+"\"Devoni lug'atit turk\"",
+"\"Qutadg'u bilig\"",
+"\"Hibat ul-haqoyiq\"",
+"\"Hikmat\""
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Erjar qishlog’i qaysi daryo bo'yida joylashgan?",
+"opts": [
+"Sirdaryo",
+"Zarafshon",
+"Sangzor",
+"Chirchiq"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Qaysi davlatda XIX asrda eski tartiblar va xorijiy tovarlarning ko'pligi mamlakatda iqtisodiyotning taraqqiyotiga to'siq bo'lgan?",
+"opts": [
+"Eron",
+"Turkiya",
+"Hindiston",
+"Afg'oniston"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "\"Hayotnoma\" asarining muallifi (a) qayerda tug'ilgan-u, \"Hayvonotnoma\" asarining muallifi  (b) qayerda tug'ilgan?",
+"opts": [
+"a - Toshkent, b - Samarqand",
+"a - Buxoro, b - Samarqand",
+"a - Buxoro, b - Qarshi",
+"a - Qarshi, b - Termiz"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Sayyid Ali Muhammad va Muhammad Ahmad boshliq qo'zg'olonlar boshlangan davlatlarni toping.",
+"opts": [
+"Misr va Jazoir",
+"Eron va Sudan",
+"Tunis va Marokash",
+"Afg’oniston va Turkiya"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Nechanchi asrda xristianlarga ibodatxonalar qurish va oshkora ibodat qilish imkoni berilgan?",
+"opts": [
+"II asrda",
+"IV asrda",
+"III asrda",
+"V asrda"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Maxsus moslamalar yordamida 30 yil davomida osmon jismlarini kuzatgan shaxsni toping.",
+"opts": [
+"I. Nyuton",
+"G. Galiley",
+"J. Bruno",
+"N. Kopernik"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Dukchi eshon boshchiligidagi qo‘zg‘olonchilar qaysi qishloqqa yetib borganlarida mingboshi G‘oyibnazar o‘z odamlari bilan ularga qo‘shilgan?",
+"opts": [
+"Tojikqishloq",
+"Qutchi",
+"Ketmontepa",
+"Qo'yli"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Lotinchadan \"birlashgan\" deb tarjima qilinuvchi atamani toping.",
+"opts": [
+"koalitsiya",
+"korparatsiya",
+"anneksiya",
+"ekspansiya"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Nechanchi yilda rossiyalik savdogarlarga Buxoro amirligida savdo agentliklarini ta'sis etishga ruxsat berilgan?",
+"opts": [
+"1865-yilda",
+"1868-yilda",
+"1873-yilda",
+"1881-yilda"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Germaniyaning nechta shahri Shvabiya Ittifoqiga (a) va Ganza Ittifoqiga  (b) birlashgan?",
+"opts": [
+"a - 70 ta, b - 90 ta;",
+"a - 60 ta, b - 90 ta;",
+"a - 90 ta, b - 70 ta;",
+"a - 90 ta, b - 60 ta."
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Alouddin Muhammad Xorazmshoh davlatining janubi g'arbiy hududlariga chekina boshlaganida qaysi viloyatlar hokimlari undan yuz o'giradi?",
+"opts": [
+"Qunduz, Chag'aniyon",
+"Xuttalon, Termiz",
+"G'azna, Bomiyon",
+"Qunduz, Badaxshon"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Nechanchi yilda \"Antanta\" tuzilgan?",
+"opts": [
+"1904-yil",
+"1882-yil",
+"1907-yil",
+"1914-yil"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Arablar tomonidan Marv shahri jangsiz egallangan yilda Arab xalifasi kim edi?",
+"opts": [
+"Muoviya I",
+"Usmon",
+"Ali",
+"Umar"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "XIX asr boshlarida qaysi shaharda 100 dan ortiq madrasa, 300 dan ortiq masjid, 38 ta karvonsaroy bor edi?",
+"opts": [
+"Buxoro",
+"Xiva",
+"Samarqand",
+"Qo'qon"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Qaysi asrdan boshlab Qadimgi Rimda imperatorni armiya saylab boshlagan?",
+"opts": [
+"milodiy I asrdan",
+"milodiy II asrdan",
+"milodiy III asrdan",
+"milodiy IV asrdan"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "XVII asrda quyidagi qaysi davlat Rossiya poytaxtini bosib olgan?",
+"opts": [
+"Shvetsiya",
+"Polsha",
+"Daniya",
+"Litva"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Eronni Xorazmga bo'ysundirgan anushteginiy hukmdorni toping.",
+"opts": [
+"Takash",
+"Otsiz",
+"Elarslon",
+"Alovuddin Muhammad"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "XIX asr ikkinchi yarmida Buxoro amirligida xirmonlarni xatga olgani uchun amaldorga qo'shimcha undiriladigan soliq qaysi?",
+"opts": [
+"kafsan",
+"zakot",
+"tanobona",
+"dorug'ayi muzd"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Qaysi Osiyo davlatida XX asr boshlarida poraxo'rlik va tamagirlikka qarshi kurash to'g'risida qonun e'lon qilingan?",
+"opts": [
+"Hindiston",
+"Xitoy",
+"Turkiya",
+"Eron"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "BXSR (Buxoro Sovet Sotsialistik Respublikasi) deb e’lon qilingan qurultoy nechanchi yilda bo'lib o‘tgan?",
+"opts": [
+"1930-yilda",
+"1918-yilda",
+"1924-yilda",
+"1925-yilda"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Voje daryosi bo'yidagi jangda g'alaba qozongan Rus knyazini toping.",
+"opts": [
+"Dmitriy Ivanovich",
+"Ivan Kalita",
+"Aleksandr Yaroslavich",
+"Vladimir Monomax"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "U. Gladston bosh vazirligi davrida tashkil topgan imperiya (davlat) larni toping.",
+"opts": [
+"Germaniya imperiyasi, Rossiya imperiyasi",
+"Turkiya imperiyasi, Buyuk Britaniya imperiyasi",
+"Avstriya-Vengriya imperiyasi, Germaniya imperiyasi",
+"Italiya qirolligi, Bolgariya davlati"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Rossiyadan kelgan dehqonlarning birinchi manzilgohi paydo bo'lgan shaharni Chor Rossiyasi nechanchi yilda bosib olgan?",
+"opts": [
+"1853-yil",
+"1864-yil",
+"1865-yil",
+"1866-yil"
+],
+"ans": "B"
+}
+]
+}

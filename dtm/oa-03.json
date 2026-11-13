@@ -1,0 +1,335 @@
+{
+"id": "oa-03",
+"items": [
+{
+"n": 1,
+"q": "Qadimgi Misr hunarmandchiligida mehnat qurollari nimadan tayyorlangan?",
+"opts": [
+"temir",
+"bronza",
+"mis",
+"tosh"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Qadimgi fors lashkari mil.avv. 539-yilda Bobilga bostirib kiradi va shaharni zabt etadi. Bu vaqtda Fors hukmdori kim edi?",
+"opts": [
+"Kir II",
+"Doro I",
+"Kambiz II",
+"Kserks"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Arablar tomonidan VII asrda ikki marotaba talangan hududni Qutayba nechanchi yilda fath etadi?",
+"opts": [
+"705-yilda",
+"707-yilda",
+"709-yilda",
+"711-yilda"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Yaqin va O'rta Sharq mamlakatlari tarixining islom tarqalishidan to 1231-yilgacha bo'lgan davr haqida ma'lumot beruvchi qimmatli asar qaysi?",
+"opts": [
+"\"Ravzat us-safo\"",
+"\"Al-Komil fit-tarix\"",
+"\"Tarixi arba ulus\"",
+"\"Tarixi jahonkushoy\""
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "O'rta asrlarda jundan mato ishlab chiqarishga ixtisoslashgan hududga harbiy harakatlar olib borgan fransuz hukmdorni toping?",
+"opts": [
+"Filipp II",
+"Lyudovik IX",
+"Filipp IV",
+"Lyudovik XI"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagi davlatlardan qaysi biri VIII asrda vujudga kelib, XI asrda parchalanib ketadi?",
+"opts": [
+"Gana",
+"Mali",
+"Qarluqlar",
+"Aksum"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Afinada mansabdor shaxslar qaysi organga hisobot berishgan?",
+"opts": [
+"Oqsoqollar kengashi",
+"Xalq majlisi",
+"Beshyuzlar kengashi",
+"Xalq sudi"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "XIII asr boshida Xorazmshohlar davlatining janubi sharqiy hududlari qaysi hududdan o'tar edi?",
+"opts": [
+"G'azna viloyati",
+"Janubiy Bulijiston",
+"Iroq",
+"Yettisuv"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Xurosonda Safforiylar hukmronligi boshlangan yilda qaysi qomusiy olim dunyoga kelgan?",
+"opts": [
+"Moturidiy",
+"Farobiy",
+"Beruniy",
+"at-Termiziy"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Arab Xalifaligiga qarshi ko'tarilgan qaysi qo'zg'olon 20 yildan ziyod davom etgan?",
+"opts": [
+"\"Oq kiyimlilar\" qo'zg'oloni",
+"\"Qora kiyimlilar\" qo'zg'oloni",
+"\"Qizil ko'ylaklilar\" qo'zg'oloni",
+"Rofe ibn Lays qo'zg'oloni"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "O'rta asrlarda yurtimizdagi qaysi davlat tuzumi va boshqaruv tizimlari azaldan rivojlanib kelayotgan turkiy davlatchilik asosida qurilgan bo'lsa-da, o'ziga xos mahkamachilik xususiyatiga ega bo'lgan?",
+"opts": [
+"Somoniylar davlati",
+"G'aznaviylar davlati",
+"Qoraxoniylar davlati",
+"O'g'uzlar davlati"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Nechanchi asrgacha kitoblar monastirlar kutubxonalarida saqlangan?",
+"opts": [
+"IX asrgacha",
+"XI asrgacha",
+"X asrgacha",
+"XII asrgacha"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi tarixiy shaxslardan qaysi biri vafot etganidan keyin u joriy etgan ko'pgina qonunlar bekor qilingan?",
+"opts": [
+"Drakont",
+"Xammurapi",
+"Perikl",
+"Sin Shixuandi"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "\"Buyuk Temur tarixi\" asar yozgan tarixiy shaxslarni belgilang.",
+"opts": [
+"Klavixo va Perondino",
+"P. Meksika va X. Morlo",
+"Sh. Ali Yazdiy va Klavixo",
+"Klavixo va P. Meksika"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Xitoydagi qaysi davlat oliy hukmdorlari  \"Osmon o’g’illari\" deb ulug'langan?",
+"opts": [
+"Chjou",
+"Shan",
+"Sya",
+"Xan"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi tarixiy hujjatda erkin kishilarga qirol amaldorlari o'zboshimchaliklari va qo'shimcha jarimalardan himoya va'da qilingan?",
+"opts": [
+"\"Mayl End\" dasturida",
+"\"Ziroatchilik qonunlari\"da",
+"\"Sali haqiqati\"da",
+"\"Buyuk ozodlik xartiyasi\"da"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi mamlakat turli mamlakatlarni bog'lab turgan karvon yo'llari chorraxasida joylashgan?",
+"opts": [
+"Mesopotamiya",
+"Hindiston",
+"Eron",
+"Ossuriya"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Qaysi shahar himoyachilari mo'g'ullarga qarshi kurashda qariyb bir oy davomida o'z shahrini himoya qiladilar?",
+"opts": [
+"O'tror",
+"Buxoro",
+"Samarqand",
+"Xo'jand"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Markaziy Osiyoda budda va moniy dinlari tarqalishi va rivojida muhim ahamiyat kasb etgan hokimlikni belgilang.",
+"opts": [
+"Sug'd",
+"Toxariston",
+"Farg'ona",
+"Xorazm"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Vizantiyaga ikki marotaba yurish qilgan Kiyev Rusi knyazini aniqlang?",
+"opts": [
+"Igor",
+"Oleg",
+"Svyatoslav",
+"Ryurik"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Yevropada qaysi asrda feodallar va qaram dehqonlar toifalari yuzaga keldi?",
+"opts": [
+"V asrda",
+"IV asrda",
+"VI asrda",
+"II asrda"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Mantiqan o'ylab aytingchi, Filipp IV nechanchi yildan boshlab tampliyerlarning mol-mulkini musodara qila boshlagan?",
+"opts": [
+"1302-yildan",
+"1307-yildan",
+"1309-yildan",
+"1314-yildan"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Yurtimizdagi mahalliy hokimliklardan qaysi biri chorvachilikda o'zining hisori qo'ylari va otlari bilan juda mashhur edi?",
+"opts": [
+"Sug'd",
+"Toxariston",
+"Farg'ona",
+"Ustrushona"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Quyidagi asarlardan qaysi biri Yevropada ancha vaqtgacha Sharq tarixi bo'yicha muhim manba bo'lib xizmat qilgan?",
+"opts": [
+"\"Habib us-siyar\"",
+"\"Ravzat us-safo\"",
+"\"Tarixi arba' ulus\"",
+"\"Zafarnoma\""
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Xitoyda ko'tarilgan quyidagi qaysi qo'zg'olonda poytaxt egallab olingan?",
+"opts": [
+"\"Sariq ro'mollilar\" qo'zg'oloni",
+"\"Qizil qoshlilar\" qo'zg'oloni",
+"Lyu Ban qo'zg'oloni",
+"\"Oq kiyimlilar\" qo'zg'oloni"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Qaysi ahamoniy hukmdor davrida Hindistonning shimolidan O'rtayer dengiziga qadar cho'zilgan ulkan davlat bunyod etilgan?",
+"opts": [
+"Kir II",
+"Kambiz II",
+"Doro I",
+"Kserks"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Qadimgi Xorazmda, ayniqsa, qaysi soha yuksak darajada rivoj topgan?",
+"opts": [
+"sug'orma dehqonchilik",
+"savdo-sotiq",
+"hunarmandchilik",
+"qurilish"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "1153-yilda Saljuqiylar hukmdori Sulton Sanjarga qarshi qaysi qabila isyon ko'targan?",
+"opts": [
+"qipchoqlar",
+"o'g'uzlar",
+"yag'molar",
+"qarluqlar"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Somoniylar davlatida aholidan ikki marotaba soliq undirib olingan davrda hukmdor kim edi?",
+"opts": [
+"Ismoil",
+"Nasr II",
+"Nuh",
+"Nuh II"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Hindiston yarimorolini birlashtirgan Dehli sultonini aniqlang.",
+"opts": [
+"Shamsiddin Eltutmish",
+"Alouddin Xiljiy",
+"Muhammad Tug'luq",
+"Feruzshoh Tug'luq"
+],
+"ans": "C"
+}
+]
+}

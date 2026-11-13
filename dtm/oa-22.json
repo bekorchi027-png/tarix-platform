@@ -1,0 +1,337 @@
+{
+"id": "oa-22",
+"items": [
+{
+"n": 1,
+"q": "Navoiy, Fuzuliy, Bedil g'azallariga muxammaslar yozgan shaxs qachon vafot etgan?",
+"opts": [
+"1844-yil",
+"1822-yil",
+"1845-yil",
+"1842-yil"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Chor Rossiyasida krepostnoy huquqni bekor qilish to'g'risidagi qonun imzolangan  (a) va Qo'qon xonligining tugatilishi to'g'risidagi farmon e'lon qilingan (b) yillarda Rossiya imperatorlari kim(lar) edi?",
+"opts": [
+"a - 1, b - 2",
+"a - 2, b - 3",
+"a - 5, b – 4",
+"a - 3, b - 3"
+],
+"ans": "D",
+"extra": "1) Aleksandr I,    2) Nikolay I,\n3) Aleksandr II,     4) Nikolay II,\n5) Aleksandr III."
+},
+{
+"n": 3,
+"q": "O'rta Osiyo olimlar jamiyati  (a) va Arxeologiya havaskorlari to'garagi (b) tashkil etilgan yillarni belgilang.",
+"opts": [
+"a - 1870-yil, b - 1876-yil",
+"a - 1871-yil, b - 1895-yil",
+"a - 1871-yil, b - 1893-yil",
+"a - 1873-yil, b - 1896-yil"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "1900-yilda Xitoyga intervensiya uyushtirgan  (a) va 1888-yilda Suvaysh kanalidan foydalanish bo'yicha konvensiya imzolagan  (b) davlatlar sonini toping.",
+"opts": [
+"a - 8 ta, b - 7 ta",
+"a - 8 ta, b - 8 ta",
+"a - 7 ta, b - 7 ta",
+"a - 7 ta, b - 9 ta"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Yangi davrda Fransiyadan Buyuk Britaniyaga qochib ketgan hukmdorni belgilang.",
+"opts": [
+"Karl X",
+"Lui Filipp",
+"Lyudovik XVIII",
+"Karl II"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Arabiston yarimoroli aholisi Islomni to'liq qabul qilgan paytda xalifa kim (a) edi-yu, Eron to'liq bosib olingan paytda xalifa kim (b) edi ?",
+"opts": [
+"a - Muoviya I, b - Usmon",
+"a - Umar, b - Usmon",
+"a - Usmon, b - Ali",
+"a - Abu Bakr, b - Usmon"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Kulolchilik charxidan (a) va kulolchilik xumdonlaridan (b) foydalanish boshlangan davrlarni toping.",
+"opts": [
+"a - Eneolit, b - Neolit",
+"a - Neolit, b - Eneolit",
+"a - Bronza, b - Eneolit",
+"a - Eneolit, b - Bronza"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "G‘arbiy turk xoqonligi bilan Xitoy o‘rtasida iqtisodiy aloqalar faollashgan  (a) va G‘arbiy turk xoqonligi nihoyatda kuchaygan (b) davrlarni toping.",
+"opts": [
+"a - VII asrning birinchi choragi, b - VII asrning birinchi yarmi",
+"a - VII asrning birinchi yarmi, b - VII asrning birinchi choragi",
+"a - VII asrning birinchi choragi, VII asrning ikkinchi yarmi",
+"a - VII asrning birinchi yarmi, VII asrning ikkinchi choragi"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Bobur Mirzoning birinchi va oxirgi marta Samarqand taxtini egallagan yillarini toping.",
+"opts": [
+"1496-, 1510-yillar",
+"1497-, 1511-yillar",
+"1497-, 1500-yillar",
+"1500-, 1512-yillar"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "XIX asrda Samoa orollarini egallagan davlatlarni toping.",
+"opts": [
+"Buyuk Britaniya, Germaniya",
+"Germaniya, Fransiya",
+"Fransiya, Buyuk Britaniya",
+"AQSh, Germaniya"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Buxoro amirligi hududida rus qishloqlari paydo bo'lgan  (a) va Buxoro amirligi hududi orqali dastlabki temiryo'l o'tkazilgan (b) yillarni belgilang.",
+"opts": [
+"a - 1875-yil, b - 1888-yil",
+"a - 1881-yil, b - 1888-yil",
+"a - 1888-yil, b - 1887-yil",
+"a - 1887-yil, b - 1893-yil"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Hindistonning bir qismini o'z davlatiga qo'shib olgan Kushon  (a) va Yunon-Baqtriya (b) hukmdorlarini aniqlang.",
+"opts": [
+"a - Kudzula Kadfiz, b - Diodot",
+"a - Vima Kadfiz, b - Demetriy",
+"a - Kanishka, b - Diodot",
+"a - Kanishka, b - Demetriy"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagilarning sayohat qilgan yillar davomiyligini xronologik ketma-ketlikda joylashtiring. (kichigidan kattasiga qarab)",
+"opts": [
+"1, 3, 2",
+"2, 1, 3",
+"3, 2, 1",
+"2, 3, 1"
+],
+"ans": "B",
+"extra": "1) Boborahim Mashrab;\n2) Mahmud Koshg'ariy;\n3) Marko Polo."
+},
+{
+"n": 14,
+"q": "Qaysi asrlarda Germaniya 1-marta va 2-marta imperiya deb  e'lon qilingan?",
+"opts": [
+"VIII asrda va XIX asrda",
+"X asrda va XIX asrda",
+"IX asrda va XIX asrda",
+"IX asrda va XVIII asrda"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "\"Muqaddas Liga\" (a) va \"Muqaddas Ittifoq (b) tuzilgan asrlarni toping.",
+"opts": [
+"a - XVI asr , b - XVII asr",
+"a - XVII asr, b - XVIII asr",
+"a - XIX asr, b - XVII asr",
+"a - XVII asr, b - XIX asr"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "1911-yilda O'rta Osiyo yangi usul maktablari nechta (a) edi-yu, rus tuzem maktablari nechta (b) edi?",
+"opts": [
+"a - 63 ta, b - 50 ta",
+"a - 24 ta, b - 63 ta",
+"a - 50 ta, b - 81 ta",
+"a - 63 ta, b - 89 ta"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Sheroz yaqinidagi Zarafshon daryosi bo'yidagi jangda mag'lub bo'lgan  (a) va Sheroz qishlog'i yaqinidagi Bulung'ur anhori bo'yidagi jangda mag'lub bo'lgan  (b) tarixiy shaxslarni toping.",
+"opts": [
+"a - Amir Xudoydot, b - Abu Said (temuriy)",
+"a - Xalil Sulton, b - Mirzo Abdullo",
+"a - Abu Said (temuriy) b - Xalil Sulton",
+"a - Mirzo Abdullo, b - Amir Xudoydot"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "1841-yilda taxtdan voz kechgan Qo‘qon xonini toping.",
+"opts": [
+"Sheralixon",
+"Muhammad Alixon",
+"Umarxon",
+"Sulton Mahmudxon"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Quyidagi asarlardan qaysi birini ingliz dramaturgi Bernard Shou yozmagan?",
+"opts": [
+"\"Qurol va inson\"",
+"\"Mayor Barbara\"",
+"\"Jerminal\"",
+"\" Shayton shogirdi\""
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Qaysi ashtarxoniy hukmdor davrida pulning qadri 4 baravar kamaygan?",
+"opts": [
+"Abulfayzxon",
+"Ubaydullaxon II",
+"Subhonqulixon",
+"Abdulazizxon"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "\"Faqihlar madrasasi\" (a) va \"Farjak madrasasi\" (b) qurilgan asrlarni toping.",
+"opts": [
+"a - X asr, b - XII asr",
+"a - IX asr, b - XII asr",
+"a - XII asr, b - IX asr",
+"a - XII asr, b - X asr"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Turkiston muzeyi  (a) va Turkiston xalq kutubxonasi (b) tashkil etilgan yillarni belgilang.",
+"opts": [
+"a - 1871-yil, b - 1896-yil",
+"a - 1876-yil, b - 1870-yil",
+"a - 1870-yil, b - 1876-yil",
+"a - 1875-yil, b - 1895-yil"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Meksika mustaqillikka erishgan (a) va Braziliya  (b) Respublika deb e'lon qilingan yillarni belgilang.",
+"opts": [
+"a - 1821-yil, b - 1822-yil",
+"a - 1821-yil, b - 1889-yil",
+"a - 1824-yil, b - 1891-yil",
+"a - 1822-yil, b - 1824-yil"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "AQSh \"Monro doktrinasi\"ga tayanib qaysi hududni egallagan?",
+"opts": [
+"Puerto-Riko",
+"Samoa",
+"Guam",
+"Kuba"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "1855-yilda Buyuk Britaniya quyidagi qaysi davlat bilan do’stlik shartnomasini imzolagan?",
+"opts": [
+"Xitoy",
+"Afg'oniston",
+"Turkiya",
+"Eron"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "1747-1826-yillarda Afg'onistonni qaysi sulola boshqargan?",
+"opts": [
+"barakzaylar sulolasi",
+"afshor sulolasi",
+"durroniylar sulolasi",
+"gilzoiy sulolasi"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Dinnosirbiy qo'zg'olonini bostirgan (a) va Ernazarbiy qo'zg'olonini bostirgan (b) sarkardalarni belgilang.",
+"opts": [
+"a - Niyozbek parvonachi, b - Muhammadniyoz yasavulboshi",
+"a - Muhammad Nazarbiy inoq, b - Otamurodxon",
+"a - Muhammad Yaqub mushrif, b - Haqquli mingboshi",
+"a - Muhammad Nazarbiy inoq, b - Muhammadniyoz yasavulboshi"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Ilk o'rta asrlarda yurtimiz hududida  shahar va qishloq bozorlarida savdogarlardan olinadigan maxsus to‘lov qanday nomlangan?",
+"opts": [
+"yasoq",
+"boj",
+"kafsan",
+"tagjoy"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Vizantiya qaysi asrda Gibraltar bo'g'ozi ustidan nazorat o'rnatgan?",
+"opts": [
+"IV asrda",
+"V asrda",
+"VI asrda",
+"VII asrda"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "O'rta asr Yevropasida qaysi asrga qadar kitoblar monastirlar kutubxonalarida saqlangan?",
+"opts": [
+"XI asr",
+"XII asr",
+"XVI asr",
+"XV asr"
+],
+"ans": "B"
+}
+]
+}

@@ -1,0 +1,335 @@
+{
+"id": "oa-29",
+"items": [
+{
+"n": 1,
+"q": "Sobir Rahimov qaysi davlatda vafot etgan?",
+"opts": [
+"Belorussiyada",
+"Germaniyada",
+"SSSRda",
+"Polshada"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Qo'rboshilar rahbarlaridan biri Madaminbek qaysi yillarda yashab o'tgan?",
+"opts": [
+"1890-1922-yillarda",
+"1892-1922-yillarda",
+"1882-1920-yillarda",
+"1892-1920-yillarda"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "XX asrning ikkinchi yarmida \"Katta sakrash\" va \"madaniy inqilob\" nomli dasturlar qaysi davlatda joriy qilingan?",
+"opts": [
+"Yaponiya",
+"Xitoy",
+"SSSR",
+"Eron"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "O'zbekiston SSR tuzilgach, nechanchi yilda poytaxt Toshkent shahriga ko'chiriladi?",
+"opts": [
+"1925-yil",
+"1929-yil",
+"1932-yil",
+"1930-yil"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Qachon yevro pul birligi joriy qilingan?",
+"opts": [
+"1991-yil",
+"1999-yil",
+"2002-yil",
+"2006-yil"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "O'zbekistonda Ikkinchi Jahon urushi davrida mudofaa fondi uchun 50 ming so'm topshirgan san'at vakili kim edi?",
+"opts": [
+"Lutfixonim Sarimsoqova",
+"Sora Eshonto'rayeva",
+"Mukarrama Turg'unboyeva",
+"Tamaraxonim"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Nechanchi yilda Afg'onistonda shoh hokimiyati ag'darilgan?",
+"opts": [
+"1970-yil",
+"1973-yil",
+"1978-yil",
+"1979-yil"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qaysi sanada Islom Karimovning \"Ro'za hayitini dam olish kuni deb e'lon qilish to'g'risida\"gi farmoni e'lon qilingan?",
+"opts": [
+"1990-yil 30-aprelda",
+"1991-yil 25-avgustda",
+"1992-yil 27-martda",
+"1993-yil 24-oktabrda"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "1963-yilda Eron tarixida sodir bo'lgan inqilob tarixga qanday nom bilan kirgan?",
+"opts": [
+"\"Kuylayotgan inqilob\"",
+"\"Sharafli inqilob\"",
+"\"Oq inqilob\"",
+"\"Madaniy inqilob\""
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Nechanchi yilda Toshkentda Simpoziumlar saroyi va Alisher Navoiy nomidagi Milliy kutubxonani o'z ichiga olgan Ma'rifat markazi binosi bunyod etildi?",
+"opts": [
+"2005-yilda",
+"2007-yilda",
+"2009-yilda",
+"2011-yilda"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Yevropaning qaysi davlatida 1919-yil noyabrda bo'lib o'tgan parlament saylovi millatchilik va \"bolshevizm xavfi\" bilan qo'rqitish ruhi ostida o'tgan?",
+"opts": [
+"Buyuk Britaniya",
+"Italiya",
+"Germaniya",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "1920-yilda sovet qo'shinidan yengilib Oloy vodiysiga chekingan qo'rboshi kim edi?",
+"opts": [
+"Madaminbek",
+"Kichik Ergash",
+"Shermuhammadbek",
+"Xolxo'ja eshon"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Mussolini boshchiligidagi fashistlar partiyasi nechanchi yilda tashkil etilgan?",
+"opts": [
+"1919-yil",
+"1920-yil",
+"1921-yil",
+"1922-yil"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Nechanchi yilda BXSR nomi BSSRga o'zgaradi?",
+"opts": [
+"1921-yil",
+"1922-yil",
+"1923-yil",
+"1924-yil"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "XX asrning ikkinchi yarmida Parij shahridagi talabalar namoyishidan keyin Fransiyada kim iste'foga chiqqan?",
+"opts": [
+"Sharl de Goll",
+"Jorj Pompidu",
+"Fransua Mitteran",
+"Jak Shirak"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "1919-yil mart oyida Turkiston o'lka musulmonlar byurosi tuzilgach kim unga rais qilib saylangan?",
+"opts": [
+"Fayzulla Xo'jayev",
+"Sadriddin Ayniy",
+"Abdurauf Fitrat",
+"Turor Risqulov"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "XX asrning 60-yillari oxirida qaysi davlat sanoat ishlab chiqarish hajmi bo'yicha dunyo bo'yicha AQShdan keyin ikkinchi o'ringa chiqib oladi?",
+"opts": [
+"Germaniya",
+"Yaponiya",
+"SSSR",
+"Xitoy"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Qachon O'zbekiston Prezidenti tashabbusi bilan BMT Xavfsizlik Kengashining terrorizmga qarshi kurash bo'yicha maxsus qo'mitasi ta'sis etildi?",
+"opts": [
+"1999-yilda",
+"2000-yilda",
+"2001-yilda",
+"2002-yilda"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Chausheski hukumati qaysi davlatda bo'lgan?",
+"opts": [
+"Bolgariya",
+"Polsha",
+"Serbiya",
+"Ruminiya"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "O'zbekistonda istiqomat qilayotgan millat va elatlarning jamoat tashkilotlari - dastlabki milliy-madaniy markazlar(MMM) nechanchi yilda tuzila boshlangan?",
+"opts": [
+"1988-yil",
+"1989-yil",
+"1990-yil",
+"1992-yil"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "\"Al-Qoida\" tashkiloti tomonidan Nyu-Yorkda terrorchilik harakatlari sodir etilgan paytda AQSh prezidenti kim edi?",
+"opts": [
+"Katta Jorj Bush",
+"Bill Klinton",
+"Kichik Jorj Bush",
+"Barak Obama"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Gruziyadagi \"Atirgul inqilobi\"dan keyin hokimiyat tepasiga kim keladi?",
+"opts": [
+"Zviad Gamsaxurdiya",
+"Eduard Shevardnadze",
+"Mixail Saakashvili",
+"Georgiy Margvelashvili"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Nechanchi yilda O'zbekistonda Badiiy akademiya tashkil etilgan?",
+"opts": [
+"1993-yil",
+"1995-yil",
+"1997-yil",
+"1999-yil"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Turg'ut O'zalning bosh vazirlikka va prezidentlikka saylangan yillarini toping.",
+"opts": [
+"1980-yil va 1983-yil",
+"1983-yil va 1987-yil",
+"1985-yil va 1993-yil",
+"1983-yil va 1989-yil"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Nechanchi yilda Rossiya neft va gaz universitetining Toshkentdagi filiali ochilgan?",
+"opts": [
+"2002-yil",
+"2006-yil",
+"2007-yil",
+"2008-yil"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "SSSR qaysi davlatga bostirib kirgani uchun Millatlar Ligasidan chiqarib yuborilgan?",
+"opts": [
+"Polsha",
+"Finlandiya",
+"Chexoslavakiya",
+"Ruminiya"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Ikkinchi Jahon urushi davrida ko'chirib keltirilgan shoir, yozuvchilar bilan hamkorlikda o'zbek shoir, yozuvchilari qanday nomdagi antalogiya yaratishgan?",
+"opts": [
+"\"O'zbekiston shoirlari frontga\"",
+"\"Biz yengamiz\"",
+"\"Hamma narsa front uchun\"",
+"\"Bosqinchilarga o'lim\""
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Habib Burg'iba qaysi davlatdagi milliy-ozodlik harakatining rahbari bo'lgan?",
+"opts": [
+"Tunis",
+"Jazoir",
+"Marokash",
+"Liviya"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Toshkentda qachon aviatsiya zavodi barpo etilgan?",
+"opts": [
+"1931-yilda",
+"1941-yilda",
+"1951-yilda",
+"1961-yilda"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Italiya 1935-1936-yillarda qaysi davlat bilan urush olib borgan?",
+"opts": [
+"Somali",
+"Liviya",
+"Efiopiya",
+"Albaniya"
+],
+"ans": "C"
+}
+]
+}

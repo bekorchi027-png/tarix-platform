@@ -1,0 +1,336 @@
+{
+"id": "oa-04",
+"items": [
+{
+"n": 1,
+"q": "Ilk uyg'onish va gumanizmning Yevropadagi dastlabki vakili kim?",
+"opts": [
+"F. Petrarka",
+"J. Bokachcho",
+"R. Bekon",
+"K. Salyutati"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "O'zbeklar etnogenezida qaysi davlat davrida O'rta Osiyoning markaziy mintaqalari va Xorazmga kelib o'troqlashgan turkiy qabilalar faol ta'sir ko'rsatadi?",
+"opts": [
+"Eftaliylar davlati",
+"Turk xoqonligi",
+"Qoraxoniylar davlati",
+"Shayboniylar davlati"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Buyuk Ipak yo'li vujudga kelgan asrda quyidagi qaysi davlat barham topgan?",
+"opts": [
+"Qang' davlati",
+"Yunon-Baqtriya davlati",
+"Salavkiylar davlati",
+"Ahamoniylar davlati"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagi olimlardan qaysi biri Abdulla Sabroniy tomonidan qurilgan madrasada mudarris bo'lgan?",
+"opts": [
+"Muhammad Amin Buxoriy",
+"Muhammad ibn Zamon Buxoriy",
+"Muhammad Ya'qub ibn Doniyolbiy",
+"Muhammad Sharif Buxoriy"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Quyidagi hukmdorlardan qaysi biri barcha yirik yer egalarini qirolga sodiqlikka qasamyod qildiradi?",
+"opts": [
+"Aleksey I",
+"Xlodvig",
+"Fridrix I Barbarossa",
+"Vilgelm I"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Qaysi hukmdor \"xorazmshoh\" unvonini tiklab, bunday nom bilan ulug'lansa-da, Saljuqiylar davlatining sadoqatli noibiligicha qolgan?",
+"opts": [
+"Anushtegin",
+"Qutbiddin Muhammad",
+"Otsiz",
+"Elarslon"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Quyidagi qaysi hukmdor pul islohotini o'tkazmagan?",
+"opts": [
+"Muhammad Shayboniyxon",
+"Abulfayzxon",
+"Ubaydullaxon II",
+"Abdullaxon II"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Yunon-fors urushlaridagi eng yirik jangni belgilang.",
+"opts": [
+"Marafon jangi",
+"Salamin jangi",
+"Plateya jangi",
+"Fermopil jangi"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Ilk o'rta asrlarda O'rta Osiyo shaharlarida shahristonlar maydoni dastlab necha gektardan oshmagan?",
+"opts": [
+"10 gektardan",
+"15 gektardan",
+"20 gektardan",
+"25 gektardan"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Movarounnahrda mo'g'ullar istilosidan keyin shaharlarning ichki hayoti, ayniqsa, tovar-pul munosabatlarining tiklanishida qaysi hukmdorning pul islohoti muhim ahamiyatga ega bo'lgan?",
+"opts": [
+"Chig'atoy",
+"Munke",
+"Kebek",
+"Ma'sudbek"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Doro I nechanchi yilda saltanatni satrapliklarga bo'lgan?",
+"opts": [
+"mil.avv. 522-yilda",
+"mil.avv. 521-yilda",
+"mil.avv. 519-yilda",
+"mil.avv. 509-yilda"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Yaponiyadagi o'rta asr shaharlaridan qaysi biri qal'a yaqinida qurilgan?",
+"opts": [
+"Xyogo",
+"Xeyyan",
+"Nagoya",
+"Otsu"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Arablar qaysi hududdan yuz ming dirham hajmida tovon undirib olishgan?",
+"opts": [
+"Buxorodan",
+"Poykanddan",
+"Sug'ddan",
+"Xorazmdan"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Nurota tumanidagi Oqchob yaqinida Abdullaxon bandi qaysi asrda qurilgan?",
+"opts": [
+"X asrda",
+"XII asrda",
+"XIV asrda",
+"XVI asrda"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Kushon podsholigi Kanishka hukmronligi davrida qaysi hududlar bilan savdo va elchilik munosabatlari yo'lga qo'yildi?",
+"opts": [
+"Rim, Parfiya, Xitoy",
+"Parfiya, Finikiya, Hindiston",
+"Xitoy, Rim, Hindiston",
+"Parfiya, Karfagen, Rim"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Nechanchi yildan keyin Vizantiya dunyoning qudratli mamlakatidan unchalik katta bo'lmagan yunon davlatiga aylangan?",
+"opts": [
+"1204-yildan",
+"1402-yildan",
+"1261-yildan",
+"1095-yildan"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Movarounnahr hukmdori Sulton Ahmad ukasi Umarshayx Mirzoga quyidagi qaysi ikki hududni bergan?",
+"opts": [
+"Kobul va Sayram",
+"Toshkent va Sayram",
+"Kobul va Farg'ona",
+"Xo'jand va O'ratepa"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "\"Animizm\" atamasi qaysi tildan olingan?",
+"opts": [
+"Yunon",
+"Lotin",
+"Sanskrit",
+"Shumer"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Quyidagi hukmdorlardan qaysi biri \"To'rt iqlim mamlakatlari podshosi\" unvoniga sazovor bo'lgan?",
+"opts": [
+"Xammurapi",
+"Tutmos III",
+"Doro I",
+"Sargon I"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Surxondaryo viloyatidagi Jarqo'rg'on minorasi qaysi sulola davrida bunyod etilgan?",
+"opts": [
+"Somoniylar",
+"Temuriylar",
+"Qoraxoniylar",
+"Ma'muniylar"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "VI asr oxirlarida Buxoroda qo'zg'olon ko'targan Abruy qaysi tabaqaga mansub bo'lgan?",
+"opts": [
+"savdogar",
+"hunarmand",
+"xoqon xonadoni",
+"mahalliy dehqon"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi manbada yurtimizning qadimgi tarixiy viloyatlari - Baqtriya, So'g'd, Xorazm aholisi madaniyati to'g'risida hikoya qiladi?",
+"opts": [
+"\"Avesto\"",
+"Behistun bitiklari",
+"\"Tarix\" asari",
+"\"Geogafiya\" asari"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi davlatda ilk o'rta asrlarda rassomchilikning devoriy rasm chizish sohasi ayniqsa rivoj topgan?",
+"opts": [
+"Hindiston",
+"Vizantiya",
+"Xitoy",
+"Kiyev Rusi"
+],
+"ans": "C",
+"img": "img/dtm/oa-04-23.jpg"
+},
+{
+"n": 24,
+"q": "Quyidagi qaysi davlat hunarmandlari yasagan zebziynatlar va qurol-yarog'lar xilma-xilligi va nihoyatda puxtaligi bilan ajralib turgan?",
+"opts": [
+"Xioniylar davlati",
+"Eftaliylar davlati",
+"G'arbiy turk xoqonligi",
+"Xorazmshohlar davlati (afrig'iylar sulolasi)"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "O'rta asr Yevropa hukmdorlaridan qaysi biri \"yerdagi jonli qonun\" deya e'tirof etilgan?",
+"opts": [
+"Xlodvig",
+"Fridrix I",
+"Otton III",
+"Fridrix II"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Abdullaxon II Abulxayrxonning qaysi o'g'lining avlodi hisoblanadi?",
+"opts": [
+"Shohbudog' Sulton",
+"Ko'chkinchixon",
+"Suyunchixon",
+"Xo'ja Mahmud Sulton"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Qaysi hukmdor davrida Kiyev Rusida maorif yuksalgan?",
+"opts": [
+"Oleg",
+"Igor",
+"Vladimir",
+"Yaroslav"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Chig'atoy qaysi islohotida Mahmud Yalavochni noiblikdan chetlatadi?",
+"opts": [
+"Soliq islohotida",
+"Ma'muriy islohotida",
+"Pul islohotida",
+"Harbiy islohotida"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Quyidagi qaysi atama  \"yuqori shahar\" ma'nosini anglatadi?",
+"opts": [
+"Polis",
+"Lakonika",
+"Akropol",
+"Nom"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Najmiddin Kubroning 850 yilligi nechanchi yilda nishonlangan?",
+"opts": [
+"1991-yilda",
+"1998-yilda",
+"1995-yilda",
+"2000-yilda"
+],
+"ans": "C"
+}
+]
+}

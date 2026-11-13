@@ -1,0 +1,335 @@
+{
+"id": "oa-14",
+"items": [
+{
+"n": 1,
+"q": "Nechanchi yildan boshlab Buyuk Britaniyada sanoat burjuaziyasi siyosiy jihatdan o'z hukmronligini mustahkamlagan?",
+"opts": [
+"1911-yil",
+"1876-yil",
+"1867-yil",
+"1832-yil"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "O'zini shoir emas, adab muallimi deb atagan shaxs nechanchi asrda yashab ijod etgan?",
+"opts": [
+"IX asrda",
+"XI asrda",
+"XII asrda",
+"XIII asrda"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Xitoy tarixiga oid qaysi tarixiy hodisa avvalroq sodir bo'lgan?",
+"opts": [
+"suvni nisbatan baland joylarga chiqaruvchi moslamalardan keng foydalanish boshlanishi",
+"Xanlin akademiyasi tashkil etilishi",
+"kitob bosish dastgohi yaratilishi",
+"panno to'qish ixtiro qilinishi"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagi qaysi shahar Koreya poytaxti bo'lmagan?",
+"opts": [
+"Kegyon",
+"Sonak",
+"Xeyyan",
+"Xanson"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Faylasuf olim, akademik Ibrohim Mo'minovning \"Amir Temurning O'rta Osiyo tarixida tutgan o'rni va roli\" risolasi chiqqanidan necha yil keyin \"Xorazmning qadimgi davrdan hozirgi kungacha bo'lgan tarixi \" asari nashr etilgan?",
+"opts": [
+"4 yil keyin",
+"6 yil keyin",
+"8 yil keyin",
+"10 yil keyin"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Jaloliddin Manguberdi nechanchi yilda Gurjistonni to'liq egallagan?",
+"opts": [
+"1224-yil",
+"1225-yil",
+"1226-yil",
+"1227-yil"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "\"Davolash bo'yicha dastur\" asarining muallifi kim?",
+"opts": [
+"Muhammad Mazid",
+"Shohali ibn Sulaymon",
+"Sultonali Samarqandiy",
+"Ubaydulloh Kahhol"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Buxoro amirligida kim amirlikdagi barcha savdo ishlarining bajaruvchisi hisoblangan?",
+"opts": [
+"devonbegi",
+"mushrif",
+"inoq",
+"karvonboshi"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Buyuk fransuz inqilobi davrini eslang. Qaysi yili Fransiyada yirik burjuaziyaning hokimiyati o‘rnatildi va inqilobning birinchi bosqichi yakunlandi?",
+"opts": [
+"1789-yil",
+"1791-yil",
+"1793-yil",
+"1795-yil"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Quyidagi qaysi ijtimoiy ta'limotni «Duo o‘qi va ishla!» degan shiori boylik orttirishni asosiy maqsad qilgan yangi zodagonlar va burjuaziyaga ma’qul kelgan?",
+"opts": [
+"konservatizm",
+"sotsializm",
+"kalvinizm",
+"marksizm"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qaysi davrga kelib Buyuk Britaniyada demokratik jamiyat asoslari qaror topgan?",
+"opts": [
+"XVIII asrning II yarmida",
+"XVIII asrning o'rtalarida",
+"XIX asr o'rtalarida",
+"XX asr boshlarida"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "XIV - XV asrlarda qaysi davlat qishloqlarida ocharchiliklar tez-tez takrorlanib turgan?",
+"opts": [
+"Xitoy",
+"Hindiston",
+"Koreya",
+"Yaponiya"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Shvabiya Ittifoqiga birlashgan shaharlar qaysi daryo bo'yida joylashgan?",
+"opts": [
+"Dnepr",
+"Reyn",
+"Dunay",
+"Elba"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Xum sirtiga bitilgan yozuv qaysi yodgorlikdan topilgan?",
+"opts": [
+"Tuproqqal'adan",
+"Qo'yqirilganqal'adan",
+"Jonbosqal'adan",
+"Oybo'yirqal'adan"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Buxoro shahrini Ka'ba darajasida ulug'lagan shaxs asos solgan sulola hukmronligi  qaysi asrda tugagan?",
+"opts": [
+"XV asrda",
+"XVI asrda",
+"XVII asrda",
+"XVIII asrda"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Bir yil farq bilan vafot etgan tarixiy shaxslarni toping.",
+"opts": [
+"Muhammad Shayboniyxon, L.da.Vinchi",
+"Fyodor Ivanovich, Abdullaxon II",
+"Abulxayrxon, Abu Said ibn Sulton Muhammad",
+"Husayn Boyqaro, M. Buonarroti"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "XVI asrda Turkiyada viloyatlarni kim boshqargan?",
+"opts": [
+"beklarbegi",
+"voliy",
+"ulusbegi",
+"vali"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Yurtimiz hududi qaysi asrdan boshlab Turkiston deb atala boshlangan?",
+"opts": [
+"VII asrdan",
+"V asrdan",
+"IV asrdan",
+"VI asrdan"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Ilk o'rta asrlarda Sug'dda nasroniylik markazi bo'lgan tumanga XIX asrda kim qo‘shin bilan kelib shaharning taslim bo’lishini taklif qilgan?",
+"opts": [
+"Ivanov",
+"Vrevskiy",
+"Abramov",
+"Skobelev"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "XIX asr oxirlarida qaysi mustamlakada 300 mingdan ortiq fransuz yashar edi?",
+"opts": [
+"Tunis",
+"Marokash",
+"Madagaskar",
+"Jazoir"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "XIX asrning ikkinchi yarmida Buxoro amirligida barcha amaldorlar kim tomonidan lavozimiga tayinlanar edi?",
+"opts": [
+"amir",
+"qo'shbegi",
+"devonbegi",
+"qozikalon"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Quyidagilardan qaysi biri Ko'chkunchixonning o'g'li emas?",
+"opts": [
+"Abdulatifxon",
+"Abu Said",
+"Abdullaxon I",
+"Abdulaziz"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Qachondan boshlab Rossiyada shaharlar ham rivojlandi, ular mamlakatning savdo-sanoat markazlariga aylanib bordi?",
+"opts": [
+"XVIII asrdan",
+"XV asrdan",
+"XVII asrdan",
+"XVI asrdan"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Prussiya qirolligi XVIII asrning oxirida qo'shin soni jihatdan nechanchi o'rinda bo'lgan?",
+"opts": [
+"ikkinchi",
+"uchinchi",
+"to'rtinchi",
+"birinchi"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi hukmdorlarning davlat boshqaruvi davri bir yilda boshlanmagan?",
+"opts": [
+"Abu Said ibn Sulton Muhammad / Bahlul Lo'diy",
+"Ivan Kalita / Muhammad Tug'luq",
+"Asfandiyorxon / Amir Olimxon",
+"Yakov I Stuart / Boqi Muhammad"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Robin Gud qaysi xalq og'zaki ijodi qahramoni hisoblanadi?",
+"opts": [
+"fransuz",
+"ingliz",
+"nemis",
+"italyan"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Quyidagi qaysi hukmdor Yunon-Baqtriya davlati hukmdori bo'lmagan?",
+"opts": [
+"Doidot",
+"Yevtidem",
+"Demetriy",
+"Kiaksar"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "1995-yilda Mahmud Zamaxshariyning necha yillik yubileyi nishonlangan?",
+"opts": [
+"900 yillik",
+"910 yillik",
+"920 yillik",
+"850 yillik"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Qaysi xattot xattotlik san'ati turlari haqida maxsus asar yozgan?",
+"opts": [
+"Sultonali Mashhadiy",
+"Mirali Tabriziy",
+"Abdullo Xotifiy",
+"Mahmud Muzahhib"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Bremen savdogarlari qachon Afrikaning janubig'arbiy sohilidagi Angra-Peken buxtasiga kelishgan?",
+"opts": [
+"1881-yili",
+"1882-yili",
+"1884-yili",
+"1885-yili"
+],
+"ans": "B"
+}
+]
+}

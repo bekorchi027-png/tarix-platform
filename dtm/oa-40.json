@@ -1,0 +1,336 @@
+{
+"id": "oa-40",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qomusiy olimlardan qaysi biri Yerning dumaloq shaklda ekanligini asoslab bergan?",
+"opts": [
+"Farg'oniy",
+"Xorazmiy",
+"Farobiy",
+"Beruniy"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Chig'atoy Mahmud Yalavochni qaysi islohotida noiblikdan chetlatgan?",
+"opts": [
+"moliya islohotida",
+"harbiy islohotida",
+"ma'muriy islohotida",
+"soliq islohotida"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Jaloliddin Manguberdi va unga qarshi muxolif kuchlar o'rtasida Arzinjon jangi qachon bo'lgan?",
+"opts": [
+"1225-yil may",
+"1227-yil sentabr",
+"1230-yil avgust",
+"1231-yil iyun"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Kaspiy dengizi sohillaridan to Sirdaryoning o'rta oqimiga qadar bo'lgan yerlarda Xorazmshohlar davlatining poydevorini qurgan hukmdor kim edi?",
+"opts": [
+"Otsiz",
+"Takash",
+"Elarslon",
+"Qutbiddin Muhammad"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Somoniylar davlatida kimning davrida og'ir ahvoldan chiqish uchun aholidan bir yilda ikki marta soliq yig'ib olingan?",
+"opts": [
+"Nuh",
+"Nasr",
+"Nuh II",
+"Nasr II"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Chek atamasi qaysi tildan olingan?",
+"opts": [
+"sug'd",
+"arab",
+"fors",
+"turk"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Xurosonning qaysi noibi davrida barcha musulmonlar huquq jihatdan tenglashtirilib, yer egasining e'tiqodidan qat'i nazar ularning xiroj to'lashi shart qilib qo'yiladi?",
+"opts": [
+"Nasr ibn Sayyor",
+"Ashros",
+"Ma'mun",
+"Said Xaroshiy"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Quyidagi qaysi mahalliy hokimlik Hindiston, Yaqin va Uzoq Sharq mamlakatlari bilan savdo-madaniy aloqalar o'rnatgan?",
+"opts": [
+"Sug'd",
+"Eloq",
+"Toxariston",
+"Farg'ona"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Ilk o'rta asrlarda Chochda hukmdor qanday nom bilan atalgan?",
+"opts": [
+"tudun",
+"budun",
+"dehqon",
+"yabg'u"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Ichki va tashqi savdo munosabatlarida eftallar dastavval kimlarning kumush tangalaridan foydalanishgan?",
+"opts": [
+"xioniylarning",
+"afrig'iylarning",
+"sosoniylarning",
+"vizantiyaliklarning"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Somoniylar davlatiga barham bergan sulolani toping.",
+"opts": [
+"Qoraxoniylar",
+"Qoraxitoylar",
+"G'aznaviylar",
+"Ma'muniylar"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Jaloliddin Manguberdi nechanchi yilda Gurjistonni to'liq egallagan?",
+"opts": [
+"1224-yilda",
+"1225-yilda",
+"1226-yilda",
+"1227-yilda"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Chig'atoy ulusida \"kalon\" solig'ining miqdori hosilning necha qismini  tashkil etgan?",
+"opts": [
+"1/40 % ini",
+"1/10 % ini",
+"1/30 % ini",
+"1/3 % ini"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Chig'atoy ulusi qachon ikkiga bo'linib ketgan?",
+"opts": [
+"XIV asrning 40-yillarida",
+"XIII asrning 40-yillarida",
+"XIV asrning 30-yillarida",
+"XIII asrning 30-yillarida"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Muqanna qo'zg'oloni tugagan yilda quyidagi qaysi voqea sodir bo'lgan?",
+"opts": [
+"Xorun ar-Rashid taxtga chiqqan",
+"Tarixchi Narshaxiy tavvallud topgan",
+"Al-Xorazmiy tug'ilgan",
+"Rofe ibn Lays boshchiligida qo'zg'olon ko'tarilgan"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Namozgoh masjidi qaysi shaharda joylashgan?",
+"opts": [
+"Termiz",
+"Urganch",
+"Samarqand",
+"Buxoro"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi voqea nisbatan keyinroq sodir bo'lgan?",
+"opts": [
+"Kamoliddin Behzod nomidagi Davlat mukofoti ta'sis etish to'g'risida Prezident farmoni e'lon qilindi",
+"Xalqaro Amir Temur jamg'armasi tuzildi",
+"Mahmud az-Zamaxshariy tavalludining 920 yilligi nishonlandi",
+"Ahmad al-Farg'oniy tavalludining 1200 yilligi nishonlandi"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Quyidagi qaysi tarixiy hodisa nisbatan avvalroq sodir bo'lgan?",
+"opts": [
+"Anqara jangining sodir bo'lishi",
+"Genrix III ning Amir Temur huzuriga ikkinchi marta maxsus elchilar yuborishi",
+"Amir Temurning vafot etishi",
+"Klavixoning Ispaniyaga qaytib borishi"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "\"Shashmaqom\" so'zi qaysi tildan olingan?",
+"opts": [
+"sug'd",
+"fors",
+"mo'g'ul",
+"turk"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Quyidagi qaysi alloma mintaqa geografiyasiga oid ma'lumotlar to'plagan?",
+"opts": [
+"Beruniy",
+"Xorazmiy",
+"Farg'oniy",
+"Zamaxshariy"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Qaysi sulola davridagi etnik jarayon o'zbek xalqining shakllanishida yakuniy bosqich bo'lgan?",
+"opts": [
+"Qoraxoniylar",
+"Somoniylar",
+"G'aznaviylar",
+"Safforiylar"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Chig'atoy ulusining qaysi hukmdori \"dinor\" va \"dirham\" nomli tangalar chiqargan?",
+"opts": [
+"Munkexon",
+"Kebekxon",
+"Chig'atoyxon",
+"Tug'luq Temur"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Jaloliddin Manguberdi nechanchi yilda Iroqqa qarab yo'l oladi?",
+"opts": [
+"1221-yilda",
+"1223-yilda",
+"1224-yilda",
+"1225-yilda"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Alovuddin Muhammad Xorazmshoh davlatining janubi-g'arbiy hududlariga qarab chekina boshlagan paytda, qaysi viloyat hokimlari undan yuz o'giradi?",
+"opts": [
+"Qunduz va Chag'aniyon",
+"Valiyon va Qunduz",
+"Qandahor va Badaxshon",
+"Qunduz va Badaxshon"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "G'oyirxon asirga olingach, qaysi shaharga olib borib, qiynab o'ldiriladi?",
+"opts": [
+"Buxoro",
+"Xo'jand",
+"Urganch",
+"Samarqand"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "XIII asr boshlarida Xorazmshohlar davlatining janubi-sharqiy chegarasi qayerdan o'tgan?",
+"opts": [
+"G'azna viloyatidan",
+"Yettisuv o'lkasidan",
+"Kaspiy dengizidan",
+"Iroq hududidan"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Iqto yer egaligi bilan bog'liq qaysi hukm to'g'ri?",
+"opts": [
+"Iqto tartiboti X asrdan boshlab juda keng yoyildi",
+"Iqto yerlari avvalda nasldan naslga o'tkazilgan",
+"Iqto yerlari XI - XII asrlarda yer egaligining asosiy shakllaridan biriga aylangan",
+"Iqtodorlar o'ziga in'om qilingan hududlarda yashagan aholidan soliqlarning barchasini yig'ib olish huquqiga ega bo'lgan"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "1501-yilda Bobur Mirzo Samarqandni tark etib, o'zga yurtlarga ketishga majbur bo'ladi. Ushbu vaziyat haqida qaysi asarda \"Xudoga tavakkal qilib, Badaxshonot va Kobulga yuzlandilar\", jumlasi qayd etilgan?",
+"opts": [
+"\"Akbarnoma\" asarida",
+"\"Shayboniynoma\" asarida",
+"\"Boburnoma\" asarida",
+"\"Humoyunnoma\" asarida"
+],
+"ans": "D",
+"img": "img/dtm/oa-40-28.jpg"
+},
+{
+"n": 29,
+"q": "Abulxayrxon nechanchi yilda O'zbek ulusi davlatini Oltin O'rdadan mustaqil deb e'lon qilgan?",
+"opts": [
+"1428-yilda",
+"1446-yilda",
+"1431-yilda",
+"1451-yilda"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Qaysi hukmdor xonlik tarixida birinchi bo'lib, Qo'qonning o'z pulini zarb ettirgan?",
+"opts": [
+"Erdonabiy",
+"Norbo'tabiy",
+"Olimxon",
+"Umarxon"
+],
+"ans": "B"
+}
+]
+}

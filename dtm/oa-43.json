@@ -1,0 +1,336 @@
+{
+"id": "oa-43",
+"items": [
+{
+"n": 1,
+"q": "Sa'diy Sheroziy nechanchi asrda yashagan?",
+"opts": [
+"XI asrda",
+"XII asrda",
+"XIII asrda",
+"XIV asrda"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Qo'qon xonligida naqib qanday nom bilan atalgan?",
+"opts": [
+"qozi kalon",
+"xo'ja kalon",
+"qozi askar",
+"muftiy askar"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Rivoyatlarda aytilgan Bobur Mirzoning farzandi Oltinbeshik qaysi urug' orasida tarbiyalanadi?",
+"opts": [
+"qirq",
+"qipchoq",
+"qirg'iz",
+"ming"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Ogahiyning \"Oshiqlar tumori\" asarlar to'plami necha misradan iborat?",
+"opts": [
+"13 ming misradan",
+"19 ming misradan",
+"25 ming misradan",
+"31 ming misradan"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Xiva xonligida XVIII asrda Eronga qaramlik davrida taxtga atayin chingiziylar avlodiga mansub xonlarni o'tqazib, ularni tez-tez almashtirib turish xonlik tarixiga qanday nom bilan kirgan?",
+"opts": [
+"\"xonlar o'yini\"",
+"\"taxtlar o'yini\"",
+"\"uzuklar o'yini\"",
+"\"qabilalar o'yini\""
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Muhammad Shayboniyxon nechanchi yilda bobosi bunyod etgan O'zbek ulusi davlatini qayta tiklagan?",
+"opts": [
+"1480-yilda",
+"1482-yilda",
+"1484-yilda",
+"1486-yilda"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "\"Sharafnomayi shohiy\" asarining muallifi kim?",
+"opts": [
+"Muhammad Solih",
+"Fazlulloh ibn Ro'zbexon",
+"Hofiz Tanish al-Buxoriy",
+"Sulton Muhammad Hofiz Toshkandiy"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Qaysi amir Buxoro aholisiga Tarxon yorlig'ini yozib bergan?",
+"opts": [
+"Amir Doniyolbiy otaliq",
+"Amir Shohmurod",
+"Amir Haydar",
+"Amir Nasrullo"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "O'zbekiston nechanchi yilda jahonning eng rivojlangan 50 ta davlati qatoridan joy olishni maqsad qilingan?",
+"opts": [
+"2030-yilda",
+"2040-yilda",
+"2035-yilda",
+"2045-yilda"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Islom diniy ta'limotini asoslab beruvchi ilm qanday nomlanadi?",
+"opts": [
+"tasfir",
+"farzi ayn",
+"fiqh",
+"kalom"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Qo'qon xonligidagi harbiy qal'alar ahamiyati va katta-kichikligiga qarab nechta guruhga bo'lingan?",
+"opts": [
+"2 guruhga",
+"3 guruhga",
+"4 guruhga",
+"5 guruhga"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Qaysi dostonda Amir Temur, To'xtamish faoliyati bilan bog'liq voqealar bayon etilgan?",
+"opts": [
+"\"Qirqqiz\"",
+"\"Qublon\"",
+"\"Mastposhsho\"",
+"\"Edigey\""
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "XVII - XVIII asrlarda yashagan Muhammad Yusuf Rojiy, Bobojon Sanoiy, Muhammad Rizo Oxundlar qaysi sohada vakillari hisoblanadi?",
+"opts": [
+"xattotlik",
+"me'morchilik",
+"savdo-sotiq",
+"hunarmanchilik"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Xiva xonligida qaysi mansabdor chet el davlatlari elchilarini qabul qilib, ularning ta'minoti uchun mas'ul bo'lgan?",
+"opts": [
+"inoq",
+"parvonachi",
+"mahram",
+"shig'ovul"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "XVII asrda O'rta Osiyo va Rossiya o'rtasida savdoda tovar ayirboshlash qancha rublni tashkil etgan?",
+"opts": [
+"100 ming rubl",
+"200 ming rubl",
+"300 ming rubl",
+"400 ming rubl"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Buxoro xonligi qo'shinida to'fangni doimiy ravishda qo'llash qachondan boshlangan?",
+"opts": [
+"XVI asr o'rtalaridan",
+"XVI asr oxirlaridan",
+"XVII asr boshlaridan",
+"XVII asr o'rtalaridan"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "\"Muhtojga qayishish - asli karomat shuldir, Bir ishki, yo'q ortida malomat - shuldir. Har ikki jahonda, soliko, iymoni Qutqaruvchi chin ruhi salomat shuldir.\" Ushbu to'rtlik muallifi kim?",
+"opts": [
+"Muhammad Shayboniyxon",
+"Zahiriddin Muhammad Bobur",
+"Ubaydullaxon",
+"Turdi Farog'iy"
+],
+"ans": "C",
+"img": "img/dtm/oa-43-17.jpg"
+},
+{
+"n": 18,
+"q": "Bobur Mirzo Shayboniyxonga qarshi kurashda yordam so'ragan paytda tog'asi Sulton Mahmudxon qayerda edi?",
+"opts": [
+"Toshkentda",
+"Turkistonda",
+"Qashqarda",
+"Badaxshonda"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Abulfayzxon Muhammad Hakimbiyni qayerga hokim qilib tayinlagan?",
+"opts": [
+"Miyonqolga",
+"Urgutga",
+"Shahrisabzga",
+"Qarshiga"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Shayboniy Ko'chimxon nechanchi yilda Abdullaxon II yordamida Sibir xonligi taxtini egallagan?",
+"opts": [
+"1556-yilda",
+"1563-yilda",
+"1571-yilda",
+"1582-yilda"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Qaysi mang'it hukmdori markaziy hokimiyatga bo'ysunmaslikka urinayotgan qabilalarni yashab turgan joyidan ko'chirtirib yuborish amaliyotini qo'llagan?",
+"opts": [
+"Muhammad Rahimbiy",
+"Doniyolbiy otaliq",
+"Amir Haydar",
+"Amir Nasrullo"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Buxoro amirligida kim amir muhri uchun javobgar bo'lgan?",
+"opts": [
+"qo'shbegi",
+"parvonachi",
+"to'qsoba",
+"kichik inoq"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Samarqand shahri qaysi mang'it hukmdori davrida shahar yo'siniga kirgizilgan?",
+"opts": [
+"Amir Shohmurod",
+"Amir Haydar",
+"Amir Nasrullo",
+"Doniyolbiy otaliq"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Qaysi hukmdor davrida Xorazmning poytaxtni Vazir shahridan Urganch shahriga ko'chirilgan?",
+"opts": [
+"Elbarsxon davrida",
+"Avaneshxon davrida",
+"Arab Muhammadxon davrida",
+"Abulg'oziy Bahodirxon davrida"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi imoratga peshtoq orqali kirilgan?",
+"opts": [
+"Daxmayi shohon ansambli",
+"Zayniddin bobo maqbarasi",
+"Miyon hazrat madrasasi",
+"Norbo'tabiy madrasasi"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "1842-1845-yillarda Qo'qon xonligini kim boshqargan?",
+"opts": [
+"Hojibek",
+"Murodxon",
+"Sheralixon",
+"Rustambiy"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Qoraqalpoqlar kurash olib borgan Abulxayrxon qaysi davlat hukmdori bo'lgan?",
+"opts": [
+"Katta juz xoni",
+"O'rta juz xoni",
+"Kichik juz xoni",
+"Eron xoni"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Abu Said Mirzo o'g'li Umarshayx Mirzoni dastlab qaysi hududga hokim qilib tayinlagan?",
+"opts": [
+"Farg'ona",
+"Kobul",
+"Sayram",
+"Toshkent"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Marv hozirgi paytda  qaysi davlat hududida joylashgan?",
+"opts": [
+"Afg'oniston",
+"Pokiston",
+"Turkmaniston",
+"Tojikiston"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "\"Manufaktura\" so'zi qaysi tildan olingan?",
+"opts": [
+"lotincha",
+"yunoncha",
+"fransuzcha",
+"nemischa"
+],
+"ans": "A"
+}
+]
+}

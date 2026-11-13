@@ -1,0 +1,339 @@
+{
+"id": "oa-17",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi davlatning iqtisodiyotining asosini sug'orma dehqonchilik, savdo-sotiq va hunarmanchilik tashkil etgan?",
+"opts": [
+"Qang' davlati",
+"Kushon podsholigi",
+"Davan davlati",
+"Qadimgi Xorazm"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Argentinani Ispaniya mustamlakachiligidan qaysi qo'mondon qo'shini ozod qilgan?",
+"opts": [
+"Simon Bolivar",
+"general Sukre",
+"Maksimo Gomes",
+"Xose San-Martin"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Angliyada qaysi asrdan boshlab parlament soliqlar tayinlashdan tashqari, qonunlar ishlab chiqish va qabul qilishda qatnashish huquqini qo'lga kiritgan?",
+"opts": [
+"XIII asrdan",
+"XIV asrdan",
+"XV asrdan",
+"XVI asrdan"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "\"Fathnomayi sultoniy\" asarini kim yozgan?",
+"opts": [
+"Mir Olim Buxoriy",
+"Muhammad Hakimxon",
+"Muhammadniyoz Nishotiy",
+"Muhammad Ya'qub ibn Doniyolbiy"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Chig'atoy ulusida harbiy ma'murlarga davlat oldidagi xizmatlari uchun yer in'om etilgan bo'lib, u qanday nom bilan atalgan?",
+"opts": [
+"Iqto",
+"Tiyul",
+"Tarxon",
+"Suyurg'ol"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Qaysi asar markazida bo'ysunmas, isyonkor, taqdirning hech qanday zarbasi ham sindira olmaydigan jasur, qo'rqmas inson obrazi turadi?",
+"opts": [
+"Gulliverning sayohatlari",
+"Robinzon Kruzo",
+"Faust",
+"Qahramonnoma simfoniyasi"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Xonliklar davrida qaysi soha \"dorukash\" deb nomlangan?",
+"opts": [
+"teri oshlash",
+"porox tayyorlash",
+"cho'yan quyish",
+"qurol-yarog' ishlab chiqarish"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qadimgi Afinada o'g'il bolalar 14  yoshdan boshlab ...  . Jumlani davom ettiring.",
+"opts": [
+"pushti yo'llik toga kiyishgan",
+"oppoq toga kiyishgan",
+"jangchi qo'shinlarga qabul qilingan",
+"gimnastika bilan shug'ullanishgan"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Toshkent, Chinoz, Jizzax orqali Samarqandga yurish qilgan tarixiy shaxsni toping.",
+"opts": [
+"Abulxayrxon",
+"Abdulatif",
+"Amir Xudoydot",
+"Tug'luq Temur"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Qaysi o'rta asr davlatida  VIII asrda hukmdorlar saroyida olimlarning oliy yig'inlari tashkil etilib, u keyinchalik akademiya nomini olgan?",
+"opts": [
+"Koreya",
+"Xitoy",
+"Yaponiya",
+"Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Qaysi atama lotinchadan \"tiklash\" deb tarjima qilinadi?",
+"opts": [
+"reparatsiya",
+"kontributsiya",
+"konvensiya",
+"intervensiya"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "1873-yilda tashkil etilgan Amudaryo bo'limi qaysi viloyat tarkibiga kirgan?",
+"opts": [
+"Samarqand viloyati",
+"Yettisuv viloyati",
+"Kaspiyorti viloyati",
+"Sirdaryo viloyati"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Qaysi Osiyo davlati XIX asr oxirlarida dunyo bozoriga katta miqdorda sanoat va qishloq xo'jaligi mahsulotlari chiqara boshlagan?",
+"opts": [
+"Xitoy",
+"Hindiston",
+"Eron",
+"Afg'oniston"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Dukchi Eshon qo'zg'olonini bostirish vazifasi zimmasiga yuklatilgan shaxs qaysi viloyat gubernatori edi?",
+"opts": [
+"Kaspiyorti viloyati",
+"Samarqand viloyati",
+"Yettisuv viloyati",
+"Sirdaryo viloyati"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Rasmdagi shaxs qaysi asrda yashagan?",
+"opts": [
+"mil.avv. XII asrda",
+"mil.avv. V asrda",
+"mil.avv. IV asrda",
+"mil.avv. II asrda"
+],
+"ans": "B",
+"img": "img/dtm/oa-17-15.jpg"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi poytaxt shaharda ilk o'rta asrlarda oliy tibbiyot maktabi faoliyat ko'rsatgan?",
+"opts": [
+"Pekin",
+"Kiyev",
+"Pataliputra",
+"Konstantinopol"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "\"Miltiq puli\" solig'i quyidagi qaysi davlatda mavjud bo'lgan?",
+"opts": [
+"Buxoro xonligi (shayboniylar sulolasi davrida)",
+"Xiva xonligi (shayboniylar sulolasi davrida)",
+"Qo'qon xonligi (ming sulolasi davrida)",
+"Xiva xonligi (qo'ng'irotlar sulolasi davrida)"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Amerikalik yozuvchi qalamiga mansub bo'lmagan asarni belgilang.",
+"opts": [
+"\"Tor-mor\"",
+"\"Dengiz bo‘risi\"",
+"\"Temir tovon\"",
+"\"Tom tog'aning kulbasi\""
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Amir Temur vafot etgan shahar bilan bog'liq xato ma'lumotni toping.",
+"opts": [
+"Xorazmshohlar davrida mustahkam qal’ali chegara shahar edi",
+"1212-yilda shu shahar aholisi qo'zg'olon ko'targan",
+"ushbu shahar mo'g'ullarga besh oy qarshilik ko'rsatgan",
+"bu shahar Sirdaryo bo'yida joylashgan"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Rasmda tasvirlangan shaxsning asarini toping.",
+"opts": [
+"\"Qirol Lir\"",
+"\"Sikstin madonnasi\"",
+"\"Mona Liza\"",
+"\"Adashgan o'g'ilning qaytishi\""
+],
+"ans": "A",
+"img": "img/dtm/oa-17-20.jpg"
+},
+{
+"n": 21,
+"q": "Qaysi davlatda XIX asrda dehqonlar hosilning 3/4 qismini to'lash sharti bilan yirik yer egalaridan yer olib ishlashgan?",
+"opts": [
+"Rossiyada",
+"Afg'onistonda",
+"Yaponiyada",
+"Italiyada"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Peterburgda 3 yil davomida harbiy ishlar va davlat boshqarish asoslarini o'rgangan Buxoro amirini toping.",
+"opts": [
+"Amir Muzaffar",
+"Amir Sayid Olimxon",
+"Amir Abdulahad",
+"Amir Haydar"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Ushbu devoriy tasvir qaysi shahardan topilgan?",
+"opts": [
+"Rim",
+"Vizantiy",
+"Suza",
+"Pompeya"
+],
+"ans": "D",
+"img": "img/dtm/oa-17-23.jpg"
+},
+{
+"n": 24,
+"q": "Nigeriya, Somali, Keniya, Uganda davlatlarini qaysi Yevropa davlati mustamlakaga aylantirgan?",
+"opts": [
+"Fransiya",
+"Buyuk Britaniya",
+"Germaniya",
+"Italiya"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Durroniylar sulolasi hukmronligi tugagan asrda O'zbekiston tarixida qaysi sulola hukmronligi tugagan?",
+"opts": [
+"Minglar",
+"Qo'ng'irotlar",
+"Ashtarxoniylar",
+"Shayboniylar"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Quyidagilardan Umaviylarning(a) va Abbosiylarning(b) Xurosondagi noiblarini belgilang.",
+"opts": [
+"a - Qutayba ibn Muslim, b - Ashros",
+"a - Nasr ibn Sayyor, b - Sobuqtegin",
+"a - Ashros, b - Ma'mun",
+"a - Tohir ibn Husayn, b - Ismoil Somoniy"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Xitoy tomonidan Vyetnam egallagan davrdagi(a) va Markaziy Vyetnam ustidan rasmiy hukmronlikdan voz kechilgan davrdagi(b) sulolalarni belgilang.",
+"opts": [
+"1 - Suy sulolasi, 2 - Min sulolasi",
+"1 - Tan sulolasi, 2 - Xan sulolasi",
+"1 - Sun sulolasi, 2 - Yuan sulolasi",
+"1 - Min sulolasi, 2 - Sin sulolasi"
+],
+"ans": "D",
+"img": "img/dtm/oa-17-27.jpg"
+},
+{
+"n": 28,
+"q": "1904-yildan boshlab o’lkadagi ijtimoiy-siyosiy, ma’rifiy harakatning faol ishtirokchisiga aylangan jadid ma'rifatparvarini belgilang.",
+"opts": [
+"Avloniy",
+"Munavvarqori",
+"Behbudiy",
+"Fitrat"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Arabshohiylar davrida Firdavsiyning \"Shohnoma\" asari ko'chirilgan yilda quyidagilardan kimning hukmronligi tugagan?",
+"opts": [
+"Pirmuhammad",
+"Nodir Muhammad",
+"Yormuhammad",
+"Boqi Muhammad"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Kushon podsholigi poytaxti bo'lgan shaharda XX asr boshlarida vafot etgan mang'it urug'i vakili qaysi Buxoro amirining farzandi bo'lgan?",
+"opts": [
+"Amir Muzaffar",
+"Amir Sayid Olimxon",
+"Amir Abdulahad",
+"Amir Nasrullo"
+],
+"ans": "A"
+}
+]
+}

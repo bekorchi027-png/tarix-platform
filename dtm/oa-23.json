@@ -1,0 +1,336 @@
+{
+"id": "oa-23",
+"items": [
+{
+"n": 1,
+"q": "Mesopotamiya aholisi qaysi hududlardan oltin, mis, kumush, qalayi  va noyob toshlarni olib kelishgan?",
+"opts": [
+"Kazkazorti va Eron",
+"Misr va Falastin",
+"Finikiya va Falastin",
+"Falastin va Suriya"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Buyuk Britaniyada nechanchi yilda leyboristlar partiyasi ilk marotaba hukumatni boshqarishgan?",
+"opts": [
+"1918-yil",
+"1922-yil",
+"1924-yil",
+"1926-yil"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Qaysi sulola (davlat) davrida o'zbek xalqiga xos etnik omillar shakllangan?",
+"opts": [
+"Shayboniylar davrida",
+"Turk xoqonligi davrida",
+"Somoniylar davrida",
+"Qoraxoniylar davrida"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Shumerlik va bobillik munajjim-kohinlar qaysi sohaga oid bilimlarga ega bo'lishgan?",
+"opts": [
+"astronomiya",
+"metematika",
+"tibbiyot",
+"geografiya"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Mali davlati  (a) va Gana davlati  ( b) o'z taraqqiyotining cho'qqisiga erishgan davrlarni toping.",
+"opts": [
+"a - X asr, b - XI asr",
+"a - XIII asr, b - X asr",
+"a - VIII asr, b - XIII asr",
+"a - X asr, b - XIII asr"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "RKP  (b) X syezdi qachon bo'lib o'tgan?",
+"opts": [
+"1920-yil dekabr",
+"1921-yil sentabr",
+"1919-yil noyabr",
+"1921-yil mart"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "XIX asr oxirlarida Serbiya qaysi davlatga nomigagina qaram bo'lgan?",
+"opts": [
+"Avstriya-Vengriya",
+"Turkiya",
+"Rossiya",
+"Germaniya"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "XVIII asrda Eronning afg'onlarga qaram bo'lgan(a) va Afgonistonning Eronga bo'ysundirilgan(b) yillarini toping.",
+"opts": [
+"a - 1709-yil, b - 1740-yil",
+"a - 1722-yil, b - 1736-yil",
+"a - 1730-yil, b - 1738-yil",
+"a - 1722-yil, b - 1738-yil"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Kaspiyorti temiryo'li qurilgan  (a) va Kaspiyorti viloyati tashkil etilgan  (b) yillarni belgilang.",
+"opts": [
+"a - 1885-yil, b - 1881-yil",
+"a - 1881-yil, b - 1885-yil",
+"a - 1885-yil, b - 1887-yil",
+"a - 1881-yil, b - 1887-yil"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Quyidagilardan Orenburg gubernatori (general - gubernatori) bo'lgan shaxslarni toping.",
+"opts": [
+"M. Chernyayev, F. Romanovskiy",
+"N. Krijanovskiy, V. A. Perovskiy",
+"K. P. Kaufman, A. Verevskiy",
+"M. Chernyayev, K. P. Kaufman"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Ichan qal'a maydoni necha gektarni tashkil etadi?",
+"opts": [
+"24 gektar",
+"54 gektar",
+"26 gektar",
+"56 gektar"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Veymar Respublikasi nechanchi yilda amalda faoliyatini tugatgan?",
+"opts": [
+"1933-yilda",
+"1939-yilda",
+"1934-yilda",
+"1932-yilda"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "XIX asrning ikkinchi yarmida O'rta Osiyo qo'g'irchoq teatrlari mavzusi markazida qaysi obraz turgan?",
+"opts": [
+"Nasriddin Afandi",
+"Zokir polvon",
+"To'la masxara",
+"Kachal polvon"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "XVI-XVII asrlar Yevropasida aholi soni bo’yicha eng katta davlatni toping.",
+"opts": [
+"Angilya",
+"Germaniya",
+"Rosssiya",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "1700-yilda Pyotr I huzuriga elchi yuborgan Xiva hukmdori kim edi?",
+"opts": [
+"Sherg'ozi",
+"Muhammad",
+"Eshmuhammad",
+"Shohniyoz"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi yozma manbada O‘rta Osiyo xalqlari madaniyati haqida ma’lumotlar keltiriladi?",
+"opts": [
+"\"Behistun yozuvlari\"",
+"\"Avesto\"",
+"\"Tarix\"",
+"\"Geografiya\""
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Nechanchi yilda Buyuk Britaniya Fransiyaning Marokashga nisbatan huquqlarini tan olgan?",
+"opts": [
+"1904-yilda",
+"1902-yilda",
+"1900-yilda",
+"1891-yilda"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "\"Qatag'on qurbonlari xotirasi\" muzeyi nechanchi yilda ochilgan?",
+"opts": [
+"2000-yil avgustda",
+"2001-yil mayda",
+"2002-yil avgustda",
+"2001-yil sentabrda"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "XVI asrda Shimoliy dengiz qirg’og’idagi savdo markazi bo'lgan shaharda qachon birja ochilgan?",
+"opts": [
+"1409-yilda",
+"1460-yilda",
+"1462-yilda",
+"1600-yilda"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "\"O‘t (olov) va quyoshga sig‘inuvchi otashparast bo‘lganlar\" deya tariflangan ilk o'rta asrdagi xalqni toping.",
+"opts": [
+"kushonlar",
+"xioniylar",
+"eftallar",
+"kidariylar"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "XIX asr oxirlarida ichki kurashlar oqibatida holdan toyib AQShga qaram bo'lib qolgan davlatni toping.",
+"opts": [
+"Gvatemala",
+"Gonduras",
+"Nikaragua",
+"Salvador"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Nechanchi yilda Hindiston va Pokiston o‘rtasida muzokaralar Toshkentda bo'lib o'tgan?",
+"opts": [
+"1964-yil",
+"1965-yil",
+"1966-yil",
+"1967-yil"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "1876-yilning 22-mayida Shayx ul-islom fatvosi bilan taxtdan tushirilgan Turkiya sultoni kim edi?",
+"opts": [
+"Abdulaziz",
+"Abdulhamid II",
+"Mahmud V Rishod",
+"Abdulatif"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Quyidagi qaysi davlatlar mil.avv. II asrda zavolga yuz tutgan?",
+"opts": [
+"Yunon-Baqtriya davlati va Parfiya",
+"Shumer-Akkad davlati va Kushon davlati",
+"Karfagen davlati va Yunon-Baqtriya davlati",
+"Qang' davlati va Davan davlati"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "XIX asr oxiri - XX asr boshlarida qaysi shaharda 160 dan ortiq masjid mavjud bo'lgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Xiva",
+"Qo'qon"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "“U amirlik qalamini kambag'allik kiyimi bilan bezadi. Jahon bog'idan dushmanlik va yomonlikni tomiri bilan sug'urib tashladi va adolat nihollarini o'tqazdi.” Ushbu so'zlar kim tomonidan va kim haqida aytilgan edi?",
+"opts": [
+"Ahmad Donish tomonidan, Amir Haydar haqida",
+"Ahmad Donish tomonidan, Amir Shohmurod haqida",
+"Hasanxoja Nisoriy tomonidan, Amir Nasrullo haqida",
+"Mirzo Salim tomonidan, Amir Muzaffar haqida"
+],
+"ans": "B",
+"img": "img/dtm/oa-23-26.jpg"
+},
+{
+"n": 27,
+"q": "Bekoboddagi O'zbekiston metallurgiya zavodining birinchi navbati qachon ishga tushirilgan?",
+"opts": [
+"1944-yil martda",
+"1937-yil sentabrda",
+"1945-yil fevralda",
+"1942-yil avgustda"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "IX asr oxiri va X asr boshlarida Sirdaryo havzasi va Orol dengizi bo'ylarida tashkil topgan davlatni toping.",
+"opts": [
+"Kuchluk davlati",
+"Tohiriylar davlati",
+"Saljuqiylar davlati",
+"O'g'uzlar davlati"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Koreya yarim orolining janubiy qismida III - IV asrlarda vujudga kelgan davlatni toping.",
+"opts": [
+"Pekche",
+"Silla",
+"Koguryo",
+"Parxe"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Qaysi atama lotinchadan \"ruxsat, yon berish\" deb tarjima qilinadi?",
+"opts": [
+"konvensiya",
+"konsessiya",
+"kontributsiya",
+"kollegiya"
+],
+"ans": "B"
+}
+]
+}

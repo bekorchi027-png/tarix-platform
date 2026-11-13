@@ -1,0 +1,335 @@
+{
+"id": "oa-31",
+"items": [
+{
+"n": 1,
+"q": "Nechanchi yilda Toshkentda konservatoriya ochilgan?",
+"opts": [
+"1930-yil",
+"1936-yil",
+"1933-yil",
+"1939-yil"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Birinchi Jahon urushidan keyin g'olib davlatlar qaysi davlat bilan Sevr shartnomasini imzolagan?",
+"opts": [
+"Bolgariya",
+"Turkiya",
+"Avstriya",
+"Vengriya"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "O'zbekiston SSR Kompartiyasi qaysi shaharda tuzilgan?",
+"opts": [
+"Buxoro",
+"Samarqand",
+"Toshkent",
+"Qo'qon"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "1942-yil noyabrdan 1943-yil fevraligacha sodir bo'lgan jang tarixga qanday nom bilan kirgan?",
+"opts": [
+"\"Moskva ostonasidagi jang\"",
+"\"Kursk jangi\"",
+"\"Dnepr daryosi bo'yidagi jang\"",
+"\"Stalingrad jangi\""
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "O'zbekiston SSR ga Turkiston ASSRdan nechta tuman kirgan?",
+"opts": [
+"23 ta tuman",
+"9 ta tuman",
+"7 ta tuman",
+"133 ta tuman"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Quyidagi tashkilotlardan qaysi biri nisbatan ertaroq vujudga kelgan?",
+"opts": [
+"BMT",
+"O'zaro Iqtisodiy Yordam Kengashi",
+"NATO",
+"Qo'shilmaslik harakati"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "O'rta Osiyoda milliy hududiy chegaralanishdan so'ng tashkil etilgan Qoraqalpoq muxtor viloyati dastlab qaysi hududiy birlik tarkibiga kirgan?",
+"opts": [
+"RSFSR",
+"Qozog'iston ASSR",
+"O'zbekiston SSR",
+"Turkmaniston SSR"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qaysi Buyuk Britaniya bosh vaziri inflatsiyaga qarshi kurashni bosh vazifa etib belgilagan?",
+"opts": [
+"U. Cherchill",
+"M. Tetcher",
+"J. Meyjor",
+"G. Broun"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Prezident Islom Karimov qachon \"Musulmonlarning Saudiya Arabistoniga haj qilishi to'g'risida\"gi farmonni e'lon qilgan?",
+"opts": [
+"1990-yil 2-iyun",
+"1991-yil 2-iyun",
+"1992-yil 2-iyun",
+"1993-yil 2-iyun"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "2000-yillarning boshlarida qaysi Markaziy Osiyo davlati oltin qazib chiqarishda MDHda 3-o'ringa chiqib oladi?",
+"opts": [
+"O'zbekiston",
+"Qozog'iston",
+"Turkmaniston",
+"Qirg'iziston"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Toshkentda Olimpiya muzeyi nechanchi yilda ochilgan?",
+"opts": [
+"1992-yil",
+"1996-yil",
+"1994-yil",
+"1998-yil"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "2001-yilda Indoneziyada kim prezidentlikka saylangan?",
+"opts": [
+"A. Vohid",
+"M. Sukarnopuri",
+"Habibiy",
+"Yodoyono"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "\"Sharq taronalari\" xalqaro musiqa festivali nechanchi yildan boshlab o'tkazib kelinmoqda?",
+"opts": [
+"1995-yil",
+"1996-yil",
+"1997-yil",
+"1998-yil"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Husni Muborak qaysi davlat rahbari bo'lgan?",
+"opts": [
+"Iroq",
+"Liviya",
+"Jazoir",
+"Misr"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Toshkent shahrining 2200 yillik yubileyi qachon o'tkazilgan?",
+"opts": [
+"2003-yil",
+"2005-yil",
+"2007-yil",
+"2009-yil"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Ukrainaning birinchi prezidenti kim?",
+"opts": [
+"Leonid Kravchuk",
+"Leonid Kuchma",
+"Pyotr Poroshenko",
+"Viktor Yushchenko"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "O'zbekistonda \"Ta'lim to'g'risida\"gi Qonun qachon qabul qilingan?",
+"opts": [
+"1991-yil 2-iyul",
+"1992-yil 2-iyul",
+"1993-yil 2-iyul",
+"1994-yil 2-iyul"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Abdul Karim qaysi davlatdagi milliy ozodlik harakati rahbari bo'lgan?",
+"opts": [
+"Tunis",
+"Jazoir",
+"Marokash",
+"Liviya"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Asfandiyorxon 1917-yil iyun oyida kimga tayanib Majlis va Nozirlar Kengashini tarqatib yuborgan?",
+"opts": [
+"Mirbadalovga tayanib",
+"Matmurodovga tayanib",
+"Muhitdinovga tayanib",
+"Junaidxonga tayanib"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Turkiya qachon Millatlar Ligasiga qabul qilingan?",
+"opts": [
+"1931-yilda",
+"1932-yilda",
+"1933-yilda",
+"1934-yilda"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "RKP (b) ning nechanchi syezdida NEP ga o'tilgan?",
+"opts": [
+"IX syezdida",
+"XII syezdida",
+"X syezdida",
+"XI syezdida"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "1922-yilda qaysi davlatda fuqarolar urushi tugagan?",
+"opts": [
+"Xitoy",
+"Ispaniya",
+"Sovet davlati",
+"Germaniya"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Fransuzlar qachon Germaniyaning Rur viloyatiga bostirib kirgan?",
+"opts": [
+"1921-yilda",
+"1923-yilda",
+"1922-yilda",
+"1924-yilda"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "SSSRda qachon boshlang'ich majburiy ta'lim joriy qilingan?",
+"opts": [
+"1936-yilda",
+"1934-yilda",
+"1932-yilda",
+"1930-yilda"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi voqea nisbatan keyinroq sodir bo'lgan ?",
+"opts": [
+"Nankin shahridagi Millat Majlisi Xitoyni Respublika deb e'lon qilishi",
+"Xitoy Sovet Respublikasi tashkil etilishi",
+"Xitoy hududida Manchjou-Go davlatining tuzilishi",
+"Xitoy Xalq Respublikasining tashkil etilishi"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "SQCH-2 imzolangan yilda qaysi voqea sodir bo'lmagan?",
+"opts": [
+"SSSR qo'shini Afg'onistonga bostirib kirgan",
+"Nikaraguada inqilob sodir bo'lgan",
+"Afg'onistonda Muhammad Dovud hokimiyati ag'darilgan",
+"Eronda shoh hokimiyati ag'darilgan"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Turkiston musulmonlarining 1917-yil 12-15noyabrdagi qurultoyi qaysi shaharda o'tkazilgan?",
+"opts": [
+"Buxoro",
+"Toshkent",
+"Qo'qon",
+"Qozon"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Madaminbek qachon Sovet qo'mondonligi bilan sulh tuzgan?",
+"opts": [
+"1920-yil yanvar",
+"1920-yil fevral",
+"1920-yil mart",
+"1920-yil aprel"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "O'zbekiston SSR tuzilgach XKS raisligiga kim saylangan?",
+"opts": [
+"Fayzulla Xo'jayev",
+"Akmal Ikromov",
+"Yo'ldosh Oxunboboyev",
+"Usmon Yusupov"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "\"Qosimovchilik\" a'zolaridan qanchasi otib o'ldirilgan?",
+"opts": [
+"2 nafari",
+"3 nafari",
+"4 nafari",
+"5 nafari"
+],
+"ans": "C"
+}
+]
+}

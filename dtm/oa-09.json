@@ -1,0 +1,336 @@
+{
+"id": "oa-09",
+"items": [
+{
+"n": 1,
+"q": "\"Vatan urushi\" bo'lgan yilda Qo'qon xonligi hukmdori kim edi?",
+"opts": [
+"Olimbek",
+"Umarxon",
+"Madalixon",
+"Xudoyorxon"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Qaysi Rus hukmdori davrida  dvoryanlardan ming nafariga Moskva uyezdidan yer-mulk ajratib berilgan?",
+"opts": [
+"Ivan IV",
+"Boris Godunov",
+"Pyotr I",
+"Yekaterina II"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "\"Dengiz xalqlari\" tomonidan poytaxti bosib olingach, zavolga yuz tutgan davlatni toping?",
+"opts": [
+"Ossuriya",
+"Mitanni",
+"Xett",
+"Urartu"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Nechanchi yildagi jangda  Amir Temur dushmanga qarshi otdan tushib, uni kamondan o'qqa tutish usulini qo'llagan?",
+"opts": [
+"1365-yildagi",
+"1402-yildagi",
+"1395-yildagi",
+"1370-yildagi"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Piter Breygel \"Bobil minorasi\" rasmini nechanchi yilda chizgan?",
+"opts": [
+"1653-yilda",
+"1356-yilda",
+"1563-yilda",
+"1453-yilda"
+],
+"ans": "C",
+"img": "img/dtm/oa-09-5.jpg"
+},
+{
+"n": 6,
+"q": "Qaysi imperator xristianlik ramzini o'z askarlari qalqonlariga chizishga buyurgan va g'alabaga erishgan?",
+"opts": [
+"Feodosiy",
+"Konstantin",
+"Oktavian",
+"Trayan"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Lyubech syezdida Vladimir Monamax qaysi Kiyev knyazi bilan uchrashgan?",
+"opts": [
+"Yarapolk",
+"Svyatopolk",
+"Vsevolod",
+"Izyaslav"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Hozirgi Buyuk Britaniya parlamenti joylashgan bino qanday nomlanadi?",
+"opts": [
+"Dojlar saroyi",
+"Bukingem saroyi",
+"Vestminster saroyi",
+"Rama saroyi"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Qaysi alloma 1117(1123)-yilda tavallud topgan?",
+"opts": [
+"Marg'inoniy",
+"Naqshbandiy",
+"Zamaxshariy",
+"Koshg'ariy"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Vobkent minorasi qaysi asrda qurilgan?",
+"opts": [
+"X asrda",
+"XI asrda",
+"XII asrda",
+"XIII asrda"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Chartistlar harakati qaysi davlatda bo'lgan?",
+"opts": [
+"Fransiya",
+"Rossiya",
+"Buyuk Britaniya",
+"Germaniya"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "\"Sikstin madonnasi\" asari muallifi kim?",
+"opts": [
+"Da Vinchi",
+"R. Santi",
+"M. Buonaratti",
+"Rembrandt"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Nodir devonbegi madrasasi qaysi shaharda joylashgan?",
+"opts": [
+"Toshkent",
+"Qo'qon",
+"Samarqand",
+"Buxoro"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Murodxon nechanchi yil qisqa muddat Qo'qon xonligini boshqargan?",
+"opts": [
+"1810-yil",
+"1822-yil",
+"1842-yil",
+"1845-yil"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Orolbo'yi o'zbeklari va qoraqalpoqlar Xiva xonligi hokimiyatini tan olishga majbur etilgan yilda Xiva xoni kim edi?",
+"opts": [
+"Sherg'ozixon",
+"Elbarsxon",
+"Muhammad Amin inoq",
+"Muhammad Rahimxon I"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Xitoyda to'rt asr davom etgan o'zaro urushlarga barham berilib, yagona davlatga birlashish qachon yuz bergan?",
+"opts": [
+"VI asrning I yarmida",
+"V asrning I yarmida",
+"VI asrning II yarmida",
+"V asrning II yarmida"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Chetga asosan jun va junli mahsulotlar chiqargan davlatni toping.",
+"opts": [
+"Farg'ona hokimligi",
+"Sug'd hokimligi",
+"Qarluqlar davlati",
+"Somoniylar davlati"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Kimning hukmronligi davrida Yunon-Baqtriya podsholigi eng katta sarhadlarga ega bo'lgan?",
+"opts": [
+"Diodot",
+"Yevtidem",
+"Demetriy",
+"Mitridat I"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Nechanchi yilda Fransiya Madagaskarni o‘z mustamlakasi deb e’lon qilgan?",
+"opts": [
+"1881-yilda",
+"1883-yilda",
+"1885-yilda",
+"1896-yilda"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Koreyaga Yaponiya tajovuzi yillarini eslang, Seul va Pxenyanni Yaponiya qo'shini egallaganidan qancha vaqt o'tib bu shaharlar ozod etilgan?",
+"opts": [
+"o'sha yilda ozod etilgan",
+"1 yil keyin ozod etilgan",
+"3 yil keyin ozod etilgan",
+"5 yil keyin ozod etilgan"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Kirill va Mefodiy qaysi qabilalar orasida xristianlikni keng targ'ib qilishgan?",
+"opts": [
+"janubiy slavyanlar orasida",
+"g'arbiy slavyanlar orasida",
+"sharqiy slavyanlar orasida",
+"turkiy bulg'orlar orasida"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Qaysi xalq bosqini arafasida Andijon shahri \"Andukon\" deb atalgan?",
+"opts": [
+"Turk xoqonligi davrida",
+"Arab xalifaligi davrida",
+"Qoraxoniylar davrida",
+"Mo'g'ullar davrida"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "\"Kartel\" atamasi qaysi tildan olingan?",
+"opts": [
+"italyan",
+"yunon",
+"fransuz",
+"nemis"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Muhammad Shayhoniyxon Farg'onani egallagan yilda Bobur Mirzo hokimiyati o‘rnatilgan shahar hozirgi kunda qaysi Respublikaning poytaxti hisoblanadi?",
+"opts": [
+"Pokiston",
+"Turkmaniston",
+"Ozarbayjon",
+"Afg'oniston"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi shaxs o'ymakorlik san'atida ham mohir bo'lgan?",
+"opts": [
+"Sultonali Mashhadiy",
+"Mirali Tabriziy",
+"Abdullo Xotifiy",
+"Kamoliddin Behzod"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Abulxayrxon katta qo‘shin bilan Abu Said yordami va ishtirokida Samarqandga yurish qilgan yilda quyidagilardan kim dunyoga kelgan?",
+"opts": [
+"Umarshayx ibn Abu Said",
+"Tomas Mor",
+"Muhammad Shayboniy",
+"Leonardo da Vinchi"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "XVII asrda Xitoy mahalliy vatanparvarlari qaysi shaharda chinlarga qarshi yagona front tuzish uchun kurashgan?",
+"opts": [
+"Nankin",
+"Pekin",
+"Shanxay",
+"Sian"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Qaysi Afrika davlatida maxsus yollanma qo'shin ham tuzilgan?",
+"opts": [
+"Gana",
+"Mali",
+"Songai",
+"Aksum"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Qaysi davlat sanoati XIX asr oxirida Rossiyadan o'n barobar tezroq rivojlandi?",
+"opts": [
+"Germaniya",
+"Fransiya",
+"Yaponiya",
+"Italiya"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Qadimgi Misrda Yangi podsholik davri fir'avnlari sulolasi asoschisi kim?",
+"opts": [
+"Menes",
+"Tutmos III",
+"Yaxmos",
+"Tutanxamon"
+],
+"ans": "C"
+}
+]
+}

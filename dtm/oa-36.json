@@ -1,0 +1,340 @@
+{
+"id": "oa-36",
+"items": [
+{
+"n": 1,
+"q": "Makedoniyalik Aleksandrning  O'rta Osiyoda yo'lini birinchi bo'lib to'sgan shahar qaysi?",
+"opts": [
+"Maroqanda",
+"Zariasp",
+"Kiropolis",
+"Uzunqir"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Miloddan avvalgi II-I asrlarda quyidagi qaysi davlat yuksak taraqqiy etgan?",
+"opts": [
+"Mauriya",
+"Kushon",
+"Qang'",
+"Davan"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Yurtimizdagi qaysi davlat  Hindiston, Xitoy va Rim imperiyasi bilan savdo va elchilik munosabatlarini yo'lga qo'ygan?",
+"opts": [
+"Kushon davlati",
+"Yunon-Baqtriya davlati",
+"Qang' davlati",
+"Davan davlati"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "Marafon jangida fors qo'shinlari markazida qaysi elat jangchilari muvaffaqiyatli urush olib borganlar?",
+"opts": [
+"baqtriyaliklar",
+"so'g'diylar",
+"xorazmliklar",
+"saklar"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Teyshebaini shahri quyidagi qaysi davlat shahri hisoblanadi?",
+"opts": [
+"Finikiya",
+"Mitanni",
+"Urartu",
+"Ossuriya"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Minos degan podsho uchun mashhur Labirint saroyini kim barpo etgan?",
+"opts": [
+"Fidiy",
+"Dedal",
+"Ikar",
+"Miron"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Qadimgi Rimda kim bahor va sevgi xudosi hisoblangan?",
+"opts": [
+"Venera",
+"Yustitsiya",
+"Fortuna",
+"Diana"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Rasmda qaysi xudo tasvirlangan?",
+"opts": [
+"Gefest",
+"Vulqon",
+"Mars",
+"Ares"
+],
+"ans": "B",
+"img": "img/dtm/oa-36-8.jpg"
+},
+{
+"n": 9,
+"q": "Frada boshliq qo'zg'olon qayerda ko'tarilgan edi?",
+"opts": [
+"Parfiyada",
+"Baqtriyada",
+"So'g'diyonada",
+"Marg'iyonada"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Forslar kimning davrida O'rta Yer dengizi sohiliga chiqadilar?",
+"opts": [
+"Doro I",
+"Kir II",
+"Kserks",
+"Kambiz II"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Yulduzcha bilan belgilangan davlat hududida quyidagi shaharlardan qaysi biri joylashmagan?",
+"opts": [
+"Kirmonshoh",
+"Persepol",
+"Ugarit",
+"Ekbatana"
+],
+"ans": "C",
+"img": "img/dtm/oa-36-11.jpg"
+},
+{
+"n": 12,
+"q": "Odamlar qaysi davrda ancha takomillashgan kesuvchi va arralovchi mehnat qurollari yasaydigan bo'lishgan?",
+"opts": [
+"Ilk paleolit davrida",
+"Mezolit davrida",
+"So'nggi paleolit davrida",
+"Neolit davrida"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Rasmda qaysi shahar tasvirlangan?",
+"opts": [
+"Qal'aliqir",
+"Qo'yqirilganqal'a",
+"Tuproqqal'a",
+"Ko'zaliqir"
+],
+"ans": "B",
+"img": "img/dtm/oa-36-13.jpg"
+},
+{
+"n": 14,
+"q": "\"Avesto\" 21 kitobga jamlangan asrda quyidagi qaysi voqea sodir bo'lgan?",
+"opts": [
+"Xan davlati uchta podsholikka parchalanib ketdi",
+"Rim imperiyasining kuch-qudrati zaiflasha boshladi",
+"Rim eng yirik va aholisi ko'p shaharga aylandi",
+"Qang'dez shahriga asos solingan"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Buyuk Ipak yo'li orqali Xitoyga qaysi hududdan jun gazlama va gilam olib borilgan?",
+"opts": [
+"Baqtriya",
+"So'g'diyona",
+"Marg'iyona",
+"Parfiya"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Qaysi imorat yorug'lik tushishiga qarab o'z rangini oltin rangidan havorang yoki kulranggacha o'zgartirib, tuslanib turgan?",
+"opts": [
+"Panteon ibodatxonasi",
+"Kolizey amfiteatri",
+"Parfenon ibodatxonasi",
+"Labirint saroyi"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi tarixiy hodisa miloddan avvalgi I asrda sodir bo'lmagan?",
+"opts": [
+"Xitoyliklar qog'ozni ixtiro qilishgan",
+"Trayan Rim imperiyasi taxtiga o'tirdi",
+"Spartak qo'zg'oloni bo'lib o'tgan",
+"Qadimgi Xorazmda tanga zarb qilingan"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Yulduzcha bilan belgilangan davlat hududini Kushon hukmdorlaridan qaysi biri egallagan?",
+"opts": [
+"Vasishka",
+"Kudzula Kadfiz",
+"Vima Kadfiz",
+"Kanishka"
+],
+"ans": "B",
+"img": "img/dtm/oa-36-18.jpg"
+},
+{
+"n": 19,
+"q": "Odamlar qaysi davrda toshga ishlov berishning oldin ma'lum bo'lmagan silliqlash va parmalash usullarini kashf etishgan?",
+"opts": [
+"So'nggi paleolit davrida",
+"Mezolit davrida",
+"Neolit davrida",
+"Eneolit davrida"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Sinay yarim oroli qaysi podsholik davrida Misrga qo'shib olingan?",
+"opts": [
+"Qadimgi podsholik davrida",
+"O'rta podsholik davrida",
+"Yangi podsholik davrida",
+"So'nggi podsholik davrida"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Rasmda qaysi davlatning piyoda qo'shinlari tasvirlangan?",
+"opts": [
+"Sparta",
+"Makedoniya",
+"Karfagen",
+"Rim"
+],
+"ans": "D",
+"img": "img/dtm/oa-36-21.jpg"
+},
+{
+"n": 22,
+"q": "Mesopotamiyaning qaysi xudosi oliy hakam hisoblanib, yovuz ishlari uchun odamlarni sud qilgan?",
+"opts": [
+"Ea",
+"Sina",
+"Ishtar",
+"Shamash"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "\"Qat'iy belgilangan qonun-qoidalar\" ma'nosini bildiruvchi atamani toping.",
+"opts": [
+"\"Bibliya\"",
+"\"Yevangiliya\"",
+"\"Avesto\"",
+"\"Rigveda\""
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "\"Afinada erkak jinsiga mansub barcha fuqarolar 20 yoshdan boshlab...\". Fikrni davom ettiring.",
+"opts": [
+"jangchi qo'shinlarga qabul qilingan",
+"Xalq sudida ishtirok etardilar",
+"Xalq majlisida ishtirok etardilar",
+"savdo ishlari uchun o'zga yurtlarga ketishardilar"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Qaysi atama \"donishmandlikni sevish\" degan ma'noni anglatadi?",
+"opts": [
+"falsafa",
+"ritorika",
+"firavn",
+"budda"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Qaysi Rim imperatori davridan so'ng rimliklar yirik bosqinchilik urushlari olib bormaganlar?",
+"opts": [
+"Yuliy Sezar",
+"Oktavian Avgust",
+"Trayan",
+"Konstantin"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Miloddan avvalgi II asr oxirlarida qaysi davlat yirik davlat birlashmasiga aylangan?",
+"opts": [
+"Qang'",
+"Kushon",
+"Davan",
+"Yunon-Baqtriya"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "O'rta asrlarga tegishli Ko'ksaroy qasri qaysi shaharning tashqarisida joylashgan?",
+"opts": [
+"Urganch",
+"Samarqand",
+"Buxoro",
+"Shosh"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "\"Metafizika\" asarining muallifi kim?",
+"opts": [
+"Farobiy",
+"Farg'oniy",
+"Arastu",
+"Galen"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Xalifa Abul Abbos Saffoh davrida qaysi hududda qo'zg'olon ko'tarilgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Marv",
+"Kufa"
+],
+"ans": "B"
+}
+]
+}

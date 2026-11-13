@@ -437,6 +437,335 @@
   "file": "dtm/hk-50.json"
  },
  {
+  "id": "oa-01",
+  "title": "O'rol Amirov to'plami · 1-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-01.json"
+ },
+ {
+  "id": "oa-02",
+  "title": "O'rol Amirov to'plami · 2-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-02.json"
+ },
+ {
+  "id": "oa-03",
+  "title": "O'rol Amirov to'plami · 3-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-03.json"
+ },
+ {
+  "id": "oa-04",
+  "title": "O'rol Amirov to'plami · 4-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-04.json"
+ },
+ {
+  "id": "oa-05",
+  "title": "O'rol Amirov to'plami · 5-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-05.json"
+ },
+ {
+  "id": "oa-06",
+  "title": "O'rol Amirov to'plami · 6-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-06.json"
+ },
+ {
+  "id": "oa-07",
+  "title": "O'rol Amirov to'plami · 7-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-07.json"
+ },
+ {
+  "id": "oa-08",
+  "title": "O'rol Amirov to'plami · 8-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-08.json"
+ },
+ {
+  "id": "oa-09",
+  "title": "O'rol Amirov to'plami · 9-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-09.json"
+ },
+ {
+  "id": "oa-10",
+  "title": "O'rol Amirov to'plami · 10-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-10.json"
+ },
+ {
+  "id": "oa-11",
+  "title": "O'rol Amirov to'plami · 11-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-11.json"
+ },
+ {
+  "id": "oa-12",
+  "title": "O'rol Amirov to'plami · 12-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-12.json"
+ },
+ {
+  "id": "oa-13",
+  "title": "O'rol Amirov to'plami · 13-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-13.json"
+ },
+ {
+  "id": "oa-14",
+  "title": "O'rol Amirov to'plami · 14-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-14.json"
+ },
+ {
+  "id": "oa-15",
+  "title": "O'rol Amirov to'plami · 15-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-15.json"
+ },
+ {
+  "id": "oa-16",
+  "title": "O'rol Amirov to'plami · 16-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-16.json"
+ },
+ {
+  "id": "oa-17",
+  "title": "O'rol Amirov to'plami · 17-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-17.json"
+ },
+ {
+  "id": "oa-18",
+  "title": "O'rol Amirov to'plami · 18-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-18.json"
+ },
+ {
+  "id": "oa-19",
+  "title": "O'rol Amirov to'plami · 19-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-19.json"
+ },
+ {
+  "id": "oa-20",
+  "title": "O'rol Amirov to'plami · 20-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-20.json"
+ },
+ {
+  "id": "oa-21",
+  "title": "O'rol Amirov to'plami · 21-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-21.json"
+ },
+ {
+  "id": "oa-22",
+  "title": "O'rol Amirov to'plami · 22-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-22.json"
+ },
+ {
+  "id": "oa-23",
+  "title": "O'rol Amirov to'plami · 23-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-23.json"
+ },
+ {
+  "id": "oa-24",
+  "title": "O'rol Amirov to'plami · 24-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-24.json"
+ },
+ {
+  "id": "oa-25",
+  "title": "O'rol Amirov to'plami · 25-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-25.json"
+ },
+ {
+  "id": "oa-26",
+  "title": "O'rol Amirov to'plami · 26-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-26.json"
+ },
+ {
+  "id": "oa-27",
+  "title": "O'rol Amirov to'plami · 27-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-27.json"
+ },
+ {
+  "id": "oa-28",
+  "title": "O'rol Amirov to'plami · 28-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-28.json"
+ },
+ {
+  "id": "oa-29",
+  "title": "O'rol Amirov to'plami · 29-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-29.json"
+ },
+ {
+  "id": "oa-30",
+  "title": "O'rol Amirov to'plami · 30-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-30.json"
+ },
+ {
+  "id": "oa-31",
+  "title": "O'rol Amirov to'plami · 31-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-31.json"
+ },
+ {
+  "id": "oa-32",
+  "title": "O'rol Amirov to'plami · 32-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-32.json"
+ },
+ {
+  "id": "oa-33",
+  "title": "O'rol Amirov to'plami · 33-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-33.json"
+ },
+ {
+  "id": "oa-34",
+  "title": "O'rol Amirov to'plami · 34-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-34.json"
+ },
+ {
+  "id": "oa-35",
+  "title": "O'rol Amirov to'plami · 35-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-35.json"
+ },
+ {
+  "id": "oa-36",
+  "title": "O'rol Amirov to'plami · 36-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-36.json"
+ },
+ {
+  "id": "oa-37",
+  "title": "O'rol Amirov to'plami · 37-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-37.json"
+ },
+ {
+  "id": "oa-38",
+  "title": "O'rol Amirov to'plami · 38-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-38.json"
+ },
+ {
+  "id": "oa-39",
+  "title": "O'rol Amirov to'plami · 39-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-39.json"
+ },
+ {
+  "id": "oa-40",
+  "title": "O'rol Amirov to'plami · 40-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-40.json"
+ },
+ {
+  "id": "oa-41",
+  "title": "O'rol Amirov to'plami · 41-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-41.json"
+ },
+ {
+  "id": "oa-42",
+  "title": "O'rol Amirov to'plami · 42-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-42.json"
+ },
+ {
+  "id": "oa-43",
+  "title": "O'rol Amirov to'plami · 43-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-43.json"
+ },
+ {
+  "id": "oa-44",
+  "title": "O'rol Amirov to'plami · 44-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-44.json"
+ },
+ {
+  "id": "oa-45",
+  "title": "O'rol Amirov to'plami · 45-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-45.json"
+ },
+ {
+  "id": "oa-49",
+  "title": "O'rol Amirov to'plami · 49-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-49.json"
+ },
+ {
+  "id": "oa-50",
+  "title": "O'rol Amirov to'plami · 50-variant",
+  "src": "O'rol Amirov (to'plovchi B. Hikmatov, @Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/oa-50.json"
+ },
+ {
   "id": "smt-01",
   "title": "So'nggi muhim test · 1-variant",
   "src": "J. Boltayev (@TESTLIDER)",

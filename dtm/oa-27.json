@@ -1,0 +1,335 @@
+{
+"id": "oa-27",
+"items": [
+{
+"n": 1,
+"q": "O'zbekiston Respublikasi milliy valutasi - so'm qachon muomalaga kiritilgan?",
+"opts": [
+"1993-yil 1-iyun",
+"1994-yil 1-iyun",
+"1993-yil 1-iyul",
+"1994-yil 1-iyul"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Qaysi davlat rahbarining taklifi bilan \"Shanxay forum\"ining nomi \"Shanxay Hamkorlik Tashkiloti\" deb o'zgartilgan?",
+"opts": [
+"O'zbekiston",
+"Xitoy",
+"Rossiya",
+"Qirg'iziston"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Qaysi shaharda bo'lib o'tgan Kengashda MDH ning Nizomi qabul qilinadi?",
+"opts": [
+"Ostona",
+"Ashxabot",
+"Kiyev",
+"Minsk"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Oliy Kengash tomonidan \"O'zbekiston Respublikasining referendumi to'g'risida\" qaror qabul qilingan kunda qaysi davlat ramzimiz qabul qilingan?",
+"opts": [
+"O'zbekiston Respublikasinong Davlat gerbi",
+"O'zbekiston Respublikasining Davlat bayrog'i",
+"O'zbekiston Respublikasining Davlat madhiyasi",
+"O'zbekiston Respublikasining Davlat Konstitutsiyasi"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Nemislar 1940-yil 14-iyun kuni qaysi shaharni egallashgan?",
+"opts": [
+"Bryusell",
+"Praga",
+"Varshava",
+"Parij"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Turkiyaga besh asr qaram bo'lgan davlat 1927-yilda qaysi davlatning protektoratiga aylanadi?",
+"opts": [
+"Fransiya",
+"Italiya",
+"Buyuk Britaniya",
+"Germaniya"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Yaponiya qachon Sharqiy Osiyoda yangi tartib o'rnatishni e'lon qilgan?",
+"opts": [
+"1936-yil",
+"1938-yil",
+"1940-yil",
+"1942-yil"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Ikkinchi Jahon urushi davrida 10 nafar bolani asrab olgan yurtdoshimiz kim edi?",
+"opts": [
+"Fotima Qosimova",
+"Hamid Samadov",
+"Shoahmad Shomahmudov",
+"Jasur Yunusov"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "\"Berlinni olgani uchun\" medali bilan qancha o'zbekistonlik jangchi mukofotlangan?",
+"opts": [
+"348 jangchi",
+"1 706 jangchi",
+"2 738 jangchi",
+"1 753 jangchi"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "O'zbekistonda qachon lotin yozuvidagi alfavitdan kirillitsa yozuviga o'tildi?",
+"opts": [
+"1925-yil",
+"1929-yil",
+"1936-yil",
+"1940-yil"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "\"Atirgul inqilobi\" qaysi davlatda bo'lgan?",
+"opts": [
+"Ukraina",
+"Qirg'iziston",
+"Gruziya",
+"Qozog'iston"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "\"Ittifoqi Muslimin\" partiyasi qaysi shaharda tashkil etilgan?",
+"opts": [
+"Qo'qon",
+"Toshkent",
+"Samarqand",
+"Buxoro"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "1917-yil 14-martda tashkil etilgan partiyani toping.",
+"opts": [
+"\"Sho'royi Ulamo\"",
+"\"Sho'royi Islomiya\"",
+"\"Ittifoqi Muslimin\"",
+"\"Milliy Markaz\""
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "1930-yilda O'zbekistonda qoramollar qanchaga kamayib ketadi?",
+"opts": [
+"40 000 ga",
+"50 000 ga",
+"60 000 ga",
+"70 000 ga"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "1919-yil Hindistonning qaysi shahridagi tinch namoyishni ingliz qo'shinlari o'qqa tutadi?",
+"opts": [
+"Kalkutta",
+"Bombey",
+"Amritsar",
+"Dehli"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Nechanchi yildagi hujjatga ko'ra Buyuk Britaniya dominionlari bilan birgalikda \"Britaniya Millatlar Hamdo'stligi\" nomli ittifoqqa birlashadi?",
+"opts": [
+"1930-yil",
+"1931-yil",
+"1932-yil",
+"1933-yil"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Versal shartnomasi qarorlariga qarshi Xitoyda qanday nomdagi namoyish bo'lib o'tadi?",
+"opts": [
+"\"30-may harakatlari\"",
+"\"21-may harakatlari\"",
+"\"16-may harakatlari\"",
+"\"4-may harakatlari\""
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Qachon GFR va GDR birlashib yagona Germaniya davlati tashkil topgan?",
+"opts": [
+"1988-yil",
+"1989-yil",
+"1990-yil",
+"1991-yil"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "1995-yil iyunda quyidagi qaysi partiya tashkil etilgan?",
+"opts": [
+"O'zbekiston XDP",
+"O'zbekiston \"Adolat\" SDP",
+"O'zbekiston MTP",
+"O'zbekiston LiDeP"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "O'zbekistonda fuqarolar necha yoshidan Oliy Majlisga deputatlikka saylanishlari mumkin ?",
+"opts": [
+"18 yoshdan",
+"21 yoshdan",
+"25 yoshdan",
+"35 yoshdan"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Islom Karimov nechanchi yilda va qayerga tashrifida \"Xalqaro miqyosdagi lider\" mukofotiga sazovor bo'ladi?",
+"opts": [
+"2005-yil Rossiyaga",
+"1993-yil Fransiyaga",
+"2002-yil AQSHga",
+"1996-yil Turkmanistonga"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Qachon BMT Falastinda ikkita davlat: Falastin va Isroil davlatini tuzish haqida qaror qabul qilgan?",
+"opts": [
+"1948-yil",
+"1946-yil",
+"1947-yil",
+"1949-yil"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "XX asr oxirlarida qaysi davlatni ozod qilish operatsiyasi \"Sahrodagi bo'ron\" operatsiyasi nomini olgan?",
+"opts": [
+"Quvayt",
+"Eron",
+"Suriya",
+"Liviya"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "\"Lola inqilobi\" qaysi davlatda bo'lgan?",
+"opts": [
+"Ukraina",
+"Eron",
+"Qirg'iziston",
+"Polsha"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Buyuk Britaniya Folklend orollari uchun nechanchi yilda va qaysi davlatga qarshi urush olib borgan?",
+"opts": [
+"1982-yil Argentinaga qarshi",
+"1980-yil Braziliyaga qarshi",
+"1980-yil Argentinaga qarshi",
+"1982-yil Braziliyaga qarshi"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "AQSh Sovet davlatini qachon tan olgan?",
+"opts": [
+"1931-yilda",
+"1932-yilda",
+"1933-yilda",
+"1934-yilda"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Nechanchi yilda fuqarolarni qamoqqa olishga sanksiya berish huquqi prokuraturadan sudlarga o'tkazilgan?",
+"opts": [
+"1993-yil",
+"2000-yil",
+"2008-yil",
+"2011-yil"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "\"O'zbekiston havo yo'llari\" milliy aviakompaniyasi qachon tashkil topgan?",
+"opts": [
+"1991-yil",
+"1992-yil",
+"1993-yil",
+"1994-yil"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "\"O'zbekmuzey\" Respublika jamg'armasi qachon tuzilgan?",
+"opts": [
+"1995-yil",
+"1997-yil",
+"1996-yil",
+"1998-yil"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "1918-yil 18-fevralda Turkiston Muxtoriyatida hukumat rahbarligiga kim kelgan?",
+"opts": [
+"Mustafo Cho'qay",
+"Muhammadjon Tinishpayev",
+"Kichik Ergash",
+"Katta Ergash"
+],
+"ans": "C"
+}
+]
+}

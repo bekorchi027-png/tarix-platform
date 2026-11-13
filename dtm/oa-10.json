@@ -1,0 +1,335 @@
+{
+"id": "oa-10",
+"items": [
+{
+"n": 1,
+"q": "Xitoydagi qaysi sulola davrida qullarni ozod qilish haqida qonun qabul qilingan?",
+"opts": [
+"Tan",
+"Yuan",
+"Sun",
+"Min"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Qog'ozni sahifalash va kitobni muqovalash o'rta asrlarda qanday nom bilan atalgan?",
+"opts": [
+"sahhoflik",
+"lavvohlik",
+"sarroflik",
+"safforiylik"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Tarixchi Mirxond umrining ko'p qismini qaysi shaharda o'tkazgan?",
+"opts": [
+"Marv",
+"Balx",
+"Hirot",
+"Buxoro"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Qaysi hukmdor davrida Buxoro madrasalariga chet davlatlardan o'qishga keluvchilar soni ortib borgan?",
+"opts": [
+"Shohmurod",
+"Haydar",
+"Abdullaxon II",
+"Subhonqulixon"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Husayn Boyqaroning Xorazmdagi noibi Chin So'fi qaysi qabila vakili bo'lgan?",
+"opts": [
+"kenagas",
+"qatag'on",
+"qo'ng'irot",
+"mang'it"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "XX asr boshlarida Buyuk Britaniya qaysi davlatga 1,5 mln. dollar kapital kiritgan?",
+"opts": [
+"Meksika",
+"Argentina",
+"Braziliya",
+"Kuba"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Germaniya imperatori XI asr oxirida qaysi davlat knyaziga qirol unvonini taqdim etgan?",
+"opts": [
+"Polsha",
+"Chexiya",
+"Bolgariya",
+"Moraviya"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qaysi xalqning asosiy mashg'ulotlari chorvachilik, dehqonchilik, savdo karvonlariga xizmat ko'rsatish bo'lgan?",
+"opts": [
+"germanlar",
+"slavyanlar",
+"arablar",
+"koreyslar"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Buyuk Britaniya qachon eng yirik mustamlakachi davlatga aylandi?",
+"opts": [
+"XVI asr o'rtasida",
+"XVII asr boshida",
+"XVIII asr oxirida",
+"XIX asr o'rtalarida"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Maledoniyalik Aleksandr Chekka Aleksandriya qal'asini kimlarga qarshi kurashish uchun qurgan edi?",
+"opts": [
+"so'g'diylar",
+"massagetlar",
+"baqtriyaliklar",
+"saklar"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "1153-yilda o'g'uzlar Sulton Sanjarga qarshi isyon ko'targan edi. O'sha  Sulton Sanjar qaysi davlat hukmdori edi?",
+"opts": [
+"G'aznaviylar",
+"Qoraxitoylar",
+"Anushteginiylar",
+"Saljuqiylar"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Astronomiya, geografiya, matematika va tarix fanlari bo'yicha 160 dan ortiq asarlar yozgan alloma kim?",
+"opts": [
+"Beruniy",
+"Farg'oniy",
+"Farobiy",
+"Xorazmiy"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Qaysi Kiyev Rusi knyazi davrida Rus savdogarlariga Vizantiyada bojsiz savdo qilishga ruxsat berilgan?",
+"opts": [
+"Oleg",
+"Igor",
+"Olga",
+"Yaroslav"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "O'rta asrlarda yashagan qaysi olim kelajakda o'zi suzadigan kema, suv osti kemasi va havoda uchadigan apparatlar qurish mumkinligini aytgan?",
+"opts": [
+"Rober de Sorbon",
+"Franchesko Petrarka",
+"Iogann Gutenberg",
+"Rojer Bekon"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Rimda kimning o'limidan keyin sarkardalar o'rtasida kurash avj oldi va bu fuqarolar urushiga aylanib ketdi?",
+"opts": [
+"Trayan",
+"Feodosiy",
+"Sezar",
+"Oktavian"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "XX asr boshlarida qaysi davlatda universitetlarga kirish puli ikki baravarga oshirilib, ulardagi huquq fakultetlari yopib qo'yilgan?",
+"opts": [
+"Eron",
+"Misr",
+"Turkiya",
+"Hindiston"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Quyidagi temuriyzodalardan qaysi biri turkmanlarga qarshi jangda halok bo'lgan?",
+"opts": [
+"Pirmuhammad ibn Jahongir",
+"Shohrux ibn Temur",
+"Abulqosim Bobur ibn Boysung'ur",
+"Abu Said ibn Sulton Muhammad"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Qaysi atama lotinchadan \"homiy\", \"himoyachi\" deb tarjima qilinadi?",
+"opts": [
+"muxolifat",
+"monarxiya",
+"protektorat",
+"diktatura"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Qaysi ingliz qiroli kema yasaydigan ustalar topib, daniyaliklardan qolishmaydigan kemalar yasattiradi?",
+"opts": [
+"Qirol Artur",
+"Buyuk Alfred",
+"Buyuk Karl",
+"Vilgelm I"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Arablar Maymurg'ga hujum qilgan davrda xalifa kim edi?",
+"opts": [
+"xalifa Umar",
+"xalifa Usmon",
+"xalifa Ali",
+"xalifa Muoviya I"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Kiyevda Avliyo Sofiya ibodatxonasi qaysi asrda qurilgan?",
+"opts": [
+"IX asrda",
+"X asrda",
+"XI asrda",
+"XII asrda"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Kimning boshchiligidagi ekspeditsiya Xiva xonini Rossiya bilan kelishuv yo'lini axtarishga majbur etdi?",
+"opts": [
+"Bekovich-Cherkasskiy",
+"V. A. Perovskiy",
+"I. Buxgols",
+"I. Kirillov"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "\"Cho'ponlar\" she'rini qaysi qoraqalpoq shoiri yozgan?",
+"opts": [
+"Kunxo'ja Ibrohim",
+"Berdaq",
+"Jiyen Jirov",
+"Zevar"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Quyidagi hududlardan qaysi biri \"Janubiy Afrika Ittifoqi\"ga kirmagan?",
+"opts": [
+"Transvaal",
+"Buganda",
+"Oranj",
+"Kap"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "\"Iliada\" dostonining bosh qahramoni kim?",
+"opts": [
+"Paris",
+"Gektor",
+"Axilles",
+"Odissey"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Muhammad Xorazmshoh  1220-yilning aprelida qaysi hududga borgan?",
+"opts": [
+"Qunduz",
+"Badaxshon",
+"Nishopur",
+"G'azna"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Ozarbayjonda Bobak boshchiligida qo'zg'olon ko'tarilgan yilda arab xalifasi kim edi?",
+"opts": [
+"xalifa Mansur",
+"xalifa Xorun ar-Rashid",
+"xalifa Mu'tazid",
+"xalifa Ma'mun"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Toxariston sharqda qaysi hudud bilan chegaradosh bo'lgan?",
+"opts": [
+"Hisor tog'lari",
+"Hindikush tog'i",
+"Pomir tog'i",
+"Murg'ob va Xerirud vodiysi"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Qaysi hukmdor davrida Eron poytaxti Tehron shahriga ko'chirilgan?",
+"opts": [
+"Ismoil Safaviy",
+"Og'a Muhammad",
+"Shoh Abbos",
+"Nodirshoh"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Quyidagi qaysi obrazda kimsasiz orolda tirishqoqlik va o‘jarlik bilan uy quradi, ro‘zg‘or buyumlari va mebel yasaydi, hayvonlarni o‘rgatishi aks etgan?",
+"opts": [
+"Robinzon",
+"Gulliver",
+"Figaro",
+"Karl Moor"
+],
+"ans": "A"
+}
+]
+}

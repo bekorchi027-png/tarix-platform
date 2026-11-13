@@ -1,0 +1,350 @@
+{
+"id": "oa-20",
+"items": [
+{
+"n": 1,
+"q": "Ushbu devoriy tasvir qaysi shaharda joylashgan?",
+"opts": [
+"Afrosiyob",
+"Poykand",
+"Varaxsha",
+"Panjikent"
+],
+"ans": "C",
+"img": "img/dtm/oa-20-1.jpg"
+},
+{
+"n": 2,
+"q": "Rasmda qaysi shahar tasvirlangan?",
+"opts": [
+"Oybo'yirqal'a",
+"Qo'yqirilganqal'a",
+"Ko'zaliqir",
+"Tuproqqal'a"
+],
+"ans": "B",
+"img": "img/dtm/oa-20-2.jpg"
+},
+{
+"n": 3,
+"q": "\"Habib us-siyar\" asari quyidagi qaysi hudud tarixini o'rganishda muhim manba hisoblanmaydi?",
+"opts": [
+"O'rta Osiyo",
+"Eron",
+"Oltin O'rda",
+"Xuroson"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Ushbu tasvirdagi qal'a qayerda joylashgan?",
+"opts": [
+"Akvitaniyada",
+"Burgundiyada",
+"Flandriyada",
+"Normandiyada"
+],
+"ans": "D",
+"img": "img/dtm/oa-20-4.jpg"
+},
+{
+"n": 5,
+"q": "1910-yilda islom tarixiga oid asar yozgan jadid ma'rifatparvari kim edi?",
+"opts": [
+"A. Avloniy",
+"M. Behbudiy",
+"M. Abdurashidxonov",
+"A. Fitrat"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Ushbu miniaturada kim tasvirlangan?",
+"opts": [
+"Husayn Boyqaro",
+"Abulxayrxon",
+"Abdullaxon II",
+"Muhammad Shayboniyxon"
+],
+"ans": "D",
+"img": "img/dtm/oa-20-6.jpg"
+},
+{
+"n": 7,
+"q": "XIX asrda tashkil etilgan quyidagi davlatlardagi sotsial-demokratik partiyalarni tashkil etilgan yillari bo'yicha ketma-ketlikda joylashtiring.",
+"opts": [
+"1, 4, 2, 3",
+"4, 1, 3, 2",
+"1, 3, 4, 2",
+"3, 1, 2, 4"
+],
+"ans": "C",
+"extra": "1) Germaniya;\n2) Rossiya;\n3) Avstriya;\n4) Argentina."
+},
+{
+"n": 8,
+"q": "Ushbu tasvirdagi shaxs kim?",
+"opts": [
+"Xose San-Martin",
+"Simon Bolivar",
+"general Sukre",
+"Kabral"
+],
+"ans": "A",
+"img": "img/dtm/oa-20-8.jpg"
+},
+{
+"n": 9,
+"q": "XIX asr o'rtalarida Xiva xonligida doimiy yoki favqulodda soliqlarning nechta turi mavjud bo’lgan?",
+"opts": [
+"27 ta turi",
+"40 yaqin turi",
+"25 ta turi",
+"50 dan ortiq turi"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Quyidagilardan Galileo Galiley bilan bir yilda dunyoga kelgan shaxsni toping?",
+"opts": [
+"U. Shekspir",
+"M. Buonarroti",
+"I. Nyuton",
+"M. Servantes"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Quyidagi qaysi yapon shahri dengiz sohilida qurilgan?",
+"opts": [
+"Xeyyan",
+"Sapai",
+"Xakata",
+"Nagoya"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Rasmdagi shaxsni toping.",
+"opts": [
+"Zardusht",
+"Ahuramazda",
+"Mitra",
+"Anahita"
+],
+"ans": "B",
+"img": "img/dtm/oa-20-12.jpg"
+},
+{
+"n": 13,
+"q": "\"Gandamak\" bitimini  (a) va \"Gandimiyon\" shartnomasini (b) imzolagan O'rta Osiyo hukmdorlarini aniqlang.",
+"opts": [
+"a - Sheralixon, b - Asfandiyorxon",
+"a - Abdurahmon, b - Muhammad Rahimxon I",
+"a - Ayubxon, b - Said Muhammadxon",
+"a - Yoqubxon, b - Muhammad Rahimxon II"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Ushbu tasvirdagi tanga qaysi sulola davrida zarb etilgan?",
+"opts": [
+"Suy",
+"Tan",
+"Sun",
+"Yuan"
+],
+"ans": "B",
+"img": "img/dtm/oa-20-14.jpg"
+},
+{
+"n": 15,
+"q": "Muhammad Rahimbiy ham, Amir Nasrullo ham bo'ysundirgan bir hududni toping.",
+"opts": [
+"Urgut",
+"Miyonqol",
+"Kitob",
+"Shahrisabz"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Ushbu tasvirdagi shaxs qanday tuzum tarafdori bo'lgan?",
+"opts": [
+"Mutlaq monarxiya",
+"Konstitutsiyaviy monarxiya",
+"Prezidentlik Respublika",
+"Parlamentar Respublika"
+],
+"ans": "B",
+"img": "img/dtm/oa-20-16.jpg"
+},
+{
+"n": 17,
+"q": "Ilk o'rta asrlarda yurtimiz hududidagi shahristonlarda, asosan, qaysi tabaqa yashagan?",
+"opts": [
+"boy tabaqa",
+"dehqonlar va hunarmandlar",
+"chokarlar",
+"chet el savdogarlari"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Qaysi madrasalar devorlari tiniq zangori rang ustidan oq va yashil  gullar tushirilgan koshinlar bilan bezatilgan?",
+"opts": [
+"Hokim Oyim madrasasi, Sulton Murodbek madrasasi",
+"Baroqxon madrasasi, Mo'yi Muborak madrasasi",
+"Muhammad Aminxon madrasasi, Muhammad Rahimxon madrasasi",
+"Sherdor madrasasi, Tillakori madrasasi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Ushbu ansambl nechanchi asrda hozirgi qiyofada shakllangan?",
+"opts": [
+"XV asrda",
+"XVII asrda",
+"XVI asrda",
+"XVIII asrda"
+],
+"ans": "B",
+"img": "img/dtm/oa-20-19.jpg"
+},
+{
+"n": 20,
+"q": "1938-yilda Myunxen shartnomasini Fransiya hukumati nomidan kim imzolagan?",
+"opts": [
+"E. Dalad’e",
+"J. Klemanso",
+"D. Lloyd Jorj",
+"B. Mussolini"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "1832-yilda qaysi davlat kemalari Koreyaga savdo munosabatlarini o'rnatish taklifini bergan?",
+"opts": [
+"Fransiya",
+"AQSh",
+"Rossiya",
+"Buyuk Britaniya"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Lotin Amerkasi davlatlarining Ispaniya mustamlakachiligidan ozod bo'lishini xronologik ketmaketlikda joylashtiring.",
+"opts": [
+"2, 4, 1, 3, 5",
+"4, 2, 3, 5, 1",
+"1, 5, 3, 2, 4",
+"2, 1, 4, 5, 3"
+],
+"ans": "A",
+"extra": "1) Chili  2) Venesuela 3) Meksika  4) Argentina\n5) Boliviya"
+},
+{
+"n": 23,
+"q": "Quyidagi hududlardan qaysi biri boshqa yilda Chor Rossiyasi tomonidan bosib olingan?",
+"opts": [
+"Avliyoota",
+"Turkiston",
+"Chimkent",
+"Toshkent"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Rasmda tasvirlangan shaxsning kimligini toping.",
+"opts": [
+"Sechjon Buyuk",
+"Li Sun Sin",
+"Chjan Xe",
+"Van Gon"
+],
+"ans": "C",
+"img": "img/dtm/oa-20-24.jpg"
+},
+{
+"n": 25,
+"q": "\"Qrim urushi\" boshlangan (a) va tugallangan  (b) yillarda Rossiya imperatorlari kim edi?",
+"opts": [
+"a - Aleksandr II, b- Nikolay I",
+"a - Aleksandr II, b - Nikolay II",
+"a - Nikolay II, b - Aleksandr II",
+"a - Nikolay I, Aleksandr II"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Tasvirdagi sxemadan qaysi jangda foydalanilgan?",
+"opts": [
+"Xeroniya jangi",
+"Fermopil jangi",
+"Plateya jangi",
+"Marafon jangi"
+],
+"ans": "D",
+"img": "img/dtm/oa-20-26.jpg"
+},
+{
+"n": 27,
+"q": "Qachonga kelib o'zbek xalqi san'atida ramziylikka xos asriy an'analarga boy diniy-falsafiy mazmunidagi naqqoshlikdan bevosita real tasviriy san'atga o'tilish boshlandi?",
+"opts": [
+"XIX asr oxirida",
+"XX asr boshlarida",
+"XIX asr o'rtalarida",
+"XIX asr boshlarida"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Rasmdagi tanga qaysi sulola davrida zarb qilingan?",
+"opts": [
+"Somoniylar",
+"Temuriylar",
+"Qoraxoniylar",
+"Shayboniylar"
+],
+"ans": "A",
+"img": "img/dtm/oa-20-28.jpg"
+},
+{
+"n": 29,
+"q": "XIX asr oxiri - XX asr boshlarida Rossiya neft qazib chiqarish bo‘yicha dunyoda nechanchi o‘ringa chiqib olgan?",
+"opts": [
+"1-o'rin",
+"2-o'rin",
+"4-o'rin",
+"3-o'rin"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Rasmdagi shaxs nechanchi yilda taxtga chiqqan?",
+"opts": [
+"1530-yil",
+"1556-yil",
+"1605-yil",
+"1627-yil"
+],
+"ans": "B",
+"img": "img/dtm/oa-20-30.jpg"
+}
+]
+}

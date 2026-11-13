@@ -1,0 +1,335 @@
+{
+"id": "oa-49",
+"items": [
+{
+"n": 1,
+"q": "Yevropada kitoblar nechanchi asrdan arzonlasha boshlaydi?",
+"opts": [
+"XII asrdan",
+"XIII asrdan",
+"XIV asrdan",
+"XV asrdan"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Angliyani normannlar borib olishgach, mamlakat grafliklarga bo'linadi va ularning har biriga qirol vakili - ....",
+"opts": [
+"Graf tayinlanadi",
+"Gersog tayinlanadi",
+"Sherif tayinlanadi",
+"Baron tayinlanadi"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Qaysi salib yurishida xristianlar xristianlarga qarshi urush olib borishadi?",
+"opts": [
+"II salib yurishida",
+"III salib yurishida",
+"IV salib yurishida",
+"VI salib yurishida"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "O'rta asrlarda Xitoydagi yirik shaharlarda maktablar tashkil etilib, ularda kimlar tayyorlangan?",
+"opts": [
+"bo'lajak harbiylar",
+"bo'lajak xattotlar",
+"bo'lajak amaldorlar",
+"bo'lajak savdogarlar"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Qaysi davlat o'rta asr Yevropasiga asosiy madaniyat tarqatuvchi hisoblangan?",
+"opts": [
+"Franklar davlati",
+"Muqaddas Rim imperiyasi",
+"Kiyev Rusi",
+"Vizantiya"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Tarixchi Mavrikiy qayerlik bo'lgan?",
+"opts": [
+"Kiyev Rusi",
+"Vizantiya",
+"Arab xalifaligi",
+"Kordova amirligi"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "XIX asrning 60-yillarida Italiyaning birlashtirish jarayonida \"Yosh Italiya\" jamiyatiga kim rahnamolik qilgan?",
+"opts": [
+"Kamillo Kavur",
+"Juzeppe Garibaldi",
+"Benito Mussolini",
+"Juzeppe Madzini"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "1854-yilda qaysi davlat harbiy-dengiz floti Yaponiyani ochilishga majbur qilgan?",
+"opts": [
+"Fransiya",
+"AQSh",
+"Rossiya",
+"Buyuk Britaniya"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "XIX asrning oxiriga kelib Afrika qit'asi hududining necha foizi mustamlakachilar qo'liga o'tgan edi?",
+"opts": [
+"90 % i",
+"80 % i",
+"70 % i",
+"60 % i"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Nechanchi yilda Rim papasi \"Iso jamiyati\" ordenini ta'sis etgan?",
+"opts": [
+"1520-yilda",
+"1540-yilda",
+"1560-yilda",
+"1580-yilda"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "\"Tinch okeani\" nomini qaysi dengizchi nomlagan?",
+"opts": [
+"Vasko da Gama",
+"Fernando Magellan",
+"Villem Yanszon",
+"Abel Tasman"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Mashhur astranom Nikolay Kopernik qaysi millatga mansub bo'lgan?",
+"opts": [
+"rus",
+"nemis",
+"serb",
+"polyak"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Yevropa davlatlarining deyarli barchasi ishtirok etgan \"Yetti yillik urush\" natijasida eng katta foydani qaysi davlat oladi?",
+"opts": [
+"Angliya",
+"Germaniya",
+"Fransiya",
+"Rossiya"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "\"Tilzit shartnomasi\" qaysi davlatlar o'rtasida imzolangan?",
+"opts": [
+"Fransiya - Germaniya",
+"Germaniya - Italiya",
+"Angliya - Turkiya",
+"Rossiya - Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "\"Chartistlar harakati\" qaysi davlatda bo'lgan?",
+"opts": [
+"Fransiya",
+"Rossiya",
+"Turkiya",
+"Angliya"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "\"Yuz moddali farmon\" nomli qonunlar to'plami qaysi davlatda joriy qilingan?",
+"opts": [
+"Xitoy",
+"Turkiya",
+"Yaponiya",
+"Eron"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "XVI asrning ikkinchi yarmidan Yevropaning savdo chorraxalari Shimoliy dengiz qirg'oqlariga ko'chadi. Shundan so'ng qaysi shahar asosiy savdo markazi bo'lib qoladi?",
+"opts": [
+"Antverpen",
+"Bryuge",
+"Amsterdam",
+"Kopengagen"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Qaysi olim \"hokimiyatni bo'lish\" - ijro hokimiyatini qonun chiqaruvchi hokimiyatdan ajratish haqidagi ta'limotni ishlab chiqqan?",
+"opts": [
+"Nikolay Kopernik",
+"Jon Lokk",
+"Tomas Mor",
+"Isaak Nyuton"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Nechanchi yilda Fransiya tarixida birinchi marta konstitutsiya qabul qilingan?",
+"opts": [
+"1789-yil",
+"1795-yil",
+"1791-yil",
+"1793-yil"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Quyidagi qaysi davlat ichki siyosiy tarqoqlik tufayli XVII asrning ikkinchi yarmida Yevropaning kuchli davlatlari qo'lida qo'g'irchoqqa aylanib qolgan?",
+"opts": [
+"Turkiya",
+"Italiya",
+"Ispaniya",
+"Germaniya"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "XVI asr oxiri - XVII asr boshlarida qaysi davlat avvalgidek hujumkor qudratga ega bo'lmay qoldi?",
+"opts": [
+"Angliya",
+"Fransiya",
+"Ispaniya",
+"Turkiya"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi hukmdor \"Xatoiy\" taxallusida ijod qilgan?",
+"opts": [
+"Ismoil I Safaviy",
+"Abbos I Safaviy",
+"Nodirshoh",
+"Sulton Salim I"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "\"Iyul monarxiyasi\" nomi bilan tarixga kirgan hokimiyat qaysi davlatda bo'lgan?",
+"opts": [
+"Rossiya",
+"Turkiya",
+"Eron",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Efiopiya hukmdori Kassa kimning o'g'li bo'lgan?",
+"opts": [
+"o'qituvchining",
+"davlat amaldorining",
+"kichik yer egasining",
+"ruhoniyning"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Nechanchi yildagi shartnoma Buyuk Britaniya uchun Afg'onistonni vassal davlatga aylantirish yo'lidagi birinchi qadam bo'lgan?",
+"opts": [
+"1841-yildagi",
+"1855-yildagi",
+"1857-yildagi",
+"1879-yildagi"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Li Sze Xvan necha yoshida Koreya taxtiga chiqqan?",
+"opts": [
+"9 yoshida",
+"12 yoshida",
+"15 yoshida",
+"18 yoshida"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Safaviylar davlatida ijod qilgan shoir Mirza Shafiq qaysi millat vakili edi?",
+"opts": [
+"fors",
+"kurd",
+"turkman",
+"ozarbayjon"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "\"Austerlis jangi\" nechanchi yilda bo'lgan?",
+"opts": [
+"1798-yilda",
+"1805-yilda",
+"1807-yilda",
+"1813-yilda"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "\"Bobiylar qo'zg'oloni\" qaysi davlatda sodir bo'lgan?",
+"opts": [
+"Afg'onistonda",
+"Turkiyada",
+"Eronda",
+"Hindistonda"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Buyuk Kolumbiya davlati nechanchi yilda tashkil etilgan?",
+"opts": [
+"1818-yilda",
+"1816-yilda",
+"1821-yilda",
+"1819-yilda"
+],
+"ans": "D"
+}
+]
+}

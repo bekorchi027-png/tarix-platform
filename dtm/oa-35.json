@@ -1,0 +1,346 @@
+{
+"id": "oa-35",
+"items": [
+{
+"n": 1,
+"q": "Yulduzcha bilan belgilangan davlat hududidan topilgan  ibtidoiy odam turi qaysi davrda yashagan?",
+"opts": [
+"ilk paleolit",
+"o'rta paleolit",
+"so'nggi paleolit",
+"o'rta mezolit"
+],
+"ans": "A",
+"img": "img/dtm/oa-35-1.jpg"
+},
+{
+"n": 2,
+"q": "O'rta Osiyoda qadimgi davrda jangovar otlar ustiga va ko'kragiga yopilgan bargustvon nimadan yasalgan?",
+"opts": [
+"kumushdan",
+"misdan",
+"bronzadan",
+"temirdan"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Ushbu tasvir qaysi yodgorlikdan topilgan?",
+"opts": [
+"Xolchayon",
+"Varaxsha",
+"Afrosiyob",
+"Ayritom"
+],
+"ans": "D",
+"img": "img/dtm/oa-35-3.jpg"
+},
+{
+"n": 4,
+"q": "Qadimgi Rimda o'rta maktab qanday nomlangan?",
+"opts": [
+"Palestra",
+"Trivium",
+"Grammatika",
+"Kvadrium"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Ahamoniy hukmdor Kambiz II kimning o'g'li bo'lgan?",
+"opts": [
+"Kir I",
+"Kambiz I",
+"Kir II",
+"Kserks"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Yurtimiz hududidagi qadimgi davlatlardan qaysi birida mahalliy kulolchilik, qurolsozlik, zargarlik buyumlarning dovrug'i o'zga yurtlarga ham tarqalgan edi?",
+"opts": [
+"Qadimgi Xorazmda",
+"Qadimgi So'g'diyonada",
+"Qadimgi Baqtriyada",
+"Qadimgi Marg'iyonada"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Yulduzcha bilan belgilangan davlat hududida qadimda qaysi davlat vujudga kelgan?",
+"opts": [
+"Mitanni",
+"Finikiya",
+"Xett",
+"Midiya"
+],
+"ans": "C",
+"img": "img/dtm/oa-35-7.jpg"
+},
+{
+"n": 8,
+"q": "Yulduzcha bilan belgilangan davlat hududida qadimda qaysi davlat mavjud bo'lgan?",
+"opts": [
+"Xett",
+"Bobil",
+"Midiya",
+"Mitanni"
+],
+"ans": "D",
+"img": "img/dtm/oa-35-8.jpg"
+},
+{
+"n": 9,
+"q": "Quyidagi shaxslardan qaysi biri Parfiyada hukmdor bo'lgan?",
+"opts": [
+"Kiaksar",
+"Yevtidem",
+"Mitridat I",
+"Kanishka"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Quyidagilardan qaysi biri qadim zamonlarda Frot va Dajla daryolari yuqori oqimidagi kichik hududda yashaganlar?",
+"opts": [
+"finikiyaliklar",
+"ossuriyaliklar",
+"mitanniliklar",
+"kassitlar"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Rasmdagi Qadimgi Misrda qaysi xudo hisoblangan?",
+"opts": [
+"Tot",
+"Apis",
+"Xapi",
+"Set"
+],
+"ans": "B",
+"img": "img/dtm/oa-35-11.jpg"
+},
+{
+"n": 12,
+"q": "Quyidagilardan qaysi biri Surxondaryo hududida joylashmagan?",
+"opts": [
+"Qiziltepa shahar yodgorligi",
+"Sopollitepa manzilgohi",
+"Jarqo'ton manzilgohi",
+"Surxko'tal yodgorligi"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Rasmdagi shaxs qaysi asrda yashagan?",
+"opts": [
+"miloddan avvalgi VI asrda",
+"miloddan avvalgi V asrda",
+"miloddan avvalgi IV asrda",
+"miloddan avvalgi VII asrda"
+],
+"ans": "C",
+"img": "img/dtm/oa-35-13.jpg"
+},
+{
+"n": 14,
+"q": "Yunonlarning Pantikapey koloniyasi qaysi dengiz bo'yida joylashgan?",
+"opts": [
+"Egey dengizi",
+"Qora dengiz",
+"O'rta Yer dengizi",
+"Kaspiy dengizi"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Buyuk Ipak yo'li orqali Xitoyga qaysi hududdan tuyalar olib borilgan?",
+"opts": [
+"Baqtriya",
+"So'g'diyona",
+"Marg'iyona",
+"Badaxshon"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Rimni talab, o'zlari bilan olib ketolmaydigan hamma narsani nobud qilgan bosqinchilar kimlar edi?",
+"opts": [
+"gotlar",
+"langobardlar",
+"vandallar",
+"xunnlar"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Oromiy yozuvi asosidagi kushon-baqtriya alifbosi asosidagi yozuv namunalari qayerdan topilgan?",
+"opts": [
+"Xolchayon yodgorligi",
+"Dalvarzintepa yodgorligi",
+"Surxko'tal yodgorligi",
+"Qadimgi Termiz yodgorligi"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Yulduzcha bilan belgilangan davlat bilan bog'liq to'g'ri ma'lumotni toping.",
+"opts": [
+"Sezar yakka hokimlik uchun oshkora kurash boshlagan paytda bu yerda Pompey qo'shini bo'lgan",
+"Sezar o'ldirilgach Brut shu yerga qochib ketgan",
+"Trayan davrida bu hudud Rim imperiyasi tarkibiga kirgan",
+"miloddan avvalgi II asr o'rtalarida bu hudud yonib ketgan"
+],
+"ans": "A",
+"img": "img/dtm/oa-35-18.jpg"
+},
+{
+"n": 19,
+"q": "Quyidagi fir'avnlardan qaysi biri Yangi podsholik davrida hukmronlik qilmagan?",
+"opts": [
+"Tutanxamon",
+"Menes",
+"Tutmos II",
+"Yaxmos"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Qachon Old Osiyoda xo'jalikning yangi tarmoqlari - ibtidoiy ziroatchilik va chorvachilik vujudga kelgan?",
+"opts": [
+"Neolit davri boshida",
+"Mezolit davri boshida",
+"Mezilit davri o'rtasida",
+"Mezolit davri oxirida"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Miloddan avvalgi 539-yilda Kir II qaysi hududni bosib olgan?",
+"opts": [
+"Armaniston",
+"Lidiya",
+"Bobil",
+"Midiya"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Rasmdagi faylasuf kim?",
+"opts": [
+"Aristotel",
+"Aristofan",
+"Arximed",
+"Aflotun"
+],
+"ans": "C",
+"img": "img/dtm/oa-35-22.jpg"
+},
+{
+"n": 23,
+"q": "Old Osiyodagi eng yirik sopol taxtachalardan iborat kutubxona qaysi shaharda tashkil etilgan?",
+"opts": [
+"Oshshur",
+"Nineviya",
+"Xattusa",
+"Tushpa"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Yulduzcha bilan belgilangan yarimorol nomini toping.",
+"opts": [
+"Apennin yarimoroli",
+"Pireney yarimoroli",
+"Yukatan yarimoroli",
+"Bolqon yarimoroli"
+],
+"ans": "A",
+"img": "img/dtm/oa-35-24.jpg"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi voqealar miloddan avvalgi III asr o'rtalarida sodir bo'lmagan?",
+"opts": [
+"Rim butun Italiyani zabt etishga erishdi",
+"Parfiya Salavkiylar davlati tarkibidan ajralib chiqadi",
+"Yunon-Baqtriya davlati tarixi boshlandi",
+"Karfagen butunlay vayronaga aylandi"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Yunonistonning shimolidan janubiga olib boradigan birdan-bir yo'l qayerdan o'tgan?",
+"opts": [
+"Fermopil darasidan",
+"Salamin bo'g'ozidan",
+"Marafon tekisligidan",
+"Gellespont bo'g'ozidan"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Rasmda qaysi urush tasvirlangan?",
+"opts": [
+"Yunon-fors urushi",
+"Yunon-makedon urushi",
+"Troya urushi",
+"Peloponnes urushi"
+],
+"ans": "C",
+"img": "img/dtm/oa-35-27.jpg"
+},
+{
+"n": 28,
+"q": "\"Rim tarixi\" asarining muallifi kim?",
+"opts": [
+"Tit Liviy",
+"Tatsit",
+"Plutarx",
+"K. K. Ruf"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "Qaysi davrda insoniyat idishlarni pishirish uchun kulolchilik xumdonlaridan foydalanishga kirishgan?",
+"opts": [
+"Mezolit",
+"Neolit",
+"Eneolit",
+"Bronza"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Ushbu rasmdagi topilmalar qaysi yodgorlikdan topilgan?",
+"opts": [
+"Ayritom yodgorligi",
+"Xolchayon yodgorligi",
+"Dalvarzintepa yodgorligi",
+"Surxko'tal yodgorligi"
+],
+"ans": "C",
+"img": "img/dtm/oa-35-30.jpg"
+}
+]
+}

@@ -1,0 +1,336 @@
+{
+"id": "oa-42",
+"items": [
+{
+"n": 1,
+"q": "Muhammad Islom va uning avlodlari o'zlarining kelib chiqishini ota tomondan kimga bog'lashgan?",
+"opts": [
+"Muhammad payg'ambar avlodlariga",
+"Amir Temur avlodlariga",
+"Ahmad Yassaviy avlodlariga",
+"Chingizxon va uning avlodlariga"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Abdullaxon II nechanchi yilda o'zini rasman xon deb e'lon qilgan?",
+"opts": [
+"1551-yilda",
+"1556-yilda",
+"1577-yilda",
+"1583-yilda"
+],
+"ans": "D",
+"img": "img/dtm/oa-42-2.jpg"
+},
+{
+"n": 3,
+"q": "Makkaga hajga borayotib yo'lda vafot etgan ashtarxoniy hukmdor kim edi?",
+"opts": [
+"Imomqulixon",
+"Nodir Muhammad",
+"Abdulazizxon",
+"Boqi Muhammad"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "XIX asrda Xiva xonligida madrasalar soni nechtani tashkil etgan?",
+"opts": [
+"22 tani",
+"80 tani",
+"103 tani",
+"360 tani"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Qo'qon xonligidagi zakotning qaysi turi qishda yig'ib olingan?",
+"opts": [
+"qo'raboshi",
+"cho'p puli",
+"tutun haqi",
+"qozon puli"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Buxoro amirligida 300 tanob va undan kam bo'lgan hudud qanday nomlangan?",
+"opts": [
+"hazora",
+"qoriya",
+"marza",
+"amlok"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Ruboiynavislikning Bobur Mirzodan keyingi taraqqiyoti kimning nomi bilan bog'liq?",
+"opts": [
+"Shayboniyxon",
+"Ubaydullaxon",
+"Umarxon",
+"Subhonqulixon"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Xurosonning Marv, Nishopur, Mashhad kabi yirik shaharlarini egallagan shayboniy hukmdor kim edi?",
+"opts": [
+"Ko'chkunchixon",
+"Navro'z Ahmadxon",
+"Ubaydullaxon",
+"Abdullaxon II"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "\"Buxoro shoirlari taxtida sulton\" deb ulug'langan shaxs qayerda tug'ilgan?",
+"opts": [
+"Toshkent",
+"Samarqand",
+"Qarshi",
+"Shahrisabz"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Qur'oni Karimni qiroat bilan o'qish san'ati to'g'risidagi ilm qanday nomlanadi?",
+"opts": [
+"\"Haftiyak\"",
+"\"Tafsir\"",
+"\"Farzi ayn\"",
+"\"Tavjud\""
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Qo'qon xonligida xon saroyida qozi askar lavozimida ishlagan shaxsning tarixiy asarini toping.",
+"opts": [
+"\"Shohnomayi nusratpayom\"",
+"\"Umarnoma\"",
+"\"Muntaxab ut-tavorix\"",
+"\"Tarixi jadidayi Toshkand\""
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Ajiniyoz \"Qiz Mengesh bilan aytishuv\" asarini nechanchi yilda yozgan?",
+"opts": [
+"1878-yilda",
+"1876-yilda",
+"1874-yilda",
+"1872-yilda"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Qoraqalpoq xalqining X - XI asrlarda tashkil etilgan davlatining poytaxti qaysi shahar edi?",
+"opts": [
+"Jonkent",
+"Kerder",
+"Sig'noq",
+"Xo'jayli"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Xiva xoni Muhammad Rahimxon I ning tashkil etgan muntazam qo'shini qancha askardan iborat bo'lgan?",
+"opts": [
+"ming nafar askar",
+"ikki ming nafar askar",
+"uch ming nafar askar",
+"to'rt ming nafar askar"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Subhonqulixon tomonidan Xivaga noib qilib tayinlangan Shohniyoz dastlab qanday lavozimda ishlagan?",
+"opts": [
+"eshikog'aboshi",
+"dasturxonchi",
+"miroxur",
+"parvonachi"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Rossiyaga borgan Polvonquli qurchi kimning elchisi bo'lgan?",
+"opts": [
+"Amir Doniyolbiy otaliqning",
+"Amir Shohmurodning",
+"Amir Haydarning",
+"Amir Nasrulloning"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Buxoro amirligida kimlar \"dorukash\" deb atalgan?",
+"opts": [
+"daraxt tomirlaridan shifobaxsh dori tayyorlovchilar",
+"porox ishlab chiqaruvchi hunarmandlar",
+"afyun savdosi bilan shug'ullanuvchi savdogarlar",
+"kumush qoshiq tayyorlovchi hunarmandlar"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Shayboniylar davlatida harbiy qurolsozlik ustaxonasiga rahbarlik qilgan harbiy qanday nomlangan?",
+"opts": [
+"jevachi",
+"yasovul",
+"qurchi",
+"qo'rxona boshlig'i"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Shayboniylar davlatida hukmdor uchun maxsus yig'ilgan soliq qaysi?",
+"opts": [
+"zobitona",
+"yasoq",
+"ixrojot",
+"madadi lashkar"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Quyidagi qaysi tarixiy shaxs muhtojlik oqibatida Namanganga kelib markidorlik qilgan?",
+"opts": [
+"Abdulkarim Fazliy Namangoniy",
+"Maxmur",
+"Gulxaniy",
+"Ahmad Donish"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Quyidagilardan qaysi biri Norbo'tabiyning katta o'g'li hisoblanadi?",
+"opts": [
+"Muhammad Aminbek",
+"Olimbek",
+"Umarbek",
+"Rustambek"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Avval Mo'ynoqdagi eski maktabda o'qib, keyin Xivadagi Sherg'ozixon madrasasida ilm olgan qoraqalpoq shoirini toping?",
+"opts": [
+"Kunxo'ja Ibrohim",
+"Jiyen Jirov",
+"Ajiniyoz",
+"Berdaq"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "51 yil davomida maktabda o'qituvchilik qilib, 890 nafar qizning savodini chiqargan shoira kim edi?",
+"opts": [
+"Nodira",
+"Uvaysiy",
+"Anbar Otin",
+"Dilshodi Barno"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Ogahiy qanday oilada tug'ilgan?",
+"opts": [
+"xazinabon",
+"mirob",
+"soliq yig'uvchi",
+"mirshab"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Buxoro xoni Abdullaxon II nechanchi yilda Xiva xonligini uzil-kesil bo'ysundirgan?",
+"opts": [
+"1584-yil",
+"1589-yil",
+"1595-yil",
+"1598-yil"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "XIX asrning 40-yillarida Xiva xonligining hududi qanchani tashkil etgan?",
+"opts": [
+"13 ming kv. km.",
+"19 ming kv. km.",
+"25 ming kv. km.",
+"31 ming kv. km."
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Buxoro amirligida qaysi lavozim \"quyi qo'shbegi\" deb ham nomlangan?",
+"opts": [
+"devonbegi",
+"otaliq",
+"mehtar",
+"parvonachi"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Muhammad Rahimbiy Samarqand shahrini tiklash ishlarini nimadan boshlagan?",
+"opts": [
+"shaharga suv chiqarishdan",
+"shaharga aholi ko'chirib keltirishdan",
+"shahar mudofaa devorini tiklashdan",
+"shahardagi hunarmandlar va savdogarlarga soliqlar miqdorini kamaytirishdan"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "1845-yilda Marv viloyatini qaysi davlat egallagan?",
+"opts": [
+"Eron",
+"Buxoro amirligi",
+"Xiva xonligi",
+"Afg'oniston"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Qaysi hukmdor barcha mang'it beklariga katta yermulkni tanho qilib beradi?",
+"opts": [
+"Muhammad Rahimbiy",
+"Doniyolbiy otaliq",
+"Shohmurod",
+"Haydar"
+],
+"ans": "B"
+}
+]
+}

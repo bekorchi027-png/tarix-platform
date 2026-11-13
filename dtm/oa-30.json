@@ -1,0 +1,335 @@
+{
+"id": "oa-30",
+"items": [
+{
+"n": 1,
+"q": "O'zbekiston SSRda birinchi besh yillikda nechta yangi sanoat korxonasi qurilgan?",
+"opts": [
+"189 ta",
+"169 ta",
+"289 ta",
+"279 ta"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "1935-yil martda qaysi davlatda umumiy harbiy majburiyat joriy qilingan?",
+"opts": [
+"Buyuk Britaniya",
+"Germaniya",
+"Ispaniya",
+"Fransiya"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "1919-yil oktabrda Pomirning Ergashtom ovulida kim \"Farg'ona muvaqqat hukumati\"ning boshlig'i va qo'shinlarning oliy bosh qo'mondoni etib saylangan?",
+"opts": [
+"Madaminbek",
+"Kichik Ergash",
+"Shermuhammadbek",
+"Katta Ergash"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "1921-yilda kim Xitoy prezidenti etib saylangan?",
+"opts": [
+"Mao Szedun",
+"Sun Yat Sen",
+"Yuan Shikay",
+"Chan Kayshi"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "1917-yil aprelda Turkiston o'lka musulmonlar sho'rosiga kim rais qilib saylangan?",
+"opts": [
+"Mustafo Cho'qay",
+"Ahmad Zakiy Validiy",
+"Munavvarqori Abdurashidxonov",
+"Muhammadjon Tinishpayev"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Jahon iqtisodiy inqirozi yillarida qaysi davlatlarda diktatorlik rejimi ag'darilgan?",
+"opts": [
+"Kolumbiya va Kubada",
+"Urugvay va Chilida",
+"Braziliya va Argentinada",
+"Kuba va Chilida"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Alisher Navoiy nomidagi Davlat mukofoti qachon ta'sis etilgan?",
+"opts": [
+"1991-yil",
+"1993-yil",
+"1995-yil",
+"1997-yil"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Quyidagi prezidentlardan qaysi biri o'z davlatida birinchi prezident emas?",
+"opts": [
+"Mircha Snegur",
+"Askar Akayev",
+"Leonid Kravchuk",
+"Gurbanguli Berdimuhammedov"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Toshkentda Islom universitetiga asos solingan yildan 10 yil o'tib quyidagi qaysi oliy ta'lim muassasasi tashkil etilgan?",
+"opts": [
+"Xalqaro Vestminster Universiteti",
+"Moskva Davlat Universitetining filiali",
+"Singapur menejmentni rivojlantirish universiteti filiali",
+"Turin politexnika universiteti filiali"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "2007-yilda Buyuk Britaniyda Toni Bler iste'foga chiqqanidan keyin kim bosh vazir lavozimini egallagan?",
+"opts": [
+"David Kameron",
+"Gordon Broun",
+"Jon Meyjor",
+"Tereza Mey"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "O'zbekistondan Qora dengiz, Boltiq dengizi, Yapon dengizi va Shimoliy dengizlarga olib chiquvchi eng qisqa temiryo'li qancha masofani tashkil etadi?",
+"opts": [
+"qariyb 3 ming kilometrni",
+"qariyb 4 ming kilometrni",
+"qariyb 5 ming kilometrni",
+"qariyb 6 ming kilometrni"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Nechanchi yilda Asaka shahridagi avtomobil zavodida \"Lasetti\" avtomobili ishlab chiqarish yo'lga qo'yiladi?",
+"opts": [
+"2001-yil",
+"2003-yil",
+"2005-yil",
+"2007-yil"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Germaniyaning taslim bo'lganligi haqidagi shartnomani SSSR nomidan kim imzolangan?",
+"opts": [
+"V. Molotov",
+"G. K. Jukov",
+"I. Stalin",
+"N. Xrushchyov"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "\"O'zbekiston Respublikasi Mustaqillik asoslari to'g'risida\"gi Qonun necha moddadan iborat (b) ?",
+"opts": [
+"17 moddadan",
+"15 moddadan",
+"28 moddadan",
+"12 moddadan"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "\"Marshall rejasi\" qachon qabul qilingan?",
+"opts": [
+"1946-yil aprel",
+"1947-yil iyun",
+"1948-yil may",
+"1949-yil mart"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "O'zbekiston Respublikasi Konstitutsiyasi Oliy Kengashning nechanchi chaqiriq, nechanchi sessiyasida qabul qilingan?",
+"opts": [
+"o'n ikkinchi chaqiriq o'n birinchi sessiyasida",
+"o'n birinchi chaqiriq o'n ikkinchi sessiyasida",
+"o'n ikkinchi chaqiriq o'n ikkinchi sessiyasida",
+"o'n birinchi chaqiriq o'n birinchi sessiyasida"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "\"Qo'shilmaslik harakati\" nechanchi yilda tashkil etilgan?",
+"opts": [
+"1949-yil",
+"1955-yil",
+"1961-yil",
+"1972-yil"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Turkiston Muxtoriyatining poytaxtini toping.",
+"opts": [
+"Toshkent",
+"Marg'ilon",
+"Qo'qon",
+"Samarqand"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Italiya nechanchi yilda Yevropa Iqtisodiy Hamkorligini tuzish to'g'risidagi Rim shartnomasini imzolagan?",
+"opts": [
+"1951-yilda",
+"1953-yilda",
+"1955-yilda",
+"1957-yilda"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Quloqlashtirish paytida O'zbekiston SSRda sovet tuzumiga qarshi dehqonlarning necha marta noroziliklar, qurolli chiqishlari bo'lib o'tgan?",
+"opts": [
+"120 marta",
+"240 marta",
+"360 marta",
+"480 marta"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi voqea nisbatan keyinroq sodir bo'lgan?",
+"opts": [
+"SSSRning Polshaga bostirib kirishi",
+"Germaniyaning SSSRga bostirib kirishi",
+"Italiyaning Fransiyaga urush e'lon qilishi",
+"SSSRning Yaponiyaga qarshi urushga kirishi"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "XX asrning ikkinchi yarmida  quyidagi qaysi davlatda \"Birdamlik\" harakati tashkil etilgan?",
+"opts": [
+"Xitoy",
+"O'zbekiston SSRda",
+"Polshada",
+"Chexoslavakiyada"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Xiva shahri qizil armiya tomonidan bosib olingach, Junaidxon qayerga chekinadi?",
+"opts": [
+"Oloy vodiysiga",
+"Qoraqum sahrosiga",
+"Qizilqum sahrosiga",
+"Mirzacho'l sahrosiga"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Iroq qo'shini Eronga bostirib kirgan yilda AQShda prezident saylovlarida kim g'alaba qozongan?",
+"opts": [
+"R. Reygan",
+"J. Karter",
+"Jorj Bush",
+"J. Ford"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "O'zbekiston Respublikasining mustaqilligi Oliy Kengashning nechanchi sessiyasida e'lon qilingan?",
+"opts": [
+"II sessiyasida",
+"IV sessiyasida",
+"VI sessiyasida",
+"VIII sessiyasida"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Tog'li Qorabog' uchun qaysi davlatlar kurash olib bormoqda?",
+"opts": [
+"Gruziya va Ozarbayjon",
+"Ozarbayjon va Turkiya",
+"Turkiya va Armaniston",
+"Armaniston va Ozarbayjon"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "O'zbekiston Respublikasida xususiylashtirish jarayonini tashkil qilish va unga rahbarlik qilish uchun nechanchi yilda \"Davlat mulkini boshqarish va xususiylashtirish Davlat qo'mitasi\" tashkil etilgan?",
+"opts": [
+"1992-yil fevralda",
+"1993-yil martda",
+"1994-yil aprelda",
+"1995-yil mayda"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "SSSR tashkil etilganidan necha yil o'tib SSSRning birinchi Konstitutsiyasi qabul qilingan?",
+"opts": [
+"o'sha yilda",
+"1 yildan keyin",
+"2 yildan keyin",
+"3 yildan keyin"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "1992-yilda yurtimizdagi qaysi shaharlarda milliy kurash bo'yicha ilk xalqaro musobaqa o'tkazilgan?",
+"opts": [
+"Qarshi va Shahrisabz",
+"Shahrisabz va Termiz",
+"Termiz va Qarshi",
+"Qarshi va Buxoro"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "1936-yil 18-iyulda qaysi davlatda fuqarolar urushi boshlangan?",
+"opts": [
+"Xitoyda",
+"Fransiyada",
+"Ispaniyada",
+"SSSRda"
+],
+"ans": "C"
+}
+]
+}

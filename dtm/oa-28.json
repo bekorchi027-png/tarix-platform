@@ -1,0 +1,335 @@
+{
+"id": "oa-28",
+"items": [
+{
+"n": 1,
+"q": "O'zbekistondagi birinchi metallurgiya zavodi qaysi shaharda ishga tushirilgan?",
+"opts": [
+"Olmaliqda",
+"Bekobodda",
+"Qo'qonda",
+"Navoiyda"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Jahon iqtisodiy inqirozi yillarida qaysi davlatda sanoat ishlab chiqarish hajmi 50 % ga qisqargan?",
+"opts": [
+"AQSH",
+"Germaniya",
+"Fransiya",
+"Buyuk Britaniya"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Qachon Toshkentda BMTning vakolatxonasi ochilgan?",
+"opts": [
+"1992-yil sentabrda",
+"1993-yil oktabrda",
+"1994-yil noyabrda",
+"1995-yil dekabrda"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Lotin Amerikasi davlatlariga nisbatan \"yaxshi qo'shnichilik\" siyosatini e'lon qilgan AQSh prezidentini toping.",
+"opts": [
+"G. Guver",
+"G. Trumen",
+"V. Vilson",
+"F. D. Ruzvelt"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Mustaqillik yillarida qaysi hudud paxtakorlari tashabbusi bilan chigitni plyonka ostiga ekish texnologiyasi joriy qilingan?",
+"opts": [
+"Samarqandlik paxtakorlar",
+"Andijonlik paxtakorlar",
+"Jizzaxlik paxtakorlar",
+"Farg'onalik paxtakorlar"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "SSSR tarkibiga oxirgi - 15-bo'lib kirgan sovet davlatini toping.",
+"opts": [
+"Armaniston",
+"Estoniya",
+"Tojikiston",
+"Moldava"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "1975-yilda qaysi imperiya parchalanib ketadi?",
+"opts": [
+"Britaniya imperiyasi",
+"Ispaniya imperiyasi",
+"Portugaliya imperiyasi",
+"Yaponiya imperiyasi"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Munavvarqori Abdurashidxonov boshchilik qilgan \"Milliy Ittihod\" va \"Milliy Istiqlol\" tashkilotlarining 87 nafar a'zosi qamoqqa olingan. Shulardan necha nafari otuvga hukm qilingan?",
+"opts": [
+"8 nafari",
+"15 nafari",
+"23 nafari",
+"31 nafari"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Yerning birinchi suniy yo'ldoshini qaysi davlat uchirgan?",
+"opts": [
+"SSSR",
+"Buyuk Britaniya",
+"AQSh",
+"Xitoy"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Nechanchi yilda Xorazm Xalq Sovet Respublikasi (XXSR) nomi Xorazm Sovet Sotsialistik Respublikasi (XSSR) ga o'zgargan?",
+"opts": [
+"1921-yil",
+"1922-yil",
+"1923-yil",
+"1924-yil"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qirg'izistonning birinchi prezidenti kim?",
+"opts": [
+"A. Akayev",
+"Q. Bakiyev",
+"A. Atambayev",
+"S. Jeenbekov"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "\"Sayudis\" harakati qaysi davlatda tuzilgan?",
+"opts": [
+"Latviya",
+"Gruziya",
+"Litva",
+"Estoniya"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "O'zbekiston Respublikasi Konstitutsiyasi umumxalq muhokamasi davrida qancha taklif va mulohazalar bildirilgan?",
+"opts": [
+"4 000 dan ortiq",
+"6 000 dan ortiq",
+"4 000 ga yaqin",
+"6 000 ga yaqin"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Germaniya tarixidagi ilk ayol kansler nechanchi yildagi saylovlardan keyin saylangan?",
+"opts": [
+"1979-yil",
+"1972-yil",
+"1998-yil",
+"2005-yil"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "O'zbekiston Respublikasi Prezidentining qaysi sanadagi farmoniga asosan Ichki ishlar vazirligi, Davlat xavfsizlik qo'mitasi respublika tasarrufiga o'tgan?",
+"opts": [
+"1991-yil 21-avgust",
+"1991-yil 20-avgust",
+"1991-yil 25-avgust",
+"1991-yil 28-avgust"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "1991-yil Hindistonda qaysi bosh vazir suiqasd qurboni bo'lgan?",
+"opts": [
+"Mahatma Gandi",
+"Indra Gandi",
+"Farrux Gandi",
+"Rajiv Gandi"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Toshkent shahrida joylashgan \"Turkiston\" saroyi qachon ishga tushirilgan?",
+"opts": [
+"1991-yil",
+"1992-yil",
+"1993-yil",
+"1994-yil"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "1938-yil Hasan ko'li yonidagi jangda qaysi davlat mag'lubiyatga uchragan?",
+"opts": [
+"SSSR",
+"Mo'g'iliston",
+"Xitoy",
+"Yaponiya"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "1920-yil Butun Buxoro Inqilobiy Qo'mitasi raisligiga kim saylangan?",
+"opts": [
+"Abduqodir Muhitdinov",
+"Fayzulla Xo'jayev",
+"Nizomiddin Xo'jayev",
+"Sobir Yusupov"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Lotin Amerikasi davlatlarining qaysi birida 1930yilda konservativ oligarxiya ag'darilib, liberalislohotchilar hokimiyat tepasiga kelgan?",
+"opts": [
+"Braziliya",
+"Peru",
+"Argentina",
+"Kolubmiya"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Ikkinchi Jahon urushigacha O'zbekistonning qaysi hududida elektr kimyo kombinati ishga tushirilgan?",
+"opts": [
+"Bekobodda",
+"Chirchiqda",
+"Olmaliqda",
+"Yangiyo'lda"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Fashizm qaysi davlatda paydo bo'lgan?",
+"opts": [
+"Ispaniya",
+"Italiya",
+"Germaniya",
+"Yaponiya"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "1917-yil noyabrda Turkiston XKS tuzilgan paytda uning tarkibiga necha nafar mahalliy aholi vakili kiritilgan edi?",
+"opts": [
+"8 nafar",
+"7 nafar",
+"3 nafar",
+"mahalliy aholidan birorta vakil kiritilmagan"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "1939-yil 17-sentabrda qaysi davlat qo'shini Polshaga bostirib kirgan?",
+"opts": [
+"Germaniya",
+"Italiya",
+"SSSR",
+"Buyuk Britaniya"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Respublikamizda maktab ta'limini rivojlantirish Davlat umummilliy dasturi qachon qabul qilingan?",
+"opts": [
+"1997-yil",
+"2001-yil",
+"2004-yil",
+"2009-yil"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Salvador Alende XX asr ikkinchi yarmida qaysi Lotin Amerikasi davlatida prezidentlikka saylangan?",
+"opts": [
+"Chili",
+"Argentina",
+"Peru",
+"Meksika"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Nechanchi yilda O'zbekiston Respublikasida yoshlarning \"Kamolot\" jamg'armasi tashkil etilgan?",
+"opts": [
+"1997-yil",
+"2001-yil",
+"1996-yil",
+"2000-yil"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "1991-yildagi saylovlarda kim Armanistonning birinchi prezidentligiga saylanadi?",
+"opts": [
+"Ter Petrosyan",
+"Serj Sargsyan",
+"R. Kocharyan",
+"Samvel Babayan"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "XX asrning 80-yillari oxiri va 90 yillari boshlarida yurtimizda qanday nomdagi ayollar harakati tashkil etilgan?",
+"opts": [
+"\"Zulfiya\"",
+"\"Nodira\"",
+"\"To'maris\"",
+"\"Barchinoy\""
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Saddam Hussayn davrida Iroq qaysi davlatlarga bosqinchilik urushlarini olib borgan?",
+"opts": [
+"Turkiya va Quvayt",
+"Quvayt va Eron",
+"Eron va Suriya",
+"Suriya va Ozarbayjon"
+],
+"ans": "B"
+}
+]
+}

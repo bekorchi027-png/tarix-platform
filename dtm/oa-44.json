@@ -1,0 +1,335 @@
+{
+"id": "oa-44",
+"items": [
+{
+"n": 1,
+"q": "Buxoro xonligida Oliy bosh qo'mondon (xon) va sarkardalarni qaysi maxsus qism qo'riqlagan?",
+"opts": [
+"katta va kichik g'ullar",
+"chanoh",
+"hirovul",
+"qalb"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Temuriylar davrida bitta kumush tanganing og'irligi 4,8 gramm bo'lib, uning qiymati nechta mis tangaga teng bo'lgan?",
+"opts": [
+"24 ta",
+"18 ta",
+"12 ta",
+"6 ta"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Ernazar elchi madrasasi qaysi shaharda qurilgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Xiva",
+"Qo'qon"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Buxoro amirligidagi tog'larda qaysi mahsulot yetishtirilgan?",
+"opts": [
+"tog' bodomi",
+"tog' yong'oqi",
+"tog' jiydasi",
+"tog' pistasi"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Quyidagi qaysi tarixiy shaxs 1226-1283-yillarda yashab o'tgan?",
+"opts": [
+"Ibn al-Asir",
+"Juvayniy",
+"Sa'diy Sheroziy",
+"Rashiduddin Fazlulloh"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Pyotr I qaysi sanada Xiva xonligini tobelikka olish haqidagi farmonni imzolagan?",
+"opts": [
+"1699-yil 30-mayda",
+"1700-yil 30-iyunda",
+"1701-yil 30-iyulda",
+"1702-yil 30-avgustda"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Andijon qachondan boshlab Farg'ona vodiysining markaziga aylangan?",
+"opts": [
+"XIV asrdan",
+"XV asrdan",
+"XVI asrdan",
+"XVII asrdan"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Boborahim Mashrab necha yoshdan boshlab tasavvuf ilmini o'rgangan?",
+"opts": [
+"12 yoshidan",
+"15 yoshidan",
+"18 yoshidan",
+"21 yoshidan"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Xitoy nechanchi yilda Sharqiy Turkistonni o'ziga bo'ysundirgan?",
+"opts": [
+"1755-yilda",
+"1759-yilda",
+"1825-yilda",
+"1829-yilda"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Kimning hukmronligi davrida Toshkent Qo'qon xonligi tarkibiga qo'shib olingan?",
+"opts": [
+"Umarxon",
+"Madalixon",
+"Norbo'tabiy",
+"Olimxon"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "\"Xorazmning sug'orilish tarixi\" asarining muallifi kim?",
+"opts": [
+"I. Mo'minov",
+"D. Alimova",
+"M. Yo'ldoshev",
+"Y. G'ulomov"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Volga daryosidan Irtish daryosigacha, Kaspiy va Orol dengizi bo'ylaridan Kama daryosigacha bo'lgan hududlarni o'z ichiga olgan xonlikni toping?",
+"opts": [
+"Qrim xonligi",
+"Astraxan xonligi",
+"Sibir xonligi",
+"No'g'ay xonligi"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Munis \"Savodi ta'lim\" asarini nechanchi yilda yozgan?",
+"opts": [
+"1800-yilda",
+"1802-yilda",
+"1804-yilda",
+"1806-yilda"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Xiva xonligida dehqon xo'jaliklariga ijaraga berilgan 5 tanobgacha yerlardan yiliga qancha soliq olingan?",
+"opts": [
+"4 tilla",
+"3 tilla",
+"2 tilla",
+"1 tilla"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Buxoro amirligida XIX asrda sug'oriladigan yerlarning necha foiziga paxta ekilgan?",
+"opts": [
+"90 %",
+"80 %",
+"75 %",
+"65 %"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Buxoro xonligida XVII asrda otliq askar uchun asosiy qurol qaysi edi?",
+"opts": [
+"to'fang",
+"o'q-yoy",
+"cho'qmor",
+"nayza"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Qaysi ashtarxoniy hukmdor davrida tanga qadri 4 barobarga kamaygan?",
+"opts": [
+"Subhonqulixon",
+"Abulfayzxon",
+"Ubaydullaxon II",
+"Abdulazizxon"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Amir Haydarning jiyani Sayyid Ahmad xoja Fayziy qaysi shahar begi bo'lgan?",
+"opts": [
+"Shahrisabz",
+"Samarqand",
+"Qarshi",
+"Balx"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Qaysi yozuvchi o'z asarlarida jamiyatdagi ijtimoiy tengsizlik, adolatsizlik va odamlar fe'lidagi illatlarni tanqid ostiga olgan?",
+"opts": [
+"Muhammadniyoz Nishotiy",
+"Mujrim Obid",
+"Vola",
+"Ahmad Donish"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Qaysi Buxoro amiri yuborgan elchilar Rossiya hukumati oldiga Ural daryosining Osiyo qit'asi qismidan amirlik savdogarlariga haq to'lamasdan chorva mollari boqishlari uchun joy ajratib berish masalasini qo'yishgan?",
+"opts": [
+"Amir Haydar",
+"Amir Doniyolbiy",
+"Amir Shohmurod",
+"Amir Nasrullo"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "\"Saralangan tarixlar\" asarining muallifi kim?",
+"opts": [
+"Abulkarim Fazliy Namangoniy",
+"Mirzo Qalandar Mushrif Isfarangiy",
+"Muhammad Hakimxon to'ra ibn Ma'sumxon",
+"Muhammad Solih"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "XIX asrning 30-40-yillarida Qo'qon xonligida jami qancha askar bo'lgan?",
+"opts": [
+"30 ming askar",
+"40 ming askar",
+"50 ming askar",
+"60 ming askar"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Turkman yovmitlari nechanchi yilda Xiva xonligida hokimiyatni amalda o'z qo'liga olishgan?",
+"opts": [
+"1762-yilda",
+"1764-yilda",
+"1766-yilda",
+"1768-yilda"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Xiva xonligida kimning davrida Arabxon madrasasi qayta qurilgan?",
+"opts": [
+"Muhammad Amin inoq",
+"Avaz Muhammad inoq",
+"Muhammad Rahimxon I",
+"Olloqulixon"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Buxoro xonligida tosh otuvchi qurol nima deb atalgan?",
+"opts": [
+"To'fandoz",
+"Naftandoz",
+"Manjanaq",
+"Zambarak"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Jonibek Sultonning o'g'li Din Muhammad qayerda bo'lib o'tgan jangda halok bo'lgan?",
+"opts": [
+"Xorazm",
+"Xuroson",
+"Sibir",
+"Astraxan"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Amir Nasrullo quyidagi qaysi shaharni 40 kun qamal qilgan?",
+"opts": [
+"Xiva",
+"Kitob",
+"Toshkent",
+"Qo'qon"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Kiyev Rusi davlatiga kim asos solgan?",
+"opts": [
+"Ryurik",
+"Oleg",
+"Igor",
+"Svyatoslav"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Numisma o'rta asrlarda qaysi davlatning pul birligi bo'lgan?",
+"opts": [
+"Sharqiy Rim imperiyasi",
+"Muqaddas Rim imperiyasi",
+"G'arbiy Rim imperiyasi",
+"Yangi Rim imperiyasi"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Qayerda ko'tarilgan qo'zg'olon shiori \"Qirq yil qul bo'lib yashagandan bir kun ozod bo'lib yashagan ma'qul\" bo'lgan?",
+"opts": [
+"Iroq",
+"Ispaniya",
+"Ozarbayjon",
+"Xuroson"
+],
+"ans": "C"
+}
+]
+}

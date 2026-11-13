@@ -1,0 +1,335 @@
+{
+"id": "oa-12",
+"items": [
+{
+"n": 1,
+"q": "Parfenon ibodatxonasi Akropolning qaysi qismida joylashgan?",
+"opts": [
+"g'arbiy qismida",
+"sharqiy qismida",
+"shimoliy qismida",
+"markazida"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Ilk o'rta asrlar ganchkorlik san'ati namunalari qaysi yodgorlikdan topilgan?",
+"opts": [
+"Varaxsha",
+"Panjikent",
+"Afrosiyob",
+"Poykand"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "G'oirxon asir olingach qaysi shaharga olib borilib qiynab o'ldiriladi?",
+"opts": [
+"Buxoro",
+"Samarqand",
+"Urganch",
+"G'azna"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Buxoroda sodir bo'lgan qaysi qo'zg'olon natijasida mulkdor dehqonlar va boy savdogarlar Buxoro viloyatini tark etib,Turkiston va Taroz atrofiga borib o'rnashadilar?",
+"opts": [
+"750-yildagi qo'zg'olon",
+"585-586-yillardagi qo'zg'olon",
+"961-yildagi qo'zg'olon",
+"1238-yildagi qo'zg'olon"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Qaysi shoir o'z asarlarida jamiyatdagi ijtimoiy tengsizlik, adolatsizlik, odamlar fe'lidagi illatlarni tanqid ostiga oladi?",
+"opts": [
+"Mujrim-Obid",
+"Vola",
+"Muhammadniyoz Nishotiy",
+"Mirzo Abdulqodir Bedil"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Rossiya Qo'qonning qaysi qal'asini bosib olishni mo'ljallayotgani ma'lum bo'lgach, Rossiya-Qo'qon munosabatlari yanada keskinlashadi?",
+"opts": [
+"Avliyoota",
+"Pishpak",
+"Oqmachit",
+"Julek"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Suvaysh kanali ochilganidan necha yil o'tib Buyuk Britaniya Misr hukumatidan Suvaysh kanalining 45 % aksiyasini sotib oladi?",
+"opts": [
+"4 yil",
+"12 yil",
+"6 yil",
+"8 yil"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Tosh davrlari bo'yicha to'g'ri berilgan ma'lumotni toping.",
+"opts": [
+"So'nggi paleolit davrida qabilalar doimiy turar joylar qurila boshlagan",
+"Neolit davrida xom g'ishtdan ko'p xonali uylar qurila boshlandi",
+"Mezolit davri oxirida Kichik Osiyoda ibtidoiy ziroatchilik va chorvachilik vujudga kelgan",
+"Neolit davrida Qadimgi Sharqning turli viloyatlarida ishlab chiqaruvchi xo'jalikka o'tish boshlanadi"
+],
+"ans": "D"
+},
+{
+"n": 9,
+"q": "Yangi davr boshlarida qaysi ingliz qiroli katolik dinini qayta tiklash uchun harakat boshlagan?",
+"opts": [
+"Karl I",
+"Yakov II",
+"Karl II",
+"Yakov I"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "XVII asrdan qul savdosida yetakchilik qilishni kimlar o‘z qo‘liga olgan?",
+"opts": [
+"ispanlar",
+"gollandlar",
+"fransuzlar",
+"portugallar"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Yusuf Xos Hojib \"Qutadg'u bilig\" asarini kimga tortiq qilgan?",
+"opts": [
+"Horun Bug'roxonga",
+"Tavg'och Bug'roxonga",
+"Abdulkarim Sotuk Bug'roxonga",
+"Nasr Eloqxonga"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Sinklit so'zi qaysi tildan olingan?",
+"opts": [
+"lotincha",
+"yunoncha",
+"nemischa",
+"fransuzcha"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "O'rta asrlarga oid qaysi hukm noto'g'ri?",
+"opts": [
+"G'arbiy Rim imperiyasi 81 yil yashagan",
+"Asparux 20 yil davlatni boshqargan",
+"IX asrda Xitoyda kitob bosish dastgohi yaratilgan",
+"franklarning chek yerlari VI asr oxirlaridan allodga aylanadi"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "O'rta asrlarga oid qaysi hodisa XIV asr oxirida sodir bo'lmagan ?",
+"opts": [
+"Londonda birinchi usti yopiq bozor qurilishi",
+"Songai davlatiga asos solinishi",
+"To'xtamishxon Oltin O'rdani o'n besh yilga birlashtirishi",
+"Moskva va Tver shaharlari rus yerlarining yangi markazlari sifatida yuksalishi"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Salib yurishlari davrida qaysi omil xristianlarga istilo qilingan hududlarni 200 yilcha qo'lda saqlash imkonini bergan?",
+"opts": [
+"Falastindagi mo'l-ko'l o'ljalar",
+"Yaqin Sharq hududida kuchli davlat bo'lmaganligi",
+"Yevropadan kelayotgan ritsarlar oqimi",
+"Musulmon davlatlarining zaiflasha borishi"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Qadimgi Misr tarixi bo'yicha xato ma'lumotni toping.",
+"opts": [
+"Yaxmos asos solgan podsholik davriga kelib piramidalar qurmay qo'yishgan",
+"mis va temir rudasiga hamda boshqa foydali qazilmalarga boy bo'lgan ikki mamlakatdan Misrga hunarmandlar yasagan nodir buyumlar va qimmatbaho toshlar olib kelingan",
+"homiysi Amon bo'lgan shahar orqali o'tadigan yo'l Sinay yarimoroliga olib borgan",
+"Janubiy Falastin va Nubiyaning shimoli qo'shib olingan podsholik davrida piramidalar qurilgan"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Ibn Sino tug'ilgan yilda G'aznaviylar davlati hukmdori kim edi?",
+"opts": [
+"Alptegin",
+"Sobuqtegin",
+"Mahmud G'aznaviy",
+"Ma'sud G'aznaviy"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "\"Buyuk Temur\" nomli sahna asarini yozgan shaxsni toping.",
+"opts": [
+"Perondino",
+"Pero Meksika",
+"Xristofar Morlo",
+"Klavixo"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "AQSH bilan Panama Respublikasi o'rtasida Panama kanali to'g'risida shartnoma tuzilgan yilda AQSh prezidenti kim edi?",
+"opts": [
+"G. Taft",
+"T. Ruzvelt",
+"V. Vilson",
+"S. Klivlend"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "XV-XVI asrlarda Andijon shahrining nechta darvozasi bo'lgan?",
+"opts": [
+"12 ta",
+"4 ta",
+"9 ta",
+"3 ta"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Afgoniston hukmdori Do‘st Muhammadxon necha yil davlatni boshqargan?",
+"opts": [
+"37 yil",
+"20 yil",
+"30 yil",
+"32 yil"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Qachonga kelib Yevropaning savdo chorrahalari Shimoliy dengiz qirg‘oqlariga ko‘chdi?",
+"opts": [
+"XVI asr o'rtalarida",
+"XVI asr ikkinchi yarmida",
+"XVII asr o'rtalarida",
+"XVII asr boshlarida"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Fransiyada qaysi hujjat so‘z va matbuot erkinliklari hamda xususiy mulkning daxlsizligi kabi burjua huquqlarini e’lon qilgan?",
+"opts": [
+"\"Imtiyozlarni tugatish haqida dekret\"",
+"\"Inson va fuqaro huquqlari Deklaratsiyasi \"",
+"1791-yilda qabul qilingan Konstitutsiya",
+"1795-yilda qabul qilingan Konstitutsiya"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "\"Shoh Edip\" tragediyasini kim yozgan?",
+"opts": [
+"Esxil",
+"Gomer",
+"Sofokl",
+"Aristofan"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Qaysi davlatda 1881-1882-yillarda ta'lim to'g'risidagi qonun qabul qilingan?",
+"opts": [
+"Germaniya",
+"Fransiya",
+"Buyuk Britaniya",
+"Yaponiya"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "\"Jaloliddin Manguberdi \" ordeni ta'sis etilgan yilda quyidagi qaysi shaxs yubileyi nishonlangan?",
+"opts": [
+"Berdaq",
+"Ajiniyoz",
+"N. Kubro",
+"K. Behzod"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Tarixchi Mirxond qaysi shaharda tavallud topgan?",
+"opts": [
+"Balx",
+"Marv",
+"Hirot",
+"Buxoro"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Kim olam abadiy mavjud, u hech qachon yo‘q bo‘lmaydi, degan xulosani dadil ilgari surgan?",
+"opts": [
+"Galileo Galiley",
+"Jordano Bruno",
+"Nikolay Kopernik",
+"Bedil"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Oydo'stbiy boshchiligida qoraqolpoqlar qo’zg’alon ko’targan vaqtda Xiva xoni kim edi?",
+"opts": [
+"Muhammad Rahimxon I",
+"Said Muhammadxon",
+"Olloqulixon",
+"Abulg’oziyxon"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Nechanchi yildan keyin Shvetsiya buyuk davlat maqomini yo'qotdi?",
+"opts": [
+"1700-yil",
+"1709-yil",
+"1721-yil",
+"1725-yil"
+],
+"ans": "C"
+}
+]
+}

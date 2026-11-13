@@ -1,0 +1,335 @@
+{
+"id": "oa-08",
+"items": [
+{
+"n": 1,
+"q": "O'rta Osiyoda qaysi asrda shishasozlik rivojlangan?",
+"opts": [
+"IV asrda",
+"V asrda",
+"VI asrda",
+"VII asrda"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Dunyoda birinchi temiryo’l qurilgan yili quyidagi shaxslardan kimning hukmronligi tugagan?",
+"opts": [
+"Nikolay I",
+"Muhammad Rahimxon I",
+"Lyudovik XVIII",
+"Amir Haydar"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Rivojlangan o'rta asrlarda qaysi davlatda qirol farmoniga ko'ra, asosiy yo'llarga tosh yotqizilgan?",
+"opts": [
+"Germaniya",
+"Angliya",
+"Italiya",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "XIX asr ikkinchi yarmida qaysi davlatda o'qotar qurollarni saqlamaslik haqida akt qabul qilingan?",
+"opts": [
+"Xitoy",
+"Yaponiya",
+"Hindiston",
+"Eron"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Bosvort yaqinidagi jang nechanchi yilda sodir bo'lgan?",
+"opts": [
+"1346-yil",
+"1415-yil",
+"1485-yil",
+"1066-yil"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "XVIIII asr oxiriga kelib, faqat Qohira shahrining о’zini hisoblaganda chet ellar bilan savdo qiladigan qancha savdogar faoliyat yuritardi?",
+"opts": [
+"3 mingta",
+"5 mingta",
+"7 mingta",
+"9 mingta"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Xiva shahridagi Kalta Minor qaysi hukmdor davrida bunyod etilgan?",
+"opts": [
+"Muhammad Amin inoq",
+"Muhammad Rahimxon I",
+"Olloqulixon",
+"Muhammad Aminxon"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Amir Temur davlatida favqulodda voqealardan xabar beruvchi qancha askar bo'lgan?",
+"opts": [
+"ming nafar otliq va ming nafar piyoda",
+"ming nafar piyoda va besh yuz nafar otliq",
+"besh yuz nafar piyoda va besh yuz nafar otliq",
+"ikki yuz nafar piyoda va besh yuz nafar otliq"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Davlat - shaxs - tarixiy hodisa mos kelmagan javobni belgilang.",
+"opts": [
+"Ahamoniylar davlati - Kir II - Lidiya egallanishi",
+"Rim - Konstantin - poytaxt ko'chirilishi",
+"Kushon - Kanishka - pul islohoti",
+"Afina - Perikl - demokratiya ravnaq topishi"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "\"Ish haqi minimumi\" to'g'risidagi qonun qaysi davlatda qabul qilingan?",
+"opts": [
+"Fransiya",
+"AQSh",
+"Buyuk Britaniya",
+"Germaniya"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "O'rta Osiyoda tarjima adabiyot qaysi sulola davrida vujudga kelgan?",
+"opts": [
+"Shayboniylar",
+"Somoniylar",
+"Temuriylar",
+"Qoraxoniylar"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi allomalardan qaysilari bir asr farq bilan dunyoga kelishgan?",
+"opts": [
+"Al-Xorazmiy va Al-Farobiy",
+"Abu Sahl Masihiy va Al-Moturidiy",
+"Mahmud Zamaxshariy va Beruniy",
+"Ibn Sino va Farg'oniy"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Paragvay davlati nechanchi yilda mustaqillikka erishgan?",
+"opts": [
+"1813-yil",
+"1816-yil",
+"1811-yil",
+"1825-yil"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Quyidagi qaysi asar Xiva xonligi, uning shaharlari haqida muhim ma'lumotlar beradi?",
+"opts": [
+"\"Dili g'aroyib\"",
+"\"Eng go'zal tarix\"",
+"\"Esdaliklar\"",
+"\"O'rta Osiyo bo'ylab sayohat\""
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Majusiy arablarda qaysi xudo dahshatli va halokatli hisoblangan?",
+"opts": [
+"Astar",
+"Sin",
+"Lat",
+"Quyosh xudosi"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Qaysi Usmonli turklar hukmdori  Bursa shahrini egallagan?",
+"opts": [
+"Usmon",
+"O'rxon",
+"Boyazid I",
+"Mexmet II"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Yunonlar Troya urushi tugagandan keyin qaysi dengiz orqali uylariga qaytishadi?",
+"opts": [
+"Egey dengizi",
+"Qora dengiz",
+"Ioniya dengizi",
+"Azov dengizi"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Napaleon Bonapart vafot etgan yili O'rta Osiyoning qaysi hududida qo'zg'olon ko'tarilgan?",
+"opts": [
+"Marv viloyati",
+"Xo'jayli shahrida",
+"Miyonqolda",
+"Toshkent bekligida"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Nechanchi yilda Rossiyada dvoryanlarni jinoyat va nojo‘ya qilmishlari uchun boyarlar sudiga berish taqiqlanadi?",
+"opts": [
+"1549-yilda",
+"1649-yilda",
+"1721-yilda",
+"1775-yilda"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Qoraxoniylar davlati tugatilib, Qoraxitoylar hokimiyati o'rnatilgan yili Xorazm hukmdori kim edi?",
+"opts": [
+"Qutbiddin Muhammad",
+"Otsiz",
+"Elarslon",
+"Takash"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "VI asrda Chirchiq, Zarafshon, Qashqadaryo va Amudaryo havzalarida qancha voha hokimliklari mavjud bo'lgan?",
+"opts": [
+"o'nga yaqin",
+"o'n beshdan ortiq",
+"o'ndan ortiq",
+"o'n beshga yaqin"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Qaysi Afg'oniston amiri yopiq siyosat olib borgan?",
+"opts": [
+"Sheralixon",
+"Yoqubxon",
+"Abdurahmon",
+"Habibulloxon"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Qaysi asrga kelib G'arbiy Yevropada qurilish sohasi taraqqiy etadi?",
+"opts": [
+"X asrga",
+"XI asrga",
+"XII asrga",
+"XIII asrga"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Meshko I qaysi daryo havzasidagi polyaklarni birlashtirib davlatga asos solgan?",
+"opts": [
+"Vltava",
+"Dnepr",
+"Itil",
+"Visla"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Qaysi shahardagi saroy afsonaviy va xayoliy qushlar tasviri bilan bezatilgan?",
+"opts": [
+"Moxenjodaro",
+"Bobil",
+"Persepol",
+"Tuproqqal'a"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Marv vohasining bosh to'g'oni - Sultonband qaysi asrlarda buzib tashlangan?",
+"opts": [
+"IX asr va XVIII asrda",
+"XIII asr va XIX asrda",
+"VII asr va XIX asrda",
+"XIII asr va XVIII asrda"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "\"Tarixi Ma'sudiy\" asarining muallifi kim?",
+"opts": [
+"Narshaxiy",
+"Ishtaxriy",
+"Bayhaqiy",
+"Gardiziy"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Buyuk Britaniya imperiyasi nechanchi yilda tashkil topgan?",
+"opts": [
+"1707-yilda",
+"1716-yilda",
+"1858-yilda",
+"1876-yilda"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Xalqdan olinadigan soliqlarni ko'paytirgan mang'it hukmdorini toping.",
+"opts": [
+"Muhammad Rahimbiy",
+"Doniyolbiy Otaliq",
+"Shohmurod",
+"Haydar"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Qaysi elchilik missiyasi Markaziy Osiyoda ingliz savdosining rivojlanishiga yordam bergan?",
+"opts": [
+"Antoniy Jenkinson",
+"Murkford",
+"Aleksandr Byorns",
+"Jeyms Abbot"
+],
+"ans": "C"
+}
+]
+}
