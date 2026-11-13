@@ -18,6 +18,29 @@ const DBK = TOKEN ? sha("oz-bot-db:" + TOKEN) : "";
 const WHK = TOKEN ? sha("oz-bot-wh:" + TOKEN).slice(0, 48) : "";
 
 let TESTS = null;
+const SEC = {};
+// Points per section ("Siyosiy tarix", ...) from the test file and the attempt's per-task scores.
+function sections(testId, perTask){
+  try{
+    if(!SEC[testId]) SEC[testId] = JSON.parse(fs.readFileSync(path.join(process.cwd(), "tests", testId.replace(/[^\w-]/g, "") + ".json"), "utf8")).items;
+    const got = new Map((perTask || []).map(r => [r.n, Number(r.got) || 0])), out = new Map();
+    for(const it of SEC[testId]){ const s = out.get(it.section) || {nom:it.section, got:0, max:0}; s.got += got.get(it.n) || 0; s.max += Number(it.pts) || 0; out.set(it.section, s); }
+    return [...out.values()];
+  }catch(e){ return []; }
+}
+// The student's photo from Telegram, or null (then the certificate shows a smiling sticker).
+async function photoOf(u){
+  if(!u || !u.photo_id) return null;
+  try{
+    const f = await tg("getFile", {file_id:u.photo_id}); if(!f.ok) return null;
+    const r = await fetch(`https://api.telegram.org/file/bot${TOKEN}/${f.result.file_path}`); if(!r.ok) return null;
+    const buf = Buffer.from(await r.arrayBuffer());
+    return {buf, mime: buf[0] === 0x89 ? "image/png" : "image/jpeg"};
+  }catch(e){ return null; }
+}
+function certData(u, a, photo){
+  return {familiya:u.last_name, ism:u.first_name, title:testTitle(a.test_id), score:Number(a.score), date:dateUz(a.created_at), sections:sections(a.test_id, a.per_task), photo};
+}
 function testTitle(id){
   if(!TESTS){ try{ TESTS = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(process.cwd(), "tests.json"), "utf8")).map(t => [t.id, t.title])); }catch(e){ TESTS = {}; } }
   return TESTS[id] || id;
@@ -38,7 +61,7 @@ async function rpc(fn, args){
 const getUser = chat => rpc("oz_bot_user", {p_chat:chat});
 const saveUser = (chat, p) => rpc("oz_bot_user_save", {p_chat:chat, p});
 
-const MENU = {keyboard:[[{text:"📝 Test yechish"},{text:"🏆 Natijalarim"}],[{text:"✏️ Ismni o'zgartirish"},{text:"ℹ️ Yordam"}]], resize_keyboard:true};
+const MENU = {keyboard:[[{text:"📝 Test yechish"},{text:"🏆 Natijalarim"}],[{text:"✏️ Ma'lumotlarni o'zgartirish"},{text:"ℹ️ Yordam"}]], resize_keyboard:true};
 const send = (chat, text, extra = {}) => tg("sendMessage", {chat_id:chat, text, parse_mode:"HTML", disable_web_page_preview:true, ...extra});
 const H = s => String(s ?? "").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 const fullName = u => [u.first_name, u.last_name].filter(Boolean).join(" ");
@@ -64,9 +87,9 @@ async function sendCertificate(chat, user, attemptId){
   const a = await rpc("oz_bot_claim", {p_chat:chat, p_attempt:attemptId});
   if(a.holat === "yoq") return send(chat, "Bu natija topilmadi. Test oxirida \"Sertifikatni Telegramda olish\" tugmasini qayta bosib ko'ring.", {reply_markup:MENU});
   if(a.holat === "band") return send(chat, "Bu natijaning sertifikati boshqa Telegram hisobiga berilgan. Har kim o'z natijasini o'zi oladi 🙂", {reply_markup:MENU});
-  const score = Number(a.score), ism = fullName(user), title = testTitle(a.test_id);
+  const score = Number(a.score), title = testTitle(a.test_id);
   await tg("sendChatAction", {chat_id:chat, action:"upload_photo"});
-  const png = sertifikatPng({ism, title, score, date:dateUz(a.created_at), code:String(a.id).slice(0,8).toUpperCase()});
+  const png = sertifikatPng(certData(user, a, await photoOf(user)));
   const st = await rpc("oz_bot_results", {p_chat:chat});
   const lvl = levelOf(score), nx = nextLevel(score);
   const best = st.soni > 1 && Number(st.eng) <= score;
@@ -88,7 +111,7 @@ async function sendCertificate(chat, user, attemptId){
   fd.append("reply_markup", JSON.stringify({inline_keyboard:[
     [{text:"🔁 Yana test yechish", url:SITE + "/"}, {text:"📤 Ulashish", url:share}],
     [{text:"📄 Sifatli fayl (chop etish uchun)", callback_data:"f:" + a.id}],
-    [{text:"✏️ Ism xato bo'lsa — tuzatish", callback_data:"t:" + a.id}]
+    [{text:"✏️ Ism yoki rasmni o'zgartirish", callback_data:"t:" + a.id}]
   ]}));
   fd.append("photo", new Blob([png], {type:"image/png"}), `sertifikat-${String(a.id).slice(0,8)}.png`);
   return tg("sendPhoto", fd);
@@ -98,7 +121,7 @@ async function sendFile(chat, user, attemptId){
   const a = await rpc("oz_bot_claim", {p_chat:chat, p_attempt:attemptId});
   if(a.holat !== "ok") return;
   await tg("sendChatAction", {chat_id:chat, action:"upload_document"});
-  const png = sertifikatPng({ism:fullName(user), title:testTitle(a.test_id), score:Number(a.score), date:dateUz(a.created_at), code:String(a.id).slice(0,8).toUpperCase()});
+  const png = sertifikatPng(certData(user, a, await photoOf(user)));
   const fd = new FormData();
   fd.append("chat_id", String(chat));
   fd.append("caption", "Chop etish uchun yuqori sifatli nusxa 🖨");
@@ -118,10 +141,10 @@ const HELP = `<b>O'zing O'rgan</b> boti tarix testlaringiz uchun sertifikat bera
 
 1️⃣ <a href="${SITE}">ozing-organ.uz</a> saytida Milliy sertifikat variantini yeching.
 2️⃣ Natija sahifasida <b>"Sertifikatni Telegramda olish"</b> tugmasini bosing.
-3️⃣ Bot ism-familiyangiz yozilgan sertifikatni yuboradi.
+3️⃣ Bot ism-familiyangiz yozilgan sertifikatni yuboradi (rasm ixtiyoriy, bo'lmasa kulgich stiker 😊).
 
 🏆 Natijalarim — barcha natijalaringiz va eng yaxshi ball.
-✏️ Ismni o'zgartirish — sertifikatdagi ismni tuzatish.`;
+✏️ Ma'lumotlarni o'zgartirish — ism, telefon yoki rasmni yangilash.`;
 
 async function onMessage(m){
   const chat = m.chat.id, text = String(m.text || "").trim();
@@ -134,11 +157,11 @@ async function onMessage(m){
     const arg = start[1] || "";
     const cm = arg.match(/^c_([0-9a-f-]{36})$/i);
     if(cm){
-      if(u && u.first_name && u.last_name){ await saveUser(chat, {step:null, pending:null}); return sendCertificate(chat, u, cm[1]); }
-      await send(chat, "🎓 Assalomu alaykum! Natijangiz tayyor.\nSertifikatni olish uchun bir marta ro'yxatdan o'ting — ism va familiyangiz kerak.");
+      if(u && u.first_name && u.last_name && u.phone && !u.step){ await saveUser(chat, {step:null, pending:null}); return sendCertificate(chat, u, cm[1]); }
+      await send(chat, "🎓 Assalomu alaykum! Natijangiz tayyor.\nSertifikatni olish uchun bir marta ro'yxatdan o'ting: ism, familiya va telefon raqam kerak, rasm ixtiyoriy.");
       return askFirst(chat, cm[1]);
     }
-    if(u && u.first_name && u.last_name) return send(chat, `Assalomu alaykum, <b>${H(u.first_name)}</b>! 👋\n\n` + HELP, {reply_markup:MENU});
+    if(u && u.first_name && u.last_name && u.phone && !u.step) return send(chat, `Assalomu alaykum, <b>${H(u.first_name)}</b>! 👋\n\n` + HELP, {reply_markup:MENU});
     await send(chat, "Assalomu alaykum! 👋\n\n" + HELP + "\n\nAvval ro'yxatdan o'tamiz — bu bir daqiqa.");
     return askFirst(chat, null);
   }
@@ -146,7 +169,7 @@ async function onMessage(m){
   if(u && u.step === "ism"){
     const parts = text.replace(/\s+/g, " ").split(" ");
     // "Ali Valiyev" in one message fills both fields.
-    if(parts.length === 2 && cleanName(parts[0]) && cleanName(parts[1])) return finishSignup(chat, u, cleanName(parts[0]), cleanName(parts[1]));
+    if(parts.length === 2 && cleanName(parts[0]) && cleanName(parts[1])) return askPhone(chat, cleanName(parts[0]), cleanName(parts[1]));
     const n = cleanName(text);
     if(!n || n.includes(" ") && n.length > 20) return send(chat, "Ismni harflar bilan yozing (2–30 ta harf). Masalan: <i>Aziza</i>");
     await saveUser(chat, {step:"familiya", tmp:n});
@@ -155,13 +178,43 @@ async function onMessage(m){
   if(u && u.step === "familiya"){
     const n = cleanName(text);
     if(!n) return send(chat, "Familiyani harflar bilan yozing (2–30 ta harf). Masalan: <i>Karimova</i>");
-    return finishSignup(chat, u, u.tmp, n);
+    return askPhone(chat, u.tmp, n);
+  }
+  if(u && u.step === "telefon"){
+    let ph = null;
+    if(m.contact){
+      if(m.contact.user_id && m.from && m.contact.user_id !== m.from.id) return send(chat, "Iltimos, <b>o'zingizning</b> raqamingizni yuboring — pastdagi tugmani bosing 👇", {reply_markup:PHONE_KB});
+      ph = String(m.contact.phone_number || "").replace(/[^\d+]/g, "");
+    } else {
+      const d = text.replace(/[^\d]/g, "");
+      if(/^(998)?\d{9}$/.test(d)) ph = "+" + (d.length === 9 ? "998" + d : d);
+    }
+    if(!ph) return send(chat, "Pastdagi <b>\"📱 Raqamni yuborish\"</b> tugmasini bosing yoki raqamni yozing: <i>+998 90 123 45 67</i>", {reply_markup:PHONE_KB});
+    if(!ph.startsWith("+")) ph = "+" + ph;
+    await saveUser(chat, {phone:ph, step:"rasm"});
+    return send(chat, "📷 Sertifikatga <b>rasmingizni</b> qo'yamizmi? Bu ixtiyoriy.\n\nRasm yuboring yoki pastdagi tugmani bosing — rasm o'rniga kulib turgan stiker qo'yiladi 😊", {reply_markup:PHOTO_KB});
+  }
+  if(u && u.step === "rasm"){
+    if(m.photo && m.photo.length){
+      const best = m.photo[m.photo.length - 1];
+      await saveUser(chat, {photo_id:best.file_id});
+      return finishSignup(chat, u, "Rasm qo'yildi ✅");
+    }
+    if(m.document && /^image\/(jpeg|png)$/.test(m.document.mime_type || "")){
+      await saveUser(chat, {photo_id:m.document.file_id});
+      return finishSignup(chat, u, "Rasm qo'yildi ✅");
+    }
+    if(/stiker|rasmsiz|o'tkaz|otkaz|yo'q|yoq/i.test(text)){
+      await saveUser(chat, {photo_id:null});
+      return finishSignup(chat, u, "Rasm o'rniga stiker qo'yiladi 😊");
+    }
+    return send(chat, "Rasm yuboring yoki <b>\"😊 Rasmsiz, stiker qo'yilsin\"</b> tugmasini bosing.", {reply_markup:PHOTO_KB});
   }
 
-  if(!u || !u.first_name || !u.last_name) return askFirst(chat, null);
+  if(!u || !u.first_name || !u.last_name || !u.phone) return askFirst(chat, null);
   if(/test yechish/i.test(text)) return send(chat, "Testni saytda yeching, oxirida natijangizni shu yerga yuboramiz 👇", {reply_markup:{inline_keyboard:[[{text:"📝 Milliy sertifikat testlari", url:SITE + "/"}],[{text:"🎮 Mashqlar va o'yinlar", url:SITE + "/mashqlar.html"}]]}});
   if(/natija/i.test(text)) return showResults(chat);
-  if(/ism/i.test(text) && /o'zgart|ozgart|tuzat/i.test(text)) return askFirst(chat, null);
+  if(/o'zgart|ozgart|tuzat/i.test(text)) return askFirst(chat, null);
   if(text === "/stat" && ADMINS.includes(String(chat))){
     const s = await rpc("oz_bot_stats", {});
     return send(chat, `📊 Ro'yxatdan o'tganlar: ${s.foydalanuvchi}\n📜 Sertifikatlar: ${s.sertifikat}\n🕐 Oxirgi 24 soat: ${s.bugun}`);
@@ -169,9 +222,17 @@ async function onMessage(m){
   return send(chat, HELP, {reply_markup:MENU});
 }
 
-async function finishSignup(chat, u, first, last){
-  const nu = await saveUser(chat, {first_name:first, last_name:last, step:null, tmp:null, pending:null});
-  await send(chat, `✅ Tayyor, <b>${H(first)} ${H(last)}</b>! Sertifikatlaringizga shu ism yoziladi.`, {reply_markup:MENU});
+const PHONE_KB = {keyboard:[[{text:"📱 Raqamni yuborish", request_contact:true}]], resize_keyboard:true, one_time_keyboard:true};
+const PHOTO_KB = {keyboard:[[{text:"😊 Rasmsiz, stiker qo'yilsin"}]], resize_keyboard:true, one_time_keyboard:true};
+
+async function askPhone(chat, first, last){
+  await saveUser(chat, {first_name:first, last_name:last, step:"telefon", tmp:null});
+  return send(chat, `Rahmat, <b>${H(first)} ${H(last)}</b>!\n\n📱 Endi <b>telefon raqamingizni</b> yuboring — pastdagi tugmani bosing. Raqam sertifikatda ko'rinmaydi.`, {reply_markup:PHONE_KB});
+}
+
+async function finishSignup(chat, u, note){
+  const nu = await saveUser(chat, {step:null, tmp:null, pending:null});
+  await send(chat, `✅ ${note}\nRo'yxatdan o'tdingiz, <b>${H(fullName(nu))}</b>! Sertifikatlaringizga shu ism yoziladi.`, {reply_markup:MENU});
   if(u.pending) return sendCertificate(chat, nu, u.pending);
 }
 
@@ -183,7 +244,7 @@ async function onCallback(q){
   const m = data.match(/^([sft]):([0-9a-f-]{36})$/i);
   if(!m) return;
   if(m[1] === "t") return askFirst(chat, m[2]);
-  if(!u || !u.first_name) return askFirst(chat, m[2]);
+  if(!u || !u.first_name || !u.phone) return askFirst(chat, m[2]);
   if(m[1] === "s") return sendCertificate(chat, u, m[2]);
   if(m[1] === "f") return sendFile(chat, u, m[2]);
 }
@@ -209,7 +270,7 @@ export default async function handler(req, res){
     if(req.method === "GET"){
       const q = req.query || {};
       if(q.namuna === "1"){   // sample certificate to check the design
-        const png = sertifikatPng({ism:"Aziza Karimova", title:"12-variant (TMS-26)", score:Number(q.ball || 67.5), date:dateUz(new Date().toISOString()), code:"NAMUNA00"});
+        const png = sertifikatPng({familiya:"Karimova", ism:"Aziza", title:"1-variant", score:Number(q.ball || 67.5), date:dateUz(new Date().toISOString()), sections:sections("v1", []).map(x => ({...x, got:Math.round(x.max*Number(q.ball || 67.5)/10)/10}))});
         res.setHeader("Content-Type", "image/png"); return res.status(200).send(png);
       }
       if(!TOKEN) return res.status(200).json({tayyor:false});

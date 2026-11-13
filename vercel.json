@@ -25,7 +25,7 @@
       "maxDuration": 40
     },
     "api/bot.mjs": {
-      "includeFiles": "{tests.json,sertifikat/fonts/*.ttf}",
+      "includeFiles": "{tests.json,tests/*.json,sertifikat/qr.json,sertifikat/fonts/*.ttf}",
       "maxDuration": 30,
       "memory": 1024
     }
