@@ -208,12 +208,12 @@ export default async function handler(req, res){
   try{
     if(req.method === "GET"){
       const q = req.query || {};
-      if(!TOKEN) return res.status(200).json({tayyor:false});
-      if(q.ornat === "1") return res.status(200).json(await setup(req));
       if(q.namuna === "1"){   // sample certificate to check the design
         const png = sertifikatPng({ism:"Aziza Karimova", title:"12-variant (TMS-26)", score:Number(q.ball || 67.5), date:dateUz(new Date().toISOString()), code:"NAMUNA00"});
         res.setHeader("Content-Type", "image/png"); return res.status(200).send(png);
       }
+      if(!TOKEN) return res.status(200).json({tayyor:false});
+      if(q.ornat === "1") return res.status(200).json(await setup(req));
       const b = await me();
       res.setHeader("Cache-Control", "public, max-age=300");
       return res.status(200).json({tayyor:!!b, username:b ? b.username : null});
