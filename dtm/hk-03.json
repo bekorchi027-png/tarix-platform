@@ -1,0 +1,345 @@
+{
+"id": "hk-03",
+"items": [
+{
+"n": 1,
+"q": "1886-yil imperator Aleksandr III tomonidan tasdiqlangan “Turkiston o’lkasini idora qilish to’g‘risidagi Nizom”ga ko’ra Zarafshon okrugi Samarqand viloyatiga aylantirilib, uning tarkibiga quyidagi qaysi hududlar kirgan?",
+"opts": [
+"1, 4",
+"2, 4",
+"2, 3",
+"1, 3"
+],
+"ans": "B",
+"extra": "1) O’ratepa;\n2) Samarqand;\n3) Karmana;\n4) Kattaqo’rg‘on."
+},
+{
+"n": 2,
+"q": "Qaysi davlat hukumati 1952-yilgacha AQSh okkupatsion qo’shinlari tomonidan nazorat qilingan?",
+"opts": [
+"GFR",
+"Xitoy",
+"Koreya",
+"Yaponiya"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "1931-yili qaysi davlatda qarshilik harakati bostirilib, uning rahbarlari qatl qilingan?",
+"opts": [
+"Marokash",
+"Jazoir",
+"Liviya",
+"Misr"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Ikkinchi jahon urushidan keyingi davrda SSSR yordamiga tayangan davlatlarni toping.",
+"opts": [
+"1, 4, 6",
+"1, 3, 5",
+"2, 3, 5",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) Vyetnam;\n2) Yaponiya;\n3) Isroil;\n4) Laos;\n5) Janubiy Afrika Respublikasi;\n6) Angola."
+},
+{
+"n": 5,
+"q": "Meksika xalqining Ispaniya zulmiga qarshi ozodlik kurashi qahramonlari berilgan javobni toping.",
+"opts": [
+"2, 3",
+"2 , 4",
+"1, 2",
+"1 , 3"
+],
+"ans": "D",
+"extra": "1) Migel Idalgo;\n2) Xose San Martin;\n3) Xose Morelos;\n4) general Sukre"
+},
+{
+"n": 6,
+"q": "XIX asr oxiri - XX asr boshlarida amalga oshirilgan kashfiyotlar mualliflari bilan to’g‘ri moslashtirib berilgan javobni toping.",
+"opts": [
+"1-c, 2-b, 3-a",
+"1-d, 2-a, 3-b",
+"1-d, 2-c, 3-a",
+"1-c, 2-b, 3-d"
+],
+"ans": "A",
+"extra": "1) siyraklashtirilgan havodagi katod nurlarini kashf etdi;\n2) qanotlarning ko’tarish kuchini aniqlash formulasini yaratdi;\n3) uran atomlari yaqin joyda turgan jismlardan o’tib ketadigan nurlarni o’z-o’zidan chiqarishini aniqladi.\na) A.Bekkerel; b) N.Y.Jukovskiy; c) U.Kurks;\nd) E.Rezerford."
+},
+{
+"n": 7,
+"q": "Buxoro xonligidagi boshqaruvning eng quyi tizimini toping.",
+"opts": [
+"budun",
+"noiblik",
+"amlok",
+"masjid qavmlari"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "XX asr boshlarida G’arbiy Afrikaning Gambiya, Syerra-Leone, Oltin Qirg’oq hududlari qaysi davlatning mustamlakasi edi?",
+"opts": [
+"Germaniya",
+"Fransiya",
+"Buyuk Britaniya",
+"Italiya"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Qaysi dostonda Amir Temur va To’xtamish faoliyati bilan bog’liq voqealar bayon etilgan?",
+"opts": [
+"“Oshiqlar do’sti”",
+"“Bo’zatov”",
+"“Edigey”",
+"“Qirq qiz”"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Qaysi qatorlarda davlat, hukmdor va hukmronlik yillari to’g‘ri berilgan. № Davlat Hukmdor Hukmronlik yillari Eron Muhammad 1905-1909 Alishoh Afg‘oniston Amir Abdurahmon 1878-1901 Fransiya (ikkinchi imperiya) Napoleon III 1852-1870 Germaniya Vilgelm I 1871-1888 imperiyasi Hindiston Akbarshoh 1540-1555 Angliya Yelizavetta I 1558-1603",
+"opts": [
+"3, 4, 6",
+"1, 3, 5",
+"2, 3, 5",
+"2, 4, 6"
+],
+"ans": "A",
+"img": "img/dtm/hk-03-10.jpg"
+},
+{
+"n": 11,
+"q": "Xan davlati qaysi hukmdor davrida qudratli davlatga aylangan?",
+"opts": [
+"U Di",
+"Sin Shixuandi",
+"Lyu Ban",
+"Li Yuan"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Usmoniy hukmdorlaridan qaysi biri hukmronlik qilgan davrda davlat yerlari ma’muriy birliklarga bo’lingan?",
+"opts": [
+"Mexmed davrida",
+"Boyazid davrida",
+"Usmon davrida",
+"O’rxon davrida"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "XVI asr o’rtalarigacha qaysi davlatning vositachiligida butun Sharqning G’arbiy Yevropa bozorlari bilan aloqalari Germaniya yerlaridan o’tardi?",
+"opts": [
+"Fransiya",
+"Italiya",
+"Rossiya",
+"Usmonlilar davlati"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Sovet tuzumining qatag'on qurboniga aylangan quyidagi vatandoshlarimizning egallagan lavozimlari to’g‘ri ko’rsatilgan javobni aniqlang.",
+"opts": [
+"1-d, 2-e, 3-a, 4-b",
+"1-a, 2-b, 3-c, 4-d",
+"1-a, 2-e, 3-c, 4-d",
+"1-d, 2-c, 3-a, 4-b"
+],
+"ans": "A",
+"extra": "1) Mannon Ramziy (Mannon Abdullayev);\n2) Shamsutdin Badriddinov;\n3) Botu (Mahmud Hodiyev);\n4) Akmal Ikromov;\na) O’zbekiston SSR Maorif xalq komissari o’rinbosari;\nb) O’zbekiston Kompartiyasi MK birinchi sekretari;\nc) O’zbekiston SSR Xalq Komissarlar Soveti raisi;\nd) O’zbekiston SSR Maorif xalq komissari;\ne) O’zbekiston SSR Oliy Sudi prokurori"
+},
+{
+"n": 15,
+"q": "Franklar davlatida qaysi qirol davrida yangi qonun chiqarilib, u o’g’il voris bo’lmasa, yerni avvalgidek jamoaga emas, marhumning qizi, singlisi yoki ukasiga o’tish huquqini tasdiqlagan?",
+"opts": [
+"Xilperik",
+"Buyuk Karl",
+"Karl Martell",
+"Xlodvig"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Gomerning “Iliada” dostonida kimning maslahati bilan yunonlar ayyorlikni ishga solib, ichi bo‘m-bo‘sh ulkan yog‘och ot yasashadi?",
+"opts": [
+"Odissey",
+"Gerakl",
+"Paris",
+"Axilles"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Xaritada yulduzcha bilan belgilangan hududda tashkil topgan davlatni aniqlang.",
+"opts": [
+"Bobil podsholigi",
+"Ossuriya davlati",
+"Mitanni davlati",
+"Xett davlati"
+],
+"ans": "D",
+"img": "img/dtm/hk-03-17.jpg"
+},
+{
+"n": 18,
+"q": "XIX asr oxirida Germaniyada kimning tashabbusi bilan Berlinni Fors qo’ltig’i bilan bog’lovchi temiryo’l qurish rejasi tuzilgan?",
+"opts": [
+"Simens",
+"S.Rods",
+"Reyter",
+"Vilgelm II"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Buxoroda amir Haydar boshqaruvi bilan bog’liq to’g‘ri ma’lumotlar berilgan javobni toping.",
+"opts": [
+"2, 3, 5",
+"1, 3, 5",
+"2, 3, 4",
+"1, 2, 4"
+],
+"ans": "D",
+"extra": "1) Shahrisabz va Miyonqolni amirlik tarkibida saqlab qolish uchun kurash olib bordi;\n2) O’ratepani saqlab qolish uchun Qo’qon xonligiga qarshi kurash olib bordi;\n3) Rossiyaga elchi Ernazarbiyni yubordi;\n4) Xiva qo’shinini Amudaryo bo’yida mag’lubiyatga uchratdi;\n5) urush kelib chiqqanida qo’shinning xarajati uchun jul deb atalgan soliqni joriy qildi"
+},
+{
+"n": 20,
+"q": "Teyshebaini shahri qaysi davlat hujumi natijasida vayron qilingan?",
+"opts": [
+"Bobil podsholigi",
+"Urartu",
+"Ossuriya",
+"Xett podsholigi"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "XI asrda Anushteginni Xorazmga noib qilib tayinlagan saljuqiylar hukmdorini belgilang.",
+"opts": [
+"sulton Sanjar",
+"Malikshoh",
+"To’g‘rulbek",
+"Alp Arslon"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "2009-yilda “Umid” nomli sun’iy yo‘ldoshini fazoga chiqarib, koinotni o‘zlashtirayotgan davlatlar qatoridan o‘rin egallagan davlatni toping.",
+"opts": [
+"Pokiston",
+"Hindiston",
+"Turkiya",
+"Eron"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagi sarkardalarni ular ishtirok etgan janglari bilan to’g‘ri moslab berilgan javobni aniqlang.",
+"opts": [
+"1-b, 2-d",
+"1-a, 2-c",
+"1-b, 2-c",
+"1-a, 2-d"
+],
+"ans": "D",
+"extra": "1) Leonid;\n2) Gannibal.\na) Fermopil jangi; b) Marafon jangi; c) Xeroneya yonidagi jang; d) Kann yaqinidagi jang."
+},
+{
+"n": 24,
+"q": "1950-1960-yillarda GFR iqtisodining jadal sur’atlar bilan rivojlanishini ta’minlagan omillarni belgilang.",
+"opts": [
+"1, 4, 5",
+"2, 3, 5",
+"2, 3, 4",
+"1, 2, 4"
+],
+"ans": "D",
+"extra": "1) “Marshall rejasi” bo’yicha Amerikaning yordami;\n2) arzon chet el ishchi kuchidan unumli foydalanish;\n3) mustamlakalardan keladigan daromad;\n4) yangi uskunalar keltirishi;\n5) AQSh va Buyuk Britaniya okkupatsiya zonalarida saqlanib qolgan oltin-valyuta zahiralari."
+},
+{
+"n": 25,
+"q": "XVII asrda Brandenburg knyazligini boshqargan sulolani aniqlang.",
+"opts": [
+"Lyuksemburglar",
+"Gogensollernlar",
+"Gabsburglar",
+"Shtaufenlar"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Devalvatsiya atamasining ma’nosi to’g‘ri berilgan javobni toping.",
+"opts": [
+"Saralangan fuqarolarning ehtiyojlariga emas, xalq ommasi ehtiyojlariga qaratilgan siyosiy nutq shakli",
+"Davlatning iqtisodiyotga aralashuvini kamaytirish maqsadida o’tkaziladigan tadbir",
+"Qarorlar qabul qilish bo’yicha vakolat va majburiyatlarni markazdan boshqa tashkilotlarga o’tkazish",
+"qat’iy xalqaro valutaga nisbatan milliy valutaning rasmiy kursini pasaytirish"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "1920-yilda imzolangan qaysi shartnomaga ko’ra, Turkiya hududi bir guruh Yevropa davlatlari o’rtasida bo’lib olinishi ko’zda tutilgan?",
+"opts": [
+"Varshava",
+"Sevr",
+"Lozanna",
+"Rapallo"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Arab yozuvi qaysi yozuv asosida shakllangan?",
+"opts": [
+"oromiy",
+"mixxat",
+"hind",
+"sug‘d"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "1991-yil 15-fevralda O’zbekiston SSR Oliy Kengashi qabul qilgan hujjatni toping.",
+"opts": [
+"“O’zbekistonning davlat ramzlari to’g‘risida”gi maxsus qaror",
+"“O’zbekiston Respublikasi Prezidenti saylovi to’g‘risida”gi qonun",
+"“O’zbekiston SSR Prezidenti huzuridagi Vazirlar Mahkamasining tarkibini tasdiqlash to’g‘risida”gi farmon",
+"“O’zbekiston Respublikasining davlat mustaqilligini e’lon qilish to’g‘risida”gi qaror"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "XIX asr oxiri - XX asr boshlarida Xiva xonligining qaysi shahrida paxtani tashib ketish bilan shug‘ullangan Rossiya savdogarlarining 10 ta idorasi va mahalliy tadbirkorlarning 9 ta paxta tozalash zavodlari joylashgandi?",
+"opts": [
+"Gurlanda",
+"Yangi Urganchda",
+"Xonqada",
+"Porsuda"
+],
+"ans": "A"
+}
+]
+}

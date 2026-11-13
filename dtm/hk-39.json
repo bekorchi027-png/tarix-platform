@@ -1,0 +1,354 @@
+{
+"id": "hk-39",
+"items": [
+{
+"n": 1,
+"q": "XX asr boshlarida qanday jarayon  Buyuk Britaniyada ishchilarni ish tashlashga majbur qilgan?",
+"opts": [
+"parlament tomonidan ish tashlashni ta’qiqlovchi qonunning qabul qilinishi",
+"korxonalarning o’z vaqtida zamonaviy texnika va tehnologiyalar bilan qayta jihozlanmay qo’yilishi natijasida mehnat sharoitining og’irligi",
+"iqtisodiy taraqqiyot sur’atining pasayishi natijasida zarur iste’mol mahsulotlarining narxi ko’tarilishi",
+"ishchilarning iqtisodiy ahvoli og’irligi va ularning siyosiy va ijtimoiy huquqlarga ega emasligi"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Quyidagi ma’lumotlar qaysi hukmdor haqida ekanligini toping. “XVII asrda Xiva xonligida hukmronlik qilgan. Uning davlatchilikni mustahkamlashga qaratilgan islohotlari ma’lum muddatga bo’lsada, hokimiyatning markazlashuviga hamda ko‘chmanchilar va yarim ko‘chmanchilarning o'troqlashish jarayonini kuchaytirishga xizmat qildi”.",
+"opts": [
+"Arab Muhammadxon",
+"Sherg‘oziyxon",
+"Muhammad Rahimxon",
+"Abulg‘oziy Bahodirxon"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "XI-XII asrlarda Movoarounnahr shaharlarida hunarmandchilikning ayniqsa qaysi sohalari rivojlangan?",
+"opts": [
+"1, 3",
+"2, 3",
+"1, 4",
+"2, 4"
+],
+"ans": "B",
+"extra": "1) to’qimchalik;\n2) miskarlik;\n3) chilangarlik;\n4) zargarlik;"
+},
+{
+"n": 4,
+"q": "O’rta asrlarda qabul qilingan qaysi hujjatda Angliya qiroli  dehqonlarning qaramligini bekor qilish, erkin savdoga ruxsat berish, yer solig‘ini kamaytirish shartlariga rozilik bergan edi?",
+"opts": [
+"“Buyuk ozodlik xartiyasi”da",
+"“Mayl End” dasturida",
+"“Qonunlarning buyuk to‘plami”da",
+"“Dahshatli sud kitobi”da"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "XVII asrdan qul savdosida yetakchilik qilishni ... o’z qo’liga olgan.",
+"opts": [
+"gollandlar",
+"inglizlar",
+"portugallar",
+"ispanlar"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Turk xoqonligi davrida O’rta Osiyoda...",
+"opts": [
+"1, 2",
+"4, 5",
+"3,5",
+"3, 4"
+],
+"ans": "C",
+"extra": "1)  mahalliy mulkdor dehqonlar bilan chorvador ko’chmanchilar o’rtasida ziddiyat kuchayib, dehqonlarga qarshi kurash keskin tus oldi;\n2) siyosiy hokimiyat turkiy sulolalarga o‘tishi munosabati bilan sodir bo‘lgan etnik jarayon o‘zbek xalqining shakllanishida yakuniy bosqich bo‘ldi;\n3) dehqonlar tomonidan yerlarni egallash jarayoni tobora avj olib, zulm kuchaydi;\n4) Iqtisodiy-savdo munosabatlarining izchil yo‘lga qo‘yilishi mamlakatda dehqonchilik, sun’iy sug‘orish, chorvachilik, bog‘dorchilik va hunarmandchilik ravnaq topishiga asos bo‘lgan;\n5) Turkiy elatlar va mahalliy o‘troq aholi o‘rtasidagi etnikmadaniy munosabatlarning rivoji natijasida turkiy qatlam madaniy yutuqlarining mahalliy madaniy-xo‘jalik an’analar bilan jadal uyg‘unlashuvi yuz berdi"
+},
+{
+"n": 7,
+"q": "Quyida berilgan xalifalar davridagi Xuroson va Movarounnahr bilan bog‘liq jarayonlar mos ravishda ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1-a, 2-b, 3-d",
+"1-a, 2-c, 3-d",
+"1-b, 2-d, 3-c",
+"1-b, 2-c, 3-d"
+],
+"ans": "D",
+"extra": "1) Usmon;\n2) Mu’tazid;\n3) Mansur.\na) xalifalik ma’muriyati tomonidan bir yo‘la hammadan jizya olish haqida buyruq berilishi natijasida Movarounnahrda yoppasiga islomdan chiqish va eski dinlarga qaytish boshlandi; b) arablarning Movarounnahrga ilk bor hujumlari boshlandi;\nc) Ismoil Somoniy butun Movarounnahr va Xurosonni o’z qo’l ostida birlashtirdi; d) Movarounnahrda xalifalikka qarshi “Oq kiyimlilar” qo‘zg‘oloni bo‘lib o‘tdi."
+},
+{
+"n": 8,
+"q": "XVI asr oxiri – XVII asr boshlarida Fransiyada qirol tomonidan amalga oshirilgan qanday islohotlar jadal iqtisodiy o’sishni ta’minlagan?",
+"opts": [
+"1, 3, 5, 7",
+"2, 3, 5, 7",
+"1, 4, 5, 6",
+"2, 4, 5, 6"
+],
+"ans": "B",
+"extra": "1) harbiy xarajatlarni kamaytirilishi;\n2) soliqlarni kamaytirilishi;\n3) manufakturalar uchun qulay moliyaviy sharoit yaratilishi;\n4) eski feodal tartiblarning bekor qilinishi;\n5) ishlab chiqarishni rag‘batlantiruvchi boj soliqlarini joriy qilinishi;\n6) cherkov va ibodatxonalarni ba’zi bir yig’imlardan mahrum qilinishi;\n7) texnik yangiliklarni qo‘llab-quvvatlanishi;"
+},
+{
+"n": 9,
+"q": "XIX asr oxiri va XX asr boshlarida Xiva xonligida ayrim tumanlar hunarmandchilik ishlab chiqarishining u yoki bu sohasiga ixtisoslashuv jarayoni kuzatilgan. Shundan Ko’hna Urganch (a) va Xonqa (b) shaharlarida hunarmandchilikning qaysi sohalari rivojlangan?",
+"opts": [
+"a-1, b-2",
+"a-4, b-2",
+"a-2, b-1",
+"a-1, b-3"
+],
+"ans": "A",
+"extra": "1) gilam va kigiz tayyorlash;\n2) ko’nchilik;\n3) metallni qayta ishlash;\n4) qop va arqonlar tayyorlash"
+},
+{
+"n": 10,
+"q": "Quyidagi davlatlardan qaysi biri texnik taraqqiyotda G‘arbdan tobora ortda qolib kelayotgan bo‘lsa-da, to XVIII asrning oxirigacha iqtisodiy jihatdan dunyoning eng qudratli davlatlaridan biri bo‘lib qoldi?",
+"opts": [
+"Koreya",
+"Yaponiya",
+"Hindiston",
+"Xitoy"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Quyidagi qaysi davlatlar Usmonli davlati zulmiga qarshi kurash olib borish uchun Bolqon ittifoqiga birlashgan?",
+"opts": [
+"2, 3, 6, 8",
+"1, 2, 4, 8",
+"1, 4, 5, 7",
+"2, 5, 6, 7"
+],
+"ans": "A",
+"extra": "1) Bosniya;\n2) Bolgariya;\n3) Serbiya;\n4) Sloveniya;\n5) Albaniya;\n6) Chernogoriya; 7 ) Ruminiya;\n8) Gretsiya"
+},
+{
+"n": 12,
+"q": "Quyida berilgan Rim imperatorlari davri bilan bog‘liq jarayonlar mos ravishda ko‘rsatilgan javobni aniqlang.",
+"opts": [
+"1-a, 2-d, 3-b",
+"1-c, 2-d, 3-b",
+"1-d, 2-c, 3-a",
+"1-c, 2-a, 3-b"
+],
+"ans": "B",
+"extra": "1) Trayan;\n2) Neron;\n3) Konstantin.\na)  Rimda keng ko‘lamda qurilish ishlari olib borilib, ko‘plab saroylar va ibodatxonalar bunyod etildi; b) Rimda xristianlarga ibodatxonalar qurish va oshkora ibodat qilish imkoni berildi; c) Suriya va Mesopotamiya hududlari Rim imperiyasi tarkibiga kiritildi; d) Rim imperiyasida inqiroz boshlandi;"
+},
+{
+"n": 13,
+"q": "Quyida berilgan hukmdorlardan qaysi biri Iyerusalim (Quddus) shahrini egallab, vayron qilib tashlaydi?",
+"opts": [
+"Sargon I",
+"Xammurapi",
+"Navuxodonosor II",
+"Menes"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping.",
+"opts": [
+"Xitoy – Sun Yat Sen – yerga egalik qilishda teng huquqli bo’lishning joriy qilinishi",
+"Eron – Ahmad shoh – Feodal zamonga xos bo’lgan unvonlarni bekor qilinishi",
+"Afg’oniston – Abdurahmon – Dyurand bitimining imzolanishi",
+"Sudan – Muhammad Ahmad – Efiopiyaga qarshi urush boshlanishi"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Quyida berilganlardan qaysilarida davlat-shaxs-voqea mosligi to‘g‘ri berilgan?",
+"opts": [
+"1, 3, 4",
+"2, 3, 4",
+"1, 4, 5",
+"2, 3, 5"
+],
+"ans": "A",
+"extra": "1) Choson qirolligi – Sechjon Buyuk – mamlakatda soliq tizimida islohot o’tkazdi;\n2) Angliya – Genrix II –mamlakatda qo’shimcha jon solig’i joriy etdi;\n3) Kiev Rusi – Vladimir – Kiyevda xristian ruhoniylari tayyorlaydigan o’quv yurti tashkil etdi;\n4) Dehli sultonligi – Feruzshoh Tug‘luq – davlat yerlarini dehqonlarga ijaraga bo‘lib berdi;\n5) Polsha – Meshko I – polyak qabilalarini birlashtirish ishini tugalladi;"
+},
+{
+"n": 16,
+"q": "Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi? “Tarixi jadidayi Toshkand” “O’zbeklar Xorazmda” “Xorazm tarixi” “Tarixi Turkiston” Muhammad Muhammad Sulton Muhammad Muhammad Solih Yusuf Munshiy Yusuf Bayoniy Hofiz Toshkandiy",
+"opts": [
+"1, 6, 7",
+"2, 4, 7",
+"3, 4, 6",
+"3, 6, 7"
+],
+"ans": "D",
+"img": "img/dtm/hk-39-16.jpg"
+},
+{
+"n": 17,
+"q": "1920-yillarda Xitoyda «30-may harakati» nomini olgan «Buyuk milliy inqilob» qanday shior ostida o’tgan?",
+"opts": [
+"\"Yer va ozodlik\"",
+"“Xitoy suverenitetni tiklash”",
+"“Xitoyda respublika tuzumini o’rnatish”",
+"“Manjur sinlarini haydab chiqarish”"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Quyidagi qaysi hukmdor Hindistonda xalqni itoatda tutishda zamindorlar yordamiga tayangan, ularning ko’magida mahalliy aholidan soliqlar yig’gan?",
+"opts": [
+"Qutbiddin Oyboq",
+"Jaloliddin Manguberdi",
+"Makedoniyalik Aleksandr",
+"Zahiriddin Muhammad Bobur"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Janubiy Osiyo mamlakatlarida olib borilayotgan jamiyatning modernizatsiyalash strategiyasining asosini qanday islohotlar tashkil etadi?",
+"opts": [
+"1, 3, 5",
+"2, 4, 5",
+"1, 4, 5",
+"2, 3, 4"
+],
+"ans": "A",
+"extra": "1) davlat investitsiyalarini iqtisodiyotning istiqbolli sektorlariga yo‘naltirish;\n2) rivojlangan mamlakatlarning yordamiga tayanish;\n3) proteksionizm siyosati;\n4) o‘tmishdan qolgan ijtimoiy muammolarni hal qilish;\n5) chet el kapitalini mahsuloti xaridorgir bo‘lgan sohalarga kiritish;"
+},
+{
+"n": 20,
+"q": "Amerika yozuvchisi Jek London qaysi asarida halol ijod ahlining soxta madaniyat bilan fojiali to’qnashuvini ochib bergan?",
+"opts": [
+"“Temir tovon”",
+"“Amerika fojiasi”",
+"“Marten Iden”",
+"“Hayotga muhabbat”"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi davlat XXI asr boshida Kopengagenda (Daniya) bo‘lib o‘tgan uchrashuvda Yevropa Ittifoqiga qabul qilingan?",
+"opts": [
+"Bolgariya",
+"Ruminiya",
+"Avstriya",
+"Polsha"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. XX asrning ikkinchi yarmi",
+"opts": [
+"I-a,c; II-b, d; III-e, f",
+"I-b, d; II-a, c; III-e, f",
+"I-b, c; II-a, d; III-e, f",
+"I-b, c; II-a, e; III-d, f Italiya Respublikasi Germaniya Federativ Respublikasi II I III"
+],
+"ans": "C",
+"extra": "a) 1950-1960-yillarda jadal rivojlanishga qaramasdan, ish tashlash harakati bo‘yicha boshqa mamlakatlardan ancha oldinlab ketdi; b) 1950-1960-yillari iqtisodi jadal rivojlandi, barcha qarzlaridan qutulib, ancha katta oltin-valuta zaxirasini yaratdi; c) 1980-yillar boshiga kelib siyosiy kuchlarda o‘zgarish yuz berdi;  d) 1980-yillarga kelib koalitsion hukumat shakllandi; e) «Marshall rejasi»ga qo‘shildi;  f) NATOga a’zo bo‘ldi;",
+"img": "img/dtm/hk-39-22.jpg"
+},
+{
+"n": 23,
+"q": "Mil. Avv. 3-ming yillikda Eronning janubi-g’arbiy qismida vujudga kelgan qadimgi davlatni aniqlang.",
+"opts": [
+"Midiya davlati",
+"Elam davlati",
+"Mitanni podsholigi",
+"Fors podsholigi"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "G.Rozenbax Turkiston general-gubernatorligini boshqargan yillar oralig‘ida yuz bergan voqealarni aniqlang.",
+"opts": [
+"1, 4, 5, 6",
+"2, 3, 4, 6",
+"2, 4, 5, 6",
+"1, 3, 4, 5"
+],
+"ans": "C",
+"extra": "1) Turkiston general-gubernatorligi tarkibida Kaspiyorti viloyati tashkil qilindi;\n2) Turkistonda yangi paxta navi (Amerika navi) yetishtirila boshlandi;\n3) Turkiston o’lkasida okrug sudlari va Toshkent sud palatasi tuzildi;\n4) Toshkentda Birinchi rus-tuzem maktabi ochildi;\n5) Turkiston general-gubernatori Kengashi tuzildi;\n6) Turkiston yerlari, o‘rmonlari va yerosti qazilma boyliklari davlat mulki deb e’lon qilindi;"
+},
+{
+"n": 25,
+"q": "Samarqand, Jizzax, Sirdaryo viloyatlari hududlarida O‘zbekiston Respublikasi Qurolli Kuchlarining qaysi harbiy okrugi tashkil topgan?",
+"opts": [
+"Sharqiy harbiy okrug",
+"Janubi-g‘arbiy maxsus harbiy okrug",
+"Markaziy harbiy okrug",
+"Shimoli-g‘arbiy harbiy okrug"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Qatag‘on qurbonlari bo‘lgan o‘zbek ziyolilarining oqlanishida tashabbus ko‘rsatgan davlat arbobi Nuriddin Muhitdinov faoliyati bilan bog‘liq to‘g‘ri ma’lumotlar berilgan javobni toping.",
+"opts": [
+"1, 2, 5",
+"2, 3, 4",
+"1, 4, 5",
+"2, 3, 5"
+],
+"ans": "C",
+"extra": "1) 1951-1953-yillarda O‘zbekiston SSR Ministrlar Soveti raisi;\n2) 1947-1950-yillarda O‘zbekiston SSR Oliy Soveti Prezidiumi raisi;\n3) 1957-1959-yillarda O‘zbekiston Kompartiyasi Birinchi sekretari;\n4) 1954-1955-yillarda O‘zbekiston SSR Ministrlar Soveti Raisi;\n5) 1957-1961yillarda KPSS MK Prezidiumi a’zosi"
+},
+{
+"n": 27,
+"q": "Quyidagi jadvalda voqea va uning natijasi o‘zaro nomuvofiq bo‘lgan qatorlarni aniqlang. № Sabab Natija 1. Teyshebaini shahridagi qal’a ossuriyaliklar tomonidan vayron qilinishi Urartu podsholining ancha zaiflashib qolishi 2. Konstantinopolning turklar tomonidan bosib olinishi Vizantiyaning dunyoning qudratli davlatidan uncha katta bo’lmagan yunon davlatiga aylanishi 3. 1640-yilda ingliz burjua inqilobining boshlanishi Angliyada absolutizmning qulashi 4. 1868-1878-yillarda Kuba xalqining ispan mustamlakachilariga qarshi ozodlik kurashi Kubaning Ispaniyaga qaramlikdan ozod bo’lishi 5. Hindistonda 1960yillarda agrar islohot o’tkazilishi Hindistonning o’zini o’zi g’alla bilan ta’minlay boshlashi",
+"opts": [
+"1, 3, 5",
+"2, 3, 5",
+"1, 4, 5",
+"2, 4, 5"
+],
+"ans": "D",
+"img": "img/dtm/hk-39-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar bir-biriga mos ravishda to‘g‘ri berilgan? № Davlat Voqea 1. Ukraina 1991-yil 27-avgustda o‘z mustaqilligini e’lon qildi 2. Ozarbayjon 1991-yil 18-oktabrda o‘z mustaqilligini e’lon qildi 3. Qozog’iston 1991-yil 16-dekabrda  o‘z mustaqilligini e’lon qildi 4. Armaniston 1991-yil 26-oktabrda o‘z mustaqilligini e’lon qildi 5. Gruziya 1991-yil 9-dekabrda  o‘z mustaqilligini e’lon qildi 6. Tojikiston 1991-yil 9-sentabrda  o‘z mustaqilligini e’lon qildi",
+"opts": [
+"1, 4, 6",
+"2, 3, 5",
+"2, 4, 6",
+"2, 3, 6"
+],
+"ans": "D",
+"img": "img/dtm/hk-39-28.jpg"
+},
+{
+"n": 29,
+"q": "Jadvalda harflar bilan berilgan kataklar o’rniga quyida berilgan  O‘zbekistonning xorijiy davlatlar bilan aloqasiga oid ma’lumotlardan moslarini qo’ying. Davlatlar b Tashrif a Turkmaniston 2002-yil c 2012-yil yillari Natijalar O’zaro do’stlik, strategik sheriklik va hamkorlik to’g’risidagi Qo’shma bayonot imzolandi Strategik sheriklik to’g’risidagi shartnoma imzolandi d",
+"opts": [
+"a-1, b-2, c-5,d-b",
+"a-2, b-3, c-5, d-7",
+"a-2, b-1, c-5, d-6",
+"a-3, b-1, c-4, d-6"
+],
+"ans": "C",
+"extra": "Ma’lumotlar: 1) Xitoy;\n2) Yaponiya;\n3) Koreya respublikasi;\n4) 2013-yil;\n5) 2017-yil;\n6) Strategik sheriklik o’rnatish to’g’risidagi qo’shma deklaratsiya imzolandi;\n7) Strategik sherikchilikni yanada rivojlantirish va chuqurlashtirish to’g’risida Qo’shma deklaratsiya imzolandi.",
+"img": "img/dtm/hk-39-29.jpg"
+},
+{
+"n": 30,
+"q": "Xaritada qaysi raqam bilan ko‘rsatilgan hudud (davlat) an’anaviy sivilizatsiya mamlakatlari ichida birinchi bo’lib industrial taraqqiyot yo’liga kirgan?",
+"opts": [
+"1",
+"2",
+"3",
+"4"
+],
+"ans": "D",
+"img": "img/dtm/hk-39-30.jpg"
+}
+]
+}

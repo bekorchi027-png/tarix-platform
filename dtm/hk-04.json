@@ -1,0 +1,347 @@
+{
+"id": "hk-04",
+"items": [
+{
+"n": 1,
+"q": "Qadimgi Rimda qaysi organ patritsiylardan ikki kishini bir yil muddatga hokim - konsul qilib saylagan?",
+"opts": [
+"Xalq majlisi",
+"Beshyuzlar kengashi",
+"Senat",
+"Xalq tribuni"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Mil. avv. II asrning ikkinchi yarmida tarix sahnasidan ketgan davlatlarni aniqlang.",
+"opts": [
+"3, 4",
+"1, 4",
+"2, 3",
+"1, 2"
+],
+"ans": "B",
+"extra": "1) Karfagen;\n2) Shumer-Akkad;\n3) Qang’;\n4) Yunon-Baqtriya."
+},
+{
+"n": 3,
+"q": "1920-yillari qaysi davlat iqtisodiy siyosatining asosiy yo’nalishini chet ellik mulkdorlardan sanoat korxonalari, infratuzilma obyektlari, temir yo’llarni sotib olish, milliy sanoatni yaratish tashkil qilgan?",
+"opts": [
+"Turkiya",
+"Eron",
+"Yaponiya",
+"Xitoy"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "To‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"2016-yilda O‘zbekiston Respublikasi Innovatsion rivojlanish vazirligi tashkil etildi.",
+"2017-yilda O‘zbekistonda Respublikasi Jismoniy tarbiya va sport davlat qo‘mitasi tashkil etildi.",
+"2018-yilda Maktabgacha ta’lim vazirligi tashkil etildi.",
+"2006-yilda Fan va texnologiyalarni rivojlantirishni muvofqlashtirish qo‘mitasi tashkil etildi."
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Quyidagi voqealar to’g‘ri xronologik tartibda berilgan javobni toping.",
+"opts": [
+"3, 2, 5, 1, 4",
+"2, 3, 4, 5, 1",
+"2, 3, 5, 1, 4",
+"3, 2, 4, 5, 1"
+],
+"ans": "C",
+"extra": "1) Efiopiyada Kasa o’zini imperator deb e’lon qildi;\n2) AQSHda erkinlikka erishgan qora tanli qullarni Afrikaga joylashtirish harakati boshlandi;\n3) Fransiya Jazoirni bosib oldi;\n4) Buyuk Britaniya aralashuvi bilan Kasa hokimiyati ag‘darildi;\n5) Liberiya ozod davlati tuzilganligi e’lon qilindi."
+},
+{
+"n": 6,
+"q": "Qaysi Afg’oniston amiri davrida Kobulda vazifasi amir xatti – harakatlari va qarzlar sarflanishini nazorat qilishdan iborat rezidensiya ochilgan?",
+"opts": [
+"Sheralixon",
+"Yoqubxon",
+"Abdurahmon",
+"Ayubxon"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Qo’qon xoni Muhammad Alixonning 1831-yilda Rossiyaga yuborgan elchiligi muvaffaqqiyatsizligiga nima sabab bo’lgan?",
+"opts": [
+"Xitoyga qarshi muqaddas urushda qurol-yarog‘lar bilan yordam so’ragani",
+"Har ikki davlatning ham O’rta juz qozoqlari homiysi bo’lishga da’vogarligi",
+"Rossiya-Turkiya munosabatlaridagi keskinlikning yumshashi",
+"Ko’chmanchi qozoqlarning karvonga hujumi"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Quyidagi qaysi ilk o’rta asr dini vakillari o’z xudolarida qora qashqa ot so’yib qurbonlik qilishgan?",
+"opts": [
+"moniy",
+"shomon",
+"nasroniylik",
+"otashparastlik"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Quyidagi qaysi voqeadan so’ng Boltiqbo‘yi mamlakatlarida Rossiyaning bu yerdagi siyosatidan xavotir va g‘ayrirus tashviqot kuchayib ketgan?",
+"opts": [
+"2014-yilda Ukrainadagi “rangli inqilob” ta’sirida Qrimning Rossiyaga qo’shilishi",
+"Shimoliy Koreyaning harbiy tartibiga qarshi g'arb davlatlari sanksiyasiga Rossiyaning qarshiligi",
+"2008-yilda Gruziya va Armaniston o’rtasida mojarolarga Rossiya bildirgan harbiy munosabat",
+"Rossiya va Belarus tomonidan hamkorlikda o‘tkazilgan «G‘arb – 2017» harbiy mashqlari"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Quyidagilardan qaysi biri Rus davlatining iqtisodiy va madaniy yuksalishiga salbiy ta’sir o’tkazib, uning taraqqiyotini susaytirgan? (XIII asrda)",
+"opts": [
+"Qurg’oqchilik natijasida iqtisodni zavolga yuz tutishi",
+"Vizantiya bosqini",
+"Mo’g’ullar bosqini",
+"Usmonli turklar bilan jang"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Parij kommunasi amalga oshirgan tub ijtimoiyiqtisodiy islohotlarni aniqlang.",
+"opts": [
+"1, 2, 4, 6",
+"1, 2, 3, 4",
+"1, 4, 5, 6",
+"1, 3, 5, 6"
+],
+"ans": "A",
+"extra": "1) cherkov davlatdan, maktab cherkovdan ajratildi.\n2) mehnatkashlarning uy-joy haqini to’lash muddatlari kechiktirildi.\n3) ishsizlarga sug’urta joriy qilindi.\n4) majburiy va bepul ta’lim joriy etildi.\n5) temiryo’l idoralari davlat tasarrufidan chiqarildi.\n6) egalari tashlab ketgan korxonalar shu korxona ishchilariga berildi."
+},
+{
+"n": 12,
+"q": "Chor mustamlakasi dastlabki davrida Turkistonda nima uchun uzoq vaqt davomida keng ko‘lamli ilmiy tadqiqotlarni shakllantirish deyarli amalga oshirilmadi?",
+"opts": [
+"mablag’ yetishmaganligi uchun",
+"mutaxassislar yetishmasligi uchun",
+"o’lka yaxshi o’rganilmagani uchun",
+"milliy uyg’onish amalga oshmasligi uchun"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "O’zbekiston SSRda yer-suv islohotining ikkinchi bosqichini hududlari bilan muvofiqlashtiring.",
+"opts": [
+"1-c, 2-b, 3-a",
+"1-a, 2-b, 3-c",
+"1-b, 2-a, 3-c",
+"1-a, 2-c, 3-b"
+],
+"ans": "D",
+"extra": "1) 1925-1926-yillar;\n2) 1927-yil;\n3) 1928-1929-yillar;\na) Farg'ona, Toshkent, Samarqand viloyatlari;\nb) Qashqadaryo, Surxondaryo, Xorazm okruglari;\nc) Zarafshon viloyati (Buxoro va O‘rta Zarafshon okrugi)."
+},
+{
+"n": 14,
+"q": "Quyidagilardan nisbatan oldinroq bo’lib o’tgan qo’zg’olonni toping.",
+"opts": [
+"Lyu Ban boshchiligidagi qo’zg’olon",
+"Spartak boshchiligidagi qo’zg’olon",
+"Frada boshchiligidagi qo’zg’olon",
+"“Sariq ro’mollilar” qo’zg’oloni"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "XIX asrning birinchi yarmida barcha erkaklarga umumiy saylov huquqi berilishi uchun boshlangan harakat tarixga qanday harakat nomi bilan kirgan?",
+"opts": [
+"partizanlar",
+"puritanlar",
+"chartistlar",
+"termidochilar"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Movarounnahrda kimning hokimligi davrida Hirot hokimi Abulqosim Bobur Movarounnahrga bostirib kirib, Samarqandni qamal qilgach, din ulamolaridan Xo’ja Ubaydulloh Ahror mojaroga qat’iy aralashib, raqiblarni yarashtirgan?",
+"opts": [
+"Abdulatif",
+"Ulug’bek",
+"Sulton Ahmad",
+"Abu Said"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Ilk o’rta asrdan boshlab german xalqlari hayotida boshlangan qaysi jarayon ularning ijtimoiy taraqqiyotini yanada tezlashtirgan edi?",
+"opts": [
+"qabila ittifoqlarining vujudga kelishi",
+"ikki dalali almashlab ekishga o`tilishi",
+"ijtimoiy va mulkiy tengsizlikning boshlanishi",
+"xristianlikning tarqalishi"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "XIX asr oxiri – XX asr boshida ayrim mamlakatlar o’rtasida iqtisodiy raqobatning kuchayishi va dunyoning yangi hududlariga iqtisodiy jihatdan kirib borishga intilish bilan bog’liq jarayonni aniqlang.",
+"opts": [
+"mustamlakachilik kuchayishi",
+"xom-ashyoga bo’lgan talabning ortishi",
+"tabiat ilmining taraqqiy etishi",
+"harbiy qurollarning takomillashuvi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Ichan qal'a me’moriy obidasi to’g’risida berilgan ma’lumotlarni xronologik ketma-ketligini aniqlang.",
+"opts": [
+"3, 2, 1",
+"3, 1, 2",
+"1, 3, 2",
+"1, 2, 3"
+],
+"ans": "C",
+"extra": "1) me'moriy yodgorlik sifatida alohida muhofazaga olingan va muzey-qo’riqxonaga aylantirilgan.\n2) Ichan qal'a Butunjahon yodgorliklari ro’yxatiga kiritildi.\n3) muzey-qo’riqxona Xiva „Ichan qal'a muzeyqo’riqxonasi” deb atala boshlandi."
+},
+{
+"n": 20,
+"q": "Qaysi davrda yuz bergan ichki siyosiy tarqoqlik Germaniyani kuchli davlatlar qo’lida qo’g’irchoqqa aylantirib qo’ygan?",
+"opts": [
+"XVIII asrning ikkinchi yarmi",
+"XVIII asrning oxirlari",
+"XVII asrning boshlari",
+"XVII asrning ikkinchi yarmi"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "XI asrda qaysi davlatda xalq orasida «Dahshatli sud kitobi» nomini olgan yer-mulk va aholi ro’yxati tadbiri o’tkazilgan?",
+"opts": [
+"Kiyev Rusi",
+"Vizantiya",
+"Angliya",
+"Fransiya"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Qayerda bo’lib o’tgan uchrashuvda O’zbekiston Prezidenti Shavkat Mirziyoyev nutq so’zlab, ishtirokchilari eʼtiborini Afgʻonistondagi vaziyatni yaxshilash, yoshlarni turli yot gʻoyalardan asrash, ularning zamonaviy taʼlim-tarbiya olishi, komil inson boʻlib voyaga yetishida davlatlararo hamkorlikka qaratgan?",
+"opts": [
+"2017-yil iyun oyida ShHTning Ostona sammitida",
+"2017-yil mart oyida YuNESKOning Parij yig’ilishida",
+"2017-yil sentabr oyida BMTning 72-sessiyasida",
+"2017-yil dekabr oyida MDHning Moskva sammitida"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Buxoroda qaysi sulola davrida soliqlar og’irligidan va mulkdorlar jabr-zulmidan, mamlakat ichkarisidagi notinchlikdan o’zlari yashab kelgan joylardan qochib ketgan dehqonlar va mayda yer-mulk egalari topib kelindi hamda yerlari qaytarib berildi?",
+"opts": [
+"somoniylar",
+"shayboniylar",
+"ashtarxoniylar",
+"mang’itlar"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Quyidagi qo’zg’olonlarni xronologik jihatdan to’g’ri ketma-ketlikda berilgan javob variantini aniqlang.",
+"opts": [
+"8, 1, 4, 6, 3, 7, 5, 2",
+"8, 1, 6, 4, 3, 7, 5, 2",
+"8, 6, 1, 4, 3, 5, 7, 2",
+"8, 1, 6, 3, 4, 7, 2, 5"
+],
+"ans": "B",
+"extra": "1) arablar zulmiga qarshi Kufa qo’zg’oloni;\n2) Bobek boshchiligidagi qo’zg’olon;\n3) Abu Muslim boshchiligidagi qo’zg’olon;\n4) G’urak va Divashtichlar boshchiligidagi qo’zg’olon;\n5) Rofe ibn Lays boshchiligidagi qo’zg’olon;\n6) Hurzod boshchiligidagi qo’zg’olon;\n7) Hoshim ibn Hakim boshchiligidagi qo’zg’olon;\n8) Abruy boshchiligidagi qo’zg’olon."
+},
+{
+"n": 25,
+"q": "Podsho gubernatori A.Gippius qaysi hududda norozilik kayfiyatidagi odamlarning ko‘pligi, mardikorlikka safarbar etish jarayoni aholi orasida katta g‘alayonlar chiqishiga sabab bo‘lishi mumkinligi haqida o‘lka va podsho ma’muriyatiga ma’lumot beradi?",
+"opts": [
+"Sirdaryo",
+"Toshkent",
+"Jizzax",
+"Farg’ona"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Xaritada yulduzcha bilan belgilangan davlatda jahon urushlari oralig’ida kim boshchiligida milliy-ozodlik harakati avj olgan?",
+"opts": [
+"Habib Burg’iba",
+"Farhod Abbos",
+"Abdul Karim",
+"Abdulqodir"
+],
+"ans": "C",
+"img": "img/dtm/hk-04-26.jpg"
+},
+{
+"n": 27,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. Genrix II Karl V II I III",
+"opts": [
+"I-a, b; II-c, d; III-f",
+"I-d, e; II-a, c; III-b",
+"I-a, c; II-d, f; III-e",
+"I-a, c; II-b, d; III-f"
+],
+"ans": "D",
+"extra": "a) XII asrda hukmonlik qilgan;\nb) kuchli flot va to‘pchilar qo‘shini tuzishga kirishadi;\nc) baronlarga harbiy xizmat o‘rniga xazinaga «qalqon puli» solig‘i to‘lashiga ruxsat berildi;\nd) XIV asrda hukmonlik qilgan;\ne) soliq islohotlari o‘tkazildi;\nf) harbiy islohotlar o‘tkazildi.",
+"img": "img/dtm/hk-04-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar bir-biriga mos ravishda to‘g‘ri berilgan? № Davlat Voqea 1. Malayziya 1995-yilda Mahatxir Muhammad boshchiligidagi Malayya birlashgan milliy partiyasi ishonchli g‘alabani qo‘lga kiritdi 2. Vyetnam 1999-yili birinchi marta o’zini sholi bilan ta’minladi 3. Indoneziya 2011-yili mamlakat prezidenti etib Megavati Sukarnoputri saylandi 4. Laos 2016-yili bo‘lib o‘tgan parlament saylovlarida bir o‘ringa o‘rtacha 1,5 nafar nomzod to‘g‘ri keldi 5. Filippin elektron va kimyo sanoati mahsulotlarini ishlab chiqaruvchi eng yirik mamlakatlardan biriga aylandi 6. Kambodja 1991-yili ASEANning teng huquqli a’zosi bo‘ldi",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 4, 5",
+"2, 3, 6"
+],
+"ans": "C",
+"img": "img/dtm/hk-04-28.jpg"
+},
+{
+"n": 29,
+"q": "Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija 1. O‘rta Osiyoda milliy-hududiy chegaralanish o‘tkazilishi Istiqlolchilik harakatining birinchi davri yakunlanishi 2. Turkiston – turk mustaqil islom jumhuriyati tashkil topishi Madaminbek bilan N.VeryovkinRoxalskiy o‘rtasida Skobelev bitimini imzolanishi 3.  Xorazm Xalq Sovet Respublikasi (XXSR) tuzilganligi Xorazmdagi demokratik o‘zgarishlarga chek qo‘yilishi 4.  Yangi iqtisodiy siyosat tufayli o‘z xo‘jaligini tiklab olgan xo‘jaliklarning quloq qilinishi 1929-yili sovet jamiyatida bozor munosabatlari muhiti barham topdi 5.  Rossiyadagi Fevral inqilobini amalga oshirilishi Hokimiyatga Lenin boshchiligidagi bolsheviklar partiyasi qo‘liga o‘tdi",
+"opts": [
+"1, 2",
+"3, 5",
+"2, 4",
+"1, 4"
+],
+"ans": "D",
+"img": "img/dtm/hk-04-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi grafikda qaysi raqam ostida shahar va uning yubileyi bir-biriga muvofiq keladi? 2500 yilligi 2700 yilligi 2000 yilligi 2200 yilligi Marg’ilon Shahrisabz Qarshi Termiz",
+"opts": [
+"1, 3, 6, 7",
+"2, 4, 5, 7",
+"2, 3, 4, 5",
+"1, 3, 5, 7"
+],
+"ans": "B",
+"img": "img/dtm/hk-04-30.jpg"
+}
+]
+}

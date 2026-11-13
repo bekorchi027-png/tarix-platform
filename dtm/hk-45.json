@@ -1,0 +1,348 @@
+{
+"id": "hk-45",
+"items": [
+{
+"n": 1,
+"q": "Xivada XIX asrda hukmronlik qilgan hukmdorlarni belgilang.",
+"opts": [
+"2, 4, 5",
+"1, 3, 6",
+"2, 3, 5",
+"1, 2, 4"
+],
+"ans": "A",
+"extra": "1) Asfandiyorxon;\n2) Olloqulixon;\n3) Sherg’oziyxon;\n4) Eltuzarxon;\n5) Muhammad Aminxon;\n6) Anushaxon."
+},
+{
+"n": 2,
+"q": "Afg’onistonda kimning hukumati davrida SSSR o‘z qo‘shinlarini olib chiqib ketgan, AQSH va Pokiston esa isyonchilarga qurol yetkazib berishni to‘xtatgan?",
+"opts": [
+"Hafizullo Amin",
+"Muhammad Dovud",
+"Nur Muhammad Tarakiy",
+"Muhammad Najibullo"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Quyida berilganlardan Qo‘qon xoni Abdulkarimbiy faoliyati bilan bog’liq ma’lumotlarni aniqlang.",
+"opts": [
+"3, 5, 6",
+"2, 4, 6",
+"1, 3, 4",
+"1, 2, 5"
+],
+"ans": "C",
+"extra": "1) Qipchoqlar isyonini bostirgan;\n2) Buxoro xonligi tassarufida bo’lgan Xo’jand va O’rtatepa viloyatlarini qo’shib olgan;\n3) Qo’qon shahri atrofini devor bilan o’ratgan;\n4) Taxtga kelishidan oldin Xo’jand hokimi bo’lgan;\n5) ashtarxoniy Abulfayzxon unga “otaliq” unvonini bergan;\n6) Qo’qon shahrini xonlik poytaxtiga aylantirgan."
+},
+{
+"n": 4,
+"q": "XVI-XVIII asrlarda bir-biri bilan chegaradosh bo‘lgan qaysi davlatlar o‘rtasida chegara hududlar va qo‘shni davlatlar, birinchi navbatda, Italiyaga ta’sir ko‘rsatish uchun tez-tez ziddiyatlar bo‘lib turardi?",
+"opts": [
+"Angliya va Fransiya",
+"Fransiya va Ispaniya",
+"Germaniya va Belgiya",
+"Angliya va Ispaniya"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Xitoyda qaysi sulola davrida qog’oz ixtiro qilingan?",
+"opts": [
+"Chjou",
+"Sin",
+"Shan",
+"Xan"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Bolsheviklar va milliy kuchlar o’rtasida imzolangan quyidagi shartnomalarni xronologik ketma-ketlikda joylashtiring.",
+"opts": [
+"1, 2, 3, 4",
+"2, 3, 4, 1",
+"1, 4, 3, 2",
+"2, 1, 3, 4"
+],
+"ans": "C",
+"extra": "1) Qo’qon shahrida Rus-Osiyo banki binosida imzolangan “tinchlik shartnomasi”\n2) Skobelev shahrida Madaminbek tomonidan imzolangan yarash bitimi\n3) Taxta qishlog’ida Junaidxon imzolagan tinchlik shartnomasi\n4) Mirzo Salimbek tomonidan imzolangan Qiziltepa bitimi"
+},
+{
+"n": 7,
+"q": "Buyuk Yunon koloniyalashtirishi davrida Olviya, Xersones, Pantikapey koloniyalari qaysi dengiz sohilida vujudga kelgan?",
+"opts": [
+"O‘rtayer dengizi",
+"Kaspiy dengizi",
+"Qora dengiz",
+"Boltiq dengizi"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Argentinada 1895-yil tashkil etilgan ishchilar partiyasi qanday islohotlar uchun kurash olib borgan?",
+"opts": [
+"1, 2, 5, 7",
+"2, 3, 4, 6",
+"1, 3, 4, 7",
+"2, 4, 6, 8"
+],
+"ans": "D",
+"extra": "1) cherkov ta’sirini kamaytirish;\n2) diniy ta’limni bekor qilish;\n3) ishsizlarni ish bilan ta’minlash;\n4) yagona soliq joriy qilish;\n5) ijtimoiy sug’urta joriy qilish;\n6) namoyishlarga ruxsat berish;\n7) bepul ta’lim joriy qilish;\n8) kasaba uyushmalarini birlashtirish."
+},
+{
+"n": 9,
+"q": "Rossiya Turkiya bilan Kuchukqaynarji shartnomasini imzolagan yili Buxoroda kim hukmronlik qilayotgan edi?",
+"opts": [
+"Amir Shohmurod",
+"Muhammad Rahimbiy",
+"Doniyolbiy",
+"Amir Nasrullo"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Qadimda Rim respublikasi Senati necha kishidan iborat bo‘lgan?",
+"opts": [
+"200 kishi",
+"300 kishi",
+"120 kishi",
+"100 kishi"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "1898-yilgi Andijon qo‘zg‘olonida faol ishtirok etgan va rahnamolik qilgan shaxslarni aniqlang.",
+"opts": [
+"1, 3, 5, 6",
+"1, 2, 4, 6, 8",
+"1, 4, 7, 8",
+"1, 2, 3, 4, 5"
+],
+"ans": "A",
+"extra": "1) Muhammad Ali eshon;\n2) Muhammad Yoqub;\n3) mingboshi G‘oyibnazar;\n4) Rahmonqulihoji;\n5) Ziyovuddin maxsum;\n6) Chibil bo‘lis;\n7) Mirkarimboy;\n8) Damin kulol."
+},
+{
+"n": 12,
+"q": "XIX asr oxiri – XX asr boshlarida Xiva xonligida aka-uka Rizayevlar va Solijonovlarning paxta tozalash zavodlari qaysi shaharda bo‘lgan?",
+"opts": [
+"Yangi Urganchda",
+"Xivada",
+"Mo‘ynoqda",
+"Gurlanda"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "AQShga “tinchliksevar xalqlarning sovet tajovuziga” qarshi kurashiga boshchilik qilish taklifi kim tomonidan berilgan?",
+"opts": [
+"Fransiya prezidenti Sharl de Goll",
+"Buyuk Britaniyaning sobiq bosh vaziri U.Cherchill",
+"Germaniya kansleri K.Adenauer",
+"AQSh davlat kotibi J.Marshall"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Quyidagi voqealar to‘g‘ri xronologik tartibda joylashtirilgan javobni toping.",
+"opts": [
+"1, 2, 3",
+"3, 1, 2",
+"3, 2, 1",
+"1, 3, 2"
+],
+"ans": "D",
+"extra": "1) Ahamoniylar davlati tashkil topdi;\n2) Sin sulolasi hukmdori Xitoyni yagona davlatga birlashtirdi;\n3) Salavkiylar davlati vujudga keldi"
+},
+{
+"n": 15,
+"q": "Qoraqalpoq shoirlardan qaysi biri oʻz she’rlarida jamiyatdagi nohaqliklarni, hukmron tabaqalarning kirdikorlarini, xalqqa o‘tkazgan jabr-zulmlarini fosh etgan?",
+"opts": [
+"Ajiniyoz",
+"Kunxo‘ja Ibrohim",
+"Jiyen Jirov",
+"Berdaq"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Eftaliylar davlati qulagach, qaysi davlat Amudaryodan to Suriyaga qadar Ipak yo’li ustidan o’z nazoratini o’rnatgan?",
+"opts": [
+"Turk xoqonligi",
+"Eron",
+"Vizantiya",
+"Xitoy"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Qanday omillar XIII asr oxiridan G’arbiy Yevropada ritsarlarga qirol qo'shinida xizmat qilish imkonini yaratgan?",
+"opts": [
+"1, 4",
+"2, 3",
+"1, 2",
+"2, 4"
+],
+"ans": "D",
+"extra": "1) Yaqin Sharqqa salib yurishlari\n2) Qirol hokimiyatining kuchaya boshlashi\n3) Feodallar zulmining kuchayishi\n4) Mamlakatni markazlashtirish siyosati"
+},
+{
+"n": 18,
+"q": "Ma’lumki, 1900-yil iyul oyida Xitoyga sakkizta davlat intervensiyasi uyushtirilgan. Nima uchun ushbu davlatlarga Xitoyda o’z qo’shinlarini saqlashga ruxsat berilgan?",
+"opts": [
+"ajnabiylarni xavfsizligini ta’minlash uchun",
+"o’zaro ichki urushlar va inqiloblarga qarshi kurashish uchun",
+"Pekin bilan dengiz sohili o’rtasidagi yo’llarni muhofaza qilish uchun",
+"Xitoy hukumatiga qarshi kurashda xalqqa yordam berish uchun"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Nechanchi yilda BMT Xavfsizlik Kengashining terrorizmga qarshi kurash bo’yicha maxsus qo’mitasi ta’sis etilgan?",
+"opts": [
+"2001-yil",
+"2003-yil",
+"2004-yil",
+"2002-yil"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Qaysi atama saralangan fuqarolarning ehtiyojlariga emas, xalq ommasi ehtiyojlariga qaratilgan siyosiy pozitsiya yoki nutq shakli hisoblanadi?",
+"opts": [
+"Tolerantlik",
+"Repatriatsiya",
+"Populizm",
+"Unifikatsiya"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Jaloliddin Manguberdi faoliyati bilan bog’liq quyidagi voqealarni xronologik ketma-ketlikda joylashtiring.",
+"opts": [
+"4, 1, 5, 2, 3",
+"1, 4, 5, 2, 3",
+"2, 1, 4, 5, 3",
+"4, 1, 5, 3, 2"
+],
+"ans": "A",
+"extra": "1) Garni qal’asi yaqinida gurjilarning 60 minglik qo’shini tor-mor keltirildi;\n2) Isfahon yaqinida mo‘g‘ullarning Taynol no’yon boshliq qo’shini mag’lubiyatga uchratildi;\n3) Arzinjon yaqinida Ko’niya, Jazira, Damashq va Misr qo’shinlari tomonidan mag’lubiyatga uchradi;\n4) Marog’a shahri jangsiz qo’lga kiritildi;\n5) Gurjiston to’liq egallandi."
+},
+{
+"n": 22,
+"q": "2002-yili O‘zbekistonda amalga oshirilgan qaysi jarayon fuqarolik jamiyatini barpo etishni kuchaytirishga xizmat qiladi?",
+"opts": [
+"jamiyat hayotida nodavlat va notijorat tashkilotlarning o’rni va rolini oshirish",
+"siyosiy partiyalar sonining ortishi va faoliyatining kengayishi",
+"hokimliklar va mahalliy vakillik organlarini bir-biridan to’la mustaqilligining ta’minlanishi",
+"mahalliy o’zini o‘zi boshqarish organlarini mahalliy hokimliklar va vakillik organlaridan mustaqilligini ta’minlash"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "XX asr oxirlarida qaysi davlatda hokimiyatga kelgan yangi siyosiy kuchlar bank sektori va logistikani rivojlantirishga qaror qilgan?",
+"opts": [
+"Estoniya",
+"Latviya",
+"Moldova",
+"Belarus"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Vizantiya sarkardasi Velisariyga qarshi kurash uchun kimlar qochoq qullarga ozodlik berib, ulardan foydalanishgan?(ilk o’rta asrlarda)",
+"opts": [
+"ispaniyalik vestgotlar",
+"italiyalik ostgotlar",
+"Shimoliy Afrikalik vandallar",
+"galliyalik franklar"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Muruntov, Krasnagorsk, Zafarobod, Shalqar shaharchalarining vujudga kelishi qaysi sanoat korxonasi bilan bog’liq edi?",
+"opts": [
+"Bekobod metallurgiya zavodi",
+"Gazli neft-gaz koni",
+"Navoiy kon-metallurgiya kombinati",
+"Chirchiq elektr kimyo kombinati"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Bir yilda amir deb e’lon qilingan Buxoro va Afg‘oniston hukmdorlarini aniqlang.",
+"opts": [
+"Amir Haydar va Fathxon",
+"Shohmurod va Shuju",
+"Amir Nasrullo va Do‘st Muhammadxon",
+"Doniyolbiy va Ahmadshoh"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi? “Yilnomalar to’plami” “Tarixi Muqimxoniy” “Qibla tomonni topish ma’rifati” “Abdullanoma” Muhammad Muhammad Mir Olim Hakimxon Husayni Buxoriy Buxoriy",
+"opts": [
+"2, 5",
+"3, 6",
+"2, 6",
+"1, 4"
+],
+"ans": "B",
+"img": "img/dtm/hk-45-27.jpg"
+},
+{
+"n": 28,
+"q": "1877-1878-yillarda o’zaro harbiy to‘qnashuv yuz bergan davlatlar xaritada qaysi raqamlar ostida berilgan?",
+"opts": [
+"2, 5",
+"1, 3",
+"1, 4",
+"4, 5"
+],
+"ans": "D",
+"img": "img/dtm/hk-45-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalda voqea va uning natijasi o’zaro nomuvofiq bo’lgan qatorlarni aniqlang. № Voqea Natija 1. Prussiyaning Avstriya ustidan 1866-yilda g’alaba qozonishi «Shimoliy Germaniya Ittifoqi»ning tuzilishi 2. 1453-yilda turklar tomonidan Konstantinopolning bosib olinishi Vizantiya imperiyasining tashkil topishi 3. 1889-yilda Pedru II ning Braziliya taxtidan voz kechishi Mamlakatning respublika deb e’lon qilinishi 4. Abulfayzxonning hokimiyat tepasiga kelishi Buxoro xonligida qo‘ng‘irotlar qabilasi hokimiyatining kuchayishi 5. Avraam Linkolnning prezident saylovlarida g’alaba qozonishi AQSh da fuqarolar urushining boshlanishi",
+"opts": [
+"3, 5",
+"2, 4",
+"1, 3",
+"2, 5"
+],
+"ans": "B",
+"img": "img/dtm/hk-45-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. Mayyalar davlati Asteklar davlati II I III",
+"opts": [
+"I-c, e; II-b, f; III-a",
+"I-c, f; II-b, e; III-a",
+"I-a, e; II-b, c; III-d",
+"I-b, c; II-a, e; III-d"
+],
+"ans": "D",
+"extra": "a) mamlakatda piktografik yozuv shakllangan;\nb) matematikaga “nol”ni anglatuvchi belgini hindlardan ham avval kiritgan; c) kohinlar sayyoralarning Quyosh tevaragida aylanish vaqtini hisoblab chiqib, Quyosh va Oyning tutilishini oldindan aytib bera olganlar;\nd) Markaziy Amerikaning hozirgi Meksika hududida tashkil topgan; e) yer taqchil bo’lganligi sababli ko’l tagidan suv o’simliklari va unumdor loyni ko’tarib, sollarda “suzuvchi dalalar” yaratilgan; f) davlatni Oliy Inka boshqargan.",
+"img": "img/dtm/hk-45-30.jpg"
+}
+]
+}

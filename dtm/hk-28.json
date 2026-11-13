@@ -1,0 +1,340 @@
+{
+"id": "hk-28",
+"items": [
+{
+"n": 1,
+"q": "O’rta asrlarda qaysi sulola davrida mamalakat o’z hukmronligini mustahkamlab olishda musilmon ruhoniylari bilan yaqin va do’stona munosabatlar o’rnatdilar ?",
+"opts": [
+"G’aznaviylar",
+"Toxiriylar",
+"Qoraxoniylar",
+"Sominiylar"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Quyidagilardan qaysi javobda notog’ri ma’lumot berilgan?",
+"opts": [
+"Yangi davr boshlarida G’arbga nisbatan Sharq mamlakatlarida rivojlanish ancha yuqori edi",
+"Yangi davr boshlarida Sharq davlatlarida harbiy xarajatlar miqdori ancha yuqori edi",
+"XVI-XVII asrlardan Sharq mamlakatlarida transport vositalari va kommunikatsiya tizimi rivojlanish suratlari pasaydi",
+"Ekstensiv bu – rivojlanishda sifat o’zgarishlariga emas, faqat son jihatdan ko’payishga va tezkor natijalarga yo’naltirilgan o’sish"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Turkiya (a)  va Rossiya (b) davlatlarining Millatlar Ligasiga a’zo bo’lib kirgan yillarni aniqlang.",
+"opts": [
+"a-1932-yil b-1941-yil",
+"a-1941-yil b-1934-yil",
+"a-1957-yil b-1933-yil",
+"a-1932-yil b-1934-yil"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "O’zbekiston komsomolining ta’sis qurultoyi qaysi shaharda  bo’lib o’tgan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Toshkent",
+"Qo’qon"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Mo’g’ullar davrida dorug’a zimmasiga qanday vazifalar yuklatilgan? 1. Aholi osoyishtaligi ta’minlash 2. Mahalliy xalqdan qo’shin to’plash 3. Pochta aloqalarini yo’lga qo’yish 4. Harbiy qo’shinni qurollantirish 5. Urush harakatlari vaqtida viloyatni boshqarish 6. Aholini ro’yxatga olish",
+"opts": [
+"1, 4, 5",
+"2, 5, 6",
+"1, 3, 4",
+"2, 3, 6"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Aholini ro’yxatga olish A) 1, 4, 5 B) 2, 5, 6 C) 1, 3, 4 D) 2, 3, 6 6. “Shomol ortidan yugurayotgan odamlar” asarining mualifi kim?",
+"opts": [
+"Paulo Koelyon",
+"Joan Roul",
+"Xolid Husayn",
+"Abdurauf Fitrat"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "1879-yilning kuzida Farg’ona viloyatida ko’tarilgan qo’zg’olonga nima sabab bo’lgan?",
+"opts": [
+"Mingboshilar saylovlariga norozilik bildirishgan",
+"Mustamlakachilarning siyosiy va iqtisodiy zulmiga qarshi",
+"Marg’ilon uyezdida soliq to’plash noqonuniy tusga kirganligi",
+"Aholidan qo’shimcha yer solig’ining olinishi"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b,e; II-c,d; III-a",
+"I-c,e; II-b,d; III-a",
+"I-b; II-c; III-a",
+"I-c; II-b; III-a"
+],
+"ans": "C",
+"extra": "a) General shtatlar majlisini chaqirgan;\nb) katta yer-mulklarga egalik qilayotgan cherkovdan soliq talab qildi;\nc) aholiga yangi soliqlar solinishi e’lon qilgan;\nd) harbiy islohotlar o’tkazib, kuchli flot va to’pchilar qo’shinini tuzgan;\ne) Burj va Sans shaharlarini o’z mulkiga qo’shib olgan.",
+"img": "img/dtm/hk-28-8.jpg"
+},
+{
+"n": 9,
+"q": "Afrosiyob shahriga qachon asos solingan?",
+"opts": [
+"Mil.avv. VII-VI asrlar",
+"Mil.avv. VIII-VI asrlar",
+"Mil.avv VIII-VII asrlar",
+"Mil.avv. V-IV asrlar"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Bir yilda sodir bo’lgan voqealarni toping. 1. Rossiya va Turkiya o’rtasidagi Qrim urushi yakunlandi. 2. Ingliz – afg’on do’stlik shartnomasi imzolandi. 3. Eron Hirot shahrini bosib oldi. 4. Turkiya ustidan G’arb davlatlarining  homiyligini o’rnatgan Parij tinchlik shartnomasi imzolandi. 5. Buyuk Britaniya va Afg’oniston o’rtasida harbiy shartnoma imzolandi. 6. Fransiya Jazoirni bosib oldi.",
+"opts": [
+"1, 4, 5",
+"2, 3, 6",
+"2, 3, 4",
+"1, 3, 4"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Xiva xonligida  bosh vazir vazifasini bajargan mehtar Qo’qon xonligida qanday vazifani boshqargan?",
+"opts": [
+"Tashqi siyosat masalalarida xonning bosh maslahatchisi",
+"Devonbegining o’rinbosari bo’lgan",
+"Xazinaga tushgan tushumning hisob-kitobini olib borgan",
+"Moliya ishlarini boshqargan"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi davlatlardan qaysilari bir asrda parchalanga?",
+"opts": [
+"Mali va Songai",
+"Gana va Aksum",
+"Gana va Mali",
+"Aksum va Mali"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Turkiston xalq kutubxonasi nechanchi yilda tashkil topgan?",
+"opts": [
+"1896-yil",
+"1884-yil",
+"1870-yil",
+"1876-yil"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Quyidagi qaysi davlat texnik taraqqiyotda G’arbdan tobora ortda qolib ketayotgan bo’lsa-da, to XVIII asrning oxirigacha iqtisodiy jihatdan dunyoning eng qudratli davlatlaridan biri bo’lib qoldi?",
+"opts": [
+"Koreya",
+"Yaponiya",
+"Rossiya",
+"Xitoy"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Quyidagi Xiva hukmdorlarini ularning davrida amalga oshirilgan islohotlari  bilan muvofiqlashtiring.",
+"opts": [
+"1-c, 2-b, 3-a, 4-d",
+"1-a, 2-d, 3-c, 4-b",
+"1-c, 2-d, 3-a, 4-b",
+"1-d, 2-a, 3-c, 4-b"
+],
+"ans": "C",
+"extra": "1) Muhammad Rahimxon I  2) Olloqulixon\n3) Abulg‘ozi Bahodirxon       4) Arab Muhammadxon.\na) Xonlik tarkibidagi urug'larning yuqori tabaqasidan xonga maslahatchilik qiladigan kishilar guruhi ajratib olindi\nb) Xonlik poytaxti Urganch shahridan Xivaga ko'chirildi\nc) Xonlikda bojxona xizmati tashkil etildi\nd) Xiva shahri atrofi mudofaa devori bilan o‘rab olindi."
+},
+{
+"n": 16,
+"q": "Ikkinchi ingliz-afg’on urushi boshlangan vaqtda Afg’oniston hukmdori sifatida kim faoliyat ko’rsatayotgan edi?",
+"opts": [
+"Yoqubxon",
+"Sheralixon",
+"Abdurahmon",
+"Habibullo"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Turkiston o’lkasida mardikorlikka qarshi ko’tarilgan 1916-yilgi qo’zg’olon dastlab qaysi  shahardan boshlangan?",
+"opts": [
+"Namangan",
+"Toshkent",
+"Xo’jand",
+"Andijon"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Quyidagilardan qaysi biri oldinroq sodir bo’lgan.",
+"opts": [
+"Falastin hududida Isroil podsholigi vujudga keldi.",
+"Sparta shahar-davlatiga asos solindi.",
+"“Avesto” ning ilk qismi paydo bo’ldi",
+"Hind daryosi vodiysi shaharlari butunlay vayronaga aylandi"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Birinchi jahon urushidan keyin qaysi davlat Avstriya-Vengriya yerlarining bir qismini egallab, o’z hududini ancha kengaytirib oladi?",
+"opts": [
+"Fransiya",
+"Yaponiya",
+"Italiya",
+"Rossiya"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "XIX  asr oxiri-  XXasr boshlarida Xiva xonligining qaysi shaharlarida gilam va kigizlar ishlab chiqarilgan? 1. Xiva  2. G’azovot  3.Xo’jayli  4. Porsu  5. Xonqa 6. Taxta  7. Ko’hna Urganch  8. Aliyeli 9. Yangi Urganch",
+"opts": [
+"1, 4, 6, 8, 9",
+"2, 4, 7, 8",
+"2, 4, 5, 6, 8",
+"4, 5, 7, 9"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi davlatning tashqi siyosatidagi o’zgarishlar  tarixda “Yangicha siyosiy tafakkur” deb atalgan ?",
+"opts": [
+"Xitoy",
+"AQSh",
+"SSSR",
+"Yaponiya"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "1917-yili Turkiston o’lka musulmonlari Markaziy Kengashi (Sho’rosi) tuzilganda, unga kotib etib saylangan shaxsni aniqlang.",
+"opts": [
+"Mustafo Cho’qayev",
+"Sherali Lapin",
+"Zakiy Validiy",
+"Turor Risqulov"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi davlat Buyuk Britaniya va Fransiya o’rtasidagi raqobat munosabatlaridan ustalik bilan foydalanib, o’z mustaqilligini saqlab qolgan?",
+"opts": [
+"Efiopiya",
+"Liberiya",
+"Misr",
+"Gana"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Bir-biriga bog’liq bo’lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija 1. 1789-yil Bastiliya “Iso jamiyatining” qal'asining egallanishi tashkil topishi 2. XIX asr oxirgi choragida San-Stefano sulh Rossiya imperiyasining shartnomasining Bolqonda mustahkam imzolanishi o'rnashib olishga intilishi 3. XV asrda O'rtayer Yerning dumaloq dengizi savdo yo'lining shaklda ekanligini Safaviylar tomonidan amalda isbotladi yopib qo'yilishi 4. XIX asrda Hindistonda Ost-Indiya tuz solig'ining kompaniyasining oshirilishi tugatilishi 5. XIX asrning ikkinchi AQSH Kongressi yarmida AQSHning tub hindularga fermerlik faoliyati bilan shug’ullanishga yerli aholisi – hindular qattiq azob-uqubatlarga imkon beruvchi qonun qabul qildi",
+"opts": [
+"1, 3",
+"2, 4",
+"3, 4",
+"2, 5"
+],
+"ans": "D",
+"img": "img/dtm/hk-28-24.jpg"
+},
+{
+"n": 25,
+"q": "Buyuk Britaniyada Konservatorlar va Liberallar partiyasini birlashtiruvchi yagona manfaatlar ham mavjud bo`lib, bu ...",
+"opts": [
+"Buyuk Britaniyaning dunyoda yetakchi davlat - maqomini saqlab qolishga intilishi",
+"Mustamlaka imperiyani yanada kengaytirish",
+"Dunyo bozorlaridan o`z raqiblarini mumkin qadar ko` proq siqib chiqarishga intilish",
+"Hamma javob to`g`ri"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Buyuk Britaniyaning Efiopiyada mustahkam o’rnashishga bo’lgan harakatlari nima sababdan yo’qqa chiqqan?",
+"opts": [
+"Fransiyaning Efiopiyani qo’llab quvvatlashi tufayli",
+"Kasa tomonidan yaxshi harbiy tayyorgarlik ko’rgan qo’shinning tuzilishi",
+"Efiopiya xalqining o’zgalarga qaram bo’lmaslik yo’lidagi irodasi",
+"Buyuk Britaniyaning harbiy bazalari joylashmaganligi"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Quyidagi qaysi shaxsning  avliyolar va payg'ambarlar hayoti haqida ma'lumotlar keltirilgan she'riy shaklda yozilgan asari Turkistondagi an'anaviy ta'lim muassasalarida darslik sifatida o'qitilgan?",
+"opts": [
+"Muqumiy",
+"So'fi Olloyor",
+"Mirzo Bedil",
+"Zavqiy"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Noto’g’ri tarixiy ma’lumotni aniqlang.",
+"opts": [
+"Harbiy harakatlarda naftandoz (neftni yondirib otuvchi) va manjanaq (tosh otuvchi) qurollar, asosan, shahar yoki qal’alarni qamal qilishda, shuningdek, dushman qo‘shinining safini to‘zg‘itib yuborishda qo‘llanilgan.",
+"Manbalarda qayd etilisbicha, Buxoro xonligi qo'shinida zambarak ham bo‘lgan.",
+"Butun XVI asrda ham o‘q-yoy otliq askar uchun asosiy qurol bo‘lib qolaverdi.",
+"Iqtisodiy tanazzul oqibatida ashtarxoniylar davrida xonlik muntazam qo‘shin saqlay olmadi."
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Mahmud Tarobiy o’zini Buxoro va atrof viloyatlarining xalifasi, ya’ni hukmdori deb rasmiy ravishda e’lon qilgach, kimni Buxoro sadri deb e’lon qiladi?",
+"opts": [
+"Shamsiddin Mahbubiy",
+"Mahmud Yalavoch",
+"Ma’sudbek Yalavoch duchor etilishi",
+"Badriddin Qozixon"
+],
+"ans": "A",
+"img": "img/dtm/hk-28-29.jpg"
+},
+{
+"n": 30,
+"q": "Gelmut Kol kanslerlik yillari GFR da qanday tadbirlarni amalga oshirgan? 1. Soliqlar qisqartirildi davlat xarajatlari tartibga solindi. 2. Davlat sektorini keng xususiylashtirish. 3. Davlatning iqtisodga aralashuvini chekladi. 4. Davlatning biznesga aralashuvini kamaytirish. 5. Raqobatni rag’batlantirish.",
+"opts": [
+"1, 3, 5",
+"3, 4, 5",
+"1, 4, 5",
+"1, 2, 4"
+],
+"ans": "C"
+}
+]
+}

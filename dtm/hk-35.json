@@ -1,0 +1,348 @@
+{
+"id": "hk-35",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi Misr podsholigi mahalliy qabilalar bilan urushi natijasida zaiflashgan edi?",
+"opts": [
+"Qadimgi podsholik",
+"Yangi podsholik",
+"So’nggi podsholik",
+"Ilk podsholik"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Olimlar turli mintaqalardan o’ta sodda tosh mehnat qurollari yasashni biladigan eng qadimgi odam suyaklari qoldiqlarini topib o’rganganlar, shulardan qaysi biri Afrika qit’asidan topilgan?",
+"opts": [
+"1, 3",
+"2, 3",
+"2, 4",
+"1, 4"
+],
+"ans": "B",
+"extra": "1) neandertal 2) avstralopitek\n3) zinjantrop 4) kromanyon"
+},
+{
+"n": 3,
+"q": "Kushon davlatga oid qaysi yodgorlikdan yunon alifbosidagi kushon bitiklari topilgan?",
+"opts": [
+"Qadimgi Termiz",
+"Qoratepa",
+"Surxko’tal",
+"Fayoztepa"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler- Venn diagrammasiga mos keladigan javobni toping. XIX asr Liberiya Efiopiya II I III",
+"opts": [
+"I-a, b; II-e, f; III-d",
+"I-b, e; Il-c, d; III-a",
+"I-b, f; Il-c, e; III-d",
+"I-c, e; Il-b, d; III-a"
+],
+"ans": "D",
+"extra": "a) Yevropa davlatlarining mustamlakachilik zulmiga qarshi kurashib, o’z mustaqilligini saqlab qoldi; b) davlatning tashkil topishi AQShda qulchilikka qarshi kurash bilan bogʻliq; c) Kassa o’zini mamlakat imperatori deb e’lon qilgan;\nd) davlatda G’arbiy Yevropa va Shimoliy Amerikadagi ilg’or tartib-qoidalar joriy etilgan;\ne) Adua yonida bo’lib o’tgan jangda Italiya qo’shinlarini mag’lub etgan; f) Buyuk Britaniya mustamlakasi boʻlgan.",
+"img": "img/dtm/hk-35-4.jpg"
+},
+{
+"n": 5,
+"q": "Qaysi javobda nomi keltirilgan tarixiy shaxs qadimda davlatni boshqarmagan?",
+"opts": [
+"Amir Temur",
+"Sargon I",
+"Kanishka",
+"Vima Kadfiz"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Slavyanlar yashagan hududdagi ilk davlatni toping.",
+"opts": [
+"Chexiya",
+"Bolgariya",
+"Polsha",
+"Slovakiya"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Quyida berilganlardan qaysilari Fransiyaning 1918-1939-yillardagi tarixi bilan bog’liq emas?",
+"opts": [
+"1, 3, 5",
+"2, 3, 5",
+"2, 4, 5",
+"1, 4, 5"
+],
+"ans": "B",
+"extra": "1) Sanoatning o’sishi uchun qulay sharoit yaratildi;\n2) Nemis qo’shinlari Parijga kirib keldi;\n3) madaniy inqilob yuz berdi;\n4) Germaniyadan Elzas va Lotaringiyani qay tarib oldi, 15 yilga Saar ko’mir havzasini egalladi;\n5) Irqiy qonunlar chiqarildi."
+},
+{
+"n": 8,
+"q": "XIII asr boshida Xorazm juda keng maydonni egallagan buyuk davlatga aylangan edi. Uning shimoli g’arbiy va g’arbiy chegarasi (a) janubi g’arbda (b) qadar borar edi.",
+"opts": [
+"a-1, b-4;",
+"a-2, b-4;",
+"a-1, b-3;",
+"a-2, b-3;"
+],
+"ans": "D",
+"extra": "1) G’aznagacha 2) Orol va Kaspiy dengizi 3) Iroqqa\n4) Yettisuv va Dashti Qipchoq"
+},
+{
+"n": 9,
+"q": "Quyidagi keltirilgan qaysi hududni arablar bosib olishmagan?",
+"opts": [
+"Kavkazorti",
+"Gibraltar bo’g’ozi",
+"Bolqon yarimoroli",
+"Shimoliy Afrika"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Qaysi qabilasidan chiqqan Ibrohimbiy Urgut va Miyonqol hokimlari bilan til biriktirib, Buxoro xonligidan mustaqil, poytaxti Samarqand bo’lgan davlat tuzishga qaror qilgan?",
+"opts": [
+"kenagas",
+"qipchoq",
+"qoʻngʻirot",
+"mang’it"
+],
+"ans": "A"
+},
+{
+"n": 11,
+"q": "Buyuk Britaniya mustamlakasi boʻlgan “oq koloniya”ni toping.",
+"opts": [
+"Hindiston",
+"Yangi Zelandiya",
+"Eron",
+"Afg’oniston"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Ibrohim Boʻritegin Xuttalon, Vaxsh va Chag’oniyonni g’aznaviylardan tortib olgan yilda bo’lib o’tgan voqeani belgilang.",
+"opts": [
+"Somoniylar davlati barham topdi.",
+"Xorazm Saljuqiylar davlatiga qaram bo’lib qoldi.",
+"Saljuqiylar davlati tashkil topdi.",
+"Qoraxoniylar davlati barham topdi."
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyida berilganlardan qaysilarida davlat-shaxsvoqen mosligi to’g’ri berilgan?",
+"opts": [
+"1, 3, 4",
+"2, 4, 5",
+"1, 4, 5",
+"2, 3, 4"
+],
+"ans": "A",
+"extra": "1) SSSR – I.Stalin – tajovuzkor davlat sifatida Millatlar Ligasidan chiqarildi;\n2) Qirg’iziston – K.Bakiyev – “Lolalar inqilobi” natijasida hokimiyatdan ag’darildi;\n3) Italiya – Viktor Emmanuil III – Mussolini hukumat boshlig’i etib tayinlandi;\n4) Tojikiston – Imomali Rahmonov – Yevroosiyo iqtisodiy hamkorligini ta'sis qilish to’g’risidagi shartnoma imzolandi;\n5) AQSh – Richard Nikson – mamlakatda makkartizm avj oldi."
+},
+{
+"n": 14,
+"q": "Mustafo Kamol Otaturk mamlakatda uzoqni ko’zlab amalga oshirilgan islohotlar boshlandi. Islohotlarning bosh maqsadi nima edi?",
+"opts": [
+"mamlakatni modernizatsiya qilish",
+"ishchilarga saylov huquqi berish",
+"mamlakatda yangi konisitutsiya joriy qilish",
+"o’z suvereniteti va hududiy yaxlitligini saqlab qolish"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi? “Tarixi Rashidiy” “Tarixi Muqimxoniy” “Hayvonotnoma” “Abdullanoma” Sayido Nasafiy Muhammad A.Tole Haydar",
+"opts": [
+"1, 3",
+"4, 6",
+"1, 5",
+"2, 6"
+],
+"ans": "D",
+"img": "img/dtm/hk-35-15.jpg"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi voqea Rossiya imperatori Aleksandr III hukmronligi davriga to’g’ri keladi?",
+"opts": [
+"birinchi jahon urushining boshlanishi",
+"Rossiyaning birinchi jahon urushidan chiqishi",
+"birinchi jahon urushining tugashi",
+"Uchlar ittifoqining tashkil topishi"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "Monopolistik kapitalizm bosqichida “Umumiy elektr jamiyati” (a) “Umumiy elektr kompaniyasi” (b) qaysi davlatlarga tegishli edi?",
+"opts": [
+"a-1, b-4;",
+"a-2, b-4;",
+"a-1, b-3;",
+"a-2, b-3;"
+],
+"ans": "A",
+"extra": "1) Germaniya 2) Fransiya  3) Buyuk Britaniya\n4) AQSH"
+},
+{
+"n": 18,
+"q": "XX asrning 30-yillarida AQSh va Germaniyada kapron, perlon, neylon, sintetik qatron kabi sun'iy tolalarning olinishi yangi, …. imkonini yaratdi.",
+"opts": [
+"o’ta sifatli konstruktiv materiallar olish",
+"o’ta mustahkam materiallarni yaratish",
+"uzoq muddatga chidamli materiallarni yaratish",
+"qisqa muddatga chidamli materiallarni yaratsh"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Quyida berilgan qaysi nomi “xalq manfaatlari va kelajagiga xizmat qiluvchi, kishilami kelajakka ishonch ruhida tarbiyalovch” ma’nosini bildiradi?",
+"opts": [
+"yevrosentrizm",
+"realizm",
+"demokratik adabiyot",
+"dekadentlik"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "1999-yili NATO qo’shinlari qaysi hududni bombardimon qilgan?",
+"opts": [
+"Sloveniya",
+"Serbiya",
+"Yugoslaviya",
+"Bosniya va Gersegovina"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "2011-yil oktabrda bo’lib o’tgan saylovlarda Qirg’iziston sotsial-demokratik partiyasi yetakchisi kim prezident etib saylangan edi?",
+"opts": [
+"Almazbek Atambayev",
+"Kurmanbek Bakiyev",
+"Asqar Akayev",
+"Sooronbay Jeenbekov"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Quyida berilganlardan qaysilari Turkiyaning 1870-1918-yillardagi tarixi bilan bogʻliq emas?",
+"opts": [
+"1, 3, 5",
+"2, 3, 5",
+"2, 4, 5",
+"1, 4, 5"
+],
+"ans": "B",
+"extra": "1) moliyaviy bankrot deb e’lon qilishga majbur bo’ldi;\n2) Usmoniylar imperiyasi tugatildi;\n3) Turkiya respublika deb e’lon qilindi;\n4) “Ibrat” gazetasi ilg’or demokratik g’oyalar targ’ibotchisiga aylandi;\n5) Millatlar Ligasiga a’zo bo’ldi."
+},
+{
+"n": 23,
+"q": "XIX asr o’rtalarida Buxoro amirligining hunarmandchilik va madaniy markazlari hisoblangan shaharlarni aniqlang.",
+"opts": [
+"2, 4",
+"1, 4",
+"2, 3",
+"1, 3"
+],
+"ans": "B",
+"extra": "1) Termiz;\n2) Pishpak;\n3) Hazorasp;\n4) Sherobod."
+},
+{
+"n": 24,
+"q": "Tarixiy-mantiqiy bog’liqlik (ketma-ketlik, moslik) to’g’ri berilgan javobni toping.",
+"opts": [
+"Rossiya – Vena kongresi – Nikolay II hukmronligi davri",
+"Eron – Dyurand bitimining imzolanishi – amir Abdurahmon hukmronligi davri",
+"Eron – birinchi parlament (Majlis)ning chaqirilishi – sulton Abdulhamid hukmronligi davri",
+"Usmonli davlati – Abdulaziz – Shayx ul Islom fatvosi bilan taxtdan tushirilishi"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Quyidagi jadvaldagi so’zlarni tahlil qilib mos bo’lgan javobni toping. Chandragupta ? Diodot Kudzula Kadfiz",
+"opts": [
+"U Di",
+"Kir II",
+"Tutmos III",
+"Oshshurbanipal"
+],
+"ans": "B",
+"img": "img/dtm/hk-35-25.jpg"
+},
+{
+"n": 26,
+"q": "Matnni o’qing va quyidagi topshiriqlarni bajaring. X asrda Horun Bug’roxon boshliq qoraxoniylar Movarounnahrga hujum boshlaydilar. Bu davrda Movarounnahr chuqur ichki ziddiyatlar girdobiga tushib qolgan edi. Qoraxoniylar Buxoroni qarshiliksiz ishg’ol qiladilar. Nuh ibn Mansur qoraxoniylarga qarshi kurashish uchun G’aznadagi noibini yordamga chaqiradi. U yigirma ming kishilik qo’shin bilan Movarounnahrga yetib keladi. Nuh bilan birlashib, bir necha janglardan so’ng qoraxoniylar noibi qo’shinlari tor-mor qilinadi. Buning evaziga Nuh G’azna noibini Xurosonga noib etib tayinlaydi. Natijada G’azna va Xurosonda Mahmudning siyosiy hukmronligi mustahkamlanadi. Shundan so’ng, qoraxoniylar Movarounnahr tomon yana hujum boshlaydilar. Shu davrda Movarounnahrda qaysi sulola (davlat) hukmronlik qilayotgan edi?",
+"opts": [
+"G’aznaviylar",
+"Qoraxoniylar",
+"Somoniylar",
+"Xorazmshohlar"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Matnni o’qing va quyidagi topshiriqlarni bajaring. X asrda Horun Bug’roxon boshliq qoraxoniylar Movarounnahrga hujum boshlaydilar. Bu davrda Movarounnahr chuqur ichki ziddiyatlar girdobiga tushib qolgan edi. Qoraxoniylar Buxoroni qarshiliksiz ishg’ol qiladilar. Nuh ibn Mansur qoraxoniylarga qarshi kurashish uchun G’aznadagi noibini yordamga chaqiradi. U yigirma ming kishilik qo’shin bilan Movarounnahrga yetib keladi. Nuh bilan birlashib, bir necha janglardan so’ng qoraxoniylar noibi qo’shinlari tor-mor qilinadi. Buning evaziga Nuh G’azna noibini Xurosonga noib etib tayinlaydi. Natijada G’azna va Xurosonda Mahmudning siyosiy hukmronligi mustahkamlanadi. Shundan so’ng, qoraxoniylar Movarounnahr tomon yana hujum boshlaydilar. Nuh ibn Mansurga kim yigirma minglik qo’shin bilan yordamga kelgan?",
+"opts": [
+"Alptegin",
+"Ibrohim Bo’ritegin",
+"Sobugtegin",
+"Mahmud G’aznaviy"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Matnni o’qing va quyidagi topshiriqlarni bajaring. X asrda Horun Bug’roxon boshliq qoraxoniylar Movarounnahrga hujum boshlaydilar. Bu davrda Movarounnahr chuqur ichki ziddiyatlar girdobiga tushib qolgan edi. Qoraxoniylar Buxoroni qarshiliksiz ishg’ol qiladilar. Nuh ibn Mansur qoraxoniylarga qarshi kurashish uchun G’aznadagi noibini yordamga chaqiradi. U yigirma ming kishilik qo’shin bilan Movarounnahrga yetib keladi. Nuh bilan birlashib, bir necha janglardan so’ng qoraxoniylar noibi qo’shinlari tor-mor qilinadi. Buning evaziga Nuh G’azna noibini Xurosonga noib etib tayinlaydi. Natijada G’azna va Xurosonda Mahmudning siyosiy hukmronligi mustahkamlanadi. Shundan so’ng, qoraxoniylar Movarounnahr tomon yana hujum boshlaydilar. Qoraxoniylar ikkinchi marta qachon Movarounnahr tomon ikkichi marta qo’shin tortgan?",
+"opts": [
+"992-yil",
+"996-yil",
+"1006-yil",
+"999-yil “Turkiston” ta’lim markazi Tarix Bahrom Hikmatov"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Xaritada yulduzcha bilan ko’rsatilgan hududda qadimgi davrda vujudga kelgan davlatni toping.",
+"opts": [
+"Koguryo davlati",
+"Pekche davlati",
+"Maurya davlati",
+"Xan davlati"
+],
+"ans": "D",
+"img": "img/dtm/hk-35-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalda tarixiy voqea va uning natijasi oʻzaro nomuvofiq berilgan qatorlarni aniqlang. № Voqea Natija 1. 873-yilda Yaqub va Amr ibn Layslar Xuroson poytaxti Nishopurni egallashdi Tohiriylar hukmronligi tugatilishi 2. Buyuk Britaniyada 1911-yilgi parlament islohotlari toʻgʻrisida qonun qabul qilindi Deputatlarga maosh joriy etilishi 3. Xuroson hukmdori Shohrux Mirzo 1447yili vafot etdi Davlatning ikki qismga boʻlinib ketishi 4. 1939-1940-yillarda Sovet-Fin urushi SSSRning Millatlar Ligasidan chiqishi 5. 1921-yil 18-23 sentyabrda bo’lgan Butunbuxoro xalq vakillarining II qurultoyi XXSR Konstitutsiyasi qabul qilinishi",
+"opts": [
+"1, 2",
+"3, 5",
+"1, 5",
+"3, 4"
+],
+"ans": "B",
+"img": "img/dtm/hk-35-30.jpg"
+}
+]
+}

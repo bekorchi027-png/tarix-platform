@@ -1,0 +1,340 @@
+{
+"id": "hk-23",
+"items": [
+{
+"n": 1,
+"q": "Markaziy Osiyo  davlatlari rahbarlarining Orol dengizi muammosiga bag’ishlangan 1994-yilgi uchrashuvi qaysi shaharda bo’lib o’tgan?",
+"opts": [
+"Qizil O’rda",
+"Doshhovuz",
+"Ashxobod",
+"Nukus"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a, II-b, III-d, IV-c",
+"I-c, II-b, III-e, IV-g",
+"I-b, II-f, III-d, IV-e",
+"I-e, II-a, III-c, IV-b"
+],
+"ans": "B",
+"extra": "a) mahalliy knyazlar sulolalarini tugatib, uning o’rniga o’g’illarini noiblikka tayinlagan;\nb) 22 yoshida knyazlik taxtiga o’tirgan;\nc) Vizantiyani jangsiz shartnoma tuzishga majbur qilib, katta o’lpon to’latgan;\nd) Rus mavqeini harbiy yurishlar bilan emas, mohirona diplomatiya orqali yuksaltirishga intilgan; e) Kiyev Rusi gullab yashnadi;\nf) ilk bor qipchoq qabilalarining qo’shinini yenggan;\ng) ko’chmanchi bijanaklarga qarshi urush olib borgan.",
+"img": "img/dtm/hk-23-2.jpg"
+},
+{
+"n": 3,
+"q": "O’rta asrlarda qaysi Angliya hukmdori baronlarning mulklarini tortib olib, vassallaridan katta  to’lovlar talab etgan?",
+"opts": [
+"Ioann",
+"Genrix II",
+"Vilgelm I",
+"Richard II"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "XIV asrda bo’lib o’tgan voqealarni  aniqlang. 1. Buxoroda Mahmud Tarobiy  boshchiligida qo’zg’olon bo’lib o’tdi. 2. Amir Temur Fransiya va Angliyaga maxsus elchilar orqali maktublar yo’llagan. 3. Toshkent va Chinoz o’rtasida ,, Loy jangi’’ bo’lib o’tadi. 4. Buxoro yaqinida Qasri Hinduvon qishlog’ida Bahouddin Naqshband tug’ilgan. 5. Chig’atoy ulusi tashkil topdi. 6.  Mashhur xattot Mirali Tabriziy  tug’ilgan.",
+"opts": [
+"1, 3, 4",
+"3, 4, 6",
+"2, 5, 6",
+"1, 4, 5"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Quyidagi davlatlardan qaysi biri XIX asarning o’rtalarida  AQSH, Rossiya va Yaponiyaning mustamlakachilik manfaatlari kesishgan eng dolzarb hududga aylangan?",
+"opts": [
+"Afg’oniston",
+"Eron",
+"Xitoy",
+"Koreya"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Navoiy shahriga asos solingan yilda O’zbekiston SSR Oliy Soveti Prezidiumining raisi  lavozimida kim faoliyat yuritayotgan edi?",
+"opts": [
+"Sharof Rashidov",
+"Usmon Yusupov",
+"Yodgor Nasriddinova",
+"Inomjon Usmonxo’jayev"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Turkmanlar yashaydigan hududlarda afg’on-rus chegaralari qat’iy belgilangan yilda bo’lib o’tgan voqeani toping.",
+"opts": [
+"Ingliz monopolisti Reyter Eronda ,, Shahanshohbank’’ ochishga erishdi.",
+"Elektrolitik dissotsiatsiya nazariyasi yaratildi.",
+"Eronda ,,Bobiylar qo’zg’oloni’’ boshlandi.",
+"Braziliyada qullarni ozod qilish haqidagi ,,Oltin qonun’’ qabul qilindi."
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "XIX asrda Afrika qit’asida Yevropa davlatlarining mustamlakachilik harakatlari davrida o‘z mustaqilligini saqlab qolgan davlatlar xaritada qaysi raqamlar ostida berilgan?",
+"opts": [
+"1, 3",
+"2, 3",
+"1, 4",
+"2, 4"
+],
+"ans": "C",
+"img": "img/dtm/hk-23-8.jpg"
+},
+{
+"n": 9,
+"q": "Qaysi asarda  barcha musulmonlarga buyurilgan va bajarilishi shart bo’lgan amallar haqida tushunchalar berilgan?",
+"opts": [
+",,Chor kitob’’",
+",,Sabot ul-ojizin’’",
+",,Guliston’’",
+",,Farzi ayn’’"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Germaniya Demokratik Respublikasi nechanchi yilda tashkil topgan?",
+"opts": [
+"1947-yil",
+"1949-yil",
+"1957-yil",
+"1945-yil"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Qaysi Italiya bosh vaziri soliqlarni pasaytirish evaziga italyanlarning daromadini oshirish maqsadini e’lon qilgan?",
+"opts": [
+"Romano Prodi",
+"S. Berluskoni",
+"Massimo D’Alema",
+"Matteo Rensi"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Quyidagi voqealarni bo’lib o’tgan sanalariga qarab to’g’ri moslang. 1. Fransiyada pensiya haqidagi qonun qabul qilindi. 2. Meksikada demokratik ruhdagi konstitutsiya qabul qilindi. 3. Argentinada immigratsiya va kolonizatsiya to’g’risida qonun qabul qilindi. 4. Yaponiya Xitoyning Ryukyu orolini bosib oldi. a. 1879-yil  b. 1917-yil  c. 1910-yil  d. 1876-yil",
+"opts": [
+"1-b,2-a,3-c,4-d",
+"1-c,2-b,3-d,4-a",
+"1-c,2-a,3-d,4-b",
+"1-d,2-b,3-a,4-c"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Qarluqlar davlatining poytaxti bo‘lgan Suyob shahri qayerda joylashgan edi?",
+"opts": [
+"Issiqko‘lning g‘arbida",
+"Ili daryosi bo‘yida",
+"Chu daryosi shimolida",
+"Sirdaryoning yuqori oqimida"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "1889-1913-yillarda Qizil dengiz bo’yi va Somali yarimoroli qaysi davlatlar o’rtasida taqsimlab olingan?",
+"opts": [
+"Fransiya, Gollandiya, Buyuk Britaniya",
+"Fransiya, Italiya, Yaponiya",
+"Buyuk Britaniya, Rossiya, Fransiya",
+"Buyuk Britaniya,Fransiya, Italiya"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Bir-biriga bog’liq bo’lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija 1. Arab xalifaligida Mustaqil qo'zg'olonlar, amirlik (keyinchalik urushlar, hokimiyat Qurdoba amirligi) uchun kurash kuchayishi tuzilishi 2. Nemis knyazlari, Ganza ittifoqi tuzilishi salibchi ritsarlarning Boltiq bo'yidagi istilolari 3. Genrix II ning Angliyada parlament baronlarga erkinlik tuzilishi berishi 4. Marko Poloning Saljuqiylar davlatining Osiyoga sayohati tashkil topishi 5. Salib yurishlarining “Ming bir kecha” asari amalga oshirilishi yaratilishi",
+"opts": [
+"1, 4",
+"2, 5",
+"1, 2",
+"3, 5"
+],
+"ans": "C",
+"img": "img/dtm/hk-23-15.jpg"
+},
+{
+"n": 16,
+"q": "Quyidagi qaysi asarda  Amerikada hukm surayotgan irqchilikka qarshi kurash masalasi ifoda etilgan?",
+"opts": [
+",,Qurol va inson‘‘",
+",,Tom tog’aning kulbasi",
+",,Biz va qo’shnilarimiz’’",
+",,Daxshatli yil’’"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Qaysi davlatning birinchi jahon urushidan keyingi iqtisodining tiklanishida harbiy sanoatning jadal rivojlanishi katta rol o’ynagan?",
+"opts": [
+"AQSH",
+"Rossiya",
+"Fransiya",
+"Buyuk Britaniya"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "To’g’ri javobni toping.",
+"opts": [
+"Sobir Rahimovga 1945-yil 26-mart kuni Sovet Ittifoqi Qaxramoni unvoni berildi.",
+"Dnepr uchun olib borilgan janglarda qaxramonlik ko’rsatgani uchun 26 nafar o’zbek yigitiga Sovet Ittifoqi Qaxramoni unvoni berildi.",
+"Ikkinchi jahon urushidan keyin O’zbekistonlik 120 000 jangchi Sovet Ittifoqi Qaxramoni unvoniga sazovor bo’lgan.",
+"O’zbekistonlik jangchilarning 1 753 nafari ,, Berlinni ishg’ol etganligi uchun’’ jangovor medali bilan taqdirlangan."
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Quyidagilardan qaysi atama biror tashkilot, jamoa tomonidan vakolatli qilib saylab yoki tayinlab yuborilgan vakil degan ma’noni anglatadi?",
+"opts": [
+"Deputat",
+"Senator",
+"Eshon",
+"Delegat"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Qadimgi Rim xudolarini to’g’ri moslashtiring. 1. Mars  2. Yupiter  3. Vulqon  4. Diana  5. Morfey        6. Fortuna  7. Venera a. Osmon va momaqaldiroq  b. Urush xudosi c. Taqdir ilohasi  d. Bahor va sevgi xudosi e. Ov xudosi   f. Olov va temirchilik  xudosi g. Uyqu xudosi",
+"opts": [
+"1-b,2-a,3-f,4-e,5-g,6-d,7-c",
+"1-a,2-c,3-f,4-e,5-g,6-b,7-d",
+"1-b,2-a,3-f,4-c,5-g,6-e,7-d",
+"1-b,2-a,3-f,4-e,5-g,6-c,7-d"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Chingizxon Xorazmshohlar davlatiga qarshi yurishni qaysi shahardan boshlagan?",
+"opts": [
+"Urganch",
+"Samarqand",
+"Buxoro",
+"O’tror"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Qo’qon xonligiga oid  noto’g’ri  ma’lumotni aniqlang. 1. Davlat yerlarini ijaraga oluvchilar bevatan, xususiy yerlarni ijara oluvchilar koranda, vaqf yerlarini ijaraga oluvchilar vaqfchi deb atalgan. 2. Hudud jihatdan uch o’zbek davlati ichida eng kattasi edi. 3. Davlat ishlarida ruhoniylarning ta’siri sezilarli darajada bo’lmagan. 4. Xon xarajatlarini qoplash uchun aholidan ixrojot solig’i olingan. 5. Bosh vazir mansabiga tayinlangan amaldor mehtar deb atalgan. 6. Harbiy harajatlarni qoplash uchun aholiga ,, miltiq puli ‘’deb atalgan soliq joriy etilgan.",
+"opts": [
+"2, 3, 6",
+"1, 4, 5",
+"1, 2, 4",
+"3, 5, 6"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Ikkinchi jahon urushidan keyin Yaponiya hududi AQSH tomonidan okkupatsiya qilinib, AQSH okkupatsion qo’shinlari shtabiga kim boshchilik qilgan?",
+"opts": [
+"Duglas Makartur",
+"Edvards Deming",
+"Bernar Dadye",
+"Konrad Adenauer"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "Markaziy Osiyo davlatlari rahbarlarining qaysi shaharda bo’lib o’tgan uchrashuvida ushbu davlatlarning tengligi va barchasining MDH tasischisi sifatida ittifoqqa qo’shilishini ma’lum qiladi?",
+"opts": [
+"Olmaota",
+"Ashxabod",
+"Toshkent",
+"Dushanbe"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Tarixiy  ma’lumotlarni  xronologik ketma-ketlikda  joylashtiring. 1. Turkiston o’lkasini boshqarish uchun 9 kishidan iborat Turkiston komiteti tuzildi. 2. Toshkent shahrida Butunturkiston musulmonlarining I qurultoyi bo’lib o’tdi. 3. Turkiston Kommunistik partiyasi tuzildi. 4. Xiva xoni  Asfandiyorxon Yosh  xivaliklar partiyasining islohot to’g’risidagi manifestiga imzo chekdi.",
+"opts": [
+"4, 2, 1, 3",
+"2, 1, 4, 3",
+"4, 1, 2, 3",
+"1, 2, 4, 3"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "2006-yilda qaysi shaharning 2700 yillik yubileyi nishonlangan?",
+"opts": [
+"Marg’ilon",
+"Qarshi",
+"Nukus",
+"Termiz"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Jadidlar Rossiyadagi fevral voqealaridan keyin qanday siyosiy talablarni ilgari surganlar? 1. Yerni, yerosti va yerusti boyliklarni, suvni Turkiston xalqining ummummilliy boyligi deb e’lon qilinishi. 2. Mahaliy aholi huquqlarini kengaytirish. 3. Turkiston o’lkasida parlamentar monarxiya o’rnatish. 4. Davlat Dumasidan o’lka aholisi sonidan  kelib chiqib o’rin ajratish. 5. O’lkani boshqarish yuzasidan islohotlar o’tkazish. 6.Turkiston o’lkasining butun hududida yangi usul maktablarini tashkil qilish.",
+"opts": [
+"2, 4, 5",
+"1, 3, 6",
+"1, 2, 5",
+"3, 4, 6"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "XIX asr o’rtalarida Buxoro amirligida soliqlarni o’z vaqtida yig’ish va ularni hisobga olishga kim javobgar bo’lgan?",
+"opts": [
+"Mirzaboshi",
+"Mehtar",
+"Devonbegi",
+"Mushrif"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Buyuk Britaniya parlamenti ish tashlashni taqiqlovchi qonun qabul qilgan yilda sodir bo’lgan voqeani toping?",
+"opts": [
+"Lotin Amerikasida Boliviya davlati tashkil topdi.",
+"Gretsiyaga muxtoriyat huquqi berilishini ko’zda tutuvchi shartnoma imzolandi.",
+"Braziliya Portugalyadan mustaqil deb e’lon qilindi.",
+"Qora tanli qullar savdosini taqiqlovchi deklaratsiya qabul qilindi."
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "Quydagi jadvaldagi ma’lumotlardan to’g’rilarini aniqlang. № Voqea Davr Asbob-uskunalarni harakatga keltiruvchi bug’ mashinasi yaratildi. XIX asr Jamiyat hayotida ,, o’rta qatlam’’ shakllandi. XVIII asr Unutib yuborilgan antik madaniyat qayta tiklana boshladi. XIV asr Turkiya poytaxti Istanbulda dunyoviy fanlarni rivojlantirishga harakat boshlandi. XVII asr O’rta Osiyodagi ilk ilmgohFarjak madrasasiga asos solindi. X asr",
+"opts": [
+"1, 3, 4",
+"2, 4, 5",
+"3, 4, 5",
+"1, 2, 3"
+],
+"ans": "C",
+"img": "img/dtm/hk-23-30.jpg"
+}
+]
+}

@@ -1,0 +1,348 @@
+{
+"id": "hk-08",
+"items": [
+{
+"n": 1,
+"q": "Makedoniya podshosi Filipp II hukmronlik qilgan asrda o’z davlatiga asos solgan shaxsni belgilang.",
+"opts": [
+"Kudzulla Kadfiz",
+"Diodot",
+"Salavka",
+"Ashoka"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Qadimgi Xitoydagi Sya sulolasi qaysi qabila tomonidan taxtdan ag’darilgan?",
+"opts": [
+"Shan",
+"Sin",
+"Xunn",
+"Chjou"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Quyidagi qaysi voqea nisbatan keyinroq sodir bo’lgan?",
+"opts": [
+"Kamoliddin Behzod nomidagi Davlat mukofoti ta'sis etish to’g’risida Prezident farmoni e'lon qilindi",
+"Xalqaro Amir Temur jamg’armasi tuzildi",
+"Mahmud az-Zamaxshariy tavalludining 920 yilligi nishonlandi",
+"Ahmad al-Farg’oniy tavalludining 1200 yilligi nishonlandi"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Temuriylar davrida qariyb o’n besh ming jild kitob saqlangan kutubxona qaysi shaharda  joylashgan edi?",
+"opts": [
+"Buxoro",
+"Samarqand",
+"Hirot",
+"Toshkent"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "Quyidagilarning qaysi xorazmshoh davriga xos ekanligini to’g’ri tartibda belgilang.",
+"opts": [
+"1-b, 2-d, 3-a, 4-c",
+"1-c, 2-d, 3-b, 4-a",
+"1-c, 2-d, 3-a, 4-b",
+"1-d, 2-c, 3-b, 4-a"
+],
+"ans": "C",
+"extra": "1) Movarounnahrda qoraxitoylar hukmronligiga barham berdi;\n2) Saljuqiy sultoni Tug’rulga zarba berib, Eronni Xorazmga bo’ysundirdi;\n3) Sirdaryo etaklari va Mang’ishloq yarimoroli egallandi;\n4) «Xorazmshoh» unvonini tikladi;\na) Otsiz;  b) Qutbiddin Muhammad;\nc) Alouddin Muhammad;  d) Takash."
+},
+{
+"n": 6,
+"q": "O`rta asrlardayoq osmon jismlarini kuzatish uchun maxsus rasadxonalar tashkil etilgan Osiyo davlatlarini aniqlang.",
+"opts": [
+"Eron va O’rta Osiyo",
+"Xitoy va Hindiston",
+"Arab xalifaligi va Hindiston",
+"Vizantiya va Yaponiya"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Quyidagi ma’lumotlardan O’rxon davri bilan bog’liq xato javobni aniqlang.",
+"opts": [
+"Vizantiyaning Nikeya va Nikomediya shaharlarini egallab – Qora dengiz sohiliga chiqqan;",
+"boshqaruvda ilk bor – vazir lavozimini joriy etgan;",
+"otliq qismlardan iborat – musallam guruhini tashkil etgan;",
+"dastlakbi bosqinlari natijasida Bursa va uning atroflarini qo`lga kiritgan;"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Buxoro amirligida qaysi amaldor eng ishonchli shaxs sifatida oliy davlat marosimlarida amir dasturxoniga taom tortish kabi nihoyatda mas’ulyatli vazifani bajargan? (XVIII asr oxiri – XIX asr boshi)",
+"opts": [
+"to’qsoba",
+"naqib",
+"xon yasovuli",
+"ko’kaldosh"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "“Dashti Qipchoq” deb ataluvchi geografik hudud qaysi manbalarda “Poloveslar yeri” nomi bilan yuritilgan?",
+"opts": [
+"turkiy yozma manbalarda",
+"yunon-rim manbalarida",
+"arab va fors manbalarida",
+"rus manbalarida"
+],
+"ans": "D",
+"img": "img/dtm/hk-08-9.jpg"
+},
+{
+"n": 10,
+"q": "Quyidagilardan Amir Haydar (a) va Amir Nasrullo (b) davrida rassomlik bilan shug’ullangan ijodkorlarni aniqlang.",
+"opts": [
+"a-2, b-4",
+"a-2, b-3",
+"a-1, b-3",
+"a-4, b-2"
+],
+"ans": "A",
+"extra": "1) Turdi Ali;\n2) Mir Masum Olamiyon;\n3) Ahmad Donish;\n4) Mirzo Sodiq Jondoriy."
+},
+{
+"n": 11,
+"q": "1540-yilda ta’sis etilgan “Iso jamiyati”, ya’ni “Iyezuitlar ordeni” oldiga qanday vazifa qo’yilgan edi?",
+"opts": [
+"dehqonlarni qo’zg’alonga chorlash",
+"puritanlarni himoya qilish",
+"adashgan olomonni cherkovga qaytarish",
+"mutloq monarxiya(absolutizm)ni himoya qilish"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "1644-yil Pekinga kirib kelib, o’zini Xitoy imperatori deb e’lon qilgan manjur hukmdorini aniqlang.",
+"opts": [
+"Shunchji",
+"Yuan Chjan",
+"Abaxay",
+"Van Yanmin"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Nima uchun yangi davrda Italiya shaharlari o’zlarining avvalgi ahamiyatini yo’qotgan?",
+"opts": [
+"Germaniya bilan urushda mag’lubiyatga uchraganligi uchun",
+"Yangi savdo yo’llaridan chetda qolganligi uchun",
+"Muqaddas Rim imperiyasining qulagani uchun",
+"Ganza ittifoqining kuchayib ketganligi uchun"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "XIX asr oxiri - XX asr boshlarida Buxoro amirligi sanoat ishlab chiqarishining asosiy tarmog’ini aniqlang.",
+"opts": [
+"yog’-moy ishlab chiqarish sanoati",
+"oltin va kumushdan buyumlar tayyorlash",
+"gilam va namat tayyorlash sanoati",
+"bo’yoq va sovun ishlab chiqarish"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Mustamlakachilik jabr-zulmiga qarshi ko’tarilgan qo’zg’alonlardan qaysi birida qo’zg’alonchilar kurash usullarini o’zgartirib, boylar va volost boshliqlarining qarorgohlariga hujum uyushtirganlar?",
+"opts": [
+"1878-yil Mingtepadagi Yetimxon boshchiligidagi qo’zg’alon.",
+"1885-yil Andijonda Darvishxon boshchiligidagi qo’zg’alon.",
+"1879-yil Marg’ilon uyezdidagi qo’zg’alon.",
+"1882-yil Namangan aholisini ma’murlarga qarshi qo’zg’aloni."
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "XIX asr oxirlarida Argentina hukumati mamlakat ichki ahvolini barqarorlashtirish borasida amalga oshirgan ishlarni aniqlang.",
+"opts": [
+"2, 4",
+"2, 3",
+"1, 3",
+"1, 4"
+],
+"ans": "D",
+"extra": "1) Buenos-Ayresda milliy bank ochildi;\n2) hindularga dehqonchilik qilishlari uchun yer maydonlari ajratildi;\n3) mehnatkashlarning ahvoli yaxshilanib, 8 soatlik ish kuni joriy etildi;\n4) immigratsiya rag’batlantirila boshlandi."
+},
+{
+"n": 17,
+"q": "Quyidagi olimlar va ularni ixtirolari bilan mos ravishda berilgan to’g’ri javobni toping.",
+"opts": [
+"1-b, 2-a, 3-d, 4-c",
+"1-e, 2-d, 3-c, 4-a",
+"1-b, 2-a, 3-c, 4-d",
+"1-e, 2-c, 3-a, 4-d"
+],
+"ans": "C",
+"extra": "1) M.Sklodovskaya Kyuri, P.Kyuri;\n2) L.Paster;\n3) G.Gers;\n4) L.Sperri.\na) odam, hayvon va parandalarning yuqumli kasalliklari-kuydirgi, quturish, vabo va boshqalarni o’rganib, ularning oldini oluvchi emlash usullarini yaratdi;\nb) poloniy va radiy(ya’ni nurlanuvchi) elementlarni yaratdi;\nc) elektromagnit to’lqinlari tarqalish faktini jahonga birinchi bo’lib tajriba yo’li bilan isbotladi;\nd) samolyotlarni avtomatik boshqarishni yaratdi;\ne) raqamli hisoblash mashinalarini yaratdi."
+},
+{
+"n": 18,
+"q": "Buyuk Britaniyada qaysi Bosh vazir davrida mamlakat parlamentiga saylovlarni yashirin ovoz berish yo’li bilan o’tkazish joriy etilgan?",
+"opts": [
+"A. Griffit",
+"B. Dizraeli",
+"D. Lloyd-Jorj",
+"U. Gladston"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Sovetlar mamlakatida joriy etilgan “harbiy kommunizm” siyosatining eng muhim jihatlari ko’rsatilgan javobni toping.",
+"opts": [
+"1, 4, 5",
+"2, 3, 4",
+"2, 4, 5",
+"1, 3, 5"
+],
+"ans": "D",
+"extra": "1) xususiy mulkchilikni bekor qilish;\n2) bozor munosabatlariga o’tish;\n3) pul-tovar munosabatlarini to’xtatish va sanoatni milliylashtirish;\n4) mehnatga yarasha haq to’lash tizimini joriy qilish;\n5) ish haqini oziq-ovqat mahsulotlari bilan to’lash."
+},
+{
+"n": 20,
+"q": "XX asrda vujudga kelgan, G’arb va Sharq san’ati, o’tmish va zamonaviy uslublar, folklor va ommayiy madaniyat elementlarini o’zida mujassamlashtirgan san’at uslubi qanday nomlanadi?",
+"opts": [
+"postmodernizm",
+"abstraktsionizm",
+"syurrealizm",
+"kubizm"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Nemis olimlari tomonidan uran yadrolari ajralib chiqishining zanjirli reaksiyasini kashf etilgan yilda sodir bo’lgan voqealarni aniqlang.",
+"opts": [
+"2, 3, 4",
+"1, 3, 5",
+"2, 4, 5",
+"1, 2, 5"
+],
+"ans": "B",
+"extra": "1) Germaniya tomonidan Avstriya anshlyus qilindi;\n2) SSSRda ikkinchi besh yillik reja boshlandi;\n3) Mussolini irqiy qonunlar chiqardi;\n4) Eron shohi Muhammad Rizo Pahlaviy SSSR va Buyuk Britaniya bilan shartnoma imzoladi;\n5) Yaponiyada Sharqiy Osiyoda yangi tartib o’rnatish vazifasi e’lon qilindi."
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi davlatda musulmonlarning radikal tashkilotlari ixtiyorida o’n minglab yaxshi qurollangan, Afg’oniston va Shimoliy Kavkazda tajriba orttirgan, Iroq va Suriyada ISHID saflariga borib qo’shilgan jangarilar bor?",
+"opts": [
+"Pokiston",
+"Malayziya",
+"Filippin",
+"Eron"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Suriyada 2011-yil “Juma inqilobi” nomini olgan g’alayonlar davrida isyonchilar qanday talablar bilan chiqishgan?",
+"opts": [
+"2, 3",
+"1, 3",
+"1, 4",
+"2, 4"
+],
+"ans": "C",
+"extra": "1) B.Asad rejimini ag’darish;\n2) Iroq va Shom islom davlatini tuzishni;\n3) Rossiya harbiy-kosmik kemalarini Suriya hududidan olib chiqib ketishini;\n4) mamlakatda demokratik islohotlar o’tkazish."
+},
+{
+"n": 24,
+"q": "XX asr oxiriga kelib quyidagi qaysi Lotin Amerikasi davlatida hindular mamlakatlar aholisining 25-50 %ini tashkil qilgan?",
+"opts": [
+"Boliviya",
+"Argentina",
+"Venesuela",
+"Urugvay"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "1992-yil respublikamizning turli hududlarida san’at festivallari tashkil etilgan bo’lib, qaysi hududlarda san’atning qaysi sohasi bilan bog’liq tadbirlar o’tkazilganligini aniqlang.",
+"opts": [
+"1-a, 2-b, 3-c",
+"1-b, 2-c, 3-a",
+"1-c, 2-a, 3-b",
+"1-b, 2-a, 3-c"
+],
+"ans": "D",
+"extra": "1) Toshkent;\n2) Xorazm;\n3) Qo’qon.\na) folklor jamoalari festivali;\nb) lapar, yalla ijrochilarining festivali;\nc) askiya, qiziqchi va masxarabozlarning festivali."
+},
+{
+"n": 26,
+"q": "O’zbekistonda Milliy xavfsizlik xizmati tasarrufida Chegara qo’shinlari boshqarmasi tashkil etilgan (a) va O’zbekiston Respublikasi Prezidenti huzurida Xavfsizlik kengashi tuzilgan (b) yillarni belgilang.",
+"opts": [
+"a-1, b-4",
+"a-1, b-3",
+"a-2, b-4",
+"a-2, b-3"
+],
+"ans": "B",
+"extra": "1) 1992-yil;\n2) 1994-yil;\n3) 1995-yil;\n4) 1998-yil."
+},
+{
+"n": 27,
+"q": "Quyidagi jadval asosida mos siyosiy voqealarni toping. N Davlat Voqea Yil 1. Buxoro amirligi Amir Shohmurod Marvda isyonni bostirish uchun Nazarbek parvonachini yubordi 1804 2. Xiva xonligi Munis Xorazmiy saroy kotibi etib tayinlandi 1800 3. Qo’qon xonligi Umarxon Rossiyaga elchi yubordi 1831 4. Buyuk Britaniya Liberallar o’z partiyalarini tuzdilar 1900 5. Rossiya Kuzma Minin va Dimitriy Pojarskiy boshchiligidagi xalq lashkari Moskva uchun jangda Polsha qo’shinini mag’lubiyatga uchratdi 1612 6. Fransiya Robespyer va uning tarafdorlari qatl qilindi 1794",
+"opts": [
+"1, 3, 5",
+"2, 5, 6",
+"1, 3, 4",
+"2, 4, 6"
+],
+"ans": "B",
+"img": "img/dtm/hk-08-27.jpg"
+},
+{
+"n": 28,
+"q": "Ilk o’rta asrlarda xaritada yulduzcha bilan ko’rsatilgan hududda tashkil topgan davlatni belgilang.",
+"opts": [
+"Muqaddas Rim imperiyasi",
+"Vizantiya imperiyasi",
+"Kiyev Rusi",
+"Uesseks qirolligi"
+],
+"ans": "A",
+"img": "img/dtm/hk-08-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi tarixiy voqealarni xronologik ketmaketlikda joylashtiring.",
+"opts": [
+"1, 4, 3, 2, 5",
+"2, 3, 5, 1, 4",
+"4, 1, 3, 2, 5",
+"4, 1, 3, 5, 4"
+],
+"ans": "C",
+"extra": "1) Navoiy kon-metallurgiya kombinatiga poydevor qo‘yilishi bilan Navoiy shahriga asos solindi.\n2) Toshkent metropolitenining birinchi navbati ishga tushirildi.\n3) Toshkentda shahrida kuchli zilzila sodir bo‘ldi.\n4) Buxoroda dunyodagi eng yirik Gazli koni topildi.\n5) O’zbekiston rahbariyati butifosdan foydalanishni taqiqladi."
+},
+{
+"n": 30,
+"q": "Ahmad Zaki Validiyning yozishicha, Ochilbek qo‘rboshi 1921-yildan boshlab qaysi tashkilot ko‘rsatmalari asosida faoliyat olib borgan?",
+"opts": [
+"“Sho’roi Ulamo”",
+"o‘lka Musulmonlar byurosi (Musbyuro)",
+"“Sho’roi Islomiya”",
+"“Turkiston milliy birligi”"
+],
+"ans": "D"
+}
+]
+}

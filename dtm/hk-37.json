@@ -1,0 +1,353 @@
+{
+"id": "hk-37",
+"items": [
+{
+"n": 1,
+"q": "Sobiq Ittifoq rahbarlaridan qaysi biri rivojlangan sotsialistik jamiyat qurish nazariyasini ilgari surgan?",
+"opts": [
+"N.Chernenko",
+"L.I.Brejnev",
+"Y.Andropov",
+"M.S.Gorbachyov"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Qadimgi Hindistonda odamlarning kastalarga bo’linishi noto’g’ri berilgan javobni toping.",
+"opts": [
+"jangchilar – kshatriylar",
+"kohinlar – braxmanlar",
+"dehqonlar – shudralar",
+"savdogarlar – vayshilar"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "1960-yillarda quyidagi qaysi davlatda ishlab chiqarishni ommaviy avtomatlashtirish amalga oshirilgan?",
+"opts": [
+"Fransiya",
+"AQSH",
+"Yaponiya",
+"GFR"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Noto‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"1992-yida Respublikamizda Davlat mulkini boshqarish va xususiylashtirish Davlat qo‘mitasi ta’sis etildi",
+"2017-yilda Respublikamizda Millatlararo munosabatlar va xorijiy mamlakatlar bilan do‘stlik aloqalari qo‘mitasi tashkil etildi",
+"2016-yilda Respublikamizda Fan va texnologiyalarni rivojlantirishni muvofiqlashtirish qo‘mitasi tashkil etildi",
+"2018-yilda Respublikamizda Jismoniy tarbiya va sport davlat qo‘mitasi tashkil etildi"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "XIX asr oxirida AQSHda ishchilar harakatining asosiy maqsadi nima edi?",
+"opts": [
+"ish haqini oshirilishi uchun kurash",
+"o‘z partiyalarini tuzish uchun kurash",
+"ish kunini qisqartirishga erishish",
+"umumiy saylov huquqi uchun kurash"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Avstriya-Vengriya imperiyasida qaysi partiya barcha ijtimoiy nizolarni “inoqlik va muhabbat ruhida” hal qilish, antisemitizm g‘oyalarini targ‘ib qilishni o‘z dasturiga aylantirgan?",
+"opts": [
+"Xristian-demokratik partiya",
+"Xristian-sotsialistlar partiyasi",
+"Vengriya sotsial-demokratik partiyasi",
+"Avstriya sotsial-demokratik partiyasi"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Xiva xonlari Buxoro xonligining ma’lum hududlarini talon-taroj qilib, bosib olishlari qaysi Ashtarxoniy hukmdorlar davrida avj olgan?",
+"opts": [
+"3, 5",
+"2, 4",
+"3, 4",
+"1, 4"
+],
+"ans": "C",
+"extra": "1) Boqi Muhammad;\n2) Nodir Muhammad;\n3) Abdulazizxon;\n4) Subxonqulixon;\n5) Ubaydullaxon"
+},
+{
+"n": 8,
+"q": "XX asr boshlarida Turkiyada davlat to‘ntarishi amalga oshirilgan yillarni belgilang.",
+"opts": [
+"2, 4",
+"1, 3",
+"1, 5",
+"2, 5"
+],
+"ans": "D",
+"extra": "1) 1908-yil;\n2) 1909-yil;\n3) 1910-yil;\n4) 1911-yil;\n5) 1912-yil;"
+},
+{
+"n": 9,
+"q": "Quyidagi atamalarning izohlari mos ravishda berilgan javobni toping.",
+"opts": [
+"1-b, 2-d, 3-c",
+"1-c, 2-d, 3-a",
+"1-c, 2-b, 3-d",
+"1-b, 2-d, 3-a"
+],
+"ans": "B",
+"extra": "1) globallashuv;\n2) modernizatsiya;\n3) integratsiya;\na) suveren davlatlar o‘rtasida tovarlar, xizmatlar, moliya, investitsiya, ishchi kuchi erkin harakatlanadigan iqtisodiy kenglikni tashkil qilish maqsadida birlashish jarayoni;\nb) mafkuraviy rejim shakli bo‘lib, totalitar jamiyatda aholining keng miqyosda ommaviy ravishda mafkuraviy qayta tarbiyalash vositasi;\nc) jahon mamlakatlarining iqtisodiy, siyosiy, madaniy va diniy jihatdan birlashishi yoki yaqinlashish jarayoni;\nd) ijtimoiy tizimni jadal rivojlantirish maqsadida uni to ‘liq yoki qisman yangilash, an’anaviy jamiyatdan yangilangan jamiyatga, agrar sivilizatsiyadan industrial sivilizatsiyaga o‘tish jarayoni"
+},
+{
+"n": 10,
+"q": "Xitoyning kim boshchiligidagi hukumati BMTni tuzishda faol qatnashgan va buyuk davlat sifatida Xavfsizlik Kengashining 5 ta doimiy a’zolaridan biriga aylangan?",
+"opts": [
+"Mao Szedun",
+"Sun Yatsen",
+"Chan Kayshi",
+"Den Syaopin"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "XIV asrning 80-yillarida qaysi davlatlarning o‘zaro yaqinlashuvi Amir Temur davlatiga jiddiy xavf tug‘dira boshlagan?",
+"opts": [
+"1, 2, 4",
+"2, 4, 5",
+"1, 3, 4",
+"3, 4, 5"
+],
+"ans": "C",
+"extra": "1) Turkiya;\n2) Hindiston;\n3) Misr;\n4) Oltin O‘rda;\n5) Xitoy"
+},
+{
+"n": 12,
+"q": "Qo’qon xonligida XIX asrning 50-60-yillarida xalq ommasining noroziligiga nimalar sabab bo’lgan?",
+"opts": [
+"2, 4",
+"1, 5",
+"1, 3",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) Rossiya bilan urush natijasida ko’rilgan zararlar xalq ommasining zimmasiga tushishi;\n2) Xudoyorxonning Makkaga ketishi;\n3) soliq va majburiyatlarning oshirilishi;\n4) Farg’ona viloyatining tashkil etilishi;\n5) Andijon uchun jangda xonlik qo’shinlarining mag’lubiyatga uchrashi"
+},
+{
+"n": 13,
+"q": "O’zbekistonda Ikkinchi jahon urushi yillarida qurilgan kanallarni aniqlang.",
+"opts": [
+"2, 5, 6, 7",
+"1, 3, 4, 6",
+"2, 3, 5, 7",
+"1, 2, 4, 6"
+],
+"ans": "B",
+"extra": "1) Yuqori Chirchiq;\n2) Kattaqo’rg’on;\n3) Uchqo‘rg‘on;\n4) Shimoliy Farg‘ona;\n5) Kosonsoy;\n6) So‘x-Shohimardon;\n7) Rudasoy;"
+},
+{
+"n": 14,
+"q": "Sharq malakatlarida O’rta asrchilik tizimining inqirozi dstlab qanday jarayonlarda namoyon bo’ldi?",
+"opts": [
+"yerga davlat mulkchiligining saqlanib qolishi,markaziy hokimiyat va soliq tizimining kuchayganligida",
+"jamiyatda davlat rolining yuqoriligi, urug‘- qabilachilik va quldorlik munosabatlari qoldiqlarining saqlanib qolishida",
+"yerga davlat mulkchiligining buzilishida, markaziy hokimiyat va soliq tizimining susayganligida",
+"kishilarning tabiiy tengligi, shaxsning erkinligi va sha’ni kabi demokratik tushunchalarga asoslangan yangicha dunyoqarashning shakllanishida"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Movarounnahrda hukmronlik qilgan temuriy shaxzodalar to’g’ri xronologik ketma-ketlikda joylashtirilgan javobni toping.",
+"opts": [
+"2, 4, 3, 1",
+"1, 2, 3, 4",
+"4, 2, 3, 1",
+"4, 3, 2, 1"
+],
+"ans": "C",
+"extra": "1) Sulton Ali;\n2) Sulton Ahmad;\n3) Sulton Mahmud;\n4) Abu Said;"
+},
+{
+"n": 16,
+"q": "Buyuk fransuz burjua inqilobi davrida  qayerda bo’lib o’tgan jangda fransuz qo’shinlari pruss armiyasi qo’shinlarini qaytarib mamlakatni bosqinchilardan ozod qilish boshlandi?",
+"opts": [
+"Austerlis yaqinida",
+"Leypsig ostonasida",
+"Valmi qishlog’i yaqinida",
+"Vaterloo qishlog’i yaqinida"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi hukmdorlardan qaysi biri “Jamiyat baxt-saodati ittifoqi” rahbari Karl Burgundskiyga qarshi muvaffaqqiyatli kurash olib borib, Burgundiyaning g‘arbiy qismini Fransiyaga qo‘shib olgan?",
+"opts": [
+"Karl VII",
+"Lyudovik XI",
+"Karl VIII",
+"Lyudovik IX"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Quyidagilardan qaysi birini hindlar ixtiro qilishgan?",
+"opts": [
+"shaxmat",
+"kompas",
+"beton",
+"qog’oz"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "Quyidagilardan Abbosiylar (a) va Somoniylar (b) tomonidan Xurosonga noib etib tayinlangan shaxslarni belgilang.",
+"opts": [
+"a-2, b-4",
+"a-1, b-3",
+"a-2, b-3",
+"a-1, b-4"
+],
+"ans": "B",
+"extra": "1) Tohir ibn Husayn;\n2) Rofe ibn Lays;\n3) Sobuqtegin;\n4) Ibrohim Bo‘ritegin"
+},
+{
+"n": 20,
+"q": "Quyidagi qo’zg’olonlardan qaysilari Arab xalifaligiga qarshi ko’tarilgan?",
+"opts": [
+"1, 3",
+"1, 4",
+"2, 4",
+"2, 3"
+],
+"ans": "C",
+"extra": "1)“Sariq ro’mollilar”;\n2) “Qizil ko’ylaklilar”;\n3) “Qizil qoshlilar”;\n4) “Oq kiyimlilar”"
+},
+{
+"n": 21,
+"q": "Qadimgi Xitoy tarixiga oid to‘g‘ri ma'lumotlar berilgan javobni toping.",
+"opts": [
+"1, 4, 5",
+"1, 3, 5",
+"2, 4, 6",
+"2, 3, 6"
+],
+"ans": "D",
+"extra": "1) Xitoy hududida ilk davlat Yantszi daryosining o‘rta oqimida paydo bo‘lgan;\n2) Butun Shimoliy Xitoy \"Chjou\" davlati tarkibiga kirgan;\n3) Milodning boshlarida Xan sulolasiga qarshi «qizil qoshlilar» qo‘zg‘oloni ko‘tarilgan;\n4) Mil.avv. II ming yillik o‘rtalarida yozuv uchun bambuk o‘rniga shoyidan foydalanishga o‘tildi;\n5) Dehqonchilik Xitoyda azaldan e'tiborli vafaxrli kasb hisoblanib, asosiy dehqonchilik ekinlari arpa va paxta bo‘lgan;\n6) \"Zafaryor\" – imperiyaning oliy hukmdorlari bilan ajralib chiqqan davlatlar hukmdorlari o‘rtasida boshlangan urushlar ikki yuz yildan uzoqroq davom etdi"
+},
+{
+"n": 22,
+"q": "Quyidagi olimlarni amalga oshirgan kashfiyotlari bilan mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-c, 2-b, 3-a",
+"1-b, 2-c, 3-a",
+"1-a, 2-b, 3-c",
+"1-b, 2-a, 3-cb"
+],
+"ans": "A",
+"extra": "1) G.Gers;\n2) A.Popov;\n3) P.N.Lebedov;\na) Yorug’likning elektromagnit nazariyasini isbotladi;\nb) Simsiz aloqa uchun elektromagnit to’lqinlarini chiqarish va qabul qilish usulini topdi;\nc) Elektromagnit to ‘lqinlari tarqalish faktini jahonda birinchi bo‘lib tajriba yo’li bilan isbotladi"
+},
+{
+"n": 23,
+"q": "Prezident farmoni bilan O‘zbekistonning eng yangi tarixi bo‘yicha Jamoatchilik kengashi faoliyati qayta yo‘lga qo‘yilgan yilni belgilang.",
+"opts": [
+"2018-yil",
+"2015-yil",
+"2016-yil",
+"2017-yil"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "2015-yil fevralda qaysi davlat rahbarlari Minsk shahrida yig’ilib, Ukraina sharqida harbiy mojaroni hal etish to’g’risida yangi kelishuv imzolaganlar?",
+"opts": [
+"1, 2, 4, 6",
+"3, 4, 5, 6",
+"1, 3, 4, 6",
+"2, 4, 5, 6"
+],
+"ans": "C",
+"extra": "1) Germaniya;\n2) AQSh;\n3) Fransiya;\n4) Rossiya;\n5) Buyuk Britaniya;\n6) Ukraina"
+},
+{
+"n": 25,
+"q": "Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping.",
+"opts": [
+"hukmdor Sundiata Keyt – Mali – Gao",
+"lashkarboshi Van Gon – Koryo – Pxenyan",
+"sarkarda Li Son Ge – Choson – Xanson",
+"imperator Yustinian I – Ispaniya – Ravenna"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Quyidagi grafikda qaysi raqam ostida davlat va uning konstitutsiyasi qabul qilingan yil bir-biriga muvofiq kelmaydi?",
+"opts": [
+"1",
+"2",
+"4",
+"5"
+],
+"ans": "C",
+"img": "img/dtm/hk-37-26.jpg"
+},
+{
+"n": 27,
+"q": "Quyidagi jadvalning qaysi qatorlarida ma’lumotlar mos ravishda to’g’ri berilgan? 1977-yil 1924-yil 1923-yil 1920-yil XXSR Misr Afg’oniston SSSR Voqea 1. Vizantiya IX–XI yer egaligi munosabatlari uzil-kesil o’rnatildi 2. Koreya III–IV yer egaligi munosabatlari uzil-kesil shakllandi 3. Saljuqiylar XII-XIII yer egaligiga asoslangan davlat uzil-kesil shakllandi 4. Hindiston XII-XIII yer egaligi munosabatlari uzil-kesil shakllandi 5. Davlat Asr (lar) Yaponiya XI-XII yer egaligi munosabatlari uzil-kesil shakllandi",
+"opts": [
+"1, 3, 4",
+"2, 3, 5",
+"3, 4, 5",
+"1, 3, 5"
+],
+"ans": "D",
+"img": "img/dtm/hk-37-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. (1918-1939-yillar).",
+"opts": [
+"I-b,c; II-a, f; III-e",
+"I-a,c; II-b,c; III-f",
+"I-b; II-a,c; III-d,f",
+"I-b; II-b,c; III-d,f"
+],
+"ans": "C",
+"extra": "a) mamlakatga mashina va uskunalarni litsenziyasiz olib kelishga ruxsat etildi;\nb) tashqi savdosining katta qismi Germaniya hissasiga to’g’ri kelardi; Eron Turkiya II I III\nc) inglizlarning ta’sirini kamaytirish maqsadida Germaniya bilan hamkorlikni kuchaytirdi;\nd) feodal unvon va murojaat shakllari bekor qilindi;\ne) diniy va hududiy mojarolar barqaror siyosiy tizimining shakllanishiga xalaqit berdi;\nf) yevropacha libos joriy qilindi;",
+"img": "img/dtm/hk-37-28.jpg"
+},
+{
+"n": 29,
+"q": "Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang. ( XIX asr). № Sabab Natija 1. AQShda qulchilikka qarshi kurash Ozod Oranj Respublika- sining tashkil topishi 2. Qrim urushi Turkiyaning yarimmus- tamlakaga aylanishi 3. Buyuk Britaniya va Rossiya o’rtasidagi raqobat Liberiyaning o’z mustaqillligini saqlab qolishi 4. Iqtisodiy va harbiy qoloqlik Xitoyning Yaponiya mustamlakasiga aylanib qolishi 5. Sipohiylar qo’zg’oloni Hindistonda milliy ziyolilar qatlamining shakllanishi",
+"opts": [
+"1, 5",
+"2, 5",
+"2, 3",
+"4, 5"
+],
+"ans": "B",
+"img": "img/dtm/hk-37-29.jpg"
+},
+{
+"n": 30,
+"q": "O’rta asrlarda xaritada yulduzcha bilan ko’rsatilgan hududda vujudga kelgan davlatni toping.",
+"opts": [
+"Muqaddas Rim imperiyasi",
+"Langobard qirolligi",
+"Qurdoba amirligi",
+"Lotin Imperiyasi"
+],
+"ans": "C",
+"img": "img/dtm/hk-37-30.jpg"
+}
+]
+}

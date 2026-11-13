@@ -1,0 +1,341 @@
+{
+"id": "hk-31",
+"items": [
+{
+"n": 1,
+"q": "1870-yil 4-sentabrda Fransiyada kim boshchiligida Muvaqqat milliy-modofaa hukumati tuzdi?",
+"opts": [
+"Mak-Magon",
+"T’yer",
+"Troshyu",
+"Sadi Karno"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Ashtarxoniylar davrida davlat mablag‘i hisobiga amalga oshiriladigan qurilish, suv inshootlari barpo etish va obodonchilik ishlariga qaysi lavozimdagi shaxs mas'ul bo'lgan?",
+"opts": [
+"Muhtasib",
+"Sadr",
+"Saroy qutvoli",
+"Mehtar"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyidagi fikrlar ichidan faqat tarixiy to'gri fikr berilgan javobni toping.",
+"opts": [
+"1, 2, 4",
+"1, 3, 5",
+"2, 3, 5",
+"1, 4, 5"
+],
+"ans": "D",
+"extra": "1) Misrda mil. avv VII asrda so'ngi bor yana podsholikka birlashdi;\n2) Eneolit davrining ixtirosi g'ildirak va kulolchilik charxi bo'ldi;\n3) milodiy II asrda yunon tarixchisi Kvint Kursiy Ruf “Aleksandr Anabasisi” asarini yozgan;\n4) Teshiktosh g'ori o'rta paleolit manzilgohidir;\n5) Misrda yangi podsholik davriga kelib piramidalar qurmay qo'yishgan."
+},
+{
+"n": 4,
+"q": "Quyidagilardan qaysi biri Xamurappi vafotidan keyin Bobilni bosib olgan.",
+"opts": [
+"kassitlar",
+"misrliklar",
+"ossuriyaliklar",
+"urartlar"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "1875-1876-yillarda Po'latxon boshchiligidagi qo'zg'olonchilarning asosiy kuchi qaysi shaharda joylashagan edi?",
+"opts": [
+"Namangan",
+"Qo'qon",
+"Andijon",
+"Marg'ilon"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Yaponiyada kimlar Daymo deb atalgan?",
+"opts": [
+"savdogarlar",
+"harbiylar",
+"feodallar",
+"dehqonlar"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Dukchi eshon boshchiligidagi kuchlar Andijon kazarmasiga hujum qilishdan oldin iki qismga bo'linib ikkinchi qismiga kim boshchilik qilgan edi?",
+"opts": [
+"Goyibnazar mingboshi",
+"Chibil Bo'lis",
+"Ziyovuddin Maxsum",
+"Muhammadumar qozi"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "XIX asr oxiri XX asr boshlarida Germaniya qaysi jihatdan dunyoda ikkinchi o'ringa chiqib oldi?",
+"opts": [
+"harbiy dengiz floti qudrati, temir va po'lat ishlab chiqarish, sanoat mahsulotlari hajmi",
+"chetga kapital ishlab chiqarish, sanoat mahsulotlari hajmi, harbiy dengiz floti",
+"mustamlakalar hududi, chetga kapital chiqarish, kimyo sanoati",
+"sanoat mahsulotlari hajmi, harbiy dengiz foti qudrati, kimyo sanoati"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a,e; II-c,d; III-b",
+"I-c,b; II-d,e; III-a",
+"I-b,e; II-a,d; III-c",
+"I-a,b; II-c,d; III-e"
+],
+"ans": "A",
+"extra": "a) Shimoli sharqiy hududlarga hujum qilib, dashtliklarga qaqshatqich zarba berdi;\nb) Mamlakat poytaxtini  Samarqanddan Buxoroga ko‘chirdi;\nc) Ismoil Safaviy qo‘shinlarining hujumlarini bartaraf etdi;\nd) Mamlakat ichkarisidagi siyosiy tarqoqlikka barham berdi;\ne) Butun Movarounnahr va Xurosonni o‘z qo‘l ostiga birlashtirdi.",
+"img": "img/dtm/hk-31-9.jpg"
+},
+{
+"n": 10,
+"q": "Turkistonda mustamlakachi hukumat tomonidan tashkil qilingan qaysi lavozim general-gubernator tavsiyasiga ko'ra harbiy vazir tomonidan tayinlangan?",
+"opts": [
+"General gubernator devoni ijrochisi",
+"Toshkent shahar Dumasi rahbari",
+"Turkiston Harbiy okrugi rahbari",
+"Turkiston viloyati gubematorlari"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Faqat ayrim shahar va qal’alar ichida qurshovda qolgan arab istilochilari katta o'lpon va e'tiborli vakillarini qo'zg'olonchilar ixtiyoriga garovga berish bilan jon saqlaydiiar. Quyidagi izoh qaysi qo'zg'olonga tegishli?",
+"opts": [
+"Muqanna qo'zg'oloni",
+"Buxorodagi 750-yilgi qo'zg'olon",
+"Sug'ddagi 720-yilgi qo'zg'olon",
+"Rofe ibn Lays qo'zg'oloni"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Germaniyada “kultur kamf qonuniga ko'ra maktab cherkovdan ajratilgan edi. Fransiyada qaysi qonunga ko'ra maktab cherkovdan ajratilgan?",
+"opts": [
+"1875 yil uchinchi respublika konstitutsiyasiga ko'ra",
+"1881-1882-yildagi ta’lim to'g'risidagi qonunga ko'ra",
+"1880 yil qabul qilingan mehnat kodeksi bandlariga ko'ra",
+"1910 yildagi pensiya to'g'risidagi qonunga ko'ra"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Sovet RossiyasidaFuqarolar urushining yakunlovchi bosqichi sobiq Rossiya imperiyasining qaysi chekka no'lkalarida sovet hokimyatining o'rnatilishi bilan xarakterlanadi?",
+"opts": [
+"Kavkazorti, Ural, Uzoq Sharq",
+"Kazkazorti, Boltiqbo'yi, Ukraine",
+"Kazkazorti, O'rta Osiyo, Uzoq Sharq",
+"Uzoq Sharq, Boltiqbo'yi, Sevastopol"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Aleksandr II hukmronligi boshlangan yili qaysi imoratning qurilishi tugallandi?",
+"opts": [
+"Muhammad Rahimxon madrasasi",
+"Xudoyorxon saroyi",
+"Muhammad Aminxon madrasasi",
+"Hazrati Kalon Sohibzoda madrasasi"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Angliyada qaysi qirol davrida faqat cherkov emas, toifalar vakillaridan iborat parlamentni ham o'ziga bo'ysundirdi, ayrim mustaqil shimoliy grafliklar va Uels ham qirol hokimiyatini tan oldi.",
+"opts": [
+"Yakov I",
+"Genrix VIII Tyudor",
+"Yelezaveta I",
+"Styuart I"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Monopoliyalarning vujudga kelishi natijasida dunyoda ro'y bergan o'zgarishlar to'g'ri berilgan javobni toping.",
+"opts": [
+"1, 3, 4",
+"2, 3, 5",
+"2, 4, 5",
+"1, 3, 6"
+],
+"ans": "B",
+"extra": "1) Ishlab chiqarishda texnika va texnologiyalarning eski turlaridan foydalanish davom etdi;\n2) ishlab chiqarishda yangi texnika va texnologiyalar joriy etildi;\n3) ozchilik qo'lida ulkan hokimyat to'plandi;\n4) demokratik g'oyalar vujudga kelganligi bilan ajralib turadi;\n5) qirg'inbarot urushlar avj oldi;\n6) dunyoning turli davlatlarida rivojlanishda katta farqlar paydo bo'ldi."
+},
+{
+"n": 17,
+"q": "Shoh masjidi, Shayx Lutfilla, Chexel Sotun saroy ansabli joylashgan shahar kimning davrida poytaxtga aylantirildi?",
+"opts": [
+"Ismoil Safaviy",
+"Abbos I",
+"Nodirshoh",
+"Og'a Muhammad"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Buyuk Ipak yo'lida So'g'diyonadan Xitoyga olib borilgan buyumlar berilgan javobni toping.",
+"opts": [
+"jun gazlama, zeb-ziynat buyumlari, gilam, qimmatbaho toshlar",
+"qimmatbaho toshlar, quritilgan meva, qurol-yarog', ipak",
+"metal buyumlar, ipak gazlama, gilam, qurol-yarog'",
+"paxta chigiti, chorva mollari, o'simlik yog'l, qurol- yarog'"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "1911-yilda Xitoy nima maqsadda chet elliklar bilan bitim tuzgach mamlakatda manjurlarga qarshi harakat boshlandi?",
+"opts": [
+"sanoat korxonalari qurish",
+"temiryo'llar qurish",
+"yangi saroylar qurish",
+"davlat xazinasini to'ldirish"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "O'rta Osiyoda yer-suv islohotining birinchi bosqichi o'tkazilgan vaqtni aniqlang.",
+"opts": [
+"1919-1920-y",
+"1920-1921-y",
+"1921-1922-y",
+"1922-1923-y"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "... podsholik davrida Sinay yarimoroli bosib olinadi, ... Fir’avnlar Nubiya va Liviyaga yurish qilib, shaharlarni talaganlar .... Bu Misrdagi qaysi podsholik davrida yuz bergan?",
+"opts": [
+"ilk podsholik",
+"qadimgi podsholik",
+"o'rta podsholik",
+"yangi podsholik"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Quyida keltirilgan shartnomalardan qaysi biri 1881yilda imzolangan?",
+"opts": [
+"Xiva xonligi yarimmustamlaka davlatga aylanganligini tasdiqlovchi shartnoma",
+"Rossiya imperiyasining Buxoro amirligida o'z vakilini tayinlash huquqini beruvchi shartnoma",
+"Buxoro amirligi bilan Eron o'rtasidagi chegaralarni belgilovchi maxfiy shartnoma",
+"Afg'oniston va O'rta Osiyo chegaralarini belgilash to'g'risidagi shartnoma"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyidagi qaysi asar Dashti Qipchoq va Movaraunnahrning XV asr o'rtalaridan XVI asr boshlarigacha bo'lgan voqealarni o'z ichiga oladi?",
+"opts": [
+"Muhammad Solih -’’Shayboniynoma”",
+"K. Binoiy - “Shayboniynoma”",
+"Hofiz Tanish Buxoriy - “Abdullanoma”",
+"Fazlulloh ibn Rozbehxon - “Mehmonnomayi Buxoro”"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Quyidagi qaysi hukmdorlar Dunay bo'yida yashagan qabilalarga qarshi kurash olib borganlar...?",
+"opts": [
+"Doro I, Oleg",
+"Vladimir, Trayan",
+"Oktavian, Boleslav Jasur",
+"Svyatoslav, Buyuk Kart"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Quyidagi voqealarni sanasi bilan mos ravishda joylashtirlng.",
+"opts": [
+"1-b, 2-d, 3-a, 4-c",
+"1-d, 2-b, 3-a, 4-c",
+"1-d, 2-c, 3-a, 4-b",
+"1-a, 2-d, 3-c, 4-b"
+],
+"ans": "B",
+"extra": "1) VI asr boshlari;\n2) VII asr boshlari;\n3) VIII asr boshlari;\n4) IX asr boshlari\na) Arablar Shimoliy Afrikani bosib oldi;\nb) arablarda urug'chilik tuzumi inqirozi yuz berdl;\nc) Bolgariya yirik davlatga aylandi;\nd) Amrosiy Avrelian brittlarni birlashtirdi."
+},
+{
+"n": 26,
+"q": "Quyidagi qaysi hududda hukmdor saroylari va ibodatxonalarda zodagonlar va badavlat odamlar oilalarning farzandlari ta’lim oladigan maktablar tashkil qilingan?",
+"opts": [
+"Hindiston",
+"Misr",
+"Mesopatamiya",
+"Eron"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "O'zbekiston Respublikasi Oliy Majlisi qachon “Milliy Xavfsizlik to'g'risidagi\" qonun qabul qilindi?",
+"opts": [
+"1993 yil 12 noyabr",
+"1994 yil 5 yanvar",
+"1995 yil 10 may",
+"1996 yil 24-aprel"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "Qachon vitse-prezident lavozimi tugatilib uning orniga Vazirlar Mahkamasida Bosh Vazir lavozimi tashkil qilindi?",
+"opts": [
+"1991 yil 18-noyabr",
+"1992 yil 4-yanvar",
+"1992 yil 2-iyun",
+"1992 yil 2-iyul"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Rus milliy teatrining asoschisini toping.",
+"opts": [
+"Krilov",
+"Volkov",
+"Derjavin",
+"Kulibin"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) bilan bog‘liq voqeani aniqlang.",
+"opts": [
+"Amir Temur va Boyazid o‘rtasida hal qiluvchi jang bo‘lib o‘tgan.",
+"Amir Temur va To‘xtamish o‘rtasida hal qiluvchi jang bo‘lib o‘tgan.",
+"Safaviylar davlati tashkil topgan.",
+"Muhammad Shayboniyxon va Ismoil Safaviy o’rtasida jang bo‘lib o‘tgan."
+],
+"ans": "A",
+"img": "img/dtm/hk-31-30.jpg"
+}
+]
+}

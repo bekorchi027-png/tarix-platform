@@ -1,0 +1,343 @@
+{
+"id": "hk-32",
+"items": [
+{
+"n": 1,
+"q": "Qoraxoniylar tomonidan nechanchi yilda va kim tomonidan yurish qilinishi natijasida somoniylar davlatini qulatgan?",
+"opts": [
+"997-yilda Sotug' Bug'roxon",
+"992-yilda Xorun Bug'roxon",
+"995-yilda Ibrahim Bo'ritegin",
+"999-yilda Nasr eloqxon"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Kidariylar yurtimizga qachon bostirib kirgan?",
+"opts": [
+"IV asrning 60-yillaridan",
+"VI asrning 70-yillaridan",
+"V asrning 20-yillaridan",
+"VIII asrning 40-yillaridan"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Madaminbek Farg'ona vodiysining qaysi hududida milliy ozodlik urushiga boshchilik qilgan?",
+"opts": [
+"Qo'qon",
+"Andijon",
+"Namangan",
+"Marg'ilon"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Toshkentda qachon davlat konservatoriyasi ochildi?",
+"opts": [
+"1932-yil",
+"1934-yil",
+"1936-yil",
+"1938-yil"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "XVI asrda Shimoliy Afrikadagi qaysi davlatlar Usmonli Turk davlatidan o'z mustaqilligini saqlab qoldi.",
+"opts": [
+"Sudan, Marokash",
+"Marokash, Jazoir",
+"Liviya, Jazoir",
+"Jazoir, Sudan"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Fransiya qiroli Filipp IV davrida qo'shib olingan hududlar berilgan javobni aniqlang.",
+"opts": [
+"1, 5",
+"2, 4",
+"3, 5",
+"3, 4"
+],
+"ans": "C",
+"extra": "1) Burj shahri;\n2) Bretan gersogligi;\n3) Shampan grafligi;\n4) Normandiya gersogligi;\n5) Lion shahri va viloyati."
+},
+{
+"n": 7,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a,d; II-b,c; III-f",
+"I-a,d; II-b,f; III-c",
+"I-c; II-f; III-d",
+"I-d; II-f; III-e"
+],
+"ans": "D",
+"extra": "a) yer egaligining suyurg’ol shaklini bekor qilgan;\nb) dehqonlarning yerni tashlab ketishlarini taqiqlovchi farmon chiqargan;\nc) turk va afg’on bosqinchilariga qarshi kurashga chorlay oladigan qobiliyati ham yo’q edi;\nd) muntazam qo’shin barpo etgan;\ne) mamlakat poytaxtini o’zgartirgan;\nf) u yangi sulola asoschisi hisoblanib, o’zini shahanshoh deb e’lon qilgan.",
+"img": "img/dtm/hk-32-7.jpg"
+},
+{
+"n": 8,
+"q": "Movaraunnahrni bosib olgan Qutayba Ibn Muslim Buxoro shahrini qachon bosib olgan?",
+"opts": [
+"709-yilda",
+"705-yilda",
+"715-yilda",
+"710-yilda"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "",
+"opts": [
+"5, 2, 3, 1, 4",
+"2, 5, 4, 1, 3",
+"4, 5, 3, 1, 2",
+"3, 4, 5, 1, 2"
+],
+"ans": "B",
+"extra": "I.Karimov tomonidan bozor munosabatlariga o'tish yo'liga doir beshta tamoilni ketma-ketlikda berilgan javobni toping.\n1) Kuchli ijtimoiy siyosat yuritish;\n2) Iqtisodning siyosatdan ustunligi;\n3) Bozor munosabatlariga bos-qichma- bosqich o'tish;\n4) Qonun ustivorligi;\n5) Davlat bosh islohotchi."
+},
+{
+"n": 10,
+"q": "Fransiyada Prezident Sadi Karno o'ldirilgan yili qaysi hudud ustidan protektorat e’lon qilindi?",
+"opts": [
+"Vyetnam",
+"Laos",
+"Kambodja",
+"Marokash"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Arablar hukmronligi davrida hukmdor tomonidan amaldorlarga katta xizmati uchun berilgan yer turi bu ...",
+"opts": [
+"iqto",
+"suyurg'ol",
+"tanho",
+"tarxon"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Vatanimizdagi qaysi madrasining qurib bitkazilishi Qo'qondagi Xudoyorxon saroyi qurilishi vaqtiga to'g'ri keladi?",
+"opts": [
+"Sulton Murodbek madrasasi",
+"Norbo'tabiy madrasasi",
+"Muxammad Raximxon madrasasi",
+"Hokim oyim madrasasi"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi qaysi shaharlarda bir yilda jadid maktabi ochilgan?",
+"opts": [
+"Qo'qon va Toshkentda",
+"Marg'ilon va Qo'qonda",
+"Toshkent va Andijonda",
+"Andijon va Qo'qonda"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "1921-yil Farg'ona viloyatida harbiy diktator qilib tayinlangan shaxsni aniqiang.",
+"opts": [
+"Veryovkin-Roxalskiy",
+"P. Baranov",
+"M. Frunze",
+"Ye. Perfilov"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Afrosiyob tezyurar poyezdining Qarshi(a), ToshkentBuxoro(b) va Toshkent-Xiva(c) yo'nalishlari qurilgan sanalar to'gri berilgan javobni toping.",
+"opts": [
+"(a)-2005, (b)-2008) (c)-2012)",
+"(a)-2009, (b)-2012) (c)-2015)",
+"(a)-2015, (b)-2016) (c)-2018)",
+"(a)-2014, (b)-2016) (c)-2018)"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Qadimgi Baqtriya davlatining siyosiy va madaniy ta’siri ostida bo'lgan hududlar berilgan javobni toping.",
+"opts": [
+"Marg'iyona va So'gd",
+"So'gd va Xorazm",
+"So'g'd va Farg'ona",
+"Xorazm va Marg'iyona"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Buxoro amirlari va ular davrida amalga oshirilgan ishlar mos bo'lgan javobni aniqiang.",
+"opts": [
+"1-c, f; 2-a, d, f; 3-e, g",
+"1-b, d; 2-a, f, g; 3-b, d",
+"1-c, e; 2-b, d; 3-a, f, g",
+"1-d, e, f; 2-a, c; 3-b, g"
+],
+"ans": "C",
+"extra": "1) Amir Nasrulla;\n2) Amir Haydar;\n3) Amir Shohmurod;\na) Buxoro aholisiga tarxon yorlig'i yozib berdi;\nb) Miyonqolda ko'tarilgan qo'zg'alonni bostira olmadi;\nc) Xo'jand va O'ratepa qo'lga kiritildi;\nd) Shahrisabz va Miyonqolni amirlik tarkibida saqlab qolish uchun kurash olib bordi;\ne) Shahrisabz va Kitob bo'ysundirildi;\nf) Sof kumush tanga muomilaga kiritildi;\ng) Xiroj miqdori kamaytirildi;"
+},
+{
+"n": 18,
+"q": "1923-yil oxirida yevropada eng qadrsiz pul qaysi mamlakatning puli edi?",
+"opts": [
+"B. Britaniya",
+"Fransiya",
+"Germaniya",
+"Italiya"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "IX asrda arab xalifaligidan mustaqil bo'lib chiqqan hududlar to'g'ri berilgan javobni toping.",
+"opts": [
+"Movaraunnahr, Hindiston, Eron, Misr",
+"Misr, Suriya, Liviya, Xuroson",
+"Xuroson, Movaraunnahr, Liviya, Falastin",
+"Misr, Eron, Movaraunnahr, Xuroson"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Quyidagi voqealarni xronologik ketma- ketlikda berilgan javobni toping.",
+"opts": [
+"1, 3, 5, 6, 4, 2",
+"1, 5, 3, 6, 4, 2",
+"1, 5, 6, 3, 4, 2",
+"1, 3, 6, 5, 4, 2"
+],
+"ans": "D",
+"extra": "1) Fransiya Vyetnamni bosib oldi;\n2) Fransiya Laos ustidan protektorat o'rnatdi;\n3) Vilgelm I vafot etdi;\n4) Germaniyada xotin qizlar uchun 11 soatlik ish kuni belgilandi;\n5) GSDP ochiq ishlash sharoitiga o'tdi;\n6) Vilgelm II Turkiya sultoni bilan “Bag'dod temiryo'li” qurilishi masalasida kelishib oldi."
+},
+{
+"n": 21,
+"q": "Qachon bo'lgan O’zSSR sovetlarining V syezdida 8 yoshdan 15 yoshgacha bo'lgan hamma bolalarni majburiy yeti yillik ta’limga tortish hamda yangi maktab binolari qurish dasturi ishlab chiqildi?",
+"opts": [
+"1927 yil 15-17-dekabr",
+"1932 yil 5-9-noyabr",
+"1935 yil 10-17-yanvar",
+"1938 yil 8-12-mart"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "O'zSSR Fanlar komiteti (A) va SSSR fanlar akademiyasining O'zSSR filiali(O'zFAN) tashkil qilingan(B) yillar to'gri berilgan javobni toping.",
+"opts": [
+"(a)-1930, (b)-1934;",
+"(a)-1932, (b)-1935;",
+"(a)-1932, (b)-1940;",
+"(a)-1934, (b)-1940;"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Turkiston general-gubernatorligi viloyati tarkibiga kirgan uyezd xato berilgan javobni toping.",
+"opts": [
+"Sirdaryo vil - Avliyoota",
+"Yettisuv vil - Knasnovodsk",
+"Samarqand vil - Kattaqo'rg'on",
+"Kaspiyorti vil - Tajan"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Avstriya-vengriya davlatining Avstriya tarkibiga kirgan hududlar kirgan javobni toping.",
+"opts": [
+"1, 2, 5, 6",
+"2, 3, 7",
+"1, 4, 5, 7",
+"1, 3, 6, 7"
+],
+"ans": "C",
+"extra": "1) chexiya;\n2) slovakiya;\n3) xorvatiya;\n4) moraviya;\n5) galitsiya;\n6) transilvaniya;\n7) bukovina."
+},
+{
+"n": 25,
+"q": "B. Britaniyaning mashhur radiosi - “Bi-bi-si” qachon tashkil qilindi?",
+"opts": [
+"1921-yil",
+"1927-yil",
+"1929-yil",
+"1932-yil"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Xalqlarning Buyuk ko'chishlari davrida qayerda yashagan turkiy bulg'or qabilalari Bolqon yarim oroliga borib o'rnashdi?",
+"opts": [
+"Dnepr havzasida",
+"Dunay bo'ylarida",
+"Volga havzasida",
+"Ural havzasida"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Turk xoqonligi qachon ikkiga bo'linib ketdi?",
+"opts": [
+"VI asrning 80-yillari oxiri",
+"VI asr 50-yillari boshlari",
+"VII asr 20-yillari o'rtasi",
+"IV asr 40-yillari oxiri"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "14-yanvar O'zbekiston Respublikasining nechanchi yildagi qonuniga muvofiq “Vatan himoyachilari kuni” deb e'lon qilindi?",
+"opts": [
+"1992-yil",
+"1993-yil",
+"1994-yil",
+"1995-yil"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Normandiya Fransiya tomonidan qachon va qaysi qirol tomonidan Angliyadan qaytarib olingan?",
+"opts": [
+"XII asr oxiri Lyudovik VI",
+"XIII asr boshi Filipp II",
+"Xllasr boshi Filipp IV",
+"XIII asr oxiri Karl V"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) bilan bog‘liq XVI asr tarixiga oid voqeani aniqlang.",
+"opts": [
+"Safaviylar davlati tashkil topdi.",
+"Qohirani egallashga muvaffaq bo‘ldi.",
+"Koreya hududiga harbiy yurishlarni amalga oshirdi.",
+"Dehli sultonligi hukmronligi tugadi."
+],
+"ans": "D",
+"img": "img/dtm/hk-32-30.jpg"
+}
+]
+}

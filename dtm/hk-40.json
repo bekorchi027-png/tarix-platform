@@ -1,0 +1,348 @@
+{
+"id": "hk-40",
+"items": [
+{
+"n": 1,
+"q": "Quyida keltirilgan ma’lumotlar qaysi davlatga tegishli ekanligini aniqlang. “1920-yillar o‘rtalariga kelib mamlakatda sanoat to‘ntarishi yuz berdi. 1925-yili sanoat mahsulotlari ishlab chiqarish darajasi 1919-yilgi darajasidan oshib ketdi. Ishlab chiqarishni konsentratsiyalash jarayoni davom etdi. Monopolistik kapital xalq xo‘jaligining muhim sohalarini egallab ola boshladi”.",
+"opts": [
+"Buyuk Britaniya",
+"AQSh",
+"Yaponiya",
+"Fransiya"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Quyidagi qaysi shahar „Tangrining jamoli“, „islom dinining gumbazi“ va „islom dinining quvvati“ nomlari bilan ulug‘langan?",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Xiva",
+"Toshkent"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Qaysi davlat an’anaviy sivilizatsiya mamlakatlari ichida birinchi bo‘lib industrial taraqqiyot yo‘liga kirgan?",
+"opts": [
+"Xitoy",
+"Hindiston",
+"Koreya",
+"Yaponiya"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "1929-yil yanvarda AQShda bo‘lib o‘tgan prezidentlik saylovida g‘olib chiqqan shaxsni toping.",
+"opts": [
+"Gerbert Guver",
+"Franklin Ruzvelt",
+"Vudro Vilson",
+"Teodor Ruzvelt"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Qo’qon xoni Muhammad Alixon Rossiya bilan munosabatlarni yo‘lga qo’yish maqsadida 1831-yilda elchi yubordi. Elchilik muvaffaqiyatsiz yakunlanishi sababini aniqlang.",
+"opts": [
+"har ikki tarafning Kichik juz qozoqlarini o‘z fuqarolari deb hisoblashlari",
+"har ikki davlatning O‘rta juz qozoqlari homiysi bo‘lishga da'vogarligi",
+"Buxoro amirligining Qo‘qon xonligiga hujumi",
+"Rossiya-Buyuk Britaniya munosabatlarida o‘zgarish yuz berganligi"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Nemis feodallarining Boltiqbo‘yida yashovchi est va lit qabilalariga qarshi urushlarini salib yurishlari deb e’lon qilgan Rim papasini aniqlang.",
+"opts": [
+"Bonifatsiy VIII",
+"Innokentiy III",
+"Ioan XII",
+"Grigoriy IX"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Buyuk Britaniyada qaysi Bosh vazir davrida shaharlarda o‘z uyiga ega bo‘lgan hamda alohida xonadonda turadigan barcha erkaklarga saylov huquqi berilgan?",
+"opts": [
+"U.Gladston",
+"A.Griffit",
+"B.Dizraeli",
+"D.Lloyd-Jorj"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Quyidagi qaysi ma’lumotlar Leonid haqida emas?",
+"opts": [
+"1, 3",
+"2, 4",
+"1, 4",
+"2, 3"
+],
+"ans": "B",
+"extra": "1) Yunon-fors urushlari davrida Sparta hukmdori edi;\n2) Xeroniya ostonasidagi jangda Makedoniya podshosi Filip II qo’shinlarini tor-mor etdi;\n3) Fermopil jangida yunonlar qo’shiniga boshchilik qilgan;\n4) ahamoniylar sulolasidan bo‘lgan Qadimgi Fors podshosi − Doro I qo‘shinlarini tormor keltirdi"
+},
+{
+"n": 9,
+"q": "Gannibal boshchiligidagi karfagenliklar Shimoliy Italiya hududiga bostirib kirib, mil.avv. 216-yilda qaysi jangda rimliklar armiyasini tor-mor etgan?",
+"opts": [
+"Sitsiliya orollaridagi jangda",
+"Karfagen qirg‘oqlaridagi jangda",
+"Zama yaqinidagi jangda",
+"Kann yaqinidagi jangda"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "O‘rta asrlarda Hindistonda harbiy xizmat o‘tab berish sharti bilan in’om etilgan yer maydoni qanday nomlangan?",
+"opts": [
+"patta",
+"iqto",
+"grass",
+"xolisa"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Qadimgi kassiy qabilalari hozirgi qaysi davlat hududida yashagan?",
+"opts": [
+"Hindiston",
+"Ispaniya",
+"Eron",
+"Italiya"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "To‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"Qadimgi Rim − nomlar",
+"Qadimgi Yunoniston − agora",
+"Ahamoniylar davlati − falanga",
+"Qadimgi Misr − forum"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "2013-yilda Ukrainada ijtimoiy tarmoqlarda «Yevromaydan» nomini olgan ommaviy norozilik chiqishlariga sabab bo‘lgan omilni aniqlang.",
+"opts": [
+"prezidentlik saylovlarida Viktor Yanukovichning g‘olib deb e’lon qilinishi",
+"Ukrainaning NATOga a’zo bo‘lishiga qarshi talabalarning Kiyev va boshqa shaharlarda norozilik chiqishlari",
+"janubi-sharqiy hududlarda rusiyzabon aholining norozilik chiqishlari",
+"prezident Viktor Yanukovichning Yevroittifoq bilan hamkorlik to‘g‘risida kelishuvni imzolashdan bosh tortishi"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Qaysi hukmdor davrida Eron tarixida birinchi parlament – Majlis tuzilgan?",
+"opts": [
+"Muhammad Rizo Pahlaviy",
+"Muzafariddin",
+"Muhammad Alishoh",
+"Ahmadshoh"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "1996-yilda YuNESKOning madaniy qadriyatlar ro‘yxatiga kiritilgan shaharni belgilang.",
+"opts": [
+"Samarqand",
+"Buxoro",
+"Shahrisabz",
+"Qarshi"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Qoraqalpoqlar Xiva xonligi tarkibiga kirgach,  urug‘ va qabilalar ancha yirik guruhlarga birlashtirilib, ularni boshqarish uchun xon saroyining qaysi oliy amaldorlari tayinlangan?",
+"opts": [
+"2, 3",
+"1, 4",
+"2, 4",
+"1, 3"
+],
+"ans": "B",
+"extra": "1) otaliq;\n2) ulus oqsoqoli;\n3) biy;\n4) beklarbegi"
+},
+{
+"n": 17,
+"q": "1990-yil 1-noyabrda qabul qilingan “O‘zbekiston Respublikasida ijroiya va boshqaruv hokimiyatining tuzilishini takomillashtirish hamda O‘zbekiston SSR Konstitutsiyasiga o‘zgartirish va qo‘shimchalar kiritish to‘g‘risida”gi qonunga ko‘ra . . .",
+"opts": [
+"2, 3, 4, 5",
+"1, 3, 5, 6",
+"2, 3, 4, 6",
+"1, 2, 5, 6"
+],
+"ans": "B",
+"extra": "1) prezidentlik hokimiyati bilan Ministrlar Sovetining ijroiya-boshqaruv hokimiyati qo‘shib yuborildi;\n2) Vitse-prezident lavozimi tugatildi va O‘zbekiston Respublikasining Bosh vaziri lavozimi ta’sis etildi;\n3) O‘zbekiston Respublikasi Ministrlar Soveti O‘zbekiston Respublikasi Prezidenti huzuridagi Vazirlar Mahkamasiga aylantirildi;\n4) prezidentlik lavozimi vakolati 7 yil qilib belgilandi;\n5) O‘zbekiston Respublikasi Prezidenti ayni vaqtda Vazirlar Mahkamasining Raisi bo‘lishi belgilab qo‘yildi;\n6) O‘zbekiston Respublikasi Prezidentining va O‘zbekiston Respublikasi Ministrlar Sovetining apparati O‘zbekiston Respublikasi Prezidenti huzuridagi bitta apparatga birlashtirilishi belgilandi"
+},
+{
+"n": 18,
+"q": "Quyidagilardan qaysilarida davlat − shaxs − voqea mosligi to‘g‘ri berilgan?",
+"opts": [
+"2, 4, 5, 6, 7, 10",
+"1, 2, 3, 4, 7, 9",
+"2, 3, 6, 7, 8, 9",
+"1, 3, 5, 6, 8, 10"
+],
+"ans": "D",
+"extra": "1) Iroq − Saddam Husayn − Quvaytga bostirib kirib, uning hududini egalladi;\n2) GFR − Gelmut Kol − GFR NATOga a’zo bo‘ldi;\n3) Yaponiya − Tosiki Kayfu − Quvayt Iroq tomonidan anneksiya qilinishi paytida Misr, Iordaniya va Turkiyaga moliyaviy yordam berdi;\n4) Falastin −Yosir Arofat – Falastin kuzatuvchi davlat maqomida BMT faoliyatida qatnashish huquqini oldi;\n5) AQSh − Duayt Eyzenxauer − mamlakatda makkartizm avj oldi;\n6) Pokiston − Parvez Musharraf −2003-2005-yillarda Pokiston armiyasi AQSh yordamida Afg‘oniston hududida harbiy operatsiyalar olib bordi;\n7) Fransiya − Jak Shirak − Angliya bilan hamkorlikda LaMansh bo‘g‘ozi ostidan o‘tgan temiryo‘l tonneli (Yevrotonnel) qurildi;\n8) Eron − Muhammad Rizo Pahlaviy − mamlakatda “oq inqilob” deb nom olgan islohotlarni amalga oshirdi;\n9) Chili − Salvador Alyende – mamlakatda davlat to‘ntarishini amalga oshirdi;\n10) Buyuk Britaniya − Margaret Tetcher − Folklend orollari uchun Argentina bilan urush harakatlarini olib bordi"
+},
+{
+"n": 19,
+"q": "Quyidagi grafikda qaysi raqam ostida asar va uning muallifi bir-biriga muvofiq keladi?",
+"opts": [
+"3, 6",
+"1, 6",
+"3, 5",
+"2, 4"
+],
+"ans": "A",
+"img": "img/dtm/hk-40-19.jpg"
+},
+{
+"n": 20,
+"q": "XIX asrda Eronda viloyatlarni kim boshqargan?",
+"opts": [
+"vali",
+"amid",
+"beklarbegi",
+"sanjoqbey"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Koreyada qirol Yongjo davrida mamlakatni rivojlantirish maqsadida o’tkazilgan islohotlar to’gri berilgan javobni toping.",
+"opts": [
+"1, 2, 3",
+"2, 4, 6",
+"1, 3, 5",
+"1, 2, 4"
+],
+"ans": "B",
+"extra": "1) “ Qonunlarning buyuk to‘plami” deb nomlangan hujjat tuzildi;\n2) dehqonlarning katta yer egalariga shaxsiy qaramligini bekor qilish va qul ayolning nevarasi ozod inson bo‘lishi haqida deklaratsiya e’lon qilindi;\n3) qo‘riq yerlarni o‘zlashtirish hisobiga dehqonchilik qiluvchilarni rag‘batlantirish siyosatini yuritdi;\n4) ba’zi bir davlat soliqlari bekor qilindi yoki kamaytirildi;\n5) dvoryan bo‘lmagan qatlamlar – savdogarlar, o‘ziga to‘q mayda yer egalarining ayrim vakillariga davlat xizmatiga kirish imkoniyatini yaratdi;\n6) to‘g‘onlar, suv omborlari qurildi, ocharchilik holati uchun maxsus don omborlari tashkil qilindi"
+},
+{
+"n": 22,
+"q": "Quyida berilganlardan Paul fon Gindenburg faoliyati bilan bog‘liq ma’lumotlarni aniqlang.",
+"opts": [
+"3, 5, 6",
+"1, 3, 4",
+"2, 4, 6",
+"1, 2, 5"
+],
+"ans": "B",
+"extra": "1) Birinchi jahon urushi davrida Germaniya qo‘shinining qo‘mondoni etib tayinlangan;\n2) Birinchi jahon urushida yashin tezligida g‘alabaga erishish rejasini ishlab chiqqan;\n3) Germaniya qo‘shinining 1917-yilgi harakat rejasini tuzgan;\n4) 1932-yilgi prezidentlik saylovlarida g‘olib chiqib, Germaniya Prezidenti etib saylangan;\n5) Germaniya natsional-sotsialistlar ishchi partiyasining yo‘lboshchisi bo‘lgan;\n6) Ikkinchi jahon urushida Sovet Ittifoqi bilan Germaniyaning so‘zsiz taslim bo‘lganligi haqidagi shartnomani imzolagan"
+},
+{
+"n": 23,
+"q": "1791-yilda Fransiyaning yangi Qonun chiqaruvchi Majlisi \"zafarli urush mamlakatda vatanparvarlik hissini kuchaytiradi va inqilobiy holatni bartaraf etadi\" degan fikr bilan qaysi davlatga urush e’lon qilgan?",
+"opts": [
+"Germaniyaga",
+"Avstriyaga",
+"Belgiyaga",
+"Ispaniyaga"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Dekartning inson to‘g‘risidagi tasavvurlarini inkor etib, fenomenologik (favqulodda, nodir) yondashuv yordamida ongsizlikni tahlil qilish mumkinligini asoslab bergan shaxsni aniqlang.",
+"opts": [
+"F.Nitsshe",
+"R.Kipling",
+"Z.Freyd",
+"O.Shpengler"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b; II-c, e; III-d",
+"I-b, e; II-c, d; III-a",
+"I-e; II-b, c; III-d",
+"I-b, d; II-c; III-a"
+],
+"ans": "D",
+"extra": "a) Mo‘g‘ullar tomonidan bosib olingan; b) venetsiyalik sayyoh va savdogar Marko Polo Xubilayxon saroyida yuksak lavozimni egallagan;  c) davlat poytaxti hozirgi Keson shahri bo‘lgan; d) qullarni ozod qilish haqida qonun qabul qilingan; e) Chjan Xe boshchiligidagi harbiy dengiz floti Hindistonga 7 marta hujum qilgan",
+"img": "img/dtm/hk-40-25.jpg"
+},
+{
+"n": 26,
+"q": "Qo‘qon hukmdori Erdonabiy Xitoy bilan imzolagan shartnomasiga ko‘ra . . . .",
+"opts": [
+"2, 3",
+"2, 4",
+"1, 4",
+"1, 3"
+],
+"ans": "D",
+"extra": "1) Qo‘qon xonligi o‘zining Xitoyga qaram ekanligini tan oldi;\n2) Sharqiy Turkistonda savdo qiluvchi o‘rtaosiyolik savdogarlar to‘laydigan bojlarni yig‘ib olish huquqi Qo‘qon xonligiga berildi;\n3) Qo‘qon xonligi Xitoyga katta miqdorda tovon to‘lagan hamda imperatorga qimmatbaho sovg‘a-salomlar jo‘natgan;\n4) Xitoy hukumati Erdonabiyga Qashqar hukmdorlarini Sharqiy Turkistonga o‘tkazmaslik shartini qo‘ydi."
+},
+{
+"n": 27,
+"q": "Birinchi jahon urushidan keyin Buyuk Britaniya quyidagi qaysi davlatlarning tashqi va ichki siyosatini nazorat qilishdan voz kechishga majbur bo‘ldi?",
+"opts": [
+"1, 5",
+"2, 5",
+"3, 4",
+"2, 3"
+],
+"ans": "B",
+"extra": "1) Hindiston;\n2) Eron;\n3) Janubiy Afrika Ittifoqi;\n4) Kanada;\n5) Afg’oniston"
+},
+{
+"n": 28,
+"q": "2004-yil sentabr oyida qaysi shaharda bo’lib o’tgan MDHning sammitida terrorizmga qarshi kurash bo‘yicha MDHning “Xavfsizlik Kengashi”ni tuzishga qaror qilindi?",
+"opts": [
+"Toshkent",
+"Moskva",
+"Minsk",
+"Ostona"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Xaritada XVII–XVIII asrlarda Manjurlarning chin sulolasiga vassalikni tan olgan va bo’ysundirilgan hudud(davlat)lar qaysi raqamlar ostida berilgan?",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"3, 4, 5",
+"3, 4, 6"
+],
+"ans": "C",
+"img": "img/dtm/hk-40-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalning qaysi qatorlarida tarixiy voqealarning natijalari to‘g‘ri berilgan? № Voqea Natija 1. 1618-1648-yillardagi O‘ttiz yillik urush Yevropada siyosiy gegemonlik Fransiyaga o’tdi 2. 1853-1856-yillardagi \"Qrim urushi\" Turkiyada hukm surayotgan O‘rta asr munosabatlari inqirozga uchradi 3. 1861-1865-yillarda AQShdagi fuqarolar urushi Respublika tuzumi o’rnatildi 4. 1524-1526-yillardagi \"Buyuk dehqonlar urushi\" Reyxstagda katoliklar Reformatsiyaning yutuqlarini bekor qilish tashabbusi bilan chiqdi 5. Fransiya-Prussiya urushi Fransiyaning Yevropada yetakchi mavqeyi yo’qqa chiqdi 6. Birinchi afyun urushi Buyuk Britaniya Guanchjouni qo‘lga kiritdi 7. 1894-1895-yillardagi yapon-xitoy urushi Yaponiyaning Uzoq Sharqda ustunlikka ega bo’lishiga yo‘l ochildi",
+"opts": [
+"1, 3, 5, 7",
+"2, 4, 5, 7",
+"1, 4, 5, 7",
+"1, 3, 5, 6"
+],
+"ans": "C",
+"img": "img/dtm/hk-40-30.jpg"
+}
+]
+}

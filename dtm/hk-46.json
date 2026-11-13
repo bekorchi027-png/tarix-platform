@@ -1,0 +1,349 @@
+{
+"id": "hk-46",
+"items": [
+{
+"n": 1,
+"q": "1870-1918-yillardagi Fransiya tarixiga oid ma’lumotni aniqlang.",
+"opts": [
+"Germaniya va Avstriya-Vengriya tashkil etgan ittifoqqa qo’shildi.",
+"Fransiya dunyoning birinchi sanoat davlatiga aylandi.",
+"Usmonli davlati qo’l ostidagi Jazoirni bosib oldi.",
+"Prussiya bilan urushdagi mag’lubiyat Fransiyaning xalqaro mavqeiga salbiy ta’sir ko’rsatdi."
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. XVI asrda Buxoro xonligi Shayboniyxon Abdullaxon II II III I",
+"opts": [
+"I-a, f; II-c, d; III-b",
+"I-a, c; II-b, f; III-d",
+"I-c, d; II-e, f; III-b",
+"I-a, d; II-c, f; III-e"
+],
+"ans": "A",
+"extra": "a) Eron shohi Ismoil Safaviy bilan bo’lgan jangda halok bo’ldi; b) mamlakatda pul islohoti o’tkazdi; c) Hindiston hukmdori Akbarshoh bilan elchilik munosabatlarini o’rnatdi; d) Shayboniy Ko’chimxonga Sibir xonligi taxtini egallashga harbiy yordam berdi; e) Eron hukmdori Nodirshoh bilan Buxoro xonligining taslim bo’lish shartlari haqidagi shartnomani imzoladi; f) O’zbek ulusi davlatini qayta tiklashga muvaffaq bo’ldi.",
+"img": "img/dtm/hk-46-2.jpg"
+},
+{
+"n": 3,
+"q": "Quyidagilardan qaysi biri Buyuk Britaniya mustamlakasi bo’lgan “oq koloniyalar” ga taalluqli emas?",
+"opts": [
+"Avstraliya",
+"Yangi Zelandiya",
+"Hindiston",
+"Kanada"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "2001-yil 11-sentabr kuni Nyu-Yorkda amalga oshirilgan terorchilik aktidan so’ng AQSh prezidenti kichik Jorj Bush “xalqaro terorizmning sherigi” deb atadi. Bu tamg’adan qutulish uchun Eron qanday ishlarni amalga oshirdi?",
+"opts": [
+"2, 3",
+"1, 3",
+"1, 4",
+"2, 4"
+],
+"ans": "B",
+"extra": "1) “Hizbulloh” rahbarlari mamlakatdan quvib chiqarildi;\n2) BMT inspektorlari AQSh foydasiga josuslik qilishda ayblandi va ular mamlakatdan quvib chiqarildi;\n3) Sudan, Liviya, Bosniyadagi eronlik diniy maslahatchilar chaqirib olindi;\n4) mamlakatda “oq inqilob” deb nom olgan islohotlar amalga oshirildi."
+},
+{
+"n": 5,
+"q": "1900-yilda chet el interventlari Xitoyni asoratli shartnomani imzolashga majbur qilgan edi. Ushbu shartnomadan quyidagilardan qaysilari o’rin olgan?",
+"opts": [
+"1, 4, 6",
+"2, 3, 5",
+"1, 3, 4",
+"2, 5, 6"
+],
+"ans": "C",
+"extra": "1) qo’zg’alonda qatnashgan mansabdor shaxslarni qatl etish yoki surgun qilish talab etildi;\n2) Xitoy Koreyaning mustaqilligini tan olishi belgilandi;\n3) Xitoy chet el interventlariga 33. mln dollor tovon to’lashga majbur etildi;\n4) Xitoyga qurol-aslaha kiritish taqiqlandi;\n5) Tayvan oroli Buyuk Britaniyaga berildi;\n6) Xitoyda monarxiyani bekor qilish belgilandi"
+},
+{
+"n": 6,
+"q": "Quyidagi ma’lumotlar qaysi hukmdor haqida ekanligini toping. “XIX asrda Rossiyada hukmronlik qilgan. Uning hukmronligi davrida Sirdaryoning Orolga quyilish joyida Raim istehkomi qurilgan. U Usmonli davlati sultonidan Rossiyani Turkiyaga qaram o’lkalarda yashovchi barcha provaslav xalqlari ustidan homiy deb tan olishini talab qilgan”.",
+"opts": [
+"Nikolay I",
+"Yekaterina II",
+"Aleksandr III",
+"Nikolay II"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "1922-yili Buyuk Britaniya Misrning mustaqilligini tan olishi bilan birga qaysi davlatlarning ichki va tashqi siyosatini nazorat qilishdan ham voz kechishga majbur bo’lgan edi?",
+"opts": [
+"1, 3",
+"1, 4",
+"2, 4",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) Xitoy;\n2) Eron;\n3) Hindiston;\n4) Afg’oniston"
+},
+{
+"n": 8,
+"q": "Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi? “Inoqlar hukmdorligi” “O’rta Osiyo bo’ylab sayohat” “Umarnoma” “Cho’ponota”",
+"opts": [
+"2, 6",
+"1, 3",
+"4, 6",
+"1, 5"
+],
+"ans": "D",
+"extra": "V.Vyatkin N.Muravyov\nX.Vamberi",
+"img": "img/dtm/hk-46-8.jpg"
+},
+{
+"n": 9,
+"q": "V-VI asrlarda “Ipak yo’li” savdosida sosoniy savdogarlari bilan raqobatda asosan kimlar vositachi bo’lgan?",
+"opts": [
+"kidariylar",
+"sug’diylar",
+"xorazmiylar",
+"turkmanlar"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Qaysi voqeadan keyin Oktavian va Antoniy Rim imperiyasini Sharqiy va G’arbiyga bo’lib olgan?",
+"opts": [
+"Sezarga suiqasd uyushtirilgandan so’ng",
+"Brut boshchiligidagi respublika tarafdorlarini mag’lub qilgandan keyin",
+"Rim imperatori Feodosiyning o’limidan so’ng",
+"Gannibal boshchiligidagi karfagenliklar mag’lub qilingach"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Meksika tarixiga “burjua inqilobi” nomi bilan kirgan dehqonlar qozg’oloni yengilgan bo’lsada, izsiz ketmadi. Uning natijalari to’g’ri ko’rsatilgan javobni toping.",
+"opts": [
+"1, 4",
+"1, 2",
+"2, 4",
+"3, 4"
+],
+"ans": "D",
+"extra": "1) Madero tomonidan qullikni bekor qilish to’g’risidagi qonun imzolandi;\n2) hindularga fermerlik bilan shug’ullanishiga imkon beruvchi qonun qabul qilindi;\n3) latifundistlar tomonidan noqonuniy bosib olingan yerlar dehqonlarga qaytarildi;\n4) demokratik ruhdagi konstitutsiya qabul qilindi"
+},
+{
+"n": 12,
+"q": "Qadimda qaysi davlatda jahondagi eng qadimiy rivoyatlardan biri – Yer yuzini butunlay suv bosishi to‘g‘risidagi To‘fon rivoyati dunyoga kelgan?",
+"opts": [
+"Xitoyda",
+"Misrda",
+"Mesopotamiyada",
+"Hindistonda"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Xalqdan ajralib qolgan, hukmron guruh manfaatlarini himoya qiluvchi ma’muriyatchilik boshqaruv tizimi qanday atama bilan izohlanadi?",
+"opts": [
+"Militarizatsiya",
+"Avtoritarizm",
+"Teokratiya",
+"Byurokratiya"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Buxoro xonligida qaysi hukmdor davrida aholidan yig’iladigan soliqlar 4 barobarga ko’paytirilgan?",
+"opts": [
+"Subhonqulixon",
+"Imomqulixon",
+"Ubaydullaxon II",
+"Abulfayzxon"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "1992-yilda Den Syaopin mamlakatning janubiy provinsiyalariga qilgan safari davomida kimni o’zining vorisi deb e’lon qilgan?",
+"opts": [
+"Szyan Szeminni",
+"Xu Szintaoni",
+"Mao Szedunni",
+"Si Szinpinni"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Ma’lumki, Asfandiyorxon (qo’ng’irot) buyrug’iga binoan xonlikda yerlarni qaytadan o’lchash boshlangan. Aslida bundan ko’zlangan maqsad nima edi?",
+"opts": [
+"Bosh vazir Islomxo’ja tasarrufida bo’lgan yerlarni tortib olish",
+"egalari tashlab ketgan yerlarni aniqlash va ularni yersiz dehqonlarga bo’lib berish",
+"yangi soliqlarni joriy qilish",
+"Rossiya sarmoyadorlariga sanoat korxonalari qurishlari uchun yer uchastkalari ajratish"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "XX asr oxiri – XXI asr boshlarida AQShning OsiyoTinch okean mintaqasida o’z ta’sirini kuchaytirishga qaratilgan siyosati qaysi davlatni bu mintaqadan siqib chiqarishga qaratilgan?",
+"opts": [
+"Koreya",
+"Xitoy",
+"Tayvan",
+"Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Mo’g’ullar hukmronligi davrida Chig’atoy ulusida joriy qilingan “shulen” (a) va “targ’u” (b) soliqlari to’g’risidagi ma’lumotlar mos ravishda berilgan javobni toping.",
+"opts": [
+"a-1, b-4",
+"a-3, b-2",
+"a-2, b-3",
+"a-4, b-2"
+],
+"ans": "D",
+"extra": "1) ziroatchilardan olinadigan yer solig’i;\n2) hunarmand va savdogarlardan undiriladigan soliq;\n3) chorvadorlardan olinadigan soliq;\n4) davlat xazinasi uchun olinadigan oziq-ovqat solig’i."
+},
+{
+"n": 19,
+"q": "Mali davlati tarixini asrlarda ko’rsating.",
+"opts": [
+"1-b, 2-a, 3-e, 4-d, 5-c",
+"1-b, 2-a, 3-e, 4-c, 5-d",
+"1-b, 2-a, 3-c, 4-e, 5-d",
+"1-b, 2-c, 3-a, 4-e, 5-d"
+],
+"ans": "D",
+"extra": "1) VIII asr;\n2) XI asr;\n3) XIII asr;\n4) XIV asr oxiri;\n5) XV asr.\na) o’z taraqqiyotining cho’qqisiga erishdi; b) vujudga keldi; c) islom dinini qabul qildi; d) parchalanib ketdi; e) zaiflashdi."
+},
+{
+"n": 20,
+"q": "Quyidagi qaysi shaxs davrida Eronda Safaviylar sulolasining hukmronligi butunlay barham topdi?",
+"opts": [
+"Mir Mahmud davrida",
+"Og’a Muhammadxon davrida",
+"Nodirshoh davrida",
+"Sulton Husayn davrida"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi shaharlar 1996-yilda «Amir Temur» ordeni bilan mukofotlangan?",
+"opts": [
+"Toshkent va Samarqand",
+"Samarqand va Buxoro",
+"Shahrisabz va Termiz",
+"Samarqand va Shahrisabz"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Sovet hokimiyati Turkiston o‘lkasida yuritgan \"harbiy kommunizm\" siyosatining mohiyati to‘g‘ri keltirilgan javobni belgilang.",
+"opts": [
+"sanoat korxonalari o‘z egalariga qaytarib berildi",
+"dehqonlarga o‘zi yetishtirgan mahsulotni bozorda erkin sotish huquqi berildi",
+"dehqonlar o‘zi yetishtirgan mahsulotning ortiqchasini davlatga topshiradigan bo‘ldi",
+"ishlab chiqaruvchilar va hunarmandlarga erkinliklar berildi"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "G‘arbiy Buxoro (a) va Sharqiy Buxoro (b) hududlarida istiqlolchilik harakatlariga rahbarlik qilgan qo‘rboshilarni aniqlang.",
+"opts": [
+"a-2, b-3, 4",
+"a-1, b-2, 4",
+"a-2, b-3, 6",
+"a-1, b-5, 6"
+],
+"ans": "B",
+"extra": "1) Mulla Abdulqahhor;\n2) Ibrohimbek;\n3) Ochilbek;\n4) Davlatmandbek;\n5) Yormat Maxsum;\n6) Bahrombek."
+},
+{
+"n": 24,
+"q": "Tarixiy-mantiqiy bog‘liqlik (ketma-ketlik, moslik) to‘g‘ri berilgan javobni toping.",
+"opts": [
+"Usmonli davlati - San-Stefano shartnomasining imzolanishi – amir Habibulloxon hukmronligi davri",
+"Hindiston - Dyurand bitimining imzolanishi - amir Abdurahmon hukmronligi davri",
+"Rossiya - Simonoseki sulhining imzolanishi – Nikolay I hukmronligi davri",
+"Eron – birinchi parlament (Majlis)ning chaqirilishi – shoh Muzaffariddin hukmronligi davri"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Quyidagi qaysi ijodkor “Bir farangi bilan buxorolik bir mudarrisning qilgan munozaralari” nomli asar muallifi hisoblanadi?",
+"opts": [
+"A. Avloniy",
+"A. Fitrat",
+"M. Behbudiy",
+"H. H. Niyoziy"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Markaziy Osiyo davlatlari rahbarlarining Orol dengizi muammosiga bag‘ishlangan Qizil O’rda uchrashuvi bo‘lib o‘tgan yilni aniqlang.",
+"opts": [
+"1994-yil",
+"1992-yil",
+"1993-yil",
+"1995-yil"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "VIII asr boshlarida arablarning Movarounnahrga yurishlari davrida Xorazm va Sug‘dda hukmronlik qilayotgan shaxslarni belgilang.",
+"opts": [
+"Hurzod va Divashtich",
+"Chag‘on va G‘urak",
+"Hurzod va G‘urak",
+"Chag‘on va Divashtich"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) tarixi bilan bog‘liq to’g’ri ma’lumot berilgan javobni toping.",
+"opts": [
+"1854-yilda AQSh bilan “Tinchlik va do’stlik” shartnomasi imzolandi.",
+"1637-yildagi yangi shartnomaga ko’ra mamlakat qiroli o’zini manjurlarning vassali deb tan oldi.",
+"1864-yilda chet el davlatlari ko’magida dehqonlar qo’zg’aloni bostirildi.",
+"1884-yilda Fransiya tomonidan bosib olindi."
+],
+"ans": "B",
+"img": "img/dtm/hk-46-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalda voqea va uning natijasi o’zaro nomuvofiq bo’lgan qatorlarni aniqlang. № Voqea Natija 1. IV-VI asrlardagi xalqlarning buyuk ko’chishlari German qabilalari tomonidan G’arbiy Rim imperiyasining bosib olinishi 2. 900-yilda somoniylar va safforiylar o’rtasida qurolli to’qnashuv yuz berishi Xurosonning somoniylar qo’liga o’tishi 3. Shimoliy Amerikada XVIII asr 70-yillaridagi burjua inqilobi Braziliya Qo’shma Shtatlarining vujudga kelishi 4. Vilgelm II ning Germaniya taxtiga kelishi Germaniyada ikkinchi imperiyaning vujudga kelishi 5. “Uotergeyt ishi” Richard Niksonning iste’foga chiqishi",
+"opts": [
+"1, 2",
+"3, 4",
+"2, 4",
+"3, 5"
+],
+"ans": "B",
+"img": "img/dtm/hk-46-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalda ma’lumotlar to’g’ri moslashtirilgan № Davlat Voqea Hukmdor 1. Xiva xonligi Bojxona xizmatining tashkil etilganligi va oltin tangalar zarb etilib muomalaga chiqarilganligi davlat xazinasiga tushumning ko’payishiga xizmat qildi Muhammad Hakimbiy 2. Saljuqiylar davlati Vizantiyaning Nikeya va Nikomediya shaharlarini zabt etib, Qora dengiz sohiliga chiqdi Usmon 3. Fransiya Dekabristlar qo’zg’aloni bostirilgach, mamlakatda reaksiya kuchaydi, norozilik bildirishning, erkin fikr yuritishning har qanday ko’rinishi hukumat tomonidan shafqatsiz ravishda ta’qib etildi Napoleon III 4. G’aznaviyl ar davlati Mamlakat viloyatlari birin-ketin qo’ldan chiqib davlat tanazzulga yuz tutdi Ma’sud G’aznaviy 5. Usmonli davlati “Ittihodi Muhammadi” partiyasining tarafdori bo’lgan harbiylar aksilinqilobiy isyon ko’tardilar Abdulhamid II 6. Rim imperiyasi Senatdan imperator unvoni va Avgust laqabini oldi hamda Rim imperiyasining asoschisiga aylanib, bir qator islohotlar o’tkazdi Oktavian qatorlarni toping.",
+"opts": [
+"2, 4, 6",
+"1, 3, 5",
+"4, 5, 6",
+"1, 2, 3"
+],
+"ans": "C",
+"img": "img/dtm/hk-46-30.jpg"
+}
+]
+}

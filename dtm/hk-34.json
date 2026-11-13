@@ -1,0 +1,345 @@
+{
+"id": "hk-34",
+"items": [
+{
+"n": 1,
+"q": "Fransiyada inqilobning birinchi bosqichi tugagach hokimyat uchun kurash boshlagan qaysi guruh qirol manfaatlarini himoya qilgan?",
+"opts": [
+"jirondachilar",
+"termidorchilar",
+"royalistlar",
+"yakobinchilar"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Boburning otasi Umarshayx Mirzo Abu Said Mirzo hukmronligi davrida dastlab ... viloyatiga hukmdor etib tayinlanadi.",
+"opts": [
+"Kobul",
+"Farg'ona",
+"Toshkent",
+"Sayram"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Ulamochilar va sho'roi islomchilar o'zaro birlashib “ittifoqi muslimin” siyosiy partiyasini tuzgan vaqtni toping.",
+"opts": [
+"1917-y sentyabr",
+"1917-y may",
+"1917-y mart",
+"1917-yil aprel"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "Ahmad Zaki Validiyning “Xotiralar” kitobida kimni “Rossiya hukmronligi oldida bo'yin egishni hohlamagan davlat qahramoni” sifatida ta’riflagan?",
+"opts": [
+"Mulla Abdulqahhor",
+"Ibrohimbek",
+"Junaidxon",
+"Madaminbek"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "G'aznaviylar davlatiga kim qachon asos solgan?",
+"opts": [
+"997-yilda Mahmud G'aznaviy",
+"1032-yilda Ma'sud G'aznaviy",
+"962-963-yilda Alptegin",
+"994-yilda Sobuqtegin"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Chernogoriya Serbiyadan ajralib chiqishi natijasida Yugoslaviya respublikasi nechanchi yilda barham topdi?",
+"opts": [
+"2000 yil",
+"2002 yil",
+"2006 yil",
+"2009 yil"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Nechanchi salib yurishi salibchilar davlatining sharq hukmdorlari tomonidan janub va sharq tomonidan siqib kelishi natijasida uyushtirilgan?",
+"opts": [
+"2",
+"3",
+"4",
+"5"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Veymar Respublikasi yashagan sanalar berilgan javobni toping.",
+"opts": [
+"1918-1933 yillar",
+"1919-1933-yillar",
+"1919-1934-yillar",
+"1919-1935 yillar"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a; II-c; III-b; IV-d",
+"I-b; II-c; III-d; IV-a",
+"I-c; II-a; III-b; IV-d",
+"I-d; II-b; III-c; IV-a"
+],
+"ans": "A",
+"extra": "a) uning davrida vaqf yer-mulkining hajmi tobora ortib borgan;\nb) Shayboniy Ko’chimxonning Sibir xonligi taxtini egallashga yordam bergan;\nc) Ismoil Safaviy qo’shinining hujumlarini bartaraf etib, Movarounnahrni ularning harbiy-siyosiy tazyiqlaridan saqlab qoldi;\nd) pul islohotini amalga oshirgan",
+"img": "img/dtm/hk-34-9.jpg"
+},
+{
+"n": 10,
+"q": "Quyidagi voqelami sanasi bilan mos ravishda joylashtiring.",
+"opts": [
+"1-c, 2-e, 3-a, 4-b, 5-d",
+"1-b, 2-e, 3-a, 4-c, 5-d",
+"1-b, 2-d, 3-a, 4-c, 5-d",
+"1-b, 2-e, 3-d, 4-c, 5-b"
+],
+"ans": "B",
+"extra": "1) Karl II taxtga chiqdi;\n2) Oranyelar sulolasining so'ngi vakili vafot etdi;\n3) Angliya Respublikaga aylandi;\n4) Angliyada sharafli inqilob yuz berdi;\n5) Angliya va Shotlandiya o'rtasidagi uniya qonunlashtirildi;\na) 1649-y; b) 1660-y; c) 1688-y; d) 1707-y; e) 1714-y.",
+"img": "img/dtm/hk-34-10.jpg"
+},
+{
+"n": 11,
+"q": "Turkiston muxtoriyati ag'darilgach Sovet hukumatining rahbari V. I. Lenin Turkiston o'lkasiga kimni O'rta Osiyoning favqulodda komissari qilib jo'natdi?",
+"opts": [
+"F. Kolesov",
+"P. Korovichenko",
+"Ye. Perfilov",
+"P. Kobozev"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "O'zbekiston Respublikasi Oliy Kengashining “O'zbekistonning davlat ramzlarini qabul qilish to'g'risidagi” maxsus qarori qachon qabul qilindi?",
+"opts": [
+"1990 yil 16 dekabr",
+"1990 yil 15 avgust",
+"1991 yil 15 fevral",
+"1991 yil 6 sentabr"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Rossiyada Dumaga saylov to'g'risida qonun chiqarilgan yillarni toping.",
+"opts": [
+"1905, 1906",
+"1905, 1907",
+"1906, 1907",
+"1906, 1908"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Avstriya-Vengriyaga qaysi davlatlar banklari qarz berish, sanoatga mablag'lar yo'naltirish orqali mamlakatni o'z kapitallari bilan to'ldirib tashladilar?",
+"opts": [
+"Fransiya, Belgiya, Germaniya",
+"Germaniya, Angliya, Fransiya",
+"Angliya, Fransiya, Gollandiya",
+"Germaniya, Fransiya, Italiya"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Quyidagi Oliy Kengash qarorlari va ular mos bo'lgan sanalar berilgan javobni toping.",
+"opts": [
+"1-a, 2-d, 3-c, 4-b",
+"1-d, 2-c, 3-a, 4-b",
+"1-c, 2-d, 3-a, 4-b",
+"1-c, 2-d, 3-b, 4-a"
+],
+"ans": "B",
+"extra": "1) O'zbekiston Respublikasi Mudofaa ishlarini tuzish to'grisidagi;\n2) Toshkent shahridagi Lenin nomidagi maydonni Mustaqillik maydoni deb atash to'grisidagi;\n3) O'zbekiston Respublikasidagi ijroiya va boshqaruv hokimyatini takomillashtirish hamda O'zbekiston SSR Konstitutsiyasiga o'zgartirish va qo'shimchalar kiritish tog'risidagi;\n4) O'zbekiston Respublikasi prezidenti saylovi to'grisidagi;\na) 1990 yil 1-noyabr; b) 1991 yil 18 noyabr;\nc) 1991 yil 5 sentabr; d) 1991 yil 6 sentabr."
+},
+{
+"n": 16,
+"q": "Mang'itlar sulolasi davrida Buxoro shahri haqida to'g'ri fikr berilgan javobni toping.",
+"opts": [
+"2, 5",
+"1, 5",
+"3, 4",
+"1, 4"
+],
+"ans": "D",
+"extra": "1) 12 ta darvozasi bo'lib,60 ming aholi yashagan;\n2) 6 ta darvozasi bo'lib, 25-30 ming aholi yashagan;\n3) Shaharning obodonchiligi 1780 yilda boshlangan bo'lib 1809-yillarda bir shahar yo'siniga kiritildi;\n4) shaharda 100 dan ortiq madrasa,300 dan ortiq masjid,38 ta karvonsaroy bor edi;\n5) Karvonsaroylariga har yili 70-80 ming tuya mol kelib turgan."
+},
+{
+"n": 17,
+"q": "XX asr boshlarida AQSh uchun strategik va iqtisodiy jihatdan juda muhum bo'lgan obyektni aniqlang.",
+"opts": [
+"Panama kanali",
+"Suvaysh kanali",
+"Gavayi oroli",
+"Kuba oroli"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Franklar tuzgan davlat dastlab nimaning nomi bilan atalgan?",
+"opts": [
+"qabila nomi bilan",
+"viloyat nomi bilan",
+"sulola nomi bilan",
+"bosh shahri nomi bilan"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "XV-XVIII asrlarda manfaatlari doimo to'qnashgan davlatlar bu...?",
+"opts": [
+"Angliya, Fransiya, Ispaniya",
+"Fransiya, Germaniya, Avstriya",
+"Angliya, Germaniya, Fransiya",
+"Niderlandiya, Fransiya, Ispaniya"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "BRIKS-bu ittifoqiga qaysi davlatlar kiradi?",
+"opts": [
+"1, 3, 5, 8",
+"1, 4, 6, 7",
+"2, 3, 5, 7",
+"2, 5, 7, 8"
+],
+"ans": "C",
+"extra": "1) Britaniya;\n2) Braziliya;\n3) Rossiya;\n4) Rodeziya;\n5) Hindiston;\n6) Irlandiya;\n7) Xitoy;\n8) Chili."
+},
+{
+"n": 21,
+"q": "Quyidagi voqealardan qaysilari Franchesko Petrarka vafot etgan va Xitoy Vyetnamni egallagan yillar orasida sodir bo'lgan?",
+"opts": [
+"1, 2, 5, 7",
+"2, 3, 6, 7",
+"1, 4, 5, 6",
+"2, 4, 5, 7"
+],
+"ans": "B",
+"extra": "1) Min sulolasiga asos solindi;\n2) Voje daryosi bo'yida jang sodir bo'ldi;\n3) Anqara jangi sodir bo'ldi;\n4) Jonibek hukmdorligi tugadi;\n5) Nemis muhandisi Iogann Gutenberg kitob bosish dastgohini ixtiro qildi;\n6) Dimitriy Ivanovich Donskoy nomini oldi;\n7) Qunduzcha jangi sodir bo'ldi."
+},
+{
+"n": 22,
+"q": "Somoniylar davrida nechanchi asrdan boshlab yirik davlat mansabdoriariga iqto' yer turi berila boshladi?",
+"opts": [
+"VIII asrdan",
+"IX asrdan",
+"X asrdan",
+"XI asrdan"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyidagi atamalardan qaysi biri xato berilgan?",
+"opts": [
+"dehqon-ilk o'rta asrlarda katta yer egasi",
+"kashovarz-qishloq jamoasining erkin a’zosi",
+"chokar-dehqonga qaram bo'lib qolgan yersiz tabaqa",
+"yabg'u-turk xoqonligida qabila ittifoqi yoki elning hokimi"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "1549-yil Zemstvo soborida qabul qilingan Sudebnigiga ko'ra…",
+"opts": [
+"1, 2, 3, 4, 5, 6",
+"1, 3, 5, 7",
+"1, 2, 4, 6",
+"2, 3, 5, 6, 7"
+],
+"ans": "C",
+"extra": "1) dvoryanlarni nojo'ya qilmaishlariga ko'ra boyarlar sudiga borishi taqiqlandi;\n2) dvoryanlardan ming nafariga Moskva uyezdidan yer ajratib berildi;\n3) Davlat lavozimiga faqat zodagon naslidan bo'lgan klshilar egallashi belgilab qo'yildi;\n4) Boyarlar uchun aholidan yig'iladigan soliqlar bekor qilindi;\n5) Joylarda mahalliy o‘z o'zini boshqarish organlarizemstvolar bekor qilindi;\n6) dehqonlarning bir yer egasidan boshqasiga o'tishi yiliga bir kun-26 noyabr bilan cheklab qo'yildi;\n7) opruchina joriy qilindi."
+},
+{
+"n": 25,
+"q": "Afrika Milliy kongresi partiyasi tashkil topgan sanani toping.",
+"opts": [
+"1920",
+"1922",
+"1925",
+"1930"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Mezolit davrida nimaning kashf qilinishi neolit davrida toshga ishlov berish texnikasini rivojlantirdi?",
+"opts": [
+"chopper",
+"mikrolit",
+"metal buyumlarni",
+"kulolchilik charxi"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Sovet-fin urushi sanasi berilgan javobni toping.",
+"opts": [
+"1937-1938 yillar",
+"1938-1939-yillar",
+"1939-1940-yillar",
+"1940-1941-yillar"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Angliyaning Virjiniyadagi ilk manzilgohi tashkil qilingan yilni aniqlang?",
+"opts": [
+"1599-yil",
+"1600-yil",
+"1607-yil",
+"1700-yil"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "1989-yilda Ruminiyada qaysi davlat boshligi xotini bilan birgalikda qatl qilindi?",
+"opts": [
+"Ya. Kadar",
+"N. Chauchesku",
+"T. Jivkov",
+"I. B.Tito"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Xaritada nechanchi raqam ostida berilgan hudud (davlat) ning mahalliy aholisi va mamluk jangchilari Napoleon Bonapart boshchiligidagi fransuz qo‘shiniga qarshi kurashda qatnashgan? (XVIII—XIX asrlar chegarasi)",
+"opts": [
+"2",
+"1",
+"3",
+"4"
+],
+"ans": "A",
+"img": "img/dtm/hk-34-30.jpg"
+}
+]
+}

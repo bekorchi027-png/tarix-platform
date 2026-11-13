@@ -1,0 +1,351 @@
+{
+"id": "hk-36",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi yunon faylasufllaridan qaysi biri fuqarolarning axloqiy-ma’naviy tarbiyasiga katta ahamiyat bergan?",
+"opts": [
+"Aristotel",
+"Diogen",
+"Platon",
+"Suqrot"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Milodiy IV asrning birinchi yarmida yuz bergan voqealarni aniqlang.",
+"opts": [
+"1, 3, 4",
+"1, 2, 4",
+"2, 3, 5",
+"1, 2, 5"
+],
+"ans": "D",
+"extra": "1) Rim imperatori  Konstantin xristianlik boshqa dinlarga teng dindir degan farmon chiqardi;\n2) Koguryo har jihatdan rivojlangan qudratli davlatga aylandi;\n3) Hindistonda yer egaligi munosabatlari vujudga keldi;\n4) Vizantiya imperiyasi vujudga keldi;\n5) Xorazmda kumush tangalarning zarb etila boshlandi"
+},
+{
+"n": 3,
+"q": "Hozirgi kunda Pokiston eksport qiladigan asosiy mahsulotlar berilgan javobni toping.",
+"opts": [
+"1, 3, 4, 5, 7",
+"1, 3, 5, 6, 7",
+"2, 3, 4, 5, 7",
+"2, 4, 5, 6, 7"
+],
+"ans": "B",
+"extra": "1) to‘qimachilik mahsulotlari;\n2) qishloq xo’jalik mahsulotlari;\n3) teri mahsulotlari;\n4) oziq-ovqat mahsulotlari;\n5) sport buyumlari;\n6) kimyoviy moddalar;\n7) gilamlar;"
+},
+{
+"n": 4,
+"q": "To‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"2018-yilda O‘zbekiston Respublikasi Prezidentining “Millatlararo munosabatlar va xorijiy mamlakatlar bilan do‘stlik aloqalarini yanada takomillashtirish chora-tadbirlari to‘g‘risida”gi farmoni qabul qilindi",
+"2015-yilda O‘zbekiston Respublikasi Prezidentining “Mahalla institutini yanada takomillashtirish chora- tadbirlari to‘g‘risida”gi farmoni qabul qilindi",
+"2016-yilda O‘zbekiston Respublikasi Prezidentining “Jismoniy va yuridik shaxslarning murojaatlari bilan ishlash tizimini tubdan takomillashtirishga doir chora tadbirlar to‘g‘risida”gi farmoni qabul qilindi",
+"2002-yilda O‘zbekiston Respublikasi Prezidentining “Iqtisodiyot real sektori korxonalarining moliyaviy barqarorligini yanada oshirish choratadbirlari to‘g‘risida”gi farmoni qabul qilindi"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Quyidagi voqealardan qaysilari XVI-XVIII asrlar tarixi bilan mos kelmaydi?",
+"opts": [
+"1, 3",
+"2, 4",
+"3, 5",
+"1, 4"
+],
+"ans": "B",
+"extra": "1) Yaponiya birlashib, yagona markazlashgan davlatga aylandi;\n2) Germaniya nemis millatining katta qismini birlashtirgan zamonaviy davlatga aylandi ;\n3) Shimoliy Afrika mamalakatlari Usmoniylar imperiyasi tarkibiga qo’shib olindi;\n4) Afrika qit’asining Yevropa davlatlari o’rtasida mustamlaka sifatida taqsimlanishi yakunlandi;\n5) Rossiya Yevropaning eng katta va harbiy jihatdan qudratli davlatiga aylandi;"
+},
+{
+"n": 6,
+"q": "Birinchi jahon urushidan keyin quyidagi qaysi davlat Yevropadan olimlar va ilmiy kashfiyotlarni yig’ib oldi, yangi ixtirolarni ishlab chiqarishga joriy qildi, yangi texnika va texnologiyalarning ajoyib muvaffaqqiyatini namoyish qildi?",
+"opts": [
+"Germaniya",
+"Buyuk Britaniya",
+"AQSh",
+"Yaponiya"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Xiva xoni Muhammad Rahimxon I tomonidan soliq tizimida o‘tkazilgan islohotga ko‘ra soliqlarni muntazam undirilishi ta’minlandi. U bunga qanday erishganligi to‘g‘ri berilgan javobni toping.",
+"opts": [
+"yerdan olinadigan soliqning mahalliy hokimlar tomonidan yig‘ilishiga chek qo‘yish, soliqlar xon tomonidan tayinlangan davlat amaldorlari tomonidan yig‘ilishi tartibini o‘rnatish orqali",
+"xon va qo‘shin xarajatlari uchun jul deb ataluvchi yangi soliqni joriy etishi va bir necha yillik soliqlarni avvaldan undirish orqali",
+"yerdan olinadigan soliqning xon tomonidan tayinlangan davlat amaldorlari tomonidan yig‘ilish tartibiga chek qo‘yish, soliqlarni mahalliy hokimlar tomonidan yig‘ish tartibini o‘rnatish orqali",
+"hunarmand va savdogarlarga tarxon yorlig‘i berilib, ulardan qo‘shimcha pul undirilishini taqiqladi va soliqlarni oltin tanga hisobiga to‘lash tartibini joriy etish orqali"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Qaysi bosh vazir davrida Buyuk Britaniya iqtisodiyotida chuqur tizim o‘zgarishlari yuz berdi, davlat sektori qisqartirildi, uning samaradorligi oshirildi?",
+"opts": [
+"Margaret Tetcher",
+"Entoni Bler",
+"Gordon Braun",
+"Devid Kemeron"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Qaysi Misr prezidenti davrida «Musulmon birodarlar» terrorchi tashkilot deb e’lon qilindi, uning faollari qatag‘onga uchragan?",
+"opts": [
+"Husni Muborak",
+"Abdul Fattoh as-Sisi",
+"Jamol Abdul Nosir",
+"Muhammad Mursi"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Somoniylar mamlakatda dehqonchilik xo‘jaligini rivojlantirishga katta e’tibor berganligi sababini toping.",
+"opts": [
+"mamlakat hududida xususiy shaxslarga tegishli yerlarni ko‘paytirish maqsadida",
+"xiroj solig‘idan tushadigan daromad davlat harajatlarining katta qismini qoplagani uchun",
+"“dehqon” degan tushuncha o‘zining “qishloq hokimi”ni anglatuvchi asl ma’nosini yo‘qotgani uchun",
+"Movaraunnahr va Xurosonni Arab xalifaligi ta’siridan ozod qilish uchun"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "XIX asrda O‘rta Osiyo xonliklarida harbiy islohot o‘tkazib, muntazam qo‘shin tuzgan hukmdorlarni toping.",
+"opts": [
+"1, 4, 5",
+"1, 3, 5",
+"2, 4, 6",
+"2, 3, 6"
+],
+"ans": "B",
+"extra": "1) Buxoro amiri Nasrullo;\n2) Qo‘qon xoni Muhammad Alixon;\n3) Qo‘qon xoni Olimxon;\n4) Xiva xoni Eltuzarxon;\n5) Xiva xoni Muhammad Rahimxon I;\n6) Buxoro amiri Shohmurod;"
+},
+{
+"n": 12,
+"q": "Quyidagi qaysi asarda inson va uning ijtimoiy mohiyati, hayotdagi o’rni va vazifasi har tomonlama tahlil qilinadi?",
+"opts": [
+"„Husn-u Dil“",
+"„Sabot ul-ojizin“",
+"„Qutadg’u bilig’’",
+"„Zardusht tavallosi“"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagi qaysi qo'zg'olonning bostirilishida Rossiya imperiyasi mustamlakachilari o'z manfaatlari yo'lida xalqning urf-odatlari, diniy e'tiqodi, milliy qadriyatlarini toptashdan ham qaytmasligini ko'rsatdilar?",
+"opts": [
+"Yetimxon qo’zg’oloni",
+"Vabo isyoni",
+"Dukchi eshon qo’zg’oloni",
+"Darvishxon qo’zg’oloni"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Quyida berilganlardan qaysilari Abdulla Avloniy faoliyati  bilan bog‘liq emas ?",
+"opts": [
+"1, 3, 5",
+"1, 5, 6",
+"2, 4, 6",
+"3, 4, 6"
+],
+"ans": "B",
+"extra": "1) “Sho‘roi Islomiya” tashkiloti faoliyatida muhim rol o’ynagan;\n2) Toshkent shahrida «Turon» nomidagi teatr truppasini tashkil etdi;\n3) Turkiston o‘lka Musulmonlar byurosi faoliyatida ishtirok etgan;\n4) Turkiston o’lkasida ta’lim, matbuot, teatr sohalarining rivojlanishiga katta hissa qo‘shgan;\n5) Turkiston o’lka musulmonlar kengashiga kotib bo’lgan;\n6) Turkiston Kommunistik partiyasi Markaziy Kommiteti tarkibiga kiritilgan;"
+},
+{
+"n": 15,
+"q": "Yaponiyada hukmronlik qilgan Yosimune Tokugava (a) va Mutsuxito (b) boshqaruvi bilan bog‘liq ma’lumotlar to‘g‘ri berilgan javobni belgilang.",
+"opts": [
+"a-3, 4, 5, 6; b-1, 2, 7",
+"a-1, 3, 4, 6; b-2, 5, 7",
+"a-2, 4, 6, 7; b-1, 3, 5",
+"a-1, 2, 5, 7; b-3, 4, 6"
+],
+"ans": "C",
+"extra": "1) Yerni sotish va sotib olishga, uni xususiy mulkka aylantirishga ruxsat bergan;\n2) qo‘riq yerlarni o‘zlashtirish hisobiga dehqonchilik qiluvchilarni rag‘batlantirish siyosatini yuritgan;\n3) Ma’muriy sohada o‘tkazgan islohoti natijasida mahalliy knyazlar hokimiyati tugatilgan;\n4) “100 moddali Farmon”deb nomlangan qonunlar to‘plamini joriy etgan;\n5) Mamlakatda yagona pul birligi –iyena joriy etilgan.\n6) sug‘orish inshootlari tizimi takomillashtirilgan;\n7) yerni sotish, sotib olish yoki garovga qo‘yishni taqiqlovchi qonun chiqargan."
+},
+{
+"n": 16,
+"q": "XIX asrning ikkinchi yarmida yuz bergan voqealarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 5",
+"1, 4, 5",
+"2, 3, 5"
+],
+"ans": "A",
+"extra": "1) Turkiston o’lkasining  bir nechta shaharlarida an’anaviy teatr uyushmalari vujudga keldi;\n2) Turkiston o’lkasi tasviriy san’ati an’anaviy devoriy naqshlarida ilgari ishlatilmagan manzaralar-suzib borayotgan kema, temiryo‘llar va hayvonlar tasvirlana boshlandi;\n3) Farg’ona vodiysi milliy me’morchiligiga Yevropa me’moriy uslubidagi binolarni qurish an’analari kirib keldi;\n4) Xiva xonligida taraqqiyparvarlik harakati shakllandi;\n5) Turkistonda ma’rifatparvarlik harakati vujudga keldi;",
+"img": "img/dtm/hk-36-16.jpg"
+},
+{
+"n": 17,
+"q": "Quyidagi qadimgi davrda hukmronlik qilgan davlatlarni tashkil topgan hududlari bilan moslang.",
+"opts": [
+"1-b, 2-a, 3-c, 4-d",
+"1-a, 2-b, 3-c, 4-e",
+"1-b, 2-a, 3-d, 4-c",
+"1-a, 2-b, 3-d, 4-e"
+],
+"ans": "B",
+"extra": "1) Isroil podsholigi;    a) Falastin hududida\n2) Mitanni davlati;     b) Suriya hududida;\n3) Finikiya davlati;    c) Livan va Suriyaning bir qismi;\n4) Urartu davlati       d) hozirgi Iroq hududida;\ne) Kavkazortida"
+},
+{
+"n": 18,
+"q": "XIV asrning oxirlarida qaysi davlatning zaiflashuvi, islom dinini qabul qilgan songailar hukmdori Almiga poytaxti Gao bo‘lgan mustaqil davlat tuzish imkonini bergan?",
+"opts": [
+"Marokashning",
+"Malining",
+"Aksumning",
+"Gananing"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Quyidagi qaysi asar Chingizxonning Movarounnahr- ga istilosi, Dashti Qipchoqda Abulxayrxon davlatining tashkil etilishi, Shayboniyxonning harbiy yurishlari, uning o‘limidan so‘ng Movarounnahrda vujudga kelgan ahvol, Abdullaxon II ning mamlakatni siyosiy jihatdan birlashtirish yo‘lida olib borgan kurashi tarixiga bag‘ishlangan?",
+"opts": [
+"Hofiz Tanish Buxoriyning \"Abdullanoma\"asari",
+"Kamoliddin Binoiyning \"Shayboniynoma\" asari",
+"Muhammad Haydarning \"Tarixi Rashidiy\" asari",
+"Muhammad Amin Buxoriyning \"Ubaydullanoma\" asari"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Qozog’istonda milliy valuta-tenge (a), Ukrainada milliy valuta-grivna (b), YIda yagona valuta – yevro (c) joriy qilingan yillarni toping.",
+"opts": [
+"a-1993-yil, b-1996-yil, c-2002-yil",
+"a-1994-yil, b-1996-yil, c-2002-yil",
+"a-1993-yil, b-1994-yil, c-2002-yil",
+"a-1993-yil, b-1996-yil, c-2004-yil"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Quyidagilardan 1885-yilda Sudanda tashkil etilgan Mahdiylar davlatini kuchsizlantirgan omilni toping.",
+"opts": [
+"mamlakatda ichki nizoning kuchayishi",
+"Kassa hokimiyatining ag‘darilishi",
+"Misrning Buyuk Britaniya mustamlakasi deb e’lon qilinishi",
+"davlat poytaxtini Omdurman shahriga ko‘chirilishi"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Xiva xonligidagi qaysi lavozim egasi xonlikda to‘planadigan soliqlarning davlat xazinasiga tushishini ta’minlagan, hamda moliya ishlari va qo‘shinning holati uchun javobgar bo‘lgan? (XIX asr I yarmi)",
+"opts": [
+"devonbegi",
+"yasovulboshi",
+"otaliq",
+"qo‘shbegi"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagi olimlarni amalga oshirgan kashfiyotlari bilan mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-c, 2-b, 3-d, 4-a",
+"1-b, 2-a, 3-d, 4-c",
+"1-d, 2-b, 3-a, 4-c",
+"1-d, 2-b, 3-c, 4-a"
+],
+"ans": "D",
+"extra": "1) R.Kirxgof;\n2) L.Bakeland;\n3) I.Time;\n4) Tomson\na) elektr bilan payvandlash; b) plastmassa olish yo‘li;\nc) metall kesish jarayonini ilmiy jihatdan tekshirish;\nd) metallurgiyada avtomatlashtirish."
+},
+{
+"n": 24,
+"q": "Ishlab chiqarish va savdoni o ‘zlaricha emas, markaziy boshqaruv qarori asosida olib boradigan korxonalar birlashmasi nima deb ataladi?",
+"opts": [
+"Kartel",
+"Konsern",
+"Sindikat",
+"Trest"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping.",
+"opts": [
+"Nuriddin Muhitdinov -1955-1957-yillar – O’zbekistonda kadrlarni mahalliylashtirish jarayoni ommaviy ravishda amalga oshirildi",
+"Sobir Kamolov - 1957-1959 – yillar – O’zbekistonda islom diniga erkinliklar berildi",
+"Amin Niyozov - 1950-1955-yillar – O’zbekistonda o’zbek ziyolilarini oqlanishida tashabbuskorlik ko’rsatdi",
+"Sharof Rashidov - 1959-1983-yillar- O’zbekistonda “ paxta ishi” deb atalgan asossiz siyosiy qatag’onlar boshlandi"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Quyidagi grafikda qaysi raqam ostida shaharlar va ularning hunarmandchilik sohalariga ixtisoslashuvi birbiriga muvofiq keladi?",
+"opts": [
+"1, 3, 4, 5, 6, 7",
+"1, 2, 4, 5, 6, 7",
+"1, 2, 3, 5, 6, 7",
+"1, 2, 3, 4, 5, 6"
+],
+"ans": "D",
+"img": "img/dtm/hk-36-26.jpg"
+},
+{
+"n": 27,
+"q": "Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija 1. Malida hunarmandchilik va savdo-sotiqning rivojlanishi XIII asrda o’z taraqqiyotining cho’qqisiga erishishi 2. Rus yerlariga mo’g’ullar istilosining amalga oshirilishi Rusda iqtisodiy rivojlanishning butunlay to’xtab qolishi 3. Arab qabilalarida suv manbalari va yaylovlar uchun kurash kuchayishi Urug‘-qabila zodagonlarining shakllanishi 4. Angliyada normandlar istilosi Dehqonlarga zulm o’tkazishnining cheklanishi 5. Hindistonning o‘zaro urushlarda kuchsizlanib qolishi Hindistonning mo‘g‘ullar tomonidan bosib olinishi",
+"opts": [
+"1, 5",
+"2, 3",
+"1, 3",
+"4, 5"
+],
+"ans": "C",
+"img": "img/dtm/hk-36-27.jpg"
+},
+{
+"n": 28,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a,b; II-c; III-d,e",
+"I-b; II-a,c; III-d,e",
+"I-b,f; II-c; III-d, e",
+"I-a,b; II-c,d; III-e,f Ispaniya Italiya II III I"
+],
+"ans": "A",
+"extra": "a) Katta fashistik kengash tuzildi;\nb) Germaniya va Yaponiya bilan ittifoqqa birlashib, Ikkinchi jahon urushining sababchilaridan biriga aylandi;\nc) Ikkinchi jahon urushi boshlanishi bilan gitlerchilar diplomatiyasining harakatlariga qaramasdan neytralitet haqida dekret imzolandi;\nd) o’ng partiyalar o’zlarini fashistik partiyalarini tuzdilar;\ne) iqtisodga davlatni aralashuvi kuchaytirish siyosati amalga oshirildi;\nf) mamlakatda fashistlar faollashgan bir paytda hukumat aralashmaslik siyosatini olib bordi ;",
+"img": "img/dtm/hk-36-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalda bir yilda sodir bo‘lgan tarixiy voqealar berilgan qatorni toping. № Tarixiy voqealar 1. Rossiya o‘ziga qarashli bo‘lgan Alyaskani AQShga sotdi. Buyuk Britaniyaning aralashuvi bilan Efiopiyada Kassa hokimiyati ag‘darildi. 2. Fransiyada iyul monarxiyasi quladi. Fransiyada ikkinchi imperiya o‘rnatildi. 3. Rossiyada “Krepostnoy huquqni bekor qilish to‘g‘risida”gi qonun imzolandi. Rossiyada birinchi bor erkin aholi turli toifalari vakillarining yig‘ilishi-Zemstvo sobori chaqirildi. 4. O‘zbekiston Respublikasi YuNESKOga a’zolikka qabul qilindi. Mamlakatimizda Berdaq tavalludining 170 yilligi keng nishonlandi.",
+"opts": [
+"1",
+"2",
+"3",
+"4"
+],
+"ans": "A",
+"img": "img/dtm/hk-36-29.jpg"
+},
+{
+"n": 30,
+"q": "1847-yilda tashkil topgan Liberiya davlati xaritada qaysi raqam ostida berilgan davlatlar o‘rtasidagi raqobatlardan ustalik bilan foydalanib o‘z mustaqilligini saqlab qolgan?",
+"opts": [
+"2, 3",
+"1, 2",
+"3, 4",
+"1, 4"
+],
+"ans": "D",
+"img": "img/dtm/hk-36-30.jpg"
+}
+]
+}

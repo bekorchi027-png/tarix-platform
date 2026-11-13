@@ -1,0 +1,351 @@
+{
+"id": "hk-43",
+"items": [
+{
+"n": 1,
+"q": "1868-yil Turkiston general-gubernatori fon Kaufman bilan Amir Muzaffar o‘rtasida imzolangan shartnomaga ko‘ra, quyidagi qaysi hududlar Rossiya imperiyasi ixtiyoriga o‘tgan?",
+"opts": [
+"2, 4",
+"1, 3",
+"2, 3",
+"1, 4"
+],
+"ans": "C",
+"extra": "1) Shahrisabz;\n2) Kattaqo’rg’on;\n3) Panjikent;\n4) Kitob"
+},
+{
+"n": 2,
+"q": "980-1015-yillarda hukmronlik qilgan knyaz Vladimir kimlarga qarshi harbiy yurish uyushtiradi ?",
+"opts": [
+"bulg’orlarga",
+"drevlyan qabilalariga",
+"bijanak qabilalariga",
+"qipchoqlarga"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Qadimgi Rim imperiyasida qaysi imperator davrida inqiroz boshlangan?",
+"opts": [
+"Feodosiy",
+"Oktavian Avgust",
+"Kaligula",
+"Trayan"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "1895-yilda imzolangan Simonoseki sulhida quyidagilardan qaysilari o‘rin olgan?",
+"opts": [
+"1, 3, 4",
+"2, 5, 6",
+"1, 4, 6",
+"2, 3, 5"
+],
+"ans": "D",
+"extra": "1) Yaponiyaga Xitoyda o’z qo’shinlarini saqlashga ruxsat berildi;\n2) Xitoy Koreyaning mustaqilligini tan olishi belgilandi;\n3) Xitoy Yaponiyaga katta miqdorda tovon to‘lashga majbur etildi;\n4) Xitoyga qurol-aslaha kiritish taqiqlandi;\n5) Tayvan oroli Yaponiyaga berildi;\n6) Xitoyda monarxiyani bekor qilish belgilandi"
+},
+{
+"n": 5,
+"q": "XIX asr o‘rtalarida Xiva xonligida shahar aholisi − hunarmand va savdogarlardan qanday soliqlar olingan?",
+"opts": [
+"1, 3, 4",
+"2, 4, 5",
+"2, 3, 5",
+"1, 2, 4"
+],
+"ans": "A",
+"extra": "1) savdo puli;\n2) targ‘u;\n3) do‘kon puli;\n4) tarozi puli;\n5) afanak puli."
+},
+{
+"n": 6,
+"q": "1980 – 1990-yillar boshlarida Germaniya bilan yaqinlashish va G‘arbiy Yevropa mamlakatlarining birlashishini asosiy vazifa deb e’lon qilgan Fransiya Prezidentini aniqlang.",
+"opts": [
+"Sharl de Goll",
+"Fransua Mitteran",
+"Jak Shirak",
+"Fransua Olland"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "XX asr boshida quyidagi qaysi davlatda Uerta diktaturasi o’rnatilgan edi?",
+"opts": [
+"Kubada",
+"Braziliyada",
+"Argentinada",
+"Meksikada"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Salavkiylar davlatining yirik shahar va madaniyat markazlari to‘g‘ri berilgan javobni belgilang.",
+"opts": [
+"Nautaka, Marg‘iyona Antioxiysi",
+"Maroqanda, Baqtra",
+"Afrosiyob, Alaksandriya Esxata",
+"Uzunqir, Qiziltepa"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Quyidagilardan Qadimgi Hindiston tarixiga oid bo‘lganlarini belgilang.",
+"opts": [
+"1, 2, 6",
+"1, 3, 5",
+"2, 4, 5",
+"2, 3, 6"
+],
+"ans": "C",
+"extra": "1) Lagash;\n2) Sanskrit;\n3) \"Osmon ostidagi podsholik\";\n4) qo‘shinning to‘rt turi;\n5) kasta;\n6) \"Qora tuproq\""
+},
+{
+"n": 10,
+"q": "Sharl de Goll faoliyati bilan bog‘liq to‘g‘ri ma’lumotlarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"3, 5, 6",
+"2, 4, 6",
+"1, 2, 4"
+],
+"ans": "A",
+"extra": "1) Milliy Majlisni (parlamentni) tarqatib yubordi;\n2) 1949-yilda mamlakat bosh vaziri lavozimini egalladi;\n3) Beshinchi respublika konstitutsiyasi ishlab chiqildi va ma’qullandi;\n4) Lyuksemburgning Shengen shahrida Shengen kelishuvini imzoladi;\n5) Fransiyaning Afrikadagi deyarli barcha mustamlakalariga mustaqillik berdi;\n6) Angliya bilan hamkorlikda La-Mansh bo‘g‘ozi ostidan o‘tgan temir yo‘l qurildi"
+},
+{
+"n": 11,
+"q": "Mo’g’ullar hukmronligi davrida yer egaligining qanday turlari mavjud bo‘lgan?",
+"opts": [
+"2, 4, 5",
+"1, 3, 5",
+"1, 4, 5",
+"2, 3, 4"
+],
+"ans": "A",
+"extra": "1) mulki sultoniy;\n2) mulki inju;\n3) mulki xos;\n4) suyurg‘ol;\n5) mulki devon"
+},
+{
+"n": 12,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. XIX asrda Qo’qon xonligi",
+"opts": [
+"I-a, c; II-b, f; III-d",
+"I-a, f; II-c, d; III-b",
+"I-c, d; II-e, f; III-b",
+"I-a, d; II-c, f; III-e Umarxon Olimxon II III I"
+],
+"ans": "B",
+"extra": "a) O‘ratepa va Xo‘jand uchun Buxoro amirligi bilan ketma-ket urush harakatlari olib bordi;\nb) mamlakatda pul islohoti o‘tkazdi;\nc) uning davrida xon hokimiyati bilan mahalliy zodagonlar o‘rtasida ittifoq mustahkamlandi;\nd) o‘ziga “Amir al-muslimin” unvonini qabul qildi;\ne) nisbatan zamonaviy to'pchi qo'shin tuzdi;\nf) Rossiya bilan savdo aloqalarini yo‘lga qo’ydi",
+"img": "img/dtm/hk-43-12.jpg"
+},
+{
+"n": 13,
+"q": "Rus mumtoz musiqasiga asos solgan mashhur namoyandani aniqlang.",
+"opts": [
+"P.I.Chaykovskiy",
+"A.M.Skryabin",
+"S.V.Raxmaninov",
+"M.I.Glinka"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "1924-yilda O‘rta Osiyoda milliy-hududiy chegaralanish jarayonida o’zbeklar byurosiga a ’zo bo‘lib kirgan shaxslarni aniqlang.",
+"opts": [
+"2, 4",
+"1, 3",
+"1, 4",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) Muxtorjon Saidjonov;\n2) Abdulla Rahimboyev;\n3) Davlat  Rizayev;\n4) Qori yo’ldosh Po’latov"
+},
+{
+"n": 15,
+"q": "\"Anneksiya\" atamasining izohi to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"jamiyatning iqtisodiy, siyosiy va ijtimoiy hayotini harbiy maqsadlarga bo‘ysundirish",
+"bir yoki bir necha davlatning boshqa davlat ichki ishlariga zo‘ravonlik bilan aralashuvi, uning suverenitetini buzishi",
+"bir davlatning o‘zga mamlakatlar hududi va bozorini egallab olish maqsadida o‘z siyosiy va iqtisodiy ta’sirini yoyishga qaratilgan siyosati",
+"bir davlat hududining yoki bir qismining boshqa davlatga zo‘rlik bilan qo‘shib olinishi"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "XIX asrning oxirida Xitoyning o’ndan ortiq bandargohiga erkin kirish, qator viloyatlarda imtiyozli savdo qilish huquqini qo’lga kiritgan davlatni belgilang.",
+"opts": [
+"Fransiya",
+"Germaniya",
+"Buyuk Britaniya",
+"Rossiya"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Qo‘qon xonligining Buxoro amirligi oldida mustaqil davlat maqomini tan olgan Usmonlilar sultonini toping.",
+"opts": [
+"Abdulhamid II",
+"Mahmud III",
+"Mahmud II",
+"Mustafo III"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "Xitoyda qaysi qadimgi davlat oliy hukmdorlari “Zafaryor” deb atalgan?",
+"opts": [
+"Tan",
+"Chjou",
+"Sin",
+"Xan"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Koreyada hokimiyatni vaqtincha tevongun, ya’ni hokim hisoblangan Li Xa In boshqargan davrda amalga oshirilgan ishlar to‘g‘ri berilgan javobni aniqlang. (XIX asr)",
+"opts": [
+"1, 3, 4",
+"1, 4, 5",
+"2, 3, 5",
+"2, 4, 5"
+],
+"ans": "A",
+"extra": "1) oddiy kishilar to‘laydigan harbiy soliq barcha qatlamlar uchun majburiy uy boshi solig‘i bilan almashtirildi;\n2) dvoryan bo’lmagan qatlamlarni davlat xizmatiga kirishlarini ta’qiqladi;\n3) aslzodalar va oddiy xalqni tenglashtirish maqsadida xalq uchun qora rangli oyoq kiyim kiyishni ta’qiqladi;\n4) XVI asrda yaponlar bosqini paytida yonib ketgan Kyonbokkun saroyi tiklandi;\n5) “Qonunlarning buyuk to‘plami” deb nomlangan hujjat qabul qilindi."
+},
+{
+"n": 20,
+"q": "Quyidagilardan qaysi biri 2010-yilda tashkil etilgan?",
+"opts": [
+"“O‘zbeknavo” estrada birlashmasi",
+"O‘zbekiston Mudofaa vazirligi huzurida “Turon” harbiy teatr-studiyasi",
+"“O‘zbekmuzey” Respublika jamg ‘armasi",
+"O‘zbekiston Yozuvchilar uyushmasi huzurida “Ijod\" fondi"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Tarixiy-mantiqiy bog‘liqlik (ketma-ketlik, moslik) to‘g‘ri berilgan javobni toping. (XIX asrning ikkinchi yarmi)",
+"opts": [
+"Meksika – Dias diktaturasining o’rnatilishi − chet el kapitalini cheklanishi",
+"Kuba – ispan mustamlakachilariga qarshi ozodlik kurashi − qulchilikning bekor qilinishi",
+"Braziliya – yangi konstitutsiyaning qabul qilinishi – konstitutsiyaviy monarxiyaning o‘rnatilishi",
+"Argentina – AQShdan asoratli qarz olinishi – mamlakatning chet el monopoliyalarining yarimmustamlakasiga aylanishi"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "Italiyaning birlashishiga beqiyos katta xizmat ko‘rsatgan buyuk shaxslarni aniqlang. (XIX asr ikkinchi yarmi)",
+"opts": [
+"2, 4",
+"1, 4",
+"2, 3",
+"1, 3"
+],
+"ans": "D",
+"extra": "1) K.Kavur;\n2) J.Jolitti;\n3) J.Madzini;\n4) V.Emmanuil II"
+},
+{
+"n": 23,
+"q": "Quyidagilardan qaysi biri o'rta asrlarning birinchi davriga to‘g‘ri keladi?",
+"opts": [
+"Salohiddin Ayubiyning Quddusni salibchilardan tortib olishi",
+"G‘arbiy Yevropada dastlabki universitetlarning tashkil topishi",
+"Asteklarning Tenochtitlan shahriga asos solinishi",
+"Yaroslav Donishmand hukmronligining boshlanishi"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Quyidagi grafikda qaysi raqam ostida asar va uning muallifi bir-biriga muvofiq keladi?",
+"opts": [
+"3, 4, 6",
+"1, 5, 7",
+"3, 6, 7",
+"2, 4, 5"
+],
+"ans": "C",
+"img": "img/dtm/hk-43-24.jpg"
+},
+{
+"n": 25,
+"q": "Meksika tarixiga “burjua inqilobi” nomi bilan kirgan dehqonlar qozg‘oloni yengilgan bo‘lsada, izsiz ketmadi. Uning natijalari to‘g‘ri ko‘rsatilgan javobni toping.",
+"opts": [
+"2, 4",
+"1, 4",
+"3, 4",
+"1, 2"
+],
+"ans": "C",
+"extra": "1) Madero tomonidan qullikni bekor qilish to‘g‘risidagi qonun imzolandi;\n2) hindularga fermerlik bilan shug'ullanishga imkon beruvchi qonun qabul qilindi;\n3) latifundistlar tomonidan noqonuniy bosib olingan yerlar dehqonlarga qaytarildi;\n4) demokratik ruhdagi konstitutsiya qabul qilindi"
+},
+{
+"n": 26,
+"q": "Amir Temur davlatining tarkibiy tuzilishi harbiysiyosiy tartiblarga asoslangan bo'lsa-da, …",
+"opts": [
+"turkiy qabilalar boshqaruvidagi ittifoq edi",
+"jamiyat rivoji, barcha ijtimoiy tabaqalarining manfaatlarini ta'minlash nazarda tutilgan edi",
+"an'anaviy boshqaruv tizimini inkor etardi",
+"barlos zodagonlarining manfaati yuqori turardi"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "O‘rta asrlarda Koryo qirolligining poytaxti bo’lgan shaharni aniqlang.",
+"opts": [
+"Pxenyan shahri",
+"Sonak shahri",
+"Xanson shahri",
+"Pusan shahri"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Puni urushlarining kelib chiqishiga sabab bo’lgan hudud (orol) xaritada nechanchi raqam bilan berilgan?",
+"opts": [
+"3",
+"1",
+"4",
+"2"
+],
+"ans": "B",
+"img": "img/dtm/hk-43-28.jpg"
+},
+{
+"n": 29,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) bilan bog‘liq XIX asr oxiri − XX asr boshlaridagi tarixiga oid voqeani aniqlang.",
+"opts": [
+"Ikkinchi Bolqon urushi natijasida Bolqonning yetakchi davlatiga aylandi",
+"1878-yilda bo‘lib o‘tgan Berlin kongressida Avstriya- Vengriya bu hududni bosib olish huquqini qo‘lga kiritdi",
+"Ikkinchi Bolqon urushida yengilib, qo‘lga kiritgan hududlarining bir qismini yo‘qotdi",
+"Ikki Bolqon urishidan keyin mustaqillikka erishdi"
+],
+"ans": "A",
+"img": "img/dtm/hk-43-29.jpg"
+},
+{
+"n": 30,
+"q": "Qaysi qatorlarda davlat, prezident va prezidentlik yillari to‘g‘ri berilgan. № Davlat Shaxs Hukmronlik yillari 1. Misr Muhammad Mursi 2011-2014 2. Suriya Hafiz Asad 1970-2000 3. Afg’oniston Homid Karzay 2004-2015 4. Eron Mahmud Ahmadinajot 2005-2013 5. Turkiya Turg’ut O’zol 1989-1993",
+"opts": [
+"1, 4, 5",
+"2, 4, 5",
+"1, 3, 4",
+"2, 3, 4"
+],
+"ans": "B",
+"img": "img/dtm/hk-43-30.jpg"
+}
+]
+}

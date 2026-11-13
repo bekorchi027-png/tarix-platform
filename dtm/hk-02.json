@@ -1,0 +1,344 @@
+{
+"id": "hk-02",
+"items": [
+{
+"n": 1,
+"q": "Quyida berilgan Rim hukmdorlaridan qaysi birining buyrug‘i bilan shahardagi barcha eski binolar buzib tashlandi va yangi shahar qurildi?",
+"opts": [
+"Konstantin",
+"Trayan",
+"Oktavian",
+"Sezar"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Qadimgi Xitoy tarixiga oid noto’g‘ri ma'lumotlar berilgan javobni toping.",
+"opts": [
+"2, 3, 6",
+"1, 4, 5",
+"1, 3, 5",
+"2, 4, 6"
+],
+"ans": "B",
+"extra": "1) Xitoy hududida ilk davlat Yantszi daryosining o’rta oqimida paydo bo’lgan;\n2) Butun Shimoliy Xitoy \"Chjou\" davlati tarkibiga kirgan;\n3) Milodning boshlarida Xan sulolasiga qarshi «qizil qoshlilar» qo’zg‘oloni ko’tarilgan;\n4) Mil.avv. II ming yillik o’rtalarida yozuv uchun bambuk o’rniga shoyidan foydalanishga o’tildi;\n5) Dehqonchilik Xitoyda azaldan e'tiborli va faxrli kasb hisoblanib, asosiy dehqonchilik ekinlari arpa va paxta bo’lgan;\n6) \"Zafaryor\" – imperiyaning oliy hukmdorlari bilan ajralib chiqqan davlatlar hukmdorlari o’rtasida boshlangan urushlar ikki yuz yildan uzoqroq davom etdi"
+},
+{
+"n": 3,
+"q": "Birinchi jahon urushidan so’ng Afrikaning janubiy va markaziy qismida joylashgan hududlar qaysi davlatning mustamlakalari bo’lgan?",
+"opts": [
+"Belgiya",
+"Fransiya",
+"Buyuk Britaniya",
+"Italiya"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "To’g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"2011-yilda “O’zbekiston” xalqaro forumlar saroyi ochildi.",
+"1994-yilda Xorazmda davlat qo’g‘irchoq teatrlari ish boshladi.",
+"1996-yilda “O’zbeknavo” estrada birlashmasi tashkil etildi.",
+"2004-yilda “O’zbekkino” milliy agentligi tashkil etildi."
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Maqsadi inson tabiatini beparvo kuzatish emas, odamlarga sidqidildan achinish, ularga insoniylikni saqlab qolishda ko’maklashish, yovvoyilashib ketishdan ogohlantirish bo’lgan yozuvchini aniqlang.",
+"opts": [
+"Daniyel Defo",
+"Iogann Volfgang Gyote",
+"Jonatan Svift",
+"Iogann Sebastyan Bax"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Buyuk Britaniyaning yangi-yangi mustmalakalar bosib olishini kuchaytirishga undagan omilni aniqlang.(XIX asr oxiri – XX asr boshlarida)",
+"opts": [
+"iqtisodiy jihatdan yuksak mavqega ega bo’la borishi;",
+"kuchli harbiy dengiz flotini saqlab qolish zaruriyati;",
+"ilg’or mamlakat sifatidagi mavqeyini pasaya borishi;",
+"ko’proq xom-ashyoga ega bo’lish ehtiyoji."
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Buxoro amirligida qaysi hukmdor davrida Samarqand bir shahar yo’siniga kirgizilgan?",
+"opts": [
+"Haydar",
+"Nasrullo",
+"Shohmurod",
+"Rahimbiy"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Jahon taraqqiyotidagi ikki qutbli tizimga berilgan kuchli zarba - bu .....",
+"opts": [
+"Dunyoning yetakchi mamlakatlarida yadro qurollari sonining ortishi;",
+"SSSR tashqi siyosatining iliqlik tomon keskin o’zgarishi;",
+"Mustamlaka tizimining qulashi va mustaqil davlatlarning tashkil topishi;",
+"Fan-texnika inqilobining amalga oshirilishi."
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "XX asr oxiri – XXI asr boshlarida qaysi davlatda aholining asosiy qismi qishloq xo’jaligida band, sanoat juda sust rivojlangan bo’lib aholining faqat 5%i bu sohada band?",
+"opts": [
+"Moldova",
+"Sudan",
+"Liviya",
+"Pokiston"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "XX asrda amalga oshirilgan quyidagi ixtirolardan qay biri dastavval axborotni qayta ishlash va hisoblash uchun yaratilgan edi?",
+"opts": [
+"katta sonlarni hisoblash mashinasi",
+"uyali telefon",
+"elektron mikrosxema",
+"kompyuter"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "1409-yilda Amir Xudoydod qaysi shaharlarni osongina qo’lga kiritib, Samarqandga qo’shin tortadi?",
+"opts": [
+"Jizzax va Xo’jand",
+"Xo’jand va O’ratepa",
+"O’ratepa va Shohruxiya",
+"Termiz va Nasaf"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Gandimiyon shartnomasiga ko’ra, Rossiya imperiyasining Xiva xonligidagi vakili sifatida mamlakatni boshqarishda xonning hamma harakatlari ustidan nazoratni amalga oshirgan lavozim egasini toping.",
+"opts": [
+"Turkiston general-gubernatori",
+"Kaspiyorti viloyati gubernatori",
+"Xivadagi maxsus muxtor vakil",
+"Amudaryo bo’limi boshlig’i"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi O‘zbekiston SSR rahbarlarini ular davrida amalga oshirilgan tadbirlar bilan mos ravishda joylashtiring.",
+"opts": [
+"a-1,4; b-3,5; c-2",
+"a-3,5; b-1,4; c-2",
+"a-2; b-1,4; с-3,5",
+"a-1,5; b-2, 3; c-4"
+],
+"ans": "B",
+"extra": "a) Sobir Kamolov b) Nuriddin Muhitdinov\nc) Amin Niyozov\n1) Paxta xarid narxini oshirishni Markaz oldiga qo'ydi;\n2) O’zbekiston ziyolilariga nisbatan qatag‘onchilik siyosati olib borildi;\n3) O’zbekistonda kadrlarni mahalliylashtirish jarayoni ommaviy ravishda amalga oshirila boshlandi;\n4) O’zbek ziyolilari oqlanishida tashabbuskorlik ko‘rsatdi;\n5) Islom diniga erkinliklar berdi;"
+},
+{
+"n": 14,
+"q": "“Tilzit shartnomasi”ga ko‘ra Rossiya qaysi davlat bilan aloqani uzish majburiyatini olgan?",
+"opts": [
+"Turkiya",
+"Buyuk Britaniya",
+"Fransiya",
+"Prussiya"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Turkistonda viloyat boshqaruvining sud bo’limlari mavjud bo’lgan yillarni aniqlang.",
+"opts": [
+"1886-1898-yillar",
+"1867-1898-yillar",
+"1867-1886-yillar",
+"1881-1886-yillar"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Mil. avv. 2-ming yillikning boshlarida qaysi davlat ko‘chmanchi qabilalar zarbasidan parchalanib ketgan?",
+"opts": [
+"Ossuriya davlati",
+"Yangi Bobil podsholigi",
+"Xan davlati",
+"Shumer-Akkad davlati"
+],
+"ans": "D"
+},
+{
+"n": 17,
+"q": "O’rta asrlarda quyidagi qaysi xalq astronomlari olib borgan tadqiqotlar ularga Yerning aylana shaklda ekanligi va o`z o`qi atrofida aylanishi farazini yaratishga imkon bergan?",
+"opts": [
+"hind",
+"mayya",
+"yunon",
+"xitoy"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Quyidagi grafikda qaysi raqam ostida viloyat va uning uyezdi bir-biriga muvofiq keladi?",
+"opts": [
+"1, 3, 6, 7",
+"2, 4, 6, 7",
+"2, 3, 4, 5",
+"1, 3, 5, 7"
+],
+"ans": "A",
+"img": "img/dtm/hk-02-18.jpg"
+},
+{
+"n": 19,
+"q": "1994-yilda Belorussiya prezidenti Aleksandr Lukashenko tashabbusi bilan referendum o’tkazilib, Unda . . .",
+"opts": [
+"2, 4, 5",
+"1, 3, 5",
+"1, 3, 4, 6",
+"2, 4, 6"
+],
+"ans": "D",
+"extra": "1) xalq iste’mol mahsulotlari ishlab chiqarish kengaytirildi;\n2) belarus tili bilan bir qatorda rus tiliga ham davlat tili maqomi berildi;\n3) «shoksiz bozor munosabatlariga o’tish» dasturini e’lon qildi;\n4) davlat bayrog‘i o‘zgartirildi;\n5) Rossiya bilan uzoqlashish va G’arbiy Yevropa mamlakatlari bilan yaqinlashishni ma’qulladi;\n6) prezidentning vakolatlari kengaytirildi."
+},
+{
+"n": 20,
+"q": "XIX asr oxiri - XX asr boshlarida rassomchilikdagi realizm oqimi namoyondalarini aniqlang.",
+"opts": [
+"Eduard Mane, Kiod Mone, Kamil Pissaro",
+"Pol Sezann, Pol Gogen, Vinsent Van Gog",
+"P. Verlen, A. Relebo, S. Mallorme",
+"Jen Bonyan, O. Roden, Ogyust Renuar"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Xiva xonligi tarixiga oid qaysi kitob fransuz va nemis tillariga tarjima qilingan edi?",
+"opts": [
+"X. Vamberining ,,O'rta Osiyo bo'ylab sayohat\" asari",
+"Jekinsonning „Rossiyadagi Moskva shahridan Baqtriyadagi Buxoro shahrigacha 1558-yilgi sayohati\"",
+"N. Muravyovning ,,Esdaliklar”i",
+"S. Jukovskiyning „Rossiyaning keyingi 300 yilda Buxoro va Xiva bilan aloqasi\" asari"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Quyida keltirilgan ma’lumotlar qaysi hukmdor haqida? «U qo‘riq yerlarni o‘zlashtirish hisobiga dehqonchilik qiluvchilarni rag‘batlantirish siyosatini yuritdi. Yerni sotish, sotib olish yoki garovga qo‘yishni taqiqlovchi qonun chiqardi.»",
+"opts": [
+"Qirol Yongjo",
+"Kassa",
+"Abbos I",
+"Yosimune"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagi fikrlar kimga tegishli ekanligini toping. «Bizni qurshab turgan hamma narsa ko‘zga ko‘rinmaydigan mayda-mayda zarralar – atomlardan tashkil topgan».",
+"opts": [
+"Arximed",
+"Demokrit",
+"Geraklit",
+"Sokrat"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "O’rta asrlarda salib yurishlarida qatnashgan hukmdorlarni toping.",
+"opts": [
+"Karl VII, Genrix II",
+"Otton III, Richard II",
+"Richard I Sheryurak, Lyudovik IX",
+"Karl V, Lyudovik XI"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o‘rta asrlar).",
+"opts": [
+"Buyuk Karl – Italiya – graf Roland halok bo’lishi",
+"knyaz Olga – 988-yil – xristian dinini qabul qilinishi",
+"Bobak – Iroq Kufa shahri – 815-yil “qizil ko’ylakliklar” qo’zg’aloni",
+"Otton I – Lex daryosi bo’yida jang – Muqaddas Rim imperiyasi"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b, d; II-a, c; III-f",
+"I-a, d; II-b, e; III-c",
+"I-b, c; II-a, d; III-e",
+"I-e, f; II-b, c; III-a"
+],
+"ans": "A",
+"extra": "a) 1842-yilda Rossiyaga elchilar guruhini jo’natdi;\nb) Harbiy islohot o’tkazilib muntazam qo’shin tuzilgan;\nc) Rossiyag yuborilgan elchilar oraqali ikki davlat o’rtasida savdo aloqalarning yanada rivojlantirish masalasiga qaratilgan;\nd) Afg’oniston amiridan Britaniya elchilarini o’z davlatiga o’tkazmasligini so’raydi;\ne) Rossiyadan qurol-yarog’(po’lat) yetkazish masalasi ko’rilgan; Amir Nasrullo Sulton Mahmudxon II I III\nf)  Rossiyadan tog’-kon mutaxasislarini yuborish so’ralgan.",
+"img": "img/dtm/hk-02-26.jpg"
+},
+{
+"n": 27,
+"q": "Karolinglar davrida qirol tomonidan grafliklarga berilgan qaysi mansab ularning hokimyatini kuchaytirgan edi?",
+"opts": [
+"sud qilish",
+"soliq yig`ish",
+"harbiy qo`mondon",
+"diniy rahbarlik"
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) tarixi bilan bog‘liq bo‘lgan to‘g‘ri javobni toping.",
+"opts": [
+"Fernando Magellanning dengiz sayohati shu hududdan boshlangan.",
+"732-yilda arablar Karl Martel qo‘shinlari tomonidan mag‘lubiyatga uchratilgan.",
+"XIV-XV asrlarda dastlabki banklar paydo bo‘lgan.",
+"XIV asr oxirida birinchi usti yopiq bozor barpo etilgan."
+],
+"ans": "B",
+"img": "img/dtm/hk-02-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar bir-biriga mos ravishda to‘g‘ri berilgan? № Davlat Voqea 1. TASSR 1918-yilda ocharchilikka qarshi kurash Markaziy komissiyasi tuzilgan 2. BXSR 1921-yilda BXSR Konstitutsiyasi qabul qilindi 3. XXSR 1924-yilda XXSRni Xorazm Sovet Sotsialistik Respublikasi (XSSR)ga aylantirish to‘g‘risida qaror qabul qilindi 4. O’zSSR 1926-yilda rayonlashtirish to‘g‘risida qaror qabul qilindi 5. Qoraqalpoq avtonom viloyati 1925-1932-yillarda RSFSR tarkibida bo’lgan 6. Turkiston Muxtoriyati Qishloq xo‘jaligida 1922-yilda yagona soliq tizimi joriy qilindi",
+"opts": [
+"1, 2, 4",
+"2, 4, 6",
+"1, 3, 5",
+"2, 3, 6"
+],
+"ans": "A",
+"img": "img/dtm/hk-02-29.jpg"
+},
+{
+"n": 30,
+"q": "Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija 1. Amir Temurning Uljoy Turkon Og‘oga uylanishi Kesh viloyatining dorug‘asi (hokimi) etib tayinlandi 2. Mahmud G‘aznaviyning hokimiyatga kelishi Mamlakat viloyatlari birinketin qo‘ldan chiqarilib, tanazzulga yuz tutgan 3.  Turklar tomonidan Sirdaryo va Orol dengizi bo‘ylarigacha cho‘zilgan keng o‘lkalarni egallanishi Eftallar davlatining shimoliy hududlari xavf ostida qoldi 4.  Garni qal’asi yaqinidagi jang Jaloliddinning harbiy kuchlarini zaiflashib qolishi 5.  Xorazmshohlarning  harbiy yurishlari, soliq siyosatidagi beboshlik, amir va ma’murlarning jabr-u zulmi Xorazmshohga qarshi O‘tror aholisi qo‘zg‘olon ko‘tardi",
+"opts": [
+"1, 2",
+"3, 5",
+"2, 4",
+"3, 4"
+],
+"ans": "B",
+"img": "img/dtm/hk-02-30.jpg"
+}
+]
+}

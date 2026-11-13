@@ -1,0 +1,349 @@
+{
+"id": "hk-09",
+"items": [
+{
+"n": 1,
+"q": "1. Quyida berilgan hukmdorlardan qaysi biri jahon tarixida birinchi bo’lib muntazam qo’shin tuzgan?",
+"opts": [
+"Menes",
+"Doro I",
+"Sargon I",
+"Navuxodonosor II"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "2. Milodiy IV asrning ikkinchi yarmida yuz bergan voqealarni toping.",
+"opts": [
+"1, 4",
+"2, 5",
+"3, 4",
+"1, 3"
+],
+"ans": "A",
+"extra": "1) Olimpiya o’yinlari o’tkazilishi to’xtatildi;\n2) Vizantiy shahri Rim imperiyasining poytaxti deb e’lon qilindi;\n3) Koguryo xitoyliklarni o’z hududidan batamom surib chiqaradi;\n4) Rim imperiyasi ikki qismga ajralib ketdi;\n5) imperator Konstantin xristianlik boshqa dinlar bilan teng bir din deb e’lon qilingan farmon chiqardi."
+},
+{
+"n": 3,
+"q": "3. Quyidagi qaysi jang nisbatan keyinroq bo’lib bo’lib o‘tgan?",
+"opts": [
+"Anqara jangi",
+"Azenkur jangi",
+"Bosvort jangi",
+"Kulikovo jangi"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "4. XIX asrda Italiya birlashgandan so’ng hukmron doiralarni bosqinchilikka, mustamlaka imperiyasini tuzishga chorlagan omilni aniqlang.",
+"opts": [
+"Ichki va tashqi qarzining nihoyatda ko’payib ketganligi",
+"Ichki bozorning sust taraqqiy etganligi",
+"Sanoat xomashyosiga bo’lgan ehtiyojining ortishi",
+"Iqtisodiy jihatdan ilg’or mamlakat sifatida mavqeining kuchayib borishi"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "5. 1848-yilda Berlin shahrida boshlangan inqilobning asosiy maqsadi nima edi?",
+"opts": [
+"Germaniyaning siyosiy tarqoqligiga barham berish va respublika tuzumi o‘rnatish",
+"Germaniyaning siyosiy tarqoqligiga barham berish va feodal tartiblarni tugatish",
+"Germaniyaning siyosiy tarqoqligiga barham berish va imperiyani qayta tiklash",
+"Germaniyaning yangi konstitutsiyasini joriy etish va ishchilarga saylov huquqi berish"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "6. XIX asr oxiri − XX asr boshlarida quyidagi qaysi hudud yevropaliklar tomonidan Nil daryosi boshlanish havzalarini ilmiy o’rganish bahonasi bilan ochilgan?",
+"opts": [
+"Zanzibar",
+"G’arbiy Sudan",
+"Buganda",
+"Dagomeya"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "7. Quyidagi qaysi davlat tarixida XX asrning birinchi yarmi to‘xtovsiz urushlar davri deb ataladi?",
+"opts": [
+"Yaponiya",
+"Fransiya",
+"Xitoy",
+"Germaniya"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "8. 1980-yillari keskinlikni yumshatish va ikki tomonni ham qanoatlantiradigan munosabatlar shaklini topish uchun o’tkazilgan  SSSR va AQSH liderlarining uchrashuvlari qaysi shaharlarda bo’lib o’tgan?",
+"opts": [
+"1, 3",
+"2, 5",
+"3, 4",
+"3, 5"
+],
+"ans": "D",
+"extra": "1) Parij;\n2) London;\n3) Jeneva;\n4) Xelsinki;\n5) Reykyavik"
+},
+{
+"n": 9,
+"q": "9. Yevropa Iqtisodiy Hamkorligi mamlakatlari fuqarolari vizasiz va bojxona nazoratisiz bir-biriga bemalol o‘tishi to’g’risidagi shartnoma qaysi shaharda imzolangan?",
+"opts": [
+"Rimda",
+"Maastrixtda",
+"Parijda",
+"Shengenda"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "10. Quyidagilardan 1960-yilda lazerni yaratgan olimlarni toping.",
+"opts": [
+"1, 4, 6",
+"2, 3, 5",
+"1, 5, 6",
+"2, 3, 4"
+],
+"ans": "A",
+"extra": "1) N.G.Basov;\n2) D.Kilbi;\n3) S.P.Korolyov;\n4) Ch.Tauns;\n5) R.Noys;\n6) A.M.Proxorov"
+},
+{
+"n": 11,
+"q": "11. Quyidagi qo’zg’olonlardan qaysi biri xalifa Horun arRashid davrida bo’lib o’tgan?",
+"opts": [
+"G‘urak va Divashtich boshchiligidagi qo‘zg‘olon",
+"Rofe ibn Lays boshchiligidagi qo‘zg‘olon",
+"“Oq kiyimlilar” qo‘zg‘oloni",
+"Abu Muslim boshchiligidagi qo‘zg‘olon"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "12. O‘rta Osiyoning quyidagi shaharlari Podsho Rossiyasi qo‘shinlari tomonidan egallangan yillariga qarab to‘g‘ri xronologik tartibda ko‘rsatilgan javobni belgilang.",
+"opts": [
+"3, 2, 1",
+"1, 3, 2",
+"3, 1, 2",
+"1, 2, 3"
+],
+"ans": "C",
+"extra": "1) Samarqand;\n2) Andijon;\n3) O’ratepa"
+},
+{
+"n": 13,
+"q": "13. O‘zbekiston Respublikasida quyidagi yillarning nomlanishi mos ravishda ko‘rsatilgan javobni toping.",
+"opts": [
+"1-b, 2-a",
+"1-c, 2-a",
+"1-a, 2-c",
+"1-b, 2-c"
+],
+"ans": "D",
+"extra": "1)  2016-yil;\n2) 2017-yil;\na) “ Sog‘lom bola yili”;  b) “Sog‘lom ona va sog‘lom bola yili”;    c) “Xalq bilan muloqot va inson manfaatlari yili”;"
+},
+{
+"n": 14,
+"q": "14. Quyidagi voqealarning sodir bo‘lgan yillari mos ravishda to‘g‘ri berilgan javobni aniqlang.",
+"opts": [
+"1-e, 2-b, 3-a, 4-c",
+"1-a, 2-b, 3-e, 4-c",
+"1-e, 2-d, 3-a, 4-c",
+"1-a, 2-c, 3-b, 4-d"
+],
+"ans": "C",
+"extra": "1) Xiva xoni Said Muhammadxon qoraqalpoqlarga o’zini o’zi boshqarish huquqini berdi;\n2) Xiva xonligi Marvni uzil-kesil o’ziga qo’shib oldi;\n3) Xiva xoni Muhammad Rahimxon tomonidan tilla tangalar zarb etish yo’lga qo’yildi;\n4) Xiva qo’shini Hazorasp yaqinida Buxoro qo’shinini mag’lubiyatga uchratdi\na) 1809-yil; b) 1822-yil; c) 1843-yil;  d) 1845-yil;  e) 1859yil"
+},
+{
+"n": 15,
+"q": "15. O’zbekiston SSR davlat arbobi Sobir Kamolov faoliyati bilan bog‘liq to‘g‘ri ma’lumotlar berilgan javobni toping.",
+"opts": [
+"1, 4, 5",
+"1, 2, 4",
+"3, 4, 5",
+"2, 3, 5"
+],
+"ans": "A",
+"extra": "1) 1957-yil dekabrdan 1959-yil mart oyigacha O’zbekiston Kompartiyasi birinchi sekretari lavozimida ishlagan;\n2) Qatag‘on qurbonlari bo‘lgan o‘zbek ziyolilarining oqlanishida tashabbuskorlik ko’rsatdi;\n3) 1955-yil dekabrdan 1957-yil mart oyigacha O’zbekiston Kompartiyasi birinchi sekretari lavozimida ishlagan;\n4) Respublika partiya tashkilotini boshqargan davrda islom diniga erkinliklar berildi;\n5) Respublika partiya tashkilotini boshqargan davrda kadrlarni mahalliylashtirish jarayoni ommaviy ravishda amalga oshirila boshlandi"
+},
+{
+"n": 16,
+"q": "16. Qadimda Kushon davlatining poytaxti bo‘lgan shaharni belgilang.",
+"opts": [
+"Gekatompil",
+"Pataliputra",
+"Peshovar",
+"Ershi"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "17. X asr oxiri - XI asr boshida qaysi Rus knyazi Dunay bo’ylarida yashagan bulg’orlarga qarshi harbiy yurish uyushtiradi?",
+"opts": [
+"Igor",
+"Svyatoslav",
+"Vladimir",
+"Yaroslav"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "18. XV asr oxirida Afrikaning janubidagi hududga Yaxshi Umid burni deb nom berilishi … boshchiligidagi ekspeditsiya bilan bog’liq.",
+"opts": [
+"Bartolomeu Diash",
+"Vasko da Gama",
+"Fernando Magellan",
+"Genrix Dengizchi"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "19. Quyidagi davlatlardan qaysi birining milliy valutasi \"grivna\" hisoblanadi?",
+"opts": [
+"Belarus",
+"Ukraina",
+"Moldova",
+"Litva"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "20. Tibbiyot sohasida quyidagi olimlarni amalga oshirgan kashfiyotlari bilan mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-c, 2-b, 3-a, 4-d",
+"1-a, 2-d, 3-c, 4-b",
+"1-c, 2-d, 3-a, 4-b",
+"1-a, 2-b, 3-c, 4-d"
+],
+"ans": "D",
+"extra": "1) Robert Kox;\n2) K.Eber;\n3) F.Lyofler;\n4) F.Lesh;\na) sil kasalligini keltirib chiqaruvchi batsillani kashf qildi;\nb) ichterlama tug‘diruvchi mikrobni topdi;\nc) bo‘g‘ma tug‘diruvchi mikrobni topdi;\nd) amyoba dizenteriyasi tug‘diruvchi mikrobni aniqladi"
+},
+{
+"n": 21,
+"q": "21. 2009-yilda Toshkentda quyidagi qaysi chet el oliy o‘quv yurtining filiali ochilgan?",
+"opts": [
+"I.M.Gubkin nomidagi Rossiya neft va gaz davlat universiteti",
+"Singapur menejmentni rivojlantirish instituti",
+"Italiyaning Turin politexnika universiteti",
+"M.V.Lomonosov nomidagi Moskva davlat universiteti"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "22. Amir Shohmurod faoliyatiga yuksak baho bergan qaysi mashxur olim “ U amirlik qalamini kambag’allik kiyimi bilan bezadi. Jahon bog’idan dushmanlik va yomonlikni tomiri bilan sug’urub tashladi va adolat nihollarini o’tqazdi” deb yozgan edi?",
+"opts": [
+"Hofiz Tanish al-Buxoriy",
+"Muhammad Ya’qub ibn Doniyolbiy",
+"Muhammad Hakimxon",
+"Ahmad Donish"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "23. Quyida berilgan voqealardan bir yilda sodir bo‘lganlarini aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 4, 5",
+"1, 2, 4",
+"2, 4, 5"
+],
+"ans": "A",
+"extra": "1) Kambodja ASEANning teng huquqli a’zosi bo‘ldi;\n2) FATX bilan Isroil o‘rtasida muvaqqat kelishuv imzolandi;\n3) YuNESKO Bosh konferensiyasida 21-fevral – Xalqaro ona tili kuni deb e’lon qilindi;\n4) YuNESKOning «Bag‘rikenglik tamoyillari deklaratsiyasi»  qabul qilindi;\n5) «6+2» muloqot guruhining Afg‘oniston muammosi yechimiga bag‘ishlangan xalqaro anjumani o’tkazildi"
+},
+{
+"n": 24,
+"q": "24. Quyidagi fikrlar kimga tegishli ekanligini toping. «Menga tayanch nuqtasini topib bersangiz, Yerni ag‘darib yuboraman! ».",
+"opts": [
+"Sokrat",
+"Demokrit",
+"Geraklit",
+"Arximed"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "25. XII-XIII asrlarda Italiyada tashkil etilgan universitetni belgilang.",
+"opts": [
+"Tuluza universiteti",
+"Sevilya universiteti",
+"Valensiya universiteti",
+"Bolonya universiteti"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "26. Quyidagi tarixiy asarlar bilan bog’liq ma’lumotlar mos ravishda berilgan javobni toping.",
+"opts": [
+"1-c, 2-d, 3-b, 4-a",
+"1-c, 2-a, 3-b, 4-d",
+"1-b, 2-a, 3-c, 4-d",
+"1-c, 2-b, 3-a, 4-d"
+],
+"ans": "B",
+"extra": "1) “ Habib us-siyar ”;\n2) “ al-Komil fit-tarix ”;\n3) “ Ravzat us-safo ”;\n4) “ Tarixi Jahonkushoy ”;\na) Yaqin va O’rta Sharq mamlakatlari tarixining islom tarqalishidan to 1231-yilgacha bo’lgan davr haqida ma’lumot beruvchi eng qimmat manbalardan biri;\nb) Dunyoning yaratilishidan to 1523-yilgacha bo’lgan O’rta Osiyo, Yaqin va O’rta Sharq mamlakatlarida bo’lib o’tgan ijtimoiy-siyosiy voqealar keng bayon etilgan;\nc) O’rta Osiyo, Eron va Xurosonning XV asr oxiri va XVI asrning birinchi choragidagi ijtimoiy-siyosiy tarixini o’rganishda muhim va qimmatli manba;\nd) O’rta Osiyo, Eron va Mo’gulistonning XIII asrdagi tarixiga bag’ishlangan"
+},
+{
+"n": 27,
+"q": "27. Quyidagi voqealar to‘g‘ri xronologik tartibda berilgan javobni aniqlang.",
+"opts": [
+"2, 3, 1",
+"3, 2, 1",
+"2, 1, 3",
+"3, 1, 2"
+],
+"ans": "B",
+"extra": "1) AQSHning Nyu-Meksiko shtatidagi poligonda birinchi atom bombasi portlatildi;\n2) Nemis olimlari uran yadrolari ajralib chiqishining zanjirli reaksiyasini kashf etdilar;\n3) Jon Makleod va Frederik Banting ko‘plab tajribalar jarayonida o‘t pufagi gormoni bo‘lgan insulinni olishga muvaffaq bo‘ldilar."
+},
+{
+"n": 28,
+"q": "28. Quyidagilardan Bernard Shou tomonidan yozilgan asarlarni toping.",
+"opts": [
+"2, 3, 4",
+"1, 3, 5",
+"2, 4, 6",
+"1, 5, 6"
+],
+"ans": "A",
+"extra": "1) “Hayotga muhabbat”;\n2) “Qariyalar uyida”;\n3) “Qurol va inson”;\n4) “ Shayton shogirdi ”;\n5) “Dengiz bo‘risi”;\n6) “ Bir parcha go‘sht”"
+},
+{
+"n": 29,
+"q": "29. Xaritada yulduzcha bilan belgilangan davlat tarixi bilan bog‘liq to‘g‘ri ma’lumotni toping.",
+"opts": [
+"1918-yilda imzolangan Brest tinchlik shartnomasiga ko’ra mustaqil davlat deb tan olindi",
+"1915-yilda tuzilgan “To’rtlar ittifoqi”ga qo’shilgan",
+"1913-yili Ikkinchi Bolqon urushi natijasida Bolqonning yetakchi davlatiga aylandi",
+"XIX asr oxiri- XX asr boshlarida Rossiya tarafdori bo’lgan kuchlar kata ta’sirga ega bo’ldilar"
+],
+"ans": "B",
+"img": "img/dtm/hk-09-29.jpg"
+},
+{
+"n": 30,
+"q": "30. Quyidagi jadval asosida mos siyosiy voqealarni toping. № Davlat Voqea Yil 1. Albaniya Usmonli davlatidan mustaqilikka erishdi 1912 2. Bolgariya Usmonli davlatidan o’zini to’la mustaqil deb e’lon qildi 1878 3. Kuba Ispaniyadan mustaqil deb e’lon qilindi 1898 4. Finlandiya Rossiya tomonidan 1918 mustaqil davlat deb tan olindi 5. Argentina Ispaniyadan mustaqil yangi davlat tashkil topdi 1810 6. Chili Ispaniyadan mustaqil yangi davlat tashkil topdi 1813",
+"opts": [
+"2, 3, 4",
+"1, 5, 6",
+"1, 3, 4",
+"2, 5, 6"
+],
+"ans": "C",
+"img": "img/dtm/hk-09-30.jpg"
+}
+]
+}

@@ -1,0 +1,339 @@
+{
+"id": "hk-25",
+"items": [
+{
+"n": 1,
+"q": "Mil.avv VI asrning II yarmida bo’lib o’tgan voqeani toping.",
+"opts": [
+"Rim shahriga asos solindi.",
+"Afina hukmdori Solon davlatni idora qilishning oldingi tizimini o’zgartirdi.",
+"Podsho Kir II barcha forslarni o’z hokimyati ostida birlashtirdi.",
+"Qadimgi fors lashkari Bobilga bostirib kirib shahrni zabt etdi."
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "XIX asrning 30-yillarida qaysi ingliz josusi ,,tadbirkor’’ sifatida Buxoro qo’shbegisi bilan aloqa o’rnata olgan?",
+"opts": [
+"U. Murkford",
+"A. Byorns",
+"I. Volf",
+"J.Abbot"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Qaysi davlatlar tajovuzkor davlat sifatida Millatlar Ligasidan chiqarilgan?",
+"opts": [
+"Yaponiya va Germaniya",
+"Rossiya va AQSH",
+"Rossiya va Yaponiya",
+"Germaniya va Rossiya"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Yaponiyadagi AQSH fuqarolariga nechanchi yilda eksterritoriallik huquqi berilgan?",
+"opts": [
+"1854-yil",
+"1857-yil",
+"1858-yil",
+"1867-yil"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Tarixiy ma’lumotlarni yuz bergan sanasiga qarab xronologik ketma ketlikda joylashtiring. 1. Turkiston o’lkasi Musulmonlar byurosi tashkil qilindi. 2. Junaidxon bilan sovet hokimyati vakillari o’rtasida Taxta shartnomasi imzolandi. 3. Farg’ona muvaqqat muxtoriyat hukumati tuzildi. 4. Turkiston ASSR MIKning favqulodda sessiyasida O’rta Osiyoda milliy-hududiy chegaralanish o’tkazish to’g’risida qaror qabul qilindi. 5. ,,Davlat apparatini mahaliylashtirish Markaziy komissiyasi’’ tuzildi.",
+"opts": [
+"1, 3, 2, 4, 5",
+"3, 2, 1, 4, 5",
+"1, 2, 3, 4, 5",
+"2, 3, 1, 4, 5"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Shanxay Hamkorlik tashkilotining gerbi va bayrog’i qaysi shaharda bo’lib o’tgan sammitda qabul qilingan?",
+"opts": [
+"Moskva",
+"Pekin",
+"Toshkent",
+"Sankt-Peterburg"
+],
+"ans": "A"
+},
+{
+"n": 7,
+"q": "Quyidagi inshootlardan qaysi biri vizantiya uslubida qurilgan?",
+"opts": [
+"Al-Hamro saroyi",
+"Bibi Maryam ibodatxonasi",
+"Dojlar saroyi",
+"Hasan masjidi"
+],
+"ans": "C"
+},
+{
+"n": 8,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a,e; II-c,f; III-b",
+"I-a,e; II-c; III-f",
+"I-e; II-a,d; III-c",
+"I-a; II-c,f; III-d"
+],
+"ans": "D",
+"extra": "a) uning davrida Temuriylar saltanati amalda ikki mustaqil davlatga bo’linib boshqarilgan;\nb) Xorazm ustiga besh marta yurish qildi va o’ziga bo’ysundirdi;\nc) tashqi savdodan davlat xazinasiga tushadigan daromadni ko’paytirish maqsadida “tamg’a” solig’ini birmuncha oshirdi;\nd) Xitoy bilan muntazam ravishda elchilar almashib turishgan;\ne) “tamg’a” solig’ini bekor qilib, savdogarlarni o’z tarafiga og’dirib oldi;\nf) fulusiy pullar islohotini amalga oshirdi.",
+"img": "img/dtm/hk-25-8.jpg"
+},
+{
+"n": 9,
+"q": "Mo’g’ullar davrida joriy etilgan quyidagi soliqlardan qaysi biri ishlab chiqarilgan mahsulot yoki sotilgan molning 1/30  qismi hajmida undirilgan?",
+"opts": [
+"Shulen",
+"Qopchur",
+"Kalon",
+"Targ’u"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Fransiyada 1795-yilda qabul qilingan yangi konstitutsiyada qanday masalalar mustahkamlangan? 1. Respublika tuzumi mustahkamlandi. 2. Umumiy saylov huquqini ta’minladi. 3. Yirik burjuaziya hokimyati o’rnatildi. 4. Ijroiya hokimyati Direktoriyaga topshirildi. 5. Qonunchilik hokimyati Besh yuzlar kengashi va Oqsoqollar kengashidan iborat bo’lgan qonunchilik palatiga berildi. 6. Fransiyada parlamentar monarxiya boshqaruv tizimi o’rnatildi.",
+"opts": [
+"1, 4, 5, 6",
+"1, 4, 5",
+"4, 5, 6",
+"3, 4, 5, 6"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "XIII asr boshlarida Xorazm davlatining qaysi chegarasi G’azna viloyatidan o’tgan?",
+"opts": [
+"Shimoli-g’arbiy",
+"Janubi-sharqiy",
+"Shimoli-sharqiy",
+"Janubi-g’arbda"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Buyuk Yunon haykaltaroshlaridan biri Fidiy bilan bir vaqtda yashagan shaxsni aniqlang.",
+"opts": [
+"Aristotel",
+"Demosfen",
+"Solon",
+"Perikl"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Nechanchi yildan boshlab Buxoro amirligi hududida rus qishloqlari vujudga kela boshlagan?",
+"opts": [
+"1875-yil",
+"1887-yil",
+"1892-yil",
+"1888-yil"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "2008-yilda  quyidagilardan qaysi Lotin Amerikasi mamlakatlari G-20 obro’li klubiga a’zo bo’ldi ? 1. Ekvador  2. Chili  3. Meksika  4. Boliviya 5. Braziliya   6. Kuba  7. Argentina",
+"opts": [
+"1, 3, 5",
+"3, 5, 7",
+"2, 4, 6",
+"1, 2, 7"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "O’zbekiston SSR Fanlar komitetiga1934-yilda kim rais qilib saylangan?",
+"opts": [
+"M. Ramziy",
+"O.Hoshimov",
+"F. Xo’jayev",
+"Q.Niyozov"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Bir yilda sodir bo’lgan voqealarni toping. 1. O’zbekiston Respublikasi ,,Soliq kodeksi’’ ning yangi tahriri qabul qilindi. 2. AYSESKO tomonidan ,,Toshkent – Islom madaniyatining poytaxti’’ deb  e’lon qilindi. 3. ,,O’zbekkino’’ milliy agentligi tashkil etildi. 4. O’zbekiston Respublikasi ShHT ga a’zo bo’ldi. 5. O’zbekiston Respublikasi Ekologik harakati tashkil etildi. 6. Gruziya MDH dan chiqish istagini bildirdi.",
+"opts": [
+"1, 5, 6",
+"2, 3, 5",
+"3, 4, 6",
+"1, 2, 4"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Saljuqiylar davlatida yer egaligi munosabatlari uzilkesil shakllangan davrda qaysi davlatda dehqonlar kurashi kuchaygan?",
+"opts": [
+"Fransiya",
+"Angliya",
+"Xitoy",
+"Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Rossiya tashqi savdosida Buxoro amirligining ulushi nechanchi yilda 25% ni tashkil etgan?",
+"opts": [
+"1844-yil",
+"1864-yil",
+"1825-yil",
+"1855-yil"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "XIX asr oxiri XX asr boshlarida nima sababdan Rossiya aholising turmush darajasi G’arbiy Yevropa davlatlariga nisbatan juda past edi?",
+"opts": [
+"O’rta asr feodal tartiblarining saqlanib qolganligi",
+"Islohotlar o’tkazilishini talab qilishga qodir konstitutsiyaviy muxolifatning yo’qligi",
+"Podsho hokimyatining har qanday yangilikka qarshi ekanligi.",
+"Mamlakat aholisining yarmidan ko’pi qishloqlarda yashaganligi tufayli."
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Urushayotgan tomonlardan birining urush harakatlarini, qurolli qarshilik ko’rsatishni davom ettirishdan voz kechishi qanday atama bilan izohlanadi?",
+"opts": [
+"Kapitulatsiya",
+"Koalitsiya",
+"Sulh",
+"Intervensiya"
+],
+"ans": "A"
+},
+{
+"n": 21,
+"q": "Quyidagi yozuvchilar va ularning asarlari to’g’ri ko’rsatilgan javobni toping. 1. ,,Girdob’’  2. ,,Zardusht tavallosi’’  3. ,,Hayot’’ 4. ,,Dengiz bo’risi’’  5. ,,Olchazor bog’ ‘’ a. Jek London  b. G. Mopasson  c. Frenk Norris d. A.P. Chexov  e. F. Nitsshe",
+"opts": [
+"1-b,2-e,3-d,4-c,5-a",
+"1-c,2-e,3-a,4-b,5-d",
+"1-c,2-e,3-b,4-a,5-d",
+"1-c,2-e,3-b,4-d,5-a"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Buxoro xonligida qo’rxona boshlig’i lavozimidagi shaxs qanday masala bilan shug’ullangan?",
+"opts": [
+"Qo’shinning qurol-yarog’ bilan ta’minlash.",
+"Harbiy askarlarni to’plash, ularni harbiy yurishga tayyorlash",
+"Harbiy qurolsozlik ustaxonasiga rahbarlik qilgan.",
+"Davlat bayrog’ini ko’tarib yurgan."
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "1907-1911-yillarda  Eron inqilobining ikkinchi davrida katta ta’sirga ega bo’lgan mujohidlar tashkiloti ilgari surgan talablar to’g’ri ko’rsatilgan javobni toping.",
+"opts": [
+"1, 2, 3, 4, 5",
+"1, 4, 5, 6, 8",
+"2, 4, 6, 7, 8",
+"2, 3, 5, 6, 7"
+],
+"ans": "B",
+"extra": "1) Yashirin saylov huquqi\n2) Shoh tuzumini ag’darish\n3) Parlament joriy etish\n4) Shaxs erkinligini joriy qilish\n5) Shoh yerlarini musodara  qilish\n6) Ish vaqtini 8 soat qilib cheklash\n7) Chet elliklar bilan tuziladigan iqtisodiy bitimlarga parlament  roziligini olish\n8) Bepul va majburiy ta’lim joriy qilish"
+},
+{
+"n": 24,
+"q": "Turkiyada 2000-yili bo’lib o’tgan parlament saylovlarida qaysi partiya g’alaba qozongan?",
+"opts": [
+"Adolat va taraqqiyot partiyasi",
+",,Refax’’ partiyasi",
+"Demokratik so’l partiya",
+"Kurd ishchi partiyasi"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Toshkentda birinchi rus-tuzem maktabi ochilgan yilda yuz bergan voqeani toping.",
+"opts": [
+"Amudaryo flotiliyasi ta’sis etildi.",
+"Kaspiyorti temiryo’li qurildi.",
+"Samarqandga dastlabki poyezd keldi.",
+"Turkistonda paxtaning yangi Amerika navi yetishtirila boshladi."
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Soliq nazoratining zamonaviy shakli – soliq monitoringi qachon joriy etilgan?",
+"opts": [
+"2017-yil 18-iyul",
+"1991-yil 31-avgust",
+"2018-yil 1-yanvar",
+"2017-yil 1-yanvar"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": ",,Paxta yetishtirishni ko’paytirmoq uchun O’zbekiston SSR va Qozog’iston SSR dagi Mirzacho’lning qo’riq yerlarini sug’orish to’g’risida’’ gi qaror qabul qilingan yilda qaysi shaharga asos solingan?",
+"opts": [
+"Guliston",
+"Navoiy",
+"Mirzacho’l",
+"Gazli"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": ",,Qo’shchi’’ ittifoqi faoliyat yuritgan yillar oralig’ida sodir bo’lmagan voqeani toping.",
+"opts": [
+"SSSR davlatining birinchi konstitutsiyasi qabul qilindi.",
+"Fransiyada jahon iqtisodiy inqirozi boshlandi.",
+"SSSR bilan Germaniya o’rtasida Brest-Litovsk shahrida shartnoma imzolandi.",
+"Albaniya Italiyaning pretoktaratiga aylantirildi."
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Quyidagi voqealardan to’g’risini aniqlang. Hokimyatga kelgan davri 1. Otton I Fransiya X asr 2. Vladimir Monomax Hukmdor Davlat Rossiya XII asr 3. O’zbekxon Oltin O’rda XIV asr 4. Sundiata Keyt Mali XIII asr 5. Lyudovik VI Fransiya XI asr",
+"opts": [
+"1, 3, 4",
+"3, 4, 5",
+"2, 3, 5",
+"2, 3, 4"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "Xaritada yulduzcha bilan belgilangan hududni nechanchi yilda Fransiya o‘z mustamlakasi deb e’lon qilgan?",
+"opts": [
+"1885-yil",
+"1883-yil",
+"1894-yil",
+"1896-yil"
+],
+"ans": "D",
+"img": "img/dtm/hk-25-30.jpg"
+}
+]
+}

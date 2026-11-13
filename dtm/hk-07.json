@@ -1,0 +1,349 @@
+{
+"id": "hk-07",
+"items": [
+{
+"n": 1,
+"q": "Koreyada hokimiyatni vaqtincha tevongun, ya’ni hokim hisoblangan Li Xa In boshqargan davrda amalga oshirilgan ishlar to’g’ri berilgan javobni aniqlang. (XIX asr)",
+"opts": [
+"2, 3, 5",
+"1, 3, 4",
+"1, 4, 5",
+"2, 4, 5"
+],
+"ans": "B",
+"extra": "1) oddiy kishilar to’laydigan harbiy soliq barcha qatlamlar uchun majburiy uy boshi solig’i bilan almashtirildi;\n2) mamlakatda xristianlik dini joriy etildi;\n3) aslzodalar va oddiy xalqni tenglashtirish maqsadida xalq uchun qora rangli oyoq kiyim kiyishni taqiqladi;\n4) XVI asrda yaponlar bosqini paytida yonib ketgan Kyonbokkun saroyi tiklandi;\n5) “Qonunlarning buyuk to’plami” deb nomlangan hujjat qabul qilindi."
+},
+{
+"n": 2,
+"q": "XX asr boshlarida «ishchi aristokratiyasi» qaysi davlatda umumiy ishchilar sonining uchdan birini tashkil qilardi?",
+"opts": [
+"AQShda",
+"Fransiyada",
+"Buyuk Britaniyada",
+"Germaniyada"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Quyidagi jadval asosida mos siyosiy voqealarni toping. N Davlat Voqea Yil 1. Italiya Italiya komunistik partiyasi tarqalib ketdi 1991 2. AQSh Prezidentlik saylovida B.Obama B.Klintonga yutqazdi 1992 3. Turkiya R.Erdo’g’an bosh vazir lavozimini egalladi 2003 4. Pokiston Prezidentlik saylovida Mahmud Ahmadinajod g’alaba qozondi 2009 5. Rossiya “Katta sakkizlik” G-8 dan chiqarib yuborildi 2014 6. Germaniya O’tkazilgan referendumda aholining 50 % dan ortig’i Yevropa Ittifoqidan chiqish uchun ovoz berdi 2016",
+"opts": [
+"1, 4, 6",
+"2, 3, 5",
+"1, 3, 5",
+"2, 4, 6"
+],
+"ans": "C",
+"img": "img/dtm/hk-07-3.jpg"
+},
+{
+"n": 4,
+"q": "Mil.avv. 337-yilda Yunon shahar-davlatlarining (Spartadan tashqari) vakillari Korinfga yig’ilib, yunon shaharlari ittifoqini tuzishlaridan maqsad nima edi?",
+"opts": [
+"Rimliklarning bosqinchilik yurishlariga qarshi birgalikda kurashish maqsadida",
+"Spartani yunon shahar-davlatlari ittifoqiga kiritish maqsadida",
+"Makedoniya hokimiyati ostida forslarga qarshi yurish maqsadida",
+"Sharq mamlakatlari bilan savdo-sotiq aloqalarida hamkorlik qilish maqsadida"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Qaysi Xiva xoni davrida siyosiy beqarorlik natijasida jon saqlash uchun o’zga yurtlarga qochib ketgan fuqarolar yana qaytib kela boshladilar?",
+"opts": [
+"Muhammad Rahimxon I",
+"Muhammad Amin inoq",
+"Muhammad Aminxon",
+"Olloqulixon"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Germaniyada rivojlangan o`rta asr shaharlarining vujudga kelishi, yuksalishi qaysi jarayon bilan bevosita bog`liq bo`lgan?",
+"opts": [
+"qirol hokimiyatining mustahkamlanishi;",
+"savdo-hunarmandchilikning taraqqiy etishi;",
+"qishloq xo’jaligi taraqqiyoti;",
+"din bilan;"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "1993-yil qaysi shaharda bo’lib o’tgan muzokaralar natijasida Isroil va FATX bir-birini tan olganligini e’lon qilgan?",
+"opts": [
+"Oslo",
+"Vashington",
+"Madrid",
+"Parij"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Quyidagilardan Qadimgi Rim tarixiga oid bo’lganlarini belgilang.",
+"opts": [
+"1, 2, 4",
+"3, 5, 6",
+"1, 2, 5",
+"3, 4, 6"
+],
+"ans": "B",
+"extra": "1) agora;\n2) demokratiya;\n3) prokonsul;\n4) Parfenon;\n5) Senat;\n6) Kapitoliy."
+},
+{
+"n": 9,
+"q": "Rossiya prezidenti B. Yelsin 1993-yili xalq deputatlari syezdi va Oliy Sovetni tarqatib yuborgach qaysi masalalarda referendum o’tkazish to’g’risida farmonni imzoladi?",
+"opts": [
+"2, 3, 6",
+"1, 4, 6",
+"1, 3, 5",
+"2, 4, 5"
+],
+"ans": "C",
+"extra": "1) Federatsiya Kengashi;\n2) Yangi tartibdagi Xalq deputatlari syezdi;\n3) Davlat Dumasiga saylov to’g’risidagi;\n4) Konstitutsiyaga o’zgartirishlar kiritish to’g’risida;\n5) mamlakatni yangi konstitutsiyasi haqida;\n6) Konstitutsion sud to’g’risida."
+},
+{
+"n": 10,
+"q": "XVIII asrning 70-yillarida Xitoy bilan o‘zaro aloqalar o‘rnatishga uringan davlatni toping.",
+"opts": [
+"Buyuk Britaniya",
+"Rossiya",
+"Yaponiya",
+"Gollandiya"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "Sovet tuzumining qatag’on qurboniga aylangan quyidagi vatandoshlarimizning egallagan lavozimlari to’g’ri ko’rsatilgan javobni aniqlang.",
+"opts": [
+"1-d, 2-c, 3-a, 4-b",
+"1-d, 2-e, 3-a, 4-b",
+"1-a, 2-b, 3-c, 4-d",
+"1-a, 2-e, 3-c, 4-d"
+],
+"ans": "B",
+"extra": "1) Mannon Ramziy (Mannon Abdullayev);\n2) Shamsutdin Badriddinov;\n3) Botu (Mahmud Hodiyev);\n4) Akmal Ikromov;\na) O’zbekiston SSR Maorif xalq komissari o’rinbosari;\nb) O’zbekiston Kompartiyasi MK birinchi sekretari;\nc) O’zbekiston SSR Xalq Komissarlar soveti raisi;\nd) O’zbekiston SSR Maorif xalq komissari;\ne) O’zbekiston SSR Oliy Sudi prokurori."
+},
+{
+"n": 12,
+"q": "Turkistonda 1916-yilda e’lon qilingan front orti ishlari uchun mardikorlikka olish haqidagi farmonga qarshi 11-iyul kuni qaysi hududlarda norozilik namoyishlari bo‘lib o'tgan?",
+"opts": [
+"Dahbed va Xo‘jandda",
+"Eski Marg'ilon va Toshkentda",
+"Andijon va Jizzaxda",
+"Toshkent va Namanganda"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "O’rta asrlarda xaritada yulduzcha bilan belgilangan hudud(davlat)da bunyod etilgan me’moriy inshootni aniqlang.",
+"opts": [
+"al-Hamro saroyi",
+"Avliyo Mark ibodatxonasi",
+"Bibi Maryam ibodatxonasi",
+"Hasan masjidi"
+],
+"ans": "A",
+"img": "img/dtm/hk-07-13.jpg"
+},
+{
+"n": 14,
+"q": "“Sho’roi Ulamo” jamiyatining Toshkent (a) va Qo’qon (b) shu’basiga kimlar rahbarlik qilgan?",
+"opts": [
+"a-2, b-3",
+"a-2, b-4",
+"a-1, b-4",
+"a-1, b-3"
+],
+"ans": "D",
+"extra": "1) Sherali Lapin;\n2) Mustafo Cho’qayev;\n3) Mulla Muhiddinxon;\n4) Ubaydulla Xo’jayev."
+},
+{
+"n": 15,
+"q": "XX asr boshida Xiva xonligining qaysi shahrida Rossiya-Osiyo va Sibir savdo bankining bo'limlari va pochta-telegraf idorasi joylashgan edi?",
+"opts": [
+"Chimboyda",
+"Gurlanda",
+"Porsuda",
+"Yangi Urganchda"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Yaponiya okkupatsiya qilinganidan keyin hokimiyat AQSh okkupatsion qo’shinlari shtabi ixtiyoriga o’tib, bu yerda demokratik jarayonlarni boshlagan amerikaliklar qanday maqsadlarni ko’zlagan edi?",
+"opts": [
+"1, 4",
+"1, 3",
+"2, 4",
+"2, 3"
+],
+"ans": "B",
+"extra": "1) Yaponiyaning demokratik davlatga aylanishi va hech qachon boshqalarga xavf solmasligini;\n2) Yaponiyada monarxiyani bekor qilish;\n3) yaponlarda o’zining ming yillik jangchilik an’analariga ega bo’lgan jangavorlik ruhini sindirishni;\n4) AQSh Yaponiya hududida og’ir sanoat avvalo metallurgiya, mashinasozlik, kimyo sanoati korxonalarini barpo etib, uning ichki bozorini to’lliq egallashini."
+},
+{
+"n": 17,
+"q": "Antill orollarini kashf etilishi kimning nomi bilan bog’liq?",
+"opts": [
+"Xristofor Kolumb",
+"Vasko da Gama",
+"Genrix Dengizchi",
+"Fernando Magellan"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "XIII asr boshlarida Xorazmshohlar davlatining chegaralari qaysi hududlargacha borib yondashar edi?",
+"opts": [
+"1-d, 2-b, 3-c, 4-a",
+"1-b, 2-c, 3-d, 4-a",
+"1-c, 2-a, 3-b, 4-d",
+"1-d, 2-a, 3-c, 4-b"
+],
+"ans": "D",
+"extra": "1) janubi-g’arbiy chegarasi;\n2) shimoli-g’arbiy va g’arbiy chegarasi;\n3) janubi-sharqiy chegarasi;\n4) shimoli-sharqiy chegarasi;\na) Orol va Kaspiy dengizi sohillaridan;\nb) Yettisuv va Dashti Qipchoqdan;\nc) G’azna viloyatidan;\nd) Iroqqa qadar."
+},
+{
+"n": 19,
+"q": "Eron shohi ikkinchi jahon urushidan oldingi yillarda mamlakatda inglizlarning ta’sirini kamaytirish maqsadida qanday yo’l tutdi?",
+"opts": [
+"Germaniya bilan hamkorlikni kuchaytirdi",
+"AQSh bilan kelishuv yo’lini tutdi",
+"Turkiya bilan erkin savdoni yo’lga qo’ydi",
+"Sovet davlati bilan yaqinlashish yo’lidan bordi"
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Buxoroda Rossiya imperatori Yekaterina II ajratgan pul hisobiga barpo etilgan madrasani aniqlang.",
+"opts": [
+"Qulbobo Ko’kaldosh",
+"Nodir devonbegi",
+"Ernazar elchi",
+"Mir Arab"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Samarqand, Jizzax, Sirdaryo viloyatlari hududlarida O’zbekiston Respublikasi Qurolli Kuchlarining qaysi harbiy okrugi tashkil topgan?",
+"opts": [
+"Janubi-g’arbiy maxsus harbiy okrug",
+"Shimoli-g’arbiy harbiy okrug",
+"Markaziy harbiy okrug",
+"Sharqiy harbiy okrug"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Konstantinopolga asos solinganidan beri birinchi marta qaysi yilda dushman o`ljasiga aylangan edi?",
+"opts": [
+"1261-yil",
+"1204-yil",
+"1202-yil",
+"1453-yil"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Quyidagi voqealardan qaysi biri nisbatan ilgariroq sodir bo’lgan?",
+"opts": [
+"Abdulla Avloniy “Shuhrat” gazetasiga asos soldi;",
+"Orenburgdan Toshkentga qadar temiryo‘l qurib kelindi;",
+"Xudoybergan Devonov Xivaning minoralari va hamyurtlarini suratga ola boshladi;",
+"Munavvarqori Abdurashidxonov o‘lkadagi ijtimoiy- siyosiy, ma’rifiy harakatlarning faol ishtirokchisiga aylandi;"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Quyidagi voqealarni yillari bilan to’g’ri berilgan javobni toping.",
+"opts": [
+"1-a, 2-c, 3-b",
+"1-b, 2-a, 3-c",
+"1-a, 2-b, 3-c",
+"1-c, 2-b, 3-a"
+],
+"ans": "C",
+"extra": "1) Yaponiya Janubiy Saxalin hisobiga Kuril orollarini Rossiyadan ajratib, o’ziga qo’shib oldi;\n2) Koreya yaponlar uchun «ochiq» mamlakat deb e’lon qilindi;\n3) Yaponiya Xitoyning noroziligiga qaramay Ryukyu orolini bosib oldi.\na) 1875-yil    b) 1876-yil   c) 1879-yil"
+},
+{
+"n": 25,
+"q": "1451-yilda Abulxayrxon va Mirzo Abdullo qo‘shinlari o‘rtasidagi jang bo’lib o’tgan joyni aniqlang.",
+"opts": [
+"Zarafshon daryosi bo‘yida",
+"Qizilravot mavzeyida",
+"Bulung‘ur anhori yoqasida",
+"Damashq qishlog‘i yaqinida"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Xiva xonligida qo’shbegi lavozimidagi amaldorga qanday vazifalar yuklangan? (XVIII – XIX asr boshlari)",
+"opts": [
+"3, 4, 5",
+"1, 3, 5",
+"1, 2, 6",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) xonning maxfiy maslahatchisi bo’lgan;\n2) maxfiy hujjatlar saqlanishi uchun javobgar bo’lgan;\n3) qo’shinning holati uchun javobgar bo’lgan;\n4) soliqlarning davlat xazinasiga tushishini ta’minlagan;\n5) moliya ishlari uchun javobgar bo’lgan;\n6) zarur bo’lganda elchilik vazifasini bajargan."
+},
+{
+"n": 27,
+"q": "Quyidagi olimlarni amalga oshirgan kashfiyotlari bilan mos ravishda berilgan javobni aniqlang.",
+"opts": [
+"1-c, 2-b, 3-a, 4-d",
+"1-c, 2-d, 3-b, 4-a",
+"1-b, 2-a, 3-c, 4-d",
+"1-a, 2-b, 3-d, 4-c"
+],
+"ans": "B",
+"extra": "1) U. Kurks;\n2) V. Galvane;\n3) P. Lebedev;\n4) J. Tomson.\na) katod nurlari manfiy zaryadli zarrachalar – elektronlar oqimi ekanligini aniqladi;\nb) yorug’likning elektromagnit nazariyasini isbotladi;\nc) siyraklashtirilgan havodagi katod nurlarini kashf etdi;\nd) manfiy zaryadlangan metal plastinka yoy lampa nuri bilan yoritilganda o’z zaryadini yo’qotishini isbotladi."
+},
+{
+"n": 28,
+"q": "Quyidagi fizik olimlardan kimlar lazer-nurning mutlaqo yangi turini yaratganliklari uchun Nobel mukofotiga sazovor bo’lishgan?",
+"opts": [
+"2, 3, 5",
+"2, 3, 4",
+"1, 2, 4",
+"1, 4, 5"
+],
+"ans": "D",
+"extra": "1) N.Basov;\n2) D.Kilbi;\n3) R.Noys;\n4) A.Proxorov;\n5) Ch.Tauns."
+},
+{
+"n": 29,
+"q": "O‘zbekiston SSRning quyidagi qaysi rahbari paxta xarid narxini oshirishni Markaz oldiga qo’yib buni uddalagan edi?",
+"opts": [
+"Sobir Kamolov",
+"Nuriddin Muhiddinov",
+"Usmon Yusupov",
+"Amin Niyozov"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "O’zbekistonda islom olamida o‘chmas iz qoldirgan quyidagi allomalarni yubileyi keng nishonlangan yilni yoshi bilan to‘g‘ri ko‘rsating.",
+"opts": [
+"I. 2-a; II. 1-c; III. 3-b",
+"I. 1-b; II. 2-a; III. 3-c",
+"I. 2-c; II. 1-b; III. 3-a",
+"I. 1-b; II. 2-c; III. 3-a"
+],
+"ans": "C",
+"extra": "I. Mahmud az-Zamaxshariy;\nII. Burhoniddin al-Marg‘inoniy;\nIII. Abduxoliq G’ijduvoniy.\n1) 2000-yil;\n2) 1995-yil;\n3) 2003-yil.\na) 900 yilligi;  b) 910 yilligi;  c) 920 yilligi."
+}
+]
+}

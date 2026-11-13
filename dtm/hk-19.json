@@ -1,0 +1,347 @@
+{
+"id": "hk-19",
+"items": [
+{
+"n": 1,
+"q": "Bir davrda sodir boʻlgan voqealarni belgilang.",
+"opts": [
+"1, 2, 3",
+"2, 3, 4",
+"2, 3, 6",
+"4, 5, 6"
+],
+"ans": "D",
+"extra": "1) Rim respublika deb yuritila boshlandi;\n2) Misr yana yagona davlatga birlashdi, mamlakat iqtisodiyoti va madaniyatida  yuksalish boshlandi;\n3) Yangi Bobil podsholigi  vujudga keldi;\n4) poytaxti Tushpa shahri boʻlgan  davlat gullabyashnadi;\n5) “Avesto”ning ilk paydo  boʻldi;\n6) Temirdan  yasalgan  ilk  mehnat  qurollari  O‘rta Osiyodan topilgan."
+},
+{
+"n": 2,
+"q": "Afinada  mansabdor  shaxs  o`z majburiyatlarini ijrosini  uddalay  olmasa  …  bu  odamni muddatidan oldin lavozimidan bo`shatgan.",
+"opts": [
+"Beshyuzlar kengashi",
+"Xalq tribunali",
+"Xalq majlisi",
+"Senat"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Muqanna haqida  tаriхiy-аdаbiy оchеrk(a) va drama(b) yozgan shaxslarni aniqlang.",
+"opts": [
+"a-5 va b-2",
+"a-2 va b-4",
+"a-1 va b-3",
+"a-1 va b-5"
+],
+"ans": "A",
+"extra": "1) Maqsud Shayxzoda 2) Hamid Olimjon\n3) Abdulla Qodiriy  4) Oybek 5) Sаdriddin Аyniy"
+},
+{
+"n": 4,
+"q": "Quyidagilarni to'g'ri belgilang? 1. Kidariylar  2. Xioniylar   3. Eftallar",
+"opts": [
+"1-b, 2-a, 3-c",
+"1-a, 2-b, 3-c",
+"1-b, 2-c, 3-a",
+"1-a, 2-c, 3-b"
+],
+"ans": "B",
+"extra": "a)  poytaxti Balx shahri bo’lgan;\nb) Davlatning markazi Zarafshon bo'lgan;\nc) Dastlabki poytaxti Buxoro yaqinidagi Poykant va Varaxsha bo'lgan;"
+},
+{
+"n": 5,
+"q": "O’rta asrlarda Qutbiddin Sadr madrasasi qaysi shaharda joylashgan?",
+"opts": [
+"Buxoro",
+"Xorazm",
+"Hirot",
+"Samarqand"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "Bir yilda yuz bergan voqealarni toping",
+"opts": [
+"1, 2",
+"1, 3",
+"1, 2, 4",
+"1, 3, 5"
+],
+"ans": "B",
+"extra": "1) ”Papalarning Avinon tutquni” tugadi;\n2) Angliyada jon solig’i 3 baravar oshirildi;\n3) Angliyada qo’shimcha jon solig’i joriy etildi;\n4) Franchesko Petrarka vafot etdi;\n5) Voje daryosi bo’yida ruslar mo’g’ullarni yengdi;"
+},
+{
+"n": 7,
+"q": "O’z siyosatini Bretan va Anju gersoglarini bo’ysundirishdan boshlagan Fransiya qirolini aniqlang.",
+"opts": [
+"Lyudovik XI",
+"Karl VIII",
+"Filipp IV",
+"Lyudovik VI"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Novgorod knyazi Aleksandr Yaroslavich kimlarga qarshi janglar olib borgan.",
+"opts": [
+"1, 3",
+"2, 3",
+"2, 4",
+"1, 4"
+],
+"ans": "C",
+"extra": "1) mo’g’ul  2) nemis  3) est va lit qabilalari 4) shved"
+},
+{
+"n": 9,
+"q": "Toshkentda to’rt hokimlik davri tugatilgan vaqtda Buxoro amiri bo’lgan shaxsni aniqlang.",
+"opts": [
+"Shohmurod",
+"Doniyolbiy otaliq",
+"Amir Haydar",
+"Muhammad Rahimbiy"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Qo‘qon xonligi maktabxonalarida . . . o‘quvchi “xati chiqqan” hisoblangan.",
+"opts": [
+"kalimai shahodat va toyibani yod olgan",
+"“Haftiyak”ni to‘liq o‘rgangan",
+"duoyi salomni yoza olgan",
+"“Qur’oni Karim”ni qiynalmay o‘qiy olgan"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Shayboniylar (a), ashtarxoniylar (b), mang‘itlar (c) davrida Xondan keyingi o‘rinda turuvchi lavozimlar qanday atalgan?",
+"opts": [
+"a-qo‘shbegi, b-otaliq, c-devonbegi",
+"a-devonbegi, b-otaliq, c-qo‘shbegi",
+"a-qo‘shbegi, b-devonbegi, c-otaliq",
+"a-devonbegi, b-qo‘shbegi, c-otaliq"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Quyidagilardan qaysi biri Yangi davr sivilizatsiyasining buyuk yutug’i bo’lgan.",
+"opts": [
+"savdo monopoliyalari vujudga kelishi;",
+"doimiy bozorlarni paydo bo’lishi;",
+"aksionerlik jamiyatlari tashkil topishi;",
+"zamonaviy banklarning paydo bo’lishi;"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Chinlar tomonidan XVII-XVIII asrlar davomida bo’ysundirilgan hududlarni aniqlang.",
+"opts": [
+"1, 3, 5, 6, 7",
+"1, 2, 3, 4, 5",
+"2, 3, 4, 5, 7",
+"2, 3, 4, 5, 6"
+],
+"ans": "C",
+"extra": "1) Nepal  2) Koreya  3) Qashqar  4) Vyetnam\n5) Birma  6) Tayvan  7) G’arbiy va Shimoliy Mo’g’uliston"
+},
+{
+"n": 14,
+"q": "“Shаrq mаsаlаsi” bu - ...",
+"opts": [
+"yirik dаvlаtlаr tоmоnidаn Хitоyni o’zаrо bo’lib оlish mаsаlаsi;",
+"Buyuk Britаniya, Frаnsiya, Аvstriya vа Rоssiyaning zаiflаshib qоlgаn Usmоniylаr dаvlаtigа qаrаshli hududlаrni qo’lgа kiritish mаsаlаsi;",
+"yirik dаvlаtlаrning Yapоniyani “оchish” mаsаlаsi;",
+"Buyuk Britаniya, Frаnsiya vа Аvstriya o’rtаsidа Bоlqоn yarim оrоli mаsаlаsidаgi ziddiyatlаr;"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Toshkentda xalq kutubxonasi ochilgan yili …",
+"opts": [
+"1, 2, 3",
+"2, 3",
+"2, 4",
+"1, 2, 4"
+],
+"ans": "C",
+"extra": "1) O‘rta Osiyo olimlar jamiyati vujudga keldi;\n2) “Turkistanskiy vedomosti”ning birinchi soni chiqdi;\n3) arxeolog olim V.Vyatkin tug‘ildi;\n4) Turkiston general-gubernatori taklifi bilan Samara teatri o‘lkada gastrol safarida bo‘ldi."
+},
+{
+"n": 16,
+"q": "Buxoro amirligida qaysi lavozim ahamiyati va mavqeyi jihatidan qo’shbegidan keyingi o‘rinda turgan?",
+"opts": [
+"Devonbegi",
+"Bosh qozi",
+"Ko‘kaldosh",
+"Mehtar"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "1917-yil Buxoro amirining e’lon qilgan farmonidan qoniqmagan holda islohotlarni yanada chuqurlashtirish tarafdori bo’lgan radikal harakat vakillarini aniqlang.",
+"opts": [
+"2, 4, 6",
+"1, 3, 5",
+"1, 3, 4",
+"2, 4, 5"
+],
+"ans": "C",
+"extra": "1) Abdurauf Fitrat  2) Mirzo G’ulom\n3) Usmon Xo’ja   4) Fayzulla Xo’jayev\n5) Sadriddin Ayniy  6) Mahmudxo’ja Behbudiy"
+},
+{
+"n": 18,
+"q": "Quyidagilardan qaysi voqea nisbatan uzoqroq davom etgan?",
+"opts": [
+"AQShda “taraqqiyparvar davr”;",
+"Germaniyada sotsialistlarga qarshi kurash;",
+"AQShga 25 million odam ko‘chib kelgan davr;",
+"AQShda fermerlar soni 3 marta ko‘payishi;"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Quyidagi monopoliyalar qaysi davlatlarda tashkil topganligi to’g’ri ko’rsatilgan javobni belgilang.",
+"opts": [
+"1-c, 2-d, 3-a, 4-b",
+"1-d, 2-b, 3-b, 4-c",
+"1-d, 2-c, 3-b, 4-a",
+"1-c, 2-b, 3-a, 4-d"
+],
+"ans": "A",
+"extra": "1) Reyn-Vestfaliya sindikati;\n2) “Med” jamiyati;\n3) “Fiat” aksiyadorlik jamiyati;\n4) “Po’lat korporatsiyasi” tresti;\na) Italiya   b) AQSh   c) Germaniya   d) Rossiya."
+},
+{
+"n": 20,
+"q": "Yaponiya va Xitoy o’rtasida Simonoseki shartnomasi imzolangan yilda Kuba tarixida bo’lib o’tgan voqeani aniqlang.",
+"opts": [
+"AQSH majburan shartnoma qabul qildirdi;",
+"Xose Marti va Maksimo Gomes boshchiligida ispanlarga qarshi qo’zg’alon ko’tarildi;",
+"Qulchilik bekor qilindi;",
+"Mustaqil deb e’lon qilindi;"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "SSSRda 1933-yilgi dahshatli ocharchilikda Ukraina, Kuban, Volgabo‘yi, Qozog‘istonda jami qancha kishi ochlikdan vafot etgan.",
+"opts": [
+"7 mln.dan ortiq",
+"9 mln.ga yaqin",
+"15 mln.ga yaqin",
+"12 mln.dan ortiq"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Quyidagi tarixiy voqealarni ular sodir bo‘lgan yillar bilan muvofiqlashtiring.",
+"opts": [
+"1-b, 2-a, 3-d, 4-c",
+"1-c, 2-d, 3-b, 4-a",
+"1-a, 2-d, 3-b, 4-c",
+"1-a, 2-d, 3-c, 4-b"
+],
+"ans": "D",
+"extra": "1) Fransiyada sanoat va qishloq xo'jalik mahsulotlari ishlab chiqarish hajmi urushdan oldingi darajasining yarmiga ham yetmadi;\n2) Buyuk Britaniyada Uiniston Cherchill bosh vazir lavozimini egalladi;\n3) Buyuk Britaniya NATOga a’zo bo'lib kirgan;\n4) Fransiyada Yevropadagi eng demokratik qonunlardan biri kuchga kirdi;\na) 1945-yil b) 1946-yil c) 1949-yil d) 1951-yil"
+},
+{
+"n": 23,
+"q": "Samarqand viloyatidagi istiqlolchilarga 1918–1923yillarda qaysi mashhur qo‘rboshilar rahbarlik qilgan.",
+"opts": [
+"Islom Polvon va Yormat Maxsum",
+"Hamroqulbek va Shahriyor",
+"Bahrombek va Ochilbek",
+"Salimbek va Muxtorjon"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Amir Olimxon qanday maqsadda amirlik poytaxtini tashlab Buxoroning sharqiy tomoniga chekinadi?",
+"opts": [
+"o‘z jonini omon saqlash maqsadida",
+"sharqiy hududlarni qizil armiyadan himoya qilish maqsadida",
+"oila a’zolarini chegaradan chet elga chiqarib yuborish maqsadida",
+"shahar obidalari va aholini omon saqlash maqsadida"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Sovet hokimiyatining dastlabki o‘n yilliklarida O‘zbekistonda imlo necha marta o‘zgartirildi.",
+"opts": [
+"3 marta",
+"2 marta",
+"1 marta",
+"4 marta"
+],
+"ans": "A"
+},
+{
+"n": 26,
+"q": "Mustaqillik yillarida Latviyada hokimiyat tepasiga kelgan yangi siyosiy kuchlar mamlakatda qaysi sohani rivojlantirishga qaror qildilar?",
+"opts": [
+"qishloq xo’jaligi",
+"bank sektori va logistika",
+"og‘ir sanoat",
+"yengil sanoat"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Tojikistonda fuqarolar urushi nihoyasiga yetganidan so’ng hukumat qaysi davlatlar bilan hamkorlik qilib, mamlakat iqtisodiyotini tiklashga kirishadi?",
+"opts": [
+"Rossiya va Belorussiya",
+"Rossiya, Xitoy va Eron",
+"Rossiya, Turkiya va Ozarvayjon",
+"Xitoy, Yaponiya"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "2017-yil may oyida O‘zbekiston Prezidenti Shavkat Mirziyoyev qaysi shaharda bo‘lib o‘tgan sammitda ishtiroki doirasida Tojikiston Prezidenti Imomali Rahmon bilan ilk bor uchrashdi?",
+"opts": [
+"Ar-Riyod",
+"Moskva",
+"Toshkent",
+"Dushanbe"
+],
+"ans": "A"
+},
+{
+"n": 29,
+"q": "O’zbekistonda faoliyat ko‘rsatgan quyidagi siyosiy partiyalarni ular tashkil topgan vaqti bilan berilgan to‘g‘ri javobni toping.",
+"opts": [
+"1-a, 2-d, 3-c, 4-b",
+"1-d, 2-c, 3-b, 4-a",
+"1-d, 2-a, 3-b, 4-c",
+"1-d, 2-a, 3-c, 4-b"
+],
+"ans": "C",
+"extra": "1) O’zbekiston Liberal-demokratik partiyasi;\n2) Xalq demokratik partiyasi;\n3) Milliy tiklanish demokratik partiyasi;\n4) “Adolat” sotsial-demokratik partiyasi;\na) 1991-yil noyabr; b) 1995- yil iyun;\nc) 1995-yil fevral;  d) 2003-yil noyabr."
+},
+{
+"n": 30,
+"q": "Puni urushlarining kelib chiqishiga sabab bo‘lgan hudud (orol) xaritada nechanchi raqam bilan berilgan?",
+"opts": [
+"4",
+"1",
+"3",
+"2"
+],
+"ans": "B",
+"img": "img/dtm/hk-19-30.jpg"
+}
+]
+}

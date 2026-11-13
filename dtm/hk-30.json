@@ -1,0 +1,342 @@
+{
+"id": "hk-30",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi sivilizatsiyada kishilarning ijtimoiy holati uning tug’ilish omili, ya’ni ota-onasining jamiyatdagi o’rni bilan belgilanadi?",
+"opts": [
+"Xitoy sivilizatsiyasi",
+"Yapon sivilizatsiyasi",
+"Islom sivilizatsiyasi",
+"Hind sivilizatsiyasi"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "XIX asr o’rtalarida Buxoro amirligi sharqda qaysi hudud bilan chegaradosh bo’lgan?",
+"opts": [
+"Xiva xonligi",
+"Pomir tog’lari",
+"Qozoq juzlari",
+"Kaspiy dengizi"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Rossiyaning  tashqi qarzi 130 mlrd dollardan oshib ketgan yilda qaysi davlat ASEAN ga a’zo bo’lib kirgan?",
+"opts": [
+"Kambodja",
+"Laos",
+"Vyetnam",
+"Malayziya"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "Qadimda qaysi O’rta Osiyo davlati iqtisodining gullab-yashnashiga uning hududidan Buyuk Ipak yo’lining shimoliy tarmog’ining o’tganligi ta’sir ko’rsatgan?",
+"opts": [
+"Kushon",
+"Xorazm",
+"Qang’",
+"Farg’ona"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Yevropada sexlarning tabaqalanishi qaysi shaharlardan boshlangan? 1.Milan  2. Florensiya  3.Kyoln  4. Siena  5. Parij       6. Bazel  7.London  8.Perudja  9. Bristol",
+"opts": [
+"2, 4, 7, 8",
+"1, 3, 5, 7, 9",
+"2, 5, 6, 7, 9",
+"1, 5, 7, 9"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a, c; II-b, d; III-e",
+"I-b, a; II-d, e; III-c",
+"I-a, e; II-b, d; III-c",
+"I-b, d; II-a, c; III-e"
+],
+"ans": "C",
+"extra": "a) Madrasa talabalariga ma’ruzalar o‘qigan;\nb) «Sarbozxona» deb nomlangan manzilgoh qurdirdi;\nc) Rossiya-Buxoro munosabatlari davom etdi;\nd) Shahrisabz va Kitob bekliklarini bo‘ysundirdi;\ne) Xiva xonligi hujumiga uchradi.",
+"img": "img/dtm/hk-30-6.jpg"
+},
+{
+"n": 7,
+"q": "Qulbobo Ko’kaldosh madrasasi qaysi shaharda joylashgan?",
+"opts": [
+"Buxoro",
+"Samarqand",
+"Hirot",
+"Xo’jand"
+],
+"ans": "A"
+},
+{
+"n": 8,
+"q": "Quyidagi  voqealarning  yuz  bergan  yiliga  qarab to’g’ri moslang.",
+"opts": [
+"1-d,2-c,3-a,4-b",
+"1-d,2-c,3-b,4-a",
+"1-d,2-a,3-c,4-b",
+"1-a,2-b,3-d,4-c"
+],
+"ans": "A",
+"extra": "1) Mas’udbek  tomonidan  pul  islohoti  o’tkazildi.\n2) Tug’luq  Temur  Mo’g’uliston  xoni  etib  ko’tarildi.\n3) Chig’atoy  ulusida  Kebekxonning  hukmronlik  davri boshlandi.\n4) Mahmud  Tarobiy  qo’zg’oloni  yuz  berdi.\na) 1318-yil  b) 1238-yil  c) 1348-yil  d) 1271-yil"
+},
+{
+"n": 9,
+"q": "“95 tezislar” deb ataluvchi da’vati uchun M.Lyuterning Rim papasi qaysi shahar sudiga chaqirgan?",
+"opts": [
+"Kyoln",
+"Vorms",
+"Strasburg",
+"Ulm"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "Buyuk Britaniyada 1911-yilgi parlament islohotlari to`g`ri berilgan javobni aniqlang. 1. Jamoalar palatasi bir qonun loyihasini 3 marta ma`qullasa u Lordlar Palatasi tomonidan tasdiqlanmasa ham qonun kuchga ega bo`ladigan bo’ldi 2. Parlamentning vakolati 5 yil etib belgilandi 3. Deputatlarga maosh joriy etildi 4. Lordlar palatasi moliya masalalarini hal etishdan chetlatib qo`yildi 5. Alohida uyiga ega bo`lgan erkakarga saylov huquqi berildi 6.Cherkov davlatdan maktab cherkovdan ajratildi",
+"opts": [
+"1, 2, 4, 5",
+"1, 2, 3, 4, 5",
+"1, 2, 3, 4",
+"1, 2, 4, 6"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Xitoy Jahon Savdo tashkilotiga a’zo bo’lib kirgan yilda Yaponiyada hokimiyatga kim kelgan?",
+"opts": [
+"Sindzo Abe",
+"R. Xasimoto",
+"J.Koidzumi",
+"T. Kayfu"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Qayerda shakllangan taraqqiyparvarlik harakati boshqacharoq tarixiy shart-sharoitda vujudga kelgan bo’lib, jadidchilik harakati ikkita oqimdan iborat edi?",
+"opts": [
+"Xiva",
+"Turkiston",
+"Buxoro",
+"Toshkent"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": "Hamma narsa atomlardan tuzilgan deb aytgan yunon faylasufi Demokritning tug’ilgan shahri qadimda qayerda joylashgan edi?",
+"opts": [
+"O’rtayer dengizi g’arbida",
+"Boltiq dengizining sharqida",
+"Qora dengiz bo’yida",
+"Bolqon yarimorolining sharqida"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "14. V asr oxiri-VI asr boshlarida quydagi qaysi viloyatlarda hashamatli binolari bo’lgan alohida-alohida qo’rg’onlar yuzaga kelgan?",
+"opts": [
+"Samarqand, Buxoro, Xorazm, Naxshab",
+"Poykand, Vardona, Samarqand, Xorazm",
+"Buxoro, Poykand, Kesh, Samarqand",
+"Xorazm, So’g’diyona, Choch, Baqtriya"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "To’g’ri javobni toping.",
+"opts": [
+"Ioanniylar diniy-ritsarlik ordeni xayriya va in’omlar olishdan tashqari sudxo’rlik bilan ham shug’ullangan.",
+",,Buyuk ozodlik xartiyasi’’ ning asosiy moddalari baronlar va ritsarlarning manfaatini ifodalagan.",
+"Hindistonda in’om etilgan yer maydoni patta deb nomlangan.",
+"Inkvizitsiya papa Grigoriy IX davrida o’z qudratining cho’qqisiga erishadi."
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Qachon AQSH Kongressi Janubdagi isyonchilarga umumiy afv berish to`g`risida qonun qabul qildi?",
+"opts": [
+"1868-yilda",
+"1877-yilda",
+"1872-yilda",
+"1894-yilda"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi voqealarni sodir bo’lgan vaqti bilan to‘g‘ri moslashtirilgan  javobni toping ?",
+"opts": [
+"1-a, 2-b, 3-c, 4-d",
+"1-b, 2-a, 3-c, 4-d",
+"1-a, 2-d, 3-b, 4-c",
+"1-b, 2-a, 3-d, 4-c"
+],
+"ans": "D",
+"extra": "1) 1930-yil  2) 1932-yil  3) 1939-yil  4) 1931-yil\na) Qishloq xo‘jaligini kollektivlashtirish rasman tugallandi\nb) Kompartiya Markaziy Komiteti “Kollektivlashtirish va quloq xo‘jaliklarini tugatish to‘g‘risida” qaror qabul qildi\nc) Yalpi jamoalashtiriladigan tumanlar qaytadan tuzildi\nd) Yakka dehqon xo‘jaliklariga butkul barham berildi.",
+"img": "img/dtm/hk-30-17.jpg"
+},
+{
+"n": 18,
+"q": "1940-yillar oxiridayoq uyali telefonlarni yaratish ustida ish boshlagan Televerket kompaniyasi qaysi davlatda joylashgan?",
+"opts": [
+"SSSR",
+"AQSH",
+"Buyuk Britaniya",
+"Shvetsiya"
+],
+"ans": "D"
+},
+{
+"n": 19,
+"q": "Qaysi Qo’qon xoni davrida Buxoro tasarrufida bo’lgan Xo’jand va O’ratepa viloyatlari qo’shib olingan?",
+"opts": [
+"Xudoyorxon",
+"Abdurahimbiy",
+"Olimxon",
+"Shoxruxbiy"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Quyidagi asarlarning mualliflarini aniqlang?",
+"opts": [
+"1-b,2-c,3-a,4-e,5-d",
+"1-c,2-d,3-e,4-b,5-a",
+"1-c,2-d,3-b,4-a,5-e",
+"1-b,2-c,3-a,4-e,5-d"
+],
+"ans": "B",
+"extra": "1) ,,Qirol Lir”                2),, Girdob’’\n3) ,,Dengiz bo’risi’’\n4) ,,Sikstin Madonnasi”\n5) ,,Adashgan o’gilning qaytishi”\na) Rembrandt  b) Rafeal Santi\nc) Shekspir  d) Frenk Norris\ne) Jek London"
+},
+{
+"n": 21,
+"q": "Vashington konferensiyasi boshlangan (a)  va tugagan (b) yillarni aniqlang.",
+"opts": [
+"a-1921-yil 12-noyabr b-1922-yil 6-fevral.",
+"a-1919-yil18-yanvar b-1920-yil 21-yanvar.",
+"a-1914-yil 28-iyul b-1918-yil 11-noyabr.",
+"a-1919-yil 28-iyun b-1921-yil 6-fevral."
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Xiva xonligida iqtisodiy inqiroz boshlangan davrni toping.",
+"opts": [
+"XVIII asrning 70-yillari",
+"XVII asrning 60-yillari",
+"XVI asrning 70-yillari",
+"XVIII asrning 60-yillari"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Bir asrda yuz bergan voqealarni toping. 1. Movarounnahr mintaqasida yaxlit turkey etnik qatlam,turkey til muhiti vujudga kela boshladi. 2. O’rta Osiyodagi ilk ilmgoh – Farjak madrasasi qurildi. 3. Buxoroda ,, Faqihlar madrasasi’’ qurildi. 4. Buxoro ,,Qubbat ul-islom’’ nomi bilan shuhrat topdi. 5. ,,Bayt ul-hikma’’ tashkil etildi. 6. Buxoroda Naqshbandiya tariqati vujudga keldi.",
+"opts": [
+"2, 5, 6",
+"1, 3, 5",
+"1, 4, 5",
+"2, 3, 4"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Germaniya parlamentining quyi palatasi qanday nomlanadi?",
+"opts": [
+"Bundesrat",
+"Deputatlar palatasi",
+"Perlar",
+"Reyxstag"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Mardikorlikka olishga qarshi qaysi shaharda ko’tarilgan qo’zg’olonda 63 kishi otib o’ldirilgan?",
+"opts": [
+"Andijon",
+"Shahrixon",
+"Eski Marg’ilon",
+"Qo‘qon"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Quyidagilardan nisbatan ertaroq yuz bergan voqeani aniqlang.",
+"opts": [
+"Ikki nemis davlatini ajratib turgan Berlin devori quladi",
+"Eng mashhur siyosatchilardan biri Lex Valensa prezidentlik saylovida mag’lubiyatga uchradi",
+"Jahon xaritasida ikkita mustaqil davlat Chexiya va Slovakiya Respublikasi vujudga keldi",
+"Rossiya, Ukraina va Belarus rahbarlari yig’lib, SSSRni siyosiy birlik sifatida tugatilganligini va MDH tuzilganligini tasdiqladilar."
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Navoiy viloyatiga nechanchi yilda asos solingan?",
+"opts": [
+"1958-yil",
+"1982-yil",
+"1956-yil",
+"1961-yil"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "XIX asrning II yarmida Yaponiya tarixida yuz bergan voqeani toping.",
+"opts": [
+"Xristian dinini taqiqlovchi qonun qabul qilindi.",
+"Yaponiya qo’shini Koreya hududiga bostirib kirdi",
+"Imperator hokimiyati qayta tiklandi.",
+"Hukmdorlar mamlakatni chet elliklar uchun yopib qo’ydi."
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "«O‘zbek milliy akademik drama teatrining 100 yilligini nishonlash to‘g‘risida» qaror nechanchi yilda qabul qildi.",
+"opts": [
+"2010-yil",
+"2015-yil",
+"2014-yil",
+"2012-yil"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Xaritada yulduzcha bilan belgilangan hudud (davlat) bilan bog‘liq voqeani toping.",
+"opts": [
+"1867-yilda Tokugava sulolasi hukmronligi yakunlandi.",
+"1636-yilda manjurlar sardori Abaxay o‘zini xon deb atadi.",
+"1392-yilda hokimiyat tepasiga Li sulolasi keldi.",
+"1757-yilda Buyuk Britaniya unga tegishli Bengaliyani bosib oldi."
+],
+"ans": "B",
+"img": "img/dtm/hk-30-30.jpg"
+}
+]
+}

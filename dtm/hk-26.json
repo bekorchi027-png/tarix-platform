@@ -1,0 +1,338 @@
+{
+"id": "hk-26",
+"items": [
+{
+"n": 1,
+"q": "Hozirgi O’zbekiston hududida hunarmandchilik va savdoning  rivojlanishi natijasida qadimgi shaharlar rivojlangan davrda sodir bo`lgan voqeani toping.",
+"opts": [
+"Chjou davlatida markaziy hokimiyat zaiflasha boshladi",
+"Hindistonda Magadha, Koshala, Malla singari davlatlar vujudga keldi",
+"Hozirgi Eron hududida Fors podsholigi vujudga keldi",
+"Urartu davlati gullab-yashnadi."
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "So’g’diyona mill.avv VII asrda qaysi davlat ta’sirida bo’lgan?",
+"opts": [
+"Baqtriya",
+"Salavkiylar",
+"Ahamoniylar",
+"Parfiya"
+],
+"ans": "A"
+},
+{
+"n": 3,
+"q": "Quyidagi grafikda qaysi raqamlar ostida qadimgi davlat va xudolari bir-biriga muvofiq keladi? Venera Morfey Xatxor Anubis Yunoniston Misr Rim Mesopatamiya",
+"opts": [
+"2, 3, 5, 7",
+"1, 2, 5, 6",
+"2, 4, 6, 7",
+"1, 3, 4, 6"
+],
+"ans": "B",
+"img": "img/dtm/hk-26-3.jpg"
+},
+{
+"n": 4,
+"q": "Quyidagi asarlardan qaysi biri XII asrda lotin va ibroniy tillariga tarjima qilingan?",
+"opts": [
+",,Al-jabr val-muqobala’’",
+",,Al-qonun fit-tib’’",
+",,Samoviy harakatlar va umumiy ilmi nujum’’",
+",,Al-Kashshof’’"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Quyidagi qaysi asarda Amir Temurdan to Zahiriddin Muhammad Boburga qadar temuriylar shajarasi qisqacha sharhlangan?",
+"opts": [
+",,Dasturul amal’’",
+",,Firdavs ul-iqbol’’",
+",,Shayboniynoma’’",
+",,Boburnoma’’"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "Quyidagi Xiva xonligiga oid ma’lumotlardan faqat to’g’rilarini toping. 1. Xiva xonligida maxfiy davlat hujjatlarining saqlanishi uchun yasovulboshi javobgar bo’lgan. 2. Xiva xonligida katta nufuzga ega bo’lgan inoqlarning mavqeyi Olloqulixon davrida pasaya boshlagan. 3. Xonlikda ta’lim sohasi ishlari uchun muhtasib javobgar bo’lgan. 4. Xiva xonligida ilm-fan darajasi ma’muniy xorazmshohlar davri ilm-fani darajasi bilan tenglasha olmaydi. 5. Xiva xonligining Buxoro, Eron va Hindiston bilan savdo qiluvchi savdogarlari ,,buxorochi’’ deb atalgan. 6. Xonlik aholisining 26 % ini turkmanlar tashkil etgan.",
+"opts": [
+"1, 4, 5",
+"2, 3, 6",
+"1, 4, 6",
+"2, 3, 5"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Turkiston general-gubernatorligining qaysi viloyati 1882-yildan Step general-gubernatorligi tarkibiga qo’shilgan?",
+"opts": [
+"Farg’ona",
+"Kaspiyorti",
+"Samarqand",
+"Yettisuv"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Buxoro amiri Sayid Olimxon bilan bir yilda hokimyatga kelgan Xiva xonini toping.",
+"opts": [
+"Muhammad Rahimxon II",
+"Asfandiyorxon",
+"Said Abdulla",
+"Muhammad Aminxon"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "SSSR va Germaniya o‘rtasidagi \"Do‘stlik va chegaralar to‘g‘risida\"gi shartnomaga asosan qaysi hududlarni SSSR rasmiy o‘ziga qo‘shib oldi?",
+"opts": [
+"Latviya, Litva va Finlandiya",
+"Litva, Latviya va Estoniya",
+"Polsha va Moldava",
+"G‘arbiy Ukraina va G‘arbiy Belorusiya"
+],
+"ans": "D",
+"img": "img/dtm/hk-26-9.jpg"
+},
+{
+"n": 10,
+"q": "1917-yil noyabrda tuzilgan Turkiston o’lka Xalq Komissarlari Soveti haqidagi to’g’ri ma’lumotni toping. 1. Uning tarkibiga yevropaliklardan tashqari turkiy xalqlar vakillari ham kiritilgan. 2. XKS harbiy komissari qilib izvoshchi Ye. Perfilov saylandi. 3. Hukumatda 8 ta o’rin so’l eserlarga, 7 o’rin bolsheviklar bilan maksimalistlarga berildi. 4. XKS raisi lavozimini Vladimir Ilich Ulyanov egalladi. 5. Boshqa komissarlik lavozimlariga ham o’rtamiyona ma’lumot olgan kishilar tayinlandi. 6. Hukumat 9 kishidan iborat qilib tuzilgan.",
+"opts": [
+"1, 4, 6",
+"2, 3, 5",
+"1, 3, 5",
+"2, 4, 6"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "ShHTning oliy organi hisoblangan ,, Tashqi ishlar vazirlari Kengashi’’ nechanchi yilda tuzilgan?",
+"opts": [
+"2002-yil",
+"2001-yil",
+"2000-yil",
+"2004-yil"
+],
+"ans": "A"
+},
+{
+"n": 12,
+"q": "Bir yilda yuz bergan voqealarni toping.",
+"opts": [
+",,Umid’’jamg’armasi tashkil etildi – Madaniyat va san’at ko’rgazmasi ish boshladi.",
+"Markaziy Osiyo Hamdo’stligiga asos solindi - Milliy kurash bo’yicha ilk xalqaro musobaqa o’tkazildi.",
+"O’zbekiston Ekologik harakati tashkil etildi – Yurtimizda to’liq 12 yillik majburiy ta’lim joriy etildi.",
+",,Erkin iqtisodiy zonalar to’g’risida’’ gi qonun qabul qilindi - ,,O’zbeknavo’’ gastrol-konsert birlashmasi tashkil etildi."
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Oʻrta asrlarda sodir boʻlgan qaysi voqeadan soʻng Hindiston mayda knyazliklarga boʻlinib ketadi?",
+"opts": [
+"Sayyidlar sulolasini afgʻon qabilalari sardori taxtdan tushirgandan soʻng",
+"Muhammad Tugʻluqning har ikki islohati natijasiz tugashi oqibatida",
+"Hindistonning shimoliy hududlariga turk va afgʻon qabilalarining hujumlaridan soʻng",
+"Amir Temur Dehlini zabt etgandan soʻng"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "Oʻrta asrlarda qaysi davlat aholisining asosiy qismi qishloqlarda yashovchi jamoalatdan, jamoalar, oʻz navbatida, yirik patriarxal oilalardan tashkil topgan edi?",
+"opts": [
+"Asteklar",
+"Inklar",
+"Songai",
+"Mali"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Afrikaliklarni qul qilib sotish qachongacha davom etdi?",
+"opts": [
+"XIX asrgacha",
+"XIX asr oxirigagacha",
+"XVIII asr oxirlarigacha",
+"XIX asr o'rtalarigacha"
+],
+"ans": "D"
+},
+{
+"n": 16,
+"q": "Quyidagi shaxslarning qaysi biri boshqalariga nisbatan ko’proq yashagan?",
+"opts": [
+"Jon Lokk",
+"Jonatan Svift",
+"Tomas Mor",
+"Fransua Bushe"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Eron inqilobining ikkinchi davri yillari oralig’ida sodir bo’lgan voqealarni toping. 1. Xitoyda demokratik kuchlar Milliy partiya tuzdilar. 2. Bolgariya o’zini Usmonli davlatidan to’la mustaqil deb e’lon qildi. 3. Fransiyada pensiya haqida qonun qabul qilindi. 4. ,,Fiat’’ aksiyadorlik jamiyati tashkil topdi. 5. Meksikada hosil bo’lmaganligi tufayli dehqonlar g’alayon ko’tardi. 6. Birinchi rus inqilobi yuz berdi.",
+"opts": [
+"1,3,5",
+"2,5,6",
+"2,3,4",
+"1,4,6"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "E. Sapata va F.Vilya qurolli kuchlari Meksika poytaxti Mexiko shahrini egallagan yilda yuz bergan voqeani toping.",
+"opts": [
+"Ikkinchi Bolqon urushi boshlandi.",
+"Yuan Shikay Konstitutsiyaviy Kengash chaqirdi.",
+"Turkiyada ,,Hurriyat va birdamlik’’ partiyasi davlat to’ntarishi uyushtirdi.",
+"A. Eynshteyn nisbiylik nazariyasining asosiy g’oyalarini e’lon qildi."
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Nechanchi yilda Shimoliy Irlandiya muammosi yanada keskinlashgan va Buyuk Britaniya bu hududga qo’shin kiritgan?",
+"opts": [
+"1982-yil",
+"1959-yil",
+"1962-yil",
+"1969-yil"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Gelmut Kol kanslerlik yillari GFR da qanday tadbirlarni amalga oshirgan? 1. Soliqlar qisqartirildi davlat xarajatlari tartibga solindi. 2. Davlat sektorini keng xususiylashtirish. 3. Davlatning iqtisodga aralashuvini chekladi. 4. Davlatning biznesga aralashuvini kamaytirish. 5. Raqobatni rag’batlantirish.",
+"opts": [
+"1, 3, 5",
+"3, 4, 5",
+"1, 4, 5",
+"1, 2, 4"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Qaysi Iroq prezidenti BMT inspektorlarini AQSH foydasiga josuslik qilishda aybladi va barcha xalqaro inspektorlarni mamlakatdan quvib chiqardi?",
+"opts": [
+"Hasan al-Bakr",
+"B. Solih",
+"Saddam Husayn",
+"Bashar Asad"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Homid Karzay Afg’oniston prezidenti etib saylangan yilda quyidagi qaysi davlat Yevropa Ittifoqiga a’zo bo’lgan?",
+"opts": [
+"Estoniya",
+"Ruminiya",
+"Italiya",
+"Irlandiya"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "O’qtoy vafot etgan yilda quyidagi qaysi voqea sodir bo’lgan?",
+"opts": [
+"Aleksandr Yaroslavich Neva daryosi sohilidagi jangda shvedlar ustidan g’alaba qozonadi.",
+"Sakkizinchi salib yurishlari boshlangan.",
+"Mo’g’ullar Kiyevni bosib olgan.",
+"Saljuqiylar davlatiga mo’g’ullar bostirib kirgan."
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "Xalqaro huquqda urushda ko’rilgan zararni to’la yoki qisman qoplash uchun yengilgan davlat tomonidan g’olib davlatga to’lanadigan pul nima deb ataladi??",
+"opts": [
+"Repatriatsiya",
+"Separatizm",
+"Tovon",
+"Regregatsiya"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "Ikkinchi jahon urushidan so’ng fashist rahbarlari ustidan o’tkazilgan sud jarayoni qaysi shaharda bo’lib o’tgan?",
+"opts": [
+"Tokio",
+"Nyu York",
+"Nyurnberg",
+"Parij"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Quyidagi janglarni bo’lib o’tgan yillariga  qarab to’g’ri moslashtiring. 1. Lenyano jangi  2. Anqara jangi  3. Mansikert  jangi a. 1402-yil  b. 1071-yil  c.1176-yil",
+"opts": [
+"1-b,2-c,3-a",
+"1-a,2-c,3-b",
+"1-c,2-a,3-b",
+"1-a,2-b,3-c"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "XIX asr boshlarida qoraqalpoqlarda nechta maktab faoliyat ko’rsatgan?",
+"opts": [
+"350 ta",
+"250 ta",
+"318 ta",
+"357 ta"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "2011-yilda Qirg’iziston Respublikasi prezidentligiga saylangan Almazbek Atambayev qaysi partiya yetakchisi bo’lgan?",
+"opts": [
+"Demokratik partiya",
+"Liberal-demokratik partiya",
+"Sotsial-demokratik partiya",
+",,Xalq harakati uchun ittifoq‘‘ partiyasi"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Qaysi asarda inson va uning ijtimoiy mohiyati, hayotdagi o’rni va vazifasi har tomonlama tahlil qilinadi?",
+"opts": [
+",,Hibat ul-haqoyiq‘‘",
+",,Hikmatlar‘‘",
+",,Qutadg’u bilig’’",
+",,Hidoya’’"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "XIX asrning oxirgi choragida Afrikada mustamlaka bosqini yanada kuchayib, xaritada 2 va 3-raqamlar ostida berilgan hududlarni birlashtirishni kimlar o‘z rejasiga kiritgan edi?",
+"opts": [
+"fransuzlar",
+"portugallar",
+"inglizlar",
+"gollandlar"
+],
+"ans": "B",
+"img": "img/dtm/hk-26-30.jpg"
+}
+]
+}

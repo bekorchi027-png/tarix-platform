@@ -1,0 +1,349 @@
+{
+"id": "hk-11",
+"items": [
+{
+"n": 1,
+"q": "1. Quyida berilgan tarixchilardan qaysi biri yunon-rim sarkardalari hayoti haqida kitob yozib qoldirgan?",
+"opts": [
+"Tatsit",
+"Tit Liviy",
+"Kvint Kurtsiy Ruf",
+"Plutarx"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "2. Quyidagilardan Qadimgi Rim tarixiga oid bo’lganlarini belgilang.",
+"opts": [
+"2, 4, 6",
+"1, 2, 4",
+"1, 3, 5",
+"3, 5, 6"
+],
+"ans": "D",
+"extra": "1) agora;\n2) demokratiya;\n3) akveduk;\n4) Parfenon;\n5) Panteon;\n6) forum"
+},
+{
+"n": 3,
+"q": "Quyidagi qaysi voqea Meksika rahbarlarini ijtimoiy sohaga jiddiy e’tibor qaratishga undadi?",
+"opts": [
+"Jahon iqtisodiy inqirozi",
+"Argentinada defolt e’lon qilinishi",
+"Kuba inqilobi",
+"Hindularning ommaviy qo’zg’oloni"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "4. To‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"1998-yilda O‘zbekiston va Qirg’iziston o‘rtasida abadiy do‘stlik shartnomasi imzolandi",
+"2013-yilda O‘zbekiston va Qozog‘iston o‘rtasida Strategik sheriklik to‘g‘risidagi shartnoma imzolandi",
+"Yurtimizda1992-yilda Respublika turkman madaniyat markazi tashkil etildi",
+"2016-yilda Tojikistonda ilk bor O‘zbekiston madaniyati kunlari o‘tkazildi"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "5. Butun Yevropada kapitalistik munosabatlarning hukmron tartibga aylanishini boshlab bergan jarayonni aniqlang.",
+"opts": [
+"Buyuk geografik kashfiyotlar",
+"Angliya burjua inqilobi",
+"Buyuk fransuz burjua inqilobi",
+"Reformatsiya"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "6. XIX asr oxiri - XX asr boshlarida Lotin Amerikasida qaysi davlat ichki kurashlar natijasida holdan toyib, AQShga qaram bo’lib qolgan?",
+"opts": [
+"Gonduras",
+"Gvatemala",
+"Kosta-Rika",
+"Nikaragua"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "7. Buxoroda ashtarxoniylar hukmronligi davrida qaysi omillar natijasida xonlikning iqtisodiy taraqqiyoti tobora pasayib bordi?",
+"opts": [
+"2, 4",
+"1, 4",
+"2, 3",
+"1, 3"
+],
+"ans": "C",
+"extra": "1) Xiva xonlarining talonchilik yurishlari;\n2) markaziy hokimiyatning nihoyatda kuchsiz bo’lib qolishi;\n3) siyosiy parokandalik yuz berganligi;\n4) o’zaro qabilaviy nizolar"
+},
+{
+"n": 8,
+"q": "8. XX asr oxiri – XXI asr boshlaridagi xalqaro munosabatlarning muhim omiliga aylangan jarayonlarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 5",
+"1, 3, 4",
+"2, 3, 5"
+],
+"ans": "A",
+"extra": "1) Germaniyaning birlashishi;\n2) Mustamlaka tizimining qulashi;\n3) G‘arb davlatlaridagi integratsiyalashuv jarayonlari;\n4) Sotsialistik lager bilan G‘arb mamlakatlari o‘rtasidagi global qarama-qarshilik;\n5) Sobiq sotsialistik lager mamlakatlaridagi qiyinchiliklar"
+},
+{
+"n": 9,
+"q": "9. Respublikamizda qachondan boshlab import o‘rnini bosuvchi mahsulotlar ishlab chiqarish hamda ishlab chiqarishni mahalliylashtirish dasturi amalga oshirila boshlandi?",
+"opts": [
+"2001-yildan",
+"2002-yildan",
+"2008-yildan",
+"2009-yildan"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "10. XX asrning ikkinchi yarmidagi ilmiy-texnik inqilobning asosiy belgilarini toping.",
+"opts": [
+"1, 4, 5",
+"2, 3, 5",
+"1, 2, 3",
+"2, 4, 5"
+],
+"ans": "B",
+"extra": "1) yadro energiyasining kashf qilinishi;\n2) tabiiy va sintetik materiallardan tovarlarni ommaviy ishlab chiqarish;\n3) mashinalardan keng foydalanish;\n4) ishlab chiqarish jarayonidan inson omilining siqib chiqarilishi;\n5) ishlab chiqarishning konveyerli liniyalarini, zavodavtomatlarni va sanoat robotlarini yaratish"
+},
+{
+"n": 11,
+"q": "11. Chingizxon qaysi elchilik orqali Xorazmshoh Muhammadni G’arbning sohibqironi, o’zini esa Sharqning podshosi deb hisoblashini Xorazmshohga yetkazishlarini so’raydi?",
+"opts": [
+"Mahmud Yalavoch elchiligi",
+"Ibn Kafroj Bug’ro elchiligi",
+"Bahouddin Roziy elchiligi",
+"Qoracha Hojib boshchiligidagi elchilik"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "12.  XIX asr oxiri XX asr boshlarida Xiva xonligidagi dehqonlarning chiqishlari stixiyali isyonlar tarzida bo’lib, quyidagi qaysi holatlar bilan kechgan?",
+"opts": [
+"1, 3, 4",
+"2, 3, 6",
+"1, 2, 5",
+"2, 5, 6"
+],
+"ans": "A",
+"extra": "1) amaldorlarning uylarini vayron qilish;\n2) amaldorlarni oila a’zolari bilan qirib tashlash;\n3) qarz tilxatlarini yirtib tashlash;\n4) soliq yig’uvchilarni quvib yuborish;\n5) zodagonlarni haydab yuborish;\n6) zamindorlarning yerlarida ishlashdan bosh tortish"
+},
+{
+"n": 13,
+"q": "13. Sobiq Ittifoq davrida qaysi shaharlar mahalliy hokimiyatga bo’ysunmagan va “yopiq shaharlar” deb atalgan?",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 4, 6",
+"2, 3, 5"
+],
+"ans": "A",
+"extra": "1) Navoiy;\n2) Bekobod;\n3) Uchquduq;\n4) Chirchiq;\n5) Zarafshon;\n6) Olmaliq;"
+},
+{
+"n": 14,
+"q": "14. XVI-XVIII asrlarda Koreya madaniyatiga oid to’g’ri ma’lumotlar ko’rsatilgan javobni toping.",
+"opts": [
+"1, 3, 5",
+"2, 3, 6",
+"1, 3, 6",
+"2, 4, 6"
+],
+"ans": "C",
+"extra": "1) Tasvriy san’atda Xitoyning peyzaj usuli kirib keldi;\n2) Tasviriy san’at akademiyasi qayta tiklandi;\n3) Xalq og’zaki ijodi adabiyot maqomini oldi va yozma adabiyot sifatida ham davom ettirildi;\n4) Poeziyada xokku janri keng tarqaldi;\n5) Budda ibodatxonasi hisoblangan Pulguksa qurildi;\n6) Bizdagi baxshilik san’atiga o’xshash qo’shiqchilik keng tarqaldi",
+"img": "img/dtm/hk-11-14.jpg"
+},
+{
+"n": 15,
+"q": "15. Quyidagi qaysi tashkilot O‘rta Osiyoni butunlay zabt etib, uni bolsheviklar qo‘l ostida bo‘lgan yangi davlat tarkibiga qo‘shib olishga harakat qilgan mustamlakachilarning kurash vositasiga aylandi? (XX asrning dastlabki choragi)",
+"opts": [
+"Turkiston o’lka Xalq Komissarlari Soveti",
+"Turkkomissiya",
+"Inqilobchi yosh buxoroliklarning Turkistondagi markaziy byurosi",
+"Turkiston o’lka musulmonlar kengashi (Kraymussovet)"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "16. Eftaliylar davlatining dastlabki poytaxti bo‘lgan shaharni belgilang.",
+"opts": [
+"Vardona",
+"Poykant",
+"Balx",
+"Panjikent"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "17. Amerika qit’asini aylanib o’tib, Hindistonga boradigan dengiz yo’lini ochgan dengizchi nomini toping.",
+"opts": [
+"Fernando Magellan",
+"Amerigo Vispuchchi",
+"Xristofor Kolumb",
+"Vasko da Gama"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "18. Silla qirolligi dastlab Koreya yarimorolining qaysi qismida joylashgan edi?",
+"opts": [
+"Janubi-sharqiy",
+"Shimoli-g‘arbiy",
+"Janubi-g‘arbiy",
+"Shimoli-sharqiy"
+],
+"ans": "A"
+},
+{
+"n": 19,
+"q": "19. 1960-yillarda quyidagi qaysi davlatda ilg’or mamlakatlarda sinovdan o’tgan islohotchilik tizimlariga tayangan modernizatsiya jarayoni jamiyatdagi bo’linishni kuchaytirib, ijtimoiy-siyosiy keskinlikni yuzaga keltirdi?",
+"opts": [
+"Meksika",
+"Chili",
+"Eron",
+"Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "20. Qaysi olimning kashfiyotlari azotli bo’yoqlar deb atalgan bo’yoqlarning katta bir sinfini hosil qilishga imkon bergan?",
+"opts": [
+"V.Grinyar",
+"P.Griss",
+"S.Arrenius",
+"M.Kucherov"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "1889-yilda qaysi Efiopiya hukmdori sudanliklar foydasini ko’zlovchi bitimni imzolashga majbur bo’ladi?",
+"opts": [
+"Feodor II",
+"Yo’xonni",
+"Menelik",
+"Ketchvayo"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "22. Quyida keltirilgan ma’lumotlar qaysi inqilobchi haqida?  “U quldorlarga o‘zlarining hamma qullarini o‘n kunlik muddatda ozod qilib yuborishni buyurdi va hindu jamoalari mustamlakachi ma’murlarga to‘lab kelgan o‘lponni bekor qildi.”",
+"opts": [
+"Simon Bolivar",
+"Xose Morelos",
+"Migel Idalgo",
+"Jon Braun"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyidagi fikrlar kimga tegishli ekanligini toping. “Tarix o‘zining xudbinlarcha qaysarligi bilan quroldosh rus o‘rtoqlarini halokatga duchor etgan Fransiya va Buyuk Britaniyaning harbiy qo‘mondonligidan javob talab qiladi. Holbuki, ular ruslarni osongina qutqarishi mumkin edi”.",
+"opts": [
+"Lloyd Jorj",
+"Vudro Vilson",
+"Vladimir Lenin",
+"Jorj Klemanso"
+],
+"ans": "A"
+},
+{
+"n": 24,
+"q": "O’zining nafisligi va mahobati bilan ajralib turadigan, yangi davrning ajoyib me’morchilik obidasi Shayx Lutfulla masjidi qaysi shaharda bunyod etilgan?",
+"opts": [
+"Tabrizda",
+"Istanbulda",
+"Isfahonda",
+"Hirotda"
+],
+"ans": "C"
+},
+{
+"n": 25,
+"q": "25. Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o‘rta asrlar).",
+"opts": [
+"Qirol Ioann – “Buyuk Ozodlik xartiyasi”-Angliyada konstitutsion monarxiya o’rnatilishi",
+"qirol Filipp IV - Flandriya - Fransiyada toifaviy monarxiya shakllanishi",
+"qirol Filipp II - Tuluza grafligi - Fransiyaning markazlashuvi yakunlanishi",
+"qirol Genrix II - III Salib yurishi- Angliyada muntazam yollanma qo’shin tuzilishi"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "26. Quyidagi grafikda qaysi raqam ostida O’rta Osiyodagi shaharlar va ularni bosib olinishiga boshchilik qilgan shaxslar bir-biriga muvofiq keladi?",
+"opts": [
+"1, 3, 4, 5",
+"2, 4, 6, 7",
+"2, 3, 4, 5",
+"1, 3, 5, 7"
+],
+"ans": "D",
+"img": "img/dtm/hk-11-26.jpg"
+},
+{
+"n": 27,
+"q": "27. Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b, f; II-a, e; III-d;",
+"I-a, d; II-b, f; III-e;",
+"I-b, d; II-c, e; III-a",
+"I-a, f; II-b, e; III-d;"
+],
+"ans": "D",
+"extra": "a) uning  boshqaruvi davrida Xitoy hukumati Qashqar hukmdorlarini Sharqiy Turkistonga o’tkazmaslik shartini qo’ydi;\nb) uning boshqaruvi davrida  Qo’qon xonligi Xitoyga umuman bo’ysunmaslikka qaror qildi;\nc) uning boshqaruvi davrida Qo’qon xonligi o’zining Xitoyga qaram ekanligini tan oldi;\nd) uning boshqaruvi davrida o’troq va ko’chmanchi turli urug’ va qabilalar o’rtasida manfaatlar muvozanati eng ko’p darajada hisobga olindi;\ne) uning boshqaruvi davrida  xon hokimiyati bilan mahalliy zodagonlar o’rtasida mustahkamlangan ittifoq buzila boshladi;\nf) uning boshqaruvi davrida Qo’qon xonligi chegaralari shimolda Rossiya chegaralaridan Ko’xiston va Qashqargacha ulandi ;",
+"img": "img/dtm/hk-11-27.jpg"
+},
+{
+"n": 28,
+"q": "28. Quyidagi jadval asosida mos siyosiy voqealarni toping.",
+"opts": [
+"3, 4",
+"1, 4",
+"1, 3",
+"4, 5"
+],
+"ans": "C",
+"img": "img/dtm/hk-11-28.jpg"
+},
+{
+"n": 29,
+"q": "29. Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang. № Davlat Voqea Yil 1. Liberiya Etnik asosda fuqarolar urushi boshlandi 1989 2. Liviya Muammar Kaddafiy o’ldirildi 2016 3. Kongo DR Mobutuning diktatorlik rejimi ag’darildi 1997 4. Falastin Mahmud Abbos FATX yetakchisi etib saylandi 2006 5. Misr Abdul Fattoh as-Sisi prezident etib saylandi 2013 6. Iroq Saddam Husayn hukumati quladi 2001",
+"opts": [
+"1, 3, 4",
+"2, 3, 5",
+"1, 4, 6",
+"2, 3, 4"
+],
+"ans": "A",
+"img": "img/dtm/hk-11-29.jpg"
+},
+{
+"n": 30,
+"q": "30. Xaritada yulduzcha bilan ko’rsatilgan hududda vujudga kelgan davlatni toping. № Sabab Natija 1. Nemis knyazlari, salibchi ritsarlarining Boltiqbo’yidagi istilolari Germaniya shimolidagi shaharlarning yuksalishi 2. Fransiyada 1358yilda dehqonlar qo’zg’olonining boshlanishi Fransiyada dehqonlarning mehnat majburiyatlaridan voz kechilishi 3. Oltin O’rda xonlariga qarshi kurash Rus yerlarining birlashishi 4. Koryo qirolligining o‘zaro urushlarda kuchsizlanib qolishi Koreyaning yaponlar tomonidan bosib olinishi 5. Yuz yillik urushning yakunlanishi Angliyada qirol hokimiyatining kuchayishi",
+"opts": [
+"Isroil podsholigi",
+"Urartu davlati",
+"Elam davlati",
+"Mitanni podsholigi"
+],
+"ans": "D",
+"img": "img/dtm/hk-11-30.jpg"
+}
+]
+}

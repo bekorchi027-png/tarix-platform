@@ -1,0 +1,344 @@
+{
+"id": "hk-06",
+"items": [
+{
+"n": 1,
+"q": "Bir-biriga mos keladigan qatorlarni toping. N Voqea Natija 1853-1856-yillarda “Qrim urushi” bo’lib o’tdi Usmonli imperiyasi g’alaba qozondi 1700-1721-yillarda Shimoliy urush bo’lib o’tdi Rossiya Boltiq dengiziga chiqish huquqini qo’lga kiritdi 1861-1865-yillarda AQSh da fuqarolar urushi bo’lib o’tdi Janubiy shtatlar g’alaba qozondi 1524-1526-yillarda dehqonlar qo’zg’aloni bo’lib o’tdi Germaniyaning kuchayishi 1885-yilda Vose boshchiligida qo’zg’alon ko’tarildi Qo’zg’alonchilar g’alaba qozondi",
+"opts": [
+"3, 4",
+"1, 2",
+"1, 3",
+"2, 5"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "XIX asr oxiri – XX asr boshlarida AQSHda yangi texnika va texnologiyalarning ishlab chiqarishga keng joriy etilishiga yo’l ochib bergan omilni aniqlang.",
+"opts": [
+"qishloq xo’jaligi rivojlanishi;",
+"tashqi savdoni rivojlantirish zaruriyati;",
+"ishchi kuchiga doimiy muhtojlik;",
+"mahsulot sifatini oshirishga intilish;"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Ikkinchi jahon urushidan keyingi davrda SSSR yordamiga tayangan davlatlarni toping.",
+"opts": [
+"1, 4, 6",
+"1, 3, 5",
+"2, 3, 5",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) Vyetnam;\n2) Yaponiya;\n3) Isroil;\n4) Laos;\n5) Janubiy Afrika Respublikasi;\n6) Angola."
+},
+{
+"n": 4,
+"q": "Afinada davlat boshqaruv tizimi aristokratiyadan demokratiyaga almashtirilgan asrda ...",
+"opts": [
+"Chjou davlatida markaziy hokimiyat zaiflasha boshladi",
+"Podsho Ashoka hukmronligi Maurya rivojlanishda yuksak taraqqiyotga erishdi",
+"Ossuriya qo’shinlari Bobil va Midiya tomonidan qirib tashlandi",
+"Ahamoniylar sulolasidan bo’lgan podsho Kir II barcha forslarni o’z hokimiyati ostida birlashtirdi"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "Buxoroda amir Haydar boshqaruvi bilan bog’liq to’g’ri ma’lumotlar berilgan javobni toping.",
+"opts": [
+"2, 3, 4",
+"2, 3, 5",
+"1, 3, 5",
+"1, 2, 4"
+],
+"ans": "D",
+"extra": "1) Shahrisabz va Miyonqolni amirlik tarkibida saqlab qolish uchun kurash olib bordi;\n2) O’ratepani saqlab qolish uchun Qo’qon xonligiga qarshi kurash olib bordi;\n3) Rossiyaga elchi Ernazarbiyni yubordi;\n4) Xiva qo’shinini Amudaryo bo’yida mag’lubiyatga uchratdi;\n5) urush kelib chiqqanida qo’shinning xarajati uchun jul deb atalgan soliqni joriy qildi."
+},
+{
+"n": 6,
+"q": "Xaritada yulduzcha bilan ko’rsatilgan hududa qadimgi davrda vujudaga kelgan davlatni toping.",
+"opts": [
+"Chjou davlati",
+"Maurya davlati",
+"Koguryo davlati",
+"Pekche davlati"
+],
+"ans": "A",
+"img": "img/dtm/hk-06-6.jpg"
+},
+{
+"n": 7,
+"q": "Qozog’iston parlamenti nechanchi yilda mamlakat poytaxtini Akmola shahriga ko’chirish to’g’risida qaror qabul qilgan?",
+"opts": [
+"1992-yilda",
+"1994-yilda",
+"1998-yilda",
+"1993-yilda"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Doro I elchilari bo’ysunishini talab qilib, qaysi shaharga kelganda elchilar o’ldirilib, qoyadan tashlab yuborilgan edi?",
+"opts": [
+"Plateyaga",
+"Afinaga",
+"Troyaga",
+"Spartaga"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "1995-yil FATX bilan Isroil o’rtasida muvaqqat kelishuv imzolangach quyidagi qaysi hududlar FATX ixtiyoriga o’tkazilgan?",
+"opts": [
+"Sinay yarim oroli va Jo’lan tepaligi",
+"Iordan daryosining janubiy sohilidagi hosildor yerlar",
+"G’azo sektori va Iordan daryosining sharqiy sohili",
+"Iordan daryosining g’arbiy sohilidagi ko’plab shahar va qishloqlar"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Qaysi qatorda Boburiy hukmdor Jahongir Mirzo davriga xos xususiyat to’g’ri berilgan?",
+"opts": [
+"hindlar qaytadan “jizya” solig`ini to`lashga majbur etildi;",
+"mahalliy hukmdorlarning mustaqilligi oshdi;",
+"musulmon bo’lmaganlarni islom diniga o’tkazish uchun hech narsadan qaytmadi;",
+"taxtga kelishi bilan otasining ko’plab islohotlarini bekor qildi;"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "1923-yil yozi va kuzida tashqi kuchlar tayziqi bilan Fayzulla Xo’jayevning yaqin safdoshlari bo’lgan quyidagi nozirlardan kimlar Buxoro hukumati tarkibidan chiqarilib surgun qilingan va ularning o’rni Moskva va Toshkentning “kommunistcha sabog’”ini olgan tajribali sovet xodimlari bilan to’ldirilgan?",
+"opts": [
+"1, 3",
+"1, 4",
+"2, 4",
+"2, 3"
+],
+"ans": "A",
+"extra": "1) Muinjon Aminov;\n2) Is’hoqxo’ja Xo’jayev;\n3) Qori Yo’ldosh Po’latov;\n4) Ortiq Oxun."
+},
+{
+"n": 12,
+"q": "XIX asrning ikkinchi yarmida Podsho qo’shinlari bosqiniga qarshi quyidagi qaysi shaharlar himoyasiga Buxoro amirligi qo’shinlari jo’natilsa-da, kechikib borgani uchun u hech qanday natija bermagan edi?",
+"opts": [
+"Toshkent va Andijon",
+"Xo’jand va O’ratepa",
+"Toshkent va Jizzax",
+"Urgut va Kattaqo’rg’on"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyida keltirilgan qo`zg`alonchilardan qaysi birining rahbarining hayoti qirol a`yonlaridan biri bilan bo`lgan jang natijasida yaralanib, halok bo`lish bilan yakunlangan edi?",
+"opts": [
+"Jon Boll",
+"Gilom Kal",
+"Uot Tayler",
+"Rojer Bekon"
+],
+"ans": "C"
+},
+{
+"n": 14,
+"q": "Qaysi yillarda Toshkent katta halqa avtomobil yo‘li loyihalashtirildi va qurildi?",
+"opts": [
+"1959-1968-yillar",
+"1960-1974-yillar",
+"1958-1968-yillar",
+"1951-1964-yillar"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Quyidagi qaysi qo’zg’alonni bostirishda kazaklar polki va bir rota askar qatnashgan edi?",
+"opts": [
+"Dukchi Eshon",
+"Darveshxon",
+"Vabo isyoni",
+"Jizzax qo’zg’aloni"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Quyidagi tarixiy shaxslarni ular yozgan badiiy asarlari bilan muvofiqlashtiring,",
+"opts": [
+"1-c, 2-a, 3-b, 4-d;",
+"1-a, 2-d, 3-c, 4-b;",
+"1-b, 2-d, 3-a, 4-c;",
+"1-a, 2-d, 3-b, 4-c;"
+],
+"ans": "C",
+"extra": "1) Alvaro Yunke 2) Ernest Xeminguey\n3) Aziz Nesin 4) Sharof Rashidov\na) “G‘aroyib bolalar”;  b) “Muallima uchun atirgul”;\nc) “Kashmir qo‘shig‘i”;  d) “Chol va dengiz”;"
+},
+{
+"n": 17,
+"q": "Buyuk Britaniya hukmron tabaqalari yangi asrda (XIX asr) ham Hindistonni butunlay o`z mustamlakalariga aylantirish siyosatini davom ettirish maqsadida . . .",
+"opts": [
+"Buyuk Britaniya parlamenti Hindistonni boshqarish to`g`risida qonun qabul qildi;",
+"Hukumat tomonidan “Hindiston ishlari bo`yicha nazorat kengashi” tashkil etildi;",
+"“Ost-Indiya” kompaniyasining Kalkutta shahridagi gubernatori Buyuk Britaniyaning Hindistondagi barcha mustamlakalari general-gubernatori etib tayinlandi;",
+"Hindistonning mustamlakaga aylantirilgan hududlari ma`muriy jihatdan general-gubernatorga itoat etuvchi gubernatorlar tomonidan boshqarilishi belgilandi;"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Siyosiy jihatdan tobora zaiflashib borayotgan Qoraxoniylar davlati o’zining avvalgi mavqeyini yo’qotib, kimlarning tazyiqiga uchraydi va unga qaram bo’lib qoladi?",
+"opts": [
+"G’aznaviylar",
+"Saljuqiylar",
+"Qoraxitoylar",
+"Xorazmshohlar"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Sovet davlatida 1938-yilda boshlangan uchinchi besh yillik rejada asosan qanday maqsad rejalashtirilgan edi?",
+"opts": [
+"ishlab chiqarishni industrlashtirish",
+"madaniy sohada inqilobni amalga oshirish",
+"harbiy sanoat korxonalarini qurish",
+"xususiy mulkchilikni butunlay tugatish"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Qo’qon xonlarini ularga tegishli bo’lgan mulohazalar bilan muvofiqlashtiring.",
+"opts": [
+"1-c, 2-a, 3-d, 4-b",
+"1-d, 2-a, 3-c, 4-b",
+"1-b, 2-d, 3-a, 4-c",
+"1-c, 2-a, 3-b, 4-d"
+],
+"ans": "A",
+"extra": "1) Olimxon;\n2) Erdonabiy;\n3) Umarxon;\n4) Norbo’tabiy.\na) Qo’qon xonligi Buxoro amirligi va Sin imperiyasi (Xitoy) bilan tengma-teng kurasha oladigan davlatga aylandi;\nb) Xonlikda ekinlardan mo’l hosil olinishi evaziga bozorda narx-navo arzonlashdi, xonlikning qudrati har tomonlama o’sdi;\nc) Tarixda davlatni xonlik maqomiga ko’targa jasur hukmdor sifatida nom qoldirdi;\nd) Xonlik chegarasi shimolda Rossiya chegaralaridan Ko‘xiston va Qashqargacha ulandi."
+},
+{
+"n": 21,
+"q": "O’zbekiston Respublikasi Vazirlar Mahkamasining doimiy organi qaysi qatorda to‘g‘ri ko'rsatilgan?",
+"opts": [
+"Departament apparati",
+"Vazirlar Mahkamasi Rayosati",
+"Vazirlar Mahkamasi maslahat Kengashi",
+"Vazirlar kengashi"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "O`rta asrlarda quyidagi qaysi xalqlar diniy e`tiqodida suv ilohalriga e`tiqod qilish ham kuzatilgan edi?",
+"opts": [
+"german va arab",
+"frank va turk",
+"mayya va mo`g`ul",
+"ink va slavyan"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "XIX asrning ikkinchi yarmida Xiva xonligida turli majburiyatlar, doimiy yoki favqulodda soliqlarning qariyb necha turi mavjud bo‘lgan?",
+"opts": [
+"18 ta",
+"25 ta",
+"27 ta",
+"20 ta"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Quyidagi qaysi davlatlar banklari qarz berish, sanoatga mablag’lar yo’naltirish orqali Avstriyani o’z kapitallari bilan to’ldirib tashlagan edi? (XIX asr oxiri – XX asr boshlarida)",
+"opts": [
+"Belgiya, Fransiya, Germaniya",
+"Buyuk Britaniya, Fransiya, Italiya",
+"Shvetsariya, Fransiya, Rossiya",
+"Buyuk Britaniya, Fransiya, Germaniya"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi fikrlardan tarixiy haqiqatga mos keluvchilarini aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 3, 4",
+"2, 4, 5",
+"1, 2, 3, 4"
+],
+"ans": "B",
+"extra": "1) Qoraxoniylar hukmronligi davrida o’zbek xalqiga xos etnik omillar shakllangan va o’zbeklarning umum elat tili qaror topgan.\n2) G’arbiy turk xoqonligiga birlashgan aholining chorvador qismi madaniy jihatdan ilg’or bo’lib, xoqonlikning ijtimoiy va iqtisodiy turmushida yetakchi rol o’ynagan.\n3) Amir Temur markazlashgan davlat tuzish maqsadini amalga oshirishda oqsoqollar, harbiylar, savdogarlar va shahar hunarmandlari tabaqalariga suyanadi.\n4) Qadimgi turklarning shomoniylik (qam) dini koinotni yo’qlikdan bor qilgan Ko’k Tangriga e’tiqod qiluvchi yakka xudolik dini hisoblangan.\n5) Munkexon o’z qarorgohini mo’g’ul hukmdorlari orasida birinchi bo’lib Movarounnahrga ko’chiradi."
+},
+{
+"n": 26,
+"q": "1952-yilda qaysi davlatda kommunistik partiya MK mamlakatda sotsializm qurish to’g’risida qaror qabul qilgan?",
+"opts": [
+"Chili",
+"Xitoy",
+"Kuba",
+"SSSR"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "Bir diniy konfessiyadagi dindorlarni boshqasiga kiritishga qaratilgan xatti-harakatlar fanda nima deyiladi?",
+"opts": [
+"missionerlik",
+"prozelitizm",
+"proteksionism",
+"pozitivizm"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Berilgan gazetalarni nashr qilgan davlatlari bilan muvofiqlashtiring.",
+"opts": [
+"1-c, 2-a, 3-d, 4-e, 5-b",
+"1-c, 2-a, 3-b, 4-e, 5-d",
+"1-a, 2-e, 3-d, 4-c, 5-b",
+"1-c, 2-e, 3-d, 4-a, 5-b"
+],
+"ans": "D",
+"extra": "1) ,,Siroj ul-axbori afg’oniya” 2) ,,Kesari”\n3) ,,Kalendari kombiar” 4) ,,Ibrat”\n5) ,,Xalq gazetasi”\na) Turkiya  b) Xitoy  c) Afg’oniston  d) Bolgariya\ne) Hindiston"
+},
+{
+"n": 29,
+"q": "2005-yil ShHTga a’zo mamlakat rahbarlari kengashib, qaysi Osiyo mamlakatlariga kuzatuvchi maqomi berilishi to‘g‘risida qaror qabul qildilar?",
+"opts": [
+"Eron, Afg'oniston va Mo'g'uliston",
+"Hindiston, Eron va Pokiston",
+"Hindiston, Afg'oniston va Turkiya",
+"Pokiston, Turkiya va Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Amir Temurning suyurg’ol taqsimotiga ko’ra, quyidagi hududlar qaysi temuriy shahzodaga tegishli ekanligini to’g’ri belgilang.",
+"opts": [
+"1-b, 2-d, 3-c, 4-a",
+"1-c, 2-a, 3-d, 4-b",
+"1-d, 2-b, 3-c, 4-a",
+"1-a, 2-d, 3-b, 4-c"
+],
+"ans": "C",
+"extra": "1) Afg’oniston;\n2) Fors;\n3) Armaniston;\n4) Xuroson;\na) Shohrux Mirzoga;  b) Umarshayxga;\nc) Mironshohga;  d) Pirmuhammadga."
+}
+]
+}

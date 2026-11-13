@@ -1,0 +1,340 @@
+{
+"id": "hk-29",
+"items": [
+{
+"n": 1,
+"q": "Qrim urushida Rossiyaning mag’lubiyatga uchrashiga nima sabab bo’lgan ?",
+"opts": [
+"Turkiyaning harbiy jihatdan ustunligi",
+"Iqtisodiy jihatdan qoloqligi",
+"Chet davlatlarning Turkiyani qo’llab quvvatlashi",
+"Krepostnoy huquqlarini saqlanib qolganligi"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Qachondan boshlab Xiva qo’shini faqat ichki tartibni saqlash vazifasinigina bajargan?",
+"opts": [
+"1881-yil",
+"1888-yil",
+"1890-yil",
+"1873-yil"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "BMT axborotiga ko’ra 2005-yilda narkotik savdosi bo’yicha qaysi davlat birinchi o’rinda turgan?",
+"opts": [
+"Pokiston",
+"Isroil",
+"Kambodja",
+"Afg’oniston"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Qadimda qaysi davrda isonlar mayda tosh qurollari – mikrolitlardan foydalana boshlashgan ?",
+"opts": [
+"Mezolit",
+"Eneolit",
+"Neolit",
+"So’nggi paleolit"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "Ikkinchi jahgon urushida nemis qo’shinlari qaysi shahar ostonalarida jangni boy berib, urushdagi dastlabki  jiddiy mag’lubiyatga uchradilar?",
+"opts": [
+"Leningrad",
+"Stalingrad",
+"Moskva",
+"Dnepr"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "1907-yilda Buyuk Britaniya va  Afg’oniston o’rtasida imzolangan shartnomada Afg’onistonga qanday talablar yuklangan? 1. Ingliz savdogarlariga bojsiz savdo qilish huquqini berish 2. Afg’oniston hududida sanoat korxonalari qurilishiga ruxsat berish 3. Temiryo’llar qurilishiga rozilik berish 4. Ingliz fuqarolarining  Afg’oniston hududiga erkin kirib-chiqishiga rozilik berish 5. Hukumatni Buyuk Britaniyadan yuborilgan vakil tomonidan boshqarilishi 6. Tashqi savdo Buyuk Britaniya nazoratida bo’lishi kerak edi",
+"opts": [
+"1, 2, 5",
+"1, 3, 5",
+"2, 4, 6",
+"3, 4, 6"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "XX asrning 30-yillarida qatag’on qilingan Shamsutdin Badriddinov qanday lavozimda ishlagan?",
+"opts": [
+"O’zSSR Oliy sud raisi",
+"O’zSSR Oliy sud prokurori",
+"O’zSSR xalq maorif kamisari",
+"O’zSSR Oliy sud raisi"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qaysi Usmoniy hukmdor davrida ilk bor vazir lavozimi ta’sis etilgan?",
+"opts": [
+"Usmon I",
+"O’rxon",
+"Mexmet II",
+"Boyazid Yildrim"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "O‘zbekiston Prezidentining «O‘zbekiston SSR Prezidenti huzuridagi Vazirlar Mahkamasining tarkibini tasdiqlash to‘g‘risida»gi farmoni qachon qabul qilindi?",
+"opts": [
+"1990-yil 15-noyabr",
+"1990-yil 1-noyabr",
+"1991-yil 18-noyabr",
+"1991-yil 29-dekabr"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b, c; II-a, e; III-d",
+"I-b, a; II-d, e; III-c",
+"I-a, c; II-d, e; III-b",
+"I-a, d; II-b, c; III-e"
+],
+"ans": "A",
+"extra": "a) Fitna qurboni bo'ldi;\nb) Ismoil Safaviy qo'shini hujumlarini bartaraf etdi;\nc) mamlakat ichkarisidagi siyosiy tarqoqlikka barham berdi;\nd) davlat poytaxtini o'zgartirdi;\ne) Xo'jand va O'ratepa viloyatlarini qo'shib oldi.",
+"img": "img/dtm/hk-29-10.jpg"
+},
+{
+"n": 11,
+"q": "Quyidagilardan tarixiy haqiqatga muvofiq kelmaydigan javobni aniqlang.",
+"opts": [
+"Shayboniylar Movarounnahrga yangi ishlab chiqarish munosabatlarini olib kelgani yo‘q.",
+"Shayboniylar temuriylar davrida shakllangan ijtimoiy munosabatlarni qabul qildilar va unga moslashdilar.",
+"Xonlikda barcha yerlar xonning mulki edi.",
+"Mulk yerlar suyurg’ol va tanho shaklida belgilangan."
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Quyidagi qaysi davlat ,,Quyosh hamma davlatlar ustiga birdek nur sochishi lozimligi’’ni da`vo qilib chiqqan?",
+"opts": [
+"AQSh",
+"Germaniya",
+"Rossiya",
+"Italiya"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "XIII asr boshida Xorazm juda keng maydonni egallagan bo’lib janubi-sharqiy  viloyatlari qayerdan o’tgan?",
+"opts": [
+"G’azna",
+"Iroq",
+"Orol v Kaspiy dengizi",
+"Yettisuv"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Yangi davr Yevropasida tovar ishlab chiqaruvchi xo’jaliklar sonini ko’payishiga qanday omil sabab bo’lgan?",
+"opts": [
+"Ishlab chiqarishda yollanma mehnatdan foydalanish",
+"Ko’plab oilalarni mahsulotni bozorda sotishga majbur bo’layotganligi",
+"Ichki va tashqi savdoda shaharlar mavqeyining tobora yuksalib borganligi",
+"Savdogarlar hayoti va mol-mulkiga solinayotgan doimiy xavf-xatar"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "O’rta Osiyo davlatlaridan qaysi birida harbiy xarajatlarni qoplash uchun aholiga “miltiq puli” deb ataluvchi soliq joriy etilgan?",
+"opts": [
+"Buxoro xonligi",
+"Qo’qon xonligi",
+"Xiva xonligi",
+"Buxoro amirligi"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "XIX asr 70-80 -yillarida Germaniya sanoatini gurkirab rivojlanishiga qanday  omillar sabab bo’lgan? 1.Germaniyaning birlashtirilishi 2.Fransiyaning talanishi 3.Germaniya tadbirkorlari boshqa davlatlar tajribalaridan  muvaffaqqiyatli foydalandi 4.Sanoatning tez suratlarda harbiylashtirish",
+"opts": [
+"1, 2, 3, 4",
+"1, 2, 3",
+"1, 3, 4",
+"1, 2, 4"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "XIX asrning II yarmida bo’lgan voqeani toping.",
+"opts": [
+"Rossiya imperatori Nikolay II taxtdan voz kechdi.",
+"Rossiya va Turkiya o’rtasida Qrim urushi boshlandi",
+"Rossiya imperiyasi tomonidan O’rta Osiyoni bosib olinishining birinchi bosqichi boshlandi",
+"Turkiston general-gubernatorligi tashkil topdi"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Soʻnggi paleolit davri bilan boʻgʻliq voqealarni aniqlang.",
+"opts": [
+"1, 2, 7, 8",
+"1, 3, 5, 7, 8",
+"2, 3, 4, 5, 6, 7",
+"1, 3, 6, 7, 8"
+],
+"ans": "D",
+"extra": "1) Bu davrda kromanyon odami yashagan\n2) Insonlar  oʻtroq turmush tarziga o’tishdi\n3) Inson endilikda taqinchoqlar yasay boshladi;\n4) Urugʻ jamoalarining manzilgohlari shakllandi\n5) Sopol idishlar hayvonlarning, qushlarning tasvirlari va oʻsimlik naqshlari bilan bezatila boshlandi;\n6) Insoniyat rivojida yana bir pog’onaga yuksaldi.\n7) Kiyim-kechak tayyorlashda hayvonlar terisidan foydalana boshlashdi;\n8) Dastlabki turar joylar qurildi",
+"img": "img/dtm/hk-29-18.jpg"
+},
+{
+"n": 19,
+"q": "Yaponiyada yer egaligi munosabatlari uzil-kesil shakllangan davrda yuz bergan voqeani toping.",
+"opts": [
+"Hindistonning shimoliy hududlariga turk va afg’on qabilalarining hujumlari va joylashuvi kuchaygan.",
+"Angliyada dehqonlar kurashi kuchaygan.",
+"Germaniyada ishlab chiqarish kuchlarining o’sishi boshlandi.",
+"Fransiyda qishloq xo’jaligining,hunarmandchilik va savdo munosabatlarining o’sishi boshlandi."
+],
+"ans": "A"
+},
+{
+"n": 20,
+"q": "Amir Temur Xorazmga yurish qilib, uni uzil-kesil egallagan yillar toʻgʻri koʻrsatilgan javob variantini toping?",
+"opts": [
+"1370-yil va 1382-yil",
+"1372-yil va 1388-yil",
+"1371-yil va 1386-yil",
+"1375-yil va 1388-yil"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "Yangi davrda qanday omil qishloq xo’jaligi mahsulotlarining hosildorligi oshib, sotish uchun mahsulot ko’payishiga olib kelgan?",
+"opts": [
+"Ikki dalali ekishga o’tish",
+"Uch dalali ekishga o’tish",
+"Dehqonchilikda ko’p dalali almashlab ekishga o’tilishi",
+"Qishloq xo’jaligi dastgohlarini yaratilishi"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Shayboniy tomonidan bosib olingan shaharlarni qarindoshlari o’rtasida taqsimlanish muvofiqligini aniqlang. 1. Ko'chkunchi Sulton 2. Suyunchxo'ja Sulton 3. Mahmud Sulton 4. Jonibek Sulton a. Buxoro   b. Turkiston c. Toshkent d. Axsi va Andijon",
+"opts": [
+"1-b, 2-c, 3-a, 4-d",
+"1-c, 2-d, 3-a, 4-b",
+"1-c, 2-b, 3-a, 4-d",
+"1-b, 2-d, 3-a, 4-c"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "Harakatlar strategiyasining ikkinchi yo’nalishi qanday?",
+"opts": [
+"Davlat va jamiyat qurilish tizimini takomillashtirish",
+"Qonun ustuvorligini ta’minlash va sud-huquq tizimini yanada isloh qilish",
+"Iqtisodiyotni rivojlantirish va liberallashtirish",
+"Ijtimoiy sohani rivojlantirish"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "1999-yili Pokistonda amalga oshirilgan to’ntarilishda kimlar hokimyat tepasiga kelganlar?",
+"opts": [
+"Milliy partiya",
+"Pokiston xalq partiyasi",
+",,Musulmon birodarlar’’ partiyasi",
+"Harbiy qo’mondonlik"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Mardikorlikka olinadiganlarning tuzilgan ro’yxatiga muvofiq Samarqand viloyatining Jizzax uyezdidan qancha kishi belgilangan?",
+"opts": [
+"87 ming",
+"38 ming",
+"50 ming",
+"11 ming"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "Quyidagilardan qaysi talab “Mayl End” dasturiga tegishli emas?",
+"opts": [
+"Dehqonlarning qaramligini bekor qilish",
+"Erkin savdoga ruxsat berish",
+"Aholining teng huquqli bo’lishini ta’minlash",
+"Yer solig’ini kamaytirish"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "Turkiston general-gubernatori S.M.Duxovskoy hokimiyatga kelgan yilda bo’lgan voqeani toping.",
+"opts": [
+"Dunyoni qayta bo’lib olish yo’lidagi birinchi urush bo’lib o’tdi.",
+"Buyuk Britaniya, Fransiya va Rossiya o’rtasida ittifoq tuzildi.",
+",,Berlin traktati’’ deb nomlangan hujjat imzolandi.",
+"Bosniya va Gersogovinada Usmonli davlati mustamlakachiligiga qarshi qo’zg’olon ko’tarildi."
+],
+"ans": "A"
+},
+{
+"n": 28,
+"q": "Balx shahri Shayboniyxon tomonidan nechanchi yilda egallangan?",
+"opts": [
+"1504-yil",
+"1506-yil",
+"1507-yil",
+"1503-yil"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Fransiyada qaysi yillar oralig’ida bir nechta hukumat almashadi?",
+"opts": [
+"1929-1933-yillar",
+"1929-1932-yillar",
+"1927-1933-yillar",
+"1935-1938-yillar"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Xaritada yulduzcha bilan belgilangan hududda milodiy I ming yillikda Amerika sivilizatsiyasining markazi bo‘lgan qaysi davlat vujudga kelgan?",
+"opts": [
+"Inklar davlati",
+"Mali davlati",
+"Songai davlati",
+"Mayyalar davlati"
+],
+"ans": "D",
+"img": "img/dtm/hk-29-30.jpg"
+}
+]
+}

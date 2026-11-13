@@ -1,0 +1,350 @@
+{
+"id": "hk-18",
+"items": [
+{
+"n": 1,
+"q": "",
+"opts": [
+"1) mil.avv.40-12 ming 2) mil.avv. 100-40-ming",
+"1) mil.avv.100-40 ming 2) mil.avv. 12-7-ming",
+"1) mil.avv.100-40 ming 2) mil.avv. 40-12-ming",
+"1) mil.avv.1 mln -100 ming 2) mil.avv. 40-12-ming"
+],
+"ans": "A",
+"extra": "1) Altamir va 2) Teshiktosh g‘ori qaysi davrlarga oid ekanligini aniqlang."
+},
+{
+"n": 2,
+"q": "Makedonyalik Aleksandr saklarga qarshi kurashish maqsadida qayerda qal’a barpo etish to‘g‘risida buyruq beradi?",
+"opts": [
+"Politimet",
+"Kurushkat",
+"Xo‘jand",
+"Zariasp"
+],
+"ans": "C"
+},
+{
+"n": 3,
+"q": "Yunon-rim mualliflari tomonidan Baqtriana yoki Baqtriya deb atagan yerlarga hozirgi qaysi hududlar to‘g‘ri keladi?",
+"opts": [
+"1, 2, 6",
+"1, 5, 6",
+"1, 3, 4",
+"1, 2, 3"
+],
+"ans": "B",
+"extra": "1) Surxon vohasi\n2) Turkmanistoning shimoli\n3) Zarafshon vohasi 4) Tojikiston shimoli\n5) Afg‘onistonning shimoli\n6) Tojikistonning janubi"
+},
+{
+"n": 4,
+"q": "Quyidagi janglar kimlar o‘rtasida bo‘lganini muvofiq joylashtiring. 1. Sheroz qishlog‘i yaqinidagi Bulung‘ur anhori yoqasidagi jang; 2. Sheroz qishlog‘i yaqinidagi Zarafshon daryosi bo‘yidagi jang; 3. Tarnob jangi; 4. Damashq qishlog‘i yaqinidagi jang;",
+"opts": [
+"1-c; 2-b; 3-d; 4-a;",
+"1-d; 2-a; 3-c; 4-b;",
+"1-b; 2-c; 3-d; 4-a;",
+"1-a; 2-d; 3-c; 4-b;"
+],
+"ans": "D",
+"extra": "a) Mirzo Abdullo va Abu Said\nb) Abdullatif va Mirzo Ulug‘bek\nc) Mirzo Ulug‘bek va Alouddavla\nd) Amir Xudoyot va Xalil Sulton"
+},
+{
+"n": 5,
+"q": "XII asrda Kichik Osiyo va Kermon qaysi davlatdan ajralib chiqadi?",
+"opts": [
+"Qoraxoniylar",
+"Xorazmshohlar",
+"Saljuqiylar",
+"Arab xalifaligi"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagi fikrlardan qaysi biri tarixiy haqiqatga muvofiq kelmaydi?",
+"opts": [
+"Mo‘g‘ullar davrida hunarmandlar va savdogarlardan «targ‘u» solig‘i undirilgan. Targ‘u ishlab chiqarilgan mahsulot yoki sotilgan molning o‘ttizdan bir qismi hajmida undirilgan;",
+"Somoniylar davrida imomlar, sayyidlar, shayxlar va sadrlarga e’tibor kuchayib, ularning obro‘yi har qachongidan ham balandga ko‘tariladi;",
+"Qoraxoniylar davlatining barpo etilishida qarluq, chigil va yag‘mo qabilalari yetakchi rol o‘ynagan;",
+"Mahmud Koshg‘ariy ijtimoiy kelib chiqishi jihatidan qoraxoniylar sulolasiga mansub bo‘lgan;"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Rossiya hukumatidan Buxoroga po‘lat (a) va zambarak (b) sotishini so‘rab, elchi yuborgan Buxoro Amirlarini aniqlang.",
+"opts": [
+"a - Amir Shohmurod; b - Amir Haydar",
+"a - Amir Nasrullo; b - Amir Haydar",
+"a - Amir Shohmurod; b - Amir Nasrullo",
+"a - Amir Haydar; b - Amir Nasrullo"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Quyidagi hukmdorlardan qaysilari o‘z akalarining taxtiga o‘tirgan?",
+"opts": [
+"1, 4, 5, 7, 8, 10",
+"1, 3, 5, 6, 8, 9",
+"1, 2, 4, 6, 9, 10",
+"1, 4, 5, 6, 8, 10"
+],
+"ans": "D",
+"extra": "1) Vali Muhammad;\n2) Erdonabiy;\n3) Nodir Muhammad;\n4) Sulton Mahmudxon;\n5) Subhonqulixon;\n6) Abulg‘oziyxon;\n7) Arab Muhammad;\n8) Abdukarimbiy;\n9) Sherg‘ozixon;\n10) Umarxon;"
+},
+{
+"n": 9,
+"q": "Quyida keltirilgan shaharlar aholisi sonini toping.",
+"opts": [
+"1-a, 2-c, 3-b, 4-d",
+"1-c, 2-a, 3-b, 4 -d",
+"1-c, 2-b, 3-a, 4-d",
+"1-a, 2-c, 3-d, 4-b"
+],
+"ans": "A",
+"extra": "1) XIX asrda Qo‘qon shahrida ... aholi yashagan;\n2) XIX asrning 40-yillarida Xiva shahrida ... dan ortiq aholi yashagan;\n3) XIX asrda Samarqand shahrida aholi soni ... ga yetdi;\n4) XIX asrda Buxoro shahrida ... ga yaqin aholi yashagan.\na) 30 ming; b) 25-30 ming; c) 20 ming; d) 60 ming."
+},
+{
+"n": 10,
+"q": "Nukus va Biybozor volostida mustamlakachilarga qarshi qo‘zgolon boshlangan yilda …",
+"opts": [
+"Namangan aholisi ma'murlarga qarshi bosh ko‘tarib chiqdi.",
+"Xo‘jand va O‘ratepa tumanlaridagi aholidan qo‘shimcha yer solig‘i olinishiga qarshi g‘alayonlar.",
+"Ko‘lob beklikida qo‘zg‘olonlar.",
+"Rossiya-Xitoy va Eron-Rossiya chegaralari belgilandi."
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Quyidagi voqealarni xronologik tartibda joylashtiring.",
+"opts": [
+"4, 2, 3, 1",
+"3, 2, 4, 1",
+"2, 4, 3, 1",
+"2, 4, 1, 3"
+],
+"ans": "C",
+"extra": "1) Turkistonda dastlabki yozma milliy sahna asarlari yaratildi.\n2) Samara teatri Turkistonda bir necha kunlik dasturlarini namoyish etdi.\n3) Samarqand va Toshkentga rus aktrisasi\nV.F.Komissarjevskaya truppasining gastrollari uyushtirildi.\n4) Toshkentda Turkiston muzeyi (hozirgi O‘zbekiston tarixi davlat muzeyi) tashkil etildi."
+},
+{
+"n": 12,
+"q": "Turkiston Muxtoriyati hukumati tarkibida Bosh vazir o‘rinbosari(a) va ichki ishlar vazirining o‘rinbosari(b) lavozimida faoliyat ko’rsatgan shaxslarni aniqlang.",
+"opts": [
+"a-Yurg‘uli Agayev, b-Ubaydulla Xo‘jayev",
+"a-Islom Shoahmedov, b-Abdurahmon O‘rozayev",
+"a-Mustafo Cho‘qay, b-Muhammadjon Tinishboyev",
+"a-Abdurahmon O‘rozayev, b-Islom Shoahmedov"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "1991-yil 25-avgustda O‘zbekiston Prezidentining farmonga binoan qaysi organlar O‘zbekiston SSRning qonuniy tasarrufiga o‘tkazildi?",
+"opts": [
+"1, 4",
+"2, 4",
+"2, 3",
+"1, 2"
+],
+"ans": "A",
+"extra": "1) Ichki ishlar vazirligi;\n2) Mudofaa vazirligi;\n3) Tashqi ishlar vazirligi;\n4) Davlat xavfsizlik komiteti;"
+},
+{
+"n": 14,
+"q": "MDH davlat boshliqlarining 1994-yil oktabrda o‘tkazilgan qaysi shahardagi kengashida Davlatlararo iqtisodiy qo‘mita (DIQ) tuzildi.",
+"opts": [
+"Minsk",
+"Ashxabod",
+"Ostona",
+"Moskva"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Yevropada ko‘rinishidan xochsifat, o‘rtasi xoch gumbazli ibodatxonalar barpo qilingan asrlarda qaysi hududlarda yangi shaharlar vujudga kela boshlagan?",
+"opts": [
+"Italiya va Fransiyaning janubida",
+"Fransiyaning shimoli, Niderlandiya va Angliyada",
+"Vengriya, Boltiqbo‘yi va Rus yerlarida",
+"Fransiyaning shimoli, Vengriya va Germaniyada"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Quyidagi Fransiya qirollari davrida amalga oshirilgan tadbirlarni to‘g‘ri belgilang.",
+"opts": [
+"1-c, 2-e, 3-d, 4-a, 5-b",
+"1-c, 2-b, 3-a, 4-d, 5-e",
+"1-a, 2-e, 3-d, 4-c, 5-b",
+"1-d, 2-e, 3-a, 4-c, 5-b"
+],
+"ans": "A",
+"extra": "1) Karl V;\n2) Lyudovik VI;\n3) Lyudovik IX;\n4) Filipp II;\n5) Filipp IV;\na) Umumdavlat boshqaruv tashkilotlari tuziladi\nb) Shampan grafligi, Lion viloyati va shahrini qirol domeniga qo‘shib oladi\nc) Yagona qo‘mondonlik joriy etilib, uning vakolatlari kengaytiriladi\nd) Qirol yerlaridagi feodal urushlarini taqiqlaydi\ne) Burj va Sans shaharlarini o‘z yer-mulkiga qo‘shib oladi"
+},
+{
+"n": 17,
+"q": "Quyidagi voqealardan qaysilari baronlarga harbiy xizmat o‘rniga xazinaga “qalqon puli” solig‘i to‘lashga ruxsat bergan Angliya qiroli hukmronligi davri oralig‘ida yuz bergan?",
+"opts": [
+"1, 2, 4, 7, 8",
+"1, 2, 4, 6, 8",
+"1, 3, 5, 6, 8",
+"1, 4, 6, 7, 8"
+],
+"ans": "D",
+"extra": "1) Xeyyan shahri yong‘in natijasida vayron bo‘ldi.\n2) Sulton Sanjarga qarshi ko‘chmanchi o‘g‘uzlar isyon ko‘tardilar.\n3) Shtaufenlar sulolasining mashhur vakili Fridrix I Barbarossa hukmronligi boshlandi.\n4) G‘aznaviylar davlati butunlay barham topdi.\n5) Yuriy Dolgorukiy Kuchkovo qo‘rg‘oniga asos soldi.\n6) Xorazmshoh Sultonshoh Mahmud taxtga o‘tirdi.\n7) Misr sultoni Salohiddin Ayubiy salibchilardan Quddusni tortib oladi.\n8) Lenyano jangida Liga qo‘shini imperator ritsarlarini tor-mor qiladi."
+},
+{
+"n": 18,
+"q": "XVI asrda mahalliy o‘zini-o‘zi boshqarish organlari qaysi davlatda tuzila boshlanganligini aniqlang.",
+"opts": [
+"Fransiya",
+"Germaniya",
+"Rossiya",
+"Angliya"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Simon Bolivar faoliyatiga taalluqli tadbirlarni to‘g‘ri belgilang.",
+"opts": [
+"2, 3, 4",
+"1, 3, 4",
+"2, 4, 5",
+"1, 3, 5"
+],
+"ans": "B",
+"extra": "1) hindularga solinadigan o‘lponni bekor qildi;\n2) Amerika respublikalari konfederatsiyasini tuzishga erishdi;\n3) qullik bekor etilganligini e’lon qildi;\n4) yirik pomeshchiklarning yerlarini musodara qilish to‘g‘risidagi qonun loyihasini ishlab chiqdi;\n5) Yangi Granada va Chilining ozod bo‘lishiga yordam berdi;"
+},
+{
+"n": 20,
+"q": "XIX asr oxiriga kelib qaysi davlat savdo floti 3-o‘ringa chiqqan edi?",
+"opts": [
+"Yaponiya",
+"Fransiya",
+"Germaniya",
+"Italiya"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Fransiyani holdan toydirgan hamda Angilyaning kuchayishiga sabab bo’lgan urushni aniqlang.",
+"opts": [
+"Yuz yillik urush",
+"Yetti yillik urush",
+"O’ttiz yillik urush",
+"Ispaniya taxti uchun bo’lgan urush"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Quyidagi qaysi asarlar fransuz badiiy adabiyotiga tegishli?",
+"opts": [
+"“Azizim”, “Titan”",
+"“Hayot”, “Moliyachi”",
+"“Hayot”, “Azizim”",
+"“Moliyachi”, “Titan”"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Qaysi javobda Parij kommunasi o‘zining 72 kunlik faoliyati davomida amalga oshirgan ijtimoiy-iqtisodiy chora-tadbirlari ko‘rsatilgan?",
+"opts": [
+"1, 3, 5, 6",
+"3, 4, 6, 7",
+"1, 2, 3, 7",
+"1, 2, 5, 7"
+],
+"ans": "A",
+"extra": "1) korxonalarning bir qismi ishchilar ixtiyoriga berildi;\n2) butun mamlakatning qo‘llab-quvvatlashiga erishdi;\n3) majburiy va bepul ta’lim joriy etildi;\n4) xazina va bankni o‘z qo‘liga oldi;\n5) cherkov davlatdan, maktab cherkovdan ajratildi;\n6) ishsizlar ish bilan ta’minlana boshlandi;\n7) Tyer hukumatini tugatish bo‘yicha barcha choralar ko‘rildi;"
+},
+{
+"n": 24,
+"q": "XX asr boshlariga kelib Fransiya temir qazib olish sohasi bo`yicha qaysi davlatlarni ham ortda qoldirgan?",
+"opts": [
+"Rossiya va Angliya",
+"AQSh va Germaniya",
+"Germaniya va Italiya",
+"Rossiya va Avstriya"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "SSSRda majburiy boshlang‘ich ta’lim joriy etilgan yilda sodir bo’lmagan voqeani aniqlang.",
+"opts": [
+"Kolumbiyada konservativ oligarxiya rejimi o‘rniga liberal-islohotchilar keldi.",
+"Primiro de Rivera iste’foga chiqishga majbur bo‘ldi.",
+"Xitoy Sovet Respublikasi tuzilganligi e’lon qilindi.",
+"Argintinada harbiy to‘ntarish amalga oshirilib, Ipolito Irigoyenning ikkinchi hukumati ag‘darib tashlandi."
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Afg‘onistonda Abdulqodir boshchiligida to’ntarish natijasida hokimiyatdan chetlatilgan shaxsni toping.",
+"opts": [
+"Muhammad Dovud",
+"Muhammad Najibullo",
+"Nur Muhammad Taraqqiy",
+"Haﬁzullo Amin"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "”Atirgul inqilobi” yuz bergan mamlakat o’z mustaqilligini e’lon qilgan yilni aniqlang.",
+"opts": [
+"1988-yilda",
+"1991-yilda",
+"1990-yilda",
+"1989-yilda"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Xaritada yulduzcha bilan ko’rsatilgan hudud XIX asrda qaysi davlat mustamlakasi bo’lgan.",
+"opts": [
+"Portugaliya",
+"Fransiya",
+"Buyuk Britaniya",
+"Germaniya"
+],
+"ans": "A",
+"img": "img/dtm/hk-18-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b; II-c; III-a M. Saakashvili Muhammad Rizo Pahlaviy II III I",
+"I-a; II-d,e; III-b",
+"I-d; II-b,a; III-e",
+"I-b; II-c,e; III-a"
+],
+"ans": "A",
+"extra": "a) mamlakatda korrupsiyaga qarshi kurash e’lon qildi\nb) soliqlarni kamaytirish, davlat mulkini xususiylashtirish kabi muhim islohotlarni amalga oshirdi\nc) iqtisodiyotni modernizatsiya qilish uchun bir qator tadbirlarni amalga oshirdi\nd) millatlararo munosabatlar keskinlashib gruzinabxaz mojorosi kelib chiqdi\ne) Konstitutsiya va deyarli barcha demokratik erkinliklar bekor qilindi",
+"img": "img/dtm/hk-18-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi grafikda atamalarni qaysi tildan olingani bilan bir-biriga muvofiq keluvchi javobni toping. Kazarma Felyetlon Avtonomiya Mentalitet Italyancha Nemischa Yunoncha Fransuzcha",
+"opts": [
+"2, 4, 5, 6",
+"1, 3, 5, 7",
+"1, 2, 3, 4",
+"2, 3, 5, 7"
+],
+"ans": "B",
+"img": "img/dtm/hk-18-30.jpg"
+}
+]
+}

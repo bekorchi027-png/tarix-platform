@@ -1,0 +1,349 @@
+{
+"id": "hk-16",
+"items": [
+{
+"n": 1,
+"q": "Quyidagi qaysi davlat siyosiy hayotida XVI asr oxiri – XVII asr boshlarida islohotlar tarafdorlari iqtisodiy o’zgarishlar samaradorligini va ishlab chiqarayotgan mahsulotlarning sifatini oshirish uchun davlat manafakturalari va ustaxonalarini xususiylashtirish kabi talabni ilgari surgan.",
+"opts": [
+"Koreya",
+"Xitoy",
+"Yaponiya",
+"Hindiston"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "Tayvan oroli masalasida ilk bor AQSHni ochiq qo‘llagan Yaponiya bosh vazirini aniqlang.",
+"opts": [
+"Sindzo Abe",
+"J. Koidzumi",
+"Yosiro Mori",
+"R.Xasimoto"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Rim butun Italiyani zabt etishga erishgan asrda sodir bo’lgan voqealarni aniqlang.",
+"opts": [
+"1, 2, 5",
+"2, 4, 5",
+"2, 4, 6",
+"1, 3, 6"
+],
+"ans": "C",
+"extra": "1) Xorazm Ahamoniylar davlatidan ajralib chiqib, mustaqil davlatga aylandi;\n2) Maurya davlati rivojlanishda yuksak taraqqiyotga erishdi;\n3) O’rta Osiyo hududida dastlabki tanga pullar tarqaldi;\n4) Parfiya Salavkiylar davlati tarkibidan ajralib chiqdi;\n5) Xitoyda Buyuk kanalning qurilish ishlari boshlandi;\n6) Sin sulolasiga qarshi Lyu Ban boshchiligida dehqonlar qo‘zg‘oloni bo’lib o‘tdi;"
+},
+{
+"n": 4,
+"q": "Xalq qabulxonalari negizida Prezident huzurida alohida tuzilma-Tezkor davlat xizmatlari agentligini tashkil etish g’oyasi qachon paydo bo’lgan ?",
+"opts": [
+"2018-yil yanvar",
+"2016-yil sentabr",
+"2016-yil dekabr",
+"2017-yil dekabr"
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "O’zbekiston SSR Ministrlar Soveti raislarini raislik qilgan davri bo’yicha to’g’ri ketma-ketlikda berilgan javobni toping.",
+"opts": [
+"1, 2, 3, 4",
+"2, 1, 4, 3",
+"1, 4, 3, 2",
+"2, 3, 1, 4"
+],
+"ans": "B",
+"extra": "1) Olif Alimov  2) Nuriddin Muhiddinov\n3) Normuhammadi Xudoyberdiyev\n4) Rahmonqul Qurbonov"
+},
+{
+"n": 6,
+"q": "Quyidagilardan mil.avv.I asrning ikkinchi yarmida sodir bo’lgan voqealarni toping.",
+"opts": [
+"2, 3",
+"1, 4",
+"1, 3",
+"2, 4"
+],
+"ans": "A",
+"extra": "1) Trayan imperatorlik taxtini egalladi;\n2) Yuliy Sezar Galliyadagi zafarli urushdan keyin Rimga qaytdi va hokimiyatni egalladi;\n3) Yunoniston qirg‘oqlarida Antoniy va Oktavian flotlari o‘rtasida jang bodib o‘tdi;\n4) Spartak qo‘zg‘oloni boshlandi;"
+},
+{
+"n": 7,
+"q": "Qaysi xalifa davrida arablarga qarshi Bobek boshchiligidagi qo‘zg‘olon boshlangan edi?",
+"opts": [
+"Amin",
+"Mu’tazid",
+"Xorun ar-Rashid",
+"Ma’mun"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "IV asrda O’rta Osiyoga kirib kelgan turkiy qabilani toping.",
+"opts": [
+"kidariylar",
+"xioniylar",
+"ajamlar",
+"eftaliylar"
+],
+"ans": "B"
+},
+{
+"n": 9,
+"q": "Muhammad Rizo Ogahiyning asarlari Xorazmning qaysi davr tarixini bayon qilishi bo’yicha to’g’ri berilgan javobni toping.",
+"opts": [
+"a-1, b-3",
+"a-2, b-1",
+"a-1, b-2",
+"a-2, b- 3"
+],
+"ans": "A",
+"extra": "a) 1843-1846-yillar;      b) 1825-1842-yillar ;\n1) “Tarixlar sarasi”\n2) “Sulton voqealaring majmuasi”\n3) “Davlatning jannat bog’i”"
+},
+{
+"n": 10,
+"q": "Ilm, madaniyat, adabiyot rivojiga, madrasalarda o’qish-o’qitish ishlarini yaxshilashga, turli kasb-hunar maktablarining ochilishiga e’tibor qaratgan Qo’qon xoni kim bo’lgan?",
+"opts": [
+"Xudoyorxon",
+"Norbo’tabiy",
+"Olimxon",
+"Umarxon"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "XIX-XX asrlarda Fransiya (a) va Italiya (b) mustamlakasi bo‘lgan hududlar xaritada qaysi raqamlarda ko‘rsatilgan?",
+"opts": [
+"a-2, b-1",
+"a-4, b-1",
+"a-4, b-3",
+"a-1, b-3"
+],
+"ans": "C",
+"img": "img/dtm/hk-16-11.jpg"
+},
+{
+"n": 12,
+"q": "Bir davrda sodir bo’lgan voqealarni aniqlang.",
+"opts": [
+"Yevropada dastlabki monastirlar qurildi; feodallar yerida o’z erkini yo’qotgan fuqarolar ham ishlay boshladi;",
+"Nemis salibchi ritsarlari Boltiqbo’yiga istilolari amalga oshirildi; Mali davlati zaiflasha boshladi.",
+"Oltin O’rda 20 yil davom etgan nizolar davriga kirdi; Rossiyada Oltin O’rdaga qarshi kurasha oladigan qo’shin tuzildi.",
+"Fransiyada dehqonlar kurashi kuchaydi; Yaponiyada mulkchilik munosabatlari shakllandi."
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Quyidagi voqealar to‘g‘ri xronologik tartibda berilgan javobni toping.",
+"opts": [
+"2, 1, 5, 4, 3",
+"1, 2, 5, 4, 3",
+"1, 2, 3, 5, 4",
+"2, 1, 3, 5, 4"
+],
+"ans": "B",
+"extra": "1) Horun Bug‘roxon boshliq qoraxoniylar Movarounnahrga hujum boshladi;\n2) Qoraxoniylar Somoniylar hukmronligiga barham berdi;\n3) Qoraxitoylar Xo‘jand shahri yaqinida qoraxoniylarning eloqxoni Mahmudga qaqshatqich zarba berdilar;\n4) Ibrohim Bo‘ritegin Movarounnahrni va Farg‘onani o‘ziga bo‘ysindirib, mustaqil siyosat yurita boshladi;\n5) Qoraxoniylar Xurosonga ikki marta yurish qildi;"
+},
+{
+"n": 14,
+"q": "Turkistonliklarni do’st-inoq bo’lib yashashga da’vat etgan shaxsni aniqlang.",
+"opts": [
+"Nodira",
+"Uvaysiy",
+"Anbar Otin",
+"Dilshodi Barno"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Turkmaniston qachon MDH ning rasmiy a'zoligidan chiqib kuzatuvchi maqomini oladi?",
+"opts": [
+"2004-yil noyabr",
+"2002-yil avgust",
+"2005-yil avgust",
+"2006-yil sentabr"
+],
+"ans": "C",
+"img": "img/dtm/hk-16-15.jpg"
+},
+{
+"n": 16,
+"q": "XXI asr boshlarida o‘lim jazosini amalga oshirish bo‘yicha dunyoda birinchi(a), ikkinchi(b) o‘rinda turgan davlatlarni aniqlang.",
+"opts": [
+"a-Pokiston, b-Afg’oniston;",
+"a-Yaponiya,b- Xitoy;",
+"a-Xitoy, b-Eron;",
+"a-Eron, b-Xitoy;"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi davlatlardan qaysi biri boshqalariga nisbatan avvalroq vujudga kelgan?",
+"opts": [
+"Davan davlati",
+"Salavkiylar davlati",
+"Yunon-Baqtriya podsholigi",
+"Kushon podsholigi"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Quydagi davlatlar o’z qudratining cho’qqisiga erishgan yoki inqirozga yuz tutgan davrlari to’g’ri ko’rsatilgan javobni toping. 1. Aksum; 2. Mali; 3. Songai;",
+"opts": [
+"1-b,e, 2-c,d, 3-a,f",
+"1-b,e, 2-c,f, 3-e,d",
+"1-e,d, 2-b,f, 3-c,d",
+"1-b,d, 2-a,f, 3-c,e"
+],
+"ans": "A",
+"extra": "a) XIV-XV asrlar; b) IV-V asrlar; c) XIII asr; d) XV asr;  e) XI asr; f) XVI asr;"
+},
+{
+"n": 19,
+"q": "To‘g‘ri ma’lumotlar berilgan javobni toping.",
+"opts": [
+"1, 2, 6",
+"3, 4, 6",
+"3, 4, 5",
+"1, 2, 5"
+],
+"ans": "D",
+"extra": "1) XX asr boshida Eron inqilobi davrida xalq harakatida kurashning best usuli qo’llanilgan;\n2) XX asr boshida Eronda 6 ta ijtimoiy qatlam saylov huquqini qo’lga kiritgan;\n3) 1909-yilda Rossiya va Buyuk Britaniya Eronda aksilinqilobiy to‘ntarish o‘tkazgan;\n4) Eronda birinchi Majlis (parlament)ga saylov Muhammad Alishoh davrida o‘tkazilgan;\n5) 1911-yilda Eronda inqilob bostirilgan;\n6) Eron inqilobi shoh Muzaffariddin davrida bostirilgan."
+},
+{
+"n": 20,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. Avstriya-Vengriya Rossiya II III I",
+"opts": [
+"I-a,c; II-b,d; III-e,f.",
+"I-a,b; II-c,f; III-d,e.",
+"I-b,f; II-a,c; III-d,e.",
+"I-b,e; II-c,f; III-a,d."
+],
+"ans": "C",
+"extra": "a) XIX asrning so’nggi choragida iqtisodiy taraqqiyoti Yevropaning rivojlangan davlatlariga nisbatan qoloq mamlakat edi\nb) imperiya tarkibida 100 dan ortiq millat va xalq yashardi\nc) 1912-yilda og’ir iqtisodiy inqiroz yuz bergan\nd) 1907-yilda saylov to’g’risida qonun qabul qilingan\ne) 1878-yil 13-iyundagi kongressda qatnashgan\nf) mamlakat sanoatiga qo’yilgan chet el kapitalining asosiy qismi Fransiya kapitali edi.",
+"img": "img/dtm/hk-16-20.jpg"
+},
+{
+"n": 21,
+"q": "Italiyada ilk gumanizm davri qachon yakunlandi?",
+"opts": [
+"XVI asr boshlari",
+"XIV asr oxiri",
+"XIII asr oxiri",
+"XV asr boshlari"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Sharqiy Frank qirolligi taxtiga Otton I o‘tirgan yilda Somoniylar davlatida kim hukmronlik qilayotgan edi?",
+"opts": [
+"Nuh II",
+"Nuh",
+"Nasr II",
+"Ismoil Somoniy"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Xiva va Buxoro munosabatlaring sovuq ekanligini, Xiva va Eron munosabatlari ham yaxshi emasligini, bojxona to’lovlari savdoni rivojlantirishga to’siq bo’layotganligini, chunonchi, boj bir davlatdan ikkinchisiga o’tgandagina emas, balki bir mamlakatning o’zida bir viloyatdan ikkinchisiga o’tganda ham olinishini qayd etgan rus elchisini aniqlang.",
+"opts": [
+"F. Beneveni",
+"I. Xoxlov",
+"Ignatyev",
+"N. Muravyov"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "Yevropaning eng g’arbiy qismida joylashgan, Atlantika okeani bilan chegaradosh mamlakatni aniqlang.",
+"opts": [
+"Portugaliya",
+"Fransiya",
+"Ispaniya",
+"Angilya"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Noto’g’ri javobni aniqlang.",
+"opts": [
+"1987-yili Yevropa Iqtisodiy Hamkorlik tashkiloti YIga aylantirildi ;",
+"Meksikada 1994-yil dekabrda moliyaviy iqtisodiy inqiroz boshlandi;",
+"2011-yil prezidentlikka saylangan Almazbek Atambayev Qirg‘iziston sotsial-demokratik partiyasi yetakchisi bo’lgan;",
+"2002-yili Pragada bo‘lib o‘tgan uchrashuvda Yevroittifoqqa yangi a’zolar – Vengriya, Kipr, Latviya, Litva, Malta, Polsha, Slovakiya, Sloveniya, Chexiya, Estoniya qabul qilindi;"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "XIX asr o’rtalarida bir necha bor Koreya portlarini o’zlari uchun ochishga va teng bo’lmagan shartnomalar tuzishga urinib ko’rgan davlatni toping.",
+"opts": [
+"AQSH",
+"Fransiya",
+"Yaponiya",
+"Buyuk Britaniya"
+],
+"ans": "A"
+},
+{
+"n": 27,
+"q": "Temuriyzoda Shohrux vafotidan so‘ng Hirot (Xuroson) taxtiga o‘tirgan shaxslar taxtni egallagan yillariga qarab to‘g‘ri xronologik tartibda berilgan javobni belgilang.",
+"opts": [
+"3, 2, 4, 1",
+"2, 3, 1, 4",
+"2, 3, 4, 1",
+"3, 2, 1, 4"
+],
+"ans": "B",
+"extra": "1) Abu Said;\n2) Alouddavla;\n3) Abulqosim Bobur;\n4) Husayn Boyqaro ;"
+},
+{
+"n": 28,
+"q": "O’zbekistonda qishloq xo’jaligini kollektivlashtirish rasman qachon tugatiladi?",
+"opts": [
+"1932-yil",
+"1935-yil",
+"1934-yil",
+"1933-yil"
+],
+"ans": "A",
+"img": "img/dtm/hk-16-28.jpg"
+},
+{
+"n": 29,
+"q": "Yevropada ancha vaqtgacha Sharq tarixi bo’yicha muhim manba bo’lib hizmat qilgan asarni aniqlang.",
+"opts": [
+"“Al komil fit-Tib”",
+"“Muntahab ut-tavorix”",
+"“Ravzat us-safo”",
+"“Tarixi Jahonkushoy”"
+],
+"ans": "C"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar to'g’ri berilgan? № Hukmdor Voqea Yil Kumush va tilla pullarga “Musulmonlar amiri, Sayid Muhammad Umar sulton” deb yozila boshlandi 1. 1819 Qo‘qon xoni Umarxon Eng muhim masalalarni qirol emas, parlament hal qiladigan bo’ldi 1688 2. Angliya qiroli Villem van Oranye 3. Xiva xoni Muhammad Tilla tangalar zarb etish yo’lga qo’yildi 1807 Rahimxon I Taxtdan voz kechib, Buyuk Britaniyaga qochib ketdi, qo’zg’olonchilar saroyni egallab, uning taxtini yoqib yubordi 1848 4. Fransiya qiroli Lui Filipp Xo’jand va O’ratepani qo’lga kiritish uchun Xiva xonligiga qarshi kurash boshladi 1843 5. Buxoro amiri Nasrullo Eron shohi Ismoil Safaviy qo’shinini tormor etdi 6. Usmoniylar sultoni Salim I 1514",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"2, 5, 6",
+"1, 3, 4"
+],
+"ans": "B",
+"img": "img/dtm/hk-16-30.jpg"
+}
+]
+}

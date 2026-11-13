@@ -1,0 +1,344 @@
+{
+"id": "hk-33",
+"items": [
+{
+"n": 1,
+"q": "O'zSSRda qachon kim boshchiligida “Davlat aparatini mahalliylashtirish markaziy komissiyasi” tuzildi?",
+"opts": [
+"1925 yil 3-mart Bobon Mavlonbekov",
+"1925 yil 10-aprel Uksanboy Xolmatov",
+"1926 yil 15-noyabr Hamid Ziyoyev",
+"1926 yil 5-aprel Nuriddin Ismoilov"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Shayboniylarda davlat muassasi, qo'shin, xon xonadoni xarajatlari uchun olinadigan soliq bu….",
+"opts": [
+"xiroj",
+"ixrojot",
+"ushr",
+"zakot"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Hindiston va Amerikaga dengiz yo'llarining ochilishi Yevropada dastlab qaysi shaharlarning rivojlanishiga sabab bo'ldi?",
+"opts": [
+"Italiyada Neapol, Ispaniyada Madrid",
+"Portugaliyaning Lissabon va Ispaniyaning Sevilya",
+"Fransiyada Bordo, Angliyada Liverpul",
+"Gollandiyada Amsterdam, Angliyada Liverpul"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "1993-yilda Markaziy Osiyo davlatlari rahbarlari qaysi shaharda Orol dengizi muammosiga bag'ishlangan uchrashuvlar o'tkazganlar?",
+"opts": [
+"Toshkent",
+"Qizil O'rda",
+"Toshhovuz",
+"Nukus"
+],
+"ans": "B"
+},
+{
+"n": 5,
+"q": "AQShda qaysi sabab XIX asr oxiri XX asr boshlarida yangi texnika va texnologiyaning ishlab chiqarishga keng joriy etilishiga olib keldi?",
+"opts": [
+"AQShga ko'chib kelganlarning tadbirkorligi",
+"ishchi kuchiga doimiy muhtojlik",
+"agrar davlatdan industrial davlatga aylanishi",
+"qishloq xo'jaligi yerlarining ko'payishi"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "Tasvirni elektron-nurli trubka yordamida masofaga uzatishni nechanchi yilda Toshkent tramvay trestida Boris Grabovskiy va Ivan Belyanskiy amalga oshirdi?",
+"opts": [
+"1922-yil",
+"1928-yil",
+"1932-yil",
+"1935-yil"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Germaniya iqtisodining XIX asr 70-80 yillarida o'sishiga olib kelgan omillar to'g'ri berilgan javobni toping.",
+"opts": [
+"1, 2, 5, 6",
+"2, 3, 4, 7",
+"2, 4, 5, 7",
+"1, 2, 5, 8"
+],
+"ans": "C",
+"extra": "1) Qishloq xo'jaligidagi rivojlanishlar;\n2) Germaniyaning birlashtirilishi;\n3) Chetga ko‘p capital chiqarish;\n4) Fransiyaning talanishi;\n5) Boshqa davlat tajribalaridan unumli foydalanish;\n6) Chetdan foydali asosda sarmoyaning kiritilishi;\n7) Sanoatning tez sur’atlar bilan militarlashtirish;\n8) Shaharlarning shitob bilan o'sishi."
+},
+{
+"n": 8,
+"q": "Quyidagi ekspeditsiyalarni xronologik ketma-ketlikda berilgan javobni toping.",
+"opts": [
+"2, 5, 4, 1, 3",
+"2, 4, 5, 1, 3",
+"2, 1, 4, 5, 3",
+"2, 4, 5, 3, 1"
+],
+"ans": "B",
+"extra": "1) Villem Yaszon;\n2) Xristofor Kolumb;\n3) Abel Tasman;\n4) Vasko da Gama;\n5) Fernando Magellan."
+},
+{
+"n": 9,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a; II-b; III-c; IV-g",
+"I-c; II-b; III-f; IV-d",
+"I-g; II-e; III-b; IV-d",
+"I-h; II-e; III-d; IV-b"
+],
+"ans": "C",
+"extra": "a) Eron safaviylariga zarba berib, Balxni bo’ysundirgan;\nb) Xiva xonligini Buxoro tasarrufiga kiritdi;\nc) aholidan yig’ib olinadigan soliqlarni 4 barobarga ko’paytirgan;\nd) Balx viloyatiga hokim bo’lgan;\ne) mamlakat viloyatlarini o’g’illariga va yaqin qarindoshlariga mulk qilib taqsimlab bergan;\nf) Toshkent va xonlikning shimoliy-sharqiy chegaralari uchun qozoqlarga qarshi kurashgan;\ng) uning davrida qabila amirlari xon hokimiyatiga bo’ysunmay, muxolifatchilikni kuchaytirgan;\nh) o’z hukmronligi davrida qozoqlarga qarshi kurashgan.",
+"img": "img/dtm/hk-33-9.jpg"
+},
+{
+"n": 10,
+"q": "Quyidagi voqealarni sanasi bilan mos ravishda joylashtiring.",
+"opts": [
+"1-a, 2-b, 3-d, 4-c, 5-e",
+"1-b, 2-b, 3-d, 4-c, 5-e",
+"1-a, 2-a, 3-c, 4-d, 5-e",
+"1-a, 2-b, 3-c, 4-c, 5-e"
+],
+"ans": "B",
+"extra": "1) Samarqand xonligi tuzildi;\n2) Jung‘orlar bostirib kirib Sirdaryonmg o'rta qismini egalladi;\n3) Xiva xoni Elbarsxon hukmronligi boshlandi;\n4) Kichik qozoq xoni Abulxayrxon Rossiyaga elchi jo'natdi;\n5) Rossiyaning elchisi Tevkelev Abulxayrxon huzuriga keldi\na) 1721-yil; b) 1723-yil; c) 1726-yil;\nd) 1728-yil; e) 1731-yil."
+},
+{
+"n": 11,
+"q": "Birinchi jahon urushi yakunida Italiya qaysi yengilgan davlat hududidan ulush oldi?",
+"opts": [
+"Turkiya",
+"Avstriya-Vengriya",
+"Germaniya",
+"Bolgariya"
+],
+"ans": "B"
+},
+{
+"n": 12,
+"q": "Fransiyaning Lasko, Ispaniyaning Altamir, Boshqirdistonning Kapovo g'orlaridan topilgan qoyatosh rasmlari qaysi davrga tegishlidir?",
+"opts": [
+"ilk paleolit",
+"o'rta paleolit",
+"mezolit",
+"so'nggi paleolit"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Qaysi bastakor “Figaroning uylanishi” komediyasiga opera bastalagan?",
+"opts": [
+"Bax",
+"Motsart",
+"Betxoven",
+"Chaykovskiy"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Ikkinchi jahon urushi davrida ko'plab musulmonlar qaysi davlatni qo'llab quvvatlashgan?",
+"opts": [
+"Germaniya",
+"Italiya",
+"B. Britaniya",
+"Fransiya"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "Abulfayzxon davrida o'zbeklarning mang'it urug'idan bo'lgan Muhammad Hakimbiy dastlab va keyinchalik egallab olgan lavozim berilgan javobni toping.",
+"opts": [
+"qushbegi, devonbegi",
+"otaliq, naqib",
+"otaliq, qushbegi",
+"ko'kaldosh, qushbegi"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "1919-yili Farg'ona muvaqqat muxtoriyat hukumati tuzilgach, kirn Oliy bosh qo'mondon etib tayinlandi?",
+"opts": [
+"Madaminbek",
+"Katta Ergash",
+"Shermuhammadbek",
+"Hamroqulbek"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "Turkiyada 1990-yildan bosh vazir lavozimini egallagan shaxs to'gri berilgan javobni toping.",
+"opts": [
+"Sulaymon Demirel",
+"Turg'ut O'zal",
+"Tansu Cheller",
+"Kenen Evren"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Tutmos III davrida ...",
+"opts": [
+"Misrga giksoslar bostirib kirdi",
+"Nubiya va Liviya to'liq ishg'ol qilindi",
+"Old Osiyoda misrliklar hukmronligi o'rnatildi",
+"Misr yagona davlatga birlashdi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Fransiya qiroli Filipp II davriga xos bo'lgan voqealarni toping.",
+"opts": [
+"2, 4, 6, 7",
+"1, 2, 3, 6",
+"2, 3, 4, 5",
+"1, 4, 5, 6"
+],
+"ans": "D",
+"extra": "1) Eng kuchli feodalga aylandi;\n2) Bo'ysunmagan baronlar qal’alarini buzib tashladi;\n3) Muntazam qo'shin tuzila boshladi;\n4) Tuluza grafligini bo'ysundirdi;\n5) Normandiyani inglizlardan tortib oldi;\n6) Qirol Kengashi, Oliy Sud, Moliya boshqarmalari tuzildi;\n7) Lion viloyati va shahrini qo'shib oldi."
+},
+{
+"n": 20,
+"q": "Qachon “O'zbeknavo” gastrol-konsert birlashmasi tashkil etildi?",
+"opts": [
+"1997-yil",
+"1993-yil",
+"1996-yil",
+"1995-yil"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Dunyoning kapitalistik va sotsialistik harbiy-siyosiy bloklar o'rtasida qarama- qarshilik qachon barham topdi?",
+"opts": [
+"1970-yillarga kelib",
+"1980-yillarga kelib",
+"1990-yillarga kelib",
+"2000-yillarga kelib"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "22. No'gay xonligi yemirilgach garchi kichik qozoq juzi tarkibida bo'lishiga qaramasdan qoraqalpoqlarning poytaxti qaysi shahar bo'lgan alohida davlati bor edi?",
+"opts": [
+"Qo'ng'irot",
+"Jankent",
+"Suyob",
+"Qarag'anda"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Mustaqillikning dastlabki yillaridanoq teatr jamoalari Amir Temur mavzusiga murojaat qilishdi. Dastlab ... teatrlarida sohibqiron hayoti haqidagi tarixiy dramalar sahnaga qo'yildi.",
+"opts": [
+"2, 3",
+"1, 5",
+"2, 5",
+"3, 4"
+],
+"ans": "A",
+"extra": "1) Xorazmda davlat qo‘g‘irchoq teatri;\n2) Qashqadaryo viloyat musiqali drama va komediya teatri;\n3) O’zbek davlat akademik drama teatri;\n4) Namangan viloyat teatri;\n5) O’zbekiston akademik rus drama teatri."
+},
+{
+"n": 24,
+"q": "1919-yil Parij konferensiyasida Xitoy o‘z talablari bilan ishtirok etdi. Bu talablar nimalardan iborat edi?",
+"opts": [
+"Yapon qo'shinlari tomonidan Xitoy hududini bosib olishni to'xtatish, Shandun orolini ozod qilish, Xitoyning suvereniteti va hududiy yaxltligini tan olish, g'arb davlatlari bilan tuzilgan shartnomalarni bekor qilish",
+"Yapon qo'shinlari tomonidan Xitoyni bosib olishni to'xtatish, Tayvanni ozod qilish, Xitoy suvereniteti va hududiy yaxlitligini tan olish, g'arb davlatlari bilan tuzilgan shartnomalarni bekor qilish",
+"Xitoyning ilgari g'arb davlatlari bilan imzolangan shartoimalarining amal qilishi, Shandun orolini ozod qilish, Xitoy suvereniteti va hududiy yaxlitligini tan olish",
+"Xitoyning ilgari g'arb davlatlari bilan imzolangan shartomalarining amal qilishi, Tayvan orolini ozod qilish, Xitoy suvereniteti va hududiy yaxlitligini tan olish"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "1935-1936 yillarda Italiya mustamlakalarga aylantirgan hududlar to'gri berilgan javobni toping.",
+"opts": [
+"Efiopiya, Liviya, Tunis",
+"Eritreya, Somalining bir qismi, Efiopiya",
+"Efiopiya, Gveniya, Somali",
+"Somali, Eritreyaning bir qismi, Nigeriya"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Ivan IV opruchina joriy etgan (a) va opruchinani bekor qilgan(b) sanalar to'g'ri berilgan javobni toping.",
+"opts": [
+"(a)-1549, (b)-1567",
+"(a)-1565, (b)-1572",
+"(a)-1563, (b)-1574",
+"(a)-1547, (b)-1564"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "O'rta asrlarda Yevropa shaharlarining turli vaqtlarda vujudga kelishining asosiy sababi bu ...",
+"opts": [
+"markazlashgan davlatlar tashkil topishidagi farqlar",
+"ijtimoiy-iqtisodiy rivojlanishdagi farqlar",
+"xo'jalik sohalarining turli xilligi",
+"feodal tuzumga turli vaqtda o'tilishi"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Turkiston sudlov tizimi bo'yicha 1867-yildagi nizomga ko'ra qaysi sud bosqichi tizimi yevropalik aholi qilgan jinoyatlar va mahalliy aholining siyosiy jinoyatlari, hokimyatga qarshi jinoyatlarini ko'rib chiqqan?",
+"opts": [
+"uyezd sudlari",
+"Toshkent sud palatasi",
+"vaqtinchalik harbiy sudlov komissiyalari",
+"okrug sudlari"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Quyidagi voqealarni sanasi bilan mos ravishda joylashtiring.",
+"opts": [
+"1-a, 2-b, 3-d, 4-c",
+"1-b, 2-c, 3-a, 4-d",
+"1-b, 2-a, 3-d, 4-c",
+"1-b, 2-c, 3-d, 4-a"
+],
+"ans": "C",
+"extra": "1) 1866 yil 8-may;\n2) 1865 yil 17-iyun;\n3) 1866 yil 24-may;\n4) 1866 yil 18-oktabr;\na) Tashkent taslim bo'lishi haqida shartnoma imzolandi;\nb) Erjar yaqinida buxoro qo'shinlari mag'lub bo'ldi;\nc) Jizzax taslim bo'ldi;\nd) Xo'jand egallandi."
+},
+{
+"n": 30,
+"q": "Mil.avv. IX-VIII asr boshlarida gullab-yashnagan Old Osiyodagi davlat xaritada nechanchi raqam bilan berilgan?",
+"opts": [
+"4",
+"1",
+"2",
+"3"
+],
+"ans": "B",
+"img": "img/dtm/hk-33-30.jpg"
+}
+]
+}

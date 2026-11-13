@@ -1,0 +1,354 @@
+{
+"id": "hk-41",
+"items": [
+{
+"n": 1,
+"q": "Solon (Qadimgi Afina) faoliyati bilan bog‘liq to‘g‘ri ma’lumotlarni aniqlang.",
+"opts": [
+"1, 4, 5",
+"2, 3, 5",
+"1, 3, 5",
+"2, 4, 5"
+],
+"ans": "C",
+"extra": "1) avvalgi boshqaruv tizimi – aristokratiyani demokratiyaga almashtirdi;\n2) uning hukmronligi davrida Afina eng qudratli davlatga aylandi;\n3) nasl-nasabidan qat’iy nazar afinaliklar uchun davlat mansablarini egallash imkoniyatini yaratdi;\n4) Xalq majlisidagi lavozimlarga ish haqi to‘lashni joriy qildi;\n5) Xalq majlisi faoliyatini tikladi;"
+},
+{
+"n": 2,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping.",
+"opts": [
+"Karl VI; Van Gon",
+"Filipp Anjuy; Kojon",
+"Lyudovik XI; Sechjon Buyuk",
+"Lyudovik IX; Yongjo"
+],
+"ans": "D",
+"extra": "1) Saksoniyaliklar sulolasi – Otton III;\n2) Piastlar sulolasi − Boleslav Jasur;\n3) Kapetinglar sulolasi− . . . ;\n4) Li sulolasi − . . . ."
+},
+{
+"n": 3,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan keyinroq sodir bo‘lgan?",
+"opts": [
+"Xitoyda min sulolasi siyosatidan norozilik kuchayib, mamlakatda islohotlar tarafdori bo‘lgan kuchlar shakllandi",
+"Turkiya me’morchiligida tushunarsiz, milliylikdan ancha yiroq bo‘lgan qorishiq uslublar yaratildi",
+"ispan dengizchilari Sulaymon orollari, Janubiy Polineziya va Melaneziyani kashf etishdi",
+"Rus yerlarining Moskva atrofida birlashish jarayoni nihoyasiga yetdi"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagilardan “Muqaddas ittifoq” tarkibiga kirmagan davlatni aniqlang.",
+"opts": [
+"Buyuk Britaniya",
+"Rossiya",
+"Avstriya",
+"Prussiya"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "Quyida keltirilgan ma’lumotlar (voqealar) . . . ga aloqador. − Janubiy Afrikani mustamlaka qilishda asosiy rol o‘ynadi; − Mustamlakalarda mahalliy boshqaruv tizimlarini saqlab, ularni o‘z manfaatlariga bo‘ysundirdi; − XIX asrning 70-yillaridan boshlab, o‘z mustamlakalarini birlashtirib, federatsiya tuzishga urindi.",
+"opts": [
+"Italiya mustamlakachilik siyosati",
+"Fransiya mustamlakachilik siyosati",
+"Buyuk Britaniya mustamlakachilik siyosati",
+"Germaniya mustamlakachilik siyosati"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "Quyidagilardan Fransiyaning 1875-yilgi Konstitutsiyasiga nomuvofiq bo‘lganlarini belgilang.",
+"opts": [
+"1, 4, 6",
+"2, 4, 5",
+"2, 3, 5",
+"1, 2, 6"
+],
+"ans": "D",
+"extra": "1) prezident parlamentni chaqirish, ochish, tarqatib yuborish, qonunlar o‘rniga oliy farmonlar chiqarish huquqlariga ega bo’di;\n2) parlament (Milliy Majlis) vakolat muddati 5 yil etib belgilandi;\n3) hukumat a’zolarini prezident tayinlasa-da, ular parlament oldida javobgar bo’ldi;\n4) Parlament har ikki palatasining qo‘shma yig‘ilishi 7 yil muddatga mamlakat prezidentini saylaydigan bo’di ;\n5) ijroiya hokimiyat prezidentga va hukumatga tegishli bo’di ;\n6) xotin-qizlarga saylov huquqi berildi"
+},
+{
+"n": 7,
+"q": "1918-yilda respublika deb e’lon qilingan davlatni aniqlang.",
+"opts": [
+"Fransiya",
+"Germaniya",
+"Xitoy",
+"Afg’oniston"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Quyidagi qaysi davlat 2001-yili Jahon savdo tashkilotiga (JST) a’zo bo‘lgan?",
+"opts": [
+"Xitoy",
+"Hindiston",
+"Braziliya",
+"Argentina"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Quyida keltirilganlardan qaysilarida davlat-shaxs-voqea mos ravishda berilgan?",
+"opts": [
+"1, 3, 4",
+"2, 3, 4",
+"1, 3, 5",
+"2, 4, 5"
+],
+"ans": "C",
+"extra": "1) AQSh – Gerbert Guver – mamlakatda iqtisodiy inqiroz boshlandi;\n2) SSSR −Mixail Gorbachyov − mamlakatda “turg’unlik davri” boshlandi;\n3) Ispaniya − De Rivera− iqtisodga davlat aralashuvini kuchaytirishga harakat qildi;\n4) Fransiya − J.Shirak − Germaniya bilan hamkorlikda La-Mansh bo‘g‘ozi ostidan temiryo‘l tonneli (Yevrotonnel) qurildi;\n5) Turkmaniston  – Saparmurod Niyozov − Mamlakatda fuqarolar urushi nihoyasiga yetdi."
+},
+{
+"n": 10,
+"q": "Tarixiy voqealar to‘g‘ri xronologik ketma-ketlikda ko‘rsatilgan javobni toping.",
+"opts": [
+"2, 1, 3, 4",
+"4, 3, 1, 2",
+"2, 4, 3, 1",
+"4, 2, 3, 1"
+],
+"ans": "C",
+"extra": "1) “Lola inqilobi” yuz berdi;\n2) Nishtadt shahrida Rossiya – Shvetsiya tinchlik shartnomasi imzolandi;\n3) Uchlar pakti imzolandi (Germaniya, Yaponiya, Italiya);\n4) Antanta vujudga keldi;"
+},
+{
+"n": 11,
+"q": "\"Kapitulatsiya\" atamasining izohi qaysi javobda to‘g‘ri berilgan?",
+"opts": [
+"bir davlat hududini zo‘ravonlik yo’li bilan butunlay yoki qisman o‘z davlatiga qo‘shib olish",
+"bir yoki bir necha davlatning boshqa davlat ichki ishlariga zo‘ravonlik bilan aralashuvi, uning suverenitetini buzishi",
+"bir davlatning o‘zga mamlakatlar hududi va bozorini egallab olish maqsadida o‘z siyosiy va iqtisodiy ta’sirini yoyishga qaratilgan siyosati",
+"urushayotgan tomonlardan birining urush harakatlarini, qurolli qarshilik ko‘rsatishni davom ettirishdan voz kechishi"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Quyidagi ma’lumotlar qaysi tarixiy shaxs haqida ekanligini aniqlang. \"U 1855-yilda o‘zini imperator deb e’lon qildi. Mamlakatda iqtisodiyotni yuksaltirishga qaratilgan qator islohotlar o‘tkazdi.Fuqarolarni o‘zlari oldin shug‘ullangan mehnat faoliyatini davom ettirishga chaqirdi \".",
+"opts": [
+"Do’st Muhammadxon",
+"Yo’xonni",
+"Mutsixito",
+"Kassa"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "XIV asrning 60-yillarida mo‘g‘ul xoni Ilyosxo‘ja Samarqandga yurish qilishdan avval qaysi shaharlarni egallagan?",
+"opts": [
+"1, 2",
+"2, 5",
+"1, 3",
+"4, 5"
+],
+"ans": "C",
+"extra": "1) Xo'jand;\n2) O’ratepa;\n3) Jizzax;\n4) Toshkent;\n5) Shohruxiya;"
+},
+{
+"n": 14,
+"q": "Ko‘chkunchixonning o‘g‘li Abdullaxon Ining qisqa hukmronligidan so‘ng Movarounnahr amalda bir nechta mustaqil qismlarga bo‘linib ketdi. Quyidagilardan kimlar qaysi hududlarga mustaqil  hokim bo’lib olganligi mos ravishda ko‘rsatilgan javobni toping.",
+"opts": [
+"1-c, 2-a, 3-b",
+"1-b, 2-a, 3-c",
+"1-c, 2-b, 3-a",
+"1-c, 2-a, 3-d"
+],
+"ans": "A",
+"extra": "1) Pirmuhammadxon I;\n2) Navro‘z Ahmadxon;\n3) Iskandarxon.\na) Turkiston;   b) Karmana;   c) Badaxshon;   d) Qarshi."
+},
+{
+"n": 15,
+"q": "Quyidagi bandlar mazmuniga oid yakuniy hukmni aniqlang.",
+"opts": [
+"I − to‘g‘ri; II − to‘g‘ri; III − noto‘g‘ri",
+"I − noto‘g‘ri; II − to‘g‘ri; III − to‘g‘ri",
+"I − to‘g‘ri; II − noto‘g‘ri; III − noto‘g‘ri",
+"I − noto‘g‘ri; II − noto‘g‘ri; III − to‘g‘ri"
+],
+"ans": "C",
+"extra": "I. Farg‘ona vodiysining bo‘ysundirilishi bilan Rossiya imperiyasi tomonidan O‘rta Osiyoni bosib olishning uchinchi bosqichi nihoyasiga yetdi.\nII. Go‘ktepa bo‘ysundirilgach, Buyuk Britaniya va Rossiya o‘rtasida Afg‘onistonning taqdiri va uning chegarasini belgilash masalasi hal etildi.\nIII. 1891-yilda Rossiya bosib olgan O‘rta Osiyo hududi va Afg‘oniston o‘rtasidagi chegaraning Amudaryo bo‘ylab Panj tumanidan o’tkazilishiga kelishildi."
+},
+{
+"n": 16,
+"q": "2017-yilda imzolangan O‘zbekiston Respublikasi Prezidentining   “Mahalla institutini yanada takomillashtirish chora-tadbirlari to‘g‘risida”gi farmoniga ko’ra, … .",
+"opts": [
+"2, 4",
+"1, 3",
+"2, 3",
+"1, 2"
+],
+"ans": "A",
+"extra": "1) O‘zbekiston Respublikasi Mahalla va oilani qo‘llabquvvatlash vazirligi tyashkil etildi;\n2) fuqarolarning o‘zini o‘zi boshqarish organlari faoliyatini muvofiqlashtirish bo‘yicha Respublika kengashi tashkil etildi;\n3) “Obod va xavfsiz mahalla” tamoyiliga asoslangan yangi tizim joriy etildi;\n4) Fuqarolarning o‘zini o‘zi boshqarish organlarida fuqarolar yig‘ini raisining o‘rinbosari – yoshlar masalalari bo‘yicha maslahatchi lavozimi joriy etildi"
+},
+{
+"n": 17,
+"q": "Mustaqil O‘zbekiston tarixi bilan bog‘liq qaysi ma’lumotlar to‘g‘ri?",
+"opts": [
+"I va IV",
+"II va III",
+"I va II",
+"III va IV"
+],
+"ans": "B",
+"extra": "I. Hokim va uning ijroiya apparati  mahalliy vakillik organi hisoblanadi.\nII. 1992-yilda ilk bor hokimlar tayinlandi.\nIII. Hokimlar tegishli hududda oliy mansabdor shaxs hisoblanadi.\nIV. Tuman va shaharlarning hokimlari xalq deputatlari Kengashi tomonidan tayinlanadi va tegishli viloyat hokimi tomonidan tasdiqlanadi."
+},
+{
+"n": 18,
+"q": "Tarixiy voqealar to‘g‘ri xronologik ketma-ketlikda berilgan javobni toping.",
+"opts": [
+"1, 4, 2, 3",
+"2, 1, 4, 3",
+"4, 1, 2, 3",
+"3, 1, 4, 2"
+],
+"ans": "C",
+"extra": "1) Farg‘ona vodiysiga jung‘orlar hujum qildi;\n2) Xiva xoni qoraqalpoq xalqining qattiq bosimi ostida ularga o‘zini o‘zi boshqarish huquqini berdi;\n3) Venetsiya viloyati Italiya qirolligiga qo’shib olindi;\n4) Eronda safaviylar sulolasi hukmronligi butunlay barham topdi."
+},
+{
+"n": 19,
+"q": "Quyidagilarni tahlil qilib, nuqtalar o‘rniga mantiqan mos keluvchi javobni toping. Janubiy slavyan qabilalari:",
+"opts": [
+"polyaklar",
+"slovenlar",
+"slovaklar",
+"chexlar"
+],
+"ans": "B",
+"extra": "1) serblar;\n2) bolgarlar;\n3) . . . ."
+},
+{
+"n": 20,
+"q": "XIX asr oxiri - XX asr boshlarida Italiya qirolligi. . .",
+"opts": [
+"agrar davlatdan industrial davlatga aylandi",
+"G‘arbning boshqa davlatlari singari jadal iqtisodiy o‘sish davrini boshdan kechirdi",
+"aholi jon boshiga daromad taqsimoti darajasi bo‘yicha G‘arbiy Yevropada eng oxirgi o‘rinda edi",
+"savdo floti dunyoda birinchi o‘ringa chiqdi"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Quyidagi qaysi davlat XX asrning ikkinchi yarmida Yaponiya modeli asosida kapitalistik taraqqiyot yo‘lidan rivojlanayotgan hamda yuqori natijalarga erishayotgan ikkinchi to‘lqin davlati hisoblanadi?",
+"opts": [
+"Tayland",
+"Tayvan",
+"Gonkong",
+"Singapur"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Sovet hokimiyati Turkiston o‘lkasida yuritgan \"harbiy kommunizm\" siyosatining mohiyati to‘g‘ri keltirilgan javobni belgilang.",
+"opts": [
+"sanoat korxonalari o‘z egalariga qaytarib berildi",
+"ishlab chiqaruvchilar va hunarmandlarga erkinliklar berildi",
+"davlat dehqonlarga o‘zi yetishtirgan mahsulotini bozorda erkin sotish huquqini berdi",
+"mehnatga yaroqli barcha aholi majburiy mehnatga jalb qilindi"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "To‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"Hindiston – temir-betonning ixtiro qilinishi",
+"Rim − ilk bor Olimpiya o‘yinlarining o‘tkazilishi",
+"Yunoniston – ilk bor teatrning paydo bo’lishi",
+"Xitoy − globusning ixtiro qilinishi"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Quyidagi qaysi fan Qadimgi Rim o’rta maktablarigrammatikada o‘qitilmagan?",
+"opts": [
+"matematika",
+"astronomiya",
+"musiqa",
+"geografiya"
+],
+"ans": "A"
+},
+{
+"n": 25,
+"q": "Quyidagi grafikda qaysi raqam ostida O’rta Osiyodagi shaharlar va ularni bosib olinishiga boshchilik qilgan shaxslar bir-biriga muvofiq keladi?",
+"opts": [
+"1, 3, 4, 5",
+"2, 4, 6, 7",
+"2, 3, 4, 5",
+"1, 3, 5, 7"
+],
+"ans": "D",
+"img": "img/dtm/hk-41-25.jpg"
+},
+{
+"n": 26,
+"q": "Quyida berilgan muallifning asarlarini toping.",
+"opts": [
+"1, 4",
+"2, 3",
+"2, 4",
+"1, 3"
+],
+"ans": "C",
+"img": "img/dtm/hk-41-26.jpg"
+},
+{
+"n": 27,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-d, e; II-b, c; III-f",
+"I-c, e; II-b, f; III-a",
+"I-a, e; II-b, d; III-f",
+"I-b, c; II-d, f; III-a"
+],
+"ans": "D",
+"extra": "a) Millatlar Ligasidan chiqdi; b) Irqiy qonunlar chiqarildi;\nc) Mamlakatda Katta fashistik Kengash tuzildi; d) «Yosh ofitserlar» deb ataluvchi radikal guruhlar ta’siri kuchaydi;\ne) neytralitet haqida qonun qabul qilindi; f) hukumat inqirozdan (1929-1933-yy.) chiqishning yo‘li sifatida iqtisodni militarizatsiyalash va tajovuzkorlikni tanladi.",
+"img": "img/dtm/hk-41-27.jpg"
+},
+{
+"n": 28,
+"q": "XIX asr oxiri − XX asr boshlarida Marokash (a) va Kamerun (b) ustidan hukmronlik qilgan davlatlar xaritada qaysi raqamlar ostida berilgan?",
+"opts": [
+"a-1, b-2",
+"a-1, b-6",
+"a-3, b-1",
+"a-2, b-1"
+],
+"ans": "B",
+"img": "img/dtm/hk-41-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalda voqea va uning natijasi o‘zaro mos berilgan qatorlarni aniqlang. № Voqea Natija 1. 1381-yilgi Uot Tayler qo‘zg‘oloni dehqonlarning mehnat majburiyatlaridan voz kechilishi 2. 2007 – 2008-yillari AQSHning moliya sektorida boshlangan inqiroz dunyo miqyosidagi global retsessiyaning boshlanishi 3. VIII asrda Movarounnahr va Xorazmning arablar tomonidan bosib olinishi Buxoro, Samarqand, Urganch, Marv, Banokat va Xo‘jand shaharlarining taraqqiy etishi 4. 1826-yili Do‘st Afg’oniston taxtini egallashi durroniylar sulolasi hukmronligining barham topishi 5. Janubiy Yunonistonga doriylar bostirib kirishi Minoy sivilizatsiyasining barbod bo‘lishi",
+"opts": [
+"1, 3, 5",
+"1, 2, 4",
+"2, 4, 5",
+"2, 3, 5"
+],
+"ans": "B",
+"img": "img/dtm/hk-41-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalda ma’lumotlar to‘g‘ri moslashtirilgan qatorlarni toping. № Davlat Voqea Hukmdor 1. Qadimgi Misr Old Osiyoda Misrliklar hukmronligi o’rnatildi Tutmoas II 2. Angliya “Mayl end” dasturini qabul qildi Ioann 3. Rossiya Oqmachit qal’asi egallandi Aleksandr II 4. Somoniylar davlati Movarounnahrning deyarli barcha viloyatlari somoniylar tasarrufiga o‘tadi Nasr 5. Fransiya qirol mamlakatdagi eng kuchli feodalga aylanadi Filipp II Muhammad Alishoh",
+"opts": [
+"1, 2, 3",
+"2, 4, 6",
+"1, 3, 5",
+"4, 5, 6"
+],
+"ans": "D",
+"img": "img/dtm/hk-41-30.jpg"
+}
+]
+}

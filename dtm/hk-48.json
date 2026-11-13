@@ -1,0 +1,350 @@
+{
+"id": "hk-48",
+"items": [
+{
+"n": 1,
+"q": "Quyida keltirilgan ma’lumot  qaysi shaxsga tegishli ekanligini aniqlang. “Tarix o’zining xudbinlarcha qaysarligi bilan quroldosh rus o’rtoqlarini halokatga duchor etgan Fransiya va Buyuk Britaniyaning harbiy qo’mondonligidan javob talab qiladi.Holbuki,ular ruslarni osongina qutqarishi mumkin edi”.",
+"opts": [
+"F.D.Ruzvelt",
+"fon Gindenburg",
+"D.L.Jorj",
+"U.Cherchil"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Quyidagi qaysi shaharda mo’g’ullar bosqini natijasida behisob xazinalar talanadi, asriy qo’lyozma asarlar,muqaddas kitoblar yirtilib,gulxanga tashlanadi?",
+"opts": [
+"Samarqand",
+"O’tror",
+"Urganch",
+"Buxoro"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Qaysi davlat an’anaviy sivilizatsiya jamiyatida shaxs va uning o’z hayot yo’lini erkin tanlashni rad etmasdan rivojlanishning yuqori darajasiga erishgan?",
+"opts": [
+"Xitoy sivilizatsiyasi",
+"Hindiston sivilizatsiyasi",
+"Yaponiya sivilizatsiyasi",
+"Islom sivilizatsiyasi"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "1991-yili Vyetnamda bo’lib o’tgan VII syezd qanday natijalar bilan yakunlangan?",
+"opts": [
+"2,3",
+"1,5",
+"2,4",
+"4,5"
+],
+"ans": "A",
+"extra": "1) Oziq-ovaqt eksporti qisqartirildi;\n2) Erkin tadbirkorlikka ruhsat berildi;\n3) Dehqonlar uzoq muddat yerga egalik qilish huquqini oldi;\n4) Iqtisodiyotga davlat aralashuvi kamaytirildi;\n5) “Tirik tovar” savdosi cheklandi;"
+},
+{
+"n": 5,
+"q": "O’zbekiston Kompartiyasi Markaziy Komitetining birinchi kotibi Sobir Kamolov respublika partiya tashkilotini boshqargan davrda amalga oshirilgan ishni aniqlang.",
+"opts": [
+"O’zbekiston ziyolilariga nisbatan qatag’onchilik siyosati olib borildi;",
+"O’zbek ziyolilarini oqlanishida tashabbuskorlik ko’rsatdi;",
+"Paxta harid narxini oshirishni Markaz oldiga qo’yib buni uddaladi;",
+"Islom diniga erkinliklar berildi;"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "O’zbekiston Respublikasi Prezidentining 2017-yil 28-iyuldagi qarori bilan qayta tashkil etilgan Respublika Ma’naviyat va ma’rifat kengashiga kim raislik qiladi?",
+"opts": [
+"Bosh vazir",
+"Prezident",
+"Bosh prokuror",
+"Viloyat hokimlari"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "“Tashselmash” zavodi qaysi yildan paxta terish mashinalarining dastlabki partiyasini ishlab chiqarishni yo’lga qo’ygan edi?",
+"opts": [
+"1945-yildan",
+"1948-yildan",
+"1947-yildan",
+"1969-yildan"
+],
+"ans": "B"
+},
+{
+"n": 8,
+"q": "Qadimgi Rimda qaysi organ patritsiylardan ikki kishini bir yil muddatga hokim - konsul qilib saylagan?",
+"opts": [
+"Xalq majlisi",
+"Beshyuzlar kengashi",
+"Senat",
+"Xalq tribuni"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Ikki yuz yildan uzoqroq davom etgan kurashlardan so’ng Sin davlati hukmdori o’zining barcha raqiblarini yo’q qilib, yagona davlat tuzgan asrda …",
+"opts": [
+"Mauriya davlati rivojlanishda yuksak pog’onalarga erishdi",
+"Xeroneya yaqinidagi jangda Makedoniyaliklar yunonlar ustidan g’alaba qozondi",
+"Rim imperiyasining kuch-qudrati zaiflasha boshladi",
+"Avestoning dastlabki qisimlari paydo bo’ldi"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Quyidagi ijtimoiy-siyosiy jarayonlardan qaysilari Kiyev Rusida knyaz Yaroslav boshqaruvi davrida amalga oshirilgan?",
+"opts": [
+"1, 3, 4, 6",
+"2, 3, 4, 6",
+"2, 3, 5, 6",
+"1, 2, 4, 5"
+],
+"ans": "C",
+"extra": "1) Dunay bo’ylarida yashagan bulg’orlarga qarshi harbiy yurish uyushtirdi;\n2) mamlakat gullab-yashnadi, maorif yuksaldi ;\n3) bijanak qabilalari uzil-kesil mag’lub etildi;\n4) Kiyevda xristian ruhoniylari tayyorlaydigan bilim yurti ochildi;\n5) Kiyevda, so’ngra Novgorodda yilnomalar tuzila boshlandi;\n6)  Rusning Yevropa mamlakatlari nilan munosabatlari rivojlangan."
+},
+{
+"n": 11,
+"q": "Quyida berilganlardan Qadimgi dunyo tarixida mil. avv. I asrda ro‘y bergan voqealarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"1, 3, 6",
+"2, 4, 5",
+"2, 3, 4"
+],
+"ans": "A",
+"extra": "1) Rimda muntazam yollanma qo‘shinlarga tayanuvchi harbiy boshliqlar real kuchga aylandi;\n2) Kushon davlatiga asos solindi;\n3) Xitoyda qog‘oz ixtiro qilindi;\n4) Rim eng yirik va aholisi ko‘p shaharga aylandi;\n5) Qadimgi yunon tarixchisi va geografi Strabon «Geografiya» nomli asarini yozdi;\n6) Rimliklar Karfagen shahrini vayron qilishdi."
+},
+{
+"n": 12,
+"q": "To‘g‘ri moslashtirilgan javobni toping.",
+"opts": [
+"Mitanni – “dengiz xalqlari”",
+"Qadimgi Hindiston − Kompas",
+"Qadimgi Rim − Falanga",
+"Qadimgi Rim− Imperator"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "VI asrning 80-yillari oxirida Turk xoqonligi G’arbiy va Sharqiy qismlarga bo’linib ketgan. G’arbiy turk xoqonligi tasarrufiga qaysi hududlar kirgan ?",
+"opts": [
+"1,3,5",
+"1,4,5",
+"2,3,6",
+"2,4,6"
+],
+"ans": "C",
+"extra": "1) Urxun havzasi;\n2) Yettisuv;\n3) Sharqiy Turkiston;\n4) Janubiy Sibir;\n5) Shimoliy Xitoy ;\n6) Amudaryo havzalari."
+},
+{
+"n": 14,
+"q": "Qo’qon xoni Norbo’tabiy o’zidan norozi bo’lgan shahzodalarni turli viloyat va tumanlar hokimi etib tayinlagan. Quyidagilardan kimlar qaysi hududlarga hokim etib tayinlanganligini mos ravishda ko’rsatilgan javobni toping.",
+"opts": [
+"2-d, 3-c",
+"1-b, 4-a",
+"2-c, 3-d",
+"1-a, 4-b"
+],
+"ans": "B",
+"extra": "1) Muhammad Aminbek;\n2) Rustambiy;\n3) Umarxon;\n4) Olimbek;\na) To’raqo’rg’on; b) Marg’ilon; c) Xo’jand; d) O’ratepa."
+},
+{
+"n": 15,
+"q": "1994-yilda YUNESKOning madaniy qadriyatlar ro‘yxatiga kiritilgan shaharni belgilang.",
+"opts": [
+"Samarqand",
+"Xiva",
+"Shahrisabz",
+"Qarshi"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "Quyidagi bandlar mazmuniga oid yakuniy hukmni aniqlang.",
+"opts": [
+"I-to’g’ri; II- noto’g’ri; III- noto’g’ri",
+"I- noto’g’ri; II- to’gri; III- noto’g’ri",
+"I-to’g’ri; II- to’gri; III- to’g’ri",
+"I-noto’g’ri; II- noto’g’ri; III- noto’g’ri"
+],
+"ans": "D",
+"extra": "I. Sharqiy Turkistonning Ili o’lkasidagi qo’zg’olon posho hukumati qo’shinlari tomonidan bostirilishi bilan Rossiya va Eron o’rtasida chegaralar belgilandi.\nII. 1886-yilgi “Nizom” ga ko’ra okrug sudlari tugatilib, ularning o’rniga uchastka miravoy sudyalari(sudlari) tuzildi.\nIII. N.Vasilevskiy rus va o’zbek tillarini o’rganish bo’yicha qator darsliklar muallifi bo’lgan."
+},
+{
+"n": 17,
+"q": "Tarixiy voqealar to’g’ri xronologik ketma-ketlikda berilgan javobni toping.",
+"opts": [
+"1, 3, 2, 4",
+"2, 1, 3, 4",
+"4, 1, 3, 2",
+"3, 1, 4 , 2"
+],
+"ans": "A",
+"extra": "1) Xudoybergan Devonov Xivaning minoralari va hamyurtlarini suratga ola boshladi;\n2) A.Eynshteyn nisbiylik nazariyasining asosiy g’oyalarini e’lon qildi;\n3) Nurillaboy nomi bilan ataluvchi saroy qurila boshlandi;\n4) Buyuk Britaniyada yangi tuzilgan partiya Leyboristik partiya deb atala boshladi."
+},
+{
+"n": 18,
+"q": "Ma’lumki, Yaponiya XVI asrning 90-yillari boshida Koreyaga qarshi hujum boshlagan edi. Lekin bu hujum samarasiz yakunlanadi. Bunga sabab nima edi?",
+"opts": [
+"dengizda to’fon bo’lib, yapon kemalarining halokatga uchrashi",
+"Yaponiyada boshlangan ichki g’alayonlar",
+"Xitoyning Koreyaga ko’rsatgan harbiy yordami",
+"Yevropa davlatlarining Koreyani harbiy qurollar bilan ta’minlashi"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Quyidagi grafikdagi qaysi raqamlar ostida Italiya prezidentlari va ularning hokimiyatga kelgan yillari bilan muvoffiq keltirilgan? P.Jentiloni M.Rensi M.D’Alema S.Berluskoni 2014 2016 1994 1998",
+"opts": [
+"1,2,4,7",
+"1,3,5,7",
+"1,2,5,6",
+"1,3,6,7"
+],
+"ans": "B",
+"img": "img/dtm/hk-48-19.jpg"
+},
+{
+"n": 20,
+"q": "Birinchi o’zbek milliy teatri asoschisini aniqlang.",
+"opts": [
+"Xudoybergan Devonov",
+"Munavvar qori",
+"Mannon Uyg’ur",
+"Mahmudxo’ja Behbubiy"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "1941-yil 13-noyabrda Davlat Mudofaa Komitetining “Milliy harbiy qo‘shilmalar tashkil etish to‘g‘risida”gi qarori chiqdi. Qarorga ko`ra…",
+"opts": [
+"2, 3, 4",
+"1, 2, 3",
+"1, 2, 4",
+"1, 2, 3, 4"
+],
+"ans": "C",
+"extra": "1) O‘zbekistonda 14 ta harbiy qo’shilma(otliq va o’qchi) tashkil qilish;\n2) diviziyalar tarkibi mahalliy xalqlarga mansub 40 yoshdan katta bo‘lmagan sog‘lom va baquvvat kishilar bilan to‘ldirilishi;\n3) O’zbekistonda xalq lashkarining otryadlari tuzila boshladi;\n4) imkoniyat  doirasida rahbariyat tarkibi ham mahalliy millat vakillaridan bo‘lishi."
+},
+{
+"n": 22,
+"q": "Quyidagi voqealardan Somoniylar davlati hukmronlik qilgan yillar oralig‘ida sodir bo‘lganini toping.",
+"opts": [
+"Qoraxoniylar davlati barham topdi.",
+"Saﬀoriylar davlati tashkil topdi.",
+"Tohiriylar davlati tashkil topdi.",
+"Xorazmda Anushteginlar sulolasi hukmronligi boshlandi."
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o‘rta asrlar).",
+"opts": [
+"qirol Karl Martell – Puate janggi – Muqaddas Rim imperiyasi",
+"knyaz Vatslav – Piastlar sulolasi – xristian dini",
+"imperator Yustinian I – ostgotlar –Ravenna",
+"qirol Filipp IV –\"Yuz yillik urush\" – Tyudorlar sulolasining tugatilishi"
+],
+"ans": "C",
+"img": "img/dtm/hk-48-23.jpg"
+},
+{
+"n": 24,
+"q": "2003-yil qaysi shaharda bo’lib o’tgan ShHTning sammitida oliy organlari haqidagi Nizomlar tasdiqlandi va tashkilotning gerbi, bayrog’i qabul qilinadi?",
+"opts": [
+"Pekin",
+"Moskva",
+"Sankt-Peterburg",
+"Ostona"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. Laos Vyetnam III II I",
+"opts": [
+"I-a,d; II-b,e; III-c",
+"I-a,b; II-c,e; III-d",
+"I-b,e; II-a,d; III-c",
+"I-c,e; II-a,b; III-d"
+],
+"ans": "A",
+"extra": "a) XXI asr boshiga kelib iqtisodning faqat 10 %i davlatga tegishli edi\nb) XX asrning so’ngi yillarida mamlakatda iqtisodiy o’sish yiliga 9 %ni tashkil qildi\nc) Taraqqiyotning sotsialistik yo’lini tangan, 1990yillarda sotsialistik tuzum qulaganidan so’ng mamlakat juda og’ir ahvolda qoldi\nd) 1991-yilda ASEANga a’zo bo’lgan\ne) Sholi eksporti bo’yicha dunyo mamlakatlari o’rtasida ikkinchi o’rinni egallab turibdi",
+"img": "img/dtm/hk-48-25.jpg"
+},
+{
+"n": 26,
+"q": "Ushbu fikr quyidagi qaysi atamaning izohi hisoblanadi. “- bir qator mamlakatlarda davlat boshqaruv organi bo’lib, asosiy vazifasi mavjud tuzumni himoya qilish va jamoatchilik tartibini saqlashdan iborat”",
+"opts": [
+"Armiya",
+"Maksimalistlar",
+"Xunta",
+"Politsiya"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "Berilgan voqealardan qaysi biri boshqalariga nisbatan keyinroq sodir bo’lgan?",
+"opts": [
+"Turklar Liviyani o’z davlatiga qo’shib oldi;",
+"Tunisda ispanlar hukmronligiga chek qo’yildi;",
+"“Iso jamiyati” (Iyezuitlar) ordeni ta’sis etildi ;",
+"Rossiya hududida oprichnina siyosati bekor qilindi."
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "Quyida berilgan Ikkinchi jahon urushi davrida sahnalashtirilgan dramaning mualliflarini toping. 1. Hamid Olimjon 2. Izzat Sulton “Alisher Navoiy” 3. Uyg’un 4. Oybek",
+"opts": [
+"1, 3",
+"2, 3",
+"1, 4",
+"2, 4"
+],
+"ans": "B",
+"img": "img/dtm/hk-48-28.jpg"
+},
+{
+"n": 29,
+"q": "XX asr oxiri-XXI asr boshlarida neftdan olingan daromad tufayli Shimoliy Afrikada eng ta’minlangan aholiga aylangan davlat xaritada qaysi raqam ostida belgilangan?",
+"opts": [
+"4",
+"2",
+"1",
+"3"
+],
+"ans": "D",
+"img": "img/dtm/hk-48-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalning qaysi qatorlarida tarixiy voqealarning natijalari to‘g‘ri berilgan? № Voqea Natija Ikki davlatning biri boshqa davlatning hujumiga uchraydigan bo’lsa,o’zaro qat’iy betaraflik majburiyatini oldilar 1. 1902-yil Italiya Fransiya o’rtasida bitim imzolandi Germaniyaning Yevropada yetakchi mavqeyi yo’qqa chiqdi 2. Fransiya-Prussiya urushi 3. Birinchi jahon urushi Rossiyaning buyuk chekinishi Italiyaning kimni tarafida urushga kirish masalasini hal etdi Usmonli davlatining Bolqondagi slavyan xalqlarini o’z zulmi ostida saqlab turishga urinishi 1877-yilda Rossiya-Usmonli davlati urushini keltirib chiqardi 4. Ikki davlatdan biriga tashqi hujum sodir etilganda,har ikki tomon bir vaqtda harbiy safarbarlik e’lon qilishi majburiyatini oldilar 5. 1891-yilda FransiyaRossiya o’rtasida ittifoq bitimi tuzildi 6. Ikkinchi afyun urushi  Buyuk Britaniya Gongkongni qo‘lga kiritdi Janibiy slavyan xalqlarining Usmonli davlati zulmidan ozod bo’lishi uchun qulay sharoit yaratdi",
+"opts": [
+"1, 4, 5, 7",
+"2, 4, 5, 7",
+"1, 3, 5, 7",
+"1, 3, 5, 6 1911-yil Usmonli davlati Italiya o’rtasida urush 7."
+],
+"ans": "A",
+"img": "img/dtm/hk-48-30.jpg"
+}
+]
+}

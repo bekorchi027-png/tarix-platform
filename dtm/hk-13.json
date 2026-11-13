@@ -1,0 +1,350 @@
+{
+"id": "hk-13",
+"items": [
+{
+"n": 1,
+"q": "1. Quyidagi qaysi hudud Makedoniyalik Aleksandrning sharqqa yurishlari davrida egallanmagan?",
+"opts": [
+"Bolqon yarimoroli",
+"Suriya",
+"Misr",
+"Eron"
+],
+"ans": "A"
+},
+{
+"n": 2,
+"q": "Bir asrda yuz bergan voqealarni toping.",
+"opts": [
+"1, 3, 4",
+"2, 3, 4",
+"1, 4, 5",
+"2, 4, 5"
+],
+"ans": "B",
+"extra": "1) Karfagen butunlay vayronaga aylantirildi;\n2) Salavk hukmronligi tugadi;\n3) Diodot o’zini podsho deb e’lon qildi;\n4) Sin podsholigi tugatildi;\n5) Guptalar sulolasiga asos solindi;"
+},
+{
+"n": 3,
+"q": "3. “ Karib inqirozi” davrida dunyoni yadro urushi halokatidan asrab qolgan kelishuvni imzolagan SSSR va AQSh liderlarini aniqlang.",
+"opts": [
+"M.S.Gorbachev va R.Reygan",
+"I.Stalin va D.Eyzenxauer",
+"N.Xrushchyov va L.Jonson",
+"N.Xrushchyov va J.Kennedi"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "To‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"2001-yilda O’zbekiston Respublikasining “Tadbirkorlik faoliyati erkinligining kafolatlari to‘g‘risida”gi qonun qabul qilingan",
+"2008-yilda O’zbekiston Respublikasining “Korxonalar, birlashmalar va tashkilotlardan olinadigan soliqlar to‘g‘risida”gi qonun qabul qilingan",
+"1996-yilda O’zbekiston Respublikasining “Erkin iqtisodiy zonalar to‘g‘risida”gi qonuni qabul qilingan",
+"1991-yilda O‘zbekiston Respublikasining “Jismoniy tarbiya va sport to‘g‘risida” qonuni qabul qilingan"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "5. XIII asr boshlarida Orolbo’yi qoraqalpoqlarining bir qismini Volga va Ural daryolari bo’ylariga, Sirdaryo vohalariga ko’chib ketishga majbur qilgan voqeani aniqlang.",
+"opts": [
+"No’g’ay xonligining tashkil topishi",
+"Chingizxon tomonidan Amudaryo to’g’oni buzdirib tashlangach, Amudaryo o’zani o’zgarib, bu yerlarning suvsiz qolishi",
+"ularning qozoqlarning Kichik Juz xonligiga qarshi urushda yengilishi",
+"qipchoq qabilalarining siquvi"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "6. XIX asrning I yarmida Afrikada qaysi davlatning tashkil topishi AQShdagi qulchilikka qarshi kurash bilan № Sabab Natija 1. Mo‘g‘ullar imperiyasining inqirozi Xitoyda xalq ozodlik harakatining kuchayishi 2. Mali davlatinning zaiflashuvi Mustaqil Aksum davlatining tuzilishi 3. Marokash sultonining Songaini bosib olishi Songailar hukmdori Almining islom dinini qabul qilishi 4. Pekche qirolligining markazlashgan davlatga aylanishi Koreyada yer egaligi munosabatlarining uzil-kesil shakllanishi 5. Hindistonning shimoliy hududlariga turk va afg‘on qabilalarining hujumlari va joylashuvi Dehli sultonligining vujudga kelishi bog’liq?",
+"opts": [
+"Transvaal",
+"Oranj",
+"Liberiya",
+"Kotdi’uar"
+],
+"ans": "C",
+"img": "img/dtm/hk-13-6.jpg"
+},
+{
+"n": 7,
+"q": "7.Qo’qon xonligida mahhalliy boshqaruv ixtiyorida bo’lgan qal’alarni aniqlang.",
+"opts": [
+"1, 3, 4",
+"1, 3, 5",
+"2, 3, 4",
+"2, 4, 5"
+],
+"ans": "B",
+"extra": "1) Turkiston;\n2) Toshkent;\n3) Chimkent;\n4) Sayram;\n5) Avliyoota;"
+},
+{
+"n": 8,
+"q": "8. Ikkinchi jahon urushidan keyin Fransiya (a) va Italiya (b)ning yangi konstitutsiyasi kuchga kirgan yillarni toping.",
+"opts": [
+"a-1946-yil; b-1949-yil",
+"a-1948-yil; b-1946-yil",
+"a-1946-yil; b-1948-yil",
+"a-1947-yil, b-1949-yil"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "9. Quyidagilardan qaysi biri 2009-yili Semnondagi kosmodromdan Safir-2 raketasi yordamida o‘zining «Umid» nomli sun’iy yo‘ldoshini fazoga chiqarib, koinotni o‘zlashtirayotgan davlatlar qatoridan o‘rin egallagan?",
+"opts": [
+"Turkiya",
+"Eron",
+"Hindiston",
+"Isroil"
+],
+"ans": "B"
+},
+{
+"n": 10,
+"q": "10. Muhammad Zohirshoh davrida Afg’onistonga yordam ko’satgan davlatlarni toping.",
+"opts": [
+"1, 2, 4",
+"2, 3, 6",
+"1, 4, 5",
+"2, 4, 5"
+],
+"ans": "D",
+"extra": "1) Buyuk Britaniya;\n2) Fransiya;\n3) Germaniya;\n4) Xitoy;\n5) SSSR;\n6) Italiya;"
+},
+{
+"n": 11,
+"q": "Siyosiy jihatdan tobora zaiflashib borayotgan Qoraxoniylar davlati o’zining avvalgi mavqeini yo’qotib dastlab qaysi davlatga qaram bo’lib qoladi?",
+"opts": [
+"Qoraxitoylar davlatiga",
+"G’aznaviylar davlatiga",
+"Saljuqiylar davlatiga",
+"Xorazmshohlar davlatiga"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "Buxoro amirligida davlat ishlari boshqaruvida oliy amaldor hisoblangan qo’shbegi qanday vazifalarni bajargan?",
+"opts": [
+"1, 2, 6",
+"1, 5, 6",
+"3, 4, 5",
+"1, 4, 5"
+],
+"ans": "D",
+"extra": "1) soliq yig’imi ustidan nazorat olib borgan;\n2) elchilik vazifasini bajargan;\n3) oliy amaldorlarni vazifasiga tayinlagan;\n4) ma’muriy amaldorlar tarkibiga rahbarlik qilgan;\n5) mahalliy beklar bilan yozishmalar olib borgan;\n6) harbiy yurishlar davrida qo’shinning oliy bosh qo’mondoni bo’lgan"
+},
+{
+"n": 13,
+"q": "Quyida berilganlardan qaysilari Munavvarqori Abdurashidxonov  faoliyati  bilan bog‘liq ?",
+"opts": [
+"1, 3, 5",
+"2, 3, 4",
+"1, 3, 4",
+"2, 4, 6"
+],
+"ans": "C",
+"extra": "1) “Sho‘roi Islomiya” tashkiloti faoliyatida muhim rol o’ynagan;\n2) Turkiston o‘lka musulmonlar kengashiga rais bo’lgan;\n3) Turkiston o‘lka Musulmonlar byurosi faoliyatida ishtirok etgan;\n4) “Milliy Ittihod” va “Milliy Istiqlol” tashkilotlariga rahbarlik qilgan;\n5) Turkiston Muxtoriyati Muvaqqat Kengashi a’zosi bo’lgan;\n6) Turkiston o‘lka Xalq Komissarlari Soveti faoliyatida ishtirok etgan"
+},
+{
+"n": 14,
+"q": "Italiyada Gumanizm g'oyasi paydo bo'lgan vaqtda yuz bergan voqealarni  aniqlang.",
+"opts": [
+"1, 3, 5, 7",
+"2, 4, 6, 7",
+"1, 2, 5, 7",
+"2, 3, 4, 5"
+],
+"ans": "A",
+"extra": "1) Germaniyadagi shaharlar Ganza ittifoqiga birlashadilar;\n2) Vladimir knyazligining Tver va Moskva shaharlari rus yerlarining yangi markazlari sifatida yuksala boshlaydi;\n3) turklarning Bolqondagi dastlabki bosqinlari yuz berdi;\n4) Kichik Osiyodagi Saljuqiylar davlati  parchalanib ketadi;\n5) Oltin O'rdada siyosiy nizolar davri boshlandi;\n6) Mustaqil Songai davlati tuzilgan;\n7) Usmonli turklarda asirga olingan sog‘lom va baquvvat xristian bolalaridan sultonning shaxsiy gvardiyasi jangchilari tashkil etila boshlangan;"
+},
+{
+"n": 15,
+"q": "Qanday jarayon Amir Olimxonni chora-tadbirlar ko‘rishga hamda jadidlarning mamlakatni demokratlashtirish va islohotlar o‘tkazish to‘g‘risidagi talablariga yon berishga majbur qilgan edi?",
+"opts": [
+"Bolsheviklarning tinimsiz tashviqotlari natijasida aholi orasida norozilikning kuchayishi",
+"Rossiyadagi voqealar va amirlikning o‘zidagi muxolifatchi kuchlar harakati",
+"Karki va Buxorodagi jadidlarning namoyishlari",
+"Yosh buxoroliklar tashabbusi bilan Chorjo’yda qo’zg’olon uyushtirilishi"
+],
+"ans": "B"
+},
+{
+"n": 16,
+"q": "... dan keyin mo’g’ullar bosib olgan ko’pgina shaharlarda xalq qo’zg’olon ko’tarib mo’gul noiblarini o’ldirganlar.",
+"opts": [
+"1227-yilda Isfaxon yaqinidagi jangda mog’ullarning yengilishi",
+"1220-yilda Jaloliddin Manguberdi taxt vorisi etib tayinlanishi",
+"1221-yilda Parvon jangida mog’ullarning mag’lubiyati",
+"1220-yilda Temur Malik boshliq xo’jandliklarning mog’ullarga qarshi ko’rsatgan jasoratlari"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Quyidagi qaysi hudud(davlat) Muqaddas Rim imperiyasi hokimiyatini rasman tan olsa-da, deyarli mustaqil bo’lgan?",
+"opts": [
+"Italiyaning janubiy hududlari",
+"Avstriyaning shimoliy hududlari",
+"Chexiya",
+"Polsha"
+],
+"ans": "C",
+"img": "img/dtm/hk-13-17.jpg"
+},
+{
+"n": 18,
+"q": "Ma’lumki, Buyuk Britaniya Konservatorlar partiyasi an’analarga sodiqligi bilan ajralib tursa, Liberallar partiyasiga esa zamon ruhiga mos islohotlar o’tkazish tashabbuskorligi xos edi. Ayni paytda ularni birlashtiruvchi yagona manfaatlar ham mavjud bo’lib, ana shu manfaatlar mushtarakligi asoslarini aniqlang.",
+"opts": [
+"1, 3, 6",
+"2, 3, 5",
+"2, 4, 6",
+"1, 4, 5"
+],
+"ans": "D",
+"extra": "1) Buyuk Britaniyaning dunyoda yetakchi davlat maqomini saqlab qolishga intilishi;\n2) Buyuk Britaniyaning dunyoda hukmron bo’lishini qo’llabquvvatlash;\n3) saylovlarda oshkoralik tamoyillarini tiklash;\n4)  mustamlaka imperiyani yanada kengaytirish;\n5) dunyo bozorlaridan o‘z raqiblarini mumkin qadar ko‘proq siqib chiqarishga intilish;\n6) mamlakatda koalitsion hukumat tuzish"
+},
+{
+"n": 19,
+"q": "XXI boshlarida Lotin Amerikasi mamlakatlarida kuchaygan integratsiyalashuv jarayonlarining asosiy yo’nalishini aniqlang.",
+"opts": [
+"integratsiyaning chuqurlashuvida siyosiy munosababtlar sohasini ham qamrab olish",
+"modernizatsiyalashning umumiy variantini yaratish",
+"mintaqaviy erkin savdo zonalarini tuzish",
+"o’tmishdan qolgan ijtimoiy muammolarni hal qilish"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "Qaysi olimning tadqiqotlari elektromagnit to’lqinlaridan simsiz aloqa uchun keng ko’lamda foydalanish imkonini berdi?",
+"opts": [
+"P.Lebedov",
+"A.Popov",
+"J.Maksvell",
+"G.Gers"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "“Do’stlik, strategik sheriklik va xalqaro hamkorlik to’g’risida”gi qo’shma bayonotni O’zbekiston Prezidenti",
+"opts": [
+"J.Koidzumi",
+"S.Abe",
+"K.Obuti",
+"Y.Mori"
+],
+"ans": "A",
+"extra": "I.Karimov bilan birga imzolagan Yaponiya Bosh vazirini aniqlang."
+},
+{
+"n": 22,
+"q": "Afg’onistonda kimning hukmronligi davrida mamlakat Buyuk Britaniya manfaatlari mintaqasi deb e’lon qilindi?",
+"opts": [
+"Do’st Muhammadxon",
+"Yoqubxon",
+"Abdurahmon",
+"Habibullo"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "Quyidagi fikrlar kimga tegishli ekanligini toping. “Menga tayanch nuqtasini topib bersangiz, Yerni ag‘darib yuboraman!”",
+"opts": [
+"Diogen",
+"Demokrit",
+"Geraklit",
+"Arximed"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "O’rta asrlarda Germaniyada metall ishlab chiqarish va movut to’qish rivojlangan shaharni belgilang.",
+"opts": [
+"Frankfurt",
+"Augsburg",
+"Nyurnberg",
+"Strasburg"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "25. Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o‘rta asrlar).",
+"opts": [
+"Lyudovik XVIII – Konstitutsiya- Imperiya e’lon qilinishi",
+"Napoleon – “Xalqlar jangi” – Imperiyaning qulashi",
+"Karl X – Parij inqilobi- Respublika deb e’lon qilinishi",
+"Lui Filipp – “Iyul monarxiyasi”- Respublikaning qulashi"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "26. Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi?",
+"opts": [
+"1, 6, 7",
+"2, 5, 6",
+"1, 4, 7",
+"2, 3, 6"
+],
+"ans": "A",
+"img": "img/dtm/hk-13-26.jpg"
+},
+{
+"n": 27,
+"q": "27. Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a, c; II-d, e; III-f;",
+"I-a, c; II-b, d; III-e;",
+"I-b, c; II-a, f; III-e",
+"I-a, f; II-b, d; III-e; Abdullaxon II Ubaydullaxon II I III"
+],
+"ans": "B",
+"extra": "a) Buxoroning poytaxt sifatidagi nufuzini har tomonlama oshirdi;\nb) Buxoro shahrini uzil-kesil poytaxtga aylantirdi;\nc) mamlakat ichkarisidagi siyosiy tarqoqlikka barham berdi;\nd) mamlakatdagi ichki nizolarga to’la barham berolmadi;\ne) Xiva xonligini bo’ysundirdi;\nf) Hindiston hukmdori Humoyun bilan elchilik aloqalari o’rnatdi;",
+"img": "img/dtm/hk-13-27.jpg"
+},
+{
+"n": 28,
+"q": "28. Quyidagi jadval asosida mos siyosiy voqealarni toping.",
+"opts": [
+"3, 4",
+"1, 4",
+"1, 3",
+"4, 5"
+],
+"ans": "C",
+"img": "img/dtm/hk-13-28.jpg"
+},
+{
+"n": 29,
+"q": "29. Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 4, 5",
+"3, 4, 5"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "30. O’rta asrlarda xaritada yulduzcha bilan ko’rsatilgan hududda  bo’lib o’tgan jangni aniqlang.",
+"opts": [
+"Lenyano jangi",
+"Azenkur jangi",
+"Gastings jangi",
+"Mansikert jangi"
+],
+"ans": "B",
+"img": "img/dtm/hk-13-30.jpg"
+}
+]
+}

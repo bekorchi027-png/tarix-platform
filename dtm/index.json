@@ -87,6 +87,356 @@
   "self": 1
  },
  {
+  "id": "hk-01",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 1-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-01.json"
+ },
+ {
+  "id": "hk-02",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 2-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-02.json"
+ },
+ {
+  "id": "hk-03",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 3-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-03.json"
+ },
+ {
+  "id": "hk-04",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 4-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-04.json"
+ },
+ {
+  "id": "hk-05",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 5-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-05.json"
+ },
+ {
+  "id": "hk-06",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 6-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-06.json"
+ },
+ {
+  "id": "hk-07",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 7-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-07.json"
+ },
+ {
+  "id": "hk-08",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 8-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-08.json"
+ },
+ {
+  "id": "hk-09",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 9-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-09.json"
+ },
+ {
+  "id": "hk-10",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 10-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-10.json"
+ },
+ {
+  "id": "hk-11",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 11-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-11.json"
+ },
+ {
+  "id": "hk-12",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 12-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-12.json"
+ },
+ {
+  "id": "hk-13",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 13-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-13.json"
+ },
+ {
+  "id": "hk-14",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 14-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-14.json"
+ },
+ {
+  "id": "hk-15",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 15-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-15.json"
+ },
+ {
+  "id": "hk-16",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 16-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-16.json"
+ },
+ {
+  "id": "hk-17",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 17-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-17.json"
+ },
+ {
+  "id": "hk-18",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 18-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-18.json"
+ },
+ {
+  "id": "hk-19",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 19-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-19.json"
+ },
+ {
+  "id": "hk-20",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 20-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-20.json"
+ },
+ {
+  "id": "hk-21",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 21-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-21.json"
+ },
+ {
+  "id": "hk-22",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 22-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-22.json"
+ },
+ {
+  "id": "hk-23",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 23-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-23.json"
+ },
+ {
+  "id": "hk-24",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 24-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-24.json"
+ },
+ {
+  "id": "hk-25",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 25-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-25.json"
+ },
+ {
+  "id": "hk-26",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 26-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-26.json"
+ },
+ {
+  "id": "hk-27",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 27-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-27.json"
+ },
+ {
+  "id": "hk-28",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 28-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-28.json"
+ },
+ {
+  "id": "hk-29",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 29-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-29.json"
+ },
+ {
+  "id": "hk-30",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 30-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-30.json"
+ },
+ {
+  "id": "hk-31",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 31-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-31.json"
+ },
+ {
+  "id": "hk-32",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 32-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-32.json"
+ },
+ {
+  "id": "hk-33",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 33-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-33.json"
+ },
+ {
+  "id": "hk-34",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 34-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-34.json"
+ },
+ {
+  "id": "hk-35",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 35-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-35.json"
+ },
+ {
+  "id": "hk-36",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 36-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-36.json"
+ },
+ {
+  "id": "hk-37",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 37-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-37.json"
+ },
+ {
+  "id": "hk-38",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 38-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-38.json"
+ },
+ {
+  "id": "hk-39",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 39-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-39.json"
+ },
+ {
+  "id": "hk-40",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 40-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-40.json"
+ },
+ {
+  "id": "hk-41",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 41-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-41.json"
+ },
+ {
+  "id": "hk-42",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 42-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-42.json"
+ },
+ {
+  "id": "hk-43",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 43-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-43.json"
+ },
+ {
+  "id": "hk-44",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 44-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-44.json"
+ },
+ {
+  "id": "hk-45",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 45-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-45.json"
+ },
+ {
+  "id": "hk-46",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 46-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-46.json"
+ },
+ {
+  "id": "hk-47",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 47-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-47.json"
+ },
+ {
+  "id": "hk-48",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 48-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-48.json"
+ },
+ {
+  "id": "hk-49",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 49-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-49.json"
+ },
+ {
+  "id": "hk-50",
+  "title": "Abdurazzaqov–Hikmatov to'plami · 50-variant",
+  "src": "A. Abdurazzaqov, B. Hikmatov (@Tarixdan_testlar_BH)",
+  "n": 30,
+  "file": "dtm/hk-50.json"
+ },
+ {
   "id": "smt-01",
   "title": "So'nggi muhim test · 1-variant",
   "src": "J. Boltayev (@TESTLIDER)",

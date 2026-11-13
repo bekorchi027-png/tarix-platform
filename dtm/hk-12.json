@@ -1,0 +1,347 @@
+{
+"id": "hk-12",
+"items": [
+{
+"n": 1,
+"q": "1. Quyida berilgan hukmdorlardan qaysi biri Rim imperiyasining asoschisi hisoblanadi?",
+"opts": [
+"Yuliy Sezar",
+"Oktavian",
+"Romul",
+"Konstantin"
+],
+"ans": "B"
+},
+{
+"n": 2,
+"q": "2. Milodiy IV asrda G’arbiy Rim imperiyasi tarkibiga kirgan hududlarni toping.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 3, 6",
+"1, 2, 5"
+],
+"ans": "C",
+"extra": "1) Italiya;\n2) Bolqon yarimoroli;\n3) Yevropa;\n4) Kichik Osiyo   5) Misr;\n6) Shimoliy Afrika"
+},
+{
+"n": 3,
+"q": "3. Fransiyada 1934-yilda hokimiyatga kelgan o’nglar hukumati Xalq frontini nimada ayblagan edi?",
+"opts": [
+"Fransiya manfaatiga xiyonat qilishda",
+"Fransiyani “sovetlashtirish”da",
+"Davlat to‘ntarishi qilishga uringanlikda",
+"Iqtisodiy inqirozni bartaraf etolmaganlikda"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "4. To‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"2003-yilda O‘zbekiston Respublikasi bilan Qozog‘iston Respublikasi o‘rtasida Strategik sheriklik to‘g‘risidagi shartnoma imzolandi",
+"1991-yilda O‘zbekiston Respublikasi bilan Qirg‘iziston Respublikasi o‘rtasida do‘stlik, hamkorlik va o‘zaro yordam haqida shartnoma imzolandi",
+"1996-yilda O‘zbekiston bilan Turkmaniston o‘rtasida do‘stlik, hamkorlik va o‘zaro yordam to‘g‘risidagi shartnoma imzolandi",
+"2015-yilda-O‘zbekiston bilan Turkmaniston o‘rtasida strategik sheriklik to‘g‘risidagi shartnoma imzolandi"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "5. 1640-yili boshlangan Angliya burjua inqilobining sababi nima edi?",
+"opts": [
+"O‘rta asr feodal tartiblarining kapitalistik taraqqiyotga to‘siq bo‘lib kelayotganligi",
+"Qirolning ingliz parlamenti va puritanlarga qarshi kurashi natijasida vujudga kelgan qarama- qarshilik",
+"Mamlakatdagi murakkab siyosiy va iqtisodiy holatda, keng mehnatkash omma ongida yuz bergan o‘zgarishlar",
+"Absolutizmning kuchayishi"
+],
+"ans": "B"
+},
+{
+"n": 6,
+"q": "6. XX asr boshlarida G’arbiy Afrikadagi Fransiya mustamlakasi bo’lgan hududni aniqlang.",
+"opts": [
+"Somali",
+"Keniya",
+"Syerra-Leone",
+"Gviniya-Bisau"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "7. XIX asrning birinchi yarmida quyidagi qaysi omillar Rossiyaning O‘rta Osiyo davlatlari, jumladan, Buxoro amirligiga nisbatan tutadigan bosqinchilik siyosatini belgilab bergan?",
+"opts": [
+"1, 3",
+"2, 4",
+"1, 4",
+"2, 3"
+],
+"ans": "C",
+"extra": "1) Buyuk Britaniya harbiy flotining Qora dengizdan xavf solish imkoniyatini yo‘qqa chiqarish;\n2) Buyuk Britaniyaning Afg’onistonga qarshi urushda mag’lubiyatga uchrashi;\n3) Kavkazda Rossiya-Eron munosabatlarining keskinlashuvi;\n4) Rossiya sanoatini arzon xomashyo bilan to‘la ta’minlash imkoni"
+},
+{
+"n": 8,
+"q": "8. Buyuk Britaniyada Margaret Tetcher bosh vazirligi davrida yuz bergan voqealarni toping.",
+"opts": [
+"1, 4, 5",
+"2, 4, 5",
+"3, 6, 7",
+"1, 4, 6"
+],
+"ans": "B",
+"extra": "1) Shimoliy Irlandiyaga qo‘shin kiritildi;\n2) Davlat sektori qisqartirildi, uning samaradorligi oshirildi;\n3) Ijtimoiy ehtiyojlar uchun davlat xarajatlari oshirildi;\n4) Yevropada eng ko‘p ish o‘rinlari yaratildi;\n5) Folklend orollari uchun Argentina bilan urush olib borildi;\n6) Soliqlar oshirildi;\n7) Sog’liqni saqlash davlat xizmati, pensiyalar va ommaviy ta’limga davlat xarajatlari qisqartirildi"
+},
+{
+"n": 9,
+"q": "9. 1993-yili Isroil va FATX delegatsiyalarining Falastin avtonomiyasini tuzish to’g’risidagi kelishuvi  qaysi shaharda imzolangan?",
+"opts": [
+"Madridda",
+"Osloda",
+"Vashingtonda",
+"Parijda"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "10. SSSRda “iliqlik” davri (1953 – 1964) da oziq-ovqat muammosini hal qilish uchun quyidagi qaysi tadbirlarni amalga oshirish ko’zda tutilgan edi?",
+"opts": [
+"1, 3, 5, 6",
+"2, 4, 5, 6",
+"1, 3, 4, 5",
+"2, 3, 6, 7"
+],
+"ans": "A",
+"extra": "1) Qishloq xo‘jalik mahsulotlariga davlat xarid narxlarini va kolxoz bozori imkoniyatlarini oshirish;\n2) Qishloq xo‘jaligi solig‘ini oshirish;\n3) Qishloqqa texnika yetkazib berish uchun kapital mablag‘larni ko‘paytirish;\n4) Mehnatga yaroqli barcha aholining majburiy mehnatga jalb qilish;\n5) Boqimanda qarzlardan voz kechish;\n6) Kolxozchilarning tomorqalarini kengaytirish;\n7) Chetdan g’alla sotib olishni ko’paytirish"
+},
+{
+"n": 11,
+"q": "Alovuddin Muhammad Talos vodiysida qoraxitoylarni mag’lubiyatga uchratgan yilda qaysi shahar aholisi xorazmshohga qarshi qozg’olon ko’targan?",
+"opts": [
+"Buxoro",
+"Samarqand",
+"Toshkent",
+"O’tror"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "12. O‘rta Osiyoning quyidagi shaharlari Podsho Rossiyasi qo‘shinlari tomonidan egallangan sanasiga qarab to‘g‘ri xronologik tartibda ko‘rsatilgan javobni belgilang.",
+"opts": [
+"2, 1, 3",
+"1, 3, 2",
+"2 , 3, 1",
+"1, 2, 3"
+],
+"ans": "A",
+"extra": "1) Turkiston;\n2) Avliyoota;\n3) Toshkent"
+},
+{
+"n": 13,
+"q": "Quyida berilganlardan qaysilari Usmon Yusupov boshqaruvi bilan bog‘liq emas?",
+"opts": [
+"1, 4, 6",
+"2, 3, 6",
+"1, 3, 5",
+"2, 3, 5"
+],
+"ans": "D",
+"extra": "1) O‘rta Osiyoda dastlabki zamonaviy metallurgiya kombinatining ishga tushirilishi;\n2) O‘zbekiston ziyolilariga nisbatan qatag‘onchilik siyosati olib borilishi;\n3) O’zbekistonda islom diniga erkinliklar berilishi;\n4) O‘zbekistonliklarni fashizmga qarshi kurashga safarbar qilinishi;\n5) O‘zbekistonda kadrlarni mahalliylashtirish jarayonining ommaviy ravishda amalga oshirilishi;\n6) Toshkent aviatsiya zavodining barpo etilishi"
+},
+{
+"n": 14,
+"q": "14. Makedoniyalik Aleksandr vafotidan so’ng O‘rta Osiyo hududi quyidagi qaysi davlat tarkibiga kirgan?",
+"opts": [
+"Makedoniya",
+"Parfiya",
+"Suriya",
+"Misr"
+],
+"ans": "C"
+},
+{
+"n": 15,
+"q": "Buyuk  fransuz burjua inqilobi davri bilan bog‘liq bo‘lmagan atamalarni (tushunchalarni) toping.",
+"opts": [
+"1, 3, 7",
+"2, 3, 4",
+"2, 4, 6",
+"1, 5, 7"
+],
+"ans": "D",
+"extra": "1) Imperiya;\n2) Respublika;\n3) Parij Kommunasi;\n4) “Inson va fuqaro huquqlari deklaratsiyasi”;\n5) “Iyul monarxiyasi”;\n6) Royalistlar;\n7) “Jamiyat baxt-saodati ittifoqi”"
+},
+{
+"n": 16,
+"q": "16. XIX asrning oxiri–XX asr boshlarida qanday jarayon natijasida Xiva xonligida ichki bozor ancha kengayib, tovar-pul munosabatlari rivojlanishi asosida yangi savdo-sanoat markazlari shakllandi?",
+"opts": [
+"Mamlakat iqtisodiyotida sanoat mahsulotlari ishlab chiqarish salmog’ining ortishi",
+"Rossiya kapitali amaliyotlari tufayli",
+"1885-yilda Kaspiyorti temiryo‘lining qurilishi va 1887- yil oxirlarida Amudaryo flotiliyasining ta’sis etilishi natijasida",
+"Bu davrda Xiva xonligida ichki bozor tor doirada bo‘lib, tovar-pul munosabatlari qoloq darajada edi"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "O’rta asrlarda qaysi Rus knyazi davrida Kiyevda xristian ruhoniylari tayyorlaydigan o‘quv yurti tashkil etilgan?",
+"opts": [
+"Oleg",
+"Yaroslav",
+"Vladimir",
+"Svyatoslav"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "18. Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi?",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"3, 5, 7",
+"3, 4, 6"
+],
+"ans": "C",
+"img": "img/dtm/hk-12-18.jpg"
+},
+{
+"n": 19,
+"q": "19. Ma’lumki, 2001-yil 11-sentabr kuni Nyu-Yorkda amalga oshirilgan terrorchilik aktidan so‘ng AQSH Eronni «xalqaro terrorizmning sherigi» deb atadi.  Bu tamg’adan qutulish uchun Eron quyidagi qaysi davlatlardagi diniy maslahatchilarini chaqirib oldi?",
+"opts": [
+"Sudan, Livan, Bosniya",
+"Yaman, Liviya, Bosniya",
+"Sudan, Liviya, Bosniya",
+"Suriya, Liviya, Bosniya"
+],
+"ans": "C"
+},
+{
+"n": 20,
+"q": "20. Qaysi olimning barcha organizmlarning hujayrali tuzilishi haqidagi kashfiyotlari tabiatshunoslikning ilmiy asosini mustahkamlashga xizmat qildi?",
+"opts": [
+"Lui Paster",
+"Charlz Darvin",
+"Teodor Shvan",
+"Robert Kox"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "21. Quyidagi fikrlar kimga tegishli ekanligini toping. “Imperiya - bu tinch-totuvlik”.",
+"opts": [
+"Yuliy Sezar",
+"Buyuk Karl",
+"Napoleon Bonapart",
+"Lui Napoleon"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "22. XVIII asrda Xiva xonligiga kelgan qaysi rus elchisi o’z esdaligida “agar Xiva xoni Sherg'oziyxon yo'qotilsa, bu yerda tinchlik o'rnatiladi va hamma yo'llar ochiq bo'ladi. Rossiya Sherg‘oziyxonga qarshi kuchlarni qo‘llabquvvatlashi foydali bo‘ladi” deb qayd etgan edi?",
+"opts": [
+"N.I.Muravyov",
+"N.Ignatyev",
+"I.D.Xoxlov",
+"F.Beneveni"
+],
+"ans": "D"
+},
+{
+"n": 23,
+"q": "23. Quyida keltirilgan ma’lumotlar qaysi hukmdor haqida? “ U butun Afg‘onistonni yagona davlatga birlashtirish va uni kuchli davlatga aylantirishga harakat qildi. Buyuk Britaniya bilan yangi urush kelib chiqishini oldini olish maqsadida ingliz – afg‘on do‘stlik shartnomasini imzoladi.”",
+"opts": [
+"Ahmadshoh",
+"Do‘st Muhammadxon",
+"Sheralixon",
+"Abdurahmon"
+],
+"ans": "B"
+},
+{
+"n": 24,
+"q": "O’rta asrlarda vizantiya me’morchilik uslubining durdonasi bo’lgan Avliyo Mark ibodatxonasi qaysi shaharda qurilgan?",
+"opts": [
+"Konstantinopolda",
+"Venetsiyada",
+"Kievda",
+"Sevilyada"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Quyidagilardan qaysi biri janubiy slavyanlar guruhiga mansub?",
+"opts": [
+"Slovaklar",
+"Belaruslar",
+"Slovenlar",
+"Chexlar"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "26. Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o‘rta asrlar).",
+"opts": [
+"imperator Yustinian I - ostgotlar – Muqaddas Rim imperiyasi",
+"knyaz Meshko – Prjemislovichlar sulolasi - xristian dini",
+"imperator Buyuk Karl - sakslar – xristian dini",
+"qirol Filipp IV - Normandiya- General Shtatlar"
+],
+"ans": "C"
+},
+{
+"n": 27,
+"q": "27. 2013-yilda ijtimoiy tarmoqlarda «Yevromaydan» nomini olgan norozilik chiqishlari yuz bergan davlat xaritada qaysi raqam bilan ko’rsatilgan?",
+"opts": [
+"1",
+"2",
+"3",
+"4"
+],
+"ans": "D",
+"img": "img/dtm/hk-12-27.jpg"
+},
+{
+"n": 28,
+"q": "28. Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a, b; II-c, d; III-e",
+"I-b, c; II-a, f; III-d",
+"I-a, d; II-b, c; III-e",
+"I-e, f; II-b, c; III-a"
+],
+"ans": "C",
+"extra": "a) uning  boshqaruvi davrida ilk bor milliy koreys universitetiga asos solinib, unda mumtoz xitoy adabiyoti o‘rgatilgan;\nb) uning boshqaruvi davrida  guruchdan spirtli ichimliklar tayyorlash man etildi;\nc) uning  boshqaruvi davrida to‘g‘onlar, suv omborlari qurildi, ocharchilik holati uchun maxsus don omborlari tashkil qilindi;\nd) uning boshqaruvi davrida maorif, ilm-fan va qishloq xo‘jaligida ulkan muvaffaqiyatlarga erishiladi;\ne) uning boshqaruvi davrida soliq tizimida islohot o‘tkazildi;\nf) uning boshqaruvi davrida  «Qonunlarning buyuk to‘plami» deb nomlangan hujjat tuzildi",
+"img": "img/dtm/hk-12-28.jpg"
+},
+{
+"n": 29,
+"q": "29. Quyidagi jadval asosida mos siyosiy voqealarni toping.",
+"opts": [
+"2, 3, 4",
+"1, 5, 6",
+"1, 3, 4",
+"2, 5, 6 Sechjon Qirol Yongjo Buyuk II I III"
+],
+"ans": "C",
+"img": "img/dtm/hk-12-29.jpg"
+},
+{
+"n": 30,
+"q": "30. Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang.",
+"opts": [
+"1, 4",
+"1, 5",
+"4, 5",
+"2, 3"
+],
+"ans": "B"
+}
+]
+}

@@ -1,0 +1,340 @@
+{
+"id": "hk-27",
+"items": [
+{
+"n": 1,
+"q": "Sitorai Mohi Xosa saroyining bir qismi bo’lgan Oq zalning qurilishiga kim rahbarlik qilgan?",
+"opts": [
+"Odina Muhammad Murod",
+"Mo’minjon Solihov",
+"Shirin Murodov",
+"Ibrohim Hofizov"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "XIX asrning o’rtalariga kelib qaysi davlatning aholisi Buyuk Britaniyaga nisbatan 10 barobar ko’p bo’lgan?",
+"opts": [
+"Misr",
+"Hindiston",
+"Kanada",
+"Italiya"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Somoniylar davrida hukmron sulola hamda oliy tabaqa vakillariga davlat oldidagi xizmatlari evaziga hadya qilingan yerlar qanday atalgan?",
+"opts": [
+"Suyurg’ol",
+"Tanho",
+"Mulki iqto",
+"Mulki xos"
+],
+"ans": "C"
+},
+{
+"n": 4,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-b,d; II-e,g; III-f",
+"I-b,d; II-e,g; III-h",
+"I-a,b,d; II-c,e,g; III-f",
+"I-a,b,d; II-c,e,g; III-h"
+],
+"ans": "B",
+"extra": "a) asosiy soliq – xiroj miqdori kamaytirildi;\nb) ta’lim islohotini amalga oshirgan;\nc) barcha mang’it beklariga katta yer-mulkni tanho qilib berdi;\nd) uning davrida Marv va Miyonqolda qo’zg’olon sodir bo’ldi;\ng) fitna qurboni bo’lgan ikki akasidan keyin taxtga chiqdi;\nf) O’ratepa uchun Xiva xonligiga qarshi kurashdi;\ne) muntazam qo’shin tuzish bilan bog’liq muammolar to’la yechimini topdi;\nh) O’ratepa uchun Qo’qon xonligiga qarshi kurashdi;",
+"img": "img/dtm/hk-27-4.jpg"
+},
+{
+"n": 5,
+"q": "GSDP yetakchisi Gerxard Shryoder hukumati iqtisodda va ijtimoiy sohada qanday islohotlar o’tkazgan? 1. Jamiyatning boylar va kambag’allarga bo’linishini bartaraf qilish. 2. Federativ tizimni isloh qilish 3. Korxonalar uchun qulay sharoitlar yaratish 4. Kichik va o’rta biznesni qo’llab quvvatlash 5. Moliya tizimini qayta qurish Amir Nasrullo Amir Haydar II I III 6. Davlat mulkini xususiylashtirish 7. Tibbiy xizmat va ijtimoiy sug’urta tizimini isloh qilish",
+"opts": [
+"1, 5, 6, 7",
+"3, 4, 5",
+"1, 2, 3",
+"3, 4, 5, 7"
+],
+"ans": "D",
+"img": "img/dtm/hk-27-5.jpg"
+},
+{
+"n": 6,
+"q": "Spartak boshchiligidagi qullar qo’zg’oloni qachon boshlangan?",
+"opts": [
+"Mil.avv I asrning II yarmida",
+"Mil.avv II asrning I yarmida",
+"Mil.avv I asrning I yarmida",
+"Mil.avv IV asrda"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "2003-yilda qaysi allomaning 900 yilligi keng nishonlangan?",
+"opts": [
+"Mahmud Zamaxshariy",
+"Xoja Ahror Valiy",
+"Bahouddin Naqshbandiy",
+"Abduxoliq G’ijduvoniy"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "Afg’oniston Buyuk Britaniya manfaatlari mintaqasi deb e’lon qilingan yilda quyidagi voqealardan qaysi biri yuz bergan?",
+"opts": [
+"Eron inqilobining ikkinchi davri boshlandi",
+"Yaponiya Koreya yarimorolini harbiy kuch bilan o’ziga bo’ysundirdi.",
+"Buyuk Britaniyada uchinchi parlament islohoti o’tkazildi",
+"Rossiyada birinchi Davlat dumasi o’z ishini boshladi"
+],
+"ans": "A"
+},
+{
+"n": 9,
+"q": "Xiva xonligida maxfiy davlat hujjatlari saqlanilishi uchun javobgar bo’lgan shaxs XIX asrning o’rtalarida qanday vazifani bajargan?",
+"opts": [
+"Aholining tinchligi va osoyishtaligini nazorat qilgan",
+"Harbiy bo’linmalarga qo’mondonlik qilgan",
+"Xonlikdagi tartib-intizom ishlariga qaragan",
+"Xazina ishlari va xarajatlarni nazorat qilgan"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Bir yilda qabul qilingan qonunlarni toping. 1. ,,Vijdon erkinligi va diniy tashkilotlar to’g’risida’’ 2. ,,O’zbekiston Respublikasi hududida joylashgan harbiy qismlar va harbiy o’quv muassasalari to’g’risida’’ 3. ,,O’zbekiston Respublikasi dehqon xo’jaligi to’g’risida’’ 4. ,,Erkin iqtisodiy zonalari to’g’risida’’ 5. ,,O’zbekiston Respublikasi tashqi ishlar vazirligi faoliyatini takomillashtirish to’g’risida’’ 6. ,,O’zbekiston Respublikasi tashqi ishlar vazirligi faoliyatini tashkil etish masalalari to’g’risida’’",
+"opts": [
+"1, 2, 3",
+"2, 3, 6",
+"3, 5, 6",
+"1, 4, 5"
+],
+"ans": "B"
+},
+{
+"n": 11,
+"q": "O’rta asrlarda qaysi xalqlar naqshin idishlar, ajoyib gazlamalar, qush patlaridan tovus kabi tovlanadigan kashtalar tikishlar mohir bo’lishgan?",
+"opts": [
+"Inklar",
+"Mayyalar",
+"Asteklar",
+"Arablar"
+],
+"ans": "C"
+},
+{
+"n": 12,
+"q": "XIX asr oxiri – XXasr boshlarida Kimyo sanoatida birinchi o’rindagi (a), neft qazib chiqarishda birinchi o’rindagi(b) davlatni toping.",
+"opts": [
+"a- Germaniya b- Rossiya",
+"a-Germaniya b- Fransiya",
+"a-Buyuk Britaniya b- Yaponiya",
+"a-Xitoy b- Fransiya"
+],
+"ans": "A"
+},
+{
+"n": 13,
+"q": ",,A-Meta’’ sindiati tashkil etilgan yilda kim islom tarixiga oid asar yozgan?",
+"opts": [
+"Mahmudxo’ja Behbudiy",
+"Abdulla Avloniy",
+"Abdurauf Fitrat",
+"Munavvarqori Abdurashidxonov"
+],
+"ans": "A"
+},
+{
+"n": 14,
+"q": "Qadimda do’mbirachi hamda ud cholg’u asbobini chalayotgan musiqachilar tasvirlari  qayerdan topilgan?",
+"opts": [
+"Dalvarzintepa",
+"Xolchayon",
+"Eski Termiz",
+"Ayritom"
+],
+"ans": "D",
+"img": "img/dtm/hk-27-14.jpg"
+},
+{
+"n": 15,
+"q": "Quyidagi islohotlarni kashf etilgan yiliga qarab to’g’ri moslashtiring. 1. Elektrolitik dissotsiatsiya nazariyasi 2. Gidratlanish reaksiyasi 3. Dinamit yaratildi 4. Tutunsiz porox kashf etildi. a.1888-yil     b. 1884-yil        c. 1887-yil      d. 1881-yil",
+"opts": [
+"1-b,2-a,3-c,4-d",
+"1-b,2-d,3-c,4-a",
+"1-c,2-d,3-a,4-b",
+"1-c,2-d,3-b,4-a"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Qaysi Xiva xoni markaziy hokimiyatdan mustaqil bo’lishga harakat qilgan turkman va qoraqalpoqlarning qo’zg’olonlarini shafqatsizlik bilan bostirgan?",
+"opts": [
+"Muhammad Rahimxon I",
+"Olloqulixon",
+"Muhammad Aminxon",
+"Abulg’oziy Bahodirxon"
+],
+"ans": "B"
+},
+{
+"n": 17,
+"q": "Qaysi O’zbekiston Kompartiyasi Markaziy Komitetining birinchi sekretari o’zbek ziyolilari oqlanilishida tashabbuskorlik ko’rsatgan?",
+"opts": [
+"Amin Niyozov",
+"Nuriddin Muhitdinov",
+"Sobir Kamolov",
+"Sharof Rashidov"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Alohida masala bo’yicha xalqaro kelishuv, xalqaro shartnoma turi bu-……",
+"opts": [
+"Konferensiya",
+"Konvensiya",
+"Deklaratsiya",
+"Manifest"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Fransiyada Qonun chiqaruvchi majlis nechanchi yilda o’z ishini boshlagan?",
+"opts": [
+"1792-yil",
+"1793-yil",
+"1795-yil",
+"1791-yil"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Xiva xonligida yasovulboshi lavozimidagi shaxsga qanday vazifalar yuklatilgan? 1. Soliqlarni davlat xazinasiga tushishini ta’minlash 2. Urush harakatlari vaqtida qo’shinga qo’mondonlik qilgan 3. Ta’lim sohasi ishlari uchun javobgar bo’lgan 4. Maxfiy davlat hujjatlari saqlanilishi uchun javobgar bo’lgan 5. Xonlik xavfsizlik xizmatini boshqargan 6. Xonning qo’riqlanishi uchun javobgar bo’lgan",
+"opts": [
+"1, 3, 4",
+"2, 4, 5",
+"1, 3, 6",
+"2, 4, 5, 6"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Xitoy hokimiyatiga Si Szinpin kelgan yilda qaysi davlat BMT faoliyatida qatnashish huquqini olgan?",
+"opts": [
+"Falastin",
+"Isroil",
+"Liviya",
+"Misr"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "O’zbekiston Kommunistik partiyasining II ta’sis syezdi qaysi shaharda bo’lib o‘tgan ?",
+"opts": [
+"Toshkent",
+"Buxoro",
+"Samarqand",
+"Qo’qon"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "O’rta asrlarda Choson qirolligi iqtisodiy va madaniy jihatdan yuksalgan davrda qaysi davlatda iqtisodiy inqiroz boshlangan?",
+"opts": [
+"Hindiston",
+"Yaponiya",
+"Usmoniylar imperiyasi",
+"Xitoy"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "BMT bosh kotiblarini O’zbekiston Respublikasiga tashrif buyurgan yillariga qarab to’g’ri moslang. 1. Pan Gi Mun  2. Antoniu Gruterrish  3. Kofe Anan a. 2002-yil  b.2010-yil  c. 2017-yil",
+"opts": [
+"1-a,2-b,3-c",
+"1-b,2-c,3-a",
+"1-b,2-a,3-c",
+"1-c,2-a,3-b"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Yevropa va Amerikadagi qaysi shaharlarning  jadal rivojlanishi va gullab-yashnashi qul savdosidan keladigan savdo bilan bog’liq bo’lgan? 1. Nant  2.Parij  3.Ruan 4. Oslo  5. Nyu York 6. Lyuksenburg  7. Bristol  8. Izmir  9. Orlean 10. Daniya",
+"opts": [
+"1, 2, 5, 6, 8, 9",
+"1, 3, 5, 7, 9",
+"2, 4, 6, 7, 8, 9",
+"1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Mo’g’ullar qaysi shaharni istilo qilishganida yuz ming nafar san’at, hunar arboblarini, yosh bolalar va ayollarni ajratib olib, Mo’ulistonga jo’natadilar?",
+"opts": [
+"Xo’jand",
+"Urganch",
+"Buxoro",
+"O’tror"
+],
+"ans": "B"
+},
+{
+"n": 27,
+"q": "XI asrda sodir  bo’lgan voqealarni toping. 1. Polsha davlati tashkil topdi. 2. Yevropada feodal tarqoqlik davri boshlandi. 3. Mansikert jangi bo’lib o’tdi 4. Tan sulolasiga asos solindi. 5. Gastings jangi bo’lib o’tdi. 6. Aksum davlati parchalanib ketti.",
+"opts": [
+"2, 4, 6",
+"1, 3, 5",
+"3, 5, 6",
+"2, 4, 5"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Turkiston o’lkasida ,,Davlat tartiboti va jamoat osoyishtaligini qo’riqlashga qaratilgan chora-tadbirlar to’g’risidagi Nizom’’ qabul qilingan yilda Fransiya qaysi davlatni mustamlakaga aylantirgan?",
+"opts": [
+"Jazoir",
+"Tunis",
+"Vyetnam",
+"Marokash"
+],
+"ans": "B"
+},
+{
+"n": 29,
+"q": "Quyidagi qaysi asarda oilaviy va shaxsiy fojialar sababchisiga aylangan serchiqim ba’zi urf-odatlar va an’analar tanqid ostiga olinadi?",
+"opts": [
+",,Zaharli hayot yoxud ishq qurbonlari’’",
+",,Padarkush’’",
+",,Mahramlar’’",
+",,To’y’’"
+],
+"ans": "D"
+},
+{
+"n": 30,
+"q": "Xaritada yulduzcha bilan belgilangan hudud XX asr boshlarida Italiya bosib olguniga qadar qaysi davlat mustamlakasi bo‘lgan?",
+"opts": [
+"Buyuk Britaniya",
+"Fransiya",
+"Turkiya",
+"Portugaliya"
+],
+"ans": "C",
+"img": "img/dtm/hk-27-30.jpg"
+}
+]
+}

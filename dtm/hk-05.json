@@ -1,0 +1,346 @@
+{
+"id": "hk-05",
+"items": [
+{
+"n": 1,
+"q": "Quyidagilardan to’g’ri javob berilgan qatorni aniqlang.",
+"opts": [
+"Samarqand rasadxonasi Mirzo Ulug’bek atrofida 100 ga yaqin uyushgan olimlarning o’z bag’rida yetishtirgan;",
+"Alisher Navoiy ijodida haqiqat va adolatni sevish, shafqat va muruvvatli bo’lishni targ’ib qilish, ilm va san’atni sevish kabi fikrlar katta o’rin olgan;",
+"Temuriylar davrida xususiy sohibkorlar bir- ikki yil davomida hamma soliq va to’lovlardan ozod etilgan;",
+"XV asr davomida Movarounnahr va Xurosonda yer egaligining asosan uchta shakli bo’lgan;"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Moskvada o’zaro hujum qilmaslik to’g’risida sovetyapon shartnomasi nechanchi yilda imzolangan?",
+"opts": [
+"1938-yil",
+"1939-yil",
+"1940-yil",
+"1941-yil"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "Mashhur faylasuf Demokritning vatani hisoblangan Frakiya qayerda joylashgan?",
+"opts": [
+"Qora dengiz bo’ylarida",
+"Kaspiy dengizidan janubi-g’arbda",
+"Shimoliy Afrika sohillarida",
+"Bolqon yarimorolining sharqida"
+],
+"ans": "D"
+},
+{
+"n": 4,
+"q": "Xorazm Xalq Sovet Respublikasi (XXSR) faoliyati bilan bo’g’liq bo’lgan quyidagi ma’lumotlarni to’g’ri tartibda muvofiqlashtiring.",
+"opts": [
+"1-d, 2-a, 3-c, 4-b",
+"1-b, 2-c, 3-a, 4-d",
+"1-d, 2-b, 3-c, 4-a",
+"1-a, 2-d, 3-b, 4-c"
+],
+"ans": "A",
+"extra": "1) Hunarmandchilik va sanoat sohasidagi soliqlar bir tizimga solinib, davlat sanoat solig’i joriy qilindi;\n2) Respublikada yangi tipdagi maktablar tashkil qilina boshlandi;\n3) Qishloq xo’jaligida yagona soliq tizimi joriy qilindi;\n4) Xivada xalq dorilfununi ochildi.\na) 1920-yil bahor\nb) 1921-yil sentyabr\nc) 1922-yil dekabr d) 1923-yil iyun"
+},
+{
+"n": 5,
+"q": "XIX asrning birinchi yarmida Xiva xonligida qaysi lavozimga ko’chmanchi qabilalar vakillari orasidan(a) va o’troq aholi vakillari orasidan(b) tayinlangan?",
+"opts": [
+"a) qo’shbegi; b) mehtar;",
+"a) devonbegi; b) otaliq;",
+"a) mehtar; b) qo’shbegi;",
+"a) yasovulboshi; b) parvonachi;"
+],
+"ans": "A"
+},
+{
+"n": 6,
+"q": "XVI asr davomida Afrika davlatlarini Usmonlilar imperiyasiga qo’shib olish jarayonini xronologik ketma-ketlikda belgilang.",
+"opts": [
+"2, 1, 3",
+"1, 2, 3",
+"3, 1, 2",
+"1, 3, 2"
+],
+"ans": "B",
+"extra": "1) Misr   2) Liviya    3) Tunis"
+},
+{
+"n": 7,
+"q": "Quyidagi harbiy mojarolardan qay biri ikkinchi jahon urushidan so’ng SSSR hududida yuz bergan eng katta harbiy to’qnashuv bo’lgan?",
+"opts": [
+"Rossiya - Tatariston",
+"Ozarbayjon - Armaniston",
+"Rossiya - Afg’oniston",
+"Rossiya - Chechiniston"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "O’rta asrlarda qaysi davlatning iqtisodiy barqarorligini ikki omil: aholining katta qismini erkin dehqonlar tashkil etishi va sun’iy sug’orishga asoslangan sermahsul ziroatchilikning bo’lishi ta’minlab bergan?",
+"opts": [
+"Franklar davlati",
+"Saljuqiylar davlati",
+"Vizantiya imperiyasi",
+"Arab xalifaligi"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "Yurtimizda 2014-yilga qanday nom berilgan?",
+"opts": [
+"“Sog’lom ona va bola”",
+"“Mustahkam oila”",
+"“Sog’lom bola”",
+"“Onalar va bolalar”"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Quyidagi qaysi sulola hukmronligi davrida davlat boshqaruvidagi devonlar tizimi deyarli barbod bo’lib, markazda butun hokimiyat dargohda to’planib qolgan edi?",
+"opts": [
+"ma’muniylar",
+"anushteginiylar",
+"shayboniylar",
+"ashtarxoniylar"
+],
+"ans": "D"
+},
+{
+"n": 11,
+"q": "Qadimgi Afina davlatidagi boshqaruv tashkilotlarini vazifalari bilan to’g’ri muvofiqlashtiring.",
+"opts": [
+"1-c, 2-a, 3-b",
+"1-b, 2-c, 3-a",
+"1-a, 2-c, 3-b",
+"1-b, 2-a, 3-c"
+],
+"ans": "B",
+"extra": "1) Xalq majlisi;\n2) Beshyuzlar kengashi;\n3) Oqsoqollar kengashi;\na) hokimlar va sudyalarni saylagan;\nb) yangi inshootlar qurilishi va armiyaga mablag’ ajratish to’g’risida qaror qabul qilgan;\nc) kundalik masalalarni hal qilgan;"
+},
+{
+"n": 12,
+"q": "XX asr boshlarida Turkistonda mahalliy sanoat ishchilari . . . hisobiga ortib borgan.",
+"opts": [
+"Rossiyadan ko’chib kelgan qashshoq ishsizlar",
+"mahalliy sarmoyadorlar qo’lidagi hunarmand kosiblar",
+"Rossiyadan kelgan malakali ishchilar",
+"xonavayron bo’lgan dehqon va ishsiz hunarmandlar"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Eronda nechanchi yili ikki yuzdan oshiq kishi, jumladan, yetti nafar balog’at yoshiga yetmagan bolalar qatl qilingan edi?",
+"opts": [
+"2005-yil",
+"2006-yil",
+"2007-yili",
+"2008-yil"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "XIX asrda quyidagi qaysi voqea Yaponiyaning Uzoq Sharqda ustunlikka ega bo’lishiga yo’l ochgan edi?",
+"opts": [
+"Koreyaning yaponlar uchun «ochiq» mamlakat deb e'lon qilinishi",
+"Xitoy qo’shinlarini Pxenyan yonida mag’lubiyatga uchrashi",
+"Yaponiya Xitoyning noroziligiga qaramay Ryukyu oroliarini bosib olishi",
+"Yaponiya Janubiy Saxalin hisobiga Kurill orollarini Rossiyadan ajratib, o’ziga qo’shib olishi"
+],
+"ans": "B"
+},
+{
+"n": 15,
+"q": "Buyuk fransuz inqilobi arafasida uchinchi tabaqani birlikka chaqirgan tarixiy shaxsni aniqlang.",
+"opts": [
+"Napaleon Bonapart",
+"Lui de Bonald",
+"Gabriel de Mirabo",
+"Pyer Laval"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "Quyidagi hududlarning qaysi rus zobiti boshchiligidagi qo’shin tomonidan zabt etilganligini to’g’ri belgilang.",
+"opts": [
+"1-e, 2-d, 3-c, 4-a, 5-b",
+"1-b, 2-a, 3-c, 4-d, 5-e",
+"1-e, 2-c, 3-d, 4-a, 5-b",
+"1-c, 2-d, 3-e, 4-b, 5-a"
+],
+"ans": "A",
+"extra": "1) Kattaqo’rg’on shahri;\n2) Avliyoota shahri;\n3) Go’ktepa qal’asi;\n4) Xo’jand shahri;\n5) Turkiston shahri;\na) F. Romanovskiy;  b) N. Veryovkin;\nc) M. Skobelev;  d) M. Chernyayev;  e) Abramov."
+},
+{
+"n": 17,
+"q": "Qachondan boshlab Qadimgi Rimda imperatorni armiya saylaydigan tartib joriy qilingan?",
+"opts": [
+"III asr",
+"Mil. avv. I asr",
+"Mil. avv. III asr",
+"I asr"
+],
+"ans": "A"
+},
+{
+"n": 18,
+"q": "Yangi davr boshlarida (XVII asrda) Angliya taxtiga qaysi ikki davlatdan hukmdorlar o’tirgan edi?",
+"opts": [
+"Shotlandiya, Germaniya",
+"Irlandiya, Gollandiya",
+"Shotlandiya, Gollandiya",
+"Irlandiya, Fransiya"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Xitoy tarixiga oid quyidagi voqealarni qaysi sulola davri bilan bog’liq ekanligini toping.",
+"opts": [
+"1-a, 2-e, 3-a, 4-d",
+"1-e, 2-d, 3-a, 4-b",
+"1-a, 2-e, 3-b, 4-b",
+"1-e, 2-b, 3-d, 4-a"
+],
+"ans": "B",
+"extra": "1) faol tashqi siyosat olib borib Turk xoqonligi va Arab xalifaligi bilan savdo diplomatik aloqalar o’rnatgan;\n2) qo’shimcha qog’oz pul ishlab chiqarila boshlandi;\n3) ipakdan shoyi so’zana - panno to’qish ixtiro qilindi;\n4) qullarni ozod qilish haqida qonun qabul qilindi;\na) Sun; b) Min;  с) Suy; d) Yuan; e) Tan"
+},
+{
+"n": 20,
+"q": "“Afrika yili” davomida mustamlakachilik davrida ikkiga bo’lib yuborilgan qaysi Afrika davlati birlashtiriladi?",
+"opts": [
+"Zambiya",
+"Kongo",
+"Nigeriya",
+"Somali"
+],
+"ans": "D"
+},
+{
+"n": 21,
+"q": "Qoraxoniylar davlatida shaharlarda hunarmandchilikning qaysi sohalari ayniqsa rivoj topgan?",
+"opts": [
+"ko’nchilik, duradgorlik, zargarlik va miskarlik",
+"to’qimachilik, temirchilik va zargarlik",
+"qog’oz ishlab chiqarish, to’qimachilik va chilangarlik",
+"kulolchilik, shishasozlik, miskarlik va chilangarlik"
+],
+"ans": "D"
+},
+{
+"n": 22,
+"q": "Quyidagi Parij shahrida imzolangan tinchlik shartnomalari qaysi davlatlar o’rtasida ekanligini aniqlang.",
+"opts": [
+"1-b, 2-d, 3-a, 4-c",
+"1-a, 2-c, 3-b, 4-d",
+"1-c, 2-b, 3-d, 4-a",
+"1-b, 2-a, 3-d, 4-c"
+],
+"ans": "A",
+"extra": "1) 1783-yilda;\n2) 1856-yilda;\n3) 1857-yilda;\n4) 1898-yilda;\na) Buyuk Britaniya va Eron\nb) Buyuk Britaniya va AQSh\nc) AQSh va Ispaniya\nd) Rossiya va Turkiya"
+},
+{
+"n": 23,
+"q": "O’z asarlarida ekspluatatsiyani, meshchanlik axloqini, munofiqlik, soxtalikni qoralagan yozuvchini  aniqlang. (XIX asr oxiri - XX asr boshlari)",
+"opts": [
+"Lev Tolstoy",
+"Viktor Gyugo",
+"Bernard Shou",
+"Jek London"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Yetimxon qo’zg’oloni yuz bergan yilda tavallud topgan shaxslarini qayd eting.",
+"opts": [
+"1, 3, 5, 7",
+"2, 4, 6, 8",
+"1, 3, 6, 8",
+"1, 2, 4, 7"
+],
+"ans": "C",
+"extra": "1) Sadriddin Ayniy\n2) Mahmudxo’ja Behbudiy\n3) Munavvarqori Abdurashidxonov\n4) Abdulvohid Burhonov-Munzim\n5) Ajiniyoz\n6) Xudoybergan Devonov\n7) Abdurauf Fitrat\n8) Abdulla Avloniy"
+},
+{
+"n": 25,
+"q": "2017-yili qaysi shaharda bo’lib o’tgan sammitda Hindiston va Pokiston ShHTga aʼzo sifatida qabul qilingan?",
+"opts": [
+"Toshkent",
+"Ashxabod",
+"Bishkek",
+"Ostona"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "1930-yili bo’lib o’tgan sud jarayonida S.Qosimov va uning tarafdorlariga qanday ayblar qo’yilib, «qosimovchilik» yorlig’i bosilgan?",
+"opts": [
+"2, 4, 5",
+"1, 3, 4",
+"1, 3, 5",
+"1, 2, 3"
+],
+"ans": "B",
+"extra": "1) aksilinqilobchi millatchi tashkilotlar a’zolari bilan aloqa bog’laganlik;\n2) maorif tizimini millatchilik og’usi bilan zaharlaganlik;\n3) bosmachilarni qo’llab-quvvatlash;\n4) islom dinini himoya qilish;\n5) Milliy Ittihod tashkiloti a’zolari bilan aloqa bog’laganlik;"
+},
+{
+"n": 27,
+"q": "Belorussiya Respublikasini unitar demokratik ijtimoiy-huquqiy davlat deb e’lon qilgan konstitutsiya qabul qilingan yilda Markaziy Osiyoning qaysi davlatida ham konstitutsiya qabul qilingan edi?",
+"opts": [
+"O’zbekiston",
+"Turkmaniston",
+"Qirg’iziston",
+"Tojikiston"
+],
+"ans": "D"
+},
+{
+"n": 28,
+"q": "BMTning Tinchlik Kengashi binosi peshtoqiga bitilgan “Odam bolalari ibtidoda bir gavhardan bino bo’lganligi tufayli yaxlit bir vujud kabidirlar. Binobarin, zamon uning bir a’zosiga jarohat yetkazsa, boshqa a’zolari ham o‘z tinchini yo‘qotadi.” So’zlari qaysi asardan olingan?",
+"opts": [
+"Xo‘ja Hofiz Sheroziyning ,,Devon“",
+"Sa’diy Sheroziyning “Bo’ston”",
+"So’fi Olloyorning “Ojizlar saboti”",
+"Sa’diy Sheroziyning “Guliston”"
+],
+"ans": "D"
+},
+{
+"n": 29,
+"q": "Jadvalda harflar bilan belgilangan kataklarga mos keluvchi ma’lumotlar to’g’ri ko’rsatilgan javobni toping. O’zbekiston tarixidagi Jahon tarixidagi Asr voqea voqea Chingizxon Xorazmshohga qarshi yurish boshladi a XIII Buyuk Britaniya Bengaliyani bosib oldi b c Qarluqlar Shosh atrofi, Farg’ona hamda Zarafshon vodiylariga X d kelib o’rnashdi",
+"opts": [
+"a-3, b-2, c-6, d-8",
+"a-4, b-1, c-5, d-7",
+"a-4, b-1, c-5, d-8",
+"a-3, b-2, c-6, d-7"
+],
+"ans": "C",
+"extra": "Ma’lumotlar:\n1) XVIII asr;\n2) XIX asr;\n3) Kiyev Rusi knyazi Yaroslav hukmronligi tugadi;\n4) Aleksandr Nevskiy boshchiligidagi rus qo’shinlari Chud ko’lida bo’lib o’tgan jangda nemis ritsarlari ustidan g’alaba qozondi;\n5) Eron shohi Nodirshoh Xivani bosib oldi;\n6) Rossiya imperiyasi Xivani bosib olish maqsadida\nV.Perovskiy ekspeditsiyasini yubordi;\n7) Buyuk Alfred daniyaliklar bilan tinchlik sulhini tuzdi;\n8) Angliya qirolligi Daniya qonunlari viloyatini o’z tarkibiga qo’shib oldi.",
+"img": "img/dtm/hk-05-29.jpg"
+},
+{
+"n": 30,
+"q": "Xaritada qaysi raqam bilan ko‘rsatilgan davlatda XIX asr oxiri - XX asr boshidagi ijtimoiy harakatda «Tinchlik va adolat uchun ko‘tarilgan musht» yashirin tashkiloti katta ro’l o‘ynagan?",
+"opts": [
+"1",
+"2",
+"3",
+"4"
+],
+"ans": "B",
+"img": "img/dtm/hk-05-30.jpg"
+}
+]
+}

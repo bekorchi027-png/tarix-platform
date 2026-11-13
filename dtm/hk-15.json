@@ -1,0 +1,345 @@
+{
+"id": "hk-15",
+"items": [
+{
+"n": 1,
+"q": "XVI – XVIII asrlar Yaponiya madaniyati va san’atiga oid noto’g’ri ma’lumotni aniqlang.",
+"opts": [
+"Hayotida san’at alohida ro’l o’ynaydi;",
+"Ko’p qavvatli, tomning uchi qayrilgan binolar parvoz qilayotgan katta qushni eslatardi;",
+"Poeziyaning eng keng tarqalgan janri qofiyalashmagan besh qatorli lirik she’rlar bo’lgan;",
+"Bizdagi baxshilik san’atiga o‘xshash qo’shiqchilik keng tarqaldi;"
+],
+"ans": "D"
+},
+{
+"n": 2,
+"q": "Buxoroga Ivan Xoxlov va Florio Beneveni boshchiligida elchilar yuborilgan vaqtda Buxoro xonligida hukmronlik qilayotgan hukmdorlarni belgilang.",
+"opts": [
+"Imomqulixon, Ubaydullaxon II",
+"Imomqulixon, Abulfayzxon",
+"Abdulazizxon, Abulfayzxon",
+"Abdulazizxon, Ubaydullaxon II"
+],
+"ans": "B"
+},
+{
+"n": 3,
+"q": "Rim imperiyasining “Oltin asri”da sodir bo’lgan voqealarni aniqlang.",
+"opts": [
+"2, 4, 6",
+"1, 5, 6",
+"1, 3, 6",
+"2, 3, 5"
+],
+"ans": "C",
+"extra": "1) Yevropada iqlim soviy boshladi.\n2) Rimning barcha fuqarolari mavqeidan qatiy nazar qonun oldida teng deb hisoblanadigan qonunlar qabul qilindi.\n3) “Aleksandrning harbiy yurishlari” asari yozildi.\n4) Xan quldorlik imperiyasi inqirozga uchrab, uning o‘rnida 3 ta mustaqil davlat vujudga keldi.\n5) Qang‘ qudratli davlat birlashmasiga aylandi.\n6) Xitoyda eng yirik isyon bo‘ldi."
+},
+{
+"n": 4,
+"q": "Birinchi jahon urushidan keyin yuzaga kelgan hududiy o‘zgarishlarga qonuniy tus bergan so‘nggi yirik shartnoma qaysi?",
+"opts": [
+"Lozanna shartnomasi",
+"Rapollo shartnomasi",
+"Myunxen shartnomasi",
+"Vashington shartnomasi"
+],
+"ans": "A"
+},
+{
+"n": 5,
+"q": "O’rta asrlarda quyidagi qaysi hududlardan Movarounnahrga qimmatbaho mo‘yna olib kelingan?",
+"opts": [
+"1, 2, 3, 4",
+"2, 3, 5",
+"2, 3, 4",
+"1, 2, 5"
+],
+"ans": "C",
+"extra": "1) Mo‘g‘iliston;\n2) Sibir;\n3) Bulg‘or;\n4) Xazar;\n5) Xitoy."
+},
+{
+"n": 6,
+"q": "XIX asrning o’rtalarida Buxoro amirligi qo'shinidagi to‘plarning sozligi qayerlik mutaxasislar nazoratida bo'lgan?",
+"opts": [
+"nemis va rus",
+"fransuz va nemis",
+"rus va fors",
+"xitoy va hind"
+],
+"ans": "C"
+},
+{
+"n": 7,
+"q": "Xaritada alohida ajratib ko’rsatilgan davlat bilan bog‘liq bo‘lgan to‘g‘ri ma’lumotni aniqlang.",
+"opts": [
+"XIX asr oxirida ko’mir bazasida sanoatning metallurgiya tarmog’i rivojlana boshladi;",
+"Bismarkdan o’rnak olib 1884-yilda ishchilar harakatiga qarshi “Favqulodda qonun” joriy etdi;",
+"Sud va ma’muriy ishlar uchun ikki til joriy qilindi;",
+"Aholi jon boshiga daromad taqsimoti darajasi bo’yicha G’arbiy Yevropada eng oxirgi o’rinda turar edi;"
+],
+"ans": "A",
+"img": "img/dtm/hk-15-7.jpg"
+},
+{
+"n": 8,
+"q": "Asteklar davlatiga oid to’g’ri ma’lumotlarni ko’rsating.",
+"opts": [
+"2, 4, 6",
+"1, 3, 5",
+"1, 2, 4",
+"2, 4, 5"
+],
+"ans": "D",
+"extra": "1) jamoa erkaklari tik qoyalar yonbag’rini o’yib, toshlarning ustiga unumli tuproq yoyishgan;\n2) xom g’isht yoki toshdan yasalgan ustunlar ustida uylar bunyod etganlar;\n3) shahar-davlatlarning har birini “buyuk kishi” boshqargan;\n4) xalq bolalariga maktablarda dehqonchilik, hunarmandchilik va harbiy ish o’rgatilgan;\n5) hunarmandlari qush patlaridan tovus kabi tovlanadigan kashtalar tikishda mohir bo’lganlar;\n6) quyosh xudosi sharafiga hatto odamlar ham qurbonlik qilingan."
+},
+{
+"n": 9,
+"q": "Qaysi javobda Bolgariya podsholigi o’z qudratining cho’qqisiga erishgan davr berilgan?",
+"opts": [
+"IX asr oxiri – X asr boshlari;",
+"X asr o’rtalari;",
+"IX asr boshlari;",
+"VII asr oxirlari;"
+],
+"ans": "A"
+},
+{
+"n": 10,
+"q": "Qadimda qaysi davlatda fuqarolar salomatlikka zarar yetkazuvchi ishlardan ozod qilingan edilar?",
+"opts": [
+"Rim davlati",
+"Sparta davlati",
+"Afina davlati",
+"Bobil podsholigi"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a,b,d; II-e,g,h; III-c,f",
+"I-e,b,d; II-c,g,h; III-e,f",
+"I-f,h,d; II-b,g,a; III-c,e",
+"I-b,e,g; II-h,f,d; III-c,f"
+],
+"ans": "D",
+"extra": "a) asosiy daromad manbai savdodan keladigan boj hisoblangan\nb) XIV asr oxirida davlat zaiflashgan\nc) VIII asrda tashkil topgan\nd) X asrda o’z taraqqiyotini cho’qqisiga erishgan\ne) XV asrda davlat inqirozga yuz tutdi\nf) XI asrda islom dinini qabul qildi\ng) XIII asrda o’z taraqqiyotini cho’qqisiga erishgan\nh) Marokash sultoni Abu Bakr 1076-yilda bosib olgan.",
+"img": "img/dtm/hk-15-11.jpg"
+},
+{
+"n": 12,
+"q": "O’zbekiston oliy ta’lim muassasalarida ta’lim olishda kontrakt-shartnoma to’lovi asosida o’qish qachon joriy etildi?",
+"opts": [
+"1997-yil",
+"1994-yil",
+"1995-yil",
+"1996-yil"
+],
+"ans": "D"
+},
+{
+"n": 13,
+"q": "Quyidagi grafikda davlatlarni pul birligi bilan birbiriga muvofiq keluvchi javobni toping. Ukraina Laos Indoneziya Meksika Kipa Rupiya Grivna Peso",
+"opts": [
+"2, 4, 6, 7",
+"1, 2, 4, 5",
+"1, 2, 3, 6",
+"1, 3, 5, 7"
+],
+"ans": "D",
+"img": "img/dtm/hk-15-13.jpg"
+},
+{
+"n": 14,
+"q": "XX asr boshlarida qaysi Eron hukmdori inqilobiy o'zgarishlarga qarshi kurashni rejalashtirgan bo'lsa-da, inqilobiy harakat ko'lami uni Eronda konstitutsiyaviy tartibni saqlab turishga majbur etdi?",
+"opts": [
+"Muhammad Alishoh",
+"Rizoxon",
+"shoh Muzaffariddin",
+"Ahmad shoh"
+],
+"ans": "A"
+},
+{
+"n": 15,
+"q": "Ikkinchi jahon urushi yillarida quyidagi qaysi urush natijasida Viborg shahri va Ladoga ko‘li atrofidagi hududlar Sovet davlatiga qo'shib olingan?",
+"opts": [
+"sovet-yapon",
+"sovet-polsha",
+"sovet-fin",
+"sovet-nemis"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "XX asrning ikkinchi yarmida «yangi industrial davlatlar» Osiyo qit’asida barqaror ijtimoiy-iqtisodiy taraqqiyotning timsoliga aylandi. Bitta avlodning ko‘z o‘ngida mamlakat qoloqlikdan taraqqiyotning yuqori darajasiga erishdi. Bunga … yaqqol misol bo‘lishi mumkin. Nuqtalar o’rnini to’ldiring.",
+"opts": [
+"Janubiy Koreya",
+"Singapur",
+"Gonkong",
+"Tayvan"
+],
+"ans": "A"
+},
+{
+"n": 17,
+"q": "O‘zbekiston Respublikasi Oliy Majlisi qonunlari, Prezident farmonlari, qarorlari va  farmoyishlarining bajarilishiga rahbarlikni ta’minlovchi organni aniqlang.",
+"opts": [
+"Oliy Sud",
+"Vazirlar Mahkamasi",
+"Konstitutsiyaviy Sud",
+"Bosh prokuratura"
+],
+"ans": "B"
+},
+{
+"n": 18,
+"q": "Fransiya tarixida inqilobning barcha antifeodal yutuqlarining qonuniyligini tasdiqlagan Konstitutsiya qabul qilingan yilni toping.",
+"opts": [
+"1793-yili",
+"1791-yili",
+"1795-yili",
+"1830-yili"
+],
+"ans": "C"
+},
+{
+"n": 19,
+"q": "Germaniya qiroli Otton I vengerlar ustidan g'alaba qozongan yilda yuz bergan voqeani aniqlang.",
+"opts": [
+"Buxoro harbiy askarlarining g'alayoni ko'tarilgan;",
+"“Buxoro tarixi” asari muallifi vafot etgan;",
+"Abu Ali Chag'oniy Xurosonga hokim qilib tayinlangan;",
+"“Xoqoniya o'lkasi” davlati asoschisi vafot etgan;"
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "XXI asr boshlarida quyidagi qaysi mamlakatda “tirik tovar” savdosi keng avj olgan bo’lib,ota-onalar bolalarini arzimagan pulga sotardi?",
+"opts": [
+"Tailand",
+"Laos",
+"Kambodja",
+"Myanma"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "Yaponiya qo‘shinlarini Shimoliy Saxalindan olib chiqib ketgan(a) va Yaponiya SSSR bilan neytralitet haqida paktni imzolagan(b) yillar to’g’ri berilgan javobni toping.",
+"opts": [
+"a) 1927-yil, b) 1943-yil;",
+"a) 1923-yil, b) 1945-yil;",
+"a) 1925-yil, b) 1941-yil;",
+"a) 1921-yil, b) 1939-yil;"
+],
+"ans": "C"
+},
+{
+"n": 22,
+"q": "Jadvalda harflar bilan belgilangan kataklarga mos keluvchi ma’lumotlar to‘g‘ri ko‘rsatilgan javobni toping. Voqea Yil Voqeaga aloqador shaxs Napoleon Austerlis 1805 a jangida Rossiya va Avstriya ustidan g’alaba qozondi. b 1709 Mir Vaysxon c d Mustafo III",
+"opts": [
+"a-4, b-5, c-7, d-1",
+"a-3, b-6, c-8, d-2",
+"a-3, b-5, c-8, d-2",
+"a-4, b-6, c-7, d-1"
+],
+"ans": "B",
+"extra": "Ma’lumotlar:\n1) 1785-yil;\n2) 1768-yil;\n3) Aleksandr I hamda Frans II;\n4) Nikolay I hamda Filipp II;\n5) Qandahor xonligi Isfahonni egalladi;\n6) afg'onlar Eron bosqinchilariga qarshi qo'zg'alon ko'tardi;\n7) “Qonunlarning buyuk to‘plami” deb nomlangan hujjat tuzilgan;\n8) Usmoniylar davlati Rossiyaga qarshi urush boshladi.",
+"img": "img/dtm/hk-15-22.jpg"
+},
+{
+"n": 23,
+"q": "Mo’g’ullar davlati asoschisi Temuchin yashagan yillarda tarixda yuz bergan voqealarni aniqlang.",
+"opts": [
+"1, 3, 4",
+"1, 2, 4",
+"2, 3, 6",
+"1, 3, 5"
+],
+"ans": "D",
+"extra": "1) Fridrix I Barbarossa hukmronligi nihoyasiga yetdi;\n2) Rudolf Gabsburg taxtga o’tirdi;\n3) Fridrix II imperator deb e’lon qilindi;\n4) Rus yerlariga hujum boshlanib Ryazan bosib olindi;\n5) S. Ayyubiy Quddusni salibchilardan tortib oldi;\n6) Sakkizinchi salib yurishlari bo’lib o’tdi."
+},
+{
+"n": 24,
+"q": "Respublikamizning Birinchi Prezidenti Islom Karimov Vazirlar Mahkamasining raisi lavozimida qaysi yilga qadar faoliyat olib borgan edilar?",
+"opts": [
+"2003-yil",
+"2005-yil",
+"2007-yil",
+"2000-yil"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "Quyida keltirilgan ma'lumotlardan to'g'risini aniqlang.",
+"opts": [
+"AQSHga Sharqiy Afrikadan hosildor makkajo’xori, Rossiyadan beda, Turkistondan bug’doy va boshqa o’simliklar keltirilib mahalliylashtirildi va yuqori hosil olindi;",
+"XIX asr oxiri – XX asr boshlarida Sharqiy Sudan Buyuk Britaniya qaramog’ida edi;",
+"XX asr boshlarida Xitoyda shoshilinch o’tkazilgan islohot choralari jamiyat ahvolini tubdan yaxshilamadi;",
+"Rossiya va Bolgariya o‘rtasidagi diplomatik munosabatlar uzilgan yili Fransiya hukumatining boshlig’i J. Ferri deputatlar palatasida nutq so’zlagan;"
+],
+"ans": "C"
+},
+{
+"n": 26,
+"q": "Qarorlar qabul qilish bo‘yicha vakolat va majburiyatlarni markazdan boshqa tashkilotlarga o‘tkazish bu…",
+"opts": [
+"Contingent",
+"Devalvatsiya",
+"Tolerantlik",
+"Detsentralizatsiya"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "O’zbekiston MDHga qaysi shaharda bo’lgan ishtirokchilar yig’ilishida a’zo bo’lib kirgan?",
+"opts": [
+"Minsk",
+"Almati",
+"Toshkent",
+"Moskva"
+],
+"ans": "B"
+},
+{
+"n": 28,
+"q": "XIX asrning 70-yillarigacha bo’lgan davrda oddiy kishilar to’laydigan harbiy soliq barcha qatlamlar uchun majburiy uy boshi solig’i bilan almashtirilgan davlatga oid ma’lumotni aniqlang.",
+"opts": [
+"aholi asosan emigratsiya hisobiga jadal o’sdi;",
+"iqtisodiy va harbiy qoloqligi buyuk davlat maqomiga qaramasdan uni G’arb davlatlarining yarimmustamlakasiga aylantirdi;",
+"zamonaviy sanoatning asoslari yaratildi, o’rtacha umr darajasi ikki marta oshdi;",
+"XIX asr ikkinchi yarmi kapitalizmning shiddatli rivojlanish davri bo’ldi;"
+],
+"ans": "C"
+},
+{
+"n": 29,
+"q": "Rio-de-Janeyro shahrida atrof-muhitni himoya qilish va barqaror taraqqiyot bo‘yicha konferensiya o‘tkazilgan yili o‘z mustaqilligini e’lon qilgan davlatni aniqlang.",
+"opts": [
+"Ukraina",
+"Tatariston",
+"Moldaviya",
+"Litva"
+],
+"ans": "B"
+},
+{
+"n": 30,
+"q": "Jadidlar nimani xalqqa bevosita yaqinlashishning eng samarali yo’li sifatida baholadilar?",
+"opts": [
+"matbuotni",
+"yangi usul maktablarini",
+"siyosiy harakatni",
+"teatrni"
+],
+"ans": "D"
+}
+]
+}

@@ -1,0 +1,346 @@
+{
+"id": "hk-01",
+"items": [
+{
+"n": 1,
+"q": "Quyida berilgan hukmdorlardan qaysi birining islohatlari nasl-nasabidan qat’iy nazar afinaliklar uchun ham davlat mansablarini egallash imkoniyatini ko‘zda tutar edi?",
+"opts": [
+"Drakont",
+"Minos",
+"Solon",
+"Perikl"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "Qadimda o’z davlati tarkibiga Misrni qo’shib olgan hukmdorlarni toping.",
+"opts": [
+"1, 4",
+"2, 3",
+"2, 4",
+"1, 2"
+],
+"ans": "B",
+"extra": "1) Trayan;\n2) Kambiz II;\n3) Oktavian;\n4) Salavk."
+},
+{
+"n": 3,
+"q": "Qaysi davlatdagi ichki siyosiy munosabatlar 1920-yillarda yangi siyosiy partiyalarning paydo bo‘lishi hamda saylovchilar sonini asta-sekin oshirib borgan qator islohotlar bilan xarakterlanadi?",
+"opts": [
+"Yaponiya",
+"Turkiya",
+"Xitoy",
+"Eron"
+],
+"ans": "A"
+},
+{
+"n": 4,
+"q": "To’g’ri ma’lumot berilgan javobni toping.",
+"opts": [
+"2002-yilda Qarshi shahrining 2700 yilligi nishonlandi.",
+"O‘zbekiston Respublikasi Konstitutsiyasining XX bobi «Mahalliy davlat hokimiyati asoslari» deb nomlanib, unda mahalliy davlat hokimiyati organlarining tizimi, vazifalari, tuzilish tartibi mustahkamlandi.",
+"«O‘zbekiston Respublikasining davlat mustaqilligi asoslari to‘g‘risida»gi qonun 12 moddadan iborat.",
+"Islom Karimov 2005-yilgacha Vazirlar Mahkamasining raisi lavozimda faoliyat ko’rsatdi."
+],
+"ans": "D"
+},
+{
+"n": 5,
+"q": "AQShda Avraam Linkoln saylov oldi kompaniyasida quyidagi qaysi qonunni qabul qilishga va’da bergan?",
+"opts": [
+"Hindulardan tortib olingan yerlarni o’z egalariga qaytarib berish to’g’risidagi qonun",
+"Abolitsionistlar harakatini taqiqlash to’g’risidagi qonun",
+"Yerlarni fermerlarga bepul tarqatish to’g’risidagi qonun",
+"Shimoliy shtatlarda qulchilikni bekor qilish to’g’risidagi qonun"
+],
+"ans": "C"
+},
+{
+"n": 6,
+"q": "XIX asr oxiri – XX asr boshlarida quyidagi qaysi davlat slavyan xalqlarining milliy ozodlik kurashini qo’llab-quvvatlash barobarida o’zi ham Bolqonda mustahkam o’rnashib olishga intilgan?",
+"opts": [
+"Germaniya",
+"Rossiya",
+"Avstriya-Vengriya",
+"Buyuk Britaniya"
+],
+"ans": "B"
+},
+{
+"n": 7,
+"q": "Xiva xoni Olloqulixon boshqaruvi bilan bog’liq voqealar berilgan javobni toping.",
+"opts": [
+"2, 4, 6",
+"1, 3, 5",
+"1, 4, 6",
+"2, 3, 5"
+],
+"ans": "A",
+"extra": "1) mamlakatni birlashtirish jarayonida turkmanlar bo’ysundirildi;\n2) yangi kanallar qazdirib, sug‘oriladigan yer maydonlarini kengaytirdi;\n3) xonlikda yashovchi qabilalar 4 guruhga bo’lindi;\n4) 111 xonali Toshhovli saroyi qurildi;\n5) xonlik siyosiy jihatdan birlashtirildi;\n6) Arabxon va Muhammad Amin inoq madrasalari qaytadan qurildi."
+},
+{
+"n": 8,
+"q": "Quyidagi tarixiy voqealarni xronologik ketmaketlikda joylashtiring.",
+"opts": [
+"5, 3, 2, 4, 1",
+"2, 5, 3, 4, 1",
+"1, 3, 2, 4, 5",
+"5, 2, 3, 4, 1"
+],
+"ans": "A",
+"extra": "1) Buyuk Britaniya o‘z dominionlari bilan Vestminster statutini qabul qildi\n2) Misr davlati mustaqilligi tan olindi\n3) Inglizlar “Ozod Irlandiya davlati”ni tan olishdi\n4) Buyuk Britaniya tarixida birinchi marta hukumatni leyboristlar partiyasi boshqara boshladi\n5) Hindistoning Amritsar shahrida tinch namoyishchilar ingliz qo'shlnlari tomonidan o‘qqa tutildi"
+},
+{
+"n": 9,
+"q": "2017-yilga kelib quyidagi qaysi davlatni 140 ga yaqin davlat tan oldi?",
+"opts": [
+"Liviya",
+"Isroil",
+"Falastin",
+"Kongo"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "Turkiyada bosh vazir Turg'ut O'zol qanday iqtisodiy islohotlarni amalga oshirgan?",
+"opts": [
+"1, 2, 4, 5",
+"2, 4, 5, 6",
+"1, 3, 5, 6",
+"1, 2, 3, 5"
+],
+"ans": "A",
+"extra": "1) Davlat sektorini keng xususiylashtirish boshlandi;\n2) Erkin iqtisodiy zonalarni tuzish to'g'risida qonun qabul qilingan;\n3) Erkin bozor siyosati cheklandi;\n4) Iqtisodda davlatning roli pasaydi;\n5) Eksportni rag'batlantirish to'g'risida qonun qabul qilingan;\n6) Davlat soliqlari kamaytirilgan;"
+},
+{
+"n": 11,
+"q": "Abdulatif o’ldirilgandan so’ng Samarqandda hukmronlik qilgan Mirzo Abdulo Amir Temurning qaysi o'g'li avlodi ekanligini aniqlang.",
+"opts": [
+"Jahongir Mirzo",
+"Umarshayx",
+"Mironshoh",
+"Shohrux Mirzo"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "Rossiya imperiyasi qo‘shinlarining qaysi shaharga uyushtirgan hujumi natijasida 2 mingdan ko‘proq aholi halok bo'lgan?",
+"opts": [
+"Xo'jand",
+"O'ratepa",
+"Jizzax",
+"Kattaqo'rg'on"
+],
+"ans": "B"
+},
+{
+"n": 13,
+"q": "Sherali Lapin boshchiligidagi ulamochilarning fikrlari bolsheviklar tomonidan qat’iyan rad etilgan vaziyatda “Sho’roi Islomiya” hamda Milliy Markaz qanday takliflarni o’rtaga tashlashgan edilar?",
+"opts": [
+"1, 2",
+"2, 4",
+"1, 4",
+"2, 3"
+],
+"ans": "B",
+"extra": "1) Butunturkiston musulmonlari harbiy sho’rosini tuzish\n2) Turkistonga muxtoriyat maqomini berish\n3) Milliy istiqllolchilik harakati a’zolari bilan kelishish\n4) Butunturkiston musulmonlari qurultoyini chaqirish"
+},
+{
+"n": 14,
+"q": "XIX asrning birinchi yarmida Eronning Rossiya bilan urushdagi mag’lubiyati qator viloyatlarda kimlar boshchiligida shohga qarshi isyon ko’tarilishiga olib kelgan?",
+"opts": [
+"dehqonlar",
+"hunarmandlar",
+"harbiylar",
+"yirik yer-mulk egalari"
+],
+"ans": "D"
+},
+{
+"n": 15,
+"q": "XIX asr oxiri – XX asr boshlarida Buxoro amirligidagi eski boshqaruv uslubi o‘z ahamiyatini yo‘qotib borayotganini ko’rsatib bergan omilni aniqlang.",
+"opts": [
+"stixiyali, uyushmagan norozilik chiqishlari",
+"Rossiya bilan urushdagi mag’lubiyat",
+"jadidchilik harakati targ’ibotlari",
+"rus-tuzem maktablari tarmog’ini kengayib borishi"
+],
+"ans": "A"
+},
+{
+"n": 16,
+"q": "Rim eng yirik va aholisi ko‘p shaharga aylangan davrni belgilang.",
+"opts": [
+"Mil.avv. VI asr",
+"Mil.avv. I asr",
+"Mil. I asr",
+"Mil. III asr"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "Fransiyaning Lion shahrida birja qurilishi qaysi qirol davriga to’g’ri keladi?",
+"opts": [
+"Filipp IV",
+"Karl VII",
+"Karl VIII",
+"Lyudovik XI"
+],
+"ans": "D"
+},
+{
+"n": 18,
+"q": "Quyidagi grafikda qaysi raqam ostida tarixiy asar va uning muallifi bir-biriga muvofiq keladi?",
+"opts": [
+"1, 4",
+"2, 5",
+"4, 7",
+"3, 6"
+],
+"ans": "D",
+"img": "img/dtm/hk-01-18.jpg"
+},
+{
+"n": 19,
+"q": "Qaysi davlatda sovet davri, ayniqsa, urush davridan qolgan yodgorliklarni yo‘q qilish yoki shahar chekkasiga ko‘chirish Rossiyaning noroziligiga sabab bo‘lib, ikki tomon munosabatlarida katta muammolarni keltirib chiqarmoqda?",
+"opts": [
+"Moldova",
+"Estoniya",
+"Armaniston",
+"Ukraina"
+],
+"ans": "B"
+},
+{
+"n": 20,
+"q": "Qaysi olimning kashfiyotlari hozirgi zamon aerodinamikasining taraqqiyoti uchun asos bo’lgan?",
+"opts": [
+"P.N.Lebedev",
+"A.Bekkerel",
+"N.Y.Jukovskiy",
+"E.Rezerford"
+],
+"ans": "C"
+},
+{
+"n": 21,
+"q": "XIX asrning birinchi yarmida qaysi ekspeditsiya natijasida inglizlar Buxoro amirligini har tomonlama o‘rganishga va mahalliy hukmdorlar orasida o‘zlariga tarafdor guruhni shakllantirishga muvaffaq bo‘ldilar?",
+"opts": [
+"U. Murkford",
+"F. Beneveni",
+"A. Byorns",
+"F. Berg"
+],
+"ans": "A"
+},
+{
+"n": 22,
+"q": "Quyida keltirilgan ma’lumotlar qaysi hukmdor haqida? “U parlamentni tarqatib yubordi. Mamlakatda shaxsiy hukmronligi o‘rnatilib, savdogarlar, yangi dvoryanlar, hurfikr dindorlar davlat ishlaridan butunlay chetlatildi.”",
+"opts": [
+"Oliver Kromvel",
+"Yakov I",
+"Karl I",
+"Villem van Oranye"
+],
+"ans": "C"
+},
+{
+"n": 23,
+"q": "Quyidagi fikrlar kimga tegishli ekanligini toping. “Shuncha narsadan bemalol voz kechib ham yashash mumkinligi naqadar ajoyib!”",
+"opts": [
+"Diogen",
+"Geraklit",
+"Arximed",
+"Sokrat"
+],
+"ans": "D"
+},
+{
+"n": 24,
+"q": "O’rta asrlarda quyidagi qaysi xalqlar turmush tarziga ko`ra, qullar davrlar o`tishi bilan qaram dehqonlar toifasiga aylanib, ularning avlodi faqatgina davlatga soliq to`lagan, xolos?",
+"opts": [
+"Mali",
+"Ink",
+"Mayya",
+"Songai"
+],
+"ans": "D"
+},
+{
+"n": 25,
+"q": "Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o’rta asrlarda).",
+"opts": [
+"xalifa Ali - to‘xtovsiz urushlar - Shimoliy Afrikani to‘liq bo‘ysundirilishi",
+"Mahmud G’aznaviy - Somoniylar sulolasi barham topdi - Xuroson hududlarini, Xorazm davlatini o’z saltanatiga qo’shib oldi",
+"Asparux - o‘z qudratining cho‘qqisiga erishadi - Prjemislovichlar xonadoni",
+"Jaloliddin Manguberdi - Basra yaqinidagi jang - Taynol no‘yon"
+],
+"ans": "B"
+},
+{
+"n": 26,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-e, f; II-b, c; III-a",
+"I-a, d; II-b, e; III-c",
+"I-b, d; II-a, f; III-e",
+"I-b, d; II-c, f; III-e Abdullaxon II Subhonqulixon II I III"
+],
+"ans": "C",
+"extra": "a) bir tomondan o‘g‘illariga qarshi, ikkinchi tomondan viloyatlardagi amir va beklarning markaziy hokimiyatdan mustaqil bo‘lish yo'lidagi harakatlariga qarshi kurash olib borishga majbur bo‘ldi;\nb) Sun’iy sug‘orish ishlari, ayniqsa keng rivojlandi;\nc) goh isyonkor qabilalarga qarshi, goh bo‘ysunmas mahalliy hukmdorlarga, goh davlat sarhadlariga bostirib kirgan ko’chmanchilarga qarshi urush olib borishga majbur bo’ldi;\nd) Xurosonning Marv, Nishopur va Mashhad kabi yirik shaharlarini egalladi;\ne) Xiva xonligi Buxoro tasarrufiga kiritildi;\nf) Tibbiyotga ixtisoslashgan madrasa qurilib, shifokorlar tayyorlandi.",
+"img": "img/dtm/hk-01-26.jpg"
+},
+{
+"n": 27,
+"q": "Quyidagi ma’lumotlardan qaysi biri Yaroslav davri bilan bog`liq emas?",
+"opts": [
+"Kiyevda avliyo Sofiya ibodatxonasi qurilgan.",
+"Rusning Yevropa mamlakatlari bilan munosabatlari rivojlangan.",
+"Kiyevda xristian ruhoniylari tayyorlaydigan o‘quv yurti tashkil etilgan.",
+"Rus yerlarining dastlabki yozma qonunlari to‘plami – “Rus haqiqati” tuzilgan."
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Xaritada yulduzcha bilan belgilangan qadimgi davlat bilan bog’liq to’g’ri ma’lumotni toping.",
+"opts": [
+"mil. avv. VI asr oxiridan respublika deb yuritila boshlangan.",
+"“podsho tirsagi” degan yagona o‘lchov joriy etilgan.",
+"mil. avv. I asrda qog‘oz ixtiro qilingan.",
+"bundan ikki yarim ming yil muqaddam teatr dunyoga kelgan."
+],
+"ans": "D",
+"img": "img/dtm/hk-01-28.jpg"
+},
+{
+"n": 29,
+"q": "Quyidagi jadvalning qaysi qatorlaridagi ma’lumotlar bir-biriga mos ravishda to’g’ri berilgan? № Davlat Voqea 1. Eron 1911-yilda 1907-yilgi Rossiya-Buyuk Britaniyaning ta’sir doiralari haqidagi bitimini tan olishga majbur etildi 2. Turkiya 1876-yilda ikki palatali parlament joriy etildi 3. Meksika 1908-yilda hosil bo‘lmadi 4. Buyuk Britaniya 1901-yilda Panama kanali qurishi huquqini AQSHga berdi 5. 1902-yilda Rossiya bilan bitim imzolandi. Bitimga ko‘ra, tomonlar ikki davlatning biri boshqa davlatning hujumiga uchraydigan bo‘lsa, o‘zaro qat’iy betaraflik majburiyatini oldilar 6. Rossiya Italiya 1895-yilda “Ishchilar sinfini ozod qilish uchun kurash ittifoqi” tuzildi",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 4, 6",
+"2, 4, 5"
+],
+"ans": "B",
+"img": "img/dtm/hk-01-29.jpg"
+},
+{
+"n": 30,
+"q": "Bir-biriga bog’liq bo’lgan ma’lumotlar berilgan qatorlarni aniqlang. № Sabab Natija 1. Tohiriylar davlatining tashkil topishi Xuroson va Movarounnahrda xalifalik hukmronligi tugadi 2. Qutayba  Farg‘onada arab askarlari tomonidan o‘ldirildi “Oq kiyimlilar” harakati kengayib, katta xalq qo‘zg‘oloniga aylanadi 3. Jaloliddinning ukasi G‘iyosiddin Pirshoh birinchi bo‘lib xiyonat yo‘liga o‘tdi Mo‘g‘ullar Jaloliddin davlati bilan sulh tuzish fikridan qaytishdi 4. 1469-yilda Abu Said turkmanlarga qarshi jangda halok bo‘lishi Temuriylar saltanati ikki mustaqil qism(davlat)ga bo’linishi 5. Qoraxoniylarni qoraxitoylar hujumiga duchor bo‘lishi Qoraxoniylar ikki mustaqil davlatga ajralib ketishi",
+"opts": [
+"1, 2",
+"1, 5",
+"2, 4",
+"3, 4"
+],
+"ans": "D",
+"img": "img/dtm/hk-01-30.jpg"
+}
+]
+}

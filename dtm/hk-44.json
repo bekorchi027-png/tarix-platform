@@ -1,0 +1,349 @@
+{
+"id": "hk-44",
+"items": [
+{
+"n": 1,
+"q": "Qaysi javobda qadimgi Yunon afsonalariga daxldor bo’lmagan xudo nomi keltirilgan?",
+"opts": [
+"Aid",
+"Demetra",
+"Fortuna",
+"Artemida"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "XX asrning ikkinchi yarmida qaysi davlatdagi chuqur iqtisodiy inqiroz natijasida tashqi savdoda defitsit oshib ketgan?",
+"opts": [
+"Argentina",
+"Turkiya",
+"Meksika",
+"Italiya"
+],
+"ans": "D"
+},
+{
+"n": 3,
+"q": "O’rta asrlarda Fransiya viloyatlari o’rtasida boshlangan mehnat taqsimoti davrida Flandriya qaysi soha(lar)ga ixtisoslashgan edi?",
+"opts": [
+"zig’ir tolasidan surp to’qish",
+"jundan matolar ishlab chiqarish",
+"tuz ishlab chiqarish",
+"vinochilik, ot va qoramol yetishtirish"
+],
+"ans": "B"
+},
+{
+"n": 4,
+"q": "Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping. O’rta asrlar Xitoy Koreya",
+"opts": [
+"I-a, c; II-b, d; III-e",
+"I-b, c; II-a, d; III-f",
+"I-d, e; II-b, c; III-a",
+"I-a, b; II-d, f; III-e"
+],
+"ans": "A",
+"extra": "a) Sex a’zosi bo’lish hunarmandlari uchun majburiy edi;\nb) XV asr o‘rtalarida iqtisodiy va madaniy jihatdan yuksaladi;\nc) Qullarni ozod qilish haqida qonun qabul qilingan;\nd) Mamlakatning birlashuvi yer egaligi munosabatlarining uzil-kesil shakllanishida katta ahamiyat kasb etadi.\ne) 1368-yilda mo’g’ullarga qaramlikdan ozod bo’lgan;\nf) XII asrdan boshlab imparator boshqargan.",
+"img": "img/dtm/hk-44-4.jpg"
+},
+{
+"n": 5,
+"q": "Qo’qon xonligida mavjud bo’lgan quyidagi harbiy mansablar va ularga mos keluvchi javoblarni aniqlang.",
+"opts": [
+"1-c, 2-d, 3-b",
+"1-c, 2-b, 3-a",
+"1-b, 2-d, 3-a",
+"1-b, 2-c, 3-d II I III"
+],
+"ans": "C",
+"extra": "1) qozi askar;\n2) xonning xos soqchilari;\n3) qozi rais.\na) qo’shin muftiysi bergan fatvo ijrosining ta’minlanishini nazorat nazorat qilgan;\nb) harbiy harakat boshlanishidan oldin xon nomidan jihod e’lon qilgan;\nc) bekliklardagi harbiy ishning ahvoli uchun ma’sul bo’lgan;\nd) askarlarni jangda ruhlantirib, chekinayotganlarga burch haqida eslatib turgan.",
+"img": "img/dtm/hk-44-5.jpg"
+},
+{
+"n": 6,
+"q": "XIX asr oxiri – XX asr boshlarida O’rta Osiyoning tabiiy boyliklarini o’zlashtirish bilan bog’liq tadqiqot ishlarini olib borgan qaysi rus sayyohi Qizilqumni tekshirib chiqqan?",
+"opts": [
+"V.Vyatkin",
+"P.P.Semyonov-Tyanshanskiy",
+"N.A.Seversev",
+"A.P.Fedchenko"
+],
+"ans": "D"
+},
+{
+"n": 7,
+"q": "Tarixiy-mantiqiy bog’liqlik (ketma-ketlik, moslik) to’g’ri berilgan javobni toping.",
+"opts": [
+"Xiva xonlari – Sheralixon – Eltuzarxon",
+"Buxoro amirlari – Ubaydullaxon II – Nasrullo",
+"Qo’qon xonlari – Abdurahimbiy – Sherg’oziyxon",
+"Buxoro xonlari – Subhonqulixon – Abulfayzxon"
+],
+"ans": "D"
+},
+{
+"n": 8,
+"q": "1907-yili Buyuk Britaniya va Afg'oniston o'rtasida imzolangan bitimda nimalar ko'zda tutilgan?",
+"opts": [
+"1, 2, 4",
+"1, 2, 5",
+"2, 3, 4",
+"1, 3, 5"
+],
+"ans": "A",
+"extra": "1) Afg‘oniston tashqi savdosi Buyuk Britaniya nazorati ostida bo‘lmog‘i;\n2) Afg'onistonda inglizlarning temiryo'l qurishiga rozilik berish;\n3) Afg'oniston Rossiya bilan har qanday siyosiy-iqtisodiy aloqalarni uzishi;\n4) ingliz fuqarolarining Afg'onistonga erkin kirib-chiqishiga ruxsat berish;\n5) Afg‘onistonda ingliz tovarlari uchun ichki boj to’lovlarini yo’qotish."
+},
+{
+"n": 9,
+"q": "Qaysi davr boshlanishi bilan odamlar xom g’ishtdan ko’p xonali uylar qura boshlagan?",
+"opts": [
+"neolit",
+"bronza",
+"so’nggi paleolit",
+"eneolit"
+],
+"ans": "D"
+},
+{
+"n": 10,
+"q": "Amerikacha individualizm va liberalizm tamoyillarini himoya qilib, hech qanday ijtimoiy choralar ko‘rishga rozi bo‘lmagan prezidentini belgilang.",
+"opts": [
+"Vudro Vilson",
+"Franklin Delano Ruzvelt",
+"Gerbert Guver",
+"Uorren Garding"
+],
+"ans": "C"
+},
+{
+"n": 11,
+"q": "XX asrning oxirlarida Tojikistonda tinchlik o’rnatilgandan so’ng, hukumat qaysi davlatlar bilan hamkorlik qilib, mamlakat iqtisodiyotini tiklashga kirishgan?",
+"opts": [
+"2, 4, 6",
+"2, 3, 5",
+"1, 4, 6",
+"1, 3, 5"
+],
+"ans": "D",
+"extra": "1) Eron;\n2) Germaniya;\n3) Rossiya;\n4) Hindiston;\n5) Xitoy;\n6) Yaponiya."
+},
+{
+"n": 12,
+"q": "“Hokimyatsizlik, beboshlik” degan ma’noni anglatuvchi atamani toping.",
+"opts": [
+"antisemitizm",
+"shovinizm",
+"anarxizm",
+"irredentizm"
+],
+"ans": "C"
+},
+{
+"n": 13,
+"q": "Germaniyaning 1960-1970-yillardagi tarixiga oid ma’lumotni aniqlang.",
+"opts": [
+"GFR uchun okkupatsiya davri tugashi",
+"Iqtisod jadal o‘sib «nemis iqtisodiy mo‘jizasi» nomini olishi",
+"Germaniya Federativ Respublikasining vujudga kelishi",
+"K.Adenauer kanslerligining boshlanishi"
+],
+"ans": "B"
+},
+{
+"n": 14,
+"q": "Quyidagi grafikda qaysi raqam ostida gazeta va uning muharriri bir-biriga muvofiq keladi?",
+"opts": [
+"1, 3, 5, 7",
+"2, 3, 5, 7",
+"1, 2, 4, 6",
+"2, 4, 5, 6"
+],
+"ans": "A",
+"img": "img/dtm/hk-44-14.jpg"
+},
+{
+"n": 15,
+"q": "Quyidagilardan qadimgi Sparta davlati tarixi bilan bog’liq bo’lganlarini aniqlang.",
+"opts": [
+"2, 4",
+"1, 4",
+"1, 3",
+"2, 3"
+],
+"ans": "A",
+"extra": "1) o’spirinlar qo‘l jangi, harbiy ishlar va otga minib yurishni o‘rganishgan;\n2) to‘la-to‘kis huquqlarga ega bo‘lmagan, shaxsan ozod kishilar – perieklar yashagan;\n3) davlat maktablari bo‘lmagan;\n4) hamma uylar bir-biriga o‘xshatib qurilgan."
+},
+{
+"n": 16,
+"q": "“U 1038-yilda Amudaryo bo‘yi viloyatlari – Xuttalon, Vaxsh va Chag‘oniyonni g‘aznaviylardan tortib oladi. Ko‘p vaqt o‘tmay Movarounnahrni va Farg‘onani ham o‘ziga bo‘ysundirib, mustaqil siyosat yurita boshlaydi. Bu g‘alabalardan so‘ng “bug‘roxon” unvonini olgan.” Yuqoridagi ma’lumotlar qaysi shaxs haqida ekanligini toping.",
+"opts": [
+"Horun Bug‘roxon",
+"Nasr Eloqxon",
+"Ibrohim Bo‘ritegin",
+"Abdulkarim Sotuk"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "“Qiyin taklif”, “Beparvo” asarini yaratgan rassomni toping.",
+"opts": [
+"Rafael Santi",
+"Fransua Bushe",
+"Antuan Vatto",
+"Leonardo da Vinchi"
+],
+"ans": "C"
+},
+{
+"n": 18,
+"q": "XX asrning 90-yillarida qaysi davlatda qurollangan so‘l radikal harakat avj olib, ularning qo‘shinlari mamlakat hududining 40% ini nazorat qilardi?",
+"opts": [
+"Peru",
+"Kolumbiya",
+"Meksika",
+"Chili"
+],
+"ans": "B"
+},
+{
+"n": 19,
+"q": "Quyidagi fikrlarning qaysi biri tarixiy haqiqatga muvofiq kelmaydi?",
+"opts": [
+"XII asrda Buxoroning Darvozai Mansur mahallasida qonunshunoslar uchun maxsus «Faqihlar madrasasi» barpo etilgan.",
+"IX asrda Movarounnahr mintaqasida yaxlit turkiy etnik qatlam, jonli turkiy til muhiti vujudga kela boshladi.",
+"XI-XII asrlarda «dehqon» degan tushuncha o'zining «qishloq hokimi»ni anglatuvchi asl ma’nosini yo'qotadi.",
+"X asr o‘rtalarida «Xoqoniya» rivoj topib kuchaygach, u «Qarluq- Qoraxoniylar» davlati nomini olgan."
+],
+"ans": "D"
+},
+{
+"n": 20,
+"q": "Quyidagi voqealarni to’g’ri xronologik tartibda belgilang.",
+"opts": [
+"1, 2, 4, 3",
+"3, 1, 4, 2",
+"2, 4, 1, 3",
+"1, 3, 2, 4"
+],
+"ans": "A",
+"extra": "1) Rimda barcha fuqarolari mavqeidan qat’i nazar qonun oldida teng deb hisoblanuvchi qonunlar qabul qilindi;\n2) Rimda muntazam yollanma qo‘shinlarga tayanuvchi harbiy boshliqlar real kuchga aylandi;\n3) Rim imperiyasining kuch-qudrati zaiflasha boshladi;\n4) Rim eng yirik va aholisi ko‘p shaharga aylangan."
+},
+{
+"n": 21,
+"q": "Quyida berilganlardan XIX asrga oid bo’lganlarini toping.",
+"opts": [
+"1, 4, 6",
+"1, 3, 5",
+"2, 3, 6",
+"2, 4, 6"
+],
+"ans": "A",
+"extra": "1) Afyun urushi;\n2) Shimoliy urush;\n3) Vestfal sulhi;\n4) Tilzit shartnomasi;\n5) Yetti yillik urush;\n6) Vena kongressi."
+},
+{
+"n": 22,
+"q": "XX asrning dastlabki choragida tashkil etilgan qaysi tashkilot tarkibiga N.Xo‘jayev, A.Muhitdinov, Y.Ibragimov, Yu.Aliyevlar kiritilgan?",
+"opts": [
+"“Sho‘roi Ulamo”",
+"Musulmonlar byurosi (Musbyuro)",
+"“Sho‘roi Islomiya”",
+"Turkiston o‘lka musulmonlar kengashi (Kraymussovet)"
+],
+"ans": "B"
+},
+{
+"n": 23,
+"q": "Buxoro xoni Andullaxon II davrida Xurosonning qaysi hududlari safaviylardan tortib olingan?",
+"opts": [
+"Balx, Maymana, Badaxshon",
+"Nishopur, Ray, Marv",
+"Marv, Nishopur, Mashhad",
+"Karmana, Shahrisabz"
+],
+"ans": "C"
+},
+{
+"n": 24,
+"q": "Quyidagilardan Safaviylar sulolasining birinchi va oxirgi vakillari bo‘lgan hukmdorlarni belgilang.",
+"opts": [
+"1, 6",
+"2, 4",
+"3, 4",
+"2, 5"
+],
+"ans": "B",
+"extra": "1) Sulton Husayn;\n2) Ismoil I Safaviy;\n3) Abbos I;\n4) Taxmasp II;\n5) Nodirshoh;\n6) Mir Mahmud."
+},
+{
+"n": 25,
+"q": "Qaysi davrdan boshlab Ispaniya hududlarida tashkil topgan amirlik Qurdoba amirligi nomida atala boshlangan edi?",
+"opts": [
+"IX asr",
+"XI asr",
+"VIII asr",
+"X asr"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "XIX asrning birinchi yarmida Eron hukmron tabaqalari o‘rtasida keskin norozilik kelib chiqib, bir qator viloyatlarda yirik yer-mulk egalari boshchiligida shohga qarshi isyon ko‘tarilishiga sabab bo‘lgan voqeani aniqlang.",
+"opts": [
+"Eron shohi tomonidan yirik yer-mulk egalariga qarashli mulklarga solinadigan soliqlami oshirib yuborishi",
+"Parij shartnomasiga ko‘ra, Eronning Afg‘onistonga da’vosidan voz kechishi",
+"mulkdor tabaqalar va yirik savdogarlar imtiyozlarining cheklanishi",
+"Rossiya bilan urushdagi mag‘lubiyat va uning oqibatlari"
+],
+"ans": "D"
+},
+{
+"n": 27,
+"q": "XIX asrning ikkinchi yarmida quyidagi qaysi soha O’rta Osiyoda muhim hamda davlat ahamiyati darajasiga ko’tarilgan?",
+"opts": [
+"sud-huquq tizimi",
+"harbiy ishlar",
+"sug’orish va suv ta’minoti",
+"hunarmandchilik va savdo-sotiq"
+],
+"ans": "C"
+},
+{
+"n": 28,
+"q": "Mil.avv. IX-VIII asr boshlarida gullab-yashnagan Old Osiyodagi davlat xaritada nechanchi raqam bilan berilgan?",
+"opts": [
+"2",
+"4",
+"3",
+"1"
+],
+"ans": "D",
+"img": "img/dtm/hk-44-28.jpg"
+},
+{
+"n": 29,
+"q": "Xaritada yulduzcha bilan belgilangan hududda milodiy I ming yillikda Amerika sivilizatsiyasining markazi bo‘lgan qaysi davlat vujudga kelgan?",
+"opts": [
+"Mali davlati",
+"Songai davlati",
+"Mayyalar davlati",
+"Inklar davlati"
+],
+"ans": "C",
+"img": "img/dtm/hk-44-29.jpg"
+},
+{
+"n": 30,
+"q": "Quyidagi jadvalda voqea va uning natijasi o’zaro mos berilgan qatorlarni aniqlang. № Voqea Natija 1. Kir II ning O‘rtayer dengizi sohilida chiqib, Falastin va Finikiyani bo‘ysundirishi Yunon-fors urushlarini boshlanib ketishi 2. 1770-yilda Muhammad Amin inoq turkman qabilasini Xivadan quvib chiqarishi Qo’ng’irotlar sulolasining hokimiyat tepasiga kelishi 3. Gruziyada 2003yildagi “Atirgullar inqilobi” “Gruziya orzusi” partiyasi vakili Georgiy Margvelashvili ni prezident etib saylanishi 4. “Bog’dod temiryo’li” qurish to’g’risida shartnoma imzolanishi Buyuk Britaniyaning Quvaytda o’z protektoratini o’rnatishi 5. 1923-yil oktyabrda XSSR ni tuzilishi Xorazmdagi demokratik o’zgarishlarga chek qo’yilishi",
+"opts": [
+"2, 4, 5",
+"2, 3, 4",
+"1, 3, 5",
+"1, 2, 4"
+],
+"ans": "A",
+"img": "img/dtm/hk-44-30.jpg"
+}
+]
+}

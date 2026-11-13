@@ -1,0 +1,351 @@
+{
+"id": "hk-10",
+"items": [
+{
+"n": 1,
+"q": "1. …davridan so’ng rimliklar yirik bosqinchilik urushlarini olib borolmaganlar.",
+"opts": [
+"Yuliy Sezar",
+"Oktavian",
+"Trayan",
+"Konstantin"
+],
+"ans": "C"
+},
+{
+"n": 2,
+"q": "2. Quyidagi voqealar to‘g‘ri xronologik tartibda joylashtirilgan javobni toping.",
+"opts": [
+"1, 4, 5, 3, 2",
+"3, 1, 4, 5, 2",
+"4, 1, 3, 5, 2",
+"3, 4, 1, 5, 2"
+],
+"ans": "B",
+"extra": "1) Isroil davlati vujudga keldi;\n2) Midiya qudratli davlatga aylandi;\n3) Miken davlati tugatildi;\n4) Finikiyada yangi alifbo yaratildi;\n5) Urartu davlati gullab-yashnadi;"
+},
+{
+"n": 3,
+"q": "3. Quyidagilardan so’ngi paleolit davriga xos ma’lumotlarni toping.",
+"opts": [
+"2, 4, 5, 7, 9",
+"3, 4, 5, 8, 9",
+"1, 3, 5, 6, 8",
+"1, 2, 4, 6, 7"
+],
+"ans": "A",
+"extra": "1) neandertallar yashagan;\n2) kromanyon odamlari yashagan;\n3) paxsa uylar qurilgan;\n4) odamlar taqinchoqlar yasay boshlagan;\n5) odamlar urug’ jamoalariga birlashgan;\n6) kiyim-kechak tayyorlashda gazlamadan foydalanishga o’tilgan;\n7) odamlar sun’iy olovdan foydalanishni boshlagan;\n8) odamlar tabiiy olovdan foydalanishni boshlagan;\n9) turar joylar qurilishi boshlangan"
+},
+{
+"n": 4,
+"q": "4. O’rta asrlarda Vizantiya imperiyasi tomonidan bosib olingan davlatni aniqlang.",
+"opts": [
+"Kiev Rusi davlati",
+"Chexiya qirolligi",
+"Bolgariya podsholigi",
+"Polsha knyazligi"
+],
+"ans": "C"
+},
+{
+"n": 5,
+"q": "5. O’rta asrlarda Yaponiyada qaysi shahar budda ibodatxonalari yaqinida qurilgan?",
+"opts": [
+"Xyogo",
+"Nagoya",
+"Otsu",
+"Xeyyan"
+],
+"ans": "D"
+},
+{
+"n": 6,
+"q": "6. Quyidagilardan XII asrning so’ngi choragida yuz bergan voqealarni aniqlang.",
+"opts": [
+"3, 4, 5",
+"1, 3, 4",
+"1, 2, 5",
+"2, 3, 4"
+],
+"ans": "C",
+"extra": "1) Fridrix I Shimoliy Italiya shaharlariga erkinlik huquqini berdi;\n2) Salohiddin Ayubiy salibchilardan Quddusni tortib oldi;\n3) Xitoy mo’g’ullar tomonidan to’liq bo’ysindirildi;\n4) Saljuqiylar davlati keskin zarbaga uchrab, zaiflashib qoladi;\n5) G’aznaviylar davlati butunlay tugatildi"
+},
+{
+"n": 7,
+"q": "7. Quyidagi qaysi shartnoma XIX asrning 70-yillarida Bolqon yarimorolining siyosiy xaritasini tubdan o’zgartirib yubordi?",
+"opts": [
+"Frankfurt",
+"Parij",
+"San-Stefano",
+"Kuchukqaynarja"
+],
+"ans": "C",
+"img": "img/dtm/hk-10-7.jpg"
+},
+{
+"n": 8,
+"q": "8. Birinchi Bolqon urushida Usmonli davlatining yengilishi natijasida mustaqillika erishgan davlatni aniqlang.",
+"opts": [
+"Bolgariya",
+"Serbiya",
+"Albaniya",
+"Gretsiya"
+],
+"ans": "C"
+},
+{
+"n": 9,
+"q": "9. XX asrning 70-yillarida quyidagi qaysi davlatda sovodsizlikni tugatish bo’yicha davlat boshqarmasi tuzilgan?",
+"opts": [
+"Hindiston",
+"Eron",
+"Afg’oniston",
+"Xitoy"
+],
+"ans": "C"
+},
+{
+"n": 10,
+"q": "10. Quyidagi qaysi siyosiy partiyalar XIX asrning so’ngi o’n yilligida tashkil topgan?",
+"opts": [
+"1, 3",
+"2, 4",
+"2, 5",
+"3, 4"
+],
+"ans": "B",
+"extra": "1) Fransiya ishchi partiyasi;\n2) Rossiya sotsialdemokratik ishchi partiyasi;\n3) Avstriya sotsialistik partiyasi;\n4) Argentina sotsialistik  partiyasi;\n5) Germaniya sotsial-demokratik partiyasi"
+},
+{
+"n": 11,
+"q": "11. Quyidagi qaysi olim organizmlarni mikroblardan himoya qilinishi haqidagi yangi ta’limotni yaratgan?",
+"opts": [
+"L.Paster",
+"T.Shvan",
+"R.Kox",
+"I.Mechnikov"
+],
+"ans": "D"
+},
+{
+"n": 12,
+"q": "12. YI va AQSH o‘rtasida Deklaratsiya-Transatlantik xartiya imzolangan (a) va Transatlantik iqtisodiy kengash joriy qilingan(b) yillarni aniqlang.",
+"opts": [
+"a-1, b-4",
+"a-2, b-3",
+"a-1, b-3",
+"a-2, b-4"
+],
+"ans": "A",
+"extra": "1) 1990-yil;\n2) 1992-yil;\n3)  2002-yil;\n4) 2007-yil"
+},
+{
+"n": 13,
+"q": "13. Quyidagilardan Afrika qit’asidagi oxirgi mustamlaka rejimini aniqlang.",
+"opts": [
+"Kongo Demokratik Respublikasidagi Mobutu diktaturasi",
+"Efiopiyadagi Mengistu Xayle Mariam hukumati",
+"Portugaliyaning Afrikadagi genotsid siyosati",
+"Janubiy Afrika Respublikasidagi aparteid tuzumi"
+],
+"ans": "D"
+},
+{
+"n": 14,
+"q": "14. Rim imperiyasining kuch qudrati zaiflasha boshlagan davrda bo’lib o’tgan voqealarni aniqlang.",
+"opts": [
+"1, 2, 3, 5",
+"3, 4, 5, 6",
+"1, 2, 4, 6",
+"1, 3, 5, 6"
+],
+"ans": "A",
+"extra": "1) Xorazm Qang’ davlatidan ajralib chiqdi;\n2) Xitoyda yer egaligi munosabatlari shakllana boshladi;\n3) Xan davlati uchga bo’linib ketdi;\n4) Davan davlati parchalanib ketdi;\n5) Kushon davlati inqirozga yuz tutdi;\n6) Xitoyda sariq ro’mollilar qo’zg’oloni boshlandi"
+},
+{
+"n": 15,
+"q": "15. Buxoro amirlaridan kimning hukmronligi davrida Samarqand shahri baland devor bilan o’raldi?",
+"opts": [
+"Muhammad Rahimbiy",
+"Amir Shohmurod",
+"Amir Haydar",
+"Amir Nasrullo"
+],
+"ans": "C"
+},
+{
+"n": 16,
+"q": "16. Amir Temur tomonidan Mironshohga suyurg’ol qilib berilgan ulusning markazi qaysi shaharda edi?",
+"opts": [
+"Hirot",
+"Sheroz",
+"Tabriz",
+"G’azna"
+],
+"ans": "C"
+},
+{
+"n": 17,
+"q": "17. Xiva xonligi tarixida Muhammad Amin Inoq nomi bilan bog’liq tarixiy ma’lumotlarni belgilang.",
+"opts": [
+"1, 2, 3",
+"1, 3, 5",
+"2, 3, 4",
+"3, 4, 5"
+],
+"ans": "B",
+"extra": "1) Buxoro amirligi madadiga tayanib hokimiyatni egallagan;\n2) Xiva xonligini siyosiy jihatdan birlashtirgan;\n3) turkman qabilalariga qarshi kurash olib borgan;\n4) yirik zodagonlar va Orolbo’yi o’zbeklari qarshiligini sindirgan;\n5) mamlakatda nisbatan siyosiy osoyishtalik vaziyatini yaratishga erishgan;"
+},
+{
+"n": 18,
+"q": "18. Turkiston general-gubernatorligi tarkibidagi ma’muriy-hududiy birliklarning tashkil etilishi xronologik ketma-ketlikda to’g’ri berilgan javobni toping.",
+"opts": [
+"1, 4, 2, 3",
+"1, 3, 5, 7",
+"1, 4, 5, 6",
+"2, 4, 6, 7"
+],
+"ans": "A",
+"extra": "1) Zarafshon okrugi;\n2) Farg’ona viloyati;\n3) Kaspiyorti viloyati;\n4) Amudaryo bo’limi"
+},
+{
+"n": 19,
+"q": "19. Ma’lumki, Turkiston jadidlari fevral voqealaridan keyin ancha keng qamrovli, bir qator siyosiy talablarni ilgari surdilar. Qaysi javobda mazkur talablar to’g’ri ko’rsatilgan?",
+"opts": [
+"1, 2, 3, 4",
+"1, 3, 5, 7",
+"1, 4, 5, 6",
+"2, 4, 6, 7"
+],
+"ans": "B",
+"extra": "1) mahalliy aholi huquqlarini kengaytirish;\n2) o’lkada yangi usul maktablari tarmog’ini kengaytirish;\n3) o‘lkani boshqarish yuzasidan islohotlar o‘tkazish;\n4) yerni, yerosti va yerusti boyliklarini, suvni Turkiston xalqlarining umumiy boyligi deb e’lon qilish;\n5) Davlat Dumasidan o‘lka aholisi sonidan kelib chiqib o‘rin ajratish;\n6) barcha sohalarni rivojlantirishga qodir mahalliy kadrlarni tayyorlash;\n7) milliy matbuot erkinligini ta’minlash"
+},
+{
+"n": 20,
+"q": "20. Quyida keltirilgan ma’lumotlar qaysi qo’rboshi haqida? “U Sharqiy Buxoro hududida o‘zining boshqaruv usulini amalga oshirdi. Joylarda yangi Buxoro hukumatini tugatib, uning o‘rniga amirlik davridagi boshqaruv usulini joriy qilgan.”",
+"opts": [
+"Mulla Abdulqahhor",
+"Ibrohimbek",
+"Davlatmandbek",
+"Ochilbek"
+],
+"ans": "B"
+},
+{
+"n": 21,
+"q": "21. SSSR hukumatining O’zbekistonda paxta monokulturasini uzil-kesil joriy qilishga qaratilgan qarori nechanchi yilda qabul qilingan?",
+"opts": [
+"1945-yil",
+"1946-yil",
+"1953-yil",
+"1956-yil"
+],
+"ans": "B"
+},
+{
+"n": 22,
+"q": "22. O’zbekiston Respublikasi Prezidenti huzurida Vazirlar Mahkamasi qachon tuzilgan?",
+"opts": [
+"1990-yil",
+"1991-yil",
+"1992-yil",
+"1993-yil"
+],
+"ans": "A"
+},
+{
+"n": 23,
+"q": "23. Markaziy Osiyo davlatlari rahbarlarining Orol dengizi muammosiga bag‘ishlangan uchrashuvlari qaysi shaharlarda o’tkazilgan?",
+"opts": [
+"1, 2, 3",
+"3, 4, 5",
+"2, 3, 4",
+"2, 3, 5"
+],
+"ans": "D",
+"extra": "1) Ashxobod;\n2) Qizil O‘rda;\n3) Nukus;\n4) Mo’ynoq;\n5) Doshhovuz;"
+},
+{
+"n": 24,
+"q": "24. To‘g‘ri ma’lumot berilgan javobni toping.",
+"opts": [
+"1999-yilda “O’zbekmuzey” Respublika jamg’armasi tuzildi",
+"2001-yilda “O’zbeknavo” estrada birlashmasi ish boshladi",
+"2002-yilda “O’zbekkino” milliy agentligi tashkil etildi",
+"1996-yilda “O‘zbekteatr” ijodiy-ishlab chiqarish birlashmasi tashkil etildi"
+],
+"ans": "B"
+},
+{
+"n": 25,
+"q": "25. Tarixiy-mantiqiy ketma-ketlik (moslik) berilgan javobni toping (o‘rta asrlar).",
+"opts": [
+"Ioann -“Buyuk ozodlik xartiyasi”-Konstitutsiyaviy monarxiyaning o’rnatilishi",
+"Yakov I - “Uzoq muddatli parlament”- Angliya burjua inqilobining bshlanishi",
+"Villem van oranye - “Sharafli inqilob”- Monarxiyaning qulashi",
+"Genrix VII - “Qizil va oq gullar” urushi- Tyudorlar sulolasi"
+],
+"ans": "D"
+},
+{
+"n": 26,
+"q": "26. Quyidagi grafikda qaysi raqam ostida Lotin Amerikasidagi davlatlar va ularning tashkil topgan yillari bir-biriga muvofiq keladi?",
+"opts": [
+"2, 3, 4, 5",
+"1, 5, 6, 7",
+"2, 4, 6, 7",
+"1, 4, 6, 7"
+],
+"ans": "D",
+"img": "img/dtm/hk-10-26.jpg"
+},
+{
+"n": 27,
+"q": "27. Quyidagi ma’lumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni toping.",
+"opts": [
+"I-a, d; II-b, e; III-c",
+"I-b, c; II-a, d; III-e",
+"I-a, d; II-b, c; III-e",
+"I-e, f; II-b, c; III-a"
+],
+"ans": "C",
+"extra": "a) “Turkiston viloyatini idora qilish tog’risidagi Muvaqqat nizom”ni  tasdiqladi;\nb) “Turkiston o’lkasini idora qilish to’g’risidagi nizomni tasdiqladi”;\nc) Buxoroda Rossiya imperatorining siyosiy agentligi faoliyati yo’lga qo’yildi;\nd) Buxoroda Rossiya imperiyasining birinchi vakili tayinlandi ;\ne) turkmanlarni bo’ysindirish uchun urush olib bordi;\nf) O’rta Osiyoning Rossiya tomonidan bosib olinishining birinchi bosqichi boshlandi;",
+"img": "img/dtm/hk-10-27.jpg"
+},
+{
+"n": 28,
+"q": "28. Quyidagi jadval asosida mos siyosiy voqealarni toping.",
+"opts": [
+"1, 2 1821-yil 1818-yil 1816-yil 1811-yil Paragvay Meksika Chili Peru Aleksandr III Aleksandr II II I III",
+"2, 3",
+"3, 4",
+"4, 5"
+],
+"ans": "D",
+"img": "img/dtm/hk-10-28.jpg"
+},
+{
+"n": 29,
+"q": "29. Bir-biriga bog‘liq bo‘lgan ma’lumotlar berilgan qatorlarni aniqlang.",
+"opts": [
+"1, 3, 5",
+"2, 4, 6",
+"1, 5, 6",
+"2, 4, 5"
+],
+"ans": "A"
+},
+{
+"n": 30,
+"q": "30. Xaritada yulduzcha bilan ko’rsatilgan hududda vujudga kelgan davlatni toping.",
+"opts": [
+"Franklar davlati",
+"Vestgot qirolligi",
+"Langobard qirolligi",
+"Ostgot qirolligi"
+],
+"ans": "B",
+"img": "img/dtm/hk-10-30.jpg"
+}
+]
+}
