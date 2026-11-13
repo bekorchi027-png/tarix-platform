@@ -283,7 +283,7 @@ async function bank(){
     const di = await (await fetch("dtm/index.json",{cache:"no-cache"})).json();
     dtm = await Promise.all(di.map(v => fetch(v.file,{cache:"no-cache"}).then(r=>r.json()).then(d=>({...v, items:d.items})).catch(()=>({...v, items:[]}))));
     dtm.forEach(v => v.items.forEach(it => {
-      if(it.opts && it.opts.length===4 && LET.includes(it.ans)) closed.push({vid:"dtm:"+v.id, vtitle:"DTM · "+v.title, src:v.src, self:!!v.self, n:it.n, q:it.q, extra:it.extra||"", img:it.img||"", opts:it.opts, ans:LET.indexOf(it.ans), section:"DTM"});
+      if(it.opts && it.opts.length===4 && LET.includes(it.ans)) closed.push({vid:"dtm:"+v.id, vtitle:"DTM · "+v.title, src:(v.from?v.from+" · ":"")+v.src, self:!!v.self, n:it.n, q:it.q, extra:it.extra||"", img:it.img||"", opts:it.opts, ans:LET.indexOf(it.ans), section:"DTM"});
     }));
   }catch(e){ console.warn("DTM bazasi yuklanmadi", e); }
   BANK = {variants:list, closed, open, dtm};
@@ -825,19 +825,20 @@ async function viewDtm(arg){
     <p class="note">Bazada hozircha ${total} ta DTM savoli bor. Bu savollar Tezkor viktorina, Jonli bellashuv va G'ildirakda ham «Manba» ro'yxatidan tanlanadi.</p>
   </div>
   <h2 style="font-size:22px;margin:22px 0 10px">Variantlar</h2>
-  <div class="dtm-list">${BANK.dtm.map(v=>`<a href="#dtm/${v.id}"><b>${esc(v.title)}</b><small>${v.n} ta savol · ${esc(v.src)}</small>${v.self?`<small>Muallif kaliti berilmagan, javoblarni O'zing O'rgan yechib chiqqan.</small>`:""}${best[v.id]!=null?`<small>Eng yaxshi natijangiz: <b>${fmt1(best[v.id])}</b> ball</small>`:""}</a>`).join("")}</div>`;
+  <div class="dtm-list">${BANK.dtm.map(v=>`<a href="#dtm/${v.id}"><b>${esc(v.title)}</b><small>${v.n} ta savol · 3,1 balldan</small>${best[v.id]!=null?`<small>Eng yaxshi natijangiz: <b>${fmt1(best[v.id])}</b> ball</small>`:""}</a>`).join("")}</div>`;
 }
 function dtmRun(id){
-  let Q, title;
+  let Q, title, srcNote = "";
   if(id==="tasodifiy"){ Q = pickQuestions(30, {vid:"dtm"}); title = "Tasodifiy DTM bloki"; }
   else {
     const v = BANK.dtm.find(x=>x.id===id);
     if(!v){ location.hash = "#dtm"; return; }
     Q = BANK.closed.filter(q=>q.vid==="dtm:"+id).sort((a,b)=>a.n-b.n); title = v.title;
+    srcNote = `<p class="note" style="margin:-6px 0 12px">Manba: ${esc(v.from?v.from+" · ":"")}${esc(v.src)}${v.self?`. Muallif kaliti berilmagan, javoblarni O'zing O'rgan yechib chiqqan.`:""}</p>`;
   }
   const N = Q.length, A = Array(N).fill(-1), end = Date.now() + N*DTM_SEC*1000;
   let cur = 0, timer = 0, done = false;
-  $("#app").innerHTML = `<div class="head"><h1>${esc(title)}</h1><span class="sp"></span><a class="btn ghost" href="#dtm">← DTM testlari</a></div><div class="card" id="dx"></div>`;
+  $("#app").innerHTML = `<div class="head"><h1>${esc(title)}</h1><span class="sp"></span><a class="btn ghost" href="#dtm">← DTM testlari</a></div>${srcNote}<div class="card" id="dx"></div>`;
   const box = $("#dx");
   const clock = () => { const left = Math.max(0, end-Date.now()), m = Math.floor(left/60000), s = Math.floor(left/1000)%60; return `${m}:${String(s).padStart(2,"0")}`; };
   function show(){
