@@ -177,6 +177,16 @@ textarea{resize:vertical;min-height:180px;line-height:1.5}
 .tlist summary{cursor:pointer;font-weight:500}
 .tlist .idx{font:12px var(--mono);color:var(--muted)}
 .mstat{display:flex;gap:8px;flex-wrap:wrap}
+.feedback.near{background:#f6ecd9;color:#8a5a12}
+:root[data-theme="dark"] .feedback.near{background:#3a2e17;color:#e0a94a}
+.xprow{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px;font-weight:500}
+.xpc{font:600 12.5px var(--mono);padding:2px 8px;border-radius:999px;background:rgba(127,127,127,.16)}
+.xpc.hot{background:#f2c14e;color:#3a2a00}
+.xpbar{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.xpbar b{font-family:var(--display);font-size:18px}.xpbar span{justify-self:end;font-weight:700}
+.xpbar i{grid-column:1/-1;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.xpbar s{display:block;height:100%;background:linear-gradient(90deg,#f2c14e,#e07a3f)}
+.xpbar small{grid-column:1/-1}
 .jwrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;align-items:start}
 .jmapbox{position:relative}
 .jwrap .jmap{height:calc(100vh - 150px);min-height:520px;border-radius:10px}
@@ -611,7 +621,13 @@ const ordOrig = (q, v) => Array.isArray(v) ? v.map(d => q.shown[d]) : null;
 function gradeQ(q, v){
   const t = qtype(q);
   if(v==null) return {ok:false, frac:0};
-  if(t==="vaqt"){ const d = Math.abs(v - q.ans); if(d===0) return {ok:true, frac:1}; if(d<=(q.tol||0)) return {ok:false, near:true, frac:Math.max(.3, 1 - d/((q.tol||0)+1))}; return {ok:false, frac:0}; }
+  if(t==="vaqt"){
+    // the closer the year, the more XP: full at 0, falling linearly to 0 at R years away
+    const d = Math.abs(v - q.ans), R = vaqtR(q);
+    if(d===0) return {ok:true, frac:1, d};
+    const frac = Math.max(0, 1 - d/R);
+    return {ok:false, near:d<=(q.tol||0), frac:+frac.toFixed(3), d};
+  }
   if(t==="tartib"){ const o = ordOrig(q, v); const pos = o.filter((k,i)=>k===i).length; return {ok:pos===o.length, frac:pos===o.length?1:0, pos}; }
   return {ok:v===q.ans, frac:v===q.ans?1:0};
 }
@@ -639,7 +655,24 @@ function showRight(root, q, v){
   }
   root.querySelectorAll(".tile").forEach((b,k)=>{ b.classList.toggle("right", k===q.ans); b.classList.toggle("dim", k!==q.ans && k!==v); if(k===v) b.classList.add("mine"); });
 }
-const qPoints = (g, msLeft, dur) => g.frac ? Math.round(g.frac * (500 + 500*Math.max(0, msLeft)/(dur*1000))) : 0;
+// XP: accuracy up to 600 + speed up to 400 (earlier answer = more; scaled by accuracy) + streak bonus for correct answers in a row.
+const vaqtR = q => q.xpr || Math.max(8, Math.round((q.max - q.min) / 4));
+function xpFor(g, msLeft, dur, streak){
+  if(!g.frac) return {aniq:0, tez:0, seria:0, jami:0};
+  const sp = Math.max(0, Math.min(1, msLeft/(dur*1000)));
+  const aniq = Math.round(600*g.frac), tez = Math.round(400*g.frac*sp);
+  const seria = g.ok && streak>=2 ? 50*Math.min(streak-1, 4) : 0;
+  return {aniq, tez, seria, jami:aniq+tez+seria};
+}
+const qPoints = (g, msLeft, dur) => xpFor(g, msLeft, dur, 0).jami;
+const xpChips = x => `<span class="xpc">Aniqlik +${x.aniq}</span><span class="xpc">Tezlik +${x.tez}</span>${x.seria?`<span class="xpc hot">Seriya +${x.seria}</span>`:""}`;
+// Running XP total and level on this device
+const XP = {
+  get(){ return +store.get("oz-xp", 0) || 0; },
+  add(n){ const v = this.get() + (n|0); store.set("oz-xp", v); return v; },
+  level(v){ let l = 1, need = 2000, base = 0; while(v >= base + need){ base += need; l++; need = 2000 + (l-1)*1000; } return {l, cur:v-base, need}; },
+  badge(v){ const L = this.level(v); return `<div class="xpbar"><b>${L.l}-daraja</b><span class="num">${v.toLocaleString("ru-RU")} XP</span><i><s style="width:${Math.round(L.cur/L.need*100)}%"></s></i><small class="note">keyingi darajagacha ${L.need-L.cur} XP</small></div>`; }
+};
 
 async function viewMavzu(arg){
   const list = await mavzuList();
@@ -662,10 +695,12 @@ async function mavzuTopic(id){
       <div class="mstat">${[1,2,3].filter(l=>dc[l]).map(l=>`<span class="tag lv${l}">${DARAJA[l]}: ${dc[l]}</span>`).join("")}</div>
       <label class="f">Savollar<select id="mn"><option value="all">Hammasi (${T.items.length} ta, osondan qiyinga)</option><option value="10">Tasodifiy 10 ta</option><option value="15">Tasodifiy 15 ta</option></select></label>
       <div class="row"><button class="btn big" id="solo" type="button" style="flex:1">Yakka o'ynash</button><button class="btn big ghost" id="live" type="button" style="flex:1">Sinf bilan (PIN)</button></div>
+      ${XP.badge(XP.get())}
+      <p class="note" style="margin:0">XP: to'g'ri javob 600 gacha, tez javob yana 400 gacha, ketma-ket to'g'ri javoblar uchun seriya bonusi. Vaqt o'qida yil qancha yaqin belgilansa, shuncha ko'p XP.</p>
       <p class="note" style="margin:0">Manba: ${esc(T.manba)}. Indeks: <span class="num">${esc(T.indeks)}</span>. <br>${esc(T.tavsif||"")}</p>
     </div>
     <div class="card"><h2 style="font-size:20px">Barcha testlar (o'qituvchi uchun)</h2><div class="tlist">${T.items.map(it=>`<details><summary><span class="tag lv${it.daraja}">${DARAJA[it.daraja]}</span> <span class="tag">${METOD[it.metod||"quiz"]}</span> ${esc(it.q)}</summary>
-      <p class="idx">${esc(it.id)} · ${it.vaqt||20} soniya</p>${it.metod==="vaqt"?`<p>Javob: <b>${yearTxt(it.ans)}-yil</b> (vaqt o'qi ${yearTxt(it.min)}–${yearTxt(it.max)}; ±${it.tol||0} yil farq qisman ball oladi)</p>`:it.metod==="tartib"?`<ol>${it.items.map(x=>`<li>${esc(x.t)} – <b>${yearTxt(x.y)}</b></li>`).join("")}</ol>`:`<ol type="A">${it.opts.map((o,i)=>`<li${i===it.ans?' style="font-weight:700;color:var(--ok)"':""}>${esc(o)}</li>`).join("")}</ol>`}<p class="izoh">${esc(it.izoh)}</p></details>`).join("")}</div></div>
+      <p class="idx">${esc(it.id)} · ${it.vaqt||20} soniya</p>${it.metod==="vaqt"?`<p>Javob: <b>${yearTxt(it.ans)}-yil</b> (vaqt o'qi ${yearTxt(it.min)}–${yearTxt(it.max)}; qancha yaqin belgilansa, shuncha ko'p XP, ${vaqtR(it)} yildan uzoq javob 0 XP)</p>`:it.metod==="tartib"?`<ol>${it.items.map(x=>`<li>${esc(x.t)} – <b>${yearTxt(x.y)}</b></li>`).join("")}</ol>`:`<ol type="A">${it.opts.map((o,i)=>`<li${i===it.ans?' style="font-weight:700;color:var(--ok)"':""}>${esc(o)}</li>`).join("")}</ol>`}<p class="izoh">${esc(it.izoh)}</p></details>`).join("")}</div></div>
   </div>`;
   const byLv = L => [...L].sort((a,b)=>(a.daraja||0)-(b.daraja||0));
   const pick = () => { const v = $("#mn").value; return byLv(v==="all" ? T.items : shuffle(T.items).slice(0, +v)).map(prepQ); };
@@ -679,17 +714,18 @@ function runTopic(T, Q){
   const box = $("#vk");
   function ask(){
     const q = Q[i], dur = q.dur, end = Date.now() + dur*1000;
-    box.innerHTML = `<div class="stats"><span>Savol <b>${i+1}</b>/${Q.length}</span><span>Ball <b>${score}</b></span><span>To'g'ri <b>${right}</b></span>${streak>1?`<span>Ketma-ket <b>${streak}</b></span>`:""}<span style="flex:1"></span><span>Vaqt <b id="tl">${dur}</b></span></div>
+    box.innerHTML = `<div class="stats"><span>Savol <b>${i+1}</b>/${Q.length}</span><span>XP <b>${score}</b></span><span>To'g'ri <b>${right}</b></span>${streak>1?`<span>Seriya <b>${streak}</b></span>`:""}<span style="flex:1"></span><span>Vaqt <b id="tl">${dur}</b></span></div>
       <div class="tbar"><i id="tb"></i></div><div id="qa">${mqHtml(q,{idx:true})}</div><div id="fb" aria-live="polite"></div>`;
     const qa = $("#qa");
     const answer = v => {
       clearInterval(timer);
-      const g = gradeQ(q, v); let p = qPoints(g, end - Date.now(), dur);
-      if(g.ok){ right++; streak++; if(streak>=3) p += 100; } else streak = 0;
+      const g = gradeQ(q, v); if(g.ok){ right++; streak++; } else streak = 0;
+      const x = xpFor(g, end - Date.now(), dur, streak), p = x.jami;
       score += p; log.push({q, v, g, p});
       showRight(qa, q, v);
-      const msg = g.ok ? `To'g'ri! +${p} ball${streak>=3?" (ketma-ketlik bonusi)":""}` : g.near ? `Juda yaqin! +${p} ball. To'g'ri javob: ${esc(ansText(q))}` : v==null ? `Vaqt tugadi. To'g'ri javob: ${esc(ansText(q))}` : qtype(q)==="tartib" ? `${g.pos} ta voqea o'z o'rnida. To'g'ri tartib yuqorida.` : `Noto'g'ri. To'g'ri javob: ${esc(ansText(q))}`;
-      $("#fb").innerHTML = `<div class="feedback ${g.ok?"ok":"bad"}" ${g.near?'style="background:#f6ecd9;color:#8a5a12"':""}><span>${msg}</span><span style="flex:1"></span><button class="btn" id="nx" type="button">${i+1<Q.length?"Keyingi →":"Natija"}</button></div>${q.izoh?`<p class="izoh" style="margin:10px 0 0">${esc(q.izoh)}</p>`:""}`;
+      const yr = qtype(q)==="vaqt" && v!=null && !g.ok ? ` Siz ${v}-yilni belgiladingiz, farq ${g.d} yil.` : "";
+      const msg = g.ok ? `To'g'ri! +${p} XP` : g.frac ? `${g.near?"Juda yaqin!":"Yaqin."} +${p} XP.${yr} To'g'ri javob: ${esc(ansText(q))}` : v==null ? `Vaqt tugadi. To'g'ri javob: ${esc(ansText(q))}` : qtype(q)==="tartib" ? `${g.pos} ta voqea o'z o'rnida. To'g'ri tartib yuqorida.` : `Noto'g'ri.${yr} To'g'ri javob: ${esc(ansText(q))}`;
+      $("#fb").innerHTML = `<div class="feedback ${g.ok?"ok":g.frac?"near":"bad"}"><span>${msg}${p?`<span class="xprow">${xpChips(x)}</span>`:""}</span><span style="flex:1"></span><button class="btn" id="nx" type="button">${i+1<Q.length?"Keyingi →":"Natija"}</button></div>${q.izoh?`<p class="izoh" style="margin:10px 0 0">${esc(q.izoh)}</p>`:""}`;
       $("#nx").onclick = () => { i++; i<Q.length ? ask() : finish(); }; $("#nx").focus({preventScroll:true});
     };
     const timeout = bindAns(qa, q, answer);
@@ -698,7 +734,8 @@ function runTopic(T, Q){
   function finish(){
     const byLv = [1,2,3].map(l => { const L = log.filter(x=>x.q.daraja===l); return L.length ? `<span class="tag lv${l}">${DARAJA[l]}: ${L.filter(x=>x.g.ok).length}/${L.length}</span>` : ""; }).join("");
     const miss = log.filter(x=>!x.g.ok);
-    box.innerHTML = `<div class="eyebrow">Test tugadi</div><h2 style="font-size:32px"><span class="num">${score}</span> ball</h2>
+    const tot = XP.add(score);
+    box.innerHTML = `<div class="eyebrow">Test tugadi</div><h2 style="font-size:32px">+<span class="num">${score}</span> XP</h2>${XP.badge(tot)}
       <p>${Q.length} ta savoldan <b>${right}</b> tasiga to'g'ri javob berdingiz.</p><div class="mstat">${byLv}</div>
       ${miss.length?`<h3 style="font-size:19px">Takrorlash uchun</h3><div class="tlist">${miss.map(x=>`<details><summary>${esc(x.q.q)}</summary><p>To'g'ri javob: <b>${esc(ansText(x.q))}</b></p><p class="izoh">${esc(x.q.izoh||"")}</p><p class="idx">${esc(x.q.id)}</p></details>`).join("")}</div>`:`<p class="feedback ok">Barcha savollarga to'g'ri javob berdingiz!</p>`}
       <div class="row"><button class="btn" id="again" type="button">Yana o'ynash</button><a class="btn ghost" href="#mavzu/${esc(T.id)}">Mavzuga qaytish</a></div>`;
@@ -792,10 +829,13 @@ function hostGame(Q, dur){
     let nOk = 0, nNear = 0, nAns = 0;
     Object.entries(P).forEach(([id,p]) => {
       const a = ans[id]; let pts = 0, g = {ok:false, frac:0};
-      if(a){ nAns++; if(nOpt) counts[a.v]++; g = gradeQ(q, a.v); pts = qPoints(g, cd*1000 - a.ms, cd); }
-      if(g.ok) nOk++; if(g.near) nNear++;
-      if(g.ok){ p.streak++; if(p.streak>=3) pts += 100; } else p.streak = 0;
-      p.score += pts; res[id] = {ok:g.ok, near:!!g.near, pts, answered:!!a};
+      let x = {aniq:0, tez:0, seria:0, jami:0};
+      if(a){ nAns++; if(nOpt) counts[a.v]++; g = gradeQ(q, a.v); }
+      if(g.ok) nOk++; if(g.frac && !g.ok) nNear++;
+      if(g.ok) p.streak++; else p.streak = 0;
+      if(a) x = xpFor(g, cd*1000 - a.ms, cd, p.streak);
+      pts = x.jami;
+      p.score += pts; res[id] = {ok:g.ok, near:!!g.near, pts, x, v:a?a.v:null, d:g.d, answered:!!a};
     });
     const R = ranked(); R.forEach((r,k)=>{ res[r.id].rank = k+1; res[r.id].score = r.score; });
     send("rev", {i, ans:nOpt ? q.ans : null, ansTxt:ansText(q), izoh:q.izoh||"", counts, res, total:Q.length});
@@ -804,9 +844,9 @@ function hostGame(Q, dur){
     if(t==="vaqt"){ const box = $("#qa .tl-in"); Object.values(ans).forEach(a => box.insertAdjacentHTML("beforeend", `<i class="tl-dot" style="left:${tlPct(q,a.v)}" title="${a.v}"></i>`)); }
     $("#skip").remove();
     const two = nOpt===2, lab = k => two ? (k?"✗ Noto'g'ri":"✓ To'g'ri") : LET[k];
-    $(".card").insertAdjacentHTML("beforeend", `${nOpt ? `<div class="bars" style="grid-template-columns:repeat(${nOpt},1fr)">${counts.map((c,k)=>`<div><span>${c}</span><i style="height:${Math.round(c/mx*120)}px;background:var(--o${two?(k?"A":"B"):LET[k]})"></i><span>${lab(k)}${k===q.ans?" ✓":""}</span></div>`).join("")}</div>` : `<div class="stats"><span>Javob berdi <b>${nAns}</b></span><span>To'g'ri <b>${nOk}</b></span>${t==="vaqt"?`<span>Yaqin (±${q.tol||0} yil) <b>${nNear}</b></span>`:""}</div>`}
+    $(".card").insertAdjacentHTML("beforeend", `${nOpt ? `<div class="bars" style="grid-template-columns:repeat(${nOpt},1fr)">${counts.map((c,k)=>`<div><span>${c}</span><i style="height:${Math.round(c/mx*120)}px;background:var(--o${two?(k?"A":"B"):LET[k]})"></i><span>${lab(k)}${k===q.ans?" ✓":""}</span></div>`).join("")}</div>` : `<div class="stats"><span>Javob berdi <b>${nAns}</b></span><span>To'g'ri <b>${nOk}</b></span>${t==="vaqt"?`<span>Yaqin <b>${nNear}</b></span>`:""}</div>`}
       ${q.izoh?`<p class="izoh" style="margin:0">${esc(q.izoh)}</p>`:""}
-      <h3>Reyting</h3><ol class="board">${R.slice(0,5).map((r,k)=>`<li><span class="p">${k+1}</span><span>${esc(r.name)}</span><b class="num">${r.score}</b></li>`).join("")}</ol>
+      <h3>Reyting (XP)</h3><ol class="board">${R.slice(0,5).map((r,k)=>`<li><span class="p">${k+1}</span><span>${esc(r.name)}${res[r.id]&&res[r.id].pts?` <span class="note">+${res[r.id].pts}</span>`:""}</span><b class="num">${r.score}</b></li>`).join("")}</ol>
       <button class="btn big" id="nx" type="button">${i+1<Q.length?"Keyingi savol →":"Yakuniy natijalar"}</button>`);
     $("#nx").onclick = next;
   }
@@ -868,9 +908,9 @@ function playerJoin(pin, name){
     const r = p.res[id]; if(!r) return wait("Keyingi savolni kuting", "");
     myScore = r.score;
     $("#app").innerHTML = `<div class="card" style="text-align:center;justify-items:center;min-height:50vh;align-content:center;background:${r.ok?"var(--ok-soft)":"var(--bad-soft)"}">
-      <h2 style="font-size:34px;color:${r.ok?"var(--ok)":"var(--bad)"}">${r.ok?"To'g'ri!":r.near?"Juda yaqin!":r.answered?"Noto'g'ri":"Vaqt tugadi"}</h2>
-      <p style="font-size:18px">${r.ok?`+${r.pts} ball`:`${r.pts?`+${r.pts} ball. `:""}To'g'ri javob: <b>${esc(p.ansTxt)}</b>`}</p>${p.izoh?`<p class="izoh" style="text-align:left;max-width:560px">${esc(p.izoh)}</p>`:""}
-      <p>Jami: <b class="num">${r.score}</b> · O'rningiz: <b class="num">${r.rank}</b></p></div>`;
+      <h2 style="font-size:34px;color:${r.ok?"var(--ok)":"var(--bad)"}">${r.ok?"To'g'ri!":r.near?"Juda yaqin!":r.pts?"Yaqin!":r.answered?"Noto'g'ri":"Vaqt tugadi"}</h2>
+      <p style="font-size:18px">${r.pts?`+${r.pts} XP`:""}${r.ok?"":`${r.pts?". ":""}To'g'ri javob: <b>${esc(p.ansTxt)}</b>${r.d?` (farq ${r.d} yil)`:""}`}</p>${r.x&&r.pts?`<div class="xprow" style="justify-content:center">${xpChips(r.x)}</div>`:""}${p.izoh?`<p class="izoh" style="text-align:left;max-width:560px">${esc(p.izoh)}</p>`:""}
+      <p>Jami: <b class="num">${r.score}</b> XP · O'rningiz: <b class="num">${r.rank}</b></p></div>`;
   });
   ch.on("broadcast", {event:"end"}, async ({payload:p}) => {
     clearInterval(timer);
