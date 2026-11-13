@@ -23,6 +23,11 @@
     "api/yordamchi.mjs": {
       "includeFiles": "{yordamchi-bilim.json,tests.json,xarita-davlatlar.js,joy-data.js,hukmdorlar.js}",
       "maxDuration": 40
+    },
+    "api/bot.mjs": {
+      "includeFiles": "{tests.json,tests/*.json,sertifikat/qr.json,sertifikat/fonts/*.ttf}",
+      "maxDuration": 30,
+      "memory": 1024
     }
   }
 }
