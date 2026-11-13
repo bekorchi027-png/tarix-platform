@@ -116,6 +116,11 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline
 .score{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:24px;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center}
 @media (max-width:560px){.score{grid-template-columns:1fr}}
 .level{font-family:var(--display);font-size:72px;line-height:1;color:var(--accent)}
+.tgcert{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:18px 20px;border-radius:16px;border:1px solid rgba(201,151,58,.55);background:linear-gradient(135deg,rgba(243,217,139,.18),rgba(42,171,238,.12))}
+.tgcert[hidden]{display:none}
+.tgcert b{display:block;font-size:18px;margin-bottom:4px}
+.tgcert span{color:var(--muted);font-size:14.5px}
+.tgcert .btn{background:#2AABEE;border-color:#2AABEE;color:#fff;white-space:nowrap}
 .bigline{font-family:var(--mono);font-size:28px}
 .scale{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}
 .scale span{font-size:12px;padding:3px 8px;border:1px solid var(--line);border-radius:4px;font-family:var(--mono)}
@@ -267,12 +272,23 @@ async function submitAttempt(){
   if(st.sent) return;
   const rows=DATA.map(it=>({n:it.n,got:grade(it).got}));
   const score=Math.round(rows.reduce((t,r)=>t+r.got,0)*10)/10;
+  if(!st.aid){ try{ st.aid=crypto.randomUUID(); }catch(e){} save(); }
   try{
     const r=await sb("ms_attempts",{method:"POST",headers:{Prefer:"return=minimal"},body:JSON.stringify({
-      test_id:vid, student_name:st.name||myName()||"Noma'lum", score, level:levelOf(score),
+      ...(st.aid?{id:st.aid}:{}), test_id:vid, student_name:st.name||myName()||"Noma'lum", score, level:levelOf(score),
       answers:st.answers, per_task:rows, duration_sec: st.startedAt? Math.round((Date.now()-st.startedAt)/1000):null })});
     if(r.ok){ st.sent=true; save(); }
   }catch(e){}
+}
+// Telegram bot that sends a certificate for a finished attempt (/api/bot answers with its username).
+let BOT=null;
+async function botInfo(){ if(BOT) return BOT; try{ const r=await fetch("/api/bot"); BOT=r.ok? await r.json():{}; }catch(e){ BOT={}; } return BOT; }
+async function showCertButton(){
+  const box=$("#tgcert"); if(!box || !st.aid) return;
+  const b=await botInfo(); if(!b.tayyor || !b.username || !$("#tgcert")) return;
+  box.innerHTML=`<div><b>🎓 Sertifikatingiz tayyor!</b><span>Ism-familiyangiz yozilgan chiroyli sertifikatni Telegram bot orqali oling.</span></div><a class="btn" id="tgbtn" href="https://t.me/${encodeURIComponent(b.username)}?start=c_${st.aid}" target="_blank" rel="noopener">Sertifikatni Telegramda olish</a>`;
+  box.hidden=false;
+  $("#tgbtn").onclick=async e=>{ if(st.sent) return; e.preventDefault(); const w=window.open("about:blank","_blank"); await submitAttempt(); const u=$("#tgbtn").href; if(w) w.location=u; else location.href=u; };
 }
 
 const $ = s => document.querySelector(s);
@@ -644,6 +660,7 @@ function renderResult(){
         <div class="scale">${LEVELS.map(([l,t])=>`<span class="${l===lvl?"on":""}">${l} ${t}+</span>`).join("")}</div>
       </div>
     </section>
+    <section class="tgcert" id="tgcert" hidden></section>
     <section class="secs">${Object.entries(secs).map(([k,s])=>`
       <div class="sec"><div class="eyebrow">${k}</div>
       <div><span class="num">${fmt(s.got)}</span> / <span class="num">${fmt(s.max)}</span> ball · ${s.ok}/${s.n}</div>
@@ -666,6 +683,7 @@ function renderResult(){
   document.querySelectorAll(".filter button").forEach(b=>b.onclick=()=>{ st.filter=b.dataset.f; save(); renderResult(); });
   $("#again").onclick=()=>{ st=fresh(); save(); render(); };
   { const bk=$("#back"); if(bk) bk.onclick=closeVariant; }
+  showCertButton();
 }
 boot();
 </script>
