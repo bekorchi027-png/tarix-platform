@@ -187,6 +187,28 @@ textarea{resize:vertical;min-height:180px;line-height:1.5}
 .xpbar i{grid-column:1/-1;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
 .xpbar s{display:block;height:100%;background:linear-gradient(90deg,#f2c14e,#e07a3f)}
 .xpbar small{grid-column:1/-1}
+/* Topic tests: source/statements box, matching, multi-select, written answer, map */
+.qextra{display:grid;gap:6px;background:var(--paper);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:10px 14px;font-size:15px;line-height:1.5}
+.qextra p{margin:0}.qextra .src{font-style:italic}.qextra .who{font-size:13px;color:var(--muted);font-style:normal}
+.jcols{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:600px){.jcols{grid-template-columns:1fr}}
+.jcols ol{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.jcols li{display:flex;gap:10px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:15px}
+.jcols li b{flex:none;font-family:var(--mono);color:var(--accent);min-width:1.4em}
+.jrows{display:grid;gap:8px}
+.jrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.jrow>span{font:700 16px var(--mono);min-width:2.2em}
+.jb{min-width:46px;min-height:44px;border:2px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:8px;font:700 16px var(--mono)}
+.jb.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.jb.ok{background:var(--ok);border-color:var(--ok);color:#fff}.jb.no{background:var(--bad);border-color:var(--bad);color:#fff}
+.jrow .jok{font-size:14px;color:var(--ok);font-weight:600}
+.kpb .ordn{font-size:14px}
+.kpb.on .ordn::after{content:"✓"}
+.yz{display:flex;gap:10px;flex-wrap:wrap}
+.yz input{flex:1;min-width:200px;font-size:20px;padding:12px 14px;border:2px solid var(--line);border-radius:10px;background:var(--sheet);color:var(--ink)}
+.yz input.ok{border-color:var(--ok);background:var(--ok-soft)}.yz input.no{border-color:var(--bad);background:var(--bad-soft)}
+.qmap{height:min(52vh,380px);border-radius:10px;border:1px solid var(--line)}
+.qpin{width:30px!important;height:30px!important;margin:-15px 0 0 -15px!important;border-radius:50%;background:#b3372f;color:#fff;border:2px solid #fff;display:grid;place-items:center;font:700 15px var(--mono);box-shadow:0 1px 4px rgba(0,0,0,.4)}
 .jwrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;align-items:start}
 .jmapbox{position:relative}
 .jwrap .jmap{height:calc(100vh - 150px);min-height:520px;border-radius:10px}
@@ -379,7 +401,7 @@ const ICON = {
   kartochka:'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>'
 };
 const MODES = [
-  ["mavzu","Mavzuli testlar","Darslik mavzulari bo'yicha Kahoot uslubidagi testlar: 4 variant, to'g'ri/noto'g'ri, vaqt o'qi, ketma-ketlik. Yakka yoki sinf bilan.","Yakka · Sinf bilan"],
+  ["mavzu","Mavzuli testlar","Darslik mavzulari bo'yicha Kahoot uslubidagi testlar: vaqt o'qi, ketma-ketlik, moslashtirish, manba, xarita, noto'g'ri fikr, yozma javob va boshqa metodlar. Yakka yoki sinf bilan.","Yakka · Sinf bilan"],
   ["dtm","DTM testlari","BMBA namunasidagi 30 talik bloklar: 3,1 ballik savollar, vaqt va tahlil bilan. Variant tanlang yoki tasodifiy blok yeching.","Yakka"],
   ["carx","Tasodifiy g'ildirak","O'quvchilar ismini kiriting, g'ildirak aylanib kimdadir to'xtaydi. Xohlasangiz, unga tasodifiy savol chiqadi.","Darsda"],
   ["viktorina","Tezkor viktorina","Vaqtga qarshi 10–20 savol. Tez va to'g'ri javob ko'proq ball beradi, haftalik reyting bor.","Yakka"],
@@ -545,7 +567,33 @@ async function showBoard(mode, el){
 // ---------- Topic tests (mavzuli testlar): Kahoot-style methods over indexed textbook topics ----------
 // Item methods: quiz (4 options), tf (to'g'ri / noto'g'ri), vaqt (pick a year on a timeline), tartib (order events).
 // Index: Nashr/Sinf/Fan/Bob/Mavzu/Item/Test, e.g. Y/8/U/B03/M10/I006/T001 (see mavzu/*.json "indeks").
-const METOD = {quiz:"4 variant", tf:"To'g'ri yoki noto'g'ri", vaqt:"Vaqt o'qi", tartib:"Ketma-ketlik"};
+// More methods: juft (match left to right), kop (choose every correct one), yoz (type the answer); any item may carry
+// "tur" (a subtype label: noto'g'ri fikr, ortiqchasi, manba, sabab-oqibat...), "ext" (quote / numbered statements) and "map" (numbered pins).
+const METOD = {quiz:"4 variant", tf:"To'g'ri yoki noto'g'ri", vaqt:"Vaqt o'qi", tartib:"Ketma-ketlik", juft:"Moslashtirish", kop:"Bir nechta javob", yoz:"Yozma javob"};
+const LET6 = "ABCDEF";
+const metodTag = q => q.tur || METOD[qtype(q)] || "";
+// written answers: case, apostrophe forms and punctuation do not matter; one typo allowed in words of 6+ letters
+const yzNorm = s => String(s||"").toLowerCase().replace(/[ʻʼ‘’`´']/g,"'").replace(/o'/g,"o").replace(/g'/g,"g").replace(/[^a-z0-9\u0400-\u04ff]+/g,"");
+function lev(a,b){ const m=a.length,n=b.length; if(Math.abs(m-n)>1) return 2; let p=[...Array(n+1).keys()]; for(let i=1;i<=m;i++){ const c=[i]; for(let j=1;j<=n;j++) c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1)); p=c; } return p[n]; }
+function yzOk(q, v){ const x = yzNorm(v); if(!x) return false; return [q.ans, ...(q.alt||[])].some(a => { const y = yzNorm(a); return x===y || (y.length>=6 && lev(x,y)<=1); }); }
+function extraHtml2(e){
+  if(!e) return "";
+  const L = Array.isArray(e) ? e : String(e).split("\n");
+  return `<div class="qextra">${L.map(t => /^«|^"/.test(t) ? `<p class="src">${esc(t)}</p>` : /^— /.test(t) ? `<p class="who">${esc(t)}</p>` : `<p>${esc(t)}</p>`).join("")}</div>`;
+}
+// numbered pins on a plain (label-free) map; init after the html is in the page
+function initMaps(root){
+  if(!root || typeof L==="undefined") return;
+  root.querySelectorAll(".qmap:not(.on)").forEach(el => {
+    el.classList.add("on");
+    const m = JSON.parse(el.dataset.m), map = L.map(el, {zoomSnap:.5, scrollWheelZoom:false});
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png", {maxZoom:10, subdomains:"abcd", attribution:'&copy; OpenStreetMap &copy; CARTO'}).addTo(map);
+    const pts = m.pts.map(p => L.latLng(p[0], p[1]));
+    m.pts.forEach((p,k) => L.marker(pts[k], {icon:L.divIcon({className:"qpin", html:String(p[2]||k+1)}), keyboard:false}).addTo(map));
+    map.fitBounds(L.latLngBounds(pts).pad(.35));
+    setTimeout(() => map.invalidateSize(), 150);
+  });
+}
 const DARAJA = ["","Oson","O'rtacha","Qiyin"];
 const qtype = q => q.type || "quiz";
 let MAVZU = null;
@@ -558,7 +606,9 @@ async function mavzuLoad(id){
 // Ready-to-play copy of an item: quiz options shuffled (Kahoot style), ordering items shown shuffled.
 function prepQ(it){
   const q = {...it, type:it.metod||"quiz", dur:it.vaqt||20};
-  if(q.type==="quiz"){ const idx = shuffle(q.opts.map((_,i)=>i)); q.opts = idx.map(i=>it.opts[i]); q.ans = idx.indexOf(it.ans); }
+  if(q.type==="quiz" && !it.fix){ const idx = shuffle(q.opts.map((_,i)=>i)); q.opts = idx.map(i=>it.opts[i]); q.ans = idx.indexOf(it.ans); }
+  if(q.type==="kop"){ const idx = shuffle(q.opts.map((_,i)=>i)); q.opts = idx.map(i=>it.opts[i]); q.ans = it.ans.map(a=>idx.indexOf(a)).sort((a,b)=>a-b); }
+  if(q.type==="juft"){ let s; do{ s = shuffle(it.pairs.map((_,i)=>i)); }while(s.every((k,i)=>k===i)); q.rs = s; q.left = it.pairs.map(p=>p[0]); q.right = s.map(k=>it.pairs[k][1]); }
   if(q.type==="tartib"){ let s; do{ s = shuffle(it.items.map((_,i)=>i)); }while(s.every((k,i)=>k===i)); q.shown = s; }
   return q;
 }
@@ -570,6 +620,18 @@ function tlTicks(q){
 }
 function ansHtml(q, ro){
   const t = qtype(q);
+  if(t==="juft"){
+    return `<div class="jcols"><ol>${q.left.map((x,i)=>`<li><b>${i+1}</b><span>${esc(x)}</span></li>`).join("")}</ol><ol>${q.right.map((x,d)=>`<li><b>${LET6[d]}</b><span>${esc(x)}</span></li>`).join("")}</ol></div>
+      ${ro?`<p class="note" style="margin:0">O'quvchilar har bir raqamga mos harfni telefonda tanlaydi.</p>`:`<div class="jrows">${q.left.map((_,i)=>`<div class="jrow" data-r="${i}"><span>${i+1} →</span>${q.right.map((_,d)=>`<button class="jb" data-r="${i}" data-d="${d}" type="button">${LET6[d]}</button>`).join("")}</div>`).join("")}</div>
+      <div class="row"><span style="flex:1"></span><button class="btn big jf-go" type="button" disabled>Javob berish</button></div>`}`;
+  }
+  if(t==="kop"){
+    return `<p class="note" style="margin:0">Bir nechta to'g'ri javob bor: barchasini belgilang.</p><ol class="ord">${q.opts.map((o,i)=>`<li><button class="ordb kpb" data-c="${i}" type="button" ${ro?"disabled":""}><span class="ordn">${ro?LET6[i]:""}</span><span>${esc(o)}</span></button></li>`).join("")}</ol>
+      ${ro?"":`<div class="row"><span style="flex:1"></span><button class="btn big kp-go" type="button" disabled>Javob berish</button></div>`}`;
+  }
+  if(t==="yoz"){
+    return ro ? `<p class="note" style="margin:0">O'quvchilar javobni telefonda yozadi.</p>` : `<div class="yz"><input class="yz-in" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="60" placeholder="Javobni yozing"><button class="btn big yz-go" type="button">Javob berish</button></div>`;
+  }
   if(t==="vaqt"){
     const mid = Math.round((q.min+q.max)/2);
     return `<div class="tl"><div class="tl-box"><div class="tl-in">${tlTicks(q)}${ro?"":`<div class="tl-mk you" style="left:${tlPct(q,mid)}"><b>${mid}</b><i></i></div>`}</div>${ro?"":`<input type="range" class="tl-r" min="${q.min}" max="${q.max}" step="1" value="${mid}" aria-label="Yilni tanlang">`}</div>
@@ -585,8 +647,8 @@ function ansHtml(q, ro){
 }
 function mqHtml(q, o={}){
   return `<div class="qbox">${o.top||""}
-    ${q.daraja?`<div class="qmeta"><span class="tag">${METOD[qtype(q)]}</span><span class="tag lv${q.daraja}">${DARAJA[q.daraja]}</span></div>`:""}
-    <p class="qtext">${esc(q.q)}</p>${ansHtml(q, o.ro)}
+    ${q.daraja?`<div class="qmeta"><span class="tag">${esc(metodTag(q))}</span><span class="tag lv${q.daraja}">${DARAJA[q.daraja]}</span></div>`:""}
+    <p class="qtext">${esc(q.q)}</p>${q.ext?extraHtml2(q.ext):""}${q.map?`<div class="qmap" data-m="${esc(JSON.stringify(q.map))}"></div>`:""}${ansHtml(q, o.ro)}
     ${o.idx && q.id?`<p class="note" style="margin:0">Indeks: <span class="num">${esc(q.id)}</span></p>`:""}</div>`;
 }
 // Wires the answer controls inside root; cb(v) fires once. v: option index | year | array of shown positions.
@@ -594,6 +656,26 @@ function mqHtml(q, o={}){
 function bindAns(root, q, cb){
   let done = false; const fire = v => { if(done) return; done = true; cb(v); };
   const t = qtype(q);
+  initMaps(root);
+  if(t==="juft"){
+    const pick = q.left.map(()=>-1), go = root.querySelector(".jf-go");
+    root.querySelectorAll(".jb").forEach(b => b.onclick = () => { const r = +b.dataset.r, d = +b.dataset.d; pick[r] = pick[r]===d ? -1 : d;
+      root.querySelectorAll(`.jb[data-r="${r}"]`).forEach(x => x.classList.toggle("on", +x.dataset.d===pick[r])); go.disabled = pick.includes(-1); });
+    go.onclick = () => fire(pick.slice());
+    return () => fire(pick.some(d=>d>=0) ? pick.slice() : null);
+  }
+  if(t==="kop"){
+    const on = new Set(), go = root.querySelector(".kp-go");
+    root.querySelectorAll(".kpb").forEach(b => b.onclick = () => { const c = +b.dataset.c; on.has(c) ? on.delete(c) : on.add(c); b.classList.toggle("on", on.has(c)); go.disabled = !on.size; });
+    go.onclick = () => fire([...on].sort((a,b)=>a-b));
+    return () => fire(on.size ? [...on].sort((a,b)=>a-b) : null);
+  }
+  if(t==="yoz"){
+    const inp = root.querySelector(".yz-in"), go = () => { if(inp.value.trim()) fire(inp.value.trim().slice(0,60)); };
+    root.querySelector(".yz-go").onclick = go; inp.onkeydown = e => { if(e.key==="Enter") go(); };
+    setTimeout(() => inp.focus({preventScroll:true}), 50);
+    return () => fire(inp.value.trim() ? inp.value.trim().slice(0,60) : null);
+  }
   if(t==="vaqt"){
     const r = root.querySelector(".tl-r"), mk = root.querySelector(".tl-mk.you"), out = root.querySelector(".tl-val");
     let moved = false;
@@ -615,7 +697,7 @@ function bindAns(root, q, cb){
   root.querySelectorAll(".tile").forEach(b => b.onclick = () => fire(+b.dataset.c));
   return () => fire(null);
 }
-function lockAns(root){ root.querySelectorAll("button.tile,.tl-r,.tl-step,.tl-go,.ordb,.ord-clr,.ord-go").forEach(x => x.disabled = true); }
+function lockAns(root){ root.querySelectorAll("button.tile,.tl-r,.tl-step,.tl-go,.ordb,.ord-clr,.ord-go,.jb,.jf-go,.kp-go,.yz-in,.yz-go").forEach(x => x.disabled = true); }
 // tartib answers arrive as shown positions; convert to original indices (= correct positions)
 const ordOrig = (q, v) => Array.isArray(v) ? v.map(d => q.shown[d]) : null;
 function gradeQ(q, v){
@@ -629,18 +711,44 @@ function gradeQ(q, v){
     return {ok:false, near:d<=(q.tol||0), frac:+frac.toFixed(3), d};
   }
   if(t==="tartib"){ const o = ordOrig(q, v); const pos = o.filter((k,i)=>k===i).length; return {ok:pos===o.length, frac:pos===o.length?1:0, pos}; }
+  if(t==="juft"){ const pos = v.filter((d,i)=>d>=0 && q.rs[d]===i).length, n = q.left.length; return {ok:pos===n, frac:pos===n?1:+(pos/n*0.6).toFixed(3), pos}; }
+  if(t==="kop"){ const A = new Set(q.ans), hit = v.filter(c=>A.has(c)).length, bad = v.length-hit, ok = hit===A.size && !bad; return {ok, frac:ok?1:Math.max(0,+((hit-bad)/A.size*0.6).toFixed(3)), hit, bad}; }
+  if(t==="yoz"){ const ok = yzOk(q, v); return {ok, frac:ok?1:0}; }
   return {ok:v===q.ans, frac:v===q.ans?1:0};
 }
 function ansText(q){
   const t = qtype(q);
   if(t==="vaqt") return `${yearTxt(q.ans)}-yil`;
   if(t==="tartib") return q.items.map(x=>`${yearTxt(x.y)} – ${x.t}`).join("; ");
+  if(t==="juft") return (q.pairs||[]).map((p,i)=>`${i+1} – ${p[1]}`).join("; ");
+  if(t==="kop") return q.ans.map(a=>q.opts[a]).join("; ");
+  if(t==="yoz") return q.ans;
   return q.opts.length===2 ? q.opts[q.ans] : `${LET[q.ans]}. ${q.opts[q.ans]}`;
 }
 // Shows the correct answer inside root, next to what the player chose (v may be null).
 function showRight(root, q, v){
   lockAns(root);
   const t = qtype(q);
+  if(t==="juft"){
+    root.querySelectorAll(".jrow").forEach(row => { const r = +row.dataset.r, good = q.rs.indexOf(r);
+      row.querySelectorAll(".jb").forEach(b => { const d = +b.dataset.d; b.classList.remove("on"); if(d===good) b.classList.add("ok"); else if(v && v[r]===d) b.classList.add("no"); });
+      row.insertAdjacentHTML("beforeend", `<span class="jok">${esc(q.right[good])}</span>`); });
+    if(!root.querySelector(".jrow")) root.querySelector(".jcols").insertAdjacentHTML("afterend", `<p class="izoh" style="margin:0">To'g'ri javob: ${q.left.map((_,i)=>`${i+1}–${LET6[q.rs.indexOf(i)]}`).join(", ")}</p>`);
+    const g = root.querySelector(".jf-go"); if(g) g.parentElement.remove();
+    return;
+  }
+  if(t==="kop"){
+    const A = new Set(q.ans), V = new Set(v||[]);
+    root.querySelectorAll(".kpb").forEach(b => { const c = +b.dataset.c; b.classList.remove("on"); if(A.has(c)) b.classList.add("ok"); else if(V.has(c)) b.classList.add("no"); if(V.has(c)) b.querySelector(".ordn").textContent = "✓"; });
+    const g = root.querySelector(".kp-go"); if(g) g.parentElement.remove();
+    return;
+  }
+  if(t==="yoz"){
+    const inp = root.querySelector(".yz-in");
+    if(inp){ inp.classList.add(v!=null && yzOk(q,v) ? "ok" : "no"); const g = root.querySelector(".yz-go"); if(g) g.remove(); }
+    root.insertAdjacentHTML("beforeend", `<p class="feedback ok" style="margin:0">To'g'ri javob: ${esc(q.ans)}</p>`);
+    return;
+  }
   if(t==="vaqt"){
     const box = root.querySelector(".tl-in"), r = root.querySelector(".tl-r"); if(r) r.style.visibility = "hidden";
     box.insertAdjacentHTML("beforeend", `<div class="tl-mk ans" style="left:${tlPct(q,q.ans)}"><i></i><b>${yearTxt(q.ans)}</b></div>`);
@@ -680,18 +788,18 @@ async function viewMavzu(arg){
   const by = {};
   list.forEach(t => { const k = `${t.sinf}-sinf · ${t.fan}`; (by[k] = by[k] || []).push(t); });
   $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">Darslik mavzulari bo'yicha</div><h1>Mavzuli testlar</h1></div><span class="sp"></span>${back}</div>
-  <p style="margin-top:0;max-width:760px">Har bir mavzu darslik asosida tuzilgan: oson, o'rtacha va qiyin savollar aralash, turli metodlar bilan (4 variant, to'g'ri/noto'g'ri, vaqt o'qida yilni belgilash, voqealar ketma-ketligi). Yakka o'ynang yoki sinf bilan Kahoot uslubida bellashing.</p>
+  <p style="margin-top:0;max-width:760px">Har bir mavzu darslik asosida tuzilgan: oson, o'rtacha va qiyin savollar aralash, turli metodlar bilan: vaqt o'qida yilni belgilash, voqealar ketma-ketligi, moslashtirish, bir nechta to'g'ri javob, manba (iqtibos) bilan ishlash, xaritadagi joy, noto'g'ri fikr yoki ortiqchasini topish, sabab va oqibat, yozma javob. Yakka o'ynang yoki sinf bilan Kahoot uslubida bellashing.</p>
   ${Object.entries(by).map(([k,ts])=>`<h2 style="font-size:22px;margin:18px 0 10px">${esc(k)}</h2><div class="hub">${ts.map(t=>`<a class="mode" href="#mavzu/${esc(t.id)}"><span class="ic">${ICON.mavzu}</span><b>${esc(t.mavzu)}</b><span>${esc(t.bob)} · ${esc(t.nashr)}</span><em class="num">${esc(t.indeks)}</em></a>`).join("")}</div>`).join("")}`;
 }
 async function mavzuTopic(id){
   const T = await mavzuLoad(id);
   if(!T){ $("#app").innerHTML = `<div class="card"><h2>Mavzu topilmadi</h2><a class="btn" href="#mavzu">← Mavzular</a></div>`; return; }
   const cnt = (f) => T.items.reduce((m,it)=>{ const k=f(it); m[k]=(m[k]||0)+1; return m; },{});
-  const mc = cnt(it=>it.metod||"quiz"), dc = cnt(it=>it.daraja||0);
+  const mc = cnt(it=>it.tur||METOD[it.metod||"quiz"]), dc = cnt(it=>it.daraja||0);
   $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">${esc(T.sinf)}-sinf · ${esc(T.fan)} · ${esc(T.bob)}</div><h1>${esc(T.mavzu)}</h1></div><span class="sp"></span><a class="btn ghost" href="#mavzu">← Mavzular</a></div>
   <div class="hub" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
     <div class="card" id="vk" style="align-content:start">
-      <div class="mstat"><span class="tag">${T.items.length} ta test</span>${Object.entries(mc).map(([k,n])=>`<span class="tag">${METOD[k]}: ${n}</span>`).join("")}</div>
+      <div class="mstat"><span class="tag">${T.items.length} ta test</span>${Object.entries(mc).map(([k,n])=>`<span class="tag">${esc(k)}: ${n}</span>`).join("")}</div>
       <div class="mstat">${[1,2,3].filter(l=>dc[l]).map(l=>`<span class="tag lv${l}">${DARAJA[l]}: ${dc[l]}</span>`).join("")}</div>
       <label class="f">Savollar<select id="mn"><option value="all">Hammasi (${T.items.length} ta, osondan qiyinga)</option><option value="10">Tasodifiy 10 ta</option><option value="15">Tasodifiy 15 ta</option></select></label>
       <div class="row"><button class="btn big" id="solo" type="button" style="flex:1">Yakka o'ynash</button><button class="btn big ghost" id="live" type="button" style="flex:1">Sinf bilan (PIN)</button></div>
@@ -699,8 +807,8 @@ async function mavzuTopic(id){
       <p class="note" style="margin:0">XP: to'g'ri javob 600 gacha, tez javob yana 400 gacha, ketma-ket to'g'ri javoblar uchun seriya bonusi. Vaqt o'qida yil qancha yaqin belgilansa, shuncha ko'p XP.</p>
       <p class="note" style="margin:0">Manba: ${esc(T.manba)}. Indeks: <span class="num">${esc(T.indeks)}</span>. <br>${esc(T.tavsif||"")}</p>
     </div>
-    <div class="card"><h2 style="font-size:20px">Barcha testlar (o'qituvchi uchun)</h2><div class="tlist">${T.items.map(it=>`<details><summary><span class="tag lv${it.daraja}">${DARAJA[it.daraja]}</span> <span class="tag">${METOD[it.metod||"quiz"]}</span> ${esc(it.q)}</summary>
-      <p class="idx">${esc(it.id)} · ${it.vaqt||20} soniya</p>${it.metod==="vaqt"?`<p>Javob: <b>${yearTxt(it.ans)}-yil</b> (vaqt o'qi ${yearTxt(it.min)}–${yearTxt(it.max)}; qancha yaqin belgilansa, shuncha ko'p XP, ${vaqtR(it)} yildan uzoq javob 0 XP)</p>`:it.metod==="tartib"?`<ol>${it.items.map(x=>`<li>${esc(x.t)} – <b>${yearTxt(x.y)}</b></li>`).join("")}</ol>`:`<ol type="A">${it.opts.map((o,i)=>`<li${i===it.ans?' style="font-weight:700;color:var(--ok)"':""}>${esc(o)}</li>`).join("")}</ol>`}<p class="izoh">${esc(it.izoh)}</p></details>`).join("")}</div></div>
+    <div class="card"><h2 style="font-size:20px">Barcha testlar (o'qituvchi uchun)</h2><div class="tlist">${T.items.map(it=>`<details><summary><span class="tag lv${it.daraja}">${DARAJA[it.daraja]}</span> <span class="tag">${esc(it.tur||METOD[it.metod||"quiz"])}</span> ${esc(it.q)}</summary>${it.ext?extraHtml2(it.ext):""}${it.map?`<p class="note">Xaritadagi belgilar: ${it.map.pts.map((p,k)=>`${p[2]||k+1} – ${esc(p[3]||"")}`).join(", ")}</p>`:""}
+      <p class="idx">${esc(it.id)} · ${it.vaqt||20} soniya</p>${it.metod==="vaqt"?`<p>Javob: <b>${yearTxt(it.ans)}-yil</b> (vaqt o'qi ${yearTxt(it.min)}–${yearTxt(it.max)}; qancha yaqin belgilansa, shuncha ko'p XP, ${vaqtR(it)} yildan uzoq javob 0 XP)</p>`:it.metod==="tartib"?`<ol>${it.items.map(x=>`<li>${esc(x.t)} – <b>${yearTxt(x.y)}</b></li>`).join("")}</ol>`:it.metod==="juft"?`<ol>${it.pairs.map(p=>`<li>${esc(p[0])} – <b>${esc(p[1])}</b></li>`).join("")}</ol>`:it.metod==="yoz"?`<p>Javob: <b>${esc(it.ans)}</b>${it.alt&&it.alt.length?` (yana qabul qilinadi: ${esc(it.alt.join(", "))})`:""}</p>`:it.metod==="kop"?`<ol type="A">${it.opts.map((o,i)=>`<li${it.ans.includes(i)?' style="font-weight:700;color:var(--ok)"':""}>${esc(o)}</li>`).join("")}</ol>`:`<ol type="A">${it.opts.map((o,i)=>`<li${i===it.ans?' style="font-weight:700;color:var(--ok)"':""}>${esc(o)}</li>`).join("")}</ol>`}<p class="izoh">${esc(it.izoh)}</p></details>`).join("")}</div></div>
   </div>`;
   const byLv = L => [...L].sort((a,b)=>(a.daraja||0)-(b.daraja||0));
   const pick = () => { const v = $("#mn").value; return byLv(v==="all" ? T.items : shuffle(T.items).slice(0, +v)).map(prepQ); };
@@ -724,7 +832,7 @@ function runTopic(T, Q){
       score += p; log.push({q, v, g, p});
       showRight(qa, q, v);
       const yr = qtype(q)==="vaqt" && v!=null && !g.ok ? ` Siz ${v}-yilni belgiladingiz, farq ${g.d} yil.` : "";
-      const msg = g.ok ? `To'g'ri! +${p} XP` : g.frac ? `${g.near?"Juda yaqin!":"Yaqin."} +${p} XP.${yr} To'g'ri javob: ${esc(ansText(q))}` : v==null ? `Vaqt tugadi. To'g'ri javob: ${esc(ansText(q))}` : qtype(q)==="tartib" ? `${g.pos} ta voqea o'z o'rnida. To'g'ri tartib yuqorida.` : `Noto'g'ri.${yr} To'g'ri javob: ${esc(ansText(q))}`;
+      const msg = g.ok ? `To'g'ri! +${p} XP` : g.frac ? `${g.near?"Juda yaqin!":"Yaqin."} +${p} XP.${yr} To'g'ri javob: ${esc(ansText(q))}` : v==null ? `Vaqt tugadi. To'g'ri javob: ${esc(ansText(q))}` : qtype(q)==="tartib" ? `${g.pos} ta voqea o'z o'rnida. To'g'ri tartib yuqorida.` : qtype(q)==="juft" ? `${g.pos} ta juftlik to'g'ri${p?` (+${p} XP)`:""}. To'g'ri javob yuqorida.` : qtype(q)==="kop" ? `${g.hit} ta to'g'ri, ${g.bad} ta ortiqcha belgi${p?` (+${p} XP)`:""}. To'g'ri javoblar yashil.` : `Noto'g'ri.${yr} To'g'ri javob: ${esc(ansText(q))}`;
       $("#fb").innerHTML = `<div class="feedback ${g.ok?"ok":g.frac?"near":"bad"}"><span>${msg}${p?`<span class="xprow">${xpChips(x)}</span>`:""}</span><span style="flex:1"></span><button class="btn" id="nx" type="button">${i+1<Q.length?"Keyingi →":"Natija"}</button></div>${q.izoh?`<p class="izoh" style="margin:10px 0 0">${esc(q.izoh)}</p>`:""}`;
       $("#nx").onclick = () => { i++; i<Q.length ? ask() : finish(); }; $("#nx").focus({preventScroll:true});
     };
@@ -787,7 +895,7 @@ function hostGame(Q, dur){
   let i = -1, phase = "lobby", ans = {}, end = 0, timer = 0, cd = dur;   // cd: current question's time limit
   const send = (event, payload) => ch.send({type:"broadcast", event, payload});
   // What players receive: no answer key; ordering items go out in their shuffled display order only.
-  const packQ = q => ({i, total:Q.length, type:qtype(q), q:q.q, extra:q.extra||"", img:q.img ? new URL(q.img, location.href).href : "", opts:q.opts||null, min:q.min, max:q.max, shownTxt:q.shown ? q.shown.map(k=>q.items[k].t) : null, daraja:q.daraja||0, dur:cd});
+  const packQ = q => ({i, total:Q.length, type:qtype(q), q:q.q, extra:q.extra||"", img:q.img ? new URL(q.img, location.href).href : "", opts:q.opts||null, left:q.left||null, right:q.right||null, ext:q.ext||null, map:q.map||null, min:q.min, max:q.max, shownTxt:q.shown ? q.shown.map(k=>q.items[k].t) : null, daraja:q.daraja||0, dur:cd});
   const ranked = () => Object.entries(P).map(([id,p])=>({id, name:p.name, score:p.score})).sort((a,b)=>b.score-a.score);
   const url = location.origin + location.pathname + "#jonli/" + pin;
   function lobby(){
@@ -818,14 +926,14 @@ function hostGame(Q, dur){
     send("q", packQ(q));
     $("#app").innerHTML = `<div class="card"><div class="stats"><span>Savol <b>${i+1}</b>/${Q.length}</span><span>Javob berdi: <b id="ac">0 / ${Object.keys(P).length}</b></span><span>Qoldi: <b id="tl">${cd}</b> s</span><span style="flex:1"></span><button class="btn ghost" id="skip" type="button">Vaqtni tugatish</button></div>
       <div class="tbar"><i id="tb"></i></div><div id="qa">${q.type ? mqHtml(q,{ro:true, idx:true}) : qHtml(q)}</div></div>`;
-    $$(".tile").forEach(t=>t.disabled = true);
+    $$(".tile").forEach(t=>t.disabled = true); initMaps($("#qa"));
     $("#skip").onclick = reveal;
     clearInterval(timer);
     timer = setInterval(() => { const left = end-Date.now(); $("#tb").style.transform = `scaleX(${Math.max(0,left/(cd*1000))})`; $("#tl").textContent = Math.max(0,Math.ceil(left/1000)); if(left<=0) reveal(); }, 200);
   }
   function reveal(){
     if(phase!=="q") return; phase = "rev"; clearInterval(timer);
-    const q = Q[i], t = qtype(q), nOpt = q.opts ? q.opts.length : 0, counts = new Array(nOpt).fill(0), res = {};
+    const q = Q[i], t = qtype(q), nOpt = q.opts && (t==="quiz"||t==="tf") ? q.opts.length : 0, counts = new Array(nOpt).fill(0), res = {};
     let nOk = 0, nNear = 0, nAns = 0;
     Object.entries(P).forEach(([id,p]) => {
       const a = ans[id]; let pts = 0, g = {ok:false, frac:0};
@@ -870,6 +978,9 @@ function hostGame(Q, dur){
     const q = Q[i], t = qtype(q); let v = a.v!=null ? a.v : a.c;   // older players send {c}
     if(t==="vaqt"){ v = Math.round(+v); if(!(v>=q.min && v<=q.max)) return; }
     else if(t==="tartib"){ const n = q.items.length; if(!Array.isArray(v) || v.length!==n || new Set(v).size!==n || v.some(d=>!(d>=0 && d<n))) return; v = v.map(Number); }
+    else if(t==="juft"){ const n = q.left.length; if(!Array.isArray(v) || v.length!==n || v.some(d=>!(Number.isInteger(+d) && d>=-1 && d<n))) return; v = v.map(Number); }
+    else if(t==="kop"){ const n = q.opts.length; if(!Array.isArray(v) || !v.length || new Set(v).size!==v.length || v.some(c=>!(Number.isInteger(+c) && c>=0 && c<n))) return; v = v.map(Number); }
+    else if(t==="yoz"){ if(typeof v!=="string" || !v.trim()) return; v = v.trim().slice(0,60); }
     else { v = +v; if(!(v>=0 && v<q.opts.length)) return; }
     ans[a.id] = {v, ms:Math.min(cd*1000, Math.max(0, +a.ms||0))};
     paintPlayers();
@@ -890,14 +1001,14 @@ function playerJoin(pin, name){
   ch.on("broadcast", {event:"q"}, ({payload:p}) => {
     if(p.to && p.to!==id) return;
     cur = p; chosen = -1; t0 = Date.now() - (p.left!=null ? p.dur*1000 - p.left : 0);
-    const q = {type:p.type||"quiz", q:p.q, extra:p.extra, img:p.img, opts:p.opts, min:p.min, max:p.max, shownTxt:p.shownTxt, daraja:p.daraja, vtitle:"", n:""};
+    const q = {type:p.type||"quiz", q:p.q, extra:p.extra, img:p.img, opts:p.opts, left:p.left, right:p.right, ext:p.ext, map:p.map, min:p.min, max:p.max, shownTxt:p.shownTxt, daraja:p.daraja, vtitle:"", n:""};
     const typed = (p.type && p.type!=="quiz") || p.daraja;
     $("#app").innerHTML = `<div class="card"><div class="stats"><span>Savol <b>${p.i+1}</b>/${p.total}</span><span>Ball <b>${myScore}</b></span></div><div class="tbar"><i id="tb"></i></div><div id="qa">${typed ? mqHtml(q) : qHtml(q).replace(/<p class="note">Manba.*?<\/p>/,"")}</div><div id="fb" aria-live="polite"></div></div>`;
     const submit = bindAns($("#qa"), q, v => {
       if(chosen!==-1 || v==null) return; chosen = v;
       send("ans", {id, i:p.i, v, c:typeof v==="number"?v:undefined, ms:Date.now()-t0});
       lockAns($("#qa"));
-      if(q.opts) $$("#qa .tile").forEach((x,k)=>{ if(k===v) x.classList.add("mine"); else x.classList.add("dim"); });
+      if(q.opts && q.type!=="kop") $$("#qa .tile").forEach((x,k)=>{ if(k===v) x.classList.add("mine"); else x.classList.add("dim"); });
       $("#fb").innerHTML = `<div class="feedback" style="background:var(--accent-soft);color:var(--accent)">Javob yuborildi. Natijani kuting…</div>`;
     });
     clearInterval(timer);

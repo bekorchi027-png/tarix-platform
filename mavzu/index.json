@@ -1,3 +1,7 @@
 [
-  {"id": "Y-8-U-B03-M10", "indeks": "Y/8/U/B03/M10", "sinf": 8, "fan": "O‘zbekiston tarixi", "nashr": "Yangi nashr (2023)", "bob": "III bob. Amir Temur va temuriylar davri", "mavzu": "10-mavzu. Amir Temur – Movarounnahr hukmdori", "file": "mavzu/Y-8-U-B03-M10.json"}
+  {"id": "Y-8-U-B03-M09", "indeks": "Y/8/U/B03/M09", "sinf": 8, "fan": "O‘zbekiston tarixi", "nashr": "Yangi nashr (2023)", "bob": "III bob. Amir Temur va temuriylar davri", "mavzu": "9-mavzu. XIV asrning o‘rtalarida Turonda yuzaga kelgan siyosiy vaziyat", "file": "mavzu/Y-8-U-B03-M09.json"},
+  {"id": "Y-8-U-B03-M10", "indeks": "Y/8/U/B03/M10", "sinf": 8, "fan": "O‘zbekiston tarixi", "nashr": "Yangi nashr (2023)", "bob": "III bob. Amir Temur va temuriylar davri", "mavzu": "10-mavzu. Amir Temur – Movarounnahr hukmdori", "file": "mavzu/Y-8-U-B03-M10.json"},
+  {"id": "Y-8-U-B03-M11", "indeks": "Y/8/U/B03/M11", "sinf": 8, "fan": "O‘zbekiston tarixi", "nashr": "Yangi nashr (2023)", "bob": "III bob. Amir Temur va temuriylar davri", "mavzu": "11-mavzu. Amir Temur markazlashgan davlat tuzish yo‘lida", "file": "mavzu/Y-8-U-B03-M11.json"},
+  {"id": "Y-8-U-B03-M12", "indeks": "Y/8/U/B03/M12", "sinf": 8, "fan": "O‘zbekiston tarixi", "nashr": "Yangi nashr (2023)", "bob": "III bob. Amir Temur va temuriylar davri", "mavzu": "12-mavzu. Amir Temurning davlat chegaralarini mustahkamlashi", "file": "mavzu/Y-8-U-B03-M12.json"},
+  {"id": "Y-8-U-B03-M13", "indeks": "Y/8/U/B03/M13", "sinf": 8, "fan": "O‘zbekiston tarixi", "nashr": "Yangi nashr (2023)", "bob": "III bob. Amir Temur va temuriylar davri", "mavzu": "13-mavzu. Amir Temurning tashqi siyosati", "file": "mavzu/Y-8-U-B03-M13.json"}
 ]
