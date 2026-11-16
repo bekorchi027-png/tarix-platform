@@ -786,7 +786,7 @@ async function viewMavzu(arg){
   const list = await mavzuList();
   if(arg) return mavzuTopic(arg);
   const by = {};
-  list.forEach(t => { const k = t.sinf > 11 ? t.fan : `${t.sinf}-sinf · ${t.fan}`; (by[k] = by[k] || []).push(t); });
+  list.forEach(t => { const k = (t.sinf > 11 ? t.fan : `${t.sinf}-sinf · ${t.fan}`) + (t.id.startsWith("E-") ? " (eski nashr)" : ""); (by[k] = by[k] || []).push(t); });
   $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">Darslik mavzulari bo'yicha</div><h1>Mavzuli testlar</h1></div><span class="sp"></span>${back}</div>
   <p style="margin-top:0;max-width:760px">Har bir mavzu darslik asosida tuzilgan: oson, o'rtacha va qiyin savollar aralash, turli metodlar bilan: vaqt o'qida yilni belgilash, voqealar ketma-ketligi, moslashtirish, bir nechta to'g'ri javob, manba (iqtibos) bilan ishlash, xaritadagi joy, noto'g'ri fikr yoki ortiqchasini topish, sabab va oqibat, yozma javob. Yakka o'ynang yoki sinf bilan Kahoot uslubida bellashing.</p>
   ${Object.entries(by).map(([k,ts])=>`<h2 style="font-size:22px;margin:18px 0 10px">${esc(k)}</h2><div class="hub">${ts.map(t=>`<a class="mode" href="#mavzu/${esc(t.id)}"><span class="ic">${ICON.mavzu}</span><b>${esc(t.mavzu)}</b><span>${esc(t.bob)} · ${esc(t.nashr)}</span><em class="num">${esc(t.indeks)}</em></a>`).join("")}</div>`).join("")}`;
