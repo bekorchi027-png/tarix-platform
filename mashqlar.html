@@ -854,22 +854,82 @@ async function viewMavzu(arg){
   $("#mzrand").onclick = () => { const P = books.filter(okBook).flatMap(b => b.topics); const L = P.length ? P : list; location.hash = "#mavzu/" + L[Math.floor(Math.random()*L.length)].id; };
   draw();
 }
+// Method icons (small, phone-friendly): one per metod, plus map and source items
+const MI = (p) => `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const METOD_IC = {
+  quiz:  {n:"4 variant", c:"#6d7dff", i:MI('<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>')},
+  tf:    {n:"To'g'ri / noto'g'ri", c:"#3ccf8e", i:MI('<path d="m4 12 4 4 6-8"/><path d="m15 15 5 5M20 15l-5 5"/>')},
+  vaqt:  {n:"Vaqt o'qi", c:"#f5a623", i:MI('<path d="M2 12h20"/><path d="M6 9v6M12 7v10M18 9v6"/>')},
+  tartib:{n:"Ketma-ketlik", c:"#16c2b3", i:MI('<path d="M10 6h10M10 12h10M10 18h10"/><path d="M4 5h1v3M4 11.5h2l-2 2.5h2M4 17h2v3H4"/>')},
+  juft:  {n:"Moslashtirish", c:"#e0567a", i:MI('<circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 6.5 17 17.5M7 17.5 17 6.5"/>')},
+  kop:   {n:"Bir nechta javob", c:"#a77bff", i:MI('<rect x="3" y="4" width="7" height="7" rx="2"/><path d="m5 7.5 1.5 1.5L9 6"/><rect x="3" y="14" width="7" height="7" rx="2"/><path d="m5 17.5 1.5 1.5L9 16"/><path d="M14 7.5h7M14 17.5h7"/>')},
+  yoz:   {n:"Yozma javob", c:"#3fa9f5", i:MI('<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13 7 4 4"/>')},
+  xarita:{n:"Xarita", c:"#14b8a6", i:MI('<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>')},
+  manba: {n:"Manba bilan ishlash", c:"#d4a24c", i:MI('<path d="M7 7h4v4c0 3-2 5-4 6M15 7h4v4c0 3-2 5-4 6"/>')}
+};
+function metodCounts(items){
+  const C = {}; const add = k => C[k] = (C[k]||0) + 1;
+  items.forEach(it => { add(it.metod || it.type || "quiz"); if(it.map) add("xarita"); if(it.tur==="Manba bilan ishlash" || (it.ext && /«/.test([].concat(it.ext).join(" ")))) add("manba"); });
+  return Object.keys(METOD_IC).filter(k => C[k]).map(k => [k, C[k]]);
+}
+const metodIcons = (items, big) => `<div class="mi-row${big?" big":""}">${metodCounts(items).map(([k,n]) => `<span class="mi" style="--c:${METOD_IC[k].c}" title="${METOD_IC[k].n}: ${n} ta">${METOD_IC[k].i}${big?`<small>${METOD_IC[k].n}</small>`:""}<b class="num">${n}</b></span>`).join("")}</div>`;
+const shortT = s => String(s||"").replace(/^\d+\s*-\s*mavzu\.\s*/i,"");
+
 function mavzuBook(b, list){
   const R = NAT.get(), P = bookProg(b, R), f = FANLAR[b.fan] || {c:"#6d7dff"};
   const bobs = []; b.topics.forEach(t => { let g = bobs.find(x => x.bob === t.bob); if(!g) bobs.push(g = {bob:t.bob, p:bobParts(t), ts:[]}); g.ts.push(t); });
   const next = b.topics.find(t => !R[t.id]) || b.topics[0];
   const sib = mavzuBooks(list).filter(x => x.fan===b.fan && x.k!==b.k);
+  let vis = store.get("oz-mavzu-korinish", "soqmoq");
+  const OFF = [0, 22, 32, 22, 0, -22, -32, -22];   // zigzag, % of half-width
+  let k = 0;
+  const trail = () => bobs.map((g,i) => { const d = g.ts.filter(t=>R[t.id]).length;
+    const pts = g.ts.map(() => OFF[(k++) % OFF.length]);
+    const H = 132, h = g.ts.length * H;
+    const path = pts.map((o,j) => { const x = 50 + o*0.9, y = j*H + 38; if(!j) return `M${x} ${y}`; const px = 50 + pts[j-1]*0.9, py = (j-1)*H + 38; return `C${px} ${py+H/2} ${x} ${y-H/2} ${x} ${y}`; }).join(" ");
+    return `<section class="sq-bob" id="bob${i}" style="--c:${f.c}">
+      <header class="sq-ban"><span class="mz-bl">${esc(g.p.lab)}</span><h2>${esc(g.p.nom)}</h2><span class="sq-bc num">${d}/${g.ts.length}</span></header>
+      <div class="sq-path" style="height:${h}px"><svg viewBox="0 0 100 ${h}" preserveAspectRatio="none" aria-hidden="true"><path d="${path}"/></svg>
+      ${g.ts.map((t,j) => { const r = R[t.id], cur = t.id===next.id, mn = +((t.id.match(/-M(\d+)$/)||[])[1]||j+1);
+        return `<button type="button" class="sq-node${r?" done":""}${cur?" cur":""}${r&&r.best>=80?" gold":""}" data-id="${esc(t.id)}" style="left:calc(50% + ${pts[j]*0.9}%);top:${j*H}px;--p:${r?r.best:0}">
+          ${cur?`<span class="sq-tip">${r?"Takrorlash":"Boshlash"}</span>`:""}
+          <span class="sq-dot"><span class="num">${r ? (r.best>=80?"★":r.best+"%") : mn}</span></span>
+          <span class="sq-lab">${esc(shortT(t.mavzu))}</span></button>`; }).join("")}</div></section>`; }).join("");
+  const listV = () => bobs.map((g,i) => { const d = g.ts.filter(t=>R[t.id]).length;
+    return `<section class="mz-bob" id="bob${i}" style="--c:${f.c}"><header><span class="mz-bl">${esc(g.p.lab)}</span><h2>${esc(g.p.nom)}</h2><span class="mz-bc num">${d}/${g.ts.length}</span></header>
+    <div class="mz-list">${g.ts.map(t => topicRow(t, R, false)).join("")}</div></section>`; }).join("");
   $("#app").innerHTML = `<nav class="mz-crumb"><a href="#">Mashqlar</a><span>›</span><a href="#mavzu">Mavzuli testlar</a><span>›</span><b>${esc(bookTitle(b))}</b></nav>
   <section class="mz-bhead" style="--c:${f.c}"><span class="mz-cover big${b.eski?" eski":""}"><span class="mz-g num">${b.sinf>11?"§":b.sinf}</span><span class="mz-gl">${b.sinf>11?"modda":"sinf"}</span></span>
     <div><div class="eyebrow">${esc(b.nashr)}</div><h1>${esc(bookTitle(b))}</h1>
     <p class="mz-meta">${bobs.length} bob · ${b.topics.length} mavzu · ${P.d} tasi yechilgan</p><span class="mz-prog lg"><i style="width:${P.p}%"></i></span>
     <div class="row" style="margin-top:14px"><a class="btn" href="#mavzu/${esc(next.id)}">${P.d ? "Keyingi mavzu" : "Birinchi mavzudan boshlash"} →</a><a class="btn ghost" href="#mavzu">← Barcha darsliklar</a></div>
     ${sib.length?`<div class="mz-sib"><span class="note">Boshqa sinflar:</span>${sib.map(x=>`<a class="chip" style="--c:${f.c}" href="#mavzu/${esc(x.k)}">${x.sinf>11?esc(x.fanNom):x.sinf+"-sinf"}${x.eski?" (eski)":""}</a>`).join("")}</div>`:""}</div></section>
-  ${bobs.length>1?`<nav class="mz-toc" aria-label="Boblar">${bobs.map((g,i)=>`<a href="#" data-bob="${i}">${esc(g.p.lab)}</a>`).join("")}</nav>`:""}
-  ${bobs.map((g,i) => { const d = g.ts.filter(t=>R[t.id]).length;
-    return `<section class="mz-bob" id="bob${i}" style="--c:${f.c}"><header><span class="mz-bl">${esc(g.p.lab)}</span><h2>${esc(g.p.nom)}</h2><span class="mz-bc num">${d}/${g.ts.length}</span></header>
-    <div class="mz-list">${g.ts.map(t => topicRow(t, R, false)).join("")}</div></section>`; }).join("")}`;
+  <nav class="mz-toc" aria-label="Boblar"><span class="sq-vis" role="group" aria-label="Ko'rinish"><button type="button" data-v="soqmoq">So'qmoq</button><button type="button" data-v="royxat">Ro'yxat</button></span>${bobs.length>1?bobs.map((g,i)=>`<a href="#" data-bob="${i}">${esc(g.p.lab)}</a>`).join(""):""}</nav>
+  <div id="sqbody"></div><div class="sq-sheet" id="sqs" hidden></div>`;
+  const draw = () => { k = 0; $("#sqbody").innerHTML = vis==="soqmoq" ? trail() : listV();
+    document.querySelectorAll(".sq-vis button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v===vis)));
+    document.querySelectorAll(".sq-node").forEach(n => n.onclick = () => openSheet(n.dataset.id)); };
+  document.querySelectorAll(".sq-vis button").forEach(x => x.onclick = () => { vis = x.dataset.v; store.set("oz-mavzu-korinish", vis); draw(); });
   document.querySelectorAll(".mz-toc a").forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById("bob"+a.dataset.bob).scrollIntoView({behavior:"smooth", block:"start"}); });
+  const sh = $("#sqs");
+  const closeSheet = () => { sh.hidden = true; sh.innerHTML = ""; };
+  async function openSheet(id){
+    const t = b.topics.find(x => x.id===id), r = R[id], bp = bobParts(t);
+    sh.hidden = false;
+    sh.innerHTML = `<div class="sq-back" data-x></div><div class="sq-card" role="dialog" aria-label="${esc(t.mavzu)}" style="--c:${f.c}"><span class="sq-grip"></span>
+      <div class="eyebrow">${esc(bp.lab)} · ${esc((t.id.match(/M\d+$/)||[""])[0])}</div><h3>${esc(shortT(t.mavzu))}</h3>
+      <div id="sqmi" class="mi-row"><span class="note">Yuklanmoqda…</span></div>
+      <p class="note" id="sqinfo">${r?`Eng yaxshi natija: <b>${r.best}%</b> · ${r.n} marta yechilgan`:"Hali yechilmagan"}</p>
+      <div class="row"><a class="btn big" href="#mavzu/${esc(id)}" style="flex:1;text-decoration:none;text-align:center">${r?"Qayta yechish":"Boshlash"}</a><button class="btn big ghost" type="button" data-x>Yopish</button></div></div>`;
+    sh.querySelectorAll("[data-x]").forEach(x => x.onclick = closeSheet);
+    try{ const T = await mavzuLoad(id); if(sh.hidden) return; const D = [1,2,3].map(l => T.items.filter(it=>it.daraja===l).length);
+      $("#sqmi").outerHTML = metodIcons(T.items, false);
+      $("#sqinfo").insertAdjacentHTML("beforebegin", `<p class="note" style="margin:0"><b>${T.items.length}</b> ta savol · ${D.map((n,l)=>n?`<span class="tag lv${l+1}">${DARAJA[l+1]} ${n}</span>`:"").join(" ")}</p>`);
+    }catch(e){ const m = $("#sqmi"); if(m) m.innerHTML = ""; }
+  }
+  document.addEventListener("keydown", function esc1(e){ if(e.key==="Escape") closeSheet(); if(!document.body.contains(sh)) document.removeEventListener("keydown", esc1); });
+  draw();
+  const cur = document.querySelector(".sq-node.cur"); if(cur && vis==="soqmoq" && P.d) setTimeout(() => cur.scrollIntoView({block:"center"}), 60);
 }
 async function mavzuTopic(id){
   const T = await mavzuLoad(id);
@@ -885,7 +945,7 @@ async function mavzuTopic(id){
   <div class="mz-pn">${prv?`<a class="btn ghost" href="#mavzu/${esc(prv.id)}" title="${esc(prv.mavzu)}">← Oldingi mavzu</a>`:"<span></span>"}<span class="note num">${ix+1} / ${sameB.length}</span>${nxt?`<a class="btn ghost" href="#mavzu/${esc(nxt.id)}" title="${esc(nxt.mavzu)}">Keyingi mavzu →</a>`:"<span></span>"}</div>
   <div class="hub" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
     <div class="card" id="vk" style="align-content:start">
-      <div class="mstat"><span class="tag">${T.items.length} ta test</span>${Object.entries(mc).map(([k,n])=>`<span class="tag">${esc(k)}: ${n}</span>`).join("")}</div>
+      <div class="mstat"><span class="tag">${T.items.length} ta test</span></div>${metodIcons(T.items, true)}
       <div class="mstat">${[1,2,3].filter(l=>dc[l]).map(l=>`<span class="tag lv${l}">${DARAJA[l]}: ${dc[l]}</span>`).join("")}</div>
       <label class="f">Savollar<select id="mn"><option value="all">Hammasi (${T.items.length} ta, osondan qiyinga)</option><option value="10">Tasodifiy 10 ta</option><option value="15">Tasodifiy 15 ta</option></select></label>
       <div class="row"><button class="btn big" id="solo" type="button" style="flex:1">Yakka o'ynash</button><button class="btn big ghost" id="live" type="button" style="flex:1">Sinf bilan (PIN)</button></div>
