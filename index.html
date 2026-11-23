@@ -282,7 +282,9 @@ async function submitAttempt(){
 }
 // Telegram bot that sends a certificate for a finished attempt (/api/bot answers with its username).
 let BOT=null;
-async function botInfo(){ if(BOT) return BOT; try{ const r=await fetch("/api/bot"); BOT=r.ok? await r.json():{}; }catch(e){ BOT={}; } return BOT; }
+// The bot itself runs on production; previews have no token, so fall back to the known bot name.
+const BOT_DEFAULT={tayyor:true,username:"ozing_organ_bot"};
+async function botInfo(){ if(BOT) return BOT; try{ const r=await fetch("/api/bot"); BOT=r.ok? await r.json():{}; }catch(e){ BOT={}; } if(!BOT.tayyor||!BOT.username) BOT=BOT_DEFAULT; return BOT; }
 async function showCertButton(){
   const box=$("#tgcert"); if(!box || !st.aid) return;
   const b=await botInfo(); if(!b.tayyor || !b.username || !$("#tgcert")) return;
