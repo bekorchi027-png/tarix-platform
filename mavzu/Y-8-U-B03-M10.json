@@ -1,0 +1,182 @@
+{
+  "id": "Y/8/U/B03/M10",
+  "sinf": 8,
+  "fan": "O‘zbekiston tarixi",
+  "nashr": "Yangi nashr (2023)",
+  "bob": "III bob. Amir Temur va temuriylar davri",
+  "mavzu": "10-mavzu. Amir Temur – Movarounnahr hukmdori",
+  "manba": "O‘zbekiston tarixi, 8-sinf (2023), 87–93-betlar",
+  "indeks": "Nashr/Sinf/Fan/Bob/Mavzu/Item/Test: Y – yangi nashr, 8 – sinf, U – O‘zbekiston tarixi, B03 – III bob, M10 – 10-mavzu, I – fakt raqami, T – shu fakt bo‘yicha test raqami",
+  "items": [
+    {
+      "id": "Y/8/U/B03/M10/I001/T001", "metod": "quiz", "daraja": 1, "vaqt": 20,
+      "q": "Konigil voqeasidan keyin Amir Husayn harbiylar va davlat amaldorlariga nisbatan qanday siyosat yuritdi?",
+      "opts": ["Katta soliq solib, amirlardan o‘lja va pul talab qildi", "Barcha soliqlardan ozod qilib, maoshlarini oshirdi", "Yangi yer-mulklar ulashib, suyurg‘ol in’om etdi", "Ularni qurultoyga to‘plab, mansablarini tasdiqladi"],
+      "ans": 0,
+      "izoh": "Amir Husayn mamlakat amiri darajasiga erishgach, harbiylar va amaldorlarga katta soliq solishni buyurdi, amirlarni siquvga oldi (87-bet).",
+      "bet": 87
+    },
+    {
+      "id": "Y/8/U/B03/M10/I002/T001", "metod": "tf", "daraja": 2, "vaqt": 15,
+      "q": "To‘g‘ri yoki noto‘g‘ri? Amir Temur safdoshlarining soliq qarzlarini to‘lash uchun xotini O‘ljoy Turkon og‘oning taqinchoqlarini ham ayamagan.",
+      "opts": ["To‘g‘ri", "Noto‘g‘ri"],
+      "ans": 0,
+      "izoh": "To‘g‘ri. Temur safdoshlarining qarzini to‘lashda Amir Husaynning singlisi bo‘lgan xotini O‘ljoy Turkon og‘oning taqinchoqlarini ham ayamadi (88-bet).",
+      "bet": 88
+    },
+    {
+      "id": "Y/8/U/B03/M10/I003/T001", "metod": "quiz", "daraja": 2, "vaqt": 20,
+      "q": "Qaysi voqea Amir Temur bilan Amir Husayn o‘rtasidagi «eng so‘nggi rishta»ning uzilishiga olib keldi?",
+      "opts": ["O‘ljoy Turkon og‘oning to‘satdan vafot etishi", "Loy jangidagi mag‘lubiyat", "Sarbadorlarning qatl etilishi", "Suyurg‘atmishning xon qilib ko‘tarilishi"],
+      "ans": 0,
+      "izoh": "1366-yili Temurning xotini, Husaynning singlisi O‘ljoy Turkon og‘oning vafoti ikki amirni bog‘lab turgan so‘nggi rishtani uzdi (88-bet).",
+      "bet": 88
+    },
+    {
+      "id": "Y/8/U/B03/M10/I004/T001", "metod": "quiz", "daraja": 2, "vaqt": 20,
+      "q": "1370-yilgi hal qiluvchi jang oldidan Amir Temur Termiz yaqinidagi qaysi joyda qarorgoh qurdi?",
+      "opts": ["Biyo", "Konigil", "Qarosomon", "Shiburg‘on"],
+      "ans": 0,
+      "izoh": "Temur Termiz yaqinidagi Biyo degan joyda qarorgoh qurib, jangga tayyorlandi (88-bet). Konigil – sarbadorlar voqeasi, Qarosomon – 1372-yilgi suiqasd joyi.",
+      "bet": 88
+    },
+    {
+      "id": "Y/8/U/B03/M10/I005/T001", "metod": "quiz", "daraja": 2, "vaqt": 20,
+      "q": "Mir Sayyid Baraka Biyo qarorgohida Amir Temurga hokimiyat va saltanat ramzi sifatida nimalarni topshirdi?",
+      "opts": ["Nog‘ora va bayroq", "Toj va taxt", "Qilich va muhr", "Xon yorlig‘i va tamg‘a"],
+      "ans": 0,
+      "izoh": "Taniqli diniy arbob Mir Sayyid Baraka Temurga nog‘ora va bayroqni – hokimiyat ramzlarini topshirib, buyuk kelajagini bashorat qildi (88-bet).",
+      "bet": 88
+    },
+    {
+      "id": "Y/8/U/B03/M10/I006/T001", "metod": "vaqt", "daraja": 1, "vaqt": 25,
+      "q": "Balx qamali tugab, Amir Temur Movarounnahr amiri deb e’lon qilingan yilni vaqt o‘qida belgilang.",
+      "min": 1350, "max": 1400, "ans": 1370, "tol": 3,
+      "izoh": "1370-yil aprelida Balxda ikki kunlik qamaldan so‘ng Amir Husayn taslim bo‘ldi, qurultoyda Temur Movarounnahr amiri bo‘ldi (89-bet).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I007/T001", "metod": "tf", "daraja": 2, "vaqt": 15,
+      "q": "To‘g‘ri yoki noto‘g‘ri? Amir Husayn Balx yonidagi ochiq jangda halok bo‘lgan.",
+      "opts": ["To‘g‘ri", "Noto‘g‘ri"],
+      "ans": 1,
+      "izoh": "Noto‘g‘ri. Ikki kunlik qamaldan so‘ng Husayn taslim bo‘ldi, jome masjidi minorasiga yashiringan joyidan qo‘lga olindi, so‘ng amir Kayxusrav tomonidan o‘ldirildi (89-bet).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I008/T001", "metod": "quiz", "daraja": 3, "vaqt": 25,
+      "q": "Amir Kayxusrav Amir Husaynni qanday maqsadda o‘ldirdi?",
+      "opts": ["Akasi Kayqubodning qoni uchun o‘ch (xun) olish", "Balx taxtini o‘zi egallash", "Amir Temurning qatl haqidagi farmonini bajarish", "Badaxshon hokimligini qo‘lga kiritish"],
+      "ans": 0,
+      "izoh": "Bir paytlar Amir Husayn Kayxusravning akasi Kayqubodni qatl etgan edi; Kayxusrav xun olish maqsadida Husaynni o‘ldirdi (89-bet).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I009/T001", "metod": "quiz", "daraja": 1, "vaqt": 20,
+      "q": "1370-yilgi qurultoy qaroriga ko‘ra Chingizxon avlodidan bo‘lgan qaysi shaxs Movarounnahr xoni etib ko‘tarildi?",
+      "opts": ["Suyurg‘atmish", "Sulton Mahmudxon", "Ilyosxo‘ja", "Tug‘luq Temur"],
+      "ans": 0,
+      "izoh": "Qurultoyda chingiziy Suyurg‘atmish (1370–1388) xon bo‘ldi, davlat boshqaruvi esa «Movarounnahr amiri» Amir Temur qo‘liga o‘tdi (89-bet). Sulton Mahmudxon – uning o‘g‘li, keyingi xon.",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I010/T001", "metod": "quiz", "daraja": 1, "vaqt": 15,
+      "q": "Amir Temur o‘z davlatining poytaxtini qaysi shaharga ko‘chirdi?",
+      "opts": ["Samarqand", "Kesh", "Qarshi", "Balx"],
+      "ans": 0,
+      "izoh": "Amir Temur Keshdan Samarqandga ko‘chib, uni davlat poytaxtiga aylantirdi (89-bet).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I011/T001", "metod": "vaqt", "daraja": 3, "vaqt": 30,
+      "q": "1370-yilda Movarounnahr amiri bo‘lganida Amir Temur «endigina o‘ttiz to‘rt yoshga kirgan» edi. Uning tug‘ilgan yilini vaqt o‘qida belgilang.",
+      "min": 1320, "max": 1370, "ans": 1336, "tol": 2,
+      "izoh": "1370 − 34 = 1336. Amir Temur 1336-yil 9-aprelda tug‘ilgan (89-bet; 9-mavzu).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I012/T001", "metod": "quiz", "daraja": 3, "vaqt": 25,
+      "q": "Qurultoyda Amir Temur hokimiyatini tan olmay, ayirmachilik yo‘lini tutgan hokim kim edi?",
+      "opts": ["Shiburg‘on hokimi Zinda Chashm", "Amir Kayxusrav", "Joku Barlos", "Amir Muso"],
+      "ans": 0,
+      "izoh": "Shiburg‘on hokimi Zinda Chashmdan boshqa barcha amirlar Temurni tan oldi. U Balx va Termiz atrofini talon-taroj qila boshladi (89-bet).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I013/T001", "metod": "quiz", "daraja": 2, "vaqt": 20,
+      "q": "Mag‘lub etilib Samarqandga keltirilgan Zinda Chashmga Amir Temur qanday munosabatda bo‘ldi?",
+      "opts": ["Oliyhimmatlik bilan afv etdi", "Qatl etishni buyurdi", "Hijozga surgun qildi", "Zindonga tashlab, mulkini musodara qildi"],
+      "ans": 0,
+      "izoh": "Joku Barlos qo‘shini Zinda Chashmni yengdi; Amir Temur unga oliyhimmat munosabatda bo‘lib, afv etdi (89-bet).",
+      "bet": 89
+    },
+    {
+      "id": "Y/8/U/B03/M10/I014/T001", "metod": "quiz", "daraja": 3, "vaqt": 30,
+      "q": "«Temur tuzuklari»ga ko‘ra Amir Temur Badaxshon bosh amirini qanday yo‘l bilan o‘z panohiga keltirdi?",
+      "opts": ["Majlislarda uni maqtab, do‘stlari orqali marhamatidan xabar topishiga erishdi", "Badaxshonga qo‘shin yuborib, uni asir oldi", "Unga qizini turmushga berib, quda bo‘ldi", "Badaxshonni unga mulk qilib bergan yorliq jo‘natdi"],
+      "ans": 0,
+      "izoh": "Temur uni unutgandek tutib, majlislarda mardligini maqtadi; do‘stlari unga xat yozdi va u o‘zi Temurning panohiga keldi (90-bet).",
+      "bet": 90
+    },
+    {
+      "id": "Y/8/U/B03/M10/I015/T001", "metod": "quiz", "daraja": 2, "vaqt": 25,
+      "q": "Quyidagilardan qaysi biri Amir Temurning dastlabki farmonlari qatoriga KIRMAYDI?",
+      "opts": ["Yo‘llar xavfsizligi, pochta va qatnov vositalarini ta’minlash", "Rabotlar va xonaqohlar qurish", "Kambag‘al va miskinlar uchun xayrxonalar ochish", "Xorazmga zudlik bilan yurish boshlash"],
+      "ans": 3,
+      "izoh": "Dastlabki farmonlar yo‘l xavfsizligi, pochta, xarob yerlarni obod qilish, rabotlar, xonaqohlar va xayrxonalar haqida edi (91-bet). Xorazm hali birlashtirilmagan yagona hudud bo‘lib qolgan edi.",
+      "bet": 91
+    },
+    {
+      "id": "Y/8/U/B03/M10/I016/T001", "metod": "tf", "daraja": 2, "vaqt": 15,
+      "q": "To‘g‘ri yoki noto‘g‘ri? Suyurg‘atmishxon va Sulton Mahmudxon xon unvoniga ega bo‘lsa-da, amalda barcha hokimiyat Amir Temur qo‘lida edi.",
+      "opts": ["To‘g‘ri", "Noto‘g‘ri"],
+      "ans": 0,
+      "izoh": "To‘g‘ri. Ular amalda «qo‘g‘irchoq» xonlar bo‘lib, diniy, dunyoviy, ijro va qonunchilik hokimiyati Amir Temur qo‘lida bo‘lgan (91-bet).",
+      "bet": 91
+    },
+    {
+      "id": "Y/8/U/B03/M10/I017/T001", "metod": "quiz", "daraja": 3, "vaqt": 25,
+      "q": "Mo‘g‘ullar davrida markazi Kat qal’asi bo‘lgan Janubiy Xorazm qaysi davlat tarkibida edi?",
+      "opts": ["Chig‘atoy ulusi", "Oltin O‘rda", "Elxoniylar davlati", "Oq O‘rda"],
+      "ans": 0,
+      "izoh": "Markazi Urganch bo‘lgan Shimoliy Xorazm Oltin O‘rdaga, markazi Kat bo‘lgan Janubiy Xorazm esa Chig‘atoy ulusiga kirgan (92-bet).",
+      "bet": 92
+    },
+    {
+      "id": "Y/8/U/B03/M10/I018/T001", "metod": "quiz", "daraja": 3, "vaqt": 25,
+      "q": "1372-yilgi suiqasd rejasiga ko‘ra Amir Temur qayerda ov qilib yurgan paytida qo‘lga olinishi kerak edi?",
+      "opts": ["O‘tror yaqinidagi Qarosomon mavzeyida", "Termiz yaqinidagi Biyoda", "Samarqand yaqinidagi Konigilda", "Balx yaqinidagi Shiburg‘onda"],
+      "ans": 0,
+      "izoh": "Mo‘g‘uliston yurishidan qaytayotgan Temurni O‘tror yaqinidagi Qarosomon mavzeyida ov paytida qo‘lga olish rejalashtirilgan edi; fitna fosh bo‘ldi (92-bet).",
+      "bet": 92
+    },
+    {
+      "id": "Y/8/U/B03/M10/I019/T001", "metod": "quiz", "daraja": 2, "vaqt": 20,
+      "q": "Saroymulkxonimning aralashuvi bilan qaysi isyonkor jazodan ozod etildi?",
+      "opts": ["Amir Muso", "Zinda Chashm", "Kayxusrav", "Hoji Barlos"],
+      "ans": 0,
+      "izoh": "Amir Muso Saroymulkxonimning yaqin qarindoshi edi; Temur «qadimiy do‘stligimiz haqqi seni afv etdim» degan (92-bet).",
+      "bet": 92
+    },
+    {
+      "id": "Y/8/U/B03/M10/I020/T001", "metod": "quiz", "daraja": 3, "vaqt": 25,
+      "q": "Suiqasdda qatnashgan payg‘ambar avlodlari (sayyidlar)ga nisbatan qanday chora ko‘rildi va buning sababi nima edi?",
+      "opts": ["Qatl etilmay, Hijozga jo‘natildi – jamiyat barqarorligini saqlash uchun", "Qatl etildi – boshqalarga ibrat bo‘lishi uchun", "Mulklari musodara qilindi – xazinani to‘ldirish uchun", "Samarqandga qozi etib tayinlandi – ularni nazoratda tutish uchun"],
+      "ans": 0,
+      "izoh": "Sayyidlar jazodan omon qoldi, lekin Hijozga (Hajga) jo‘natildi. Temur musulmon olami hurmat qiladigan oliynasab vakillarni o‘limga hukm etmay, jamiyat barqarorligini saqladi (92–93-betlar).",
+      "bet": 92
+    },
+    {
+      "id": "Y/8/U/B03/M10/I021/T001", "metod": "tartib", "daraja": 3, "vaqt": 40,
+      "q": "Voqealarni vaqt o‘qida sodir bo‘lgan tartibida joylashtiring (eng avvalgisidan boshlab).",
+      "items": [
+        {"t": "Amir Temurning tug‘ilishi", "y": 1336},
+        {"t": "Loy jangi", "y": 1365},
+        {"t": "Balx qamali va Amir Husaynning taslim bo‘lishi", "y": 1370},
+        {"t": "Qarosomondagi suiqasd rejasining fosh etilishi", "y": 1372}
+      ],
+      "izoh": "1336 – Temur tug‘ildi; 1365 – Loy jangi; 1370 – Balx qamali, Temur Movarounnahr amiri; 1372 – Qarosomon fitnasi fosh bo‘ldi.",
+      "bet": 89
+    }
+  ]
+}
