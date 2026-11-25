@@ -411,10 +411,11 @@ const MODES = [
   ["xronologiya","Xronologiya","Tarixiy voqealarni sodir bo'lgan tartibida joylashtiring.","Yakka"],
   ["kartochka","Kartochkalar","Yozma topshiriqlar asosida savol-javob kartochkalari: o'ylang, ag'daring, o'zingizni baholang.","Yakka"]
 ];
+const HUB_SECT = [["Testlar","darslik, DTM va vaqtga qarshi","mavzu dtm viktorina"],["Sinf bilan","dars paytida birga o'ynash","jonli carx"],["Xarita va vaqt","joy va sanalarni mustahkamlash","xarita joylar xronologiya"],["Takrorlash","yozma javoblarni yodlash","kartochka"]];
 function viewHub(){
   $("#app").innerHTML = `<section class="hero slim"><svg class="rosette" viewBox="0 0 400 400" aria-hidden="true"><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2d28a"/><stop offset="1" stop-color="#b8862b"/></linearGradient></defs><g class="spin" fill="none" stroke="url(#rg)"><circle cx="200" cy="200" r="192" stroke-width="1.5" opacity=".55"/><circle cx="200" cy="200" r="178" stroke-width="1" opacity=".4" stroke-dasharray="2 6"/><path stroke-width="2.2" opacity=".9" d="M316.7 316.7 L83.3 316.7 L83.3 83.3 L316.7 83.3Z M200.0 365.0 L35.0 200.0 L200.0 35.0 L365.0 200.0Z"/><path stroke-width="1.4" opacity=".7" d="M263.1 47.6 L284.9 115.1 L352.4 136.9 L320.0 200.0 L352.4 263.1 L284.9 284.9 L263.1 352.4 L200.0 320.0 L136.9 352.4 L115.1 284.9 L47.6 263.1 L80.0 200.0 L47.6 136.9 L115.1 115.1 L136.9 47.6 L200.0 80.0Z"/><circle cx="200" cy="200" r="118" stroke-width="1.2" opacity=".5"/><path stroke-width="1.8" opacity=".85" d="M238.3 292.4 L107.6 238.3 L161.7 107.6 L292.4 161.7Z M161.7 292.4 L107.6 161.7 L238.3 107.6 L292.4 238.3Z"/><path stroke-width="1.2" opacity=".65" d="M200.0 130.0 L210.1 149.0 L226.8 135.3 L228.9 156.8 L249.5 150.5 L243.2 171.1 L264.7 173.2 L251.0 189.9 L270.0 200.0 L251.0 210.1 L264.7 226.8 L243.2 228.9 L249.5 249.5 L228.9 243.2 L226.8 264.7 L210.1 251.0 L200.0 270.0 L189.9 251.0 L173.2 264.7 L171.1 243.2 L150.5 249.5 L156.8 228.9 L135.3 226.8 L149.0 210.1 L130.0 200.0 L149.0 189.9 L135.3 173.2 L156.8 171.1 L150.5 150.5 L171.1 156.8 L173.2 135.3 L189.9 149.0Z"/><circle cx="200" cy="200" r="40" stroke-width="2" opacity=".9"/><path stroke-width="1.4" opacity=".8" d="M213.0 168.6 L211.3 188.7 L231.4 187.0 L216.0 200.0 L231.4 213.0 L211.3 211.3 L213.0 231.4 L200.0 216.0 L187.0 231.4 L188.7 211.3 L168.6 213.0 L184.0 200.0 L168.6 187.0 L188.7 188.7 L187.0 168.6 L200.0 184.0Z"/></g></svg><div class="eyebrow">O'zing O'rgan · Tarix</div><h1>Mashq va o'yinlar</h1>
   <p>Testlardagi savollar va tarixiy voqealar asosida turli usullarda takrorlang. Hisobsiz ham ishlaydi; <a href="#" id="hsign">ro'yxatdan o'tsangiz</a>, ballaringiz kabinetda saqlanadi va reytingda ko'rinadi.</p></section>
-  <div class="hub">${MODES.map(([id,t,d,who])=>`<a class="mode" href="#${id}"><span class="ic">${ICON[id]}</span><b>${t}</b><span>${d}</span><em>${who}</em></a>`).join("")}</div>`;
+  ${HUB_SECT.map(([h,sub,ids]) => `<h2 class="mz-h hub-h">${h} <small>${sub}</small></h2><div class="hub">${ids.split(" ").map(id => MODES.find(m => m[0]===id)).filter(Boolean).map(([id,t,d,who])=>`<a class="mode" href="#${id}"><span class="ic">${ICON[id]}</span><b>${t}</b><span>${d}</span><em>${who}</em></a>`).join("")}</div>`).join("")}`;
   $("#hsign").onclick = e => { e.preventDefault(); OZ.user ? OZ.open() : OZ.open("signup"); };
 }
 const back = `<a class="btn ghost" href="#">← Barcha mashqlar</a>`;
@@ -782,24 +783,169 @@ const XP = {
   badge(v){ const L = this.level(v); return `<div class="xpbar"><b>${L.l}-daraja</b><span class="num">${v.toLocaleString("ru-RU")} XP</span><i><s style="width:${Math.round(L.cur/L.need*100)}%"></s></i><small class="note">keyingi darajagacha ${L.need-L.cur} XP</small></div>`; }
 };
 
+// ---- Topic library: subject → grade → edition (book) → bob → mavzu ----
+const FANLAR = {U:{nom:"O‘zbekiston tarixi", c:"#16c2b3", q:1}, J:{nom:"Jahon tarixi", c:"#8a7bff", q:2}, H:{nom:"Tarixdan hikoyalar", c:"#f5a623", q:3}, K:{nom:"Konstitutsiya", c:"#3ccf8e", q:4}};
+const bookKey = id => id.replace(/-B\d+-M\d+$/,"");
+const fanKod = t => /-K-/.test(t.id) ? "K" : t.id.split("-")[2];
+const mNorm = s => String(s||"").toLowerCase().replace(/[ʻʼ‘’`´']/g,"").replace(/[«»"“”.,:;()–—-]+/g," ").replace(/\s+/g," ").trim();
+const ROMAN = {I:1,II:2,III:3,IV:4,V:5,VI:6,VII:7,VIII:8,IX:9,X:10};
+function bobParts(t){
+  const m = String(t.bob).match(/^(.{1,22}?(?:bob|bo‘lim|bo'lim))\.\s+(.+)$/i);
+  const n = +((t.id.match(/-B(\d+)-/)||[])[1]||0);
+  return m ? {lab:m[1], nom:m[2], n} : {lab:`${n}-bob`, nom:t.bob, n};
+}
+const NAT = {get(){ return store.get("oz-mavzu-natija", {}); }, put(id, right, n){ const A = this.get(), o = A[id] || {best:0, n:0}; const p = Math.round(right/Math.max(1,n)*100); A[id] = {best:Math.max(o.best,p), n:o.n+1, t:Date.now()}; store.set("oz-mavzu-natija", A); }};
+function mavzuBooks(list){
+  const B = {};
+  list.forEach(t => { const k = bookKey(t.id); (B[k] = B[k] || {k, fan:fanKod(t), fanNom:t.fan, sinf:t.sinf, nashr:t.nashr, eski:t.id.startsWith("E-"), topics:[]}).topics.push(t); });
+  return Object.values(B).sort((a,b) => (FANLAR[a.fan]||{q:9}).q - (FANLAR[b.fan]||{q:9}).q || a.sinf-b.sinf || a.eski-b.eski);
+}
+const bookTitle = b => b.sinf > 11 ? b.fanNom : `${b.sinf}-sinf · ${b.fanNom}`;
+function bookProg(b, R){ const d = b.topics.filter(t => R[t.id]).length; return {d, n:b.topics.length, p:Math.round(d/b.topics.length*100)}; }
+function statusHtml(r){ return r ? `<span class="mz-st ${r.best>=80?"ok":r.best>=50?"mid":"low"}" title="Eng yaxshi natija">${r.best}%</span>` : `<span class="mz-st new">Yangi</span>`; }
+function topicRow(t, R, showBook){
+  const bp = bobParts(t), mn = (t.id.match(/-M(\d+)$/)||[])[1]||"";
+  return `<a class="mz-row" href="#mavzu/${esc(t.id)}"><span class="mz-n num">${esc(mn)}</span><span class="mz-t"><b>${esc(String(t.mavzu).replace(/^\d+\s*-\s*mavzu\.\s*/i,""))}</b>${showBook?`<small>${esc(t.sinf>11?t.fan:t.sinf+"-sinf · "+t.fan)}${t.id.startsWith("E-")?" (eski nashr)":""} · ${esc(bp.lab)}</small>`:""}</span>${statusHtml(R[t.id])}</a>`;
+}
 async function viewMavzu(arg){
   const list = await mavzuList();
+  const books = mavzuBooks(list);
+  if(arg && books.some(b => b.k===arg)) return mavzuBook(books.find(b => b.k===arg), list);
   if(arg) return mavzuTopic(arg);
-  const by = {};
-  list.forEach(t => { const k = (t.sinf > 11 ? t.fan : `${t.sinf}-sinf · ${t.fan}`) + (t.id.startsWith("E-") ? " (eski nashr)" : ""); (by[k] = by[k] || []).push(t); });
-  $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">Darslik mavzulari bo'yicha</div><h1>Mavzuli testlar</h1></div><span class="sp"></span>${back}</div>
-  <p style="margin-top:0;max-width:760px">Har bir mavzu darslik asosida tuzilgan: oson, o'rtacha va qiyin savollar aralash, turli metodlar bilan: vaqt o'qida yilni belgilash, voqealar ketma-ketligi, moslashtirish, bir nechta to'g'ri javob, manba (iqtibos) bilan ishlash, xaritadagi joy, noto'g'ri fikr yoki ortiqchasini topish, sabab va oqibat, yozma javob. Yakka o'ynang yoki sinf bilan Kahoot uslubida bellashing.</p>
-  ${Object.entries(by).map(([k,ts])=>`<h2 style="font-size:22px;margin:18px 0 10px">${esc(k)}</h2><div class="hub">${ts.map(t=>`<a class="mode" href="#mavzu/${esc(t.id)}"><span class="ic">${ICON.mavzu}</span><b>${esc(t.mavzu)}</b><span>${esc(t.bob)} · ${esc(t.nashr)}</span><em class="num">${esc(t.indeks)}</em></a>`).join("")}</div>`).join("")}`;
+  const R = NAT.get(), F = Object.assign({fan:"", sinf:"", nashr:"", q:""}, store.get("oz-mavzu-filtr", {}));
+  const done = list.filter(t => R[t.id]).length;
+  const last = list.find(t => t.id === store.get("oz-mavzu-oxirgi", ""));
+  const sinflar = [...new Set(books.filter(b => b.sinf<=11).map(b => b.sinf))].sort((a,b)=>a-b);
+  $("#app").innerHTML = `<section class="mz-hero"><div class="eyebrow">Darslik mavzulari bo'yicha</div><h1>Mavzuli <em>testlar</em></h1>
+    <p>Har bir darslik bob va mavzularga bo'lingan. Sinfingizni tanlang, kitobni oching va mavzuni yeching: vaqt o'qi, ketma-ketlik, moslashtirish, manba, xarita, yozma javob va boshqa metodlar. Yakka yoki sinf bilan.</p>
+    <div class="mz-kpi"><div><b class="num">${books.length}</b><span>darslik</span></div><div><b class="num">${list.length}</b><span>mavzu</span></div><div><b class="num">${done}</b><span>yechilgan</span></div></div>
+    <div class="row mz-acts">${last?`<a class="btn" href="#mavzu/${esc(last.id)}">Davom ettirish: ${esc(last.mavzu.length>38?last.mavzu.slice(0,36)+"…":last.mavzu)}</a>`:""}<button class="btn ghost" id="mzrand" type="button">Tasodifiy mavzu</button>${back}</div></section>
+    <div class="mz-bar">
+      <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="mzq" type="search" placeholder="Mavzu, bob yoki shaxs nomi…" value="${esc(F.q)}" autocomplete="off"></label>
+      <div class="mz-chips" role="group" aria-label="Fan"><button class="chip" data-f="fan" data-v="">Barcha fanlar</button>${Object.entries(FANLAR).filter(([k])=>books.some(b=>b.fan===k)).map(([k,f])=>`<button class="chip" style="--c:${f.c}" data-f="fan" data-v="${k}">${f.nom}</button>`).join("")}</div>
+      <div class="mz-chips" role="group" aria-label="Sinf"><button class="chip" data-f="sinf" data-v="">Barcha sinflar</button>${sinflar.map(s=>`<button class="chip num" data-f="sinf" data-v="${s}">${s}-sinf</button>`).join("")}</div>
+      <div class="mz-chips" role="group" aria-label="Nashr"><button class="chip" data-f="nashr" data-v="">Barcha nashrlar</button><button class="chip" data-f="nashr" data-v="Y">Yangi nashr</button><button class="chip" data-f="nashr" data-v="E">Eski nashr</button></div>
+    </div>
+    <div id="mzout"></div>`;
+  const out = $("#mzout");
+  const okBook = b => (!F.fan || b.fan===F.fan) && (!F.sinf || b.sinf==F.sinf) && (!F.nashr || (F.nashr==="E") === b.eski);
+  function draw(){
+    store.set("oz-mavzu-filtr", F);
+    document.querySelectorAll(".mz-chips .chip").forEach(c => c.setAttribute("aria-pressed", String(F[c.dataset.f] === c.dataset.v)));
+    const B = books.filter(okBook), q = mNorm(F.q);
+    if(q){
+      const words = q.split(" ");
+      const hits = B.flatMap(b => b.topics).filter(t => { const h = mNorm(t.mavzu+" "+t.bob+" "+t.fan+" "+t.sinf+"-sinf"); return words.every(w => h.includes(w)); });
+      const inT = t => words.every(w => mNorm(t.mavzu).includes(w)); hits.sort((a,b) => inT(b) - inT(a));
+      out.innerHTML = `<h2 class="mz-h">Qidiruv natijasi: ${hits.length} ta mavzu</h2>` + (hits.length ? `<div class="mz-list">${hits.slice(0,120).map(t => topicRow(t, R, true)).join("")}</div>` : `<p class="mz-empty">Hech narsa topilmadi. Boshqa so'z bilan qidirib ko'ring yoki filtrlarni olib tashlang.</p>`);
+      return;
+    }
+    if(!B.length){ out.innerHTML = `<p class="mz-empty">Bu tanlov bo'yicha darslik hali yo'q. Tez orada qo'shiladi.</p>`; return; }
+    const groups = {}; B.forEach(b => (groups[b.fan] = groups[b.fan] || []).push(b));
+    out.innerHTML = Object.entries(groups).map(([fk, bs]) => { const f = FANLAR[fk] || {nom:bs[0].fanNom, c:"#6d7dff"};
+      return `<section class="mz-shelf" style="--c:${f.c}"><h2 class="mz-h"><i></i>${esc(f.nom)} <small>${bs.length} ta darslik · ${bs.reduce((s,b)=>s+b.topics.length,0)} mavzu</small></h2>
+      <div class="mz-books">${bs.map(b => { const P = bookProg(b, R), bobs = new Set(b.topics.map(t=>t.bob)).size;
+        return `<a class="mz-book${b.eski?" eski":""}" href="#mavzu/${esc(b.k)}"><span class="mz-cover"><span class="mz-g num">${b.sinf>11?"§":b.sinf}</span><span class="mz-gl">${b.sinf>11?"modda":"sinf"}</span></span>
+          <span class="mz-bi"><b>${esc(b.fanNom)}</b><span class="mz-ed">${esc(b.nashr)}</span><span class="mz-meta">${bobs} bob · ${b.topics.length} mavzu</span>
+          <span class="mz-prog" title="${P.d}/${P.n} mavzu yechilgan"><i style="width:${P.p}%"></i></span><small>${P.d ? `${P.d}/${P.n} yechilgan` : "Boshlanmagan"}</small></span></a>`; }).join("")}</div></section>`; }).join("");
+  }
+  document.querySelectorAll(".mz-chips .chip").forEach(c => c.onclick = () => { F[c.dataset.f] = c.dataset.v; draw(); });
+  let tm = 0; $("#mzq").oninput = e => { clearTimeout(tm); tm = setTimeout(() => { F.q = e.target.value; draw(); }, 120); };
+  $("#mzrand").onclick = () => { const P = books.filter(okBook).flatMap(b => b.topics); const L = P.length ? P : list; location.hash = "#mavzu/" + L[Math.floor(Math.random()*L.length)].id; };
+  draw();
+}
+// Method icons (small, phone-friendly): one per metod, plus map and source items
+const MI = (p) => `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const METOD_IC = {
+  quiz:  {n:"4 variant", c:"#6d7dff", i:MI('<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>')},
+  tf:    {n:"To'g'ri / noto'g'ri", c:"#3ccf8e", i:MI('<path d="m4 12 4 4 6-8"/><path d="m15 15 5 5M20 15l-5 5"/>')},
+  vaqt:  {n:"Vaqt o'qi", c:"#f5a623", i:MI('<path d="M2 12h20"/><path d="M6 9v6M12 7v10M18 9v6"/>')},
+  tartib:{n:"Ketma-ketlik", c:"#16c2b3", i:MI('<path d="M10 6h10M10 12h10M10 18h10"/><path d="M4 5h1v3M4 11.5h2l-2 2.5h2M4 17h2v3H4"/>')},
+  juft:  {n:"Moslashtirish", c:"#e0567a", i:MI('<circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 6.5 17 17.5M7 17.5 17 6.5"/>')},
+  kop:   {n:"Bir nechta javob", c:"#a77bff", i:MI('<rect x="3" y="4" width="7" height="7" rx="2"/><path d="m5 7.5 1.5 1.5L9 6"/><rect x="3" y="14" width="7" height="7" rx="2"/><path d="m5 17.5 1.5 1.5L9 16"/><path d="M14 7.5h7M14 17.5h7"/>')},
+  yoz:   {n:"Yozma javob", c:"#3fa9f5", i:MI('<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13 7 4 4"/>')},
+  xarita:{n:"Xarita", c:"#14b8a6", i:MI('<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>')},
+  manba: {n:"Manba bilan ishlash", c:"#d4a24c", i:MI('<path d="M7 7h4v4c0 3-2 5-4 6M15 7h4v4c0 3-2 5-4 6"/>')}
+};
+function metodCounts(items){
+  const C = {}; const add = k => C[k] = (C[k]||0) + 1;
+  items.forEach(it => { add(it.metod || it.type || "quiz"); if(it.map) add("xarita"); if(it.tur==="Manba bilan ishlash" || (it.ext && /«/.test([].concat(it.ext).join(" ")))) add("manba"); });
+  return Object.keys(METOD_IC).filter(k => C[k]).map(k => [k, C[k]]);
+}
+const metodIcons = (items, big) => `<div class="mi-row${big?" big":""}">${metodCounts(items).map(([k,n]) => `<span class="mi" style="--c:${METOD_IC[k].c}" title="${METOD_IC[k].n}: ${n} ta">${METOD_IC[k].i}${big?`<small>${METOD_IC[k].n}</small>`:""}<b class="num">${n}</b></span>`).join("")}</div>`;
+const shortT = s => String(s||"").replace(/^\d+\s*-\s*mavzu\.\s*/i,"");
+
+function mavzuBook(b, list){
+  const R = NAT.get(), P = bookProg(b, R), f = FANLAR[b.fan] || {c:"#6d7dff"};
+  const bobs = []; b.topics.forEach(t => { let g = bobs.find(x => x.bob === t.bob); if(!g) bobs.push(g = {bob:t.bob, p:bobParts(t), ts:[]}); g.ts.push(t); });
+  const next = b.topics.find(t => !R[t.id]) || b.topics[0];
+  const sib = mavzuBooks(list).filter(x => x.fan===b.fan && x.k!==b.k);
+  let vis = store.get("oz-mavzu-korinish", "soqmoq");
+  const OFF = [0, 22, 32, 22, 0, -22, -32, -22];   // zigzag, % of half-width
+  let k = 0;
+  const trail = () => bobs.map((g,i) => { const d = g.ts.filter(t=>R[t.id]).length;
+    const pts = g.ts.map(() => OFF[(k++) % OFF.length]);
+    const H = 132, h = g.ts.length * H;
+    const path = pts.map((o,j) => { const x = 50 + o*0.9, y = j*H + 38; if(!j) return `M${x} ${y}`; const px = 50 + pts[j-1]*0.9, py = (j-1)*H + 38; return `C${px} ${py+H/2} ${x} ${y-H/2} ${x} ${y}`; }).join(" ");
+    return `<section class="sq-bob" id="bob${i}" style="--c:${f.c}">
+      <header class="sq-ban"><span class="mz-bl">${esc(g.p.lab)}</span><h2>${esc(g.p.nom)}</h2><span class="sq-bc num">${d}/${g.ts.length}</span></header>
+      <div class="sq-path" style="height:${h}px"><svg viewBox="0 0 100 ${h}" preserveAspectRatio="none" aria-hidden="true"><path d="${path}"/></svg>
+      ${g.ts.map((t,j) => { const r = R[t.id], cur = t.id===next.id, mn = +((t.id.match(/-M(\d+)$/)||[])[1]||j+1);
+        return `<button type="button" class="sq-node${r?" done":""}${cur?" cur":""}${r&&r.best>=80?" gold":""}" data-id="${esc(t.id)}" style="left:calc(50% + ${pts[j]*0.9}%);top:${j*H}px;--p:${r?r.best:0}">
+          ${cur?`<span class="sq-tip">${r?"Takrorlash":"Boshlash"}</span>`:""}
+          <span class="sq-dot"><span class="num">${r ? (r.best>=80?"★":r.best+"%") : mn}</span></span>
+          <span class="sq-lab">${esc(shortT(t.mavzu))}</span></button>`; }).join("")}</div></section>`; }).join("");
+  const listV = () => bobs.map((g,i) => { const d = g.ts.filter(t=>R[t.id]).length;
+    return `<section class="mz-bob" id="bob${i}" style="--c:${f.c}"><header><span class="mz-bl">${esc(g.p.lab)}</span><h2>${esc(g.p.nom)}</h2><span class="mz-bc num">${d}/${g.ts.length}</span></header>
+    <div class="mz-list">${g.ts.map(t => topicRow(t, R, false)).join("")}</div></section>`; }).join("");
+  $("#app").innerHTML = `<nav class="mz-crumb"><a href="#">Mashqlar</a><span>›</span><a href="#mavzu">Mavzuli testlar</a><span>›</span><b>${esc(bookTitle(b))}</b></nav>
+  <section class="mz-bhead" style="--c:${f.c}"><span class="mz-cover big${b.eski?" eski":""}"><span class="mz-g num">${b.sinf>11?"§":b.sinf}</span><span class="mz-gl">${b.sinf>11?"modda":"sinf"}</span></span>
+    <div><div class="eyebrow">${esc(b.nashr)}</div><h1>${esc(bookTitle(b))}</h1>
+    <p class="mz-meta">${bobs.length} bob · ${b.topics.length} mavzu · ${P.d} tasi yechilgan</p><span class="mz-prog lg"><i style="width:${P.p}%"></i></span>
+    <div class="row" style="margin-top:14px"><a class="btn" href="#mavzu/${esc(next.id)}">${P.d ? "Keyingi mavzu" : "Birinchi mavzudan boshlash"} →</a><a class="btn ghost" href="#mavzu">← Barcha darsliklar</a></div>
+    ${sib.length?`<div class="mz-sib"><span class="note">Boshqa sinflar:</span>${sib.map(x=>`<a class="chip" style="--c:${f.c}" href="#mavzu/${esc(x.k)}">${x.sinf>11?esc(x.fanNom):x.sinf+"-sinf"}${x.eski?" (eski)":""}</a>`).join("")}</div>`:""}</div></section>
+  <nav class="mz-toc" aria-label="Boblar"><span class="sq-vis" role="group" aria-label="Ko'rinish"><button type="button" data-v="soqmoq">So'qmoq</button><button type="button" data-v="royxat">Ro'yxat</button></span>${bobs.length>1?bobs.map((g,i)=>`<a href="#" data-bob="${i}">${esc(g.p.lab)}</a>`).join(""):""}</nav>
+  <div id="sqbody"></div><div class="sq-sheet" id="sqs" hidden></div>`;
+  const draw = () => { k = 0; $("#sqbody").innerHTML = vis==="soqmoq" ? trail() : listV();
+    document.querySelectorAll(".sq-vis button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v===vis)));
+    document.querySelectorAll(".sq-node").forEach(n => n.onclick = () => openSheet(n.dataset.id)); };
+  document.querySelectorAll(".sq-vis button").forEach(x => x.onclick = () => { vis = x.dataset.v; store.set("oz-mavzu-korinish", vis); draw(); });
+  document.querySelectorAll(".mz-toc a").forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById("bob"+a.dataset.bob).scrollIntoView({behavior:"smooth", block:"start"}); });
+  const sh = $("#sqs");
+  const closeSheet = () => { sh.hidden = true; sh.innerHTML = ""; };
+  async function openSheet(id){
+    const t = b.topics.find(x => x.id===id), r = R[id], bp = bobParts(t);
+    sh.hidden = false;
+    sh.innerHTML = `<div class="sq-back" data-x></div><div class="sq-card" role="dialog" aria-label="${esc(t.mavzu)}" style="--c:${f.c}"><span class="sq-grip"></span>
+      <div class="eyebrow">${esc(bp.lab)} · ${esc((t.id.match(/M\d+$/)||[""])[0])}</div><h3>${esc(shortT(t.mavzu))}</h3>
+      <div id="sqmi" class="mi-row"><span class="note">Yuklanmoqda…</span></div>
+      <p class="note" id="sqinfo">${r?`Eng yaxshi natija: <b>${r.best}%</b> · ${r.n} marta yechilgan`:"Hali yechilmagan"}</p>
+      <div class="row"><a class="btn big" href="#mavzu/${esc(id)}" style="flex:1;text-decoration:none;text-align:center">${r?"Qayta yechish":"Boshlash"}</a><button class="btn big ghost" type="button" data-x>Yopish</button></div></div>`;
+    sh.querySelectorAll("[data-x]").forEach(x => x.onclick = closeSheet);
+    try{ const T = await mavzuLoad(id); if(sh.hidden) return; const D = [1,2,3].map(l => T.items.filter(it=>it.daraja===l).length);
+      $("#sqmi").outerHTML = metodIcons(T.items, false);
+      $("#sqinfo").insertAdjacentHTML("beforebegin", `<p class="note" style="margin:0"><b>${T.items.length}</b> ta savol · ${D.map((n,l)=>n?`<span class="tag lv${l+1}">${DARAJA[l+1]} ${n}</span>`:"").join(" ")}</p>`);
+    }catch(e){ const m = $("#sqmi"); if(m) m.innerHTML = ""; }
+  }
+  document.addEventListener("keydown", function esc1(e){ if(e.key==="Escape") closeSheet(); if(!document.body.contains(sh)) document.removeEventListener("keydown", esc1); });
+  draw();
+  const cur = document.querySelector(".sq-node.cur"); if(cur && vis==="soqmoq" && P.d) setTimeout(() => cur.scrollIntoView({block:"center"}), 60);
 }
 async function mavzuTopic(id){
   const T = await mavzuLoad(id);
   if(!T){ $("#app").innerHTML = `<div class="card"><h2>Mavzu topilmadi</h2><a class="btn" href="#mavzu">← Mavzular</a></div>`; return; }
   const cnt = (f) => T.items.reduce((m,it)=>{ const k=f(it); m[k]=(m[k]||0)+1; return m; },{});
   const mc = cnt(it=>it.tur||METOD[it.metod||"quiz"]), dc = cnt(it=>it.daraja||0);
-  $("#app").innerHTML = `<div class="head"><div><div class="eyebrow">${T.sinf > 11 ? "" : esc(T.sinf)+"-sinf · "}${esc(T.fan)} · ${esc(T.bob)}</div><h1>${esc(T.mavzu)}</h1></div><span class="sp"></span><a class="btn ghost" href="#mavzu">← Mavzular</a></div>
+  const all = await mavzuList(), bk = bookKey(T.id), sameB = all.filter(t => bookKey(t.id)===bk), ix = sameB.findIndex(t => t.id===T.id);
+  const bkT = sameB[0] ? (sameB[0].sinf > 11 ? sameB[0].fan : sameB[0].sinf+"-sinf · "+sameB[0].fan) + (T.id.startsWith("E-") ? " (eski nashr)" : "") : "";
+  const prv = sameB[ix-1], nxt = sameB[ix+1], bp = bobParts(T);
+  store.set("oz-mavzu-oxirgi", T.id);
+  $("#app").innerHTML = `<nav class="mz-crumb"><a href="#mavzu">Mavzuli testlar</a><span>›</span><a href="#mavzu/${esc(bk)}">${esc(bkT)}</a><span>›</span><b>${esc(bp.lab)}</b></nav>
+  <div class="head"><div><div class="eyebrow">${esc(bp.lab)} · ${esc(bp.nom)}</div><h1>${esc(T.mavzu)}</h1></div><span class="sp"></span><a class="btn ghost" href="#mavzu/${esc(bk)}">← Darslik</a></div>
+  <div class="mz-pn">${prv?`<a class="btn ghost" href="#mavzu/${esc(prv.id)}" title="${esc(prv.mavzu)}">← Oldingi mavzu</a>`:"<span></span>"}<span class="note num">${ix+1} / ${sameB.length}</span>${nxt?`<a class="btn ghost" href="#mavzu/${esc(nxt.id)}" title="${esc(nxt.mavzu)}">Keyingi mavzu →</a>`:"<span></span>"}</div>
   <div class="hub" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
     <div class="card" id="vk" style="align-content:start">
-      <div class="mstat"><span class="tag">${T.items.length} ta test</span>${Object.entries(mc).map(([k,n])=>`<span class="tag">${esc(k)}: ${n}</span>`).join("")}</div>
+      <div class="mstat"><span class="tag">${T.items.length} ta test</span></div>${metodIcons(T.items, true)}
       <div class="mstat">${[1,2,3].filter(l=>dc[l]).map(l=>`<span class="tag lv${l}">${DARAJA[l]}: ${dc[l]}</span>`).join("")}</div>
       <label class="f">Savollar<select id="mn"><option value="all">Hammasi (${T.items.length} ta, osondan qiyinga)</option><option value="10">Tasodifiy 10 ta</option><option value="15">Tasodifiy 15 ta</option></select></label>
       <div class="row"><button class="btn big" id="solo" type="button" style="flex:1">Yakka o'ynash</button><button class="btn big ghost" id="live" type="button" style="flex:1">Sinf bilan (PIN)</button></div>
@@ -843,10 +989,11 @@ function runTopic(T, Q){
     const byLv = [1,2,3].map(l => { const L = log.filter(x=>x.q.daraja===l); return L.length ? `<span class="tag lv${l}">${DARAJA[l]}: ${L.filter(x=>x.g.ok).length}/${L.length}</span>` : ""; }).join("");
     const miss = log.filter(x=>!x.g.ok);
     const tot = XP.add(score);
+    NAT.put(T.id, right, Q.length);
     box.innerHTML = `<div class="eyebrow">Test tugadi</div><h2 style="font-size:32px">+<span class="num">${score}</span> XP</h2>${XP.badge(tot)}
       <p>${Q.length} ta savoldan <b>${right}</b> tasiga to'g'ri javob berdingiz.</p><div class="mstat">${byLv}</div>
       ${miss.length?`<h3 style="font-size:19px">Takrorlash uchun</h3><div class="tlist">${miss.map(x=>`<details><summary>${esc(x.q.q)}</summary><p>To'g'ri javob: <b>${esc(ansText(x.q))}</b></p><p class="izoh">${esc(x.q.izoh||"")}</p><p class="idx">${esc(x.q.id)}</p></details>`).join("")}</div>`:`<p class="feedback ok">Barcha savollarga to'g'ri javob berdingiz!</p>`}
-      <div class="row"><button class="btn" id="again" type="button">Yana o'ynash</button><a class="btn ghost" href="#mavzu/${esc(T.id)}">Mavzuga qaytish</a></div>`;
+      <div class="row"><button class="btn" id="again" type="button">Yana o'ynash</button><a class="btn ghost" href="#mavzu/${esc(T.id)}">Mavzuga qaytish</a>${(() => { const L = (MAVZU||[]).filter(t => bookKey(t.id)===bookKey(T.id)), n = L[L.findIndex(t => t.id===T.id)+1]; return n ? `<a class="btn ghost" href="#mavzu/${esc(n.id)}">Keyingi mavzu →</a>` : ""; })()}</div>`;
     $("#again").onclick = () => runTopic(T, Q.map(q=>prepQ(T.items.find(it=>it.id===q.id))));
   }
   cleanup = () => clearInterval(timer);
